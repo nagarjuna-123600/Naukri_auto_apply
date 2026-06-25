@@ -8,6 +8,9 @@ on:
     branches:
       - main                  # also runs on every push to keep scheduler active
 
+permissions:
+  contents: write             # allows bot to commit applied_jobs.json back to repo
+
 jobs:
   apply-jobs:
     runs-on: ubuntu-latest
@@ -15,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4

@@ -85,7 +85,7 @@ CONFIG = {
     "required_skills": [
         "java", "python", "sql", "mysql", "postgresql",
         "software engineer", "associate software engineer",
-        "customer software engineer", "data analyst",
+        "customer software engineer",
     ],
 
     # ── Title keywords that cause a job to be SKIPPED ───────────

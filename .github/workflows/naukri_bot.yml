@@ -32,7 +32,7 @@ jobs:
 
       - name: Save applied jobs log
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: applied-jobs-log
           path: |

@@ -84,6 +84,8 @@ CONFIG = {
     # ── Skill filter (any one match = consider applying) ────────
     "required_skills": [
         "java", "python", "sql", "mysql", "postgresql",
+        "software engineer", "associate software engineer",
+        "customer software engineer", "data analyst",
     ],
 
     # ── Title keywords that cause a job to be SKIPPED ───────────

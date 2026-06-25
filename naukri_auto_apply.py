@@ -64,6 +64,8 @@ CONFIG = {
         "SQL Developer",
         "Software Engineer",
         "Associate Software Engineer",
+        "Customer Software Engineer",
+        "Data Analyst",
         "AI ML Engineer",
     ],
     "location":       "Hyderabad",
@@ -570,6 +572,13 @@ def is_matching_job(title, description):
         if ex.lower() in title_lower:
             log.info(f"  Skipping (excluded keyword '{ex}'): {title}")
             return False
+
+    # Data Analyst jobs — only apply if SQL is mentioned
+    if "data analyst" in title_lower:
+        if "sql" in title_lower or "sql" in desc_lower:
+            return True
+        log.info(f"  Skipping Data Analyst (no SQL mentioned): {title}")
+        return False
 
     for skill in CONFIG["required_skills"]:
         if skill.lower() in title_lower or skill.lower() in desc_lower:

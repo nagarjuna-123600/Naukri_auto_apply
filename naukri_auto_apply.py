@@ -168,16 +168,28 @@ def login(driver, email, password):
     wait = WebDriverWait(driver, 15)
 
     try:
-        email_field = wait.until(EC.presence_of_element_located((By.ID, "usernameField")))
-        email_field.clear()
-        email_field.send_keys(email)
+        # Wait for email field to be fully clickable
+        email_field = wait.until(EC.element_to_be_clickable((By.ID, "usernameField")))
+        time.sleep(1)
+        driver.execute_script("arguments[0].click();", email_field)
+        driver.execute_script("arguments[0].value = '';", email_field)
+        driver.execute_script(f"arguments[0].value = '{email}';", email_field)
+        email_field.send_keys(" ")  # trigger onChange
+        email_field.send_keys(Keys.BACK_SPACE)
 
-        pwd_field = driver.find_element(By.ID, "passwordField")
-        pwd_field.clear()
-        pwd_field.send_keys(password)
+        time.sleep(0.5)
 
-        login_btn = driver.find_element(By.XPATH, "//button[@type='submit']")
-        login_btn.click()
+        pwd_field = wait.until(EC.element_to_be_clickable((By.ID, "passwordField")))
+        driver.execute_script("arguments[0].click();", pwd_field)
+        driver.execute_script("arguments[0].value = '';", pwd_field)
+        driver.execute_script(f"arguments[0].value = '{password}';", pwd_field)
+        pwd_field.send_keys(" ")
+        pwd_field.send_keys(Keys.BACK_SPACE)
+
+        time.sleep(0.5)
+
+        login_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[@type='submit']")))
+        driver.execute_script("arguments[0].click();", login_btn)
 
         wait.until(EC.url_contains("naukri.com"))
         time.sleep(CONFIG["action_delay"])

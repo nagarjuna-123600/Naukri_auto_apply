@@ -31,7 +31,9 @@ jobs:
         env:
           NAUKRI_EMAIL: ${{ secrets.NAUKRI_EMAIL }}
           NAUKRI_PASSWORD: ${{ secrets.NAUKRI_PASSWORD }}
-        run: python naukri_auto_apply.py
+        run: |
+          touch applied_jobs.json
+          python naukri_auto_apply.py || true
 
       - name: Save applied jobs log
         if: always()

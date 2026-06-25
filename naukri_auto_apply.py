@@ -90,6 +90,7 @@ CONFIG = {
         "10+", "8+", "5+", "7+",
         "web developer", "frontend", "front-end", "front end",
         "backend", "back-end", "back end",
+        "full stack", "fullstack", "full-stack",
     ],
 
     # ── Application form answers ────────────────────────────────

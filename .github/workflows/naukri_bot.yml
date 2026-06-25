@@ -1,0 +1,51 @@
+name: Naukri Auto Apply Bot
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'   # runs every 2 hours
+  workflow_dispatch:          # allows manual trigger from GitHub Actions tab
+
+jobs:
+  apply-jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Run Naukri bot
+        env:
+          NAUKRI_EMAIL: ${{ secrets.NAUKRI_EMAIL }}
+          NAUKRI_PASSWORD: ${{ secrets.NAUKRI_PASSWORD }}
+        run: python naukri_auto_apply.py
+
+      - name: Save applied jobs log
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: applied-jobs-log
+          path: |
+            applied_jobs.json
+            naukri_bot.log
+
+      - name: Commit applied_jobs.json back to repo
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add applied_jobs.json || true
+          git diff --cached --quiet || git commit -m "Update applied jobs log [skip ci]"
+          git push || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

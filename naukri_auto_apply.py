@@ -723,7 +723,56 @@ def is_matching_internship(title, description, stipend_text):
 # ═══════════════════════════════════════════════════════════════
 #  Apply to a single job
 # ═══════════════════════════════════════════════════════════════
-def save_manual_job(job_url, job_title, reason):
+def get_job_location(card):
+    """Extract location from job card."""
+    LOCATION_SELECTORS = [
+        "span.locWdth", "span.location", ".loc", 
+        ".jobTuple-location", "[class*='location']",
+        ".comp-dtls-wrap span", "li.location"
+    ]
+    for sel in LOCATION_SELECTORS:
+        try:
+            loc = card.find_element(By.CSS_SELECTOR, sel).text.strip()
+            if loc:
+                return loc.lower()
+        except NoSuchElementException:
+            continue
+    return ""
+
+
+def save_job_on_naukri(driver, job_url, job_title):
+    """Open job and click Save button on Naukri."""
+    original = driver.current_window_handle
+    driver.execute_script(f"window.open('{job_url}', '_blank');")
+    driver.switch_to.window(driver.window_handles[-1])
+    time.sleep(2)
+    try:
+        dismiss_popups(driver)
+        SAVE_SELECTORS = [
+            "//button[contains(text(),'Save')]",
+            "//a[contains(text(),'Save')]",
+            "//*[contains(@class,'save-job')]",
+            "//*[contains(@class,'saveJob')]",
+            "//*[@title='Save Job']",
+            "//span[contains(text(),'Save')]",
+        ]
+        for sel in SAVE_SELECTORS:
+            try:
+                btn = WebDriverWait(driver, 3).until(
+                    EC.element_to_be_clickable((By.XPATH, sel))
+                )
+                driver.execute_script("arguments[0].click();", btn)
+                time.sleep(0.5)
+                log.info(f"  💾 Saved on Naukri (non-Hyderabad): {job_title}")
+                break
+            except TimeoutException:
+                continue
+    except Exception as e:
+        log.warning(f"  Could not save on Naukri: {e}")
+    finally:
+        driver.close()
+        driver.switch_to.window(original)
+
     """Save jobs that require manual application (company website, email, WhatsApp)."""
     manual_log_path = "manual_apply_jobs.json"
     if os.path.exists(manual_log_path):
@@ -969,12 +1018,18 @@ def run_agent():
                     log.info(f"Checking: {job_title}")
 
                     if is_matching_job(job_title, desc):
-                        success = apply_to_job(driver, job_url, job_title, applied_log)
-                        if success:
-                            applied_this_round += 1
-                            total_applied      += 1
-                            save_applied(CONFIG["log_file"], applied_log)
-                            time.sleep(CONFIG["action_delay"])
+                        # Check location — if not Hyderabad, save only
+                        job_loc = get_job_location(card)
+                        if job_loc and "hyderabad" not in job_loc:
+                            log.info(f"  📍 Non-Hyderabad ({job_loc}) — saving on Naukri: {job_title}")
+                            save_job_on_naukri(driver, job_url, job_title)
+                        else:
+                            success = apply_to_job(driver, job_url, job_title, applied_log)
+                            if success:
+                                applied_this_round += 1
+                                total_applied      += 1
+                                save_applied(CONFIG["log_file"], applied_log)
+                                time.sleep(CONFIG["action_delay"])
 
                 except StaleElementReferenceException:
                     log.warning("  Card became stale — skipping")
@@ -1059,12 +1114,18 @@ def run_agent():
                     log.info(f"Checking internship: {job_title} | stipend text: '{stipend_text}'")
 
                     if is_matching_internship(job_title, desc, stipend_text):
-                        success = apply_to_job(driver, job_url, job_title, applied_log)
-                        if success:
-                            applied_this_round += 1
-                            total_applied      += 1
-                            save_applied(CONFIG["log_file"], applied_log)
-                            time.sleep(CONFIG["action_delay"])
+                        # Check location — if not Hyderabad, save only
+                        intern_loc = get_job_location(card)
+                        if intern_loc and "hyderabad" not in intern_loc:
+                            log.info(f"  📍 Non-Hyderabad internship ({intern_loc}) — saving on Naukri: {job_title}")
+                            save_job_on_naukri(driver, job_url, job_title)
+                        else:
+                            success = apply_to_job(driver, job_url, job_title, applied_log)
+                            if success:
+                                applied_this_round += 1
+                                total_applied      += 1
+                                save_applied(CONFIG["log_file"], applied_log)
+                                time.sleep(CONFIG["action_delay"])
 
                 except StaleElementReferenceException:
                     log.warning("  Card became stale — skipping")

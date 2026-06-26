@@ -19,3 +19,4 @@ Go to your repo → Settings → Secrets and variables → Actions → New repos
 ## Manual trigger
 Go to Actions tab → Naukri Auto Apply Bot → Run workflow
 # Trigger scheduled workflow - Thu Jun 25 09:54:51 UTC 2026
+# trigger Fri Jun 26 07:06:45 UTC 2026

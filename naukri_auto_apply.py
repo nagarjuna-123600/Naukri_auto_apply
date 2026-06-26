@@ -686,14 +686,13 @@ def is_matching_internship(title, description, stipend_text):
     title_lower = title.lower()
     desc_lower  = description.lower()
 
-    # Must be Java, Python, or SQL — hard filter
-    INTERNSHIP_SKILLS = ["java", "python", "sql", "mysql", "postgresql"]
+    # Apply if at least ONE skill from required_skills matches
     skill_match = any(
         s in title_lower or s in desc_lower
-        for s in INTERNSHIP_SKILLS
+        for s in CONFIG["required_skills"]
     )
     if not skill_match:
-        log.info(f"  Skipping internship (skill mismatch): {title}")
+        log.info(f"  Skipping internship (no skill match): {title}")
         return False
 
     # Skip excluded title keywords

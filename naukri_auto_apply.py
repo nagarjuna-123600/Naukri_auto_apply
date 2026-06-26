@@ -1143,6 +1143,91 @@ def run_agent():
                     log.warning(f"  Skipping WFH card: {e}")
                     continue
 
+        # ── SECTION 4: WFH Internships ────────────────────────────
+        log.info("\n" + "█" * 55)
+        log.info("  SECTION 4 OF 4 — Work From Home Internships")
+        log.info("█" * 55)
+
+        for keyword in CONFIG["internship_keywords"]:
+            log.info(f"\n{'─'*50}")
+            log.info(f"WFH Internship keyword: {keyword}")
+            log.info(f"{'─'*50}")
+
+            slug = keyword.lower().replace(" ", "-")
+            wfh_intern_urls = [
+                f"https://www.naukri.com/internship/{slug}-internship?wfhType=remote,hybrid&jobAge=7",
+                f"https://www.naukri.com/{slug}-internship-jobs?jobtype=Internship&wfhType=remote,hybrid&jobAge=7",
+            ]
+
+            cards = []
+            for url in wfh_intern_urls:
+                driver.get(url)
+                time.sleep(CONFIG["action_delay"])
+                dismiss_popups(driver)
+                for _ in range(3):
+                    driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+                    time.sleep(1)
+                cards = driver.find_elements(By.CLASS_NAME, "cust-job-tuple")
+                if cards:
+                    break
+
+            log.info(f"  Found {len(cards)} WFH internship listings")
+            applied_this_round = 0
+
+            for card in cards:
+                if applied_this_round >= CONFIG["max_apply_per_search"]:
+                    log.info(f"Reached max for '{keyword}'")
+                    break
+
+                try:
+                    try:
+                        title_el = card.find_element(By.CLASS_NAME, "title")
+                    except NoSuchElementException:
+                        title_el = card.find_element(By.TAG_NAME, "a")
+
+                    job_title = title_el.text.strip()
+                    job_url   = (
+                        title_el.get_attribute("href")
+                        or card.find_element(By.TAG_NAME, "a").get_attribute("href")
+                    )
+
+                    if not job_title or not job_url:
+                        continue
+
+                    try:
+                        desc = card.find_element(By.CLASS_NAME, "job-description").text
+                    except NoSuchElementException:
+                        try:
+                            desc = card.find_element(By.CLASS_NAME, "job-desc").text
+                        except NoSuchElementException:
+                            desc = ""
+
+                    # Stipend extraction
+                    stipend_text = ""
+                    try:
+                        stipend_text = card.find_element(
+                            By.XPATH, ".//*[contains(@class,'stipend') or contains(@class,'salary')]"
+                        ).text
+                    except NoSuchElementException:
+                        pass
+
+                    log.info(f"Checking WFH internship: {job_title}")
+
+                    if is_matching_internship(job_title, desc, stipend_text):
+                        success = apply_to_job(driver, job_url, job_title, applied_log)
+                        if success:
+                            applied_this_round += 1
+                            total_applied      += 1
+                            save_applied(CONFIG["log_file"], applied_log)
+                            time.sleep(CONFIG["action_delay"])
+
+                except StaleElementReferenceException:
+                    log.warning("  Card became stale — skipping")
+                    continue
+                except Exception as e:
+                    log.warning(f"  Skipping WFH internship card: {e}")
+                    continue
+
     finally:
         try:
             driver.quit()

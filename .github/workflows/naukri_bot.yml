@@ -9,7 +9,7 @@ on:
       - main                  # also runs on every push to keep scheduler active
 
 permissions:
-  contents: write             # allows bot to commit applied_jobs.json back to repo
+  contents: write
 
 jobs:
   apply-jobs:
@@ -19,7 +19,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -38,6 +39,7 @@ jobs:
           NAUKRI_PASSWORD: ${{ secrets.NAUKRI_PASSWORD }}
         run: |
           touch applied_jobs.json
+          touch manual_apply_jobs.json
           python naukri_auto_apply.py || true
 
       - name: Save applied jobs log
@@ -50,13 +52,12 @@ jobs:
             manual_apply_jobs.json
             naukri_bot.log
 
-      - name: Commit applied_jobs.json back to repo
+      - name: Commit logs back to repo
         if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
           git add applied_jobs.json manual_apply_jobs.json || true
           git diff --cached --quiet || git commit -m "Update applied jobs log [skip ci]"
-          git push || true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git push https://nagarjuna-123600:${{ secrets.PAT_TOKEN }}@github.com/nagarjuna-123600/Naukri_auto_apply.git main || true

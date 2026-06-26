@@ -718,6 +718,27 @@ def is_matching_internship(title, description, stipend_text):
 # ═══════════════════════════════════════════════════════════════
 #  Apply to a single job
 # ═══════════════════════════════════════════════════════════════
+def save_manual_job(job_url, job_title, reason):
+    """Save jobs that require manual application (company website, email, WhatsApp)."""
+    manual_log_path = "manual_apply_jobs.json"
+    if os.path.exists(manual_log_path):
+        with open(manual_log_path) as f:
+            manual_log = json.load(f)
+    else:
+        manual_log = {}
+
+    if job_url not in manual_log:
+        manual_log[job_url] = {
+            "title":    job_title,
+            "reason":   reason,
+            "saved_at": datetime.now().isoformat(),
+            "url":      job_url,
+        }
+        with open(manual_log_path, "w") as f:
+            json.dump(manual_log, f, indent=2)
+        log.info(f"  📌 Saved for manual apply ({reason}): {job_title}")
+
+
 def apply_to_job(driver, job_url, job_title, applied_log):
     if job_url in applied_log:
         log.info(f"  Already applied: {job_title}")
@@ -733,6 +754,33 @@ def apply_to_job(driver, job_url, job_title, applied_log):
     try:
         # Clear any popup before looking for Apply button
         dismiss_popups(driver)
+
+        # ── Save job on Naukri first ─────────────────────────────────
+        try:
+            save_selectors = [
+                "//button[contains(text(),'Save')]",
+                "//a[contains(text(),'Save')]",
+                "//*[contains(@class,'save-job')]",
+                "//*[contains(@class,'saveJob')]",
+                "//*[contains(@class,'job-save')]",
+                "//span[contains(text(),'Save')]",
+                "//*[@title='Save Job']",
+                "//*[@data-ga-track='Save']",
+            ]
+            for sel in save_selectors:
+                try:
+                    save_btn = WebDriverWait(driver, 3).until(
+                        EC.element_to_be_clickable((By.XPATH, sel))
+                    )
+                    driver.execute_script("arguments[0].click();", save_btn)
+                    time.sleep(0.5)
+                    log.info(f"  💾 Saved on Naukri: {job_title}")
+                    break
+                except TimeoutException:
+                    continue
+        except Exception as e:
+            log.info(f"  Could not save on Naukri (may already be saved): {job_title}")
+        # ─────────────────────────────────────────────────────────────
 
         # Find the main Apply button
         apply_btn = None
@@ -761,6 +809,47 @@ def apply_to_job(driver, job_url, job_title, applied_log):
         apply_btn.click()
         log.info(f"  Clicked Apply: {job_title}")
         time.sleep(1.5)
+
+        # ── Check for external apply options after clicking ──────────
+        page_text = driver.page_source.lower()
+        current_url = driver.current_url.lower()
+
+        external_reasons = {
+            "company website": [
+                "apply on company website", "apply via company",
+                "visit company website", "apply at company site",
+                "redirecting to company", "external application"
+            ],
+            "email": [
+                "apply via email", "apply through email",
+                "send your resume", "email your cv",
+                "send cv to", "mail your resume"
+            ],
+            "whatsapp": [
+                "apply via whatsapp", "apply on whatsapp",
+                "whatsapp to apply", "contact on whatsapp"
+            ],
+        }
+
+        detected_reason = None
+        for reason, keywords in external_reasons.items():
+            for kw in keywords:
+                if kw in page_text:
+                    detected_reason = reason
+                    break
+            if detected_reason:
+                break
+
+        # Also check if redirected to an external domain
+        if not detected_reason and "naukri.com" not in current_url:
+            detected_reason = "company website"
+
+        if detected_reason:
+            save_manual_job(job_url, job_title, detected_reason)
+            driver.close()
+            driver.switch_to.window(original_window)
+            return False
+        # ─────────────────────────────────────────────────────────────
 
         # Dismiss popup that may appear right after Apply click
         dismiss_popups(driver)

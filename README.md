@@ -21,3 +21,4 @@ Go to Actions tab → Naukri Auto Apply Bot → Run workflow
 # Trigger scheduled workflow - Thu Jun 25 09:54:51 UTC 2026
 # trigger Fri Jun 26 07:06:45 UTC 2026
 # Manual test run - Fri Jun 26 19:36:15 UTC 2026
+# manual trigger Fri Jun 26 19:36:37 UTC 2026

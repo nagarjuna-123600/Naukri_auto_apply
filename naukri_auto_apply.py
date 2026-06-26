@@ -537,10 +537,10 @@ def login(driver, email, password):
 # ═══════════════════════════════════════════════════════════════
 def search_jobs(driver, keyword, location):
     log.info(f"Searching: '{keyword}' in '{location}'...")
-    # Only filter by minimum experience = 0, no max limit
+    # No experience filter — get all fresher jobs (min exp = 0, any max)
     url = (
         f"https://www.naukri.com/{keyword.lower().replace(' ', '-')}-jobs-in-"
-        f"{location.lower()}?experienceRanges=0%20to%200&jobAge=3"
+        f"{location.lower()}?jobAge=3&experience=0"
     )
     driver.get(url)
     time.sleep(CONFIG["action_delay"])
@@ -1083,7 +1083,7 @@ def run_agent():
 
             wfh_url = (
                 f"https://www.naukri.com/{keyword.lower().replace(' ', '-')}-jobs?"
-                f"experienceRanges=0%20to%200&jobAge=3&wfhType=remote,hybrid"
+                f"jobAge=3&experience=0&wfhType=remote,hybrid"
             )
             driver.get(wfh_url)
             time.sleep(CONFIG["action_delay"])

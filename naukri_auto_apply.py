@@ -70,7 +70,7 @@ CONFIG = {
     ],
     "location":       "Hyderabad",
     "experience_min": 0,   # years
-    "experience_max": 1,   # years
+    "experience_max": 3,   # years
 
     # ── Internship search ────────────────────────────────────────
     # Only Java, Python, SQL internships with stipend >= min_stipend
@@ -91,7 +91,7 @@ CONFIG = {
     # ── Title keywords that cause a job to be SKIPPED ───────────
     "exclude_keywords": [
         "senior", "lead", "manager", "architect",
-        "10+", "8+", "5+", "7+",
+        "10+", "8+", "7+", "6+", "5+", "4+",
         "web developer", "frontend", "front-end", "front end",
         "backend", "back-end", "back end",
         "full stack", "fullstack", "full-stack",

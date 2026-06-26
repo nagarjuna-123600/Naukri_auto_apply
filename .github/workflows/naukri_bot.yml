@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "0 */2 * * *"   # runs every 2 hours
   workflow_dispatch:          # allows manual trigger from GitHub Actions tab
-  push:
-    branches:
-      - main                  # also runs on every push to keep scheduler active
 
 permissions:
   contents: write
@@ -19,7 +16,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ github.token }}
           fetch-depth: 0
 
       - name: Set up Python
@@ -62,4 +59,4 @@ jobs:
           git pull --rebase origin main || true
           git add applied_jobs.json manual_apply_jobs.json naukri_bot.log || true
           git diff --cached --quiet || git commit -m "Update applied jobs log [skip ci]"
-          git push https://nagarjuna-123600:${{ secrets.PAT_TOKEN }}@github.com/nagarjuna-123600/Naukri_auto_apply.git main || true
+          git push origin main || true

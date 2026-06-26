@@ -2,7 +2,7 @@ name: Naukri Auto Apply Bot
 
 on:
   schedule:
-    - cron: '0 */2 * * *'   # runs every 2 hours
+    - cron: "0 */2 * * *"   # runs every 2 hours
   workflow_dispatch:          # allows manual trigger from GitHub Actions tab
   push:
     branches:
@@ -25,7 +25,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -33,16 +33,18 @@ jobs:
       - name: Set up Chrome
         uses: browser-actions/setup-chrome@v1
 
+      - name: Initialise log files (valid JSON, not empty)
+        run: |
+          [ -s applied_jobs.json ] || echo "{}" > applied_jobs.json
+          [ -s manual_apply_jobs.json ] || echo "{}" > manual_apply_jobs.json
+
       - name: Run Naukri bot
         env:
           NAUKRI_EMAIL: ${{ secrets.NAUKRI_EMAIL }}
           NAUKRI_PASSWORD: ${{ secrets.NAUKRI_PASSWORD }}
-        run: |
-          touch applied_jobs.json
-          touch manual_apply_jobs.json
-          python naukri_auto_apply.py || true
+        run: python naukri_auto_apply.py
 
-      - name: Save applied jobs log
+      - name: Save applied jobs log as artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -58,6 +60,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main || true
-          git add applied_jobs.json manual_apply_jobs.json || true
+          git add applied_jobs.json manual_apply_jobs.json naukri_bot.log || true
           git diff --cached --quiet || git commit -m "Update applied jobs log [skip ci]"
           git push https://nagarjuna-123600:${{ secrets.PAT_TOKEN }}@github.com/nagarjuna-123600/Naukri_auto_apply.git main || true

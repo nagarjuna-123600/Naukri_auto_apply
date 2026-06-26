@@ -91,7 +91,6 @@ CONFIG = {
     # ── Title keywords that cause a job to be SKIPPED ───────────
     "exclude_keywords": [
         "senior", "lead", "manager", "architect",
-        "10+", "8+", "7+", "6+", "5+", "4+",
         "web developer", "frontend", "front-end", "front end",
         "backend", "back-end", "back end",
         "full stack", "fullstack", "full-stack",
@@ -538,10 +537,10 @@ def login(driver, email, password):
 # ═══════════════════════════════════════════════════════════════
 def search_jobs(driver, keyword, location):
     log.info(f"Searching: '{keyword}' in '{location}'...")
+    # Only filter by minimum experience = 0, no max limit
     url = (
         f"https://www.naukri.com/{keyword.lower().replace(' ', '-')}-jobs-in-"
-        f"{location.lower()}?experienceRanges={CONFIG['experience_min']}%20to%20"
-        f"{CONFIG['experience_max']}&jobAge=3"
+        f"{location.lower()}?experienceRanges=0%20to%200&jobAge=3"
     )
     driver.get(url)
     time.sleep(CONFIG["action_delay"])

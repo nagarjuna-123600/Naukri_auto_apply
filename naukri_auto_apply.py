@@ -136,8 +136,15 @@ log = logging.getLogger(__name__)
 # ═══════════════════════════════════════════════════════════════
 def load_applied(path):
     if os.path.exists(path):
-        with open(path) as f:
-            return json.load(f)
+        try:
+            with open(path) as f:
+                content = f.read().strip()
+                if not content:
+                    return {}
+                return json.loads(content)
+        except (json.JSONDecodeError, ValueError):
+            log.warning(f"  [load] applied_jobs.json was corrupt/empty — starting fresh")
+            return {}
     return {}
 
 def save_applied(path, data):

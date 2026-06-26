@@ -69,8 +69,8 @@ CONFIG = {
         "AI ML Engineer",
     ],
     "location":       "Hyderabad",
-    "experience_min": 0,   # years
-    "experience_max": 3,   # years
+    "experience_min": 0,   # years — only apply to jobs where min experience is 0
+    "experience_max": None,  # no max limit — apply regardless of max experience
 
     # ── Internship search ────────────────────────────────────────
     # Only Java, Python, SQL internships with stipend >= min_stipend

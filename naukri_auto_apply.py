@@ -963,7 +963,27 @@ def apply_to_job(driver, job_url, job_title, applied_log):
                 continue
 
         if not apply_btn:
-            log.warning(f"  No Apply button found: {job_title}")
+            log.warning(f"  No Apply button found — saving on Naukri: {job_title}")
+            save_manual_job(job_url, job_title, "no_apply_button")
+            try:
+                SAVE_SELECTORS = [
+                    "//button[contains(text(),'Save')]",
+                    "//*[contains(@class,'save-job')]",
+                    "//*[contains(@class,'saveJob')]",
+                    "//*[@title='Save Job']",
+                ]
+                for sel in SAVE_SELECTORS:
+                    try:
+                        btn = WebDriverWait(driver, 3).until(
+                            EC.element_to_be_clickable((By.XPATH, sel))
+                        )
+                        driver.execute_script("arguments[0].click();", btn)
+                        log.info(f"  💾 Saved on Naukri (no apply button): {job_title}")
+                        break
+                    except TimeoutException:
+                        continue
+            except Exception:
+                pass
             driver.close()
             driver.switch_to.window(original_window)
             return False
@@ -1056,13 +1076,54 @@ def apply_to_job(driver, job_url, job_title, applied_log):
         return True
 
     except ElementClickInterceptedException:
-        log.warning(f"  Click blocked (external link or already applied): {job_title}")
+        log.warning(f"  Click blocked — saving on Naukri: {job_title}")
+        try:
+            # Save on Naukri since we couldn't apply directly
+            SAVE_SELECTORS = [
+                "//button[contains(text(),'Save')]",
+                "//a[contains(text(),'Save')]",
+                "//*[contains(@class,'save-job')]",
+                "//*[contains(@class,'saveJob')]",
+                "//*[@title='Save Job']",
+                "//span[contains(text(),'Save')]",
+            ]
+            for sel in SAVE_SELECTORS:
+                try:
+                    btn = WebDriverWait(driver, 3).until(
+                        EC.element_to_be_clickable((By.XPATH, sel))
+                    )
+                    driver.execute_script("arguments[0].click();", btn)
+                    log.info(f"  💾 Saved on Naukri (apply failed): {job_title}")
+                    break
+                except TimeoutException:
+                    continue
+        except Exception:
+            pass
+        save_manual_job(job_url, job_title, "click_blocked")
         driver.close()
         driver.switch_to.window(original_window)
         return False
     except Exception as e:
         log.error(f"  Error applying to {job_title}: {e}")
         try:
+            # Try to save on Naukri even if apply failed
+            SAVE_SELECTORS = [
+                "//button[contains(text(),'Save')]",
+                "//*[contains(@class,'save-job')]",
+                "//*[contains(@class,'saveJob')]",
+                "//*[@title='Save Job']",
+            ]
+            for sel in SAVE_SELECTORS:
+                try:
+                    btn = WebDriverWait(driver, 2).until(
+                        EC.element_to_be_clickable((By.XPATH, sel))
+                    )
+                    driver.execute_script("arguments[0].click();", btn)
+                    log.info(f"  💾 Saved on Naukri (error fallback): {job_title}")
+                    break
+                except TimeoutException:
+                    continue
+            save_manual_job(job_url, job_title, f"error: {str(e)[:50]}")
             driver.close()
             driver.switch_to.window(original_window)
         except Exception:

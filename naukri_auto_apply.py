@@ -88,19 +88,23 @@ CONFIG = {
     "required_skills": [
         "java", "python", "sql", "mysql", "postgresql",
         "software engineer", "associate software engineer",
-        "customer software engineer","software developer",
-      # ── Frameworks /Tools from projects
-      "Langchain","rag","huggingFace","faiss","streamlit",
-      # ── General IT fresher roles 
-      "software engineer","software developer","junior developer","trainee","intern","fresher",
+        "customer software engineer", "software developer",
+        # ── Frameworks/Tools
+        "langchain", "rag", "huggingface", "faiss", "streamlit",
+        # ── General IT fresher roles
+        "junior developer", "trainee", "intern", "fresher",
+        "java developer", "python developer", "sql developer",
+        # ── AI/ML roles
+        "ai", "ml", "machine learning", "deep learning",
+        "data analyst", "data science",
     ],
 
     # ── Title keywords that cause a job to be SKIPPED ───────────
     "exclude_keywords": [
         "senior", "lead", "manager", "architect",
-        "web developer", "frontend", "front-end", "front end",
-        "backend", "back-end", "back end",
-        "full stack", "fullstack", "full-stack",
+        "web developer", "frontend developer", "front-end developer",
+        "backend developer", "back-end developer",
+        "full stack developer", "fullstack developer",
     ],
 
     # ── Application form answers ────────────────────────────────

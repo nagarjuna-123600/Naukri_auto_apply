@@ -78,6 +78,9 @@ CONFIG = {
         "Java Intern",
         "Python Intern",
         "SQL Intern",
+        "AIML Intern",
+         "Data Analyst",
+         "
     ],
     "min_stipend": 10000,   # ₹/month — skip internships below this
 
@@ -85,7 +88,11 @@ CONFIG = {
     "required_skills": [
         "java", "python", "sql", "mysql", "postgresql",
         "software engineer", "associate software engineer",
-        "customer software engineer",
+        "customer software engineer","software developer",
+      # ── Frameworks /Tools from projects
+      "Langchain","rag","huggingFace","faiss","streamlit",
+      # ── General IT fresher roles 
+      "software engineer","software developer","junior developer","trainee","intern","fresher",
     ],
 
     # ── Title keywords that cause a job to be SKIPPED ───────────
@@ -98,7 +105,7 @@ CONFIG = {
 
     # ── Application form answers ────────────────────────────────
     "current_ctc":        "3",    # in LPA (numeric string)
-    "expected_ctc":       "5",    # in LPA (numeric string)
+    "expected_ctc":       "3",    # in LPA (numeric string)
     "notice_period_days": 15,     # used to pick closest dropdown option
     # Cover letter — set to None or "" to auto-fill "No cover letter available"
     "cover_letter":       None,

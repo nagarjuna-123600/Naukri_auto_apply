@@ -542,8 +542,8 @@ def handle_application_form(driver):
 def login(driver, email, password):
     log.info("Opening Naukri login page...")
     driver.get("https://www.naukri.com/nlogin/login")
-    wait = WebDriverWait(driver, 20)  # FIX: longer wait
-    time.sleep(3)  # FIX: wait for page to fully load on server
+    wait = WebDriverWait(driver, 20)
+    time.sleep(5)  # Wait longer for login page to fully load
 
     try:
         email_field = wait.until(EC.element_to_be_clickable((By.ID, "usernameField")))

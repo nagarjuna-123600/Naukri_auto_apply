@@ -165,30 +165,34 @@ def save_applied(path, data):
 def create_driver():
     options = webdriver.ChromeOptions()
 
-    # Detect if running on GitHub Actions / CI (no display available)
     is_ci = os.getenv("CI") == "true" or os.getenv("GITHUB_ACTIONS") == "true"
 
     if is_ci or CONFIG["headless"]:
-        # GitHub Actions / Linux server — must run headless, no display
         options.add_argument("--headless=new")
-        options.add_argument("--window-size=1280,900")
-        options.add_argument("--no-sandbox")               # required on Linux CI
-        options.add_argument("--disable-dev-shm-usage")    # prevents crashes on CI
-        options.add_argument("--disable-gpu")              # no GPU on CI servers
+        options.add_argument("--window-size=1920,1080")       # FIX 1: Full HD resolution
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--disable-gpu")
         options.add_argument("--disable-software-rasterizer")
         options.add_argument("--remote-debugging-port=9222")
         log.info("  [driver] Running in headless mode (CI/server detected)")
     else:
-        # Local laptop — show the browser window
         options.add_argument("--start-maximized")
         log.info("  [driver] Running in visible mode (local laptop)")
 
+    # ── FIX 1: Anti-headless detection flags ──────────────────────
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("--disable-notifications")
     options.add_argument("--disable-popup-blocking")
     options.add_argument("--disable-extensions")
     options.add_argument("--disable-infobars")
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_argument("--disable-web-security")
+    options.add_argument("--allow-running-insecure-content")
+    options.add_argument("--disable-features=IsolateOrigins,site-per-process")
+    options.add_argument("--lang=en-US,en;q=0.9")
+
+    # ── FIX 2: Stealth mode — make Chrome look like real browser ──
+    options.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])
     options.add_experimental_option("useAutomationExtension", False)
     options.add_argument(
         "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -198,10 +202,27 @@ def create_driver():
 
     service = Service(ChromeDriverManager().install())
     driver  = webdriver.Chrome(service=service, options=options)
-    driver.execute_script(
-        "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-    )
+
+    # ── FIX 3: Override webdriver detection via JS ─────────────────
+    stealth_js = """
+        Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+        Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]});
+        Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']});
+        Object.defineProperty(navigator, 'platform', {get: () => 'Win32'});
+        window.chrome = {runtime: {}};
+        Object.defineProperty(navigator, 'permissions', {
+            query: (parameters) => (
+                parameters.name === 'notifications' ?
+                Promise.resolve({state: Notification.permission}) :
+                originalQuery(parameters)
+            )
+        });
+    """
+    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {"source": stealth_js})
+    driver.set_page_load_timeout(30)   # FIX 3: Longer page load timeout
+    driver.implicitly_wait(5)          # FIX 3: Implicit wait for elements
     return driver
+
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -517,18 +538,28 @@ def handle_application_form(driver):
 def login(driver, email, password):
     log.info("Opening Naukri login page...")
     driver.get("https://www.naukri.com/nlogin/login")
-    wait = WebDriverWait(driver, 15)
+    wait = WebDriverWait(driver, 20)  # FIX: longer wait
+    time.sleep(3)  # FIX: wait for page to fully load on server
 
     try:
-        email_field = wait.until(EC.presence_of_element_located((By.ID, "usernameField")))
+        email_field = wait.until(EC.element_to_be_clickable((By.ID, "usernameField")))
+        driver.execute_script("arguments[0].click();", email_field)
+        time.sleep(0.5)
         email_field.clear()
-        email_field.send_keys(email)
-        time.sleep(0.5)
+        # FIX: type slowly like a human to avoid bot detection
+        for char in email:
+            email_field.send_keys(char)
+            time.sleep(0.05)
+        time.sleep(1)
 
-        pwd_field = driver.find_element(By.ID, "passwordField")
-        pwd_field.clear()
-        pwd_field.send_keys(password)
+        pwd_field = wait.until(EC.element_to_be_clickable((By.ID, "passwordField")))
+        driver.execute_script("arguments[0].click();", pwd_field)
         time.sleep(0.5)
+        pwd_field.clear()
+        for char in password:
+            pwd_field.send_keys(char)
+            time.sleep(0.05)
+        time.sleep(1)
 
         login_btn = driver.find_element(By.XPATH, "//button[@type='submit']")
         login_btn.click()
@@ -752,9 +783,10 @@ def save_job_on_naukri(driver, job_url, job_title):
     original = driver.current_window_handle
     driver.execute_script(f"window.open('{job_url}', '_blank');")
     driver.switch_to.window(driver.window_handles[-1])
-    time.sleep(2)
+    time.sleep(4)   # FIX: longer wait for page to load on server
     try:
         dismiss_popups(driver)
+        time.sleep(2)  # FIX: extra wait after popup dismiss
         SAVE_SELECTORS = [
             "//button[contains(text(),'Save')]",
             "//a[contains(text(),'Save')]",
@@ -762,18 +794,26 @@ def save_job_on_naukri(driver, job_url, job_title):
             "//*[contains(@class,'saveJob')]",
             "//*[@title='Save Job']",
             "//span[contains(text(),'Save')]",
+            "//*[contains(@class,'job-header')]//button[contains(text(),'Save')]",
+            "//*[contains(@data-ga-track,'Save')]",
         ]
+        saved = False
         for sel in SAVE_SELECTORS:
             try:
-                btn = WebDriverWait(driver, 3).until(
+                btn = WebDriverWait(driver, 5).until(   # FIX: longer timeout
                     EC.element_to_be_clickable((By.XPATH, sel))
                 )
-                driver.execute_script("arguments[0].click();", btn)
+                driver.execute_script("arguments[0].scrollIntoView(true);", btn)
                 time.sleep(0.5)
+                driver.execute_script("arguments[0].click();", btn)
+                time.sleep(1)
                 log.info(f"  💾 Saved on Naukri (non-Hyderabad): {job_title}")
+                saved = True
                 break
             except TimeoutException:
                 continue
+        if not saved:
+            log.warning(f"  ⚠️ Could not find Save button: {job_title}")
     except Exception as e:
         log.warning(f"  Could not save on Naukri: {e}")
     finally:

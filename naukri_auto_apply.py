@@ -968,9 +968,15 @@ def apply_to_job(driver, job_url, job_title, applied_log):
             driver.switch_to.window(original_window)
             return False
 
-        driver.execute_script("arguments[0].scrollIntoView(true);", apply_btn)
-        time.sleep(0.4)
-        apply_btn.click()
+        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", apply_btn)
+        time.sleep(1)
+        dismiss_popups(driver)  # dismiss any popup covering the button
+        time.sleep(0.5)
+        try:
+            apply_btn.click()
+        except ElementClickInterceptedException:
+            # fallback to JS click
+            driver.execute_script("arguments[0].click();", apply_btn)
         log.info(f"  Clicked Apply: {job_title}")
         time.sleep(1.5)
 

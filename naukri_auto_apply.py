@@ -536,20 +536,80 @@ def handle_application_form(driver):
 
 
 # ═══════════════════════════════════════════════════════════════
+#  Cookie-based login
+# ═══════════════════════════════════════════════════════════════
+def login_with_cookies(driver):
+    """Try to login using saved cookies. Returns True if successful."""
+    cookies_json = os.environ.get("NAUKRI_COOKIES", "")
+    if not cookies_json:
+        log.info("No NAUKRI_COOKIES found — skipping cookie login")
+        return False
+
+    try:
+        cookies = json.loads(cookies_json)
+        log.info(f"Loading {len(cookies)} cookies...")
+
+        # First visit naukri.com to set domain
+        driver.get("https://www.naukri.com")
+        time.sleep(3)
+
+        # Clear existing cookies
+        driver.delete_all_cookies()
+
+        # Add all cookies
+        for cookie in cookies:
+            try:
+                c = {
+                    "name":   cookie["name"],
+                    "value":  cookie["value"],
+                    "domain": cookie.get("domain", ".naukri.com"),
+                    "path":   cookie.get("path", "/"),
+                    "secure": cookie.get("secure", False),
+                }
+                if "expirationDate" in cookie and not cookie.get("session", False):
+                    c["expiry"] = int(cookie["expirationDate"])
+                driver.add_cookie(c)
+            except Exception as e:
+                log.debug(f"  Skipping cookie {cookie.get('name')}: {e}")
+                continue
+
+        # Refresh to apply cookies
+        driver.get("https://www.naukri.com/mnjuser/homepage")
+        time.sleep(4)
+        dismiss_popups(driver)
+
+        # Check if logged in
+        if "homepage" in driver.current_url or "mnjuser" in driver.current_url:
+            log.info("✅ Cookie login successful!")
+            return True
+        else:
+            log.warning("Cookie login failed — will try email/password")
+            return False
+
+    except Exception as e:
+        log.error(f"Cookie login error: {e}")
+        return False
+
+
+# ═══════════════════════════════════════════════════════════════
 #  Login
 # ═══════════════════════════════════════════════════════════════
 def login(driver, email, password):
-    log.info("Opening Naukri login page...")
+    # Try cookie login first
+    if login_with_cookies(driver):
+        return True
+
+    # Fallback to email/password login
+    log.info("Trying email/password login...")
     driver.get("https://www.naukri.com/nlogin/login")
     wait = WebDriverWait(driver, 20)
-    time.sleep(5)  # Wait longer for login page to fully load
+    time.sleep(5)
 
     try:
         email_field = wait.until(EC.element_to_be_clickable((By.ID, "usernameField")))
         driver.execute_script("arguments[0].click();", email_field)
         time.sleep(0.5)
         email_field.clear()
-        # FIX: type slowly like a human to avoid bot detection
         for char in email:
             email_field.send_keys(char)
             time.sleep(0.05)

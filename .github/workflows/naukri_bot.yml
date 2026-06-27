@@ -39,6 +39,7 @@ jobs:
         env:
           NAUKRI_EMAIL: ${{ secrets.NAUKRI_EMAIL }}
           NAUKRI_PASSWORD: ${{ secrets.NAUKRI_PASSWORD }}
+          NAUKRI_COOKIES: ${{ secrets.NAUKRI_COOKIES }}
         run: python naukri_auto_apply.py
 
       - name: Save applied jobs log as artifact

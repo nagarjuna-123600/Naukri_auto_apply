@@ -23,3 +23,4 @@ Go to Actions tab → Naukri Auto Apply Bot → Run workflow
 # Manual test run - Fri Jun 26 19:36:15 UTC 2026
 # manual trigger Fri Jun 26 19:36:37 UTC 2026
 # run Fri Jun 26 19:49:37 UTC 2026
+# trigger cookie login test Sat Jun 27 12:15:04 UTC 2026

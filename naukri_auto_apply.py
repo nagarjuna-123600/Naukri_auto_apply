@@ -79,8 +79,7 @@ CONFIG = {
         "Python Intern",
         "SQL Intern",
         "AIML Intern",
-         "Data Analyst",
-         "
+        "Data Analyst",
     ],
     "min_stipend": 10000,   # ₹/month — skip internships below this
 

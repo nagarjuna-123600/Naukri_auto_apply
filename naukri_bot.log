@@ -10823,3 +10823,2262 @@ Stacktrace:
 2026-06-27 23:01:57,395 [INFO]   Log saved to: applied_jobs.json
 2026-06-27 23:01:57,395 [INFO] =======================================================
 2026-06-27 23:01:57,396 [INFO] Single run complete. GitHub Actions will trigger next run on schedule.
+2026-06-28 03:40:28,044 [INFO] GitHub Actions detected — running single pass and exiting.
+2026-06-28 03:40:28,044 [INFO] 
+2026-06-28 03:40:28,044 [INFO] =======================================================
+2026-06-28 03:40:28,044 [INFO]   Run started: 2026-06-28 03:40:28
+2026-06-28 03:40:28,044 [INFO] =======================================================
+2026-06-28 03:40:28,045 [INFO] Loaded 3 previously applied jobs
+2026-06-28 03:40:28,045 [INFO]   [driver] Running in headless mode (CI/server detected)
+2026-06-28 03:40:28,045 [INFO] ====== WebDriver manager ======
+2026-06-28 03:40:29,964 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-28 03:40:30,007 [INFO] There is no [linux64] chromedriver "149.0.7827.155" for browser google-chrome "149.0.7827" in cache
+2026-06-28 03:40:30,040 [INFO] There is no [linux64] chromedriver "149.0.7827.155" for browser google-chrome "149.0.7827" in cache
+2026-06-28 03:40:30,041 [INFO] Get LATEST chromedriver version for google-chrome
+2026-06-28 03:40:30,148 [INFO] WebDriver version 149.0.7827.155 selected
+2026-06-28 03:40:30,154 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/linux64/chromedriver-linux64.zip
+2026-06-28 03:40:30,154 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/149.0.7827.155/linux64/chromedriver-linux64.zip
+2026-06-28 03:40:30,188 [INFO] Driver downloading response is 200
+2026-06-28 03:40:30,358 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/149.0.7827.155]
+2026-06-28 03:40:36,864 [INFO] Loading 34 cookies...
+2026-06-28 03:42:49,082 [INFO] ✅ Cookie login successful!
+2026-06-28 03:42:49,083 [INFO] 
+███████████████████████████████████████████████████████
+2026-06-28 03:42:49,083 [INFO]   SECTION 1 OF 2 — Regular Jobs
+2026-06-28 03:42:49,083 [INFO] ███████████████████████████████████████████████████████
+2026-06-28 03:42:49,083 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 03:42:49,083 [INFO] Keyword: Java Developer
+2026-06-28 03:42:49,083 [INFO] ──────────────────────────────────────────────────
+2026-06-28 03:42:49,083 [INFO] Searching: 'Java Developer' in 'Hyderabad'...
+2026-06-28 03:44:56,237 [INFO] Found 12 job listings
+2026-06-28 03:45:01,305 [INFO] Checking: Developer
+2026-06-28 03:45:01,305 [INFO]   Skipping (no skill match): Developer
+2026-06-28 03:45:06,360 [INFO] Checking: Associate Analyst
+2026-06-28 03:45:06,360 [INFO]   Skipping (no skill match): Associate Analyst
+2026-06-28 03:45:11,413 [INFO] Checking: Administrative Support Professional
+2026-06-28 03:45:11,413 [INFO]   Skipping (no skill match): Administrative Support Professional
+2026-06-28 03:45:16,474 [INFO] Checking: Associate Analyst
+2026-06-28 03:45:16,474 [INFO]   Skipping (no skill match): Associate Analyst
+2026-06-28 03:45:21,547 [INFO] Checking: Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 03:47:25,227 [INFO]   💾 Saved on Naukri: Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 03:49:27,811 [INFO]   Clicked Apply: Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 03:49:29,372 [ERROR]   Error applying to Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad: name 'save_manual_job' is not defined
+2026-06-28 03:49:29,407 [INFO]   💾 Saved on Naukri (error fallback): Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 03:49:29,424 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:49:29,437 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:49:29,449 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:49:29,461 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:49:29,473 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:49:29,485 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:49:29,497 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:49:29,498 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 03:49:29,498 [INFO] Keyword: Python Developer
+2026-06-28 03:49:29,498 [INFO] ──────────────────────────────────────────────────
+2026-06-28 03:49:29,498 [INFO] Searching: 'Python Developer' in 'Hyderabad'...
+2026-06-28 03:51:46,779 [INFO] Found 15 job listings
+2026-06-28 03:51:51,861 [INFO] Checking: Software Tester
+2026-06-28 03:51:51,861 [INFO]   Skipping (no skill match): Software Tester
+2026-06-28 03:51:56,892 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:52:01,961 [INFO] Checking: Associate Software Engineer
+2026-06-28 03:52:22,105 [INFO]   📍 Non-Hyderabad (pune, chennai, bengaluru) — saving on Naukri: Associate Software Engineer
+2026-06-28 03:55:09,593 [WARNING]   ⚠️ Could not find Save button: Associate Software Engineer
+2026-06-28 03:55:09,652 [WARNING]   Skipping card: name 'reason' is not defined
+2026-06-28 03:55:14,691 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:55:19,726 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:55:24,799 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:55:29,826 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:55:34,854 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 03:55:39,906 [INFO] Checking: Developer
+2026-06-28 03:59:47,006 [WARNING]   No Apply button found — saving on Naukri: Developer
+2026-06-28 03:59:47,006 [ERROR]   Error applying to Developer: name 'save_manual_job' is not defined
+2026-06-28 04:00:07,182 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:00:07,196 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:00:07,209 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:00:07,220 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:00:07,231 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:00:07,243 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:00:07,243 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 04:00:07,243 [INFO] Keyword: SQL Developer
+2026-06-28 04:00:07,243 [INFO] ──────────────────────────────────────────────────
+2026-06-28 04:00:07,243 [INFO] Searching: 'SQL Developer' in 'Hyderabad'...
+2026-06-28 04:02:14,324 [INFO] Found 10 job listings
+2026-06-28 04:02:19,397 [INFO] Checking: Relationship Associate - Credit Life
+2026-06-28 04:02:19,397 [INFO]   Skipping (no skill match): Relationship Associate - Credit Life
+2026-06-28 04:02:24,471 [INFO] Checking: Associate Analyst
+2026-06-28 04:02:24,472 [INFO]   Skipping (no skill match): Associate Analyst
+2026-06-28 04:02:29,553 [INFO] Checking: Administrative Support Professional
+2026-06-28 04:02:29,553 [INFO]   Skipping (no skill match): Administrative Support Professional
+2026-06-28 04:02:34,590 [INFO] Checking: Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 04:04:38,150 [INFO]   💾 Saved on Naukri: Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 04:06:40,679 [INFO]   Clicked Apply: Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 04:06:42,238 [ERROR]   Error applying to Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad: name 'save_manual_job' is not defined
+2026-06-28 04:06:42,278 [INFO]   💾 Saved on Naukri (error fallback): Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 04:06:42,292 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:06:42,305 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:06:42,317 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:06:42,328 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:06:42,340 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:06:42,353 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:06:42,353 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 04:06:42,353 [INFO] Keyword: Software Engineer
+2026-06-28 04:06:42,353 [INFO] ──────────────────────────────────────────────────
+2026-06-28 04:06:42,353 [INFO] Searching: 'Software Engineer' in 'Hyderabad'...
+2026-06-28 04:08:59,756 [INFO] Found 15 job listings
+2026-06-28 04:09:04,835 [INFO] Checking: Software Tester
+2026-06-28 04:09:04,835 [INFO]   Skipping (no skill match): Software Tester
+2026-06-28 04:09:09,878 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:09:14,934 [INFO] Checking: Associate Software Engineer
+2026-06-28 04:09:35,114 [INFO]   📍 Non-Hyderabad (pune, chennai, bengaluru) — saving on Naukri: Associate Software Engineer
+2026-06-28 04:12:22,491 [WARNING]   ⚠️ Could not find Save button: Associate Software Engineer
+2026-06-28 04:12:22,556 [WARNING]   Skipping card: name 'reason' is not defined
+2026-06-28 04:12:27,654 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:12:32,705 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:12:37,765 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:12:42,807 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:12:47,856 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:12:52,935 [INFO] Checking: Developer
+2026-06-28 04:16:59,851 [WARNING]   No Apply button found — saving on Naukri: Developer
+2026-06-28 04:16:59,851 [ERROR]   Error applying to Developer: name 'save_manual_job' is not defined
+2026-06-28 04:17:19,951 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:17:19,962 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:17:19,974 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:17:19,985 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:17:19,998 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:17:20,012 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:17:20,012 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 04:17:20,012 [INFO] Keyword: Associate Software Engineer
+2026-06-28 04:17:20,012 [INFO] ──────────────────────────────────────────────────
+2026-06-28 04:17:20,012 [INFO] Searching: 'Associate Software Engineer' in 'Hyderabad'...
+2026-06-28 04:19:27,004 [INFO] Found 13 job listings
+2026-06-28 04:19:32,093 [INFO] Checking: Associate Analyst
+2026-06-28 04:19:32,093 [INFO]   Skipping (no skill match): Associate Analyst
+2026-06-28 04:19:37,130 [INFO] Checking: Administrative Support Professional
+2026-06-28 04:19:37,130 [INFO]   Skipping (no skill match): Administrative Support Professional
+2026-06-28 04:19:42,203 [INFO] Checking: Relationship Associate - Credit Life
+2026-06-28 04:19:42,203 [INFO]   Skipping (no skill match): Relationship Associate - Credit Life
+2026-06-28 04:19:47,239 [INFO] Checking: Associate Analyst
+2026-06-28 04:19:47,239 [INFO]   Skipping (no skill match): Associate Analyst
+2026-06-28 04:19:52,279 [INFO] Checking: Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 04:21:55,917 [INFO]   💾 Saved on Naukri: Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 04:23:58,272 [INFO]   Clicked Apply: Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 04:23:59,851 [ERROR]   Error applying to Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad: name 'save_manual_job' is not defined
+2026-06-28 04:23:59,891 [INFO]   💾 Saved on Naukri (error fallback): Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 04:23:59,905 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:23:59,917 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:23:59,929 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:23:59,939 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:23:59,951 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:23:59,962 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:23:59,974 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:23:59,986 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:23:59,986 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 04:23:59,986 [INFO] Keyword: Customer Software Engineer
+2026-06-28 04:23:59,986 [INFO] ──────────────────────────────────────────────────
+2026-06-28 04:23:59,986 [INFO] Searching: 'Customer Software Engineer' in 'Hyderabad'...
+2026-06-28 04:26:17,680 [INFO] Found 15 job listings
+2026-06-28 04:26:22,771 [INFO] Checking: Software Tester
+2026-06-28 04:26:22,772 [INFO]   Skipping (no skill match): Software Tester
+2026-06-28 04:26:27,830 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:26:32,915 [INFO] Checking: Associate Software Engineer
+2026-06-28 04:26:53,099 [INFO]   📍 Non-Hyderabad (pune, chennai, bengaluru) — saving on Naukri: Associate Software Engineer
+2026-06-28 04:29:40,558 [WARNING]   ⚠️ Could not find Save button: Associate Software Engineer
+2026-06-28 04:29:40,625 [WARNING]   Skipping card: name 'reason' is not defined
+2026-06-28 04:29:45,695 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:29:50,741 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:29:55,775 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:30:00,806 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:30:05,852 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:30:10,911 [INFO] Checking: Developer
+2026-06-28 04:34:17,913 [WARNING]   No Apply button found — saving on Naukri: Developer
+2026-06-28 04:34:17,913 [ERROR]   Error applying to Developer: name 'save_manual_job' is not defined
+2026-06-28 04:34:38,040 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:34:38,054 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:34:38,066 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:34:38,079 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:34:38,093 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:34:38,105 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:34:38,105 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 04:34:38,105 [INFO] Keyword: Data Analyst
+2026-06-28 04:34:38,105 [INFO] ──────────────────────────────────────────────────
+2026-06-28 04:34:38,105 [INFO] Searching: 'Data Analyst' in 'Hyderabad'...
+2026-06-28 04:36:45,122 [INFO] Found 16 job listings
+2026-06-28 04:36:50,207 [INFO] Checking: Data Analyst
+2026-06-28 04:36:50,207 [INFO]   Skipping Data Analyst (no SQL mentioned): Data Analyst
+2026-06-28 04:36:55,255 [INFO] Checking: Data Analyst Fresher , Data Analytics
+2026-06-28 04:36:55,255 [INFO]   Skipping Data Analyst (no SQL mentioned): Data Analyst Fresher , Data Analytics
+2026-06-28 04:37:00,297 [INFO] Checking: Associate Analyst
+2026-06-28 04:37:00,297 [INFO]   Skipping (no skill match): Associate Analyst
+2026-06-28 04:37:05,380 [INFO] Checking: Associate Analyst
+2026-06-28 04:37:05,380 [INFO]   Skipping (no skill match): Associate Analyst
+2026-06-28 04:37:10,410 [INFO] Checking: Associate Consultant Infectious Diseases
+2026-06-28 04:37:10,411 [INFO]   Skipping (no skill match): Associate Consultant Infectious Diseases
+2026-06-28 04:37:15,444 [INFO] Checking: Associate Analyst
+2026-06-28 04:37:15,444 [INFO]   Skipping (no skill match): Associate Analyst
+2026-06-28 04:37:20,493 [INFO] Checking: Data Scientist
+2026-06-28 04:37:20,493 [INFO]   Skipping (no skill match): Data Scientist
+2026-06-28 04:37:25,536 [INFO] Checking: Digital Marketing Executive
+2026-06-28 04:37:25,536 [INFO]   Skipping (no skill match): Digital Marketing Executive
+2026-06-28 04:37:30,576 [INFO] Checking: Executive Associate To the CEO
+2026-06-28 04:37:30,576 [INFO]   Skipping (no skill match): Executive Associate To the CEO
+2026-06-28 04:37:35,616 [INFO] Checking: Administrative Support Professional
+2026-06-28 04:37:35,616 [INFO]   Skipping (no skill match): Administrative Support Professional
+2026-06-28 04:37:40,662 [INFO] Checking: Relationship Associate - Credit Life
+2026-06-28 04:37:40,662 [INFO]   Skipping (no skill match): Relationship Associate - Credit Life
+2026-06-28 04:37:45,707 [INFO] Checking: Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 04:39:49,430 [INFO]   💾 Saved on Naukri: Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 04:41:52,231 [INFO]   Clicked Apply: Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 04:41:53,790 [ERROR]   Error applying to Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad: name 'save_manual_job' is not defined
+2026-06-28 04:41:53,831 [INFO]   💾 Saved on Naukri (error fallback): Software Test Engineer- B.Tech/ MCA Freshers- Hyderabad
+2026-06-28 04:41:53,846 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:41:53,857 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:41:53,868 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:41:53,879 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:41:53,879 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 04:41:53,879 [INFO] Keyword: AI ML Engineer
+2026-06-28 04:41:53,879 [INFO] ──────────────────────────────────────────────────
+2026-06-28 04:41:53,879 [INFO] Searching: 'AI ML Engineer' in 'Hyderabad'...
+2026-06-28 04:44:11,155 [INFO] Found 15 job listings
+2026-06-28 04:44:16,226 [INFO] Checking: Software Tester
+2026-06-28 04:44:16,226 [INFO]   Skipping (no skill match): Software Tester
+2026-06-28 04:44:21,255 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:44:26,308 [INFO] Checking: Associate Software Engineer
+2026-06-28 04:44:46,407 [INFO]   📍 Non-Hyderabad (pune, chennai, bengaluru) — saving on Naukri: Associate Software Engineer
+2026-06-28 04:47:33,649 [WARNING]   ⚠️ Could not find Save button: Associate Software Engineer
+2026-06-28 04:47:33,706 [WARNING]   Skipping card: name 'reason' is not defined
+2026-06-28 04:47:38,763 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:47:43,784 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:47:48,845 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:47:53,898 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:47:58,957 [WARNING]   Skipping card: Message: no such element: Unable to locate element: {"method":"tag name","selector":"a"}
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da71884 <unknown>
+#3 0x561e6da71ad1 <unknown>
+#4 0x561e6da667c6 <unknown>
+#5 0x561e6da666a7 <unknown>
+#6 0x561e6dab9b5c <unknown>
+#7 0x561e6da64e4f <unknown>
+#8 0x561e6da65c31 <unknown>
+#9 0x561e6e0019f7 <unknown>
+#10 0x561e6e000203 <unknown>
+#11 0x561e6dfeaf16 <unknown>
+#12 0x561e6e000d9a <unknown>
+#13 0x561e6dfd2eb0 <unknown>
+#14 0x561e6e027d58 <unknown>
+#15 0x561e6e027ef5 <unknown>
+#16 0x561e6e039f5e <unknown>
+#17 0x7fd6f369caa4 <unknown>
+#18 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:48:04,033 [INFO] Checking: Developer
+2026-06-28 04:52:10,907 [WARNING]   No Apply button found — saving on Naukri: Developer
+2026-06-28 04:52:10,907 [ERROR]   Error applying to Developer: name 'save_manual_job' is not defined
+2026-06-28 04:52:31,078 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:52:31,089 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:52:31,102 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:52:31,116 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:52:31,127 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:52:31,139 [WARNING]   Skipping card: Message: no such element: element not found
+  (Session info: chrome=149.0.7827.155); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x561e6e03b3da <unknown>
+#1 0x561e6da1d139 <unknown>
+#2 0x561e6da31f14 <unknown>
+#3 0x561e6da30cb1 <unknown>
+#4 0x561e6da24d39 <unknown>
+#5 0x561e6da22ef9 <unknown>
+#6 0x561e6da26bbb <unknown>
+#7 0x561e6da26c63 <unknown>
+#8 0x561e6da71280 <unknown>
+#9 0x561e6da71ad1 <unknown>
+#10 0x561e6da667c6 <unknown>
+#11 0x561e6da666a7 <unknown>
+#12 0x561e6dab9b5c <unknown>
+#13 0x561e6da64e4f <unknown>
+#14 0x561e6da65c31 <unknown>
+#15 0x561e6e0019f7 <unknown>
+#16 0x561e6e000203 <unknown>
+#17 0x561e6dfeaf16 <unknown>
+#18 0x561e6e000d9a <unknown>
+#19 0x561e6dfd2eb0 <unknown>
+#20 0x561e6e027d58 <unknown>
+#21 0x561e6e027ef5 <unknown>
+#22 0x561e6e039f5e <unknown>
+#23 0x7fd6f369caa4 <unknown>
+#24 0x7fd6f3729c6c <unknown>
+
+2026-06-28 04:52:31,139 [INFO] 
+███████████████████████████████████████████████████████
+2026-06-28 04:52:31,139 [INFO]   SECTION 2 OF 2 — Internships (Java / Python / SQL)
+2026-06-28 04:52:31,139 [INFO]   Stipend filter: ≥ ₹10,000 / month
+2026-06-28 04:52:31,139 [INFO] ███████████████████████████████████████████████████████
+2026-06-28 04:52:31,139 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 04:52:31,139 [INFO] Internship keyword: Java Intern
+2026-06-28 04:52:31,140 [INFO] ──────────────────────────────────────────────────
+2026-06-28 04:52:31,140 [INFO]   Searching internships: 'Java Intern' in 'Hyderabad'...
+2026-06-28 04:57:06,494 [INFO]   Found 0 internship listings
+2026-06-28 04:57:06,494 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 04:57:06,494 [INFO] Internship keyword: Python Intern
+2026-06-28 04:57:06,494 [INFO] ──────────────────────────────────────────────────
+2026-06-28 04:57:06,494 [INFO]   Searching internships: 'Python Intern' in 'Hyderabad'...
+2026-06-28 05:01:41,970 [INFO]   Found 0 internship listings
+2026-06-28 05:01:41,970 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:01:41,970 [INFO] Internship keyword: SQL Intern
+2026-06-28 05:01:41,970 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:01:41,970 [INFO]   Searching internships: 'SQL Intern' in 'Hyderabad'...
+2026-06-28 05:06:17,470 [INFO]   Found 0 internship listings
+2026-06-28 05:06:17,470 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:06:17,470 [INFO] Internship keyword: AIML Intern
+2026-06-28 05:06:17,470 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:06:17,470 [INFO]   Searching internships: 'AIML Intern' in 'Hyderabad'...
+2026-06-28 05:10:52,573 [INFO]   Found 0 internship listings
+2026-06-28 05:10:52,573 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:10:52,573 [INFO] Internship keyword: Data Analyst
+2026-06-28 05:10:52,573 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:10:52,573 [INFO]   Searching internships: 'Data Analyst' in 'Hyderabad'...
+2026-06-28 05:15:28,389 [INFO]   Found 0 internship listings
+2026-06-28 05:15:28,389 [INFO] 
+███████████████████████████████████████████████████████
+2026-06-28 05:15:28,389 [INFO]   SECTION 3 OF 3 — Work From Home Jobs
+2026-06-28 05:15:28,389 [INFO] ███████████████████████████████████████████████████████
+2026-06-28 05:15:28,389 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:15:28,390 [INFO] WFH Keyword: Java Developer work from home
+2026-06-28 05:15:28,390 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:17:39,983 [INFO] Found 0 WFH listings
+2026-06-28 05:17:39,983 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:17:39,983 [INFO] WFH Keyword: Python Developer work from home
+2026-06-28 05:17:39,983 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:19:51,447 [INFO] Found 0 WFH listings
+2026-06-28 05:19:51,447 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:19:51,447 [INFO] WFH Keyword: SQL Developer work from home
+2026-06-28 05:19:51,447 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:22:03,167 [INFO] Found 0 WFH listings
+2026-06-28 05:22:03,167 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:22:03,167 [INFO] WFH Keyword: Software Engineer work from home
+2026-06-28 05:22:03,167 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:24:14,952 [INFO] Found 0 WFH listings
+2026-06-28 05:24:14,952 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:24:14,952 [INFO] WFH Keyword: Associate Software Engineer work from home
+2026-06-28 05:24:14,953 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:26:26,339 [INFO] Found 0 WFH listings
+2026-06-28 05:26:26,339 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:26:26,339 [INFO] WFH Keyword: Customer Software Engineer work from home
+2026-06-28 05:26:26,339 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:28:37,780 [INFO] Found 0 WFH listings
+2026-06-28 05:28:37,780 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:28:37,781 [INFO] WFH Keyword: Data Analyst work from home
+2026-06-28 05:28:37,781 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:30:49,307 [INFO] Found 0 WFH listings
+2026-06-28 05:30:49,307 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:30:49,307 [INFO] WFH Keyword: AI ML Engineer work from home
+2026-06-28 05:30:49,308 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:33:00,666 [INFO] Found 0 WFH listings
+2026-06-28 05:33:00,666 [INFO] 
+███████████████████████████████████████████████████████
+2026-06-28 05:33:00,666 [INFO]   SECTION 4 OF 4 — Work From Home Internships
+2026-06-28 05:33:00,667 [INFO] ███████████████████████████████████████████████████████
+2026-06-28 05:33:00,667 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:33:00,667 [INFO] WFH Internship keyword: Java Intern
+2026-06-28 05:33:00,667 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:37:23,678 [INFO]   Found 0 WFH internship listings
+2026-06-28 05:37:23,678 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:37:23,678 [INFO] WFH Internship keyword: Python Intern
+2026-06-28 05:37:23,678 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:41:46,841 [INFO]   Found 0 WFH internship listings
+2026-06-28 05:41:46,841 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:41:46,841 [INFO] WFH Internship keyword: SQL Intern
+2026-06-28 05:41:46,841 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:46:10,040 [INFO]   Found 0 WFH internship listings
+2026-06-28 05:46:10,040 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:46:10,041 [INFO] WFH Internship keyword: AIML Intern
+2026-06-28 05:46:10,041 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:50:33,106 [INFO]   Found 0 WFH internship listings
+2026-06-28 05:50:33,106 [INFO] 
+──────────────────────────────────────────────────
+2026-06-28 05:50:33,106 [INFO] WFH Internship keyword: Data Analyst
+2026-06-28 05:50:33,106 [INFO] ──────────────────────────────────────────────────
+2026-06-28 05:54:55,989 [INFO]   Found 0 WFH internship listings
+2026-06-28 05:54:56,134 [INFO] 
+2026-06-28 05:54:56,134 [INFO] =======================================================
+2026-06-28 05:54:56,134 [INFO]   Run complete — Applied this session: 0
+2026-06-28 05:54:56,134 [INFO]   Total ever applied: 3
+2026-06-28 05:54:56,134 [INFO]   Log saved to: applied_jobs.json
+2026-06-28 05:54:56,134 [INFO] =======================================================
+2026-06-28 05:54:56,134 [INFO] Single run complete. GitHub Actions will trigger next run on schedule.

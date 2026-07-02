@@ -2,7 +2,7 @@ name: Naukri Auto Apply Bot
 
 on:
   schedule:
-    - cron: "0 */4 * * *"   # runs every 4 hours to avoid Naukri login blocking
+    - cron: "0 */4 * * *"   # runs every 4 hours
   workflow_dispatch:          # allows manual trigger from GitHub Actions tab
 
 permissions:
@@ -27,8 +27,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Set up Chrome
-        uses: browser-actions/setup-chrome@v1
+      - name: Install Playwright browsers
+        run: playwright install chromium --with-deps
 
       - name: Initialise log files (valid JSON, not empty)
         run: |

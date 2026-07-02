@@ -1,9 +1,9 @@
 # Naukri Auto Apply Bot
 
-Automatically logs into Naukri.com every 2 hours and applies to matching jobs in Hyderabad.
+Automatically logs into Naukri.com every 4 hours and applies to matching jobs in Hyderabad.
 
 ## How it works
-- Runs on GitHub Actions every 2 hours (free, no server needed)
+- Runs on GitHub Actions every 4 hours (free, no server needed)
 - Searches for Java, Python, and SQL Developer jobs
 - Skips senior/lead roles, applies only to fresher-level jobs
 - Saves applied jobs log to avoid duplicate applications

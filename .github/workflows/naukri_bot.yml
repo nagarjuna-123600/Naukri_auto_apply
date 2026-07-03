@@ -27,8 +27,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Install Playwright browsers
-        run: playwright install chromium --with-deps
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@v1
 
       - name: Initialise log files (valid JSON, not empty)
         run: |

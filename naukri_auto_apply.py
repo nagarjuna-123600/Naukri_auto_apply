@@ -3,6 +3,7 @@ Naukri Auto-Apply Bot  ─  FULL VERSION
 =======================================
 Features:
   ✅ Auto login
+  ✅ SECTION 0 — Newly Arrived Jobs   (All keywords — posted in last 24 hours)
   ✅ SECTION 1 — Regular Jobs        (Java / Python / SQL Developer, Hyderabad)
   ✅ SECTION 2 — Internships         (Java / Python / SQL, stipend ≥ ₹10,000/month)
   ✅ SECTION 3 — Remote / WFH Jobs   (Java, Python, SQL, Software Engineer/Developer — Work From Home)
@@ -1211,6 +1212,84 @@ def run_agent():
             return
 
         total_applied = 0
+
+        # ── SECTION 0: Newly Arrived Jobs & Internships ───────────
+        log.info("\n" + "█" * 55)
+        log.info("  SECTION 0 — Newly Arrived Jobs & Internships (Last 24 hrs)")
+        log.info("█" * 55)
+
+        for keyword in CONFIG["search_keywords"] + CONFIG["internship_keywords"]:
+            log.info(f"\n{'─'*50}")
+            log.info(f"New jobs keyword: {keyword}")
+            log.info(f"{'─'*50}")
+
+            # jobAge=1 = posted today, freshness=1 = last 24 hours
+            slug = keyword.lower().replace(" ", "-")
+            new_jobs_urls = [
+                f"https://www.naukri.com/{slug}-jobs-in-{CONFIG['location'].lower()}?jobAge=1&experience=0",
+                f"https://www.naukri.com/{slug}-jobs?jobAge=1&experience=0&wfhType=remote,hybrid",
+            ]
+
+            applied_this_round = 0
+
+            for search_url in new_jobs_urls:
+                try:
+                    driver.get(search_url)
+                    time.sleep(CONFIG["action_delay"])
+                    dismiss_popups(driver)
+
+                    for _ in range(3):
+                        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+                        time.sleep(1)
+
+                    cards = driver.find_elements(By.CLASS_NAME, "cust-job-tuple")
+                    log.info(f"  Found {len(cards)} new listings for '{keyword}'")
+
+                    for card in cards:
+                        if applied_this_round >= CONFIG["max_apply_per_search"]:
+                            break
+                        try:
+                            try:
+                                title_el = card.find_element(By.CLASS_NAME, "title")
+                            except NoSuchElementException:
+                                title_el = card.find_element(By.TAG_NAME, "a")
+
+                            job_title = title_el.text.strip()
+                            job_url   = (
+                                title_el.get_attribute("href")
+                                or card.find_element(By.TAG_NAME, "a").get_attribute("href")
+                            )
+
+                            if not job_title or not job_url:
+                                continue
+
+                            try:
+                                desc = card.find_element(By.CLASS_NAME, "job-description").text
+                            except NoSuchElementException:
+                                try:
+                                    desc = card.find_element(By.CLASS_NAME, "job-desc").text
+                                except NoSuchElementException:
+                                    desc = ""
+
+                            log.info(f"  [NEW] Checking: {job_title}")
+
+                            if is_matching_job(job_title, desc):
+                                success = apply_to_job(driver, job_url, job_title, applied_log)
+                                if success:
+                                    applied_this_round += 1
+                                    total_applied      += 1
+                                    save_applied(CONFIG["log_file"], applied_log)
+                                    time.sleep(CONFIG["action_delay"])
+
+                        except StaleElementReferenceException:
+                            continue
+                        except Exception as e:
+                            log.warning(f"  Skipping new job card: {e}")
+                            continue
+
+                except Exception as e:
+                    log.warning(f"  Error searching new jobs for '{keyword}': {e}")
+                    continue
 
         # ── SECTION 1: Regular Jobs ───────────────────────────────
         log.info("\n" + "█" * 55)

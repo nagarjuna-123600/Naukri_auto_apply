@@ -1062,8 +1062,43 @@ def apply_to_job(driver, job_url, job_title, applied_log):
 
         if detected_reason:
             save_manual_job(job_url, job_title, detected_reason)
-            driver.close()
-            driver.switch_to.window(original_window)
+            # ── Save on Naukri (company website / email / WhatsApp redirect) ──
+            try:
+                driver.close()
+                driver.switch_to.window(original_window)
+                # Go to job page and click Save button
+                driver.execute_script(f"window.open('{job_url}', '_blank');")
+                driver.switch_to.window(driver.window_handles[-1])
+                time.sleep(3)
+                dismiss_popups(driver)
+                SAVE_SELECTORS = [
+                    "//button[contains(text(),'Save')]",
+                    "//a[contains(text(),'Save')]",
+                    "//*[contains(@class,'save-job')]",
+                    "//*[contains(@class,'saveJob')]",
+                    "//*[@title='Save Job']",
+                    "//span[contains(text(),'Save')]",
+                ]
+                for sel in SAVE_SELECTORS:
+                    try:
+                        btn = WebDriverWait(driver, 4).until(
+                            EC.element_to_be_clickable((By.XPATH, sel))
+                        )
+                        driver.execute_script("arguments[0].scrollIntoView(true);", btn)
+                        time.sleep(0.5)
+                        driver.execute_script("arguments[0].click();", btn)
+                        log.info(f"  💾 Saved on Naukri ({detected_reason}): {job_title}")
+                        break
+                    except TimeoutException:
+                        continue
+            except Exception as e:
+                log.warning(f"  Could not save on Naukri: {e}")
+            finally:
+                try:
+                    driver.close()
+                    driver.switch_to.window(original_window)
+                except Exception:
+                    pass
             return False
         # ─────────────────────────────────────────────────────────────
 

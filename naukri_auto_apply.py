@@ -100,10 +100,36 @@ CONFIG = {
 
     # ── Title keywords that cause a job to be SKIPPED ───────────
     "exclude_keywords": [
+        # ── Experience level exclusions ──────────────────────────
         "senior", "lead", "manager", "architect",
+
+        # ── Role type exclusions ─────────────────────────────────
         "web developer", "frontend developer", "front-end developer",
         "backend developer", "back-end developer",
         "full stack developer", "fullstack developer",
+
+        # ── Non-IT / Non-Tech role exclusions ────────────────────
+        "sales", "marketing", "hr ", "human resource", "recruiter",
+        "accountant", "accounting", "finance", "financial",
+        "content writer", "content writing", "copywriter",
+        "digital marketing", "seo", "social media",
+        "customer support", "customer care", "customer service",
+        "telecaller", "telesales", "bpo", "voice process",
+        "data entry", "back office", "back-office",
+        "field sales", "field executive", "field officer",
+        "civil engineer", "mechanical engineer", "electrical engineer",
+        "hardware engineer", "network engineer", "field engineer",
+        "teacher", "trainer", "faculty", "professor", "lecturer",
+        "doctor", "nurse", "pharmacist", "medical",
+        "legal", "lawyer", "advocate", "compliance",
+        "logistics", "supply chain", "warehouse", "delivery",
+        "chef", "cook", "hospitality", "hotel",
+        "graphic designer", "ui designer", "ux designer",
+        "interior designer", "fashion designer",
+        "business development", "bd executive",
+        "relationship manager", "bank", "banking",
+        "insurance", "loan", "investment",
+        "operations executive", "operations manager",
     ],
 
     # ── Application form answers ────────────────────────────────

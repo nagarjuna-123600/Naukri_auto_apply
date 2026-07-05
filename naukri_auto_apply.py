@@ -896,7 +896,7 @@ def save_job_on_naukri(driver, job_url, job_title):
                 time.sleep(0.5)
                 driver.execute_script("arguments[0].click();", btn)
                 time.sleep(1)
-                log.info(f"  💾 Saved on Naukri (non-Hyderabad): {job_title}")
+                log.info(f"  💾 Saved on Naukri (redirect job): {job_title}")
                 saved = True
                 break
             except TimeoutException:

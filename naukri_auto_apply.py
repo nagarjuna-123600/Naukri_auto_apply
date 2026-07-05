@@ -1211,6 +1211,117 @@ def run_agent():
         if not login(driver, CONFIG["email"], CONFIG["password"]):
             return
 
+        # ── DAILY PROFILE UPDATE — Rearrange skills to refresh timestamp ──
+        try:
+            log.info("\n" + "─" * 55)
+            log.info("  DAILY PROFILE UPDATE — Refreshing skills order")
+            log.info("─" * 55)
+
+            from datetime import date
+            day_number = date.today().toordinal()
+            is_odd_day = day_number % 2 == 1
+
+            # Two alternating skill orders
+            skills_odd  = ["Python", "Java", "SQL", "Python Software Developer",
+                           "Python Automation Engineer", "Python Developer Intern"]
+            skills_even = ["Java", "SQL", "Python", "Python Developer Intern",
+                           "Python Software Developer", "Python Automation Engineer"]
+
+            skills_today = skills_odd if is_odd_day else skills_even
+            log.info(f"  Today's skill order: {skills_today}")
+
+            # Go to profile edit page
+            driver.get("https://www.naukri.com/mnjuser/profile?id=&altresid")
+            time.sleep(4)
+            dismiss_popups(driver)
+
+            # Click edit on Key Skills section
+            SKILLS_EDIT_SELECTORS = [
+                "//div[contains(@class,'keySkills')]//span[contains(@class,'edit')]",
+                "//div[contains(@class,'key-skills')]//button",
+                "//section[contains(@class,'skill')]//span[@class='edit']",
+                "//*[contains(text(),'Key skills')]//following-sibling::*[contains(@class,'edit')]",
+                "//div[@class='widgetHead']//span[contains(@class,'edit') and ancestor::*[contains(.,'Key skills')]]",
+            ]
+
+            clicked = False
+            for sel in SKILLS_EDIT_SELECTORS:
+                try:
+                    btn = WebDriverWait(driver, 4).until(
+                        EC.element_to_be_clickable((By.XPATH, sel))
+                    )
+                    driver.execute_script("arguments[0].click();", btn)
+                    time.sleep(2)
+                    clicked = True
+                    log.info("  Opened Key Skills editor")
+                    break
+                except TimeoutException:
+                    continue
+
+            if clicked:
+                # Delete existing skills one by one
+                try:
+                    delete_btns = driver.find_elements(
+                        By.XPATH,
+                        "//*[contains(@class,'chip')]//span[contains(@class,'del') or contains(@class,'close') or contains(@class,'remove')]"
+                    )
+                    for btn in delete_btns:
+                        try:
+                            driver.execute_script("arguments[0].click();", btn)
+                            time.sleep(0.3)
+                        except Exception:
+                            pass
+                    time.sleep(1)
+                    log.info(f"  Cleared {len(delete_btns)} existing skills")
+                except Exception as e:
+                    log.warning(f"  Could not clear skills: {e}")
+
+                # Add skills in today's order
+                try:
+                    skill_input = WebDriverWait(driver, 5).until(
+                        EC.presence_of_element_located((By.XPATH,
+                            "//input[contains(@placeholder,'skill') or contains(@placeholder,'Skill') or contains(@class,'skill')]"
+                        ))
+                    )
+                    for skill in skills_today:
+                        skill_input.clear()
+                        skill_input.send_keys(skill)
+                        time.sleep(0.8)
+                        # Try clicking suggestion or pressing Enter
+                        try:
+                            suggestion = WebDriverWait(driver, 2).until(
+                                EC.element_to_be_clickable((By.XPATH,
+                                    f"//ul[contains(@class,'suggest')]//li[contains(text(),'{skill}')]"
+                                ))
+                            )
+                            suggestion.click()
+                        except TimeoutException:
+                            skill_input.send_keys(Keys.RETURN)
+                        time.sleep(0.5)
+                    log.info(f"  Added {len(skills_today)} skills")
+                except Exception as e:
+                    log.warning(f"  Could not add skills: {e}")
+
+                # Save changes
+                try:
+                    save_btn = WebDriverWait(driver, 5).until(
+                        EC.element_to_be_clickable((By.XPATH,
+                            "//button[contains(text(),'Save') or contains(text(),'Update')]"
+                        ))
+                    )
+                    driver.execute_script("arguments[0].click();", save_btn)
+                    time.sleep(2)
+                    log.info("  ✅ Profile skills updated — timestamp refreshed!")
+                except Exception as e:
+                    log.warning(f"  Could not save skills: {e}")
+            else:
+                log.warning("  Could not find Key Skills edit button — skipping profile update")
+
+        except Exception as e:
+            log.warning(f"  Profile update failed (non-critical): {e}")
+
+        # ─────────────────────────────────────────────────────────────
+
         total_applied = 0
 
         # ── SECTION 0: Newly Arrived Jobs & Internships ───────────

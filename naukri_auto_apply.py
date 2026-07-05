@@ -141,32 +141,6 @@ def save_applied(path, data):
         json.dump(data, f, indent=2)
 
 
-# ═══════════════════════════════════════════════════════════════
-#  FIX: save_manual_job — was missing entirely, caused NameError crash
-# ═══════════════════════════════════════════════════════════════
-def save_manual_job(job_url, job_title, reason):
-    """Save jobs that require manual application (company website, email, WhatsApp)."""
-    manual_log_path = "manual_apply_jobs.json"
-    try:
-        if os.path.exists(manual_log_path):
-            with open(manual_log_path) as f:
-                content = f.read().strip()
-                manual_log = json.loads(content) if content else {}
-        else:
-            manual_log = {}
-
-        if job_url not in manual_log:
-            manual_log[job_url] = {
-                "title":    job_title,
-                "reason":   reason,
-                "saved_at": datetime.now().isoformat(),
-                "url":      job_url,
-            }
-            with open(manual_log_path, "w") as f:
-                json.dump(manual_log, f, indent=2)
-            log.info(f"  📌 Saved for manual apply ({reason}): {job_title}")
-    except Exception as e:
-        log.warning(f"  Could not save manual job: {e}")
 
 
 # ═══════════════════════════════════════════════════════════════

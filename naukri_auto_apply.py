@@ -471,7 +471,7 @@ def apply_to_job(driver, job_url, job_title, applied_log):
     try:
         dismiss_popups(driver)
 
-        # Find Apply button
+        # Find Apply button — skip job entirely if not found
         apply_btn = None
         for selector in [
             "//button[contains(text(),'Apply')]",
@@ -488,8 +488,7 @@ def apply_to_job(driver, job_url, job_title, applied_log):
                 continue
 
         if not apply_btn:
-            log.warning(f"  No Apply button found: {job_title}")
-            save_manual_job(job_url, job_title, "no_apply_button")
+            log.info(f"  Skipping (no Apply button): {job_title}")
             driver.close()
             driver.switch_to.window(original_window)
             return False
@@ -505,27 +504,20 @@ def apply_to_job(driver, job_url, job_title, applied_log):
         log.info(f"  Clicked Apply: {job_title}")
         time.sleep(1.5)
 
-        # Check for external apply redirect
+        # Check for external apply redirect — skip entirely if redirected outside Naukri
         page_text   = driver.page_source.lower()
         current_url = driver.current_url.lower()
-        external_reasons = {
-            "company website": ["apply on company website", "apply via company", "external application"],
-            "email":           ["apply via email", "send your resume", "email your cv"],
-            "whatsapp":        ["apply via whatsapp", "whatsapp to apply"],
-        }
-        detected_reason = None
-        for reason, keywords in external_reasons.items():
-            for kw in keywords:
-                if kw in page_text:
-                    detected_reason = reason
-                    break
-            if detected_reason:
-                break
-        if not detected_reason and "naukri.com" not in current_url:
-            detected_reason = "company website"
+        external_keywords = [
+            "apply on company website", "apply via company", "external application",
+            "apply via email", "send your resume", "email your cv",
+            "apply via whatsapp", "whatsapp to apply",
+        ]
+        is_external = any(kw in page_text for kw in external_keywords)
+        if not is_external and "naukri.com" not in current_url:
+            is_external = True
 
-        if detected_reason:
-            save_manual_job(job_url, job_title, detected_reason)
+        if is_external:
+            log.info(f"  Skipping (external apply — not on Naukri): {job_title}")
             driver.close()
             driver.switch_to.window(original_window)
             return False
@@ -546,8 +538,7 @@ def apply_to_job(driver, job_url, job_title, applied_log):
         return True
 
     except ElementClickInterceptedException:
-        log.warning(f"  Click blocked: {job_title}")
-        save_manual_job(job_url, job_title, "click_blocked")
+        log.info(f"  Skipping (click blocked): {job_title}")
         try:
             driver.close()
             driver.switch_to.window(original_window)
@@ -555,8 +546,7 @@ def apply_to_job(driver, job_url, job_title, applied_log):
             pass
         return False
     except Exception as e:
-        log.error(f"  Error applying to {job_title}: {e}")
-        save_manual_job(job_url, job_title, f"error: {str(e)[:50]}")
+        log.warning(f"  Skipping (error: {str(e)[:60]}): {job_title}")
         try:
             driver.close()
             driver.switch_to.window(original_window)
@@ -884,3 +874,4 @@ if __name__ == "__main__":
         while True:
             schedule.run_pending()
             time.sleep(30)
+

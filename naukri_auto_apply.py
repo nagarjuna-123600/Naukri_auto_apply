@@ -1175,7 +1175,185 @@ def run_agent():
         if not login(driver, CONFIG["email"], CONFIG["password"]):
             return
 
+        # ── DAILY PROFILE UPDATE — Rearrange skills to refresh timestamp ──
+        try:
+            log.info("\n" + "─" * 55)
+            log.info("  DAILY PROFILE UPDATE — Refreshing skills order")
+            log.info("─" * 55)
+
+            from datetime import date
+            day_number = date.today().toordinal()
+            is_odd_day = day_number % 2 == 1
+
+            skills_odd  = ["Python", "Java", "SQL", "Python Software Developer",
+                           "Python Automation Engineer", "Python Developer Intern"]
+            skills_even = ["Java", "SQL", "Python", "Python Developer Intern",
+                           "Python Software Developer", "Python Automation Engineer"]
+
+            skills_today = skills_odd if is_odd_day else skills_even
+            log.info(f"  Today's skill order: {skills_today}")
+
+            driver.get("https://www.naukri.com/mnjuser/profile?id=&altresid")
+            time.sleep(4)
+            dismiss_popups(driver)
+
+            SKILLS_EDIT_SELECTORS = [
+                "//div[contains(@class,'keySkills')]//span[contains(@class,'edit')]",
+                "//div[contains(@class,'key-skills')]//button",
+                "//section[contains(@class,'skill')]//span[@class='edit']",
+                "//*[contains(text(),'Key skills')]//following-sibling::*[contains(@class,'edit')]",
+                "//div[@class='widgetHead']//span[contains(@class,'edit') and ancestor::*[contains(.,'Key skills')]]",
+            ]
+
+            clicked = False
+            for sel in SKILLS_EDIT_SELECTORS:
+                try:
+                    btn = WebDriverWait(driver, 4).until(
+                        EC.element_to_be_clickable((By.XPATH, sel))
+                    )
+                    driver.execute_script("arguments[0].click();", btn)
+                    time.sleep(2)
+                    clicked = True
+                    log.info("  Opened Key Skills editor")
+                    break
+                except TimeoutException:
+                    continue
+
+            if clicked:
+                try:
+                    delete_btns = driver.find_elements(
+                        By.XPATH,
+                        "//*[contains(@class,'chip')]//span[contains(@class,'del') or contains(@class,'close') or contains(@class,'remove')]"
+                    )
+                    for btn in delete_btns:
+                        try:
+                            driver.execute_script("arguments[0].click();", btn)
+                            time.sleep(0.3)
+                        except Exception:
+                            pass
+                    time.sleep(1)
+                    log.info(f"  Cleared {len(delete_btns)} existing skills")
+                except Exception as e:
+                    log.warning(f"  Could not clear skills: {e}")
+
+                try:
+                    skill_input = WebDriverWait(driver, 5).until(
+                        EC.presence_of_element_located((By.XPATH,
+                            "//input[contains(@placeholder,'skill') or contains(@placeholder,'Skill')]"
+                        ))
+                    )
+                    for skill in skills_today:
+                        skill_input.clear()
+                        skill_input.send_keys(skill)
+                        time.sleep(0.8)
+                        try:
+                            suggestion = WebDriverWait(driver, 2).until(
+                                EC.element_to_be_clickable((By.XPATH,
+                                    f"//ul[contains(@class,'suggest')]//li[contains(text(),'{skill}')]"
+                                ))
+                            )
+                            suggestion.click()
+                        except TimeoutException:
+                            skill_input.send_keys(Keys.RETURN)
+                        time.sleep(0.5)
+                    log.info(f"  Added {len(skills_today)} skills")
+                except Exception as e:
+                    log.warning(f"  Could not add skills: {e}")
+
+                try:
+                    save_btn = WebDriverWait(driver, 5).until(
+                        EC.element_to_be_clickable((By.XPATH,
+                            "//button[contains(text(),'Save') or contains(text(),'Update')]"
+                        ))
+                    )
+                    driver.execute_script("arguments[0].click();", save_btn)
+                    time.sleep(2)
+                    log.info("  ✅ Profile skills updated — timestamp refreshed!")
+                except Exception as e:
+                    log.warning(f"  Could not save skills: {e}")
+            else:
+                log.warning("  Could not find Key Skills edit button — skipping")
+
+        except Exception as e:
+            log.warning(f"  Profile update failed (non-critical): {e}")
+        # ─────────────────────────────────────────────────────────────
+
         total_applied = 0
+
+        # ── SECTION 0: Newly Arrived Jobs & Internships ───────────
+        log.info("\n" + "█" * 55)
+        log.info("  SECTION 0 — Newly Arrived Jobs & Internships (Last 24 hrs)")
+        log.info("█" * 55)
+
+        for keyword in CONFIG["search_keywords"] + CONFIG["internship_keywords"]:
+            log.info(f"\n{'─'*50}")
+            log.info(f"New jobs keyword: {keyword}")
+
+            slug = keyword.lower().replace(" ", "-")
+            new_jobs_urls = [
+                f"https://www.naukri.com/{slug}-jobs-in-{CONFIG['location'].lower()}?jobAge=1&experience=0",
+                f"https://www.naukri.com/{slug}-jobs?jobAge=1&experience=0&wfhType=remote,hybrid",
+            ]
+
+            applied_this_round = 0
+
+            for search_url in new_jobs_urls:
+                try:
+                    driver.get(search_url)
+                    time.sleep(CONFIG["action_delay"])
+                    dismiss_popups(driver)
+
+                    for _ in range(3):
+                        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+                        time.sleep(1)
+
+                    cards = driver.find_elements(By.CLASS_NAME, "cust-job-tuple")
+                    log.info(f"  Found {len(cards)} new listings for '{keyword}'")
+
+                    for card in cards:
+                        if applied_this_round >= CONFIG["max_apply_per_search"]:
+                            break
+                        try:
+                            try:
+                                title_el = card.find_element(By.CLASS_NAME, "title")
+                            except NoSuchElementException:
+                                title_el = card.find_element(By.TAG_NAME, "a")
+
+                            job_title = title_el.text.strip()
+                            job_url   = (
+                                title_el.get_attribute("href")
+                                or card.find_element(By.TAG_NAME, "a").get_attribute("href")
+                            )
+                            if not job_title or not job_url:
+                                continue
+
+                            try:
+                                desc = card.find_element(By.CLASS_NAME, "job-description").text
+                            except NoSuchElementException:
+                                try:
+                                    desc = card.find_element(By.CLASS_NAME, "job-desc").text
+                                except NoSuchElementException:
+                                    desc = ""
+
+                            log.info(f"  [NEW] Checking: {job_title}")
+
+                            if is_matching_job(job_title, desc):
+                                success = apply_to_job(driver, job_url, job_title, applied_log)
+                                if success:
+                                    applied_this_round += 1
+                                    total_applied      += 1
+                                    save_applied(CONFIG["log_file"], applied_log)
+                                    time.sleep(CONFIG["action_delay"])
+
+                        except StaleElementReferenceException:
+                            continue
+                        except Exception as e:
+                            log.warning(f"  Skipping new job card: {e}")
+                            continue
+
+                except Exception as e:
+                    log.warning(f"  Error in new jobs search: {e}")
+                    continue
 
         # ── SECTION 1: Regular Jobs ───────────────────────────────
         log.info("\n" + "█" * 55)

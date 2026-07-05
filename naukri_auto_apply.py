@@ -1221,18 +1221,6 @@ def run_agent():
                     log.info(f"Checking: {job_title}")
 
                     if is_matching_job(job_title, desc):
-                        # Check location — if not Hyderabad, save only
-                        job_loc = get_job_location(card)
-                        if job_loc and "hyderabad" not in job_loc:
-                            log.info(f"  📍 Non-Hyderabad ({job_loc}) — saving on Naukri: {job_title}")
-                            save_job_on_naukri(driver, job_url, job_title)
-                        else:
-                            success = apply_to_job(driver, job_url, job_title, applied_log)
-                            if success:
-                                applied_this_round += 1
-                                total_applied      += 1
-                                save_applied(CONFIG["log_file"], applied_log)
-                                time.sleep(CONFIG["action_delay"])
                         success = apply_to_job(driver, job_url, job_title, applied_log)
                         if success:
                             applied_this_round += 1
@@ -1323,18 +1311,6 @@ def run_agent():
                     log.info(f"Checking internship: {job_title} | stipend text: '{stipend_text}'")
 
                     if is_matching_internship(job_title, desc, stipend_text):
-                        # Check location — if not Hyderabad, save only
-                        intern_loc = get_job_location(card)
-                        if intern_loc and "hyderabad" not in intern_loc:
-                            log.info(f"  📍 Non-Hyderabad internship ({intern_loc}) — saving on Naukri: {job_title}")
-                            save_job_on_naukri(driver, job_url, job_title)
-                        else:
-                            success = apply_to_job(driver, job_url, job_title, applied_log)
-                            if success:
-                                applied_this_round += 1
-                                total_applied      += 1
-                                save_applied(CONFIG["log_file"], applied_log)
-                                time.sleep(CONFIG["action_delay"])
                         success = apply_to_job(driver, job_url, job_title, applied_log)
                         if success:
                             applied_this_round += 1

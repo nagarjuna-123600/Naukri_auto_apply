@@ -519,12 +519,53 @@ def apply_to_job(driver, job_url, job_title, applied_log, save_if_redirected=Fal
 
         if is_external:
             if save_if_redirected:
+                # Save to manual log
                 save_manual_job(job_url, job_title, "external_redirect")
-                log.info(f"  📌 Saved (external redirect — Hyderabad job): {job_title}")
+                log.info(f"  📌 Saved to manual log (Hyderabad job): {job_title}")
+                # Also click Save on Naukri so it appears in saved jobs
+                try:
+                    driver.close()
+                    driver.switch_to.window(original_window)
+                    driver.execute_script(f"window.open('{job_url}', '_blank');")
+                    driver.switch_to.window(driver.window_handles[-1])
+                    time.sleep(3)
+                    dismiss_popups(driver)
+                    SAVE_BTN_XPATHS = [
+                        "//button[contains(text(),'Save')]",
+                        "//a[contains(text(),'Save')]",
+                        "//*[contains(@class,'save-job')]",
+                        "//*[contains(@class,'saveJob')]",
+                        "//*[@title='Save Job']",
+                        "//span[contains(text(),'Save')]",
+                    ]
+                    saved_on_naukri = False
+                    for sel in SAVE_BTN_XPATHS:
+                        try:
+                            btn = WebDriverWait(driver, 4).until(
+                                EC.element_to_be_clickable((By.XPATH, sel))
+                            )
+                            driver.execute_script("arguments[0].scrollIntoView(true);", btn)
+                            time.sleep(0.4)
+                            driver.execute_script("arguments[0].click();", btn)
+                            log.info(f"  💾 Saved on Naukri: {job_title}")
+                            saved_on_naukri = True
+                            break
+                        except TimeoutException:
+                            continue
+                    if not saved_on_naukri:
+                        log.warning(f"  Could not find Save button on Naukri: {job_title}")
+                except Exception as e:
+                    log.warning(f"  Error saving on Naukri: {e}")
+                finally:
+                    try:
+                        driver.close()
+                        driver.switch_to.window(original_window)
+                    except Exception:
+                        pass
             else:
                 log.info(f"  Skipping (external redirect — WFH job, not saving): {job_title}")
-            driver.close()
-            driver.switch_to.window(original_window)
+                driver.close()
+                driver.switch_to.window(original_window)
             return False
 
         dismiss_popups(driver)

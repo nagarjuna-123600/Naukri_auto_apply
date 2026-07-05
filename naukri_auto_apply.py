@@ -1399,6 +1399,11 @@ def run_agent():
                     log.info(f"Checking: {job_title}")
 
                     if is_matching_job(job_title, desc):
+                        # Skip non-Hyderabad jobs entirely
+                        job_loc = get_job_location(card)
+                        if job_loc and "hyderabad" not in job_loc:
+                            log.info(f"  ⏭️ Skipping non-Hyderabad ({job_loc}): {job_title}")
+                            continue
                         success = apply_to_job(driver, job_url, job_title, applied_log)
                         if success:
                             applied_this_round += 1
@@ -1489,6 +1494,11 @@ def run_agent():
                     log.info(f"Checking internship: {job_title} | stipend text: '{stipend_text}'")
 
                     if is_matching_internship(job_title, desc, stipend_text):
+                        # Skip non-Hyderabad internships entirely
+                        intern_loc = get_job_location(card)
+                        if intern_loc and "hyderabad" not in intern_loc:
+                            log.info(f"  ⏭️ Skipping non-Hyderabad internship ({intern_loc}): {job_title}")
+                            continue
                         success = apply_to_job(driver, job_url, job_title, applied_log)
                         if success:
                             applied_this_round += 1

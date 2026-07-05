@@ -431,7 +431,34 @@ def login(driver, email, password):
 # ═══════════════════════════════════════════════════════════════
 #  Apply to a single job
 # ═══════════════════════════════════════════════════════════════
-def apply_to_job(driver, job_url, job_title, applied_log):
+
+# ═══════════════════════════════════════════════════════════════
+#  Save jobs that can't be applied directly (Hyderabad only)
+# ═══════════════════════════════════════════════════════════════
+def save_manual_job(job_url, job_title, reason):
+    manual_log_path = "manual_apply_jobs.json"
+    try:
+        if os.path.exists(manual_log_path):
+            with open(manual_log_path) as f:
+                content = f.read().strip()
+                manual_log = json.loads(content) if content else {}
+        else:
+            manual_log = {}
+        if job_url not in manual_log:
+            manual_log[job_url] = {
+                "title":    job_title,
+                "reason":   reason,
+                "saved_at": datetime.now().isoformat(),
+                "url":      job_url,
+            }
+            with open(manual_log_path, "w") as f:
+                json.dump(manual_log, f, indent=2)
+            log.info(f"  📌 Saved for manual apply ({reason}): {job_title}")
+    except Exception as e:
+        log.warning(f"  Could not save manual job: {e}")
+
+
+def apply_to_job(driver, job_url, job_title, applied_log, save_if_redirected=False):
     if job_url in applied_log:
         log.info(f"  Already applied: {job_title}")
         return False
@@ -491,7 +518,11 @@ def apply_to_job(driver, job_url, job_title, applied_log):
             is_external = True
 
         if is_external:
-            log.info(f"  Skipping (external apply — not on Naukri): {job_title}")
+            if save_if_redirected:
+                save_manual_job(job_url, job_title, "external_redirect")
+                log.info(f"  📌 Saved (external redirect — Hyderabad job): {job_title}")
+            else:
+                log.info(f"  Skipping (external redirect — WFH job, not saving): {job_title}")
             driver.close()
             driver.switch_to.window(original_window)
             return False
@@ -633,7 +664,7 @@ def get_cards(driver, url):
     return cards
 
 
-def process_cards(driver, cards, applied_log, matcher_fn, section_label):
+def process_cards(driver, cards, applied_log, matcher_fn, section_label, save_if_redirected=False):
     """Process a list of job cards, apply if matching. Returns count applied."""
     count = 0
     for card in cards:
@@ -646,7 +677,7 @@ def process_cards(driver, cards, applied_log, matcher_fn, section_label):
             job_title, job_url, desc = info
             log.info(f"  [{section_label}] Checking: {job_title}")
             if matcher_fn(job_title, desc):
-                success = apply_to_job(driver, job_url, job_title, applied_log)
+                success = apply_to_job(driver, job_url, job_title, applied_log, save_if_redirected=save_if_redirected)
                 if success:
                     count += 1
                     save_applied(CONFIG["log_file"], applied_log)
@@ -692,7 +723,7 @@ def run_agent():
             url  = f"https://www.naukri.com/{slug}-jobs-in-{location}?jobAge=3&experience=0"
             cards = get_cards(driver, url)
             log.info(f"Found {len(cards)} listings")
-            n = process_cards(driver, cards, applied_log, is_matching_job, "S1")
+            n = process_cards(driver, cards, applied_log, is_matching_job, "S1", save_if_redirected=True)
             total_applied += n
 
         # ── SECTION 2: Internships — Hyderabad ────────────────────
@@ -728,7 +759,7 @@ def run_agent():
                             continue
                     log.info(f"  [S2] Checking internship: {job_title} | stipend: '{stipend_text}'")
                     if is_matching_internship(job_title, desc, stipend_text):
-                        success = apply_to_job(driver, job_url, job_title, applied_log)
+                        success = apply_to_job(driver, job_url, job_title, applied_log, save_if_redirected=True)
                         if success:
                             total_applied += 1
                             save_applied(CONFIG["log_file"], applied_log)
@@ -788,7 +819,7 @@ def run_agent():
                         pass
                     log.info(f"  [S4] Checking WFH internship: {job_title}")
                     if is_matching_internship(job_title, desc, stipend_text):
-                        success = apply_to_job(driver, job_url, job_title, applied_log)
+                        success = apply_to_job(driver, job_url, job_title, applied_log, save_if_redirected=True)
                         if success:
                             total_applied += 1
                             save_applied(CONFIG["log_file"], applied_log)
@@ -811,7 +842,7 @@ def run_agent():
             url  = f"https://www.naukri.com/{slug}-jobs-in-{location}?jobAge=1&experience=0"
             cards = get_cards(driver, url)
             log.info(f"Found {len(cards)} newly arrived listings")
-            n = process_cards(driver, cards, applied_log, is_matching_job, "S5-NEW")
+            n = process_cards(driver, cards, applied_log, is_matching_job, "S5-NEW", save_if_redirected=True)
             total_applied += n
 
     finally:

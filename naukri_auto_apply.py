@@ -78,6 +78,8 @@ CONFIG = {
         "Java Intern",
         "Python Intern",
         "SQL Intern",
+        "AIML Intern",
+        "Data Analyst",
     ],
     "min_stipend": 10000,   # ₹/month — skip internships below this
 
@@ -85,20 +87,54 @@ CONFIG = {
     "required_skills": [
         "java", "python", "sql", "mysql", "postgresql",
         "software engineer", "associate software engineer",
-        "customer software engineer",
+        "customer software engineer", "software developer",
+        # ── Frameworks/Tools
+        "langchain", "rag", "huggingface", "faiss", "streamlit",
+        # ── General IT fresher roles
+        "junior developer", "trainee", "intern", "fresher",
+        "java developer", "python developer", "sql developer",
+        # ── AI/ML roles
+        "ai", "ml", "machine learning", "deep learning",
+        "data analyst", "data science",
     ],
 
     # ── Title keywords that cause a job to be SKIPPED ───────────
     "exclude_keywords": [
+        # ── Experience level exclusions ──────────────────────────
         "senior", "lead", "manager", "architect",
-        "web developer", "frontend", "front-end", "front end",
-        "backend", "back-end", "back end",
-        "full stack", "fullstack", "full-stack",
+
+        # ── Role type exclusions ─────────────────────────────────
+        "web developer", "frontend developer", "front-end developer",
+        "backend developer", "back-end developer",
+        "full stack developer", "fullstack developer",
+
+        # ── Non-IT / Non-Tech role exclusions ────────────────────
+        "sales", "marketing", "hr ", "human resource", "recruiter",
+        "accountant", "accounting", "finance", "financial",
+        "content writer", "content writing", "copywriter",
+        "digital marketing", "seo", "social media",
+        "customer support", "customer care", "customer service",
+        "telecaller", "telesales", "bpo", "voice process",
+        "data entry", "back office", "back-office",
+        "field sales", "field executive", "field officer",
+        "civil engineer", "mechanical engineer", "electrical engineer",
+        "hardware engineer", "network engineer", "field engineer",
+        "teacher", "trainer", "faculty", "professor", "lecturer",
+        "doctor", "nurse", "pharmacist", "medical",
+        "legal", "lawyer", "advocate", "compliance",
+        "logistics", "supply chain", "warehouse", "delivery",
+        "chef", "cook", "hospitality", "hotel",
+        "graphic designer", "ui designer", "ux designer",
+        "interior designer", "fashion designer",
+        "business development", "bd executive",
+        "relationship manager", "bank", "banking",
+        "insurance", "loan", "investment",
+        "operations executive", "operations manager",
     ],
 
     # ── Application form answers ────────────────────────────────
     "current_ctc":        "3",    # in LPA (numeric string)
-    "expected_ctc":       "5",    # in LPA (numeric string)
+    "expected_ctc":       "3",    # in LPA (numeric string)
     "notice_period_days": 15,     # used to pick closest dropdown option
     # Cover letter — set to None or "" to auto-fill "No cover letter available"
     "cover_letter":       None,
@@ -158,30 +194,34 @@ def save_applied(path, data):
 def create_driver():
     options = webdriver.ChromeOptions()
 
-    # Detect if running on GitHub Actions / CI (no display available)
     is_ci = os.getenv("CI") == "true" or os.getenv("GITHUB_ACTIONS") == "true"
 
     if is_ci or CONFIG["headless"]:
-        # GitHub Actions / Linux server — must run headless, no display
         options.add_argument("--headless=new")
-        options.add_argument("--window-size=1280,900")
-        options.add_argument("--no-sandbox")               # required on Linux CI
-        options.add_argument("--disable-dev-shm-usage")    # prevents crashes on CI
-        options.add_argument("--disable-gpu")              # no GPU on CI servers
+        options.add_argument("--window-size=1920,1080")       # FIX 1: Full HD resolution
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--disable-gpu")
         options.add_argument("--disable-software-rasterizer")
         options.add_argument("--remote-debugging-port=9222")
         log.info("  [driver] Running in headless mode (CI/server detected)")
     else:
-        # Local laptop — show the browser window
         options.add_argument("--start-maximized")
         log.info("  [driver] Running in visible mode (local laptop)")
 
+    # ── FIX 1: Anti-headless detection flags ──────────────────────
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("--disable-notifications")
     options.add_argument("--disable-popup-blocking")
     options.add_argument("--disable-extensions")
     options.add_argument("--disable-infobars")
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_argument("--disable-web-security")
+    options.add_argument("--allow-running-insecure-content")
+    options.add_argument("--disable-features=IsolateOrigins,site-per-process")
+    options.add_argument("--lang=en-US,en;q=0.9")
+
+    # ── FIX 2: Stealth mode — make Chrome look like real browser ──
+    options.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])
     options.add_experimental_option("useAutomationExtension", False)
     options.add_argument(
         "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -191,10 +231,27 @@ def create_driver():
 
     service = Service(ChromeDriverManager().install())
     driver  = webdriver.Chrome(service=service, options=options)
-    driver.execute_script(
-        "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-    )
+
+    # ── FIX 3: Override webdriver detection via JS ─────────────────
+    stealth_js = """
+        Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+        Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]});
+        Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']});
+        Object.defineProperty(navigator, 'platform', {get: () => 'Win32'});
+        window.chrome = {runtime: {}};
+        Object.defineProperty(navigator, 'permissions', {
+            query: (parameters) => (
+                parameters.name === 'notifications' ?
+                Promise.resolve({state: Notification.permission}) :
+                originalQuery(parameters)
+            )
+        });
+    """
+    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {"source": stealth_js})
+    driver.set_page_load_timeout(30)   # FIX 3: Longer page load timeout
+    driver.implicitly_wait(5)          # FIX 3: Implicit wait for elements
     return driver
+
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -505,23 +562,93 @@ def handle_application_form(driver):
 
 
 # ═══════════════════════════════════════════════════════════════
+#  Cookie-based login
+# ═══════════════════════════════════════════════════════════════
+def login_with_cookies(driver):
+    """Try to login using saved cookies. Returns True if successful."""
+    cookies_json = os.environ.get("NAUKRI_COOKIES", "")
+    if not cookies_json:
+        log.info("No NAUKRI_COOKIES found — skipping cookie login")
+        return False
+
+    try:
+        cookies = json.loads(cookies_json)
+        log.info(f"Loading {len(cookies)} cookies...")
+
+        # First visit naukri.com to set domain
+        driver.get("https://www.naukri.com")
+        time.sleep(3)
+
+        # Clear existing cookies
+        driver.delete_all_cookies()
+
+        # Add all cookies
+        for cookie in cookies:
+            try:
+                c = {
+                    "name":   cookie["name"],
+                    "value":  cookie["value"],
+                    "domain": cookie.get("domain", ".naukri.com"),
+                    "path":   cookie.get("path", "/"),
+                    "secure": cookie.get("secure", False),
+                }
+                if "expirationDate" in cookie and not cookie.get("session", False):
+                    c["expiry"] = int(cookie["expirationDate"])
+                driver.add_cookie(c)
+            except Exception as e:
+                log.debug(f"  Skipping cookie {cookie.get('name')}: {e}")
+                continue
+
+        # Refresh to apply cookies
+        driver.get("https://www.naukri.com/mnjuser/homepage")
+        time.sleep(4)
+        dismiss_popups(driver)
+
+        # Check if logged in
+        if "homepage" in driver.current_url or "mnjuser" in driver.current_url:
+            log.info("✅ Cookie login successful!")
+            return True
+        else:
+            log.warning("Cookie login failed — will try email/password")
+            return False
+
+    except Exception as e:
+        log.error(f"Cookie login error: {e}")
+        return False
+
+
+# ═══════════════════════════════════════════════════════════════
 #  Login
 # ═══════════════════════════════════════════════════════════════
 def login(driver, email, password):
-    log.info("Opening Naukri login page...")
+    # Try cookie login first
+    if login_with_cookies(driver):
+        return True
+
+    # Fallback to email/password login
+    log.info("Trying email/password login...")
     driver.get("https://www.naukri.com/nlogin/login")
-    wait = WebDriverWait(driver, 15)
+    wait = WebDriverWait(driver, 20)
+    time.sleep(5)
 
     try:
-        email_field = wait.until(EC.presence_of_element_located((By.ID, "usernameField")))
+        email_field = wait.until(EC.element_to_be_clickable((By.ID, "usernameField")))
+        driver.execute_script("arguments[0].click();", email_field)
+        time.sleep(0.5)
         email_field.clear()
-        email_field.send_keys(email)
-        time.sleep(0.5)
+        for char in email:
+            email_field.send_keys(char)
+            time.sleep(0.05)
+        time.sleep(1)
 
-        pwd_field = driver.find_element(By.ID, "passwordField")
-        pwd_field.clear()
-        pwd_field.send_keys(password)
+        pwd_field = wait.until(EC.element_to_be_clickable((By.ID, "passwordField")))
+        driver.execute_script("arguments[0].click();", pwd_field)
         time.sleep(0.5)
+        pwd_field.clear()
+        for char in password:
+            pwd_field.send_keys(char)
+            time.sleep(0.05)
+        time.sleep(1)
 
         login_btn = driver.find_element(By.XPATH, "//button[@type='submit']")
         login_btn.click()
@@ -745,9 +872,10 @@ def save_job_on_naukri(driver, job_url, job_title):
     original = driver.current_window_handle
     driver.execute_script(f"window.open('{job_url}', '_blank');")
     driver.switch_to.window(driver.window_handles[-1])
-    time.sleep(2)
+    time.sleep(4)   # FIX: longer wait for page to load on server
     try:
         dismiss_popups(driver)
+        time.sleep(2)  # FIX: extra wait after popup dismiss
         SAVE_SELECTORS = [
             "//button[contains(text(),'Save')]",
             "//a[contains(text(),'Save')]",
@@ -755,18 +883,26 @@ def save_job_on_naukri(driver, job_url, job_title):
             "//*[contains(@class,'saveJob')]",
             "//*[@title='Save Job']",
             "//span[contains(text(),'Save')]",
+            "//*[contains(@class,'job-header')]//button[contains(text(),'Save')]",
+            "//*[contains(@data-ga-track,'Save')]",
         ]
+        saved = False
         for sel in SAVE_SELECTORS:
             try:
-                btn = WebDriverWait(driver, 3).until(
+                btn = WebDriverWait(driver, 5).until(   # FIX: longer timeout
                     EC.element_to_be_clickable((By.XPATH, sel))
                 )
-                driver.execute_script("arguments[0].click();", btn)
+                driver.execute_script("arguments[0].scrollIntoView(true);", btn)
                 time.sleep(0.5)
+                driver.execute_script("arguments[0].click();", btn)
+                time.sleep(1)
                 log.info(f"  💾 Saved on Naukri (non-Hyderabad): {job_title}")
+                saved = True
                 break
             except TimeoutException:
                 continue
+        if not saved:
+            log.warning(f"  ⚠️ Could not find Save button: {job_title}")
     except Exception as e:
         log.warning(f"  Could not save on Naukri: {e}")
     finally:
@@ -853,14 +989,40 @@ def apply_to_job(driver, job_url, job_title, applied_log):
                 continue
 
         if not apply_btn:
-            log.warning(f"  No Apply button found: {job_title}")
+            log.warning(f"  No Apply button found — saving on Naukri: {job_title}")
+            save_manual_job(job_url, job_title, "no_apply_button")
+            try:
+                SAVE_SELECTORS = [
+                    "//button[contains(text(),'Save')]",
+                    "//*[contains(@class,'save-job')]",
+                    "//*[contains(@class,'saveJob')]",
+                    "//*[@title='Save Job']",
+                ]
+                for sel in SAVE_SELECTORS:
+                    try:
+                        btn = WebDriverWait(driver, 3).until(
+                            EC.element_to_be_clickable((By.XPATH, sel))
+                        )
+                        driver.execute_script("arguments[0].click();", btn)
+                        log.info(f"  💾 Saved on Naukri (no apply button): {job_title}")
+                        break
+                    except TimeoutException:
+                        continue
+            except Exception:
+                pass
             driver.close()
             driver.switch_to.window(original_window)
             return False
 
-        driver.execute_script("arguments[0].scrollIntoView(true);", apply_btn)
-        time.sleep(0.4)
-        apply_btn.click()
+        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", apply_btn)
+        time.sleep(1)
+        dismiss_popups(driver)  # dismiss any popup covering the button
+        time.sleep(0.5)
+        try:
+            apply_btn.click()
+        except ElementClickInterceptedException:
+            # fallback to JS click
+            driver.execute_script("arguments[0].click();", apply_btn)
         log.info(f"  Clicked Apply: {job_title}")
         time.sleep(1.5)
 
@@ -940,13 +1102,54 @@ def apply_to_job(driver, job_url, job_title, applied_log):
         return True
 
     except ElementClickInterceptedException:
-        log.warning(f"  Click blocked (external link or already applied): {job_title}")
+        log.warning(f"  Click blocked — saving on Naukri: {job_title}")
+        try:
+            # Save on Naukri since we couldn't apply directly
+            SAVE_SELECTORS = [
+                "//button[contains(text(),'Save')]",
+                "//a[contains(text(),'Save')]",
+                "//*[contains(@class,'save-job')]",
+                "//*[contains(@class,'saveJob')]",
+                "//*[@title='Save Job']",
+                "//span[contains(text(),'Save')]",
+            ]
+            for sel in SAVE_SELECTORS:
+                try:
+                    btn = WebDriverWait(driver, 3).until(
+                        EC.element_to_be_clickable((By.XPATH, sel))
+                    )
+                    driver.execute_script("arguments[0].click();", btn)
+                    log.info(f"  💾 Saved on Naukri (apply failed): {job_title}")
+                    break
+                except TimeoutException:
+                    continue
+        except Exception:
+            pass
+        save_manual_job(job_url, job_title, "click_blocked")
         driver.close()
         driver.switch_to.window(original_window)
         return False
     except Exception as e:
         log.error(f"  Error applying to {job_title}: {e}")
         try:
+            # Try to save on Naukri even if apply failed
+            SAVE_SELECTORS = [
+                "//button[contains(text(),'Save')]",
+                "//*[contains(@class,'save-job')]",
+                "//*[contains(@class,'saveJob')]",
+                "//*[@title='Save Job']",
+            ]
+            for sel in SAVE_SELECTORS:
+                try:
+                    btn = WebDriverWait(driver, 2).until(
+                        EC.element_to_be_clickable((By.XPATH, sel))
+                    )
+                    driver.execute_script("arguments[0].click();", btn)
+                    log.info(f"  💾 Saved on Naukri (error fallback): {job_title}")
+                    break
+                except TimeoutException:
+                    continue
+            save_manual_job(job_url, job_title, f"error: {str(e)[:50]}")
             driver.close()
             driver.switch_to.window(original_window)
         except Exception:
@@ -1030,6 +1233,12 @@ def run_agent():
                                 total_applied      += 1
                                 save_applied(CONFIG["log_file"], applied_log)
                                 time.sleep(CONFIG["action_delay"])
+                        success = apply_to_job(driver, job_url, job_title, applied_log)
+                        if success:
+                            applied_this_round += 1
+                            total_applied      += 1
+                            save_applied(CONFIG["log_file"], applied_log)
+                            time.sleep(CONFIG["action_delay"])
 
                 except StaleElementReferenceException:
                     log.warning("  Card became stale — skipping")
@@ -1126,6 +1335,12 @@ def run_agent():
                                 total_applied      += 1
                                 save_applied(CONFIG["log_file"], applied_log)
                                 time.sleep(CONFIG["action_delay"])
+                        success = apply_to_job(driver, job_url, job_title, applied_log)
+                        if success:
+                            applied_this_round += 1
+                            total_applied      += 1
+                            save_applied(CONFIG["log_file"], applied_log)
+                            time.sleep(CONFIG["action_delay"])
 
                 except StaleElementReferenceException:
                     log.warning("  Card became stale — skipping")

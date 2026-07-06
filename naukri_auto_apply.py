@@ -999,6 +999,27 @@ def apply_to_job(driver, job_url, job_title, applied_log):
             driver.switch_to.window(original_window)
             return False
 
+        # ── Skill check on FULL job page (not just card snippet) ─────
+        try:
+            full_text = driver.find_element(By.TAG_NAME, "body").text.lower()
+        except Exception:
+            full_text = job_title.lower()
+
+        skill_found = any(
+            skill.lower() in full_text
+            for skill in CONFIG["required_skills"]
+        )
+        excluded = any(
+            ex.lower() in job_title.lower()
+            for ex in CONFIG["exclude_keywords"]
+        )
+        if not skill_found or excluded:
+            reason = "excluded keyword" if excluded else "no required skill on page"
+            log.info(f"  Skipping ({reason}): {job_title}")
+            driver.close()
+            driver.switch_to.window(original_window)
+            return False
+
         # ── Save job on Naukri first ─────────────────────────────────
         try:
             save_selectors = [

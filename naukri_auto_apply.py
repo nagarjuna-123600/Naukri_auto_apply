@@ -929,6 +929,53 @@ def save_job_on_naukri(driver, job_url, job_title):
         log.info(f"  📌 Saved for manual apply ({reason}): {job_title}")
 
 
+
+# ═══════════════════════════════════════════════════════════════
+#  Location verifier — reads actual job page location
+#  Returns True only if job is in Hyderabad or WFH/Remote
+# ═══════════════════════════════════════════════════════════════
+def is_valid_location(driver):
+    """
+    Reads the actual location shown on the job detail page.
+    Returns True if location is Hyderabad or WFH/Remote/Hybrid.
+    Returns False for any other city (Jaipur, Mumbai, Kolkata etc).
+    """
+    ALLOWED = ["hyderabad", "work from home", "remote", "hybrid", "wfh", "telangana"]
+    try:
+        # Try multiple selectors Naukri uses for location
+        location_selectors = [
+            "//*[contains(@class,'location')]",
+            "//*[contains(@class,'loc')]",
+            "//*[@data-qa='job-location']",
+            "//span[contains(@class,'ni-job-tuple-icon-srp-loc')]",
+            "//*[contains(@class,'job-loc')]",
+            "//span[contains(@class,'locWrapper')]",
+        ]
+        for sel in location_selectors:
+            try:
+                els = driver.find_elements(By.XPATH, sel)
+                for el in els:
+                    loc_text = el.text.strip().lower()
+                    if not loc_text:
+                        continue
+                    # If any allowed location keyword found → valid
+                    if any(a in loc_text for a in ALLOWED):
+                        log.info(f"  [location] ✅ Valid location: {el.text.strip()}")
+                        return True
+                    # If location text is non-empty and no match → invalid
+                    if len(loc_text) > 2:
+                        log.info(f"  [location] ❌ Wrong location: {el.text.strip()} — skipping")
+                        return False
+            except Exception:
+                continue
+        # If can't read location, allow it (don't block on uncertainty)
+        log.info("  [location] Could not read location — allowing")
+        return True
+    except Exception as e:
+        log.warning(f"  [location] Error checking location: {e}")
+        return True
+
+
 def apply_to_job(driver, job_url, job_title, applied_log):
     if job_url in applied_log:
         log.info(f"  Already applied: {job_title}")
@@ -944,6 +991,13 @@ def apply_to_job(driver, job_url, job_title, applied_log):
     try:
         # Clear any popup before looking for Apply button
         dismiss_popups(driver)
+
+        # ── Location check FIRST — skip if not Hyderabad or WFH ────────
+        if not is_valid_location(driver):
+            log.info(f"  Skipping (wrong location — not Hyderabad/WFH): {job_title}")
+            driver.close()
+            driver.switch_to.window(original_window)
+            return False
 
         # ── Save job on Naukri first ─────────────────────────────────
         try:

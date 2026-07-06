@@ -722,6 +722,28 @@ def is_matching_job(title, description):
     title_lower = title.lower()
     desc_lower  = description.lower()
 
+    # ── STRICT IT-ONLY FILTER ─────────────────────────────────────
+    # Job title MUST contain at least one IT-related keyword
+    IT_TITLE_KEYWORDS = [
+        "software", "developer", "engineer", "programmer", "coder",
+        "java", "python", "sql", "data", "analyst", "ml", "ai",
+        "machine learning", "artificial intelligence", "deep learning",
+        "nlp", "langchain", "rag", "streamlit", "cloud", "devops",
+        "fullstack", "backend", "frontend", "web", "mobile", "app",
+        "database", "dbms", "mysql", "postgresql", "mongodb",
+        "it ", "information technology", "computer", "tech",
+        "intern", "trainee", "fresher", "associate", "junior",
+        "automation", "testing", "qa", "quality assurance",
+        "cybersecurity", "network", "system", "linux", "windows",
+        "api", "rest", "aws", "azure", "gcp", "docker", "kubernetes",
+    ]
+
+    it_match = any(kw in title_lower for kw in IT_TITLE_KEYWORDS)
+    if not it_match:
+        log.info(f"  Skipping (not an IT job): {title}")
+        return False
+    # ─────────────────────────────────────────────────────────────
+
     for ex in CONFIG["exclude_keywords"]:
         if ex.lower() in title_lower:
             log.info(f"  Skipping (excluded keyword '{ex}'): {title}")
@@ -838,6 +860,26 @@ def extract_stipend(text):
 def is_matching_internship(title, description, stipend_text):
     title_lower = title.lower()
     desc_lower  = description.lower()
+
+    # ── STRICT IT-ONLY FILTER ─────────────────────────────────────
+    IT_TITLE_KEYWORDS = [
+        "software", "developer", "engineer", "programmer", "coder",
+        "java", "python", "sql", "data", "analyst", "ml", "ai",
+        "machine learning", "artificial intelligence", "deep learning",
+        "nlp", "langchain", "rag", "streamlit", "cloud", "devops",
+        "fullstack", "backend", "frontend", "web", "mobile", "app",
+        "database", "dbms", "mysql", "postgresql", "mongodb",
+        "it ", "information technology", "computer", "tech",
+        "intern", "trainee", "fresher", "associate", "junior",
+        "automation", "testing", "qa", "quality assurance",
+        "cybersecurity", "network", "system", "linux", "windows",
+        "api", "rest", "aws", "azure", "gcp", "docker", "kubernetes",
+    ]
+    it_match = any(kw in title_lower for kw in IT_TITLE_KEYWORDS)
+    if not it_match:
+        log.info(f"  Skipping internship (not an IT role): {title}")
+        return False
+    # ─────────────────────────────────────────────────────────────
 
     # Apply if at least ONE skill from required_skills matches
     skill_match = any(

@@ -84,18 +84,25 @@ CONFIG = {
     "min_stipend": 10000,   # ₹/month — skip internships below this
 
     # ── Skill filter (any one match = consider applying) ────────
-    "required_skills": [
+        "required_skills": [
+        # Core IT/Dev roles
         "java", "python", "sql", "mysql", "postgresql",
         "software engineer", "associate software engineer",
         "customer software engineer", "software developer",
-        # ── Frameworks/Tools
-        "langchain", "rag", "huggingface", "faiss", "streamlit",
-        # ── General IT fresher roles
-        "junior developer", "trainee", "intern", "fresher",
         "java developer", "python developer", "sql developer",
-        # ── AI/ML roles
-        "ai", "ml", "machine learning", "deep learning",
+        "junior developer",
+        # Frameworks/Tools
+        "langchain", "rag", "huggingface", "faiss", "streamlit",
+        # AI/ML specific
+        "machine learning", "deep learning",
+        "artificial intelligence", "natural language processing", "nlp",
+        # Data
         "data analyst", "data science",
+        # IT-specific fresher/intern/trainee (not generic ones)
+        "it fresher", "software fresher", "tech fresher",
+        "it trainee", "software trainee", "developer trainee",
+        "it intern", "software intern", "developer intern",
+        "computer science", "information technology",
     ],
 
     # ── Title keywords that cause a job to be SKIPPED ───────────
@@ -130,6 +137,13 @@ CONFIG = {
         "relationship manager", "bank", "banking",
         "insurance", "loan", "investment",
         "operations executive", "operations manager",
+        "electronics engineer", "electronics technician",
+        "chemical engineer", "biotech", "biotechnology",
+        "automobile", "automotive", "instrumentation",
+        "production engineer", "manufacturing engineer",
+        "mechanical", "electrical maintenance", "plumber",
+        "welding", "fitter", "quality control", "qa engineer",
+        "embedded", "vlsi", "iot engineer",
     ],
 
     # ── Application form answers ────────────────────────────────
@@ -1013,8 +1027,17 @@ def apply_to_job(driver, job_url, job_title, applied_log):
             ex.lower() in job_title.lower()
             for ex in CONFIG["exclude_keywords"]
         )
-        if not skill_found or excluded:
-            reason = "excluded keyword" if excluded else "no required skill on page"
+        # Also check full page for non-IT role signals
+        non_it_signals = [
+            "mechanical engineer", "electrical engineer", "electronics engineer",
+            "civil engineer", "chemical engineer", "automobile engineer",
+            "production engineer", "manufacturing engineer", "instrumentation",
+            "hardware engineer", "biotech", "vlsi", "embedded systems",
+            "electrical maintenance", "plumber", "fitter", "welding",
+        ]
+        non_it_found = any(s in full_text for s in non_it_signals)
+        if not skill_found or excluded or non_it_found:
+            reason = "excluded keyword" if excluded else ("non-IT role" if non_it_found else "no required skill on page")
             log.info(f"  Skipping ({reason}): {job_title}")
             driver.close()
             driver.switch_to.window(original_window)

@@ -866,14 +866,10 @@ def is_matching_internship(title, description, stipend_text):
         "software", "developer", "engineer", "programmer", "coder",
         "java", "python", "sql", "data", "analyst", "ml", "ai",
         "machine learning", "artificial intelligence", "deep learning",
-        "nlp", "langchain", "rag", "streamlit", "cloud", "devops",
-        "fullstack", "backend", "frontend", "web", "mobile", "app",
-        "database", "dbms", "mysql", "postgresql", "mongodb",
-        "it ", "information technology", "computer", "tech",
-        "intern", "trainee", "fresher", "associate", "junior",
-        "automation", "testing", "qa", "quality assurance",
-        "cybersecurity", "network", "system", "linux", "windows",
-        "api", "rest", "aws", "azure", "gcp", "docker", "kubernetes",
+        "nlp", "langchain", "rag", "streamlit","database", "dbms", 
+        "mysql", "postgresql", "mongodb","it ", "information technology", 
+        "computer", "tech","intern", "trainee", "fresher", "associate", "junior",
+        "automation", "testing", "qa", "quality assurance","api",
     ]
     it_match = any(kw in title_lower for kw in IT_TITLE_KEYWORDS)
     if not it_match:

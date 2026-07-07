@@ -92,7 +92,7 @@ CONFIG = {
         "java developer", "python developer", "sql developer",
         "junior developer",
         # Frameworks/Tools
-        "langchain", "rag", "huggingface", "faiss", "streamlit",
+        "langchain","rag","hugging","faiss","streamlit",
         # AI/ML specific
         "machine learning", "deep learning",
         "artificial intelligence", "natural language processing", "nlp",
@@ -113,7 +113,7 @@ CONFIG = {
         # ── Role type exclusions ─────────────────────────────────
         "web developer", "frontend developer", "front-end developer",
         "backend developer", "back-end developer",
-        "full stack developer", "fullstack developer",
+        "full stack developer", "fullstack developer","react",
 
         # ── Non-IT / Non-Tech role exclusions ────────────────────
         "sales", "marketing", "hr ", "human resource", "recruiter",

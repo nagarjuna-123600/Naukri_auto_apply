@@ -693,7 +693,7 @@ def search_jobs(driver, keyword, location):
     # No experience filter — get all fresher jobs (min exp = 0, any max)
     url = (
         f"https://www.naukri.com/{keyword.lower().replace(' ', '-')}-jobs-in-"
-        f"{location.lower()}?experience=0"
+        f"{location.lower()}?jobAge=30&experience=0"
     )
     driver.get(url)
     time.sleep(CONFIG["action_delay"])
@@ -776,12 +776,12 @@ def search_internships(driver, keyword, location):
     loc     = location.lower().replace(" ", "-")
     url     = (
         f"https://www.naukri.com/internship/{slug}-internship-in-{loc}"
-        f""
+        f"?jobAge=30"
     )
     # Fallback URL using main search with "internship" appended
     url_alt = (
         f"https://www.naukri.com/{slug}-internship-jobs-in-{loc}"
-        f"?jobtype=Internship"
+        f"?jobtype=Internship&jobAge=30"
     )
 
     driver.get(url)
@@ -1674,7 +1674,7 @@ def run_agent():
 
             wfh_url = (
                 f"https://www.naukri.com/{keyword.lower().replace(' ', '-')}-jobs?"
-                f"experience=0&wfhType=remote,hybrid"
+                f"jobAge=30&experience=0&wfhType=remote,hybrid"
             )
             driver.get(wfh_url)
             time.sleep(CONFIG["action_delay"])
@@ -1746,8 +1746,8 @@ def run_agent():
 
             slug = keyword.lower().replace(" ", "-")
             wfh_intern_urls = [
-                f"https://www.naukri.com/internship/{slug}-internship?wfhType=remote,hybrid",
-                f"https://www.naukri.com/{slug}-internship-jobs?jobtype=Internship&wfhType=remote,hybrid",
+                f"https://www.naukri.com/internship/{slug}-internship?wfhType=remote,hybrid&jobAge=30",
+                f"https://www.naukri.com/{slug}-internship-jobs?jobtype=Internship&wfhType=remote,hybrid&jobAge=30",
             ]
 
             cards = []

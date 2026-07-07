@@ -11,7 +11,6 @@ permissions:
 jobs:
   apply-jobs:
     runs-on: ubuntu-latest
-    timeout-minutes: 90      # kill job if it runs more than 90 minutes
 
     steps:
       - name: Checkout repo
@@ -37,7 +36,6 @@ jobs:
           [ -s manual_apply_jobs.json ] || echo "{}" > manual_apply_jobs.json
 
       - name: Run Naukri bot
-        timeout-minutes: 80
         env:
           NAUKRI_EMAIL: ${{ secrets.NAUKRI_EMAIL }}
           NAUKRI_PASSWORD: ${{ secrets.NAUKRI_PASSWORD }}

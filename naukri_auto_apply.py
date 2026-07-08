@@ -121,8 +121,7 @@ CONFIG = {
         "content writer", "content writing", "copywriter",
         "digital marketing", "seo", "social media",
         "customer support", "customer care", "customer service",
-        "telecaller", "telesales", "bpo", "voice process",
-        "data entry", "back office", "back-office",
+        "telecaller", "telesales", "bpo", "voice process","back office", "back-office",
         "field sales", "field executive", "field officer",
         "civil engineer", "mechanical engineer", "electrical engineer",
         "hardware engineer", "network engineer", "field engineer",
@@ -728,14 +727,11 @@ def is_matching_job(title, description):
         "software", "developer", "engineer", "programmer", "coder",
         "java", "python", "sql", "data", "analyst", "ml", "ai",
         "machine learning", "artificial intelligence", "deep learning",
-        "nlp", "langchain", "rag", "streamlit", "cloud", "devops",
-        "fullstack", "backend", "frontend", "web", "mobile", "app",
+        "nlp", "langchain", "rag", "streamlit",
         "database", "dbms", "mysql", "postgresql", "mongodb",
         "it ", "information technology", "computer", "tech",
         "intern", "trainee", "fresher", "associate", "junior",
-        "automation", "testing", "qa", "quality assurance",
-        "cybersecurity", "network", "system", "linux", "windows",
-        "api", "rest", "aws", "azure", "gcp", "docker", "kubernetes",
+        "automation", "testing", "qa", "quality assurance","api",
     ]
 
     it_match = any(kw in title_lower for kw in IT_TITLE_KEYWORDS)

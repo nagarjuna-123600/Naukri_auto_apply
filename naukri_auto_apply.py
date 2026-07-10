@@ -1487,21 +1487,36 @@ def run_agent():
 
                 # ── Step 3: Type and add new skills ──
                 try:
+                    # Wait for any modal/dialog to fully load
+                    time.sleep(2)
                     SKILL_INPUT_SELECTORS = [
                         "//input[contains(@placeholder,'skill') or contains(@placeholder,'Skill')]",
                         "//input[contains(@placeholder,'Add skill')]",
+                        "//input[contains(@placeholder,'Type')]",
+                        "//input[contains(@placeholder,'Enter')]",
+                        "//input[contains(@placeholder,'Search')]",
                         "//input[contains(@class,'skill')]",
+                        "//input[contains(@class,'Skill')]",
                         "//div[contains(@class,'skill')]//input",
-                        "//input[@type='text'][last()]",
+                        "//div[contains(@class,'Skill')]//input",
+                        "//div[contains(@class,'modal')]//input[@type='text']",
+                        "//div[contains(@class,'popup')]//input[@type='text']",
+                        "//div[contains(@class,'dialog')]//input[@type='text']",
+                        # Last resort — any visible text input on page
+                        "//input[@type='text' and not(@readonly) and not(@disabled)]",
                     ]
                     skill_input = None
                     for inp_sel in SKILL_INPUT_SELECTORS:
                         try:
-                            skill_input = WebDriverWait(driver, 4).until(
-                                EC.element_to_be_clickable((By.XPATH, inp_sel))
-                            )
-                            break
-                        except TimeoutException:
+                            els = driver.find_elements(By.XPATH, inp_sel)
+                            for el in els:
+                                if el.is_displayed() and el.is_enabled():
+                                    skill_input = el
+                                    log.info(f"  Found skill input via: {inp_sel[:60]}")
+                                    break
+                            if skill_input:
+                                break
+                        except Exception:
                             continue
 
                     if skill_input:

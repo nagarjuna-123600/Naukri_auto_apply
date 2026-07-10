@@ -1344,64 +1344,115 @@ def run_agent():
             dismiss_popups(driver)
             time.sleep(2)
 
-            # ── Step 1: Find and click Key Skills edit button ──
-            SKILLS_EDIT_SELECTORS = [
-                # Naukri 2025+ UI
+            # ── Step 1: Find Key Skills section, hover to reveal edit button, click ──
+            from selenium.webdriver.common.action_chains import ActionChains
+
+            # Selectors for the KEY SKILLS SECTION CONTAINER (to hover over)
+            SKILLS_SECTION_SELECTORS = [
+                "//div[contains(@class,'keySkill')]",
+                "//div[contains(@class,'key-skills')]",
+                "//section[contains(@class,'skill')]",
+                "//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'key skills')]/ancestor::div[contains(@class,'widget')][1]",
+                "//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'key skills')]/ancestor::section[1]",
+                "//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'key skills')]/parent::*",
+            ]
+
+            # Selectors for the EDIT BUTTON (after hover)
+            EDIT_BTN_SELECTORS = [
                 "//div[contains(@class,'keySkill')]//span[contains(@class,'edit')]",
-                "//div[contains(@class,'keySkill')]//button[contains(@class,'edit')]",
+                "//div[contains(@class,'keySkill')]//button",
                 "//div[contains(@class,'key-skills')]//span[contains(@class,'edit')]",
-                # Generic edit icon near skills text
                 "//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'key skills')]/following::span[contains(@class,'edit')][1]",
                 "//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'key skills')]/following::button[1]",
-                # Widget head pencil icons
-                "//div[contains(@class,'widgetHead') and .//*[contains(text(),'skill')]]//span[contains(@class,'edit')]",
-                "//div[contains(@class,'widgetHead') and .//*[contains(text(),'skill')]]//i[contains(@class,'edit')]",
-                # SVG pencil icon near skills
-                "//*[contains(@class,'skill')]//svg/..",
-                # Data-ga or data-testid
+                "//div[contains(@class,'widgetHead')]//span[contains(@class,'edit')]",
                 "//*[@data-ga-track='Key Skills-edit']",
                 "//*[@data-testid='key-skills-edit']",
             ]
 
             clicked = False
-            for sel in SKILLS_EDIT_SELECTORS:
+            actions = ActionChains(driver)
+
+            # Method 1: Hover over section → reveal edit → click
+            for sec_sel in SKILLS_SECTION_SELECTORS:
                 try:
-                    btn = WebDriverWait(driver, 3).until(
-                        EC.element_to_be_clickable((By.XPATH, sel))
-                    )
-                    driver.execute_script("arguments[0].scrollIntoView(true);", btn)
+                    section = driver.find_element(By.XPATH, sec_sel)
+                    driver.execute_script("arguments[0].scrollIntoView(true);", section)
                     time.sleep(0.5)
-                    driver.execute_script("arguments[0].click();", btn)
-                    time.sleep(2)
-                    clicked = True
-                    log.info(f"  ✅ Opened Key Skills editor (selector: {sel[:50]})")
-                    break
-                except (TimeoutException, Exception):
+                    # Hover to reveal hidden edit button
+                    actions.move_to_element(section).perform()
+                    time.sleep(1)
+                    # Now try to click edit button
+                    for edit_sel in EDIT_BTN_SELECTORS:
+                        try:
+                            btn = driver.find_element(By.XPATH, edit_sel)
+                            # Make it visible via JS even if CSS hidden
+                            driver.execute_script("arguments[0].style.display='block'; arguments[0].style.visibility='visible';", btn)
+                            time.sleep(0.3)
+                            driver.execute_script("arguments[0].click();", btn)
+                            time.sleep(2)
+                            # Verify editor opened by checking for input field
+                            inputs = driver.find_elements(By.XPATH, "//input[contains(@placeholder,'kill') or contains(@placeholder,'skill')]")
+                            if inputs:
+                                clicked = True
+                                log.info(f"  ✅ Opened Key Skills editor via hover+click")
+                                break
+                        except Exception:
+                            continue
+                    if clicked:
+                        break
+                except Exception:
                     continue
 
+            # Method 2: JS force-click all possible edit buttons near skills
             if not clicked:
-                # Last resort: find all edit icons on page and click the one near skills
                 try:
-                    all_edits = driver.find_elements(By.XPATH,
-                        "//*[contains(@class,'edit') or contains(@class,'pencil')]"
-                    )
-                    page_text = driver.page_source.lower()
-                    if 'key skills' in page_text or 'keyskills' in page_text:
-                        for el in all_edits:
-                            try:
-                                if el.is_displayed():
-                                    driver.execute_script("arguments[0].click();", el)
-                                    time.sleep(1.5)
-                                    # Check if skill input appeared
-                                    inputs = driver.find_elements(By.XPATH,
-                                        "//input[contains(@placeholder,'kill')]"
-                                    )
-                                    if inputs:
-                                        clicked = True
-                                        log.info("  ✅ Opened editor via fallback edit icon")
-                                        break
-                            except Exception:
-                                continue
+                    driver.execute_script("""
+                        var elements = document.querySelectorAll(
+                            '[class*="edit"], [class*="pencil"], [class*="Edit"]'
+                        );
+                        for (var i = 0; i < elements.length; i++) {
+                            var el = elements[i];
+                            el.style.display = 'block';
+                            el.style.visibility = 'visible';
+                            el.style.opacity = '1';
+                        }
+                    """)
+                    time.sleep(0.5)
+                    for edit_sel in EDIT_BTN_SELECTORS:
+                        try:
+                            btn = driver.find_element(By.XPATH, edit_sel)
+                            driver.execute_script("arguments[0].click();", btn)
+                            time.sleep(2)
+                            inputs = driver.find_elements(By.XPATH, "//input[contains(@placeholder,'kill')]")
+                            if inputs:
+                                clicked = True
+                                log.info("  ✅ Opened editor via JS force-reveal")
+                                break
+                        except Exception:
+                            continue
+                except Exception:
+                    pass
+
+            # Method 3: Direct URL to edit skills if Naukri supports it
+            if not clicked:
+                try:
+                    driver.get("https://www.naukri.com/mnjuser/profile?id=&altresid#keySkills")
+                    time.sleep(3)
+                    dismiss_popups(driver)
+                    for edit_sel in EDIT_BTN_SELECTORS:
+                        try:
+                            btn = WebDriverWait(driver, 3).until(
+                                EC.element_to_be_clickable((By.XPATH, edit_sel))
+                            )
+                            driver.execute_script("arguments[0].click();", btn)
+                            time.sleep(2)
+                            inputs = driver.find_elements(By.XPATH, "//input[contains(@placeholder,'kill')]")
+                            if inputs:
+                                clicked = True
+                                log.info("  ✅ Opened editor via anchor URL")
+                                break
+                        except Exception:
+                            continue
                 except Exception:
                     pass
 

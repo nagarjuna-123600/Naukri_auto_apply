@@ -84,7 +84,7 @@ CONFIG = {
     "min_stipend": 10000,   # ₹/month — skip internships below this
 
     # ── Skill filter (any one match = consider applying) ────────
-            "required_skills": [
+        "required_skills": [
         # Core IT/Dev roles
         "java", "python", "sql", "mysql", "postgresql",
         "software engineer", "associate software engineer",
@@ -93,18 +93,12 @@ CONFIG = {
         "junior developer",
         # Frameworks/Tools
         "langchain", "rag", "huggingface", "faiss", "streamlit",
-        # AI/ML
+        # AI/ML specific
         "machine learning", "deep learning",
         "artificial intelligence", "natural language processing", "nlp",
-        # Data Analyst skills (from Naukri Must have + Good to have)
-        "data analyst", "data analytics", "data analysis",
-        "data science", "data visualization", "data modeling",
-        "data extraction", "data cleansing", "data manipulation",
-        "data processing", "data entry",
-        "business intelligence", "power bi", "tableau",
-        "advanced excel", "excel", "mis reporting",
-        "dashboards", "reporting",
-        # IT-specific fresher/intern/trainee
+        # Data
+        "data analyst", "data science",
+        # IT-specific fresher/intern/trainee (not generic ones)
         "it fresher", "software fresher", "tech fresher",
         "it trainee", "software trainee", "developer trainee",
         "it intern", "software intern", "developer intern",
@@ -119,7 +113,7 @@ CONFIG = {
         # ── Role type exclusions ─────────────────────────────────
         "web developer", "frontend developer", "front-end developer",
         "backend developer", "back-end developer",
-        "full stack developer", "fullstack developer","react",
+        "full stack developer", "fullstack developer",
 
         # ── Non-IT / Non-Tech role exclusions ────────────────────
         "sales", "marketing", "hr ", "human resource", "recruiter",
@@ -127,7 +121,8 @@ CONFIG = {
         "content writer", "content writing", "copywriter",
         "digital marketing", "seo", "social media",
         "customer support", "customer care", "customer service",
-        "telecaller", "telesales", "bpo", "voice process","back office", "back-office",
+        "telecaller", "telesales", "bpo", "voice process",
+        "data entry", "back office", "back-office",
         "field sales", "field executive", "field officer",
         "civil engineer", "mechanical engineer", "electrical engineer",
         "hardware engineer", "network engineer", "field engineer",
@@ -698,7 +693,7 @@ def search_jobs(driver, keyword, location):
     # No experience filter — get all fresher jobs (min exp = 0, any max)
     url = (
         f"https://www.naukri.com/{keyword.lower().replace(' ', '-')}-jobs-in-"
-        f"{location.lower()}?jobAge=1&experience=0"
+        f"{location.lower()}?jobAge=30&experience=0"
     )
     driver.get(url)
     time.sleep(CONFIG["action_delay"])
@@ -733,11 +728,14 @@ def is_matching_job(title, description):
         "software", "developer", "engineer", "programmer", "coder",
         "java", "python", "sql", "data", "analyst", "ml", "ai",
         "machine learning", "artificial intelligence", "deep learning",
-        "nlp", "langchain", "rag", "streamlit",
+        "nlp", "langchain", "rag", "streamlit", "cloud", "devops",
+        "fullstack", "backend", "frontend", "web", "mobile", "app",
         "database", "dbms", "mysql", "postgresql", "mongodb",
         "it ", "information technology", "computer", "tech",
         "intern", "trainee", "fresher", "associate", "junior",
-        "automation", "testing", "qa", "quality assurance","api",
+        "automation", "testing", "qa", "quality assurance",
+        "cybersecurity", "network", "system", "linux", "windows",
+        "api", "rest", "aws", "azure", "gcp", "docker", "kubernetes",
     ]
 
     it_match = any(kw in title_lower for kw in IT_TITLE_KEYWORDS)
@@ -778,12 +776,12 @@ def search_internships(driver, keyword, location):
     loc     = location.lower().replace(" ", "-")
     url     = (
         f"https://www.naukri.com/internship/{slug}-internship-in-{loc}"
-        f"?jobAge=1"
+        f"?jobAge=30"
     )
     # Fallback URL using main search with "internship" appended
     url_alt = (
         f"https://www.naukri.com/{slug}-internship-jobs-in-{loc}"
-        f"?jobtype=Internship&jobAge=1"
+        f"?jobtype=Internship&jobAge=30"
     )
 
     driver.get(url)
@@ -868,10 +866,14 @@ def is_matching_internship(title, description, stipend_text):
         "software", "developer", "engineer", "programmer", "coder",
         "java", "python", "sql", "data", "analyst", "ml", "ai",
         "machine learning", "artificial intelligence", "deep learning",
-        "nlp", "langchain", "rag", "streamlit","database", "dbms", 
-        "mysql", "postgresql", "mongodb","it ", "information technology", 
-        "computer", "tech","intern", "trainee", "fresher", "associate", "junior",
-        "automation", "testing", "qa", "quality assurance","api",
+        "nlp", "langchain", "rag", "streamlit", "cloud", "devops",
+        "fullstack", "backend", "frontend", "web", "mobile", "app",
+        "database", "dbms", "mysql", "postgresql", "mongodb",
+        "it ", "information technology", "computer", "tech",
+        "intern", "trainee", "fresher", "associate", "junior",
+        "automation", "testing", "qa", "quality assurance",
+        "cybersecurity", "network", "system", "linux", "windows",
+        "api", "rest", "aws", "azure", "gcp", "docker", "kubernetes",
     ]
     it_match = any(kw in title_lower for kw in IT_TITLE_KEYWORDS)
     if not it_match:
@@ -1058,49 +1060,16 @@ def apply_to_job(driver, job_url, job_title, applied_log):
             driver.switch_to.window(original_window)
             return False
 
-        # ── Skill check: read Must have + Good to have sections specifically ──
+        # ── Skill check on FULL job page (not just card snippet) ─────
         try:
             full_text = driver.find_element(By.TAG_NAME, "body").text.lower()
         except Exception:
             full_text = job_title.lower()
 
-        # Try to read Must have skills and Good to have skills sections specifically
-        skills_text = ""
-        skill_section_selectors = [
-            "//*[contains(@class,'must-have') or contains(@class,'mustHave')]",
-            "//*[contains(@class,'good-to-have') or contains(@class,'goodToHave')]",
-            "//*[contains(@class,'key-skill') or contains(@class,'keySkill')]",
-            "//*[contains(@class,'skill-tags') or contains(@class,'skillTags')]",
-            "//div[contains(@class,'styles_key-skill')]",
-            "//*[@data-qa='must-have-skills']",
-            "//*[@data-qa='good-to-have-skills']",
-            "//label[contains(text(),'Must have')]/following-sibling::*",
-            "//label[contains(text(),'Good to have')]/following-sibling::*",
-            "//h3[contains(text(),'Must have')]/following-sibling::*",
-            "//h3[contains(text(),'Good to have')]/following-sibling::*",
-        ]
-        for sel in skill_section_selectors:
-            try:
-                els = driver.find_elements(By.XPATH, sel)
-                for el in els:
-                    skills_text += " " + el.text.lower()
-            except Exception:
-                continue
-
-        # Use skills section if found, otherwise fall back to full page
-        check_text = skills_text.strip() if skills_text.strip() else full_text
-
         skill_found = any(
-            skill.lower() in check_text
+            skill.lower() in full_text
             for skill in CONFIG["required_skills"]
         )
-        # If not found in skills section, also try full page as fallback
-        if not skill_found and skills_text.strip():
-            skill_found = any(
-                skill.lower() in full_text
-                for skill in CONFIG["required_skills"]
-            )
-
         excluded = any(
             ex.lower() in job_title.lower()
             for ex in CONFIG["exclude_keywords"]
@@ -1115,7 +1084,7 @@ def apply_to_job(driver, job_url, job_title, applied_log):
         ]
         non_it_found = any(s in full_text for s in non_it_signals)
         if not skill_found or excluded or non_it_found:
-            reason = "excluded keyword" if excluded else ("non-IT role" if non_it_found else "no required skill in Must/Good to have skills")
+            reason = "excluded keyword" if excluded else ("non-IT role" if non_it_found else "no required skill on page")
             log.info(f"  Skipping ({reason}): {job_title}")
             driver.close()
             driver.switch_to.window(original_window)
@@ -1705,7 +1674,7 @@ def run_agent():
 
             wfh_url = (
                 f"https://www.naukri.com/{keyword.lower().replace(' ', '-')}-jobs?"
-                f"jobAge=1&experience=0&wfhType=remote,hybrid"
+                f"jobAge=30&experience=0&wfhType=remote,hybrid"
             )
             driver.get(wfh_url)
             time.sleep(CONFIG["action_delay"])
@@ -1777,8 +1746,8 @@ def run_agent():
 
             slug = keyword.lower().replace(" ", "-")
             wfh_intern_urls = [
-                f"https://www.naukri.com/internship/{slug}-internship?wfhType=remote,hybrid&jobAge=1",
-                f"https://www.naukri.com/{slug}-internship-jobs?jobtype=Internship&wfhType=remote,hybrid&jobAge=1",
+                f"https://www.naukri.com/internship/{slug}-internship?wfhType=remote,hybrid&jobAge=30",
+                f"https://www.naukri.com/{slug}-internship-jobs?jobtype=Internship&wfhType=remote,hybrid&jobAge=30",
             ]
 
             cards = []

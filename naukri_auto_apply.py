@@ -1330,94 +1330,196 @@ def run_agent():
             day_number = date.today().toordinal()
             is_odd_day = day_number % 2 == 1
 
-            skills_odd  = ["Python", "Java", "SQL", "Python Software Developer",
-                           "Python Automation Engineer", "Python Developer Intern"]
-            skills_even = ["Java", "SQL", "Python", "Python Developer Intern",
-                           "Python Software Developer", "Python Automation Engineer"]
+            # Zigzag skill order daily to keep profile "recently updated"
+            skills_odd  = ["Python", "Java", "SQL", "Machine Learning",
+                           "Data Analytics", "Python Developer"]
+            skills_even = ["Java", "Python", "Data Analytics", "SQL",
+                           "Python Developer", "Machine Learning"]
 
             skills_today = skills_odd if is_odd_day else skills_even
-            log.info(f"  Today's skill order: {skills_today}")
+            log.info(f"  Today's skill order ({'odd' if is_odd_day else 'even'} day): {skills_today}")
 
             driver.get("https://www.naukri.com/mnjuser/profile?id=&altresid")
-            time.sleep(4)
+            time.sleep(5)
             dismiss_popups(driver)
+            time.sleep(2)
 
+            # ── Step 1: Find and click Key Skills edit button ──
             SKILLS_EDIT_SELECTORS = [
-                "//div[contains(@class,'keySkills')]//span[contains(@class,'edit')]",
-                "//div[contains(@class,'key-skills')]//button",
-                "//section[contains(@class,'skill')]//span[@class='edit']",
-                "//*[contains(text(),'Key skills')]//following-sibling::*[contains(@class,'edit')]",
-                "//div[@class='widgetHead']//span[contains(@class,'edit') and ancestor::*[contains(.,'Key skills')]]",
+                # Naukri 2025+ UI
+                "//div[contains(@class,'keySkill')]//span[contains(@class,'edit')]",
+                "//div[contains(@class,'keySkill')]//button[contains(@class,'edit')]",
+                "//div[contains(@class,'key-skills')]//span[contains(@class,'edit')]",
+                # Generic edit icon near skills text
+                "//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'key skills')]/following::span[contains(@class,'edit')][1]",
+                "//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'key skills')]/following::button[1]",
+                # Widget head pencil icons
+                "//div[contains(@class,'widgetHead') and .//*[contains(text(),'skill')]]//span[contains(@class,'edit')]",
+                "//div[contains(@class,'widgetHead') and .//*[contains(text(),'skill')]]//i[contains(@class,'edit')]",
+                # SVG pencil icon near skills
+                "//*[contains(@class,'skill')]//svg/..",
+                # Data-ga or data-testid
+                "//*[@data-ga-track='Key Skills-edit']",
+                "//*[@data-testid='key-skills-edit']",
             ]
 
             clicked = False
             for sel in SKILLS_EDIT_SELECTORS:
                 try:
-                    btn = WebDriverWait(driver, 4).until(
+                    btn = WebDriverWait(driver, 3).until(
                         EC.element_to_be_clickable((By.XPATH, sel))
                     )
+                    driver.execute_script("arguments[0].scrollIntoView(true);", btn)
+                    time.sleep(0.5)
                     driver.execute_script("arguments[0].click();", btn)
                     time.sleep(2)
                     clicked = True
-                    log.info("  Opened Key Skills editor")
+                    log.info(f"  ✅ Opened Key Skills editor (selector: {sel[:50]})")
                     break
-                except TimeoutException:
+                except (TimeoutException, Exception):
                     continue
 
-            if clicked:
+            if not clicked:
+                # Last resort: find all edit icons on page and click the one near skills
                 try:
-                    delete_btns = driver.find_elements(
-                        By.XPATH,
-                        "//*[contains(@class,'chip')]//span[contains(@class,'del') or contains(@class,'close') or contains(@class,'remove')]"
+                    all_edits = driver.find_elements(By.XPATH,
+                        "//*[contains(@class,'edit') or contains(@class,'pencil')]"
                     )
-                    for btn in delete_btns:
-                        try:
-                            driver.execute_script("arguments[0].click();", btn)
-                            time.sleep(0.3)
-                        except Exception:
-                            pass
+                    page_text = driver.page_source.lower()
+                    if 'key skills' in page_text or 'keyskills' in page_text:
+                        for el in all_edits:
+                            try:
+                                if el.is_displayed():
+                                    driver.execute_script("arguments[0].click();", el)
+                                    time.sleep(1.5)
+                                    # Check if skill input appeared
+                                    inputs = driver.find_elements(By.XPATH,
+                                        "//input[contains(@placeholder,'kill')]"
+                                    )
+                                    if inputs:
+                                        clicked = True
+                                        log.info("  ✅ Opened editor via fallback edit icon")
+                                        break
+                            except Exception:
+                                continue
+                except Exception:
+                    pass
+
+            if clicked:
+                # ── Step 2: Clear existing skills ──
+                time.sleep(1)
+                try:
+                    DELETE_SELECTORS = [
+                        "//*[contains(@class,'chip')]//span[contains(@class,'del')]",
+                        "//*[contains(@class,'chip')]//span[contains(@class,'close')]",
+                        "//*[contains(@class,'chip')]//span[contains(@class,'remove')]",
+                        "//*[contains(@class,'tag')]//span[contains(@class,'del')]",
+                        "//*[contains(@class,'tag')]//button",
+                        "//span[contains(@class,'skillChip')]//span[last()]",
+                    ]
+                    deleted = 0
+                    for del_sel in DELETE_SELECTORS:
+                        btns = driver.find_elements(By.XPATH, del_sel)
+                        if btns:
+                            for btn in btns:
+                                try:
+                                    driver.execute_script("arguments[0].click();", btn)
+                                    time.sleep(0.3)
+                                    deleted += 1
+                                except Exception:
+                                    pass
+                            break
+                    log.info(f"  Cleared {deleted} existing skills")
                     time.sleep(1)
-                    log.info(f"  Cleared {len(delete_btns)} existing skills")
                 except Exception as e:
                     log.warning(f"  Could not clear skills: {e}")
 
+                # ── Step 3: Type and add new skills ──
                 try:
-                    skill_input = WebDriverWait(driver, 5).until(
-                        EC.presence_of_element_located((By.XPATH,
-                            "//input[contains(@placeholder,'skill') or contains(@placeholder,'Skill')]"
-                        ))
-                    )
-                    for skill in skills_today:
-                        skill_input.clear()
-                        skill_input.send_keys(skill)
-                        time.sleep(0.8)
+                    SKILL_INPUT_SELECTORS = [
+                        "//input[contains(@placeholder,'skill') or contains(@placeholder,'Skill')]",
+                        "//input[contains(@placeholder,'Add skill')]",
+                        "//input[contains(@class,'skill')]",
+                        "//div[contains(@class,'skill')]//input",
+                        "//input[@type='text'][last()]",
+                    ]
+                    skill_input = None
+                    for inp_sel in SKILL_INPUT_SELECTORS:
                         try:
-                            suggestion = WebDriverWait(driver, 2).until(
-                                EC.element_to_be_clickable((By.XPATH,
-                                    f"//ul[contains(@class,'suggest')]//li[contains(text(),'{skill}')]"
-                                ))
+                            skill_input = WebDriverWait(driver, 4).until(
+                                EC.element_to_be_clickable((By.XPATH, inp_sel))
                             )
-                            suggestion.click()
+                            break
                         except TimeoutException:
-                            skill_input.send_keys(Keys.RETURN)
-                        time.sleep(0.5)
-                    log.info(f"  Added {len(skills_today)} skills")
-                except Exception as e:
-                    log.warning(f"  Could not add skills: {e}")
+                            continue
 
+                    if skill_input:
+                        added = 0
+                        for skill in skills_today:
+                            try:
+                                skill_input.click()
+                                skill_input.clear()
+                                skill_input.send_keys(skill)
+                                time.sleep(1)
+                                # Try clicking suggestion dropdown
+                                SUGGEST_SELECTORS = [
+                                    f"//ul[contains(@class,'suggest')]//li[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'{skill.lower()}')]",
+                                    f"//*[contains(@class,'suggestion')]//li[contains(text(),'{skill}')]",
+                                    f"//*[contains(@class,'dropdown')]//li[contains(text(),'{skill}')]",
+                                    "//*[contains(@class,'suggest')]//li[1]",
+                                ]
+                                picked = False
+                                for sug_sel in SUGGEST_SELECTORS:
+                                    try:
+                                        sug = WebDriverWait(driver, 2).until(
+                                            EC.element_to_be_clickable((By.XPATH, sug_sel))
+                                        )
+                                        sug.click()
+                                        picked = True
+                                        break
+                                    except TimeoutException:
+                                        continue
+                                if not picked:
+                                    skill_input.send_keys(Keys.RETURN)
+                                time.sleep(0.5)
+                                added += 1
+                            except Exception as e:
+                                log.warning(f"  Could not add skill '{skill}': {e}")
+                        log.info(f"  Added {added}/{len(skills_today)} skills")
+                    else:
+                        log.warning("  Could not find skill input field")
+
+                except Exception as e:
+                    log.warning(f"  Skill input error: {e}")
+
+                # ── Step 4: Save ──
                 try:
-                    save_btn = WebDriverWait(driver, 5).until(
-                        EC.element_to_be_clickable((By.XPATH,
-                            "//button[contains(text(),'Save') or contains(text(),'Update')]"
-                        ))
-                    )
-                    driver.execute_script("arguments[0].click();", save_btn)
-                    time.sleep(2)
-                    log.info("  ✅ Profile skills updated — timestamp refreshed!")
+                    SAVE_SELECTORS = [
+                        "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'save')]",
+                        "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'update')]",
+                        "//button[@type='submit']",
+                        "//*[contains(@class,'saveBtn')]",
+                        "//*[contains(@class,'save-btn')]",
+                    ]
+                    saved = False
+                    for save_sel in SAVE_SELECTORS:
+                        try:
+                            save_btn = WebDriverWait(driver, 4).until(
+                                EC.element_to_be_clickable((By.XPATH, save_sel))
+                            )
+                            driver.execute_script("arguments[0].click();", save_btn)
+                            time.sleep(2)
+                            log.info("  ✅ Profile skills saved — timestamp refreshed!")
+                            saved = True
+                            break
+                        except TimeoutException:
+                            continue
+                    if not saved:
+                        log.warning("  Could not find Save button")
                 except Exception as e:
                     log.warning(f"  Could not save skills: {e}")
             else:
-                log.warning("  Could not find Key Skills edit button — skipping")
+                log.warning("  Could not find Key Skills edit button — skipping profile update")
 
         except Exception as e:
             log.warning(f"  Profile update failed (non-critical): {e}")

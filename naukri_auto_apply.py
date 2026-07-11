@@ -1353,51 +1353,160 @@ def run_agent():
 
             # ── Step 0: Update Name ──────────────────────────────────
             try:
-                # Step 1: Click edit icon next to profile name
-                NAME_EDIT_SELECTORS = [
-                    "//span[contains(@class,'editIcon')]",
-                    "//span[contains(@class,'edit-btn')]",
-                    "//i[contains(@class,'edit')]",
-                    "//*[contains(@class,'naukicon-edit')]",
-                    "//span[@class='edit']",
+                from selenium.webdriver.common.action_chains import ActionChains
+                actions = ActionChains(driver)
+
+                # Section containers to hover over (reveals hidden edit button)
+                NAME_SECTION_SELECTORS = [
+                    "//*[contains(@class,'basicDetails')]",
+                    "//*[contains(@class,'basic-details')]",
+                    "//*[contains(@class,'profileName')]",
+                    "//*[contains(@class,'profile-name')]",
+                    "//*[contains(@class,'personal')]",
+                    "//div[contains(@class,'nameSection')]",
+                    "//div[contains(@class,'userDetails')]",
+                    "//div[contains(@class,'user-details')]",
+                    "//div[contains(@class,'resumeHeadLeft')]",
+                    "//div[contains(@class,'resume-head')]",
                 ]
+
+                # Edit button selectors (after hover)
+                NAME_EDIT_SELECTORS = [
+                    "//*[contains(@class,'basicDetails')]//span[contains(@class,'edit')]",
+                    "//*[contains(@class,'basicDetails')]//button",
+                    "//*[contains(@class,'profileName')]//span[contains(@class,'edit')]",
+                    "//*[contains(@class,'nameSection')]//span[contains(@class,'edit')]",
+                    "//*[contains(@class,'userDetails')]//span[contains(@class,'edit')]",
+                    "//*[contains(@class,'resumeHeadLeft')]//span[contains(@class,'edit')]",
+                    "//span[contains(@class,'editIcon')]",
+                    "//span[contains(@class,'edit-icon')]",
+                    "//*[contains(@class,'naukicon-edit')]",
+                    # First edit button on the entire page (name is at top)
+                    "(//*[contains(@class,'edit')])[1]",
+                    "(//span[contains(@class,'edit')])[1]",
+                ]
+
                 name_clicked = False
-                for sel in NAME_EDIT_SELECTORS:
+
+                # Method 1: Hover over name section → reveal edit → click
+                for sec_sel in NAME_SECTION_SELECTORS:
                     try:
-                        btn = WebDriverWait(driver, 4).until(
-                            EC.element_to_be_clickable((By.XPATH, sel))
-                        )
-                        driver.execute_script("arguments[0].click();", btn)
-                        time.sleep(2)
-                        name_clicked = True
-                        log.info("  Opened Basic details editor")
-                        break
-                    except TimeoutException:
+                        section = driver.find_element(By.XPATH, sec_sel)
+                        driver.execute_script("arguments[0].scrollIntoView(true);", section)
+                        time.sleep(0.5)
+                        actions.move_to_element(section).perform()
+                        time.sleep(1)
+                        for edit_sel in NAME_EDIT_SELECTORS:
+                            try:
+                                btn = driver.find_element(By.XPATH, edit_sel)
+                                driver.execute_script(
+                                    "arguments[0].style.display='block';"
+                                    "arguments[0].style.visibility='visible';"
+                                    "arguments[0].style.opacity='1';", btn
+                                )
+                                time.sleep(0.3)
+                                driver.execute_script("arguments[0].click();", btn)
+                                time.sleep(2)
+                                # Verify edit form opened
+                                inputs = driver.find_elements(By.XPATH,
+                                    "//input[contains(@placeholder,'name') or contains(@placeholder,'Name') or @name='fullName' or @id='fullName']"
+                                )
+                                if inputs:
+                                    name_clicked = True
+                                    log.info("  ✅ Opened Basic details editor (hover method)")
+                                    break
+                            except Exception:
+                                continue
+                        if name_clicked:
+                            break
+                    except Exception:
                         continue
+
+                # Method 2: JS force-reveal all edit buttons, click first one
+                if not name_clicked:
+                    try:
+                        driver.execute_script("""
+                            var els = document.querySelectorAll('[class*="edit"],[class*="Edit"]');
+                            for(var i=0;i<els.length;i++){
+                                els[i].style.display='block';
+                                els[i].style.visibility='visible';
+                                els[i].style.opacity='1';
+                            }
+                        """)
+                        time.sleep(0.5)
+                        for edit_sel in NAME_EDIT_SELECTORS:
+                            try:
+                                btn = driver.find_element(By.XPATH, edit_sel)
+                                if btn.is_displayed():
+                                    driver.execute_script("arguments[0].click();", btn)
+                                    time.sleep(2)
+                                    inputs = driver.find_elements(By.XPATH,
+                                        "//input[contains(@placeholder,'name') or @name='fullName']"
+                                    )
+                                    if inputs:
+                                        name_clicked = True
+                                        log.info("  ✅ Opened Basic details editor (JS method)")
+                                        break
+                            except Exception:
+                                continue
+                    except Exception:
+                        pass
 
                 if name_clicked:
                     try:
-                        # Single Full name field as seen in Naukri UI
-                        name_field = WebDriverWait(driver, 5).until(
-                            EC.element_to_be_clickable((By.XPATH,
-                                "//input[@placeholder='Full name' or @name='fullName' or @id='fullName' or @label='Full name']"
-                            ))
-                        )
-                        name_field.clear()
-                        time.sleep(0.3)
-                        name_field.send_keys(name_today)
-                        time.sleep(0.5)
-                        log.info(f"  Entered name: {name_today}")
+                        # Find name input field
+                        NAME_INPUT_SELECTORS = [
+                            "//input[@placeholder='Full name']",
+                            "//input[@placeholder='full name']",
+                            "//input[@name='fullName']",
+                            "//input[@id='fullName']",
+                            "//input[@placeholder='Name']",
+                            "//input[@placeholder='Enter your name']",
+                            "//input[contains(@placeholder,'name') or contains(@placeholder,'Name')]",
+                            "//input[@type='text'][1]",
+                        ]
+                        name_field = None
+                        for inp_sel in NAME_INPUT_SELECTORS:
+                            try:
+                                els = driver.find_elements(By.XPATH, inp_sel)
+                                for el in els:
+                                    if el.is_displayed() and el.is_enabled():
+                                        name_field = el
+                                        break
+                                if name_field:
+                                    break
+                            except Exception:
+                                continue
 
-                        # Click Save button
-                        save_btn = WebDriverWait(driver, 5).until(
-                            EC.element_to_be_clickable((By.XPATH,
-                                "//button[contains(text(),'Save') or contains(text(),'save')]"
-                            ))
-                        )
-                        driver.execute_script("arguments[0].click();", save_btn)
-                        time.sleep(2)
-                        log.info(f"  ✅ Name updated to: {name_today}")
+                        if name_field:
+                            driver.execute_script("arguments[0].scrollIntoView(true);", name_field)
+                            name_field.click()
+                            name_field.send_keys(Keys.CONTROL + "a")
+                            name_field.send_keys(Keys.DELETE)
+                            name_field.clear()
+                            time.sleep(0.3)
+                            name_field.send_keys(name_today)
+                            time.sleep(0.5)
+                            log.info(f"  Entered name: {name_today}")
+
+                            # Click Save
+                            for save_sel in [
+                                "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'save')]",
+                                "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'update')]",
+                                "//button[@type='submit']",
+                            ]:
+                                try:
+                                    save_btn = WebDriverWait(driver, 4).until(
+                                        EC.element_to_be_clickable((By.XPATH, save_sel))
+                                    )
+                                    driver.execute_script("arguments[0].click();", save_btn)
+                                    time.sleep(2)
+                                    log.info(f"  ✅ Name updated to: {name_today}")
+                                    break
+                                except TimeoutException:
+                                    continue
+                        else:
+                            log.warning("  Could not find name input field")
 
                     except Exception as e:
                         log.warning(f"  Could not update name field: {e}")

@@ -1355,77 +1355,96 @@ def run_agent():
             try:
                 log.info("  Navigating to profile page...")
                 driver.get("https://www.naukri.com/mnjuser/profile?id=&altresid")
-                time.sleep(6)
+                time.sleep(8)
+                # Dismiss popups once only
                 dismiss_popups(driver)
-                time.sleep(2)
+                time.sleep(3)
 
-                # Log all edit-related elements found on page for debugging
-                all_edit_els = driver.execute_script("""
+                # Dump ALL clickable elements for debugging
+                all_btns = driver.execute_script("""
                     var results = [];
-                    var all = document.querySelectorAll('*');
-                    for(var i=0; i<all.length; i++){
-                        var el = all[i];
-                        var cls = (el.getAttribute('class') || '');
-                        var tag = el.tagName;
-                        var title = (el.getAttribute('title') || '');
-                        var dataga = (el.getAttribute('data-ga-track') || '');
-                        if(cls.toLowerCase().includes('edit') ||
-                           title.toLowerCase().includes('edit') ||
-                           dataga.toLowerCase().includes('edit')){
-                            results.push(tag + '|' + cls + '|' + title + '|' + dataga);
+                    var tags = ['button','span','i','a','div','svg'];
+                    for(var t=0; t<tags.length; t++){
+                        var els = document.getElementsByTagName(tags[t]);
+                        for(var i=0; i<els.length; i++){
+                            var el = els[i];
+                            var cls = el.getAttribute('class') || '';
+                            var title = el.getAttribute('title') || '';
+                            var aria = el.getAttribute('aria-label') || '';
+                            var dataga = el.getAttribute('data-ga-track') || '';
+                            var rect = el.getBoundingClientRect();
+                            if(rect.width>0 && rect.height>0 &&
+                               (title.toLowerCase().includes('edit') ||
+                                aria.toLowerCase().includes('edit') ||
+                                dataga.toLowerCase().includes('edit') ||
+                                cls.toLowerCase().includes('pencil') ||
+                                cls.toLowerCase().includes('naukicon') ||
+                                cls.toLowerCase().includes('icon-edit'))){
+                                results.push(tags[t]+'|'+cls+'|'+title+'|'+aria+'|'+dataga);
+                            }
                         }
                     }
-                    return results.slice(0, 20);
+                    return results.slice(0,10);
                 """)
-                log.info(f"  Edit elements on page: {all_edit_els[:5]}")
+                log.info(f"  Clickable edit elements: {all_btns}")
 
-                # Force ALL edit elements visible via JS
-                driver.execute_script("""
-                    var els = document.querySelectorAll(
-                        '[class*="edit"],[class*="Edit"],[title*="edit"],[title*="Edit"]'
-                    );
-                    for(var i=0;i<els.length;i++){
-                        els[i].style.display = 'block';
-                        els[i].style.visibility = 'visible';
-                        els[i].style.opacity = '1';
-                        els[i].style.pointerEvents = 'auto';
-                    }
-                """)
-                time.sleep(1)
+                # Try every possible selector pattern Naukri might use
+                ALL_EDIT_SELECTORS = [
+                    # title-based
+                    "//*[@title='Edit']",
+                    "//*[@title='edit']",
+                    "//*[contains(@title,'Edit')]",
+                    # aria-label based
+                    "//*[contains(@aria-label,'edit') or contains(@aria-label,'Edit')]",
+                    # data-ga-track (Naukri analytics attributes)
+                    "//*[contains(@data-ga-track,'edit') or contains(@data-ga-track,'Edit')]",
+                    "//*[contains(@data-ga-track,'Basic') or contains(@data-ga-track,'basic')]",
+                    # Icon font classes Naukri uses
+                    "//*[contains(@class,'naukicon-edit')]",
+                    "//*[contains(@class,'icon-edit')]",
+                    "//*[contains(@class,'pencil')]",
+                    "//*[contains(@class,'naukIcon')]",
+                    # SVG edit buttons
+                    "//button[.//svg]",
+                    "//span[.//svg]",
+                    # Naukri specific profile classes
+                    "//*[contains(@class,'editContainer')]",
+                    "//*[contains(@class,'edit-container')]",
+                    "//*[contains(@class,'profileEditIcon')]",
+                    "//*[contains(@class,'resumeEditIcon')]",
+                    # Top of page elements (name is first section)
+                    "(//button)[1]",
+                    "(//span[contains(@class,'icon')])[1]",
+                ]
 
-                # Try clicking each edit element and check if name input appears
                 name_clicked = False
-                edit_els = driver.find_elements(By.XPATH,
-                    "//*[contains(@class,'edit') or contains(@class,'Edit') or "
-                    "@title='Edit' or @title='edit']"
-                )
-                log.info(f"  Found {len(edit_els)} edit elements")
-
-                for el in edit_els[:15]:
+                for sel in ALL_EDIT_SELECTORS:
                     try:
-                        tag = el.tag_name
-                        cls = el.get_attribute("class") or ""
-                        if not el.is_displayed():
-                            driver.execute_script(
-                                "arguments[0].style.display='block';"
-                                "arguments[0].style.visibility='visible';", el
-                            )
-                        driver.execute_script("arguments[0].scrollIntoView(true);", el)
-                        time.sleep(0.3)
-                        driver.execute_script("arguments[0].click();", el)
-                        time.sleep(2)
-                        # Check if name input appeared
-                        name_inputs = driver.find_elements(By.XPATH,
-                            "//input[contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ',"
-                            "'abcdefghijklmnopqrstuvwxyz'),'name') or "
-                            "@name='fullName' or @id='fullName' or @name='name']"
-                        )
-                        if name_inputs:
-                            name_clicked = True
-                            log.info(f"  ✅ Opened name editor (clicked: {tag}.{cls[:30]})")
+                        els = driver.find_elements(By.XPATH, sel)
+                        for el in els[:3]:
+                            try:
+                                if not el.is_displayed():
+                                    continue
+                                driver.execute_script("arguments[0].scrollIntoView(true);", el)
+                                time.sleep(0.3)
+                                driver.execute_script("arguments[0].click();", el)
+                                time.sleep(2)
+                                # Check if name input appeared
+                                name_inputs = driver.find_elements(By.XPATH,
+                                    "//input[contains(translate(@placeholder,"
+                                    "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'name') "
+                                    "or @name='fullName' or @id='fullName' or @name='name' or @id='name']"
+                                )
+                                if name_inputs:
+                                    name_clicked = True
+                                    log.info(f"  ✅ Name editor opened via: {sel[:60]}")
+                                    break
+                                # Wrong modal — close it
+                                dismiss_popups(driver)
+                            except Exception:
+                                continue
+                        if name_clicked:
                             break
-                        # If wrong modal opened, close it
-                        dismiss_popups(driver)
                     except Exception:
                         continue
 
@@ -1441,38 +1460,31 @@ def run_agent():
                         ]
                         name_field = None
                         for sel in NAME_INPUT_SELECTORS:
-                            try:
-                                els = driver.find_elements(By.XPATH, sel)
-                                for el in els:
-                                    if el.is_displayed() and el.is_enabled():
-                                        name_field = el
-                                        break
-                                if name_field:
+                            els = driver.find_elements(By.XPATH, sel)
+                            for el in els:
+                                if el.is_displayed() and el.is_enabled():
+                                    name_field = el
                                     break
-                            except Exception:
-                                continue
+                            if name_field:
+                                break
 
                         if name_field:
-                            driver.execute_script("arguments[0].scrollIntoView(true);", name_field)
                             name_field.click()
                             name_field.send_keys(Keys.CONTROL + "a")
-                            name_field.send_keys(Keys.DELETE)
                             name_field.clear()
-                            time.sleep(0.3)
                             name_field.send_keys(name_today)
                             time.sleep(0.5)
                             log.info(f"  Entered name: {name_today}")
-
                             for save_sel in [
                                 "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'save')]",
                                 "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'update')]",
                                 "//button[@type='submit']",
                             ]:
                                 try:
-                                    save_btn = WebDriverWait(driver, 4).until(
+                                    btn = WebDriverWait(driver, 4).until(
                                         EC.element_to_be_clickable((By.XPATH, save_sel))
                                     )
-                                    driver.execute_script("arguments[0].click();", save_btn)
+                                    driver.execute_script("arguments[0].click();", btn)
                                     time.sleep(2)
                                     log.info(f"  ✅ Name updated to: {name_today}")
                                     break
@@ -1483,20 +1495,12 @@ def run_agent():
                     except Exception as e:
                         log.warning(f"  Name field error: {e}")
                 else:
-                    log.warning("  Could not find name edit button — check edit_elements log above")
+                    log.warning(f"  Name edit not found. Elements found: {all_btns}")
 
             except Exception as e:
                 log.warning(f"  Name update failed (non-critical): {e}")
-            # ─────────────────────────────────────────────────────────
+            # ─────────────────────────────────────────────────────────────
 
-                # Save today's date so profile update runs only once per day
-                with open(profile_update_flag, 'w') as f:
-                    f.write(today_str)
-                log.info(f"  ✅ Profile update complete for {today_str}")
-
-        except Exception as e:
-            log.warning(f"  Profile update failed (non-critical): {e}")
-        # ─────────────────────────────────────────────────────────────
 
         total_applied = 0
 

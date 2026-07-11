@@ -1353,11 +1353,13 @@ def run_agent():
 
             # ── Step 0: Update Name ──────────────────────────────────
             try:
+                # Step 1: Click edit icon next to profile name
                 NAME_EDIT_SELECTORS = [
-                    "//div[contains(@class,'name')]//span[contains(@class,'edit')]",
-                    "//div[contains(@class,'basicDetails')]//span[contains(@class,'edit')]",
-                    "//span[contains(@class,'edit') and ancestor::*[contains(@class,'name')]]",
-                    "//*[contains(@class,'editIcon') and ancestor::*[contains(@class,'name')]]",
+                    "//span[contains(@class,'editIcon')]",
+                    "//span[contains(@class,'edit-btn')]",
+                    "//i[contains(@class,'edit')]",
+                    "//*[contains(@class,'naukicon-edit')]",
+                    "//span[@class='edit']",
                 ]
                 name_clicked = False
                 for sel in NAME_EDIT_SELECTORS:
@@ -1368,44 +1370,37 @@ def run_agent():
                         driver.execute_script("arguments[0].click();", btn)
                         time.sleep(2)
                         name_clicked = True
-                        log.info("  Opened name editor")
+                        log.info("  Opened Basic details editor")
                         break
                     except TimeoutException:
                         continue
 
                 if name_clicked:
-                    # Find first name and last name fields
                     try:
-                        first_name = "Pulabala" if is_odd_day else "Nagarjuna"
-                        last_name  = "Nagarjuna" if is_odd_day else "Pulabala"
-
-                        fname_field = WebDriverWait(driver, 5).until(
+                        # Single Full name field as seen in Naukri UI
+                        name_field = WebDriverWait(driver, 5).until(
                             EC.element_to_be_clickable((By.XPATH,
-                                "//input[@name='firstName' or @placeholder='First name' or @id='firstName']"
+                                "//input[@placeholder='Full name' or @name='fullName' or @id='fullName' or @label='Full name']"
                             ))
                         )
-                        fname_field.clear()
-                        fname_field.send_keys(first_name)
+                        name_field.clear()
+                        time.sleep(0.3)
+                        name_field.send_keys(name_today)
                         time.sleep(0.5)
+                        log.info(f"  Entered name: {name_today}")
 
-                        lname_field = driver.find_element(By.XPATH,
-                            "//input[@name='lastName' or @placeholder='Last name' or @id='lastName']"
-                        )
-                        lname_field.clear()
-                        lname_field.send_keys(last_name)
-                        time.sleep(0.5)
-
-                        # Save name
+                        # Click Save button
                         save_btn = WebDriverWait(driver, 5).until(
                             EC.element_to_be_clickable((By.XPATH,
-                                "//button[contains(text(),'Save') or contains(text(),'Update')]"
+                                "//button[contains(text(),'Save') or contains(text(),'save')]"
                             ))
                         )
                         driver.execute_script("arguments[0].click();", save_btn)
                         time.sleep(2)
                         log.info(f"  ✅ Name updated to: {name_today}")
+
                     except Exception as e:
-                        log.warning(f"  Could not update name fields: {e}")
+                        log.warning(f"  Could not update name field: {e}")
                 else:
                     log.warning("  Could not find name edit button — skipping name update")
 

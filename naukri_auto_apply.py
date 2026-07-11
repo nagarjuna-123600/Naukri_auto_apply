@@ -1320,29 +1320,98 @@ def run_agent():
         if not login(driver, CONFIG["email"], CONFIG["password"]):
             return
 
-        # ── DAILY PROFILE UPDATE — Rearrange skills to refresh timestamp ──
+        # ── DAILY PROFILE UPDATE — runs only ONCE per day ────────
+        profile_update_flag = "profile_updated_date.txt"
         try:
-            log.info("\n" + "─" * 55)
-            log.info("  DAILY PROFILE UPDATE — Refreshing skills order")
-            log.info("─" * 55)
+            from datetime import date
+            today_str = str(date.today())
+            already_updated = False
+            if os.path.exists(profile_update_flag):
+                with open(profile_update_flag) as f:
+                    if f.read().strip() == today_str:
+                        already_updated = True
+
+            if already_updated:
+                log.info("  Profile already updated today — skipping")
+            else:
+                log.info("\n" + "─" * 55)
+                log.info("  DAILY PROFILE UPDATE — Refreshing name + skills order")
+                log.info("─" * 55)
 
             from datetime import date
             day_number = date.today().toordinal()
             is_odd_day = day_number % 2 == 1
 
-            # Zigzag skill order daily to keep profile "recently updated"
-            skills_odd  = ["Python", "Java", "SQL", "Machine Learning",
-                           "Data Analytics", "Python Developer"]
-            skills_even = ["Java", "Python", "Data Analytics", "SQL",
-                           "Python Developer", "Machine Learning"]
-
-            skills_today = skills_odd if is_odd_day else skills_even
-            log.info(f"  Today's skill order ({'odd' if is_odd_day else 'even'} day): {skills_today}")
+            # Name alternation — once per day
+            name_today = "Pulabala Nagarjuna" if is_odd_day else "Nagarjuna Pulabala"
+            log.info(f"  Today's name ({'odd' if is_odd_day else 'even'} day): {name_today}")
 
             driver.get("https://www.naukri.com/mnjuser/profile?id=&altresid")
             time.sleep(5)
             dismiss_popups(driver)
             time.sleep(2)
+
+            # ── Step 0: Update Name ──────────────────────────────────
+            try:
+                NAME_EDIT_SELECTORS = [
+                    "//div[contains(@class,'name')]//span[contains(@class,'edit')]",
+                    "//div[contains(@class,'basicDetails')]//span[contains(@class,'edit')]",
+                    "//span[contains(@class,'edit') and ancestor::*[contains(@class,'name')]]",
+                    "//*[contains(@class,'editIcon') and ancestor::*[contains(@class,'name')]]",
+                ]
+                name_clicked = False
+                for sel in NAME_EDIT_SELECTORS:
+                    try:
+                        btn = WebDriverWait(driver, 4).until(
+                            EC.element_to_be_clickable((By.XPATH, sel))
+                        )
+                        driver.execute_script("arguments[0].click();", btn)
+                        time.sleep(2)
+                        name_clicked = True
+                        log.info("  Opened name editor")
+                        break
+                    except TimeoutException:
+                        continue
+
+                if name_clicked:
+                    # Find first name and last name fields
+                    try:
+                        first_name = "Pulabala" if is_odd_day else "Nagarjuna"
+                        last_name  = "Nagarjuna" if is_odd_day else "Pulabala"
+
+                        fname_field = WebDriverWait(driver, 5).until(
+                            EC.element_to_be_clickable((By.XPATH,
+                                "//input[@name='firstName' or @placeholder='First name' or @id='firstName']"
+                            ))
+                        )
+                        fname_field.clear()
+                        fname_field.send_keys(first_name)
+                        time.sleep(0.5)
+
+                        lname_field = driver.find_element(By.XPATH,
+                            "//input[@name='lastName' or @placeholder='Last name' or @id='lastName']"
+                        )
+                        lname_field.clear()
+                        lname_field.send_keys(last_name)
+                        time.sleep(0.5)
+
+                        # Save name
+                        save_btn = WebDriverWait(driver, 5).until(
+                            EC.element_to_be_clickable((By.XPATH,
+                                "//button[contains(text(),'Save') or contains(text(),'Update')]"
+                            ))
+                        )
+                        driver.execute_script("arguments[0].click();", save_btn)
+                        time.sleep(2)
+                        log.info(f"  ✅ Name updated to: {name_today}")
+                    except Exception as e:
+                        log.warning(f"  Could not update name fields: {e}")
+                else:
+                    log.warning("  Could not find name edit button — skipping name update")
+
+            except Exception as e:
+                log.warning(f"  Name update failed (non-critical): {e}")
+            # ─────────────────────────────────────────────────────────
 
             # ── Step 1: Find Key Skills section, hover to reveal edit button, click ──
             from selenium.webdriver.common.action_chains import ActionChains
@@ -1586,6 +1655,11 @@ def run_agent():
                     log.warning(f"  Could not save skills: {e}")
             else:
                 log.warning("  Could not find Key Skills edit button — skipping profile update")
+
+                # Save today's date so profile update runs only once per day
+                with open(profile_update_flag, 'w') as f:
+                    f.write(today_str)
+                log.info(f"  ✅ Profile update complete for {today_str}")
 
         except Exception as e:
             log.warning(f"  Profile update failed (non-critical): {e}")

@@ -1037,6 +1037,31 @@ def is_valid_location(driver):
         return True
 
 
+
+# ═══════════════════════════════════════════════════════════════
+#  Save jobs that need manual apply (redirected Hyderabad jobs)
+# ═══════════════════════════════════════════════════════════════
+def save_manual_job(job_url, job_title, reason):
+    manual_log_path = "manual_apply_jobs.json"
+    try:
+        if os.path.exists(manual_log_path):
+            with open(manual_log_path) as f:
+                content = f.read().strip()
+                manual_log = json.loads(content) if content else {}
+        else:
+            manual_log = {}
+        if job_url not in manual_log:
+            manual_log[job_url] = {
+                "title":    job_title,
+                "reason":   reason,
+                "saved_at": datetime.now().isoformat(),
+            }
+            with open(manual_log_path, "w") as f:
+                json.dump(manual_log, f, indent=2)
+            log.info(f"  📌 Saved for manual apply ({reason}): {job_title}")
+    except Exception as e:
+        log.warning(f"  Could not save manual job: {e}")
+
 def apply_to_job(driver, job_url, job_title, applied_log):
     if job_url in applied_log:
         log.info(f"  Already applied: {job_title}")
@@ -1500,6 +1525,8 @@ def run_agent():
             except Exception as e:
                 log.warning(f"  Name update failed (non-critical): {e}")
             # ─────────────────────────────────────────────────────────────
+        except Exception as e:
+            log.warning(f"  Daily profile update failed: {e}")
 
 
         total_applied = 0

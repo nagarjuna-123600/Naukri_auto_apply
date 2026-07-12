@@ -1368,7 +1368,7 @@ def run_agent():
             is_odd_day = day_number % 2 == 1
 
             # Name alternation — once per day
-            name_today = "Pulabala Nagarjuna" if is_odd_day else "Nagarjuna Pulabala"
+            name_today = "Nagarjuna Pulabala" if is_odd_day else "Pulabala Nagarjuna"
             log.info(f"  Today's name ({'odd' if is_odd_day else 'even'} day): {name_today}")
 
             driver.get("https://www.naukri.com/mnjuser/profile?id=&altresid")

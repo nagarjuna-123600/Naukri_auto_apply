@@ -1,121 +1,101 @@
 """
-Naukri Auto-Apply Bot  ─  FULL VERSION
-=======================================
+Naukri Auto-Apply Bot  v2.0  —  CLEAN REWRITE
+===============================================
+Sections:
+  0 — Newly Arrived (last 24 hrs) — all keywords
+  1 — Hyderabad Jobs              (jobAge=1)
+  2 — Hyderabad Internships       (jobAge=1)
+  3 — Remote / WFH Jobs           (jobAge=1)
+  4 — Remote / WFH Internships    (jobAge=1)
+
 Features:
-  ✅ Auto login
-  ✅ SECTION 1 — Regular Jobs        (Java / Python / SQL Developer, Hyderabad)
-  ✅ SECTION 2 — Internships         (Java / Python / SQL, stipend ≥ ₹10,000/month)
-  ✅ SECTION 3 — Remote / WFH Jobs   (Java, Python, SQL, Software Engineer/Developer — Work From Home)
-  ✅ SECTION 4 — Data Entry WFH      (Data Entry jobs — Work From Home only, skips office roles)
-  ✅ Dismisses ALL popups (profile completeness, app download, login nudge, etc.)
-  ✅ Fills multi-step application forms automatically:
-       • Current CTC       → 3 LPA
-       • Expected CTC      → fills from CONFIG
-       • Notice Period     → "Immediate" or "15 days" (whichever option exists)
-       • Cover Letter      → skips / says not available
-  ✅ Handles dropdown selects for notice period
-  ✅ Stipend filter for internships (≥ ₹10,000/month)
-  ✅ WFH verification — confirms job is truly remote before applying
-  ✅ Duplicate prevention (applied_jobs.json)
-  ✅ Auto-scheduler — runs every day at 9 AM and 6 PM without manual clicks
-  ✅ Headless mode option (Chrome runs silently in background)
-  ✅ Full logging to console + naukri_bot.log
-
-Requirements:
-    pip install selenium webdriver-manager schedule
-
-Usage:
-    python naukri_auto_apply.py
-    (runs immediately once, then repeats at scheduled times automatically)
+  Cookie login  (fallback: email + password)
+  Daily name alternation  (Pulabala Nagarjuna / Nagarjuna Pulabala)
+  Skill + location filter before applying
+  Save redirected jobs to Naukri Saved Jobs
+  Duplicate prevention  (applied_jobs.json)
+  Headless Chrome for GitHub Actions
+  Full logging  (console + naukri_bot.log)
 """
 
+# ── Imports ───────────────────────────────────────────────────
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import (
     TimeoutException, NoSuchElementException,
     ElementClickInterceptedException, StaleElementReferenceException
 )
 from webdriver_manager.chrome import ChromeDriverManager
-import re
-import time
-import logging
-import json
-import os
-import schedule
-from datetime import datetime
+from datetime import datetime, date
+import re, time, logging, json, os, schedule
 
 
-# ═══════════════════════════════════════════════════════════════
-#  CONFIG — Edit everything here before running
-# ═══════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
+#  CONFIG
+# ══════════════════════════════════════════════════════════════
 CONFIG = {
-    # ── Naukri login ────────────────────────────────────────────
+    # ── Credentials ──────────────────────────────────────────
     "email":    os.getenv("NAUKRI_EMAIL",    "your_email@example.com"),
     "password": os.getenv("NAUKRI_PASSWORD", "your_password"),
+    "cookies":  os.getenv("NAUKRI_COOKIES",  ""),   # JSON string of cookies
 
-    # ── Job search preferences ──────────────────────────────────
-    "search_keywords": [
+    # ── Profile name alternation ──────────────────────────────
+    "name_odd":  "Pulabala Nagarjuna",
+    "name_even": "Nagarjuna Pulabala",
+
+    # ── Locations ─────────────────────────────────────────────
+    "location": "Hyderabad",
+
+    # ── Job keywords ─────────────────────────────────────────
+    "job_keywords": [
         "Java Developer",
         "Python Developer",
         "SQL Developer",
         "Software Engineer",
         "Associate Software Engineer",
-        "Customer Software Engineer",
         "Data Analyst",
         "AI ML Engineer",
+        "Machine Learning Engineer",
     ],
-    "location":       "Hyderabad",
-    "experience_min": 0,   # years — only apply to jobs where min experience is 0
-    "experience_max": None,  # no max limit — apply regardless of max experience
 
-    # ── Internship search ────────────────────────────────────────
-    # Only Java, Python, SQL internships with stipend >= min_stipend
+    # ── Internship keywords ───────────────────────────────────
     "internship_keywords": [
         "Java Intern",
         "Python Intern",
         "SQL Intern",
         "AIML Intern",
-        "Data Analyst",
+        "Data Analyst Intern",
+        "Software Engineer Intern",
     ],
-    "min_stipend": 10000,   # ₹/month — skip internships below this
 
-    # ── Skill filter (any one match = consider applying) ────────
-        "required_skills": [
-        # Core IT/Dev roles
+    # ── Required skills (any one match = eligible) ────────────
+    "required_skills": [
         "java", "python", "sql", "mysql", "postgresql",
         "software engineer", "associate software engineer",
         "customer software engineer", "software developer",
         "java developer", "python developer", "sql developer",
         "junior developer",
-        # Frameworks/Tools
         "langchain", "rag", "huggingface", "faiss", "streamlit",
-        # AI/ML specific
         "machine learning", "deep learning",
         "artificial intelligence", "natural language processing", "nlp",
-        # Data
         "data analyst", "data science",
-        # IT-specific fresher/intern/trainee (not generic ones)
         "it fresher", "software fresher", "tech fresher",
         "it trainee", "software trainee", "developer trainee",
         "it intern", "software intern", "developer intern",
         "computer science", "information technology",
     ],
 
-    # ── Title keywords that cause a job to be SKIPPED ───────────
+    # ── Exclude keywords (title match = skip) ─────────────────
     "exclude_keywords": [
-        # ── Experience level exclusions ──────────────────────────
         "senior", "lead", "manager", "architect",
-
-        # ── Role type exclusions ─────────────────────────────────
         "web developer", "frontend developer", "front-end developer",
         "backend developer", "back-end developer",
         "full stack developer", "fullstack developer",
-
-        # ── Non-IT / Non-Tech role exclusions ────────────────────
         "sales", "marketing", "hr ", "human resource", "recruiter",
         "accountant", "accounting", "finance", "financial",
         "content writer", "content writing", "copywriter",
@@ -126,11 +106,10 @@ CONFIG = {
         "field sales", "field executive", "field officer",
         "civil engineer", "mechanical engineer", "electrical engineer",
         "hardware engineer", "network engineer", "field engineer",
-        "site engineer", "site supervisor", "site manager",
+        "site engineer", "site supervisor",
         "electronics engineer", "embedded engineer",
         "production engineer", "manufacturing engineer",
         "automobile engineer", "aeronautical engineer",
-        "structural engineer", "design engineer",
         "teacher", "trainer", "faculty", "professor", "lecturer",
         "doctor", "nurse", "pharmacist", "medical",
         "legal", "lawyer", "advocate", "compliance",
@@ -142,39 +121,34 @@ CONFIG = {
         "relationship manager", "bank", "banking",
         "insurance", "loan", "investment",
         "operations executive", "operations manager",
-        "electronics engineer", "electronics technician",
         "chemical engineer", "biotech", "biotechnology",
         "automobile", "automotive", "instrumentation",
-        "production engineer", "manufacturing engineer",
         "mechanical", "electrical maintenance", "plumber",
-        "welding", "fitter", "quality control", "qa engineer",
+        "welding", "fitter", "quality control",
         "embedded", "vlsi", "iot engineer",
     ],
 
-    # ── Application form answers ────────────────────────────────
-    "current_ctc":        "3",    # in LPA (numeric string)
-    "expected_ctc":       "3",    # in LPA (numeric string)
-    "notice_period_days": 15,     # used to pick closest dropdown option
-    # Cover letter — set to None or "" to auto-fill "No cover letter available"
+    # ── Internship stipend filter ─────────────────────────────
+    "min_stipend": 10000,   # Rs/month — skip below this
+
+    # ── Form answers ──────────────────────────────────────────
+    "current_ctc":        "3",
+    "expected_ctc":       "3",
+    "notice_period_days": 15,
     "cover_letter":       None,
 
-    # ── Run limits ───────────────────────────────────────────────
-    "max_apply_per_search": 10,   # per keyword per run
-    "action_delay":          2,   # seconds between major actions
-
-    # ── Scheduler ────────────────────────────────────────────────
-    # Script runs once immediately on start, then auto-repeats at these times.
-    "schedule_times": ["09:00", "18:00"],
-
-    # ── Misc ─────────────────────────────────────────────────────
-    "log_file": "applied_jobs.json",
-    "headless": False,   # True = Chrome runs silently in background
+    # ── Run settings ─────────────────────────────────────────
+    "max_apply_per_search": 10,
+    "action_delay":          2,
+    "log_file":   "applied_jobs.json",
+    "manual_log": "manual_apply_jobs.json",
+    "headless":   False,
 }
 
 
-# ═══════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
 #  Logging
-# ═══════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
@@ -186,176 +160,292 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 
-# ═══════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
 #  Applied-jobs tracker
-# ═══════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
 def load_applied(path):
     if os.path.exists(path):
         try:
-            with open(path) as f:
-                content = f.read().strip()
-                if not content:
-                    return {}
-                return json.loads(content)
+            content = open(path).read().strip()
+            return json.loads(content) if content else {}
         except (json.JSONDecodeError, ValueError):
-            log.warning(f"  [load] applied_jobs.json was corrupt/empty — starting fresh")
-            return {}
+            log.warning("[load] %s corrupt — starting fresh", path)
     return {}
+
 
 def save_applied(path, data):
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
 
 
-# ═══════════════════════════════════════════════════════════════
+def save_manual_job(job_url, job_title, reason):
+    """Log jobs that redirected externally (Hyderabad only)."""
+    path = CONFIG["manual_log"]
+    try:
+        log_data = load_applied(path)
+        if job_url not in log_data:
+            log_data[job_url] = {
+                "title":    job_title,
+                "reason":   reason,
+                "saved_at": datetime.now().isoformat(),
+            }
+            save_applied(path, log_data)
+            log.info("  📌 Saved to manual log (%s): %s", reason, job_title)
+    except Exception as e:
+        log.warning("  Could not save manual job: %s", e)
+
+
+# ══════════════════════════════════════════════════════════════
 #  Browser setup
-# ═══════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
 def create_driver():
     options = webdriver.ChromeOptions()
-
-    is_ci = os.getenv("CI") == "true" or os.getenv("GITHUB_ACTIONS") == "true"
+    is_ci = os.getenv("GITHUB_ACTIONS") == "true" or os.getenv("CI") == "true"
 
     if is_ci or CONFIG["headless"]:
         options.add_argument("--headless=new")
-        options.add_argument("--window-size=1920,1080")       # FIX 1: Full HD resolution
+        options.add_argument("--window-size=1920,1080")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--disable-gpu")
         options.add_argument("--disable-software-rasterizer")
         options.add_argument("--remote-debugging-port=9222")
-        log.info("  [driver] Running in headless mode (CI/server detected)")
+        log.info("[driver] Headless mode")
     else:
         options.add_argument("--start-maximized")
-        log.info("  [driver] Running in visible mode (local laptop)")
+        log.info("[driver] Visible mode")
 
-    # ── FIX 1: Anti-headless detection flags ──────────────────────
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_argument("--disable-notifications")
     options.add_argument("--disable-popup-blocking")
     options.add_argument("--disable-extensions")
     options.add_argument("--disable-infobars")
-    options.add_argument("--disable-web-security")
-    options.add_argument("--allow-running-insecure-content")
-    options.add_argument("--disable-features=IsolateOrigins,site-per-process")
     options.add_argument("--lang=en-US,en;q=0.9")
-
-    # ── FIX 2: Stealth mode — make Chrome look like real browser ──
     options.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])
     options.add_experimental_option("useAutomationExtension", False)
     options.add_argument(
         "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/124.0.0.0 Safari/537.36"
+        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     )
 
     service = Service(ChromeDriverManager().install())
     driver  = webdriver.Chrome(service=service, options=options)
-
-    # ── FIX 3: Override webdriver detection via JS ─────────────────
-    stealth_js = """
-        Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
-        Object.defineProperty(navigator, 'plugins', {get: () => [1, 2, 3, 4, 5]});
-        Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']});
-        Object.defineProperty(navigator, 'platform', {get: () => 'Win32'});
+    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {"source": """
+        Object.defineProperty(navigator, 'webdriver',  {get: () => undefined});
+        Object.defineProperty(navigator, 'plugins',    {get: () => [1,2,3,4,5]});
+        Object.defineProperty(navigator, 'languages',  {get: () => ['en-US','en']});
+        Object.defineProperty(navigator, 'platform',   {get: () => 'Win32'});
         window.chrome = {runtime: {}};
-        Object.defineProperty(navigator, 'permissions', {
-            query: (parameters) => (
-                parameters.name === 'notifications' ?
-                Promise.resolve({state: Notification.permission}) :
-                originalQuery(parameters)
-            )
-        });
-    """
-    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {"source": stealth_js})
-    driver.set_page_load_timeout(30)   # FIX 3: Longer page load timeout
-    driver.implicitly_wait(5)          # FIX 3: Implicit wait for elements
+    """})
+    driver.set_page_load_timeout(30)
+    driver.implicitly_wait(5)
     return driver
 
 
-
-# ═══════════════════════════════════════════════════════════════
-#  Popup / modal dismisser
-#  Handles: profile completeness, app-download banner,
-#           login nudge, cookie consent, generic × buttons.
-#  Called after login, after every page load, before/after Apply.
-# ═══════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
+#  Popup dismisser
+# ══════════════════════════════════════════════════════════════
 def dismiss_popups(driver):
-    CLOSE_XPATHS = [
-        # ── Profile completeness ─────────────────────────────────
+    XPATHS = [
         "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'skip')]",
         "//a[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'skip')]",
-        "//span[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'skip')]",
         "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'maybe later')]",
-        "//a[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'maybe later')]",
         "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'not now')]",
-        "//a[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'not now')]",
-        "//button[normalize-space(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'))='later']",
-        # ── Generic close / × ────────────────────────────────────
         "//*[contains(@class,'close-btn') or contains(@class,'closeBtn') or contains(@class,'cross-btn')]",
         "//*[contains(@class,'crossIcon') or contains(@class,'cross-icon')]",
         "//*[contains(@class,'modal-close') or contains(@class,'modalClose')]",
         "//button[@aria-label='Close' or @aria-label='close' or @aria-label='Dismiss']",
         "//*[contains(@class,'overlayClose')]",
         "//*[@data-testid='modal-close']",
-        "//*[@data-testid='close-button']",
-        "//button[.//svg and contains(@class,'close')]",
-        # ── App-download / nudge banners ──────────────────────────
-        "//div[contains(@class,'app-download')]//button",
-        "//div[contains(@class,'appDownload')]//button",
-        "//*[contains(@class,'nudge')]//button[contains(@class,'close')]",
-        # ── Login / registration wall ─────────────────────────────
-        "//div[contains(@class,'loginModal')]//button[contains(@class,'close')]",
-        "//div[contains(@class,'login-modal')]//button",
-        # ── Cookie / consent ──────────────────────────────────────
         "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'accept')]",
-        "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'got it')]",
-        # ── Fallback × characters ─────────────────────────────────
-        "//button[normalize-space(text())='×' or normalize-space(text())='✕' or normalize-space(text())='✖']",
+        "//button[normalize-space(text())='x' or normalize-space(text())='x' or normalize-space(text())='x']",
     ]
-
     dismissed = 0
-    for _pass in range(4):
+    for _ in range(3):
         found = False
-        for xpath in CLOSE_XPATHS:
+        for xpath in XPATHS:
             try:
-                els = driver.find_elements(By.XPATH, xpath)
-                for el in els:
+                for el in driver.find_elements(By.XPATH, xpath):
                     if el.is_displayed() and el.is_enabled():
-                        try:
-                            driver.execute_script("arguments[0].click();", el)
-                            time.sleep(0.6)
-                            dismissed += 1
-                            found = True
-                            log.info(f"  [popup] Dismissed: {xpath[:70]}")
-                            break
-                        except Exception:
-                            pass
+                        driver.execute_script("arguments[0].click();", el)
+                        time.sleep(0.5)
+                        dismissed += 1
+                        found = True
+                        break
                 if found:
                     break
             except Exception:
                 continue
         if not found:
             break
-
     try:
         driver.find_element(By.TAG_NAME, "body").send_keys(Keys.ESCAPE)
         time.sleep(0.3)
     except Exception:
         pass
-
-    if dismissed:
-        log.info(f"  [popup] Total dismissed this call: {dismissed}")
     return dismissed
 
 
-# ═══════════════════════════════════════════════════════════════
-#  Multi-step application form handler
-#  Fills CTC, notice period, cover letter fields and clicks
-#  Next / Submit through every step automatically.
-# ═══════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
+#  Login — Cookie first, fallback to email/password
+# ══════════════════════════════════════════════════════════════
+def cookie_login(driver):
+    """Try to login using saved cookies."""
+    cookies_str = CONFIG["cookies"].strip()
+    if not cookies_str:
+        return False
+    try:
+        cookies = json.loads(cookies_str)
+        driver.get("https://www.naukri.com")
+        time.sleep(3)
+        for cookie in cookies:
+            try:
+                cookie.pop("sameSite", None)
+                driver.add_cookie(cookie)
+            except Exception:
+                pass
+        driver.refresh()
+        time.sleep(4)
+        dismiss_popups(driver)
+        if "naukri.com" in driver.current_url and "login" not in driver.current_url:
+            log.info("Cookie login successful!")
+            return True
+    except Exception as e:
+        log.warning("Cookie login failed: %s", e)
+    return False
 
-def _fill_text_field(driver, el, value):
-    """Clear a text/number input and type a value."""
+
+def email_login(driver):
+    """Login with email and password."""
+    log.info("Trying email/password login...")
+    driver.get("https://www.naukri.com/nlogin/login")
+    wait = WebDriverWait(driver, 20)
+    time.sleep(5)
+    try:
+        email_el = wait.until(EC.element_to_be_clickable((By.ID, "usernameField")))
+        email_el.click()
+        time.sleep(0.4)
+        email_el.clear()
+        for ch in CONFIG["email"]:
+            email_el.send_keys(ch)
+            time.sleep(0.04)
+        time.sleep(0.8)
+
+        pwd_el = wait.until(EC.element_to_be_clickable((By.ID, "passwordField")))
+        pwd_el.click()
+        time.sleep(0.4)
+        pwd_el.clear()
+        for ch in CONFIG["password"]:
+            pwd_el.send_keys(ch)
+            time.sleep(0.04)
+        time.sleep(0.8)
+
+        driver.find_element(By.XPATH, "//button[@type='submit']").click()
+        time.sleep(4)
+        dismiss_popups(driver)
+
+        if "login" not in driver.current_url:
+            log.info("Email login successful!")
+            return True
+        log.error("Email login failed — check credentials!")
+        return False
+    except Exception as e:
+        log.error("Email login error: %s", e)
+        return False
+
+
+def login(driver):
+    if cookie_login(driver):
+        return True
+    return email_login(driver)
+
+
+# ══════════════════════════════════════════════════════════════
+#  Skill & location filter
+# ══════════════════════════════════════════════════════════════
+def is_matching_job(title, description=""):
+    t = title.lower()
+    d = description.lower()
+    for ex in CONFIG["exclude_keywords"]:
+        if ex.lower() in t:
+            log.info("  Skip (excluded '%s'): %s", ex, title)
+            return False
+    non_it = [
+        "mechanical engineer", "electrical engineer", "electronics engineer",
+        "civil engineer", "chemical engineer", "automobile engineer",
+        "production engineer", "manufacturing engineer", "biotech",
+        "vlsi", "embedded systems", "electrical maintenance",
+    ]
+    for sig in non_it:
+        if sig in d:
+            log.info("  Skip (non-IT signal '%s'): %s", sig, title)
+            return False
+    for skill in CONFIG["required_skills"]:
+        if skill in t or skill in d:
+            return True
+    log.info("  Skip (no skill match): %s", title)
+    return False
+
+
+def is_valid_location(driver):
+    """Read actual job page location — allow only Hyderabad or WFH/Remote."""
+    ALLOWED = ["hyderabad", "work from home", "remote", "hybrid", "wfh", "telangana"]
+    try:
+        loc_xpaths = [
+            "//*[contains(@class,'location')]",
+            "//*[contains(@class,'loc')]",
+            "//*[@data-qa='job-location']",
+            "//*[contains(@class,'job-loc')]",
+        ]
+        for xp in loc_xpaths:
+            for el in driver.find_elements(By.XPATH, xp):
+                loc = el.text.strip().lower()
+                if not loc:
+                    continue
+                if any(a in loc for a in ALLOWED):
+                    log.info("  Location OK: %s", el.text.strip())
+                    return True
+                if len(loc) > 2:
+                    log.info("  Location SKIP: %s", el.text.strip())
+                    return False
+    except Exception:
+        pass
+    return True   # allow if can't read
+
+
+def extract_stipend(text):
+    if not text:
+        return 0
+    t = text.lower().replace(",", "").replace("₹", "").replace("inr", "").strip()
+    if "unpaid" in t:
+        return 0
+    m = re.search(r"(\d+(?:\.\d+)?)\s*k", t)
+    if m:
+        return int(float(m.group(1)) * 1000)
+    nums = re.findall(r"\d+", t)
+    if nums:
+        val = int(nums[0])
+        if "lpa" in t or "per annum" in t:
+            return int(val * 100000 / 12)
+        return val
+    return 0
+
+
+def is_matching_internship(title, description, stipend_text):
+    if not is_matching_job(title, description):
+        return False
+    stipend = extract_stipend(stipend_text)
+    if stipend < CONFIG["min_stipend"]:
+        log.info("  Skip internship (stipend Rs%d < Rs%d): %s",
+                 stipend, CONFIG["min_stipend"], title)
+        return False
+    return True
+
+
+# ══════════════════════════════════════════════════════════════
+#  Application form handler
+# ══════════════════════════════════════════════════════════════
+def _fill_text(driver, el, value):
     try:
         driver.execute_script("arguments[0].scrollIntoView(true);", el)
         el.click()
@@ -369,899 +459,269 @@ def _fill_text_field(driver, el, value):
         return False
 
 
-def _best_notice_option(select_el, preferred_days):
-    """
-    From a <select> dropdown pick the option whose value is
-    <= preferred_days (Immediate=0, 15 days, 30 days, etc.)
-    Falls back to the smallest available option.
-    """
-    sel     = Select(select_el)
-    parsed  = []
+def _best_notice_option(select_el, days):
+    sel    = Select(select_el)
+    parsed = []
     for opt in sel.options:
         txt = opt.text.strip().lower()
-        if not txt or txt in ("select", "choose", "--", "select notice period"):
+        if not txt or txt in ("select", "choose", "--"):
             continue
-        num = None
         if "immediate" in txt or txt == "0":
-            num = 0
+            parsed.append((0, opt.text.strip()))
         else:
             m = re.search(r"\d+", txt)
             if m:
-                num = int(m.group())
-        if num is not None:
-            parsed.append((num, opt.text.strip()))
-
+                parsed.append((int(m.group()), opt.text.strip()))
     if not parsed:
         return None
-
     best = None
     for num, text in sorted(parsed, key=lambda x: x[0]):
-        if num <= preferred_days:
+        if num <= days:
             best = text
-        else:
-            break
-    if best is None:
-        best = sorted(parsed, key=lambda x: x[0])[0][1]
-    return best
+    return best or sorted(parsed, key=lambda x: x[0])[0][1]
 
 
 def handle_application_form(driver):
-    """
-    Detects and fills every field in a multi-step Naukri application form.
-    Handles up to 6 steps. Returns True if any form was found and processed.
-    """
-    CTC_CURRENT_KEYWORDS  = ["current ctc", "current salary", "current package",
-                              "ctc (current)", "present ctc", "current annual"]
-    CTC_EXPECTED_KEYWORDS = ["expected ctc", "expected salary", "expected package",
-                              "desired ctc", "ctc (expected)", "expected annual"]
-    NOTICE_KEYWORDS       = ["notice period", "notice", "joining period",
-                              "available to join", "availability", "join in"]
-    COVER_LETTER_KEYWORDS = ["cover letter", "cover note", "message to recruiter",
-                              "why should we hire", "write something", "about yourself"]
-    SKIP_COVER_TEXT       = "No cover letter available at this time."
+    CTC_CUR  = ["current ctc", "current salary", "current package", "present ctc"]
+    CTC_EXP  = ["expected ctc", "expected salary", "expected package", "desired ctc"]
+    NOTICE   = ["notice period", "notice", "joining period", "available to join"]
+    COVER    = ["cover letter", "cover note", "message to recruiter", "write something"]
+    SKIP_COV = "No cover letter available at this time."
 
-    form_found = False
-
-    for step in range(6):
+    for _ in range(6):
         dismiss_popups(driver)
         time.sleep(0.8)
-
-        # Check if a form/modal is present
-        containers = driver.find_elements(
-            By.XPATH,
-            "//form | //div[contains(@class,'modal')] | "
-            "//div[contains(@class,'apply')] | //div[contains(@class,'chatbot')]"
-        )
-        if not containers:
+        if not driver.find_elements(By.XPATH,
+            "//form | //div[contains(@class,'modal')] | //div[contains(@class,'apply')]"):
             break
 
-        # ── Process all visible inputs ────────────────────────────
-        inputs = driver.find_elements(
-            By.XPATH,
+        inputs = driver.find_elements(By.XPATH,
             "//input[not(@type='hidden') and not(@type='submit') "
             "and not(@type='checkbox') and not(@type='radio') and not(@type='file')] "
             "| //textarea | //select"
         )
-
         for el in inputs:
             try:
                 if not el.is_displayed() or not el.is_enabled():
                     continue
-
-                tag   = el.tag_name.lower()
-                etype = (el.get_attribute("type") or "").lower()
-
-                # Build label text from multiple sources
-                label_text = ""
+                tag = el.tag_name.lower()
+                lbl = ""
                 fid = el.get_attribute("id") or ""
                 if fid:
                     try:
-                        lbl = driver.find_element(By.XPATH, f"//label[@for='{fid}']")
-                        label_text = lbl.text.strip().lower()
+                        lbl = driver.find_element(
+                            By.XPATH, "//label[@for='" + fid + "']"
+                        ).text.strip().lower()
                     except NoSuchElementException:
                         pass
-                if not label_text:
-                    label_text = (el.get_attribute("placeholder") or "").lower()
-                if not label_text:
-                    label_text = (el.get_attribute("aria-label") or "").lower()
-                if not label_text:
-                    try:
-                        parent_text = driver.execute_script(
-                            "return arguments[0].closest('div,li,tr')?.innerText || ''", el
-                        )
-                        label_text = (parent_text or "").lower()[:100]
-                    except Exception:
-                        pass
+                if not lbl:
+                    lbl = (el.get_attribute("placeholder") or "").lower()
+                if not lbl:
+                    lbl = (el.get_attribute("aria-label") or "").lower()
 
-                # ── Current CTC ───────────────────────────────────
-                if any(k in label_text for k in CTC_CURRENT_KEYWORDS):
-                    if tag == "input" and etype in ("text", "number", ""):
-                        if _fill_text_field(driver, el, CONFIG["current_ctc"]):
-                            log.info(f"  [form] Filled Current CTC → {CONFIG['current_ctc']} LPA")
-                            form_found = True
-
-                # ── Expected CTC ──────────────────────────────────
-                elif any(k in label_text for k in CTC_EXPECTED_KEYWORDS):
-                    if tag == "input" and etype in ("text", "number", ""):
-                        if _fill_text_field(driver, el, CONFIG["expected_ctc"]):
-                            log.info(f"  [form] Filled Expected CTC → {CONFIG['expected_ctc']} LPA")
-                            form_found = True
-
-                # ── Notice Period — dropdown ───────────────────────
-                elif any(k in label_text for k in NOTICE_KEYWORDS) and tag == "select":
+                if any(k in lbl for k in CTC_CUR) and tag == "input":
+                    _fill_text(driver, el, CONFIG["current_ctc"])
+                elif any(k in lbl for k in CTC_EXP) and tag == "input":
+                    _fill_text(driver, el, CONFIG["expected_ctc"])
+                elif any(k in lbl for k in NOTICE) and tag == "select":
                     best = _best_notice_option(el, CONFIG["notice_period_days"])
                     if best:
-                        try:
-                            Select(el).select_by_visible_text(best)
-                            log.info(f"  [form] Selected Notice Period → '{best}'")
-                            form_found = True
-                        except Exception as ex:
-                            log.warning(f"  [form] Notice dropdown failed: {ex}")
-
-                # ── Notice Period — text input ─────────────────────
-                elif any(k in label_text for k in NOTICE_KEYWORDS) and tag == "input":
-                    if _fill_text_field(driver, el, str(CONFIG["notice_period_days"])):
-                        log.info(f"  [form] Filled Notice Period → {CONFIG['notice_period_days']} days")
-                        form_found = True
-
-                # ── Cover Letter ──────────────────────────────────
-                elif any(k in label_text for k in COVER_LETTER_KEYWORDS) and tag == "textarea":
-                    cover = CONFIG.get("cover_letter") or SKIP_COVER_TEXT
-                    if _fill_text_field(driver, el, cover):
-                        log.info(f"  [form] Filled Cover Letter field")
-                        form_found = True
-
+                        Select(el).select_by_visible_text(best)
+                elif any(k in lbl for k in NOTICE) and tag == "input":
+                    _fill_text(driver, el, str(CONFIG["notice_period_days"]))
+                elif any(k in lbl for k in COVER) and tag == "textarea":
+                    _fill_text(driver, el, CONFIG["cover_letter"] or SKIP_COV)
             except StaleElementReferenceException:
                 continue
-            except Exception as ex:
-                log.debug(f"  [form] Field error: {ex}")
-                continue
-
-        # ── Handle radio buttons for notice period ────────────────
-        radios = driver.find_elements(By.XPATH, "//input[@type='radio']")
-        for radio in radios:
-            try:
-                if not radio.is_displayed():
-                    continue
-                rlabel = ""
-                rid = radio.get_attribute("id") or ""
-                if rid:
-                    try:
-                        lbl = driver.find_element(By.XPATH, f"//label[@for='{rid}']")
-                        rlabel = lbl.text.strip().lower()
-                    except Exception:
-                        pass
-                if not rlabel:
-                    rlabel = (radio.get_attribute("value") or "").lower()
-
-                is_immediate = "immediate" in rlabel or rlabel in ("0", "0 days")
-                is_15        = "15" in rlabel
-
-                if is_immediate or is_15:
-                    if not radio.is_selected():
-                        driver.execute_script("arguments[0].click();", radio)
-                        log.info(f"  [form] Selected notice radio → '{rlabel}'")
-                        form_found = True
-                        break
             except Exception:
                 continue
 
-        # ── Click Next / Continue / Submit ────────────────────────
-        next_clicked = False
-        for btn_xpath in [
+        clicked = False
+        for xp in [
             "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'submit')]",
             "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'apply now')]",
             "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'apply')]",
             "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'next')]",
             "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'continue')]",
-            "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'proceed')]",
-            "//a[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'submit')]",
-            "//a[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'apply')]",
         ]:
             try:
-                btn = WebDriverWait(driver, 3).until(
-                    EC.element_to_be_clickable((By.XPATH, btn_xpath))
-                )
+                btn = WebDriverWait(driver, 3).until(EC.element_to_be_clickable((By.XPATH, xp)))
                 driver.execute_script("arguments[0].scrollIntoView(true);", btn)
-                time.sleep(0.4)
+                time.sleep(0.3)
                 driver.execute_script("arguments[0].click();", btn)
-                log.info(f"  [form] Clicked → '{btn.text.strip()}'")
-                next_clicked = True
-                form_found   = True
+                clicked = True
                 time.sleep(1.5)
                 dismiss_popups(driver)
                 break
             except (TimeoutException, Exception):
                 continue
-
-        if not next_clicked:
-            break   # no more navigation buttons — form done
-
-    return form_found
+        if not clicked:
+            break
 
 
-# ═══════════════════════════════════════════════════════════════
-#  Cookie-based login
-# ═══════════════════════════════════════════════════════════════
-def login_with_cookies(driver):
-    """Try to login using saved cookies. Returns True if successful."""
-    cookies_json = os.environ.get("NAUKRI_COOKIES", "")
-    if not cookies_json:
-        log.info("No NAUKRI_COOKIES found — skipping cookie login")
-        return False
-
+# ══════════════════════════════════════════════════════════════
+#  Save job on Naukri (when redirected externally)
+# ══════════════════════════════════════════════════════════════
+def save_on_naukri(driver, job_url, job_title, original_window):
+    """Click the Naukri Save button so job appears in Saved Jobs."""
     try:
-        cookies = json.loads(cookies_json)
-        log.info(f"Loading {len(cookies)} cookies...")
-
-        # First visit naukri.com to set domain
-        driver.get("https://www.naukri.com")
+        driver.execute_script("window.open('" + job_url + "', '_blank');")
+        driver.switch_to.window(driver.window_handles[-1])
         time.sleep(3)
-
-        # Clear existing cookies
-        driver.delete_all_cookies()
-
-        # Add all cookies
-        for cookie in cookies:
-            try:
-                c = {
-                    "name":   cookie["name"],
-                    "value":  cookie["value"],
-                    "domain": cookie.get("domain", ".naukri.com"),
-                    "path":   cookie.get("path", "/"),
-                    "secure": cookie.get("secure", False),
-                }
-                if "expirationDate" in cookie and not cookie.get("session", False):
-                    c["expiry"] = int(cookie["expirationDate"])
-                driver.add_cookie(c)
-            except Exception as e:
-                log.debug(f"  Skipping cookie {cookie.get('name')}: {e}")
-                continue
-
-        # Refresh to apply cookies
-        driver.get("https://www.naukri.com/mnjuser/homepage")
-        time.sleep(4)
         dismiss_popups(driver)
-
-        # Check if logged in
-        if "homepage" in driver.current_url or "mnjuser" in driver.current_url:
-            log.info("✅ Cookie login successful!")
-            return True
-        else:
-            log.warning("Cookie login failed — will try email/password")
-            return False
-
-    except Exception as e:
-        log.error(f"Cookie login error: {e}")
-        return False
-
-
-# ═══════════════════════════════════════════════════════════════
-#  Login
-# ═══════════════════════════════════════════════════════════════
-def login(driver, email, password):
-    # Try cookie login first
-    if login_with_cookies(driver):
-        return True
-
-    # Fallback to email/password login
-    log.info("Trying email/password login...")
-    driver.get("https://www.naukri.com/nlogin/login")
-    wait = WebDriverWait(driver, 20)
-    time.sleep(5)
-
-    try:
-        email_field = wait.until(EC.element_to_be_clickable((By.ID, "usernameField")))
-        driver.execute_script("arguments[0].click();", email_field)
-        time.sleep(0.5)
-        email_field.clear()
-        for char in email:
-            email_field.send_keys(char)
-            time.sleep(0.05)
-        time.sleep(1)
-
-        pwd_field = wait.until(EC.element_to_be_clickable((By.ID, "passwordField")))
-        driver.execute_script("arguments[0].click();", pwd_field)
-        time.sleep(0.5)
-        pwd_field.clear()
-        for char in password:
-            pwd_field.send_keys(char)
-            time.sleep(0.05)
-        time.sleep(1)
-
-        login_btn = driver.find_element(By.XPATH, "//button[@type='submit']")
-        login_btn.click()
-
-        wait.until(EC.url_contains("naukri.com"))
-        time.sleep(CONFIG["action_delay"])
-        log.info("Login successful!")
-
-        # Dismiss any post-login popup immediately
-        dismiss_popups(driver)
-        return True
-
-    except TimeoutException:
-        log.error("Login failed — check credentials or Naukri UI may have changed.")
-        return False
-
-
-# ═══════════════════════════════════════════════════════════════
-#  Search jobs
-# ═══════════════════════════════════════════════════════════════
-def search_jobs(driver, keyword, location):
-    log.info(f"Searching: '{keyword}' in '{location}'...")
-    # No experience filter — get all fresher jobs (min exp = 0, any max)
-    url = (
-        f"https://www.naukri.com/{keyword.lower().replace(' ', '-')}-jobs-in-"
-        f"{location.lower()}?jobAge=30&experience=0"
-    )
-    driver.get(url)
-    time.sleep(CONFIG["action_delay"])
-
-    dismiss_popups(driver)
-
-    for _ in range(3):
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-        time.sleep(1)
-
-    cards = driver.find_elements(By.CLASS_NAME, "cust-job-tuple")
-    if not cards:
-        for sel in [".srp-jobtuple-wrapper", "[data-job-id]", ".job-tuple-comp"]:
-            cards = driver.find_elements(By.CSS_SELECTOR, sel)
-            if cards:
-                break
-
-    log.info(f"Found {len(cards)} job listings")
-    return cards
-
-
-# ═══════════════════════════════════════════════════════════════
-#  Skill / exclusion filter
-# ═══════════════════════════════════════════════════════════════
-def is_matching_job(title, description):
-    title_lower = title.lower()
-    desc_lower  = description.lower()
-
-    # ── STRICT IT-ONLY FILTER ─────────────────────────────────────
-    # Job title MUST contain at least one IT-related keyword
-    IT_TITLE_KEYWORDS = [
-        "software", "developer", "engineer", "programmer", "coder",
-        "java", "python", "sql", "data", "analyst", "ml", "ai",
-        "machine learning", "artificial intelligence", "deep learning",
-        "nlp", "langchain", "rag", "streamlit", "cloud", "devops",
-        "fullstack", "backend", "frontend", "web", "mobile", "app",
-        "database", "dbms", "mysql", "postgresql", "mongodb",
-        "it ", "information technology", "computer", "tech",
-        "intern", "trainee", "fresher", "associate", "junior",
-        "automation", "testing", "qa", "quality assurance",
-        "cybersecurity", "network", "system", "linux", "windows",
-        "api", "rest", "aws", "azure", "gcp", "docker", "kubernetes",
-    ]
-
-    it_match = any(kw in title_lower for kw in IT_TITLE_KEYWORDS)
-    if not it_match:
-        log.info(f"  Skipping (not an IT job): {title}")
-        return False
-    # ─────────────────────────────────────────────────────────────
-
-    for ex in CONFIG["exclude_keywords"]:
-        if ex.lower() in title_lower:
-            log.info(f"  Skipping (excluded keyword '{ex}'): {title}")
-            return False
-
-    # Data Analyst jobs — only apply if SQL is mentioned
-    if "data analyst" in title_lower:
-        if "sql" in title_lower or "sql" in desc_lower:
-            return True
-        log.info(f"  Skipping Data Analyst (no SQL mentioned): {title}")
-        return False
-
-    for skill in CONFIG["required_skills"]:
-        if skill.lower() in title_lower or skill.lower() in desc_lower:
-            return True
-
-    log.info(f"  Skipping (no skill match): {title}")
-    return False
-
-
-# ═══════════════════════════════════════════════════════════════
-#  Internship search
-#  Uses Naukri's dedicated internship search URL.
-# ═══════════════════════════════════════════════════════════════
-def search_internships(driver, keyword, location):
-    log.info(f"  Searching internships: '{keyword}' in '{location}'...")
-
-    # Naukri internship search URL — filters by keyword and location
-    slug    = keyword.lower().replace(" ", "-")
-    loc     = location.lower().replace(" ", "-")
-    url     = (
-        f"https://www.naukri.com/internship/{slug}-internship-in-{loc}"
-        f"?jobAge=30"
-    )
-    # Fallback URL using main search with "internship" appended
-    url_alt = (
-        f"https://www.naukri.com/{slug}-internship-jobs-in-{loc}"
-        f"?jobtype=Internship&jobAge=30"
-    )
-
-    driver.get(url)
-    time.sleep(CONFIG["action_delay"])
-    dismiss_popups(driver)
-
-    # Check if page returned results; if not, try alternate URL
-    cards = driver.find_elements(By.CLASS_NAME, "cust-job-tuple")
-    if not cards:
-        driver.get(url_alt)
-        time.sleep(CONFIG["action_delay"])
-        dismiss_popups(driver)
-
-    # Scroll to load all listings
-    for _ in range(3):
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-        time.sleep(1)
-
-    # Try multiple card selectors
-    cards = driver.find_elements(By.CLASS_NAME, "cust-job-tuple")
-    if not cards:
-        for sel in [".srp-jobtuple-wrapper", "[data-job-id]", ".job-tuple-comp"]:
-            cards = driver.find_elements(By.CSS_SELECTOR, sel)
-            if cards:
-                break
-
-    log.info(f"  Found {len(cards)} internship listings")
-    return cards
-
-
-# ═══════════════════════════════════════════════════════════════
-#  Internship stipend extractor
-#  Pulls numeric stipend value from card text.
-#  Returns the stipend as an integer, or 0 if not found.
-# ═══════════════════════════════════════════════════════════════
-def extract_stipend(text):
-    """
-    Parses stipend from strings like:
-      '₹ 10,000 /month'   → 10000
-      '15000 - 20000'     → 15000  (takes lower bound)
-      '10K - 15K'         → 10000
-      'Unpaid'            → 0
-      '12,000 per month'  → 12000
-    Returns integer value (monthly ₹).
-    """
-    if not text:
-        return 0
-
-    t = text.lower().replace(",", "").replace("₹", "").replace("inr", "").strip()
-
-    # Handle "unpaid" / "no stipend"
-    if "unpaid" in t or "no stipend" in t:
-        return 0
-
-    # Handle K notation (e.g. 10k, 15K)
-    k_match = re.search(r"(\d+(?:\.\d+)?)\s*k", t)
-    if k_match:
-        return int(float(k_match.group(1)) * 1000)
-
-    # Extract first number found (lower bound of range)
-    nums = re.findall(r"\d+", t)
-    if nums:
-        val = int(nums[0])
-        # If the value looks like it's in LPA (e.g. 3 lpa), convert to monthly
-        if "lpa" in t or "per annum" in t or "annual" in t:
-            return int(val * 100000 / 12)
-        return val
-
-    return 0
-
-
-# ═══════════════════════════════════════════════════════════════
-#  Internship match filter
-#  Checks skill match AND stipend >= min_stipend.
-# ═══════════════════════════════════════════════════════════════
-def is_matching_internship(title, description, stipend_text):
-    title_lower = title.lower()
-    desc_lower  = description.lower()
-
-    # ── STRICT IT-ONLY FILTER ─────────────────────────────────────
-    IT_TITLE_KEYWORDS = [
-        "software", "developer", "engineer", "programmer", "coder",
-        "java", "python", "sql", "data", "analyst", "ml", "ai",
-        "machine learning", "artificial intelligence", "deep learning",
-        "nlp", "langchain", "rag", "streamlit", "cloud", "devops",
-        "fullstack", "backend", "frontend", "web", "mobile", "app",
-        "database", "dbms", "mysql", "postgresql", "mongodb",
-        "it ", "information technology", "computer", "tech",
-        "intern", "trainee", "fresher", "associate", "junior",
-        "automation", "testing", "qa", "quality assurance",
-        "cybersecurity", "network", "system", "linux", "windows",
-        "api", "rest", "aws", "azure", "gcp", "docker", "kubernetes",
-    ]
-    it_match = any(kw in title_lower for kw in IT_TITLE_KEYWORDS)
-    if not it_match:
-        log.info(f"  Skipping internship (not an IT role): {title}")
-        return False
-    # ─────────────────────────────────────────────────────────────
-
-    # Apply if at least ONE skill from required_skills matches
-    skill_match = any(
-        s in title_lower or s in desc_lower
-        for s in CONFIG["required_skills"]
-    )
-    if not skill_match:
-        log.info(f"  Skipping internship (no skill match): {title}")
-        return False
-
-    # Skip excluded title keywords
-    for ex in CONFIG["exclude_keywords"]:
-        if ex.lower() in title_lower:
-            log.info(f"  Skipping internship (excluded keyword '{ex}'): {title}")
-            return False
-
-    # Stipend check
-    stipend = extract_stipend(stipend_text)
-    if stipend < CONFIG["min_stipend"]:
-        log.info(
-            f"  Skipping internship (stipend ₹{stipend:,} < ₹{CONFIG['min_stipend']:,}): {title}"
-        )
-        return False
-
-    log.info(f"  ✔ Internship matches — stipend ₹{stipend:,}/month: {title}")
-    return True
-
-
-# ═══════════════════════════════════════════════════════════════
-#  Apply to a single job
-# ═══════════════════════════════════════════════════════════════
-def get_job_location(card):
-    """Extract location from job card."""
-    LOCATION_SELECTORS = [
-        "span.locWdth", "span.location", ".loc", 
-        ".jobTuple-location", "[class*='location']",
-        ".comp-dtls-wrap span", "li.location"
-    ]
-    for sel in LOCATION_SELECTORS:
-        try:
-            loc = card.find_element(By.CSS_SELECTOR, sel).text.strip()
-            if loc:
-                return loc.lower()
-        except NoSuchElementException:
-            continue
-    return ""
-
-
-def save_job_on_naukri(driver, job_url, job_title):
-    """Open job and click Save button on Naukri."""
-    original = driver.current_window_handle
-    driver.execute_script(f"window.open('{job_url}', '_blank');")
-    driver.switch_to.window(driver.window_handles[-1])
-    time.sleep(4)   # FIX: longer wait for page to load on server
-    try:
-        dismiss_popups(driver)
-        time.sleep(2)  # FIX: extra wait after popup dismiss
-        SAVE_SELECTORS = [
+        SAVE_XPATHS = [
             "//button[contains(text(),'Save')]",
             "//a[contains(text(),'Save')]",
             "//*[contains(@class,'save-job')]",
             "//*[contains(@class,'saveJob')]",
             "//*[@title='Save Job']",
             "//span[contains(text(),'Save')]",
-            "//*[contains(@class,'job-header')]//button[contains(text(),'Save')]",
-            "//*[contains(@data-ga-track,'Save')]",
         ]
-        saved = False
-        for sel in SAVE_SELECTORS:
+        for xp in SAVE_XPATHS:
             try:
-                btn = WebDriverWait(driver, 5).until(   # FIX: longer timeout
-                    EC.element_to_be_clickable((By.XPATH, sel))
+                btn = WebDriverWait(driver, 4).until(
+                    EC.element_to_be_clickable((By.XPATH, xp))
                 )
                 driver.execute_script("arguments[0].scrollIntoView(true);", btn)
-                time.sleep(0.5)
+                time.sleep(0.3)
                 driver.execute_script("arguments[0].click();", btn)
-                time.sleep(1)
-                log.info(f"  💾 Saved on Naukri (redirect job): {job_title}")
-                saved = True
+                log.info("  💾 Saved on Naukri: %s", job_title)
                 break
             except TimeoutException:
                 continue
-        if not saved:
-            log.warning(f"  ⚠️ Could not find Save button: {job_title}")
     except Exception as e:
-        log.warning(f"  Could not save on Naukri: {e}")
+        log.warning("  Could not save on Naukri: %s", e)
     finally:
-        driver.close()
-        driver.switch_to.window(original)
-
-    """Save jobs that require manual application (company website, email, WhatsApp)."""
-    manual_log_path = "manual_apply_jobs.json"
-    if os.path.exists(manual_log_path):
-        with open(manual_log_path) as f:
-            manual_log = json.load(f)
-    else:
-        manual_log = {}
-
-    if job_url not in manual_log:
-        manual_log[job_url] = {
-            "title":    job_title,
-            "reason":   reason,
-            "saved_at": datetime.now().isoformat(),
-            "url":      job_url,
-        }
-        with open(manual_log_path, "w") as f:
-            json.dump(manual_log, f, indent=2)
-        log.info(f"  📌 Saved for manual apply ({reason}): {job_title}")
+        try:
+            driver.close()
+            driver.switch_to.window(original_window)
+        except Exception:
+            pass
 
 
-
-# ═══════════════════════════════════════════════════════════════
-#  Location verifier — reads actual job page location
-#  Returns True only if job is in Hyderabad or WFH/Remote
-# ═══════════════════════════════════════════════════════════════
-def is_valid_location(driver):
+# ══════════════════════════════════════════════════════════════
+#  Apply to a single job
+# ══════════════════════════════════════════════════════════════
+def apply_to_job(driver, job_url, job_title, applied_log, is_hyderabad=True):
     """
-    Reads the actual location shown on the job detail page.
-    Returns True if location is Hyderabad or WFH/Remote/Hybrid.
-    Returns False for any other city (Jaipur, Mumbai, Kolkata etc).
+    Open job, check location + skills, apply.
+    is_hyderabad=True  → save redirected jobs on Naukri + manual log
+    is_hyderabad=False → skip redirected jobs silently (WFH section)
     """
-    ALLOWED = ["hyderabad", "work from home", "remote", "hybrid", "wfh", "telangana"]
-    try:
-        # Try multiple selectors Naukri uses for location
-        location_selectors = [
-            "//*[contains(@class,'location')]",
-            "//*[contains(@class,'loc')]",
-            "//*[@data-qa='job-location']",
-            "//span[contains(@class,'ni-job-tuple-icon-srp-loc')]",
-            "//*[contains(@class,'job-loc')]",
-            "//span[contains(@class,'locWrapper')]",
-        ]
-        for sel in location_selectors:
-            try:
-                els = driver.find_elements(By.XPATH, sel)
-                for el in els:
-                    loc_text = el.text.strip().lower()
-                    if not loc_text:
-                        continue
-                    # If any allowed location keyword found → valid
-                    if any(a in loc_text for a in ALLOWED):
-                        log.info(f"  [location] ✅ Valid location: {el.text.strip()}")
-                        return True
-                    # If location text is non-empty and no match → invalid
-                    if len(loc_text) > 2:
-                        log.info(f"  [location] ❌ Wrong location: {el.text.strip()} — skipping")
-                        return False
-            except Exception:
-                continue
-        # If can't read location, allow it (don't block on uncertainty)
-        log.info("  [location] Could not read location — allowing")
-        return True
-    except Exception as e:
-        log.warning(f"  [location] Error checking location: {e}")
-        return True
-
-
-
-# ═══════════════════════════════════════════════════════════════
-#  Save jobs that need manual apply (redirected Hyderabad jobs)
-# ═══════════════════════════════════════════════════════════════
-def save_manual_job(job_url, job_title, reason):
-    manual_log_path = "manual_apply_jobs.json"
-    try:
-        if os.path.exists(manual_log_path):
-            with open(manual_log_path) as f:
-                content = f.read().strip()
-                manual_log = json.loads(content) if content else {}
-        else:
-            manual_log = {}
-        if job_url not in manual_log:
-            manual_log[job_url] = {
-                "title":    job_title,
-                "reason":   reason,
-                "saved_at": datetime.now().isoformat(),
-            }
-            with open(manual_log_path, "w") as f:
-                json.dump(manual_log, f, indent=2)
-            log.info(f"  📌 Saved for manual apply ({reason}): {job_title}")
-    except Exception as e:
-        log.warning(f"  Could not save manual job: {e}")
-
-def apply_to_job(driver, job_url, job_title, applied_log):
     if job_url in applied_log:
-        log.info(f"  Already applied: {job_title}")
+        log.info("  Already applied: %s", job_title)
         return False
 
     original_window = driver.current_window_handle
-    driver.execute_script(f"window.open('{job_url}', '_blank');")
+    driver.execute_script("window.open('" + job_url + "', '_blank');")
     driver.switch_to.window(driver.window_handles[-1])
     time.sleep(CONFIG["action_delay"])
 
-    wait = WebDriverWait(driver, 10)
-
     try:
-        # Clear any popup before looking for Apply button
         dismiss_popups(driver)
 
-        # ── Location check FIRST — skip if not Hyderabad or WFH ────────
+        # Location check
         if not is_valid_location(driver):
-            log.info(f"  Skipping (wrong location — not Hyderabad/WFH): {job_title}")
+            log.info("  Skip (wrong location): %s", job_title)
             driver.close()
             driver.switch_to.window(original_window)
             return False
 
-        # ── Skill check on FULL job page (not just card snippet) ─────
+        # Full-page skill check
         try:
             full_text = driver.find_element(By.TAG_NAME, "body").text.lower()
         except Exception:
             full_text = job_title.lower()
 
-        skill_found = any(
-            skill.lower() in full_text
-            for skill in CONFIG["required_skills"]
-        )
-        excluded = any(
-            ex.lower() in job_title.lower()
-            for ex in CONFIG["exclude_keywords"]
-        )
-        # Also check full page for non-IT role signals
-        non_it_signals = [
-            "mechanical engineer", "electrical engineer", "electronics engineer",
-            "civil engineer", "chemical engineer", "automobile engineer",
-            "production engineer", "manufacturing engineer", "instrumentation",
-            "hardware engineer", "biotech", "vlsi", "embedded systems",
-            "electrical maintenance", "plumber", "fitter", "welding",
-        ]
-        non_it_found = any(s in full_text for s in non_it_signals)
-        if not skill_found or excluded or non_it_found:
-            reason = "excluded keyword" if excluded else ("non-IT role" if non_it_found else "no required skill on page")
-            log.info(f"  Skipping ({reason}): {job_title}")
+        if not any(s in full_text for s in CONFIG["required_skills"]):
+            log.info("  Skip (no skill on page): %s", job_title)
+            driver.close()
+            driver.switch_to.window(original_window)
+            return False
+        if any(ex in job_title.lower() for ex in CONFIG["exclude_keywords"]):
+            log.info("  Skip (excluded): %s", job_title)
             driver.close()
             driver.switch_to.window(original_window)
             return False
 
-        # ── Save job on Naukri first ─────────────────────────────────
+        # Save on Naukri first (before Apply click)
         try:
-            save_selectors = [
+            for sv_xp in [
                 "//button[contains(text(),'Save')]",
                 "//a[contains(text(),'Save')]",
                 "//*[contains(@class,'save-job')]",
                 "//*[contains(@class,'saveJob')]",
-                "//*[contains(@class,'job-save')]",
-                "//span[contains(text(),'Save')]",
-                "//*[@title='Save Job']",
-                "//*[@data-ga-track='Save']",
-            ]
-            for sel in save_selectors:
-                try:
-                    save_btn = WebDriverWait(driver, 3).until(
-                        EC.element_to_be_clickable((By.XPATH, sel))
-                    )
-                    driver.execute_script("arguments[0].click();", save_btn)
-                    time.sleep(0.5)
-                    log.info(f"  💾 Saved on Naukri: {job_title}")
-                    break
-                except TimeoutException:
-                    continue
-        except Exception as e:
-            log.info(f"  Could not save on Naukri (may already be saved): {job_title}")
-        # ─────────────────────────────────────────────────────────────
+            ]:
+                els = driver.find_elements(By.XPATH, sv_xp)
+                for el in els:
+                    if el.is_displayed():
+                        driver.execute_script("arguments[0].click();", el)
+                        time.sleep(0.5)
+                        break
+        except Exception:
+            pass
 
-        # Find the main Apply button
+        # Find Apply button
+        wait = WebDriverWait(driver, 10)
         apply_btn = None
-        for selector in [
+        for xp in [
             "//button[contains(text(),'Apply')]",
             "//a[contains(text(),'Apply')]",
             "//button[@id='apply-button']",
             "//*[contains(@class,'apply-button')]",
             "//button[contains(@class,'applyBtn')]",
-            "//*[@data-ga-track='Apply']",
         ]:
             try:
-                apply_btn = wait.until(EC.element_to_be_clickable((By.XPATH, selector)))
+                apply_btn = wait.until(EC.element_to_be_clickable((By.XPATH, xp)))
                 break
             except TimeoutException:
                 continue
 
         if not apply_btn:
-            log.warning(f"  No Apply button found — saving on Naukri: {job_title}")
-            save_manual_job(job_url, job_title, "no_apply_button")
-            try:
-                SAVE_SELECTORS = [
-                    "//button[contains(text(),'Save')]",
-                    "//*[contains(@class,'save-job')]",
-                    "//*[contains(@class,'saveJob')]",
-                    "//*[@title='Save Job']",
-                ]
-                for sel in SAVE_SELECTORS:
-                    try:
-                        btn = WebDriverWait(driver, 3).until(
-                            EC.element_to_be_clickable((By.XPATH, sel))
-                        )
-                        driver.execute_script("arguments[0].click();", btn)
-                        log.info(f"  💾 Saved on Naukri (no apply button): {job_title}")
-                        break
-                    except TimeoutException:
-                        continue
-            except Exception:
-                pass
+            log.info("  Skip (no Apply button): %s", job_title)
             driver.close()
             driver.switch_to.window(original_window)
             return False
 
-        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", apply_btn)
-        time.sleep(1)
-        dismiss_popups(driver)  # dismiss any popup covering the button
-        time.sleep(0.5)
+        driver.execute_script("arguments[0].scrollIntoView({block:'center'});", apply_btn)
+        time.sleep(0.8)
+        dismiss_popups(driver)
         try:
             apply_btn.click()
         except ElementClickInterceptedException:
-            # fallback to JS click
             driver.execute_script("arguments[0].click();", apply_btn)
-        log.info(f"  Clicked Apply: {job_title}")
+        log.info("  Clicked Apply: %s", job_title)
         time.sleep(1.5)
 
-        # ── Check for external apply options after clicking ──────────
-        page_text = driver.page_source.lower()
-        current_url = driver.current_url.lower()
+        # Check for external redirect
+        pg = driver.page_source.lower()
+        cur = driver.current_url.lower()
+        external_kw = [
+            "apply on company website", "apply via company", "external application",
+            "apply via email", "send your resume", "email your cv",
+            "apply via whatsapp", "whatsapp to apply",
+        ]
+        is_external = any(k in pg for k in external_kw)
+        if not is_external and "naukri.com" not in cur:
+            is_external = True
 
-        external_reasons = {
-            "company website": [
-                "apply on company website", "apply via company",
-                "visit company website", "apply at company site",
-                "redirecting to company", "external application"
-            ],
-            "email": [
-                "apply via email", "apply through email",
-                "send your resume", "email your cv",
-                "send cv to", "mail your resume"
-            ],
-            "whatsapp": [
-                "apply via whatsapp", "apply on whatsapp",
-                "whatsapp to apply", "contact on whatsapp"
-            ],
-        }
-
-        detected_reason = None
-        for reason, keywords in external_reasons.items():
-            for kw in keywords:
-                if kw in page_text:
-                    detected_reason = reason
-                    break
-            if detected_reason:
-                break
-
-        # Also check if redirected to an external domain
-        if not detected_reason and "naukri.com" not in current_url:
-            detected_reason = "company website"
-
-        if detected_reason:
-            save_manual_job(job_url, job_title, detected_reason)
-            driver.close()
-            driver.switch_to.window(original_window)
+        if is_external:
+            if is_hyderabad:
+                save_manual_job(job_url, job_title, "external_redirect")
+                driver.close()
+                driver.switch_to.window(original_window)
+                save_on_naukri(driver, job_url, job_title, original_window)
+            else:
+                log.info("  Skip (external redirect — WFH): %s", job_title)
+                driver.close()
+                driver.switch_to.window(original_window)
             return False
-        # ─────────────────────────────────────────────────────────────
 
-        # Dismiss popup that may appear right after Apply click
+        # Fill form
         dismiss_popups(driver)
+        handle_application_form(driver)
 
-        # Fill any multi-step form (CTC, notice period, cover letter)
-        form_handled = handle_application_form(driver)
-        if form_handled:
-            log.info(f"  [form] Form completed: {job_title}")
-
-        # Final confirmation button if still present
-        for confirm_xpath in [
-            "//button[contains(text(),'Apply')]",
-            "//button[contains(text(),'Submit')]",
-            "//button[contains(text(),'Confirm')]",
-        ]:
-            try:
-                confirm = WebDriverWait(driver, 3).until(
-                    EC.element_to_be_clickable((By.XPATH, confirm_xpath))
-                )
-                confirm.click()
-                time.sleep(1)
-                break
-            except TimeoutException:
-                continue
-
-        log.info(f"  ✅ Applied: {job_title}")
+        log.info("  Applied: %s", job_title)
         applied_log[job_url] = {
             "title":      job_title,
             "applied_at": datetime.now().isoformat(),
@@ -1272,658 +732,383 @@ def apply_to_job(driver, job_url, job_title, applied_log):
         return True
 
     except ElementClickInterceptedException:
-        log.warning(f"  Click blocked — saving on Naukri: {job_title}")
-        try:
-            # Save on Naukri since we couldn't apply directly
-            SAVE_SELECTORS = [
-                "//button[contains(text(),'Save')]",
-                "//a[contains(text(),'Save')]",
-                "//*[contains(@class,'save-job')]",
-                "//*[contains(@class,'saveJob')]",
-                "//*[@title='Save Job']",
-                "//span[contains(text(),'Save')]",
-            ]
-            for sel in SAVE_SELECTORS:
-                try:
-                    btn = WebDriverWait(driver, 3).until(
-                        EC.element_to_be_clickable((By.XPATH, sel))
-                    )
-                    driver.execute_script("arguments[0].click();", btn)
-                    log.info(f"  💾 Saved on Naukri (apply failed): {job_title}")
-                    break
-                except TimeoutException:
-                    continue
-        except Exception:
-            pass
-        save_manual_job(job_url, job_title, "click_blocked")
+        log.info("  Skip (click blocked): %s", job_title)
+    except Exception as e:
+        log.warning("  Error on %s: %s", job_title, str(e)[:80])
+    try:
         driver.close()
         driver.switch_to.window(original_window)
-        return False
-    except Exception as e:
-        log.error(f"  Error applying to {job_title}: {e}")
+    except Exception:
+        pass
+    return False
+
+
+# ══════════════════════════════════════════════════════════════
+#  Job card helpers
+# ══════════════════════════════════════════════════════════════
+def get_cards(driver, url):
+    driver.get(url)
+    time.sleep(CONFIG["action_delay"])
+    dismiss_popups(driver)
+    for _ in range(3):
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+        time.sleep(1)
+    cards = driver.find_elements(By.CLASS_NAME, "cust-job-tuple")
+    if not cards:
+        for sel in [".srp-jobtuple-wrapper", "[data-job-id]", ".job-tuple-comp"]:
+            cards = driver.find_elements(By.CSS_SELECTOR, sel)
+            if cards:
+                break
+    return cards
+
+
+def card_info(driver, card):
+    try:
         try:
-            # Try to save on Naukri even if apply failed
-            SAVE_SELECTORS = [
-                "//button[contains(text(),'Save')]",
-                "//*[contains(@class,'save-job')]",
-                "//*[contains(@class,'saveJob')]",
-                "//*[@title='Save Job']",
-            ]
-            for sel in SAVE_SELECTORS:
+            title_el = card.find_element(By.CLASS_NAME, "title")
+        except NoSuchElementException:
+            title_el = card.find_element(By.TAG_NAME, "a")
+        title = title_el.text.strip()
+        url   = title_el.get_attribute("href") or card.find_element(By.TAG_NAME, "a").get_attribute("href")
+        if not title or not url:
+            return None
+        try:
+            desc = card.find_element(By.CLASS_NAME, "job-description").text
+        except NoSuchElementException:
+            try:
+                desc = card.find_element(By.CLASS_NAME, "job-desc").text
+            except NoSuchElementException:
+                desc = ""
+        return title, url, desc
+    except Exception:
+        return None
+
+
+def process_cards(driver, cards, applied_log, is_hyderabad=True, label=""):
+    count = 0
+    for card in cards:
+        if count >= CONFIG["max_apply_per_search"]:
+            break
+        try:
+            info = card_info(driver, card)
+            if not info:
+                continue
+            title, url, desc = info
+            log.info("  [%s] Checking: %s", label, title)
+            if is_matching_job(title, desc):
+                ok = apply_to_job(driver, url, title, applied_log, is_hyderabad)
+                if ok:
+                    count += 1
+                    save_applied(CONFIG["log_file"], applied_log)
+                    time.sleep(CONFIG["action_delay"])
+        except StaleElementReferenceException:
+            continue
+        except Exception as e:
+            log.warning("  Card error: %s", e)
+            continue
+    return count
+
+
+def process_internship_cards(driver, cards, applied_log, is_hyderabad=True, label=""):
+    count = 0
+    for card in cards:
+        if count >= CONFIG["max_apply_per_search"]:
+            break
+        try:
+            info = card_info(driver, card)
+            if not info:
+                continue
+            title, url, desc = info
+            stipend = ""
+            for cls in ["salary", "stipend", "package"]:
                 try:
-                    btn = WebDriverWait(driver, 2).until(
-                        EC.element_to_be_clickable((By.XPATH, sel))
-                    )
-                    driver.execute_script("arguments[0].click();", btn)
-                    log.info(f"  💾 Saved on Naukri (error fallback): {job_title}")
-                    break
-                except TimeoutException:
+                    stipend = card.find_element(By.CLASS_NAME, cls).text
+                    if stipend:
+                        break
+                except NoSuchElementException:
                     continue
-            save_manual_job(job_url, job_title, f"error: {str(e)[:50]}")
-            driver.close()
-            driver.switch_to.window(original_window)
-        except Exception:
-            pass
-        return False
+            log.info("  [%s] Checking internship: %s | stipend: %s", label, title, stipend)
+            if is_matching_internship(title, desc, stipend):
+                ok = apply_to_job(driver, url, title, applied_log, is_hyderabad)
+                if ok:
+                    count += 1
+                    save_applied(CONFIG["log_file"], applied_log)
+                    time.sleep(CONFIG["action_delay"])
+        except StaleElementReferenceException:
+            continue
+        except Exception as e:
+            log.warning("  Internship card error: %s", e)
+            continue
+    return count
 
 
-# ═══════════════════════════════════════════════════════════════
-#  Main agent — one full run
-# ═══════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
+#  Daily name update
+# ══════════════════════════════════════════════════════════════
+def daily_name_update(driver):
+    FLAG = "profile_updated_date.txt"
+    today = str(date.today())
+    if os.path.exists(FLAG) and open(FLAG).read().strip() == today:
+        log.info("[profile] Already updated today — skipping")
+        return
+
+    log.info("\n" + "─" * 55)
+    log.info("  DAILY PROFILE UPDATE — Name alternation")
+    log.info("─" * 55)
+
+    try:
+        day_num   = date.today().toordinal()
+        name_today = CONFIG["name_odd"] if day_num % 2 == 1 else CONFIG["name_even"]
+        log.info("  Today's name (%s day): %s",
+                 "odd" if day_num % 2 == 1 else "even", name_today)
+
+        driver.get("https://www.naukri.com/mnjuser/profile?id=&altresid")
+        time.sleep(8)
+        dismiss_popups(driver)
+        time.sleep(2)
+
+        # Log all clickable edit elements for debugging
+        found_els = driver.execute_script("""
+            var res = [];
+            ['button','span','i','a','div'].forEach(function(t){
+                var els = document.getElementsByTagName(t);
+                for(var i=0;i<els.length;i++){
+                    var e=els[i];
+                    var cls=e.getAttribute('class')||'';
+                    var title=e.getAttribute('title')||'';
+                    var aria=e.getAttribute('aria-label')||'';
+                    var ga=e.getAttribute('data-ga-track')||'';
+                    var r=e.getBoundingClientRect();
+                    if(r.width>0&&r.height>0&&(
+                        title.toLowerCase().includes('edit')||
+                        aria.toLowerCase().includes('edit')||
+                        ga.toLowerCase().includes('edit')||
+                        cls.toLowerCase().includes('pencil')||
+                        cls.toLowerCase().includes('naukicon')||
+                        cls.toLowerCase().includes('edit'))){
+                        res.push(t+'|'+cls+'|'+title+'|'+aria+'|'+ga);
+                    }
+                }
+            });
+            return res.slice(0,10);
+        """)
+        log.info("  Edit elements found: %s", found_els)
+
+        # Force all edit elements visible
+        driver.execute_script("""
+            var els=document.querySelectorAll('[class*="edit"],[class*="Edit"],[title*="edit"],[title*="Edit"]');
+            for(var i=0;i<els.length;i++){
+                els[i].style.display='block';
+                els[i].style.visibility='visible';
+                els[i].style.opacity='1';
+                els[i].style.pointerEvents='auto';
+            }
+        """)
+        time.sleep(0.5)
+
+        # Try every possible edit selector
+        EDIT_SELECTORS = [
+            "//*[@title='Edit']",
+            "//*[@title='edit']",
+            "//*[contains(@title,'Edit')]",
+            "//*[contains(@aria-label,'edit') or contains(@aria-label,'Edit')]",
+            "//*[contains(@data-ga-track,'edit') or contains(@data-ga-track,'Edit')]",
+            "//*[contains(@data-ga-track,'Basic') or contains(@data-ga-track,'basic')]",
+            "//*[contains(@class,'naukicon-edit')]",
+            "//*[contains(@class,'icon-edit')]",
+            "//*[contains(@class,'pencil')]",
+            "//*[contains(@class,'editContainer')]",
+            "//*[contains(@class,'profileEditIcon')]",
+            "//button[.//svg]",
+            "//span[.//svg]",
+            "(//*[contains(@class,'edit')])[1]",
+            "(//span[contains(@class,'icon')])[1]",
+            "(//button)[1]",
+        ]
+
+        name_clicked = False
+        for sel in EDIT_SELECTORS:
+            try:
+                for el in driver.find_elements(By.XPATH, sel)[:3]:
+                    try:
+                        driver.execute_script(
+                            "arguments[0].style.display='block';"
+                            "arguments[0].style.visibility='visible';"
+                            "arguments[0].style.pointerEvents='auto';", el
+                        )
+                        time.sleep(0.3)
+                        driver.execute_script("arguments[0].click();", el)
+                        time.sleep(2)
+                        # Check if name input appeared
+                        name_inputs = driver.find_elements(By.XPATH,
+                            "//input[contains(translate(@placeholder,"
+                            "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'name') "
+                            "or @name='fullName' or @id='fullName' or @name='name' or @id='name']"
+                        )
+                        if name_inputs:
+                            name_clicked = True
+                            log.info("  Opened name editor via: %s", sel[:60])
+                            break
+                        dismiss_popups(driver)
+                    except Exception:
+                        continue
+                if name_clicked:
+                    break
+            except Exception:
+                continue
+
+        if name_clicked:
+            NAME_INPUTS = [
+                "//input[contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'name')]",
+                "//input[@name='fullName']",
+                "//input[@id='fullName']",
+                "//input[@name='name']",
+                "//input[@id='name']",
+                "//input[@type='text'][1]",
+            ]
+            name_field = None
+            for sel in NAME_INPUTS:
+                for el in driver.find_elements(By.XPATH, sel):
+                    if el.is_displayed() and el.is_enabled():
+                        name_field = el
+                        break
+                if name_field:
+                    break
+
+            if name_field:
+                name_field.click()
+                name_field.send_keys(Keys.CONTROL + "a")
+                name_field.clear()
+                time.sleep(0.3)
+                name_field.send_keys(name_today)
+                time.sleep(0.5)
+                log.info("  Typed name: %s", name_today)
+
+                for sv_xp in [
+                    "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'save')]",
+                    "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'update')]",
+                    "//button[@type='submit']",
+                ]:
+                    try:
+                        btn = WebDriverWait(driver, 4).until(
+                            EC.element_to_be_clickable((By.XPATH, sv_xp))
+                        )
+                        driver.execute_script("arguments[0].click();", btn)
+                        time.sleep(2)
+                        log.info("  Name updated to: %s", name_today)
+                        with open(FLAG, "w") as f:
+                            f.write(today)
+                        break
+                    except TimeoutException:
+                        continue
+            else:
+                log.warning("  Could not find name input field")
+        else:
+            log.warning("  Could not find name edit button. Elements: %s", found_els)
+
+    except Exception as e:
+        log.warning("  Name update failed (non-critical): %s", e)
+
+
+# ══════════════════════════════════════════════════════════════
+#  Main agent
+# ══════════════════════════════════════════════════════════════
 def run_agent():
-    log.info("")
-    log.info("=" * 55)
-    log.info(f"  Run started: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    log.info("\n" + "=" * 55)
+    log.info("  Run started: %s", datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     log.info("=" * 55)
 
     applied_log = load_applied(CONFIG["log_file"])
-    log.info(f"Loaded {len(applied_log)} previously applied jobs")
+    log.info("Previously applied: %d jobs", len(applied_log))
 
     driver = create_driver()
+    total  = 0
 
     try:
-        if not login(driver, CONFIG["email"], CONFIG["password"]):
+        # ── Login ─────────────────────────────────────────────
+        if not login(driver):
+            log.error("Login failed — stopping.")
             return
 
-        # ── DAILY PROFILE UPDATE — runs only ONCE per day ────────
-        profile_update_flag = "profile_updated_date.txt"
-        try:
-            from datetime import date
-            today_str = str(date.today())
-            already_updated = False
-            if os.path.exists(profile_update_flag):
-                with open(profile_update_flag) as f:
-                    if f.read().strip() == today_str:
-                        already_updated = True
+        # ── Daily name update ─────────────────────────────────
+        daily_name_update(driver)
 
-            if already_updated:
-                log.info("  Profile already updated today — skipping")
-            else:
-                log.info("\n" + "─" * 55)
-                log.info("  DAILY PROFILE UPDATE — Refreshing name + skills order")
-                log.info("─" * 55)
+        loc  = CONFIG["location"].lower()   # hyderabad
+        kws  = CONFIG["job_keywords"]
+        ikws = CONFIG["internship_keywords"]
 
-            from datetime import date
-            day_number = date.today().toordinal()
-            is_odd_day = day_number % 2 == 1
-
-            # Name alternation — once per day
-            name_today = "Nagarjuna Pulabala" if is_odd_day else "Pulabala Nagarjuna"
-            log.info(f"  Today's name ({'odd' if is_odd_day else 'even'} day): {name_today}")
-
-            driver.get("https://www.naukri.com/mnjuser/profile?id=&altresid")
-            time.sleep(5)
-            dismiss_popups(driver)
-            time.sleep(2)
-
-            # ── Step 0: Update Name ──────────────────────────────────
-            try:
-                log.info("  Navigating to profile page...")
-                driver.get("https://www.naukri.com/mnjuser/profile?id=&altresid")
-                time.sleep(8)
-                # Dismiss popups once only
-                dismiss_popups(driver)
-                time.sleep(3)
-
-                # Dump ALL clickable elements for debugging
-                all_btns = driver.execute_script("""
-                    var results = [];
-                    var tags = ['button','span','i','a','div','svg'];
-                    for(var t=0; t<tags.length; t++){
-                        var els = document.getElementsByTagName(tags[t]);
-                        for(var i=0; i<els.length; i++){
-                            var el = els[i];
-                            var cls = el.getAttribute('class') || '';
-                            var title = el.getAttribute('title') || '';
-                            var aria = el.getAttribute('aria-label') || '';
-                            var dataga = el.getAttribute('data-ga-track') || '';
-                            var rect = el.getBoundingClientRect();
-                            if(rect.width>0 && rect.height>0 &&
-                               (title.toLowerCase().includes('edit') ||
-                                aria.toLowerCase().includes('edit') ||
-                                dataga.toLowerCase().includes('edit') ||
-                                cls.toLowerCase().includes('pencil') ||
-                                cls.toLowerCase().includes('naukicon') ||
-                                cls.toLowerCase().includes('icon-edit'))){
-                                results.push(tags[t]+'|'+cls+'|'+title+'|'+aria+'|'+dataga);
-                            }
-                        }
-                    }
-                    return results.slice(0,10);
-                """)
-                log.info(f"  Clickable edit elements: {all_btns}")
-
-                # Try every possible selector pattern Naukri might use
-                ALL_EDIT_SELECTORS = [
-                    # title-based
-                    "//*[@title='Edit']",
-                    "//*[@title='edit']",
-                    "//*[contains(@title,'Edit')]",
-                    # aria-label based
-                    "//*[contains(@aria-label,'edit') or contains(@aria-label,'Edit')]",
-                    # data-ga-track (Naukri analytics attributes)
-                    "//*[contains(@data-ga-track,'edit') or contains(@data-ga-track,'Edit')]",
-                    "//*[contains(@data-ga-track,'Basic') or contains(@data-ga-track,'basic')]",
-                    # Icon font classes Naukri uses
-                    "//*[contains(@class,'naukicon-edit')]",
-                    "//*[contains(@class,'icon-edit')]",
-                    "//*[contains(@class,'pencil')]",
-                    "//*[contains(@class,'naukIcon')]",
-                    # SVG edit buttons
-                    "//button[.//svg]",
-                    "//span[.//svg]",
-                    # Naukri specific profile classes
-                    "//*[contains(@class,'editContainer')]",
-                    "//*[contains(@class,'edit-container')]",
-                    "//*[contains(@class,'profileEditIcon')]",
-                    "//*[contains(@class,'resumeEditIcon')]",
-                    # Top of page elements (name is first section)
-                    "(//button)[1]",
-                    "(//span[contains(@class,'icon')])[1]",
-                ]
-
-                name_clicked = False
-                for sel in ALL_EDIT_SELECTORS:
-                    try:
-                        els = driver.find_elements(By.XPATH, sel)
-                        for el in els[:3]:
-                            try:
-                                if not el.is_displayed():
-                                    continue
-                                driver.execute_script("arguments[0].scrollIntoView(true);", el)
-                                time.sleep(0.3)
-                                driver.execute_script("arguments[0].click();", el)
-                                time.sleep(2)
-                                # Check if name input appeared
-                                name_inputs = driver.find_elements(By.XPATH,
-                                    "//input[contains(translate(@placeholder,"
-                                    "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'name') "
-                                    "or @name='fullName' or @id='fullName' or @name='name' or @id='name']"
-                                )
-                                if name_inputs:
-                                    name_clicked = True
-                                    log.info(f"  ✅ Name editor opened via: {sel[:60]}")
-                                    break
-                                # Wrong modal — close it
-                                dismiss_popups(driver)
-                            except Exception:
-                                continue
-                        if name_clicked:
-                            break
-                    except Exception:
-                        continue
-
-                if name_clicked:
-                    try:
-                        NAME_INPUT_SELECTORS = [
-                            "//input[contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'name')]",
-                            "//input[@name='fullName']",
-                            "//input[@id='fullName']",
-                            "//input[@name='name']",
-                            "//input[@id='name']",
-                            "//input[@type='text'][1]",
-                        ]
-                        name_field = None
-                        for sel in NAME_INPUT_SELECTORS:
-                            els = driver.find_elements(By.XPATH, sel)
-                            for el in els:
-                                if el.is_displayed() and el.is_enabled():
-                                    name_field = el
-                                    break
-                            if name_field:
-                                break
-
-                        if name_field:
-                            name_field.click()
-                            name_field.send_keys(Keys.CONTROL + "a")
-                            name_field.clear()
-                            name_field.send_keys(name_today)
-                            time.sleep(0.5)
-                            log.info(f"  Entered name: {name_today}")
-                            for save_sel in [
-                                "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'save')]",
-                                "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'update')]",
-                                "//button[@type='submit']",
-                            ]:
-                                try:
-                                    btn = WebDriverWait(driver, 4).until(
-                                        EC.element_to_be_clickable((By.XPATH, save_sel))
-                                    )
-                                    driver.execute_script("arguments[0].click();", btn)
-                                    time.sleep(2)
-                                    log.info(f"  ✅ Name updated to: {name_today}")
-                                    break
-                                except TimeoutException:
-                                    continue
-                        else:
-                            log.warning("  Could not find name input field")
-                    except Exception as e:
-                        log.warning(f"  Name field error: {e}")
-                else:
-                    log.warning(f"  Name edit not found. Elements found: {all_btns}")
-
-            except Exception as e:
-                log.warning(f"  Name update failed (non-critical): {e}")
-            # ─────────────────────────────────────────────────────────────
-        except Exception as e:
-            log.warning(f"  Daily profile update failed: {e}")
-
-
-        total_applied = 0
-
-        # ── SECTION 0: Newly Arrived Jobs & Internships ───────────
+        # ══ SECTION 0 — Newly Arrived (last 24 hrs, all keywords) ══
         log.info("\n" + "█" * 55)
-        log.info("  SECTION 0 — Newly Arrived Jobs & Internships (Last 24 hrs)")
+        log.info("  SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)")
         log.info("█" * 55)
+        for kw in kws + ikws:
+            slug = kw.lower().replace(" ", "-")
+            for url in [
+                "https://www.naukri.com/" + slug + "-jobs-in-" + loc + "?jobAge=1&experience=0",
+                "https://www.naukri.com/" + slug + "-jobs?jobAge=1&experience=0&wfhType=remote,hybrid",
+            ]:
+                cards = get_cards(driver, url)
+                log.info("  New listing '%s': %d cards", kw, len(cards))
+                total += process_cards(driver, cards, applied_log,
+                                       is_hyderabad=("in-" + loc in url), label="S0")
 
-        for keyword in CONFIG["search_keywords"] + CONFIG["internship_keywords"]:
-            log.info(f"\n{'─'*50}")
-            log.info(f"New jobs keyword: {keyword}")
-
-            slug = keyword.lower().replace(" ", "-")
-            new_jobs_urls = [
-                f"https://www.naukri.com/{slug}-jobs-in-{CONFIG['location'].lower()}?jobAge=1&experience=0",
-                f"https://www.naukri.com/{slug}-jobs?jobAge=1&experience=0&wfhType=remote,hybrid",
-            ]
-
-            applied_this_round = 0
-
-            for search_url in new_jobs_urls:
-                try:
-                    driver.get(search_url)
-                    time.sleep(CONFIG["action_delay"])
-                    dismiss_popups(driver)
-
-                    for _ in range(3):
-                        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-                        time.sleep(1)
-
-                    cards = driver.find_elements(By.CLASS_NAME, "cust-job-tuple")
-                    log.info(f"  Found {len(cards)} new listings for '{keyword}'")
-
-                    for card in cards:
-                        if applied_this_round >= CONFIG["max_apply_per_search"]:
-                            break
-                        try:
-                            try:
-                                title_el = card.find_element(By.CLASS_NAME, "title")
-                            except NoSuchElementException:
-                                title_el = card.find_element(By.TAG_NAME, "a")
-
-                            job_title = title_el.text.strip()
-                            job_url   = (
-                                title_el.get_attribute("href")
-                                or card.find_element(By.TAG_NAME, "a").get_attribute("href")
-                            )
-                            if not job_title or not job_url:
-                                continue
-
-                            try:
-                                desc = card.find_element(By.CLASS_NAME, "job-description").text
-                            except NoSuchElementException:
-                                try:
-                                    desc = card.find_element(By.CLASS_NAME, "job-desc").text
-                                except NoSuchElementException:
-                                    desc = ""
-
-                            log.info(f"  [NEW] Checking: {job_title}")
-
-                            if is_matching_job(job_title, desc):
-                                success = apply_to_job(driver, job_url, job_title, applied_log)
-                                if success:
-                                    applied_this_round += 1
-                                    total_applied      += 1
-                                    save_applied(CONFIG["log_file"], applied_log)
-                                    time.sleep(CONFIG["action_delay"])
-
-                        except StaleElementReferenceException:
-                            continue
-                        except Exception as e:
-                            log.warning(f"  Skipping new job card: {e}")
-                            continue
-
-                except Exception as e:
-                    log.warning(f"  Error in new jobs search: {e}")
-                    continue
-
-        # ── SECTION 1: Regular Jobs ───────────────────────────────
+        # ══ SECTION 1 — Hyderabad Jobs ════════════════════════
         log.info("\n" + "█" * 55)
-        log.info("  SECTION 1 OF 2 — Regular Jobs")
+        log.info("  SECTION 1 — Hyderabad Jobs (jobAge=1)")
         log.info("█" * 55)
+        for kw in kws:
+            slug  = kw.lower().replace(" ", "-")
+            url   = "https://www.naukri.com/" + slug + "-jobs-in-" + loc + "?jobAge=1&experience=0"
+            cards = get_cards(driver, url)
+            log.info("  [S1] '%s': %d cards", kw, len(cards))
+            total += process_cards(driver, cards, applied_log,
+                                   is_hyderabad=True, label="S1")
 
-        for keyword in CONFIG["search_keywords"]:
-            log.info(f"\n{'─'*50}")
-            log.info(f"Keyword: {keyword}")
-            log.info(f"{'─'*50}")
-
-            job_cards = search_jobs(driver, keyword, CONFIG["location"])
-            applied_this_round = 0
-
-            for card in job_cards:
-                if applied_this_round >= CONFIG["max_apply_per_search"]:
-                    log.info(f"Reached max ({CONFIG['max_apply_per_search']}) for '{keyword}'")
-                    break
-
-                try:
-                    try:
-                        title_el = card.find_element(By.CLASS_NAME, "title")
-                    except NoSuchElementException:
-                        title_el = card.find_element(By.TAG_NAME, "a")
-
-                    job_title = title_el.text.strip()
-                    job_url   = (
-                        title_el.get_attribute("href")
-                        or card.find_element(By.TAG_NAME, "a").get_attribute("href")
-                    )
-
-                    if not job_title or not job_url:
-                        continue
-
-                    try:
-                        desc = card.find_element(By.CLASS_NAME, "job-description").text
-                    except NoSuchElementException:
-                        try:
-                            desc = card.find_element(By.CLASS_NAME, "job-desc").text
-                        except NoSuchElementException:
-                            desc = ""
-
-                    log.info(f"Checking: {job_title}")
-
-                    if is_matching_job(job_title, desc):
-                        # Skip non-Hyderabad jobs entirely
-                        job_loc = get_job_location(card)
-                        if job_loc and "hyderabad" not in job_loc:
-                            log.info(f"  ⏭️ Skipping non-Hyderabad ({job_loc}): {job_title}")
-                            continue
-                        success = apply_to_job(driver, job_url, job_title, applied_log)
-                        if success:
-                            applied_this_round += 1
-                            total_applied      += 1
-                            save_applied(CONFIG["log_file"], applied_log)
-                            time.sleep(CONFIG["action_delay"])
-
-                except StaleElementReferenceException:
-                    log.warning("  Card became stale — skipping")
-                    continue
-                except Exception as e:
-                    log.warning(f"  Skipping card: {e}")
-                    continue
-
-        # ── SECTION 2: Internships ────────────────────────────────
+        # ══ SECTION 2 — Hyderabad Internships ═════════════════
         log.info("\n" + "█" * 55)
-        log.info("  SECTION 2 OF 2 — Internships (Java / Python / SQL)")
-        log.info(f"  Stipend filter: ≥ ₹{CONFIG['min_stipend']:,} / month")
+        log.info("  SECTION 2 — Hyderabad Internships (jobAge=1)")
         log.info("█" * 55)
+        for kw in ikws:
+            slug     = kw.lower().replace(" ", "-")
+            loc_slug = loc.replace(" ", "-")
+            url      = "https://www.naukri.com/internship/" + slug + "-internship-in-" + loc_slug + "?jobAge=1"
+            url_alt  = "https://www.naukri.com/" + slug + "-internship-jobs-in-" + loc_slug + "?jobtype=Internship&jobAge=1"
+            cards    = get_cards(driver, url)
+            if not cards:
+                cards = get_cards(driver, url_alt)
+            log.info("  [S2] '%s': %d cards", kw, len(cards))
+            total += process_internship_cards(driver, cards, applied_log,
+                                              is_hyderabad=True, label="S2")
 
-        for keyword in CONFIG["internship_keywords"]:
-            log.info(f"\n{'─'*50}")
-            log.info(f"Internship keyword: {keyword}")
-            log.info(f"{'─'*50}")
-
-            intern_cards = search_internships(driver, keyword, CONFIG["location"])
-            applied_this_round = 0
-
-            for card in intern_cards:
-                if applied_this_round >= CONFIG["max_apply_per_search"]:
-                    log.info(f"Reached max ({CONFIG['max_apply_per_search']}) for '{keyword}'")
-                    break
-
-                try:
-                    # Extract title
-                    try:
-                        title_el = card.find_element(By.CLASS_NAME, "title")
-                    except NoSuchElementException:
-                        title_el = card.find_element(By.TAG_NAME, "a")
-
-                    job_title = title_el.text.strip()
-                    job_url   = (
-                        title_el.get_attribute("href")
-                        or card.find_element(By.TAG_NAME, "a").get_attribute("href")
-                    )
-
-                    if not job_title or not job_url:
-                        continue
-
-                    # Extract description
-                    try:
-                        desc = card.find_element(By.CLASS_NAME, "job-description").text
-                    except NoSuchElementException:
-                        try:
-                            desc = card.find_element(By.CLASS_NAME, "job-desc").text
-                        except NoSuchElementException:
-                            desc = ""
-
-                    # Extract stipend text from card
-                    stipend_text = ""
-                    for stipend_cls in [
-                        "salary", "stipend", "package",
-                        "compensation", "ctc", "exp-salary",
-                    ]:
-                        try:
-                            stipend_text = card.find_element(
-                                By.CLASS_NAME, stipend_cls
-                            ).text
-                            if stipend_text:
-                                break
-                        except NoSuchElementException:
-                            continue
-
-                    # Also check full card text as fallback
-                    if not stipend_text:
-                        try:
-                            full_text = card.text
-                            # Look for ₹ symbol or stipend pattern in card text
-                            m = re.search(
-                                r"(?:stipend|₹|inr|salary)[\s:]*[\d,k]+",
-                                full_text, re.IGNORECASE
-                            )
-                            if m:
-                                stipend_text = m.group()
-                        except Exception:
-                            pass
-
-                    log.info(f"Checking internship: {job_title} | stipend text: '{stipend_text}'")
-
-                    if is_matching_internship(job_title, desc, stipend_text):
-                        # Skip non-Hyderabad internships entirely
-                        intern_loc = get_job_location(card)
-                        if intern_loc and "hyderabad" not in intern_loc:
-                            log.info(f"  ⏭️ Skipping non-Hyderabad internship ({intern_loc}): {job_title}")
-                            continue
-                        success = apply_to_job(driver, job_url, job_title, applied_log)
-                        if success:
-                            applied_this_round += 1
-                            total_applied      += 1
-                            save_applied(CONFIG["log_file"], applied_log)
-                            time.sleep(CONFIG["action_delay"])
-
-                except StaleElementReferenceException:
-                    log.warning("  Card became stale — skipping")
-                    continue
-                except Exception as e:
-                    log.warning(f"  Skipping internship card: {e}")
-                    continue
-
-        # ── SECTION 3: WFH / Remote Jobs ─────────────────────────
+        # ══ SECTION 3 — Remote/WFH Jobs ═══════════════════════
         log.info("\n" + "█" * 55)
-        log.info("  SECTION 3 OF 3 — Work From Home Jobs")
+        log.info("  SECTION 3 — Remote / WFH Jobs (jobAge=1)")
         log.info("█" * 55)
+        for kw in kws:
+            slug  = kw.lower().replace(" ", "-")
+            url   = "https://www.naukri.com/" + slug + "-jobs?jobAge=1&experience=0&wfhType=remote,hybrid"
+            cards = get_cards(driver, url)
+            log.info("  [S3] '%s': %d cards", kw, len(cards))
+            total += process_cards(driver, cards, applied_log,
+                                   is_hyderabad=False, label="S3")
 
-        wfh_keywords = [
-            kw + " work from home" for kw in CONFIG["search_keywords"]
-        ]
-
-        for keyword in wfh_keywords:
-            log.info(f"\n{'─'*50}")
-            log.info(f"WFH Keyword: {keyword}")
-            log.info(f"{'─'*50}")
-
-            wfh_url = (
-                f"https://www.naukri.com/{keyword.lower().replace(' ', '-')}-jobs?"
-                f"jobAge=30&experience=0&wfhType=remote,hybrid"
-            )
-            driver.get(wfh_url)
-            time.sleep(CONFIG["action_delay"])
-            dismiss_popups(driver)
-
-            for _ in range(3):
-                driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-                time.sleep(1)
-
-            wfh_cards = driver.find_elements(By.CLASS_NAME, "cust-job-tuple")
-            log.info(f"Found {len(wfh_cards)} WFH listings")
-
-            applied_this_round = 0
-
-            for card in wfh_cards:
-                if applied_this_round >= CONFIG["max_apply_per_search"]:
-                    log.info(f"Reached max for '{keyword}'")
-                    break
-
-                try:
-                    try:
-                        title_el = card.find_element(By.CLASS_NAME, "title")
-                    except NoSuchElementException:
-                        title_el = card.find_element(By.TAG_NAME, "a")
-
-                    job_title = title_el.text.strip()
-                    job_url   = (
-                        title_el.get_attribute("href")
-                        or card.find_element(By.TAG_NAME, "a").get_attribute("href")
-                    )
-
-                    if not job_title or not job_url:
-                        continue
-
-                    try:
-                        desc = card.find_element(By.CLASS_NAME, "job-description").text
-                    except NoSuchElementException:
-                        try:
-                            desc = card.find_element(By.CLASS_NAME, "job-desc").text
-                        except NoSuchElementException:
-                            desc = ""
-
-                    log.info(f"Checking WFH: {job_title}")
-
-                    if is_matching_job(job_title, desc):
-                        success = apply_to_job(driver, job_url, job_title, applied_log)
-                        if success:
-                            applied_this_round += 1
-                            total_applied      += 1
-                            save_applied(CONFIG["log_file"], applied_log)
-                            time.sleep(CONFIG["action_delay"])
-
-                except StaleElementReferenceException:
-                    log.warning("  Card became stale — skipping")
-                    continue
-                except Exception as e:
-                    log.warning(f"  Skipping WFH card: {e}")
-                    continue
-
-        # ── SECTION 4: WFH Internships ────────────────────────────
+        # ══ SECTION 4 — Remote/WFH Internships ════════════════
         log.info("\n" + "█" * 55)
-        log.info("  SECTION 4 OF 4 — Work From Home Internships")
+        log.info("  SECTION 4 — Remote / WFH Internships (jobAge=1)")
         log.info("█" * 55)
-
-        for keyword in CONFIG["internship_keywords"]:
-            log.info(f"\n{'─'*50}")
-            log.info(f"WFH Internship keyword: {keyword}")
-            log.info(f"{'─'*50}")
-
-            slug = keyword.lower().replace(" ", "-")
-            wfh_intern_urls = [
-                f"https://www.naukri.com/internship/{slug}-internship?wfhType=remote,hybrid&jobAge=30",
-                f"https://www.naukri.com/{slug}-internship-jobs?jobtype=Internship&wfhType=remote,hybrid&jobAge=30",
-            ]
-
+        for kw in ikws:
+            slug = kw.lower().replace(" ", "-")
             cards = []
-            for url in wfh_intern_urls:
-                driver.get(url)
-                time.sleep(CONFIG["action_delay"])
-                dismiss_popups(driver)
-                for _ in range(3):
-                    driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
-                    time.sleep(1)
-                cards = driver.find_elements(By.CLASS_NAME, "cust-job-tuple")
+            for url in [
+                "https://www.naukri.com/internship/" + slug + "-internship?wfhType=remote,hybrid&jobAge=1",
+                "https://www.naukri.com/" + slug + "-internship-jobs?jobtype=Internship&wfhType=remote,hybrid&jobAge=1",
+            ]:
+                cards = get_cards(driver, url)
                 if cards:
                     break
-
-            log.info(f"  Found {len(cards)} WFH internship listings")
-            applied_this_round = 0
-
-            for card in cards:
-                if applied_this_round >= CONFIG["max_apply_per_search"]:
-                    log.info(f"Reached max for '{keyword}'")
-                    break
-
-                try:
-                    try:
-                        title_el = card.find_element(By.CLASS_NAME, "title")
-                    except NoSuchElementException:
-                        title_el = card.find_element(By.TAG_NAME, "a")
-
-                    job_title = title_el.text.strip()
-                    job_url   = (
-                        title_el.get_attribute("href")
-                        or card.find_element(By.TAG_NAME, "a").get_attribute("href")
-                    )
-
-                    if not job_title or not job_url:
-                        continue
-
-                    try:
-                        desc = card.find_element(By.CLASS_NAME, "job-description").text
-                    except NoSuchElementException:
-                        try:
-                            desc = card.find_element(By.CLASS_NAME, "job-desc").text
-                        except NoSuchElementException:
-                            desc = ""
-
-                    # Stipend extraction
-                    stipend_text = ""
-                    try:
-                        stipend_text = card.find_element(
-                            By.XPATH, ".//*[contains(@class,'stipend') or contains(@class,'salary')]"
-                        ).text
-                    except NoSuchElementException:
-                        pass
-
-                    log.info(f"Checking WFH internship: {job_title}")
-
-                    if is_matching_internship(job_title, desc, stipend_text):
-                        success = apply_to_job(driver, job_url, job_title, applied_log)
-                        if success:
-                            applied_this_round += 1
-                            total_applied      += 1
-                            save_applied(CONFIG["log_file"], applied_log)
-                            time.sleep(CONFIG["action_delay"])
-
-                except StaleElementReferenceException:
-                    log.warning("  Card became stale — skipping")
-                    continue
-                except Exception as e:
-                    log.warning(f"  Skipping WFH internship card: {e}")
-                    continue
+            log.info("  [S4] '%s': %d cards", kw, len(cards))
+            total += process_internship_cards(driver, cards, applied_log,
+                                              is_hyderabad=False, label="S4")
 
     finally:
         try:
@@ -1931,48 +1116,24 @@ def run_agent():
         except Exception:
             pass
 
-    log.info("")
-    log.info("=" * 55)
-    log.info(f"  Run complete — Applied this session: {total_applied}")
-    log.info(f"  Total ever applied: {len(load_applied(CONFIG['log_file']))}")
-    log.info(f"  Log saved to: {CONFIG['log_file']}")
+    log.info("\n" + "=" * 55)
+    log.info("  Run complete — Applied this session: %d", total)
+    log.info("  Total ever applied: %d", len(load_applied(CONFIG["log_file"])))
     log.info("=" * 55)
 
 
-# ═══════════════════════════════════════════════════════════════
-#  Entry point + Scheduler
-#
-#  LOCAL (PyCharm):
-#    Runs once immediately, then auto-repeats at 9 AM and 6 PM daily.
-#    Just click Run once — no further clicks needed.
-#
-#  GITHUB ACTIONS (CI):
-#    GitHub triggers the script on a cron schedule.
-#    Script runs once and exits — GitHub handles the timing.
-# ═══════════════════════════════════════════════════════════════
+# ══════════════════════════════════════════════════════════════
+#  Entry point
+# ══════════════════════════════════════════════════════════════
 if __name__ == "__main__":
-    is_ci = os.getenv("CI") == "true" or os.getenv("GITHUB_ACTIONS") == "true"
-
+    is_ci = os.getenv("GITHUB_ACTIONS") == "true" or os.getenv("CI") == "true"
     if is_ci:
-        # GitHub Actions — just run once and exit cleanly
-        log.info("GitHub Actions detected — running single pass and exiting.")
+        log.info("GitHub Actions — single run")
         run_agent()
-        log.info("Single run complete. GitHub Actions will trigger next run on schedule.")
     else:
-        # Local laptop — run once now, then repeat on schedule
-        log.info("Naukri Auto-Apply Bot starting (local mode)...")
-        log.info(f"Scheduled times: {CONFIG['schedule_times']}")
-        log.info("Running immediately for the first time...\n")
-
+        log.info("Local mode — running now then scheduling every 4 hrs")
         run_agent()
-
-        for t in CONFIG["schedule_times"]:
-            schedule.every().day.at(t).do(run_agent)
-            log.info(f"Scheduled: every day at {t}")
-
-        log.info("\nScheduler is active. Waiting for next run time...")
-        log.info("Press Ctrl+C to stop the bot.\n")
-
+        schedule.every(4).hours.do(run_agent)
         while True:
             schedule.run_pending()
-            time.sleep(30)
+            time.sleep(60)

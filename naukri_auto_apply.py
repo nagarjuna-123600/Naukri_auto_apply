@@ -947,7 +947,7 @@ def run_agent():
 
         for kw in CONFIG["search_keywords"]:
             slug = kw.lower().replace(" ", "-")
-            url  = f"https://www.naukri.com/{slug}-jobs-in-{loc}?jobAge=1&experience=0"
+            url  = f"https://www.naukri.com/{slug}-jobs-in-{loc}?jobAge=2&experience=0"
             cards = get_cards(driver, url)
             log.info(f"  [S1] {kw}: {len(cards)} listings")
             total += process_cards(driver, cards, applied_log,
@@ -962,8 +962,8 @@ def run_agent():
             slug     = kw.lower().replace(" ", "-")
             loc_slug = loc.replace(" ", "-")
             for url in [
-                f"https://www.naukri.com/internship/{slug}-internship-in-{loc_slug}?jobAge=1",
-                f"https://www.naukri.com/{slug}-internship-jobs-in-{loc_slug}?jobtype=Internship&jobAge=1",
+                f"https://www.naukri.com/internship/{slug}-internship-in-{loc_slug}?jobAge=2",
+                f"https://www.naukri.com/{slug}-internship-jobs-in-{loc_slug}?jobtype=Internship&jobAge=2",
             ]:
                 cards = get_cards(driver, url)
                 if cards:
@@ -980,7 +980,7 @@ def run_agent():
 
         for kw in CONFIG["search_keywords"]:
             slug = kw.lower().replace(" ", "-")
-            url  = f"https://www.naukri.com/{slug}-jobs?jobAge=1&experience=0&wfhType=remote,hybrid"
+            url  = f"https://www.naukri.com/{slug}-jobs?jobAge=2&experience=0&wfhType=remote,hybrid"
             cards = get_cards(driver, url)
             log.info(f"  [S3] {kw}: {len(cards)} listings")
             total += process_cards(driver, cards, applied_log,
@@ -994,8 +994,8 @@ def run_agent():
         for kw in CONFIG["internship_keywords"]:
             slug = kw.lower().replace(" ", "-")
             for url in [
-                f"https://www.naukri.com/internship/{slug}-internship?wfhType=remote,hybrid&jobAge=1",
-                f"https://www.naukri.com/{slug}-internship-jobs?jobtype=Internship&wfhType=remote,hybrid&jobAge=1",
+                f"https://www.naukri.com/internship/{slug}-internship?wfhType=remote,hybrid&jobAge=2",
+                f"https://www.naukri.com/{slug}-internship-jobs?jobtype=Internship&wfhType=remote,hybrid&jobAge=2",
             ]:
                 cards = get_cards(driver, url)
                 if cards:

@@ -87,7 +87,7 @@ CONFIG = {
         "senior", "lead", "manager", "architect", "principal",
         "web developer", "frontend developer", "front-end developer",
         "backend developer", "back-end developer",
-        "full stack developer", "fullstack developer",
+        "full stack developer", "fullstack developer", "full stack engineer", "fullstack engineer",
         "sales", "marketing", "hr ", "human resource", "recruiter",
         "accountant", "accounting", "finance", "financial",
         "content writer", "content writing", "copywriter",
@@ -118,6 +118,8 @@ CONFIG = {
         "mechanical", "electrical maintenance", "plumber",
         "welding", "fitter", "quality control",
         "embedded", "vlsi", "iot engineer",
+        "dotnet developer", ".net developer", "react developer",
+        "angular developer", "vue developer", "node developer",
     ],
 
     # ── Non-IT signals (checked on full job page) ─────────────────

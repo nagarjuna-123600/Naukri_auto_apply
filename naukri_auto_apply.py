@@ -754,12 +754,14 @@ def update_profile_name(driver):
             return
 
     log.info("\n" + "─" * 55)
-    log.info("  DAILY PROFILE UPDATE — Alternating name")
+    log.info("  DAILY PROFILE UPDATE — Alternating Resume Headline")
     log.info("─" * 55)
 
     is_odd = date.today().toordinal() % 2 == 1
-    name_today = "Pulabala Nagarjuna" if is_odd else "Nagarjuna Pulabala"
-    log.info(f"  Today's name ({'odd' if is_odd else 'even'} day): {name_today}")
+    headline_odd  = "Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML"
+    headline_even = "AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML"
+    headline_today = headline_odd if is_odd else headline_even
+    log.info(f"  Today's headline ({'odd' if is_odd else 'even'} day): {headline_today}")
 
     try:
         driver.get("https://www.naukri.com/mnjuser/profile?id=&altresid")
@@ -805,17 +807,26 @@ def update_profile_name(driver):
         """)
         time.sleep(0.5)
 
-        # Try all possible edit button patterns
+        # Try all possible headline edit button patterns
         EDIT_SELECTORS = [
+            # Headline specific selectors
+            "//*[contains(@class,'resumeHeadline')]//span[contains(@class,'edit')]",
+            "//*[contains(@class,'resumeHeadline')]//button",
+            "//*[contains(@class,'headline')]//span[contains(@class,'edit')]",
+            "//*[contains(@class,'headline')]//button",
+            # data-ga-track based
+            "//*[contains(@data-ga-track,'headline') or contains(@data-ga-track,'Headline')]",
+            "//*[contains(@data-ga-track,'edit') or contains(@data-ga-track,'Edit')]",
+            # title/aria
             "//*[@title='Edit']",
             "//*[@title='edit']",
+            "//*[contains(@aria-label,'headline') or contains(@aria-label,'Headline')]",
             "//*[contains(@aria-label,'edit') or contains(@aria-label,'Edit')]",
-            "//*[contains(@data-ga-track,'edit') or contains(@data-ga-track,'Basic')]",
+            # Generic edit icons
             "//*[contains(@class,'naukicon-edit')]",
             "//*[contains(@class,'icon-edit') or contains(@class,'pencil')]",
-            "//*[contains(@class,'editContainer') or contains(@class,'profileEditIcon')]",
-            "//button[.//svg]",
-            "(//span[contains(@class,'edit')])[1]",
+            "//*[contains(@class,'editContainer')]",
+            "(//*[contains(@class,'edit')])[2]",
             "(//*[contains(@class,'edit')])[1]",
         ]
 
@@ -831,15 +842,17 @@ def update_profile_name(driver):
                         time.sleep(0.3)
                         driver.execute_script("arguments[0].click();", el)
                         time.sleep(2)
-                        # Check if name input appeared
+                        # Check if headline input appeared
                         inputs = driver.find_elements(By.XPATH,
                             "//input[contains(translate(@placeholder,"
-                            "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'name')"
-                            " or @name='fullName' or @id='fullName' or @name='name']"
+                            "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'headline')"
+                            " or @name='resumeHeadline' or @id='resumeHeadline']"
+                            " | //textarea[contains(translate(@placeholder,"
+                            "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'headline')]"
                         )
                         if inputs:
                             name_clicked = True
-                            log.info(f"  ✅ Name editor opened via: {sel[:50]}")
+                            log.info(f"  ✅ Headline editor opened via: {sel[:60]}")
                             break
                         dismiss_popups(driver)
                     except Exception:
@@ -850,23 +863,36 @@ def update_profile_name(driver):
                 continue
 
         if name_clicked:
-            for inp_sel in [
-                "//input[contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'name')]",
-                "//input[@name='fullName']",
-                "//input[@id='fullName']",
-                "//input[@name='name']",
+            # Try headline input selectors
+            HEADLINE_INPUT_SELECTORS = [
+                "//input[contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'headline')]",
+                "//textarea[contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'headline')]",
+                "//input[@name='resumeHeadline']",
+                "//input[@id='resumeHeadline']",
+                "//textarea[@name='resumeHeadline']",
+                "//input[contains(@class,'headline')]",
+                "//textarea[contains(@class,'headline')]",
+                "//input[@placeholder='Resume Headline']",
+                "//input[@placeholder='Enter your headline']",
+                "//textarea[@placeholder='Resume Headline']",
                 "//input[@type='text'][1]",
-            ]:
+                "//textarea[1]",
+            ]
+            for inp_sel in HEADLINE_INPUT_SELECTORS:
                 try:
                     els = driver.find_elements(By.XPATH, inp_sel)
                     for el in els:
                         if el.is_displayed() and el.is_enabled():
+                            driver.execute_script("arguments[0].scrollIntoView(true);", el)
                             el.click()
+                            time.sleep(0.3)
                             el.send_keys(Keys.CONTROL + "a")
+                            el.send_keys(Keys.DELETE)
                             el.clear()
-                            el.send_keys(name_today)
+                            time.sleep(0.3)
+                            el.send_keys(headline_today)
                             time.sleep(0.5)
-                            log.info(f"  Name entered: {name_today}")
+                            log.info(f"  Headline entered: {headline_today}")
                             # Save
                             for save_sel in [
                                 "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'save')]",
@@ -879,7 +905,7 @@ def update_profile_name(driver):
                                     )
                                     driver.execute_script("arguments[0].click();", btn)
                                     time.sleep(2)
-                                    log.info(f"  ✅ Name updated to: {name_today}")
+                                    log.info(f"  ✅ Headline updated to: {headline_today}")
                                     with open(flag_file, "w") as f:
                                         f.write(today_str)
                                     break
@@ -890,7 +916,7 @@ def update_profile_name(driver):
                 except Exception:
                     continue
         else:
-            log.warning(f"  Could not find name edit button. Elements: {edit_info}")
+            log.warning(f"  Could not find headline edit button. Elements: {edit_info}")
 
     except Exception as e:
         log.warning(f"  Profile update failed (non-critical): {e}")

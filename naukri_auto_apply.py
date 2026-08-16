@@ -33,6 +33,12 @@ from selenium.common.exceptions import (
 from webdriver_manager.chrome import ChromeDriverManager
 import re, time, logging, json, os, schedule
 from datetime import datetime, date
+try:
+    from groq import Groq
+    GROQ_AVAILABLE = True
+except ImportError:
+    GROQ_AVAILABLE = False
+    log_placeholder = None
 
 
 # ═══════════════════════════════════════════════════════════════
@@ -147,6 +153,11 @@ CONFIG = {
     "applied_log":          "applied_jobs.json",
     "manual_log":           "manual_apply_jobs.json",
     "profile_flag":         "profile_updated_date.txt",
+
+    # ── Groq AI ──────────────────────────────────────────────────
+    "groq_api_key":         os.getenv("GROQ_API_KEY", ""),
+    "groq_model":           "llama3-70b-8192",
+    "ai_match_threshold":   7,   # Score out of 10 — apply if >= this
 }
 
 
@@ -180,6 +191,131 @@ def save_json(path, data):
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
 
+
+
+
+# ═══════════════════════════════════════════════════════════════
+#  Groq AI — Smart job matching + custom cover letter
+# ═══════════════════════════════════════════════════════════════
+
+CANDIDATE_PROFILE = """
+Name         : Nagarjuna Pulabala
+Degree       : B.Tech CSE (AI & ML) — BVRIT Hyderabad, 2026
+Experience   : Fresher (0 years)
+Location     : Hyderabad
+Core Skills  : Python, Java, SQL, MySQL, PostgreSQL
+AI/ML Skills : Machine Learning, Deep Learning, NLP, LangChain,
+               RAG, HuggingFace, FAISS, Streamlit
+Roles Seeking: Python Developer, Java Developer, Data Analyst,
+               AI/ML Engineer, Software Engineer, SQL Developer
+"""
+
+_groq_client = None
+
+def get_groq_client():
+    global _groq_client
+    if _groq_client is None and GROQ_AVAILABLE and CONFIG["groq_api_key"]:
+        _groq_client = Groq(api_key=CONFIG["groq_api_key"])
+    return _groq_client
+
+
+def ai_job_match(job_title, job_description):
+    """
+    Uses Groq LLM to evaluate if the job is a good fit.
+    Returns (score: int, reason: str)
+    Score 1-10: >= threshold means apply, < threshold means skip.
+    Falls back to True (apply) if Groq is unavailable.
+    """
+    client = get_groq_client()
+    if not client:
+        return 8, "Groq unavailable — defaulting to apply"
+
+    prompt = f"""You are a job matching assistant. Evaluate if the job below is a good fit for this candidate.
+
+CANDIDATE PROFILE:
+{CANDIDATE_PROFILE}
+
+JOB TITLE: {job_title}
+
+JOB DESCRIPTION:
+{job_description[:2000]}
+
+Rate the match from 1-10 where:
+10 = Perfect match
+7-9 = Good match, apply
+4-6 = Partial match, borderline
+1-3 = Poor match, skip
+
+Rules:
+- Score >= 7 means the bot should apply
+- Score < 7 means the bot should skip
+- If job requires senior/lead/manager experience, score 1
+- If job is non-IT (mechanical, sales, HR, etc.), score 1
+- If job matches candidate skills well, score 7-10
+
+Respond in EXACTLY this format (no other text):
+SCORE: <number>
+REASON: <one line reason>"""
+
+    try:
+        response = client.chat.completions.create(
+            model=CONFIG["groq_model"],
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=100,
+            temperature=0.1,
+        )
+        text = response.choices[0].message.content.strip()
+        lines = text.splitlines()
+        score_line  = next((l for l in lines if l.startswith("SCORE:")),  "SCORE: 5")
+        reason_line = next((l for l in lines if l.startswith("REASON:")), "REASON: No reason")
+        score  = int(re.search(r"\d+", score_line).group())
+        reason = reason_line.replace("REASON:", "").strip()
+        return score, reason
+    except Exception as e:
+        log.warning(f"  [AI] Groq error: {e} — defaulting to apply")
+        return 8, "Groq error — defaulting to apply"
+
+
+def ai_cover_letter(job_title, job_description):
+    """
+    Uses Groq to generate a custom cover letter for the job.
+    Returns cover letter string or None if unavailable.
+    """
+    client = get_groq_client()
+    if not client:
+        return None
+
+    prompt = f"""Write a short, professional cover letter for this job application.
+
+CANDIDATE PROFILE:
+{CANDIDATE_PROFILE}
+
+JOB TITLE: {job_title}
+
+JOB DESCRIPTION:
+{job_description[:1500]}
+
+Instructions:
+- Keep it under 100 words
+- Mention 2-3 relevant skills from candidate profile that match the job
+- Sound enthusiastic but professional
+- Do NOT include subject line or date
+- Start directly with "I am..."
+- End with "Thank you for your consideration."
+
+Write ONLY the cover letter, nothing else."""
+
+    try:
+        response = client.chat.completions.create(
+            model=CONFIG["groq_model"],
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=200,
+            temperature=0.4,
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        log.warning(f"  [AI] Cover letter error: {e}")
+        return None
 
 # ═══════════════════════════════════════════════════════════════
 #  Browser setup
@@ -586,6 +722,22 @@ def apply_to_job(driver, job_url, job_title, applied_log, save_if_redirected=Fal
             driver.close()
             driver.switch_to.window(original)
             return False
+
+        # ── Groq AI match check ───────────────────────────────────
+        ai_score, ai_reason = ai_job_match(job_title, page_text)
+        log.info(f"  [AI] Score: {ai_score}/10 — {ai_reason}")
+        if ai_score < CONFIG["ai_match_threshold"]:
+            log.info(f"  [AI] Skipping (score {ai_score} < {CONFIG['ai_match_threshold']}): {job_title}")
+            driver.close()
+            driver.switch_to.window(original)
+            return False
+        log.info(f"  [AI] ✅ Good match (score {ai_score}) — proceeding to apply")
+
+        # ── Generate AI cover letter ──────────────────────────────
+        ai_cl = ai_cover_letter(job_title, page_text)
+        if ai_cl:
+            CONFIG["cover_letter"] = ai_cl
+            log.info(f"  [AI] Cover letter generated ({len(ai_cl)} chars)")
 
         # ── Find Apply button ─────────────────────────────────────
         apply_btn = None

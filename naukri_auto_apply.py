@@ -959,37 +959,48 @@ def update_profile_name(driver):
         """)
         time.sleep(0.5)
 
-        # Try all possible headline edit button patterns
+        # ── CONFIRMED: Naukri uses class 'new-pencil' for edit buttons ──
+        # Found from debug log: 'SPAN|new-pencil|||'
+
+        # First scroll to headline section
+        try:
+            headline_section = driver.find_element(By.XPATH,
+                "//*[contains(@class,'resumeHeadline')] | "
+                "//*[contains(@class,'headline')] | "
+                "//*[contains(text(),'Resume Headline')]/ancestor::div[1]"
+            )
+            driver.execute_script("arguments[0].scrollIntoView(true);", headline_section)
+            time.sleep(1)
+        except Exception:
+            pass
+
         EDIT_SELECTORS = [
-            # Headline specific selectors
-            "//*[contains(@class,'resumeHeadline')]//span[contains(@class,'edit')]",
-            "//*[contains(@class,'resumeHeadline')]//button",
-            "//*[contains(@class,'headline')]//span[contains(@class,'edit')]",
-            "//*[contains(@class,'headline')]//button",
-            # data-ga-track based
-            "//*[contains(@data-ga-track,'headline') or contains(@data-ga-track,'Headline')]",
-            "//*[contains(@data-ga-track,'edit') or contains(@data-ga-track,'Edit')]",
-            # title/aria
+            # CONFIRMED class from debug log
+            "//span[contains(@class,'new-pencil')]",
+            "//*[contains(@class,'new-pencil')]",
+            # Headline section specific
+            "//*[contains(@class,'resumeHeadline')]//span[contains(@class,'new-pencil')]",
+            "//*[contains(@class,'resumeHeadline')]//*[contains(@class,'new-pencil')]",
+            # Try second pencil (first might be for name/photo)
+            "(//span[contains(@class,'new-pencil')])[2]",
+            "(//span[contains(@class,'new-pencil')])[1]",
+            # Fallbacks
             "//*[@title='Edit']",
-            "//*[@title='edit']",
             "//*[contains(@aria-label,'headline') or contains(@aria-label,'Headline')]",
-            "//*[contains(@aria-label,'edit') or contains(@aria-label,'Edit')]",
-            # Generic edit icons
-            "//*[contains(@class,'naukicon-edit')]",
-            "//*[contains(@class,'icon-edit') or contains(@class,'pencil')]",
-            "//*[contains(@class,'editContainer')]",
-            "(//*[contains(@class,'edit')])[2]",
-            "(//*[contains(@class,'edit')])[1]",
         ]
 
         name_clicked = False
         for sel in EDIT_SELECTORS:
             try:
                 els = driver.find_elements(By.XPATH, sel)
-                for el in els[:3]:
+                log.info(f"  [headline] Trying: {sel[:60]} — found {len(els)} elements")
+                for el in els[:5]:
                     try:
                         if not el.is_displayed():
-                            continue
+                            driver.execute_script(
+                                "arguments[0].style.display='block';"
+                                "arguments[0].style.visibility='visible';", el
+                            )
                         driver.execute_script("arguments[0].scrollIntoView(true);", el)
                         time.sleep(0.3)
                         driver.execute_script("arguments[0].click();", el)
@@ -1001,6 +1012,7 @@ def update_profile_name(driver):
                             " or @name='resumeHeadline' or @id='resumeHeadline']"
                             " | //textarea[contains(translate(@placeholder,"
                             "'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'headline')]"
+                            " | //input[@type='text'] | //textarea"
                         )
                         if inputs:
                             name_clicked = True

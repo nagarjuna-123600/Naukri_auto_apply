@@ -1,663 +1,633 @@
-2026-08-18 12:41:39,684 [INFO] GitHub Actions — single run mode
-2026-08-18 12:41:39,684 [INFO] 
+2026-08-18 16:29:18,869 [INFO] GitHub Actions — single run mode
+2026-08-18 16:29:18,869 [INFO] 
 =======================================================
-2026-08-18 12:41:39,684 [INFO]   Run started: 2026-08-18 12:41:39
-2026-08-18 12:41:39,684 [INFO] =======================================================
-2026-08-18 12:41:39,685 [INFO] Previously applied: 248 jobs
-2026-08-18 12:41:39,685 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-08-18 12:41:39,685 [INFO] ====== WebDriver manager ======
-2026-08-18 12:41:41,240 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-18 12:41:41,364 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-18 12:41:41,399 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-18 12:41:41,399 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-18 12:41:41,621 [INFO] WebDriver version 151.0.7922.138 selected
-2026-08-18 12:41:41,626 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-18 12:41:41,627 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-18 12:41:41,730 [INFO] Driver downloading response is 200
-2026-08-18 12:41:42,024 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
-2026-08-18 12:41:46,978 [INFO]   Trying cookie login...
-2026-08-18 12:41:52,222 [INFO]   Loading 34 cookies...
-2026-08-18 12:41:56,503 [INFO]   ✅ Cookie login successful!
-2026-08-18 12:41:56,503 [INFO] 
+2026-08-18 16:29:18,869 [INFO]   Run started: 2026-08-18 16:29:18
+2026-08-18 16:29:18,869 [INFO] =======================================================
+2026-08-18 16:29:18,870 [INFO] Previously applied: 251 jobs
+2026-08-18 16:29:18,870 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-08-18 16:29:18,870 [INFO] ====== WebDriver manager ======
+2026-08-18 16:29:19,253 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-18 16:29:19,369 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-18 16:29:19,395 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-18 16:29:19,395 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-18 16:29:19,573 [INFO] WebDriver version 151.0.7922.138 selected
+2026-08-18 16:29:19,578 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-18 16:29:19,578 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-18 16:29:19,681 [INFO] Driver downloading response is 200
+2026-08-18 16:29:19,970 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
+2026-08-18 16:29:20,746 [INFO]   Trying cookie login...
+2026-08-18 16:29:25,542 [INFO]   Loading 34 cookies...
+2026-08-18 16:29:29,810 [INFO]   ✅ Cookie login successful!
+2026-08-18 16:29:29,810 [INFO] 
 ───────────────────────────────────────────────────────
-2026-08-18 12:41:56,503 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-08-18 12:41:56,503 [INFO] ───────────────────────────────────────────────────────
-2026-08-18 12:41:56,503 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-08-18 12:43:04,281 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-08-18 12:43:09,846 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 15 elements
-2026-08-18 12:43:12,199 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-08-18 12:43:17,251 [INFO] 
+2026-08-18 16:29:29,810 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-08-18 16:29:29,810 [INFO] ───────────────────────────────────────────────────────
+2026-08-18 16:29:29,810 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-08-18 16:30:36,869 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-08-18 16:30:42,421 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 15 elements
+2026-08-18 16:30:44,776 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-08-18 16:30:49,829 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-18 12:43:17,251 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-08-18 12:43:17,251 [INFO] ███████████████████████████████████████████████████████
-2026-08-18 12:44:19,340 [INFO]   [S0-HYD] Java Developer: 17 listings
-2026-08-18 12:44:19,358 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
-2026-08-18 12:44:19,358 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 12:44:19,370 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-18 12:44:19,371 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 12:44:19,383 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-08-18 12:44:19,383 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 12:44:19,395 [INFO]   [S0-HYD] Checking: Data Analyst
-2026-08-18 12:45:16,897 [INFO]   [location] ✅ Hyderabad, Pune
-2026-08-18 12:45:17,289 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-18 12:45:17,289 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-08-18 12:45:17,290 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-08-18 12:45:17,290 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-08-18 12:45:17,366 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-18 12:45:17,367 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-08-18 12:46:13,639 [INFO]   Clicked Apply: Data Analyst
-2026-08-18 12:48:26,899 [INFO]   ✅ Applied: Data Analyst
-2026-08-18 12:48:28,972 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
-2026-08-18 12:48:28,973 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 12:48:28,988 [INFO]   [S0-HYD] Checking: Python Developer
-2026-08-18 12:49:26,446 [INFO]   [location] ✅ Hyderabad
-2026-08-18 12:49:26,681 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-18 12:49:26,682 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-08-18 12:49:26,682 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-08-18 12:49:26,682 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-08-18 12:49:26,762 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-18 12:49:26,762 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-08-18 12:50:23,891 [INFO]   Clicked Apply: Python Developer
-2026-08-18 12:52:37,356 [INFO]   ✅ Applied: Python Developer
-2026-08-18 12:52:39,442 [INFO]   [S0-HYD] Checking: Data Analyst
-2026-08-18 12:53:36,961 [INFO]   [location] ✅ Hyderabad
-2026-08-18 12:53:37,233 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-18 12:53:37,234 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-08-18 12:53:37,234 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-08-18 12:53:37,234 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-08-18 12:53:37,309 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-18 12:53:37,310 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-08-18 12:54:34,198 [INFO]   Clicked Apply: Data Analyst
-2026-08-18 12:56:47,426 [INFO]   ✅ Applied: Data Analyst
-2026-08-18 12:56:49,509 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 12:56:49,509 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 12:56:49,521 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
-2026-08-18 12:56:49,521 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 12:56:49,533 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-08-18 12:56:49,533 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-08-18 12:56:49,545 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
-2026-08-18 12:56:49,545 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 12:56:49,558 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-08-18 12:56:49,558 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 12:56:49,570 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 12:56:49,570 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 12:56:49,582 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 12:56:49,582 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 12:56:49,594 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-18 12:56:49,594 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-18 12:56:49,606 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-18 12:56:49,606 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-18 12:56:49,618 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
-2026-08-18 12:56:49,618 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 12:58:05,662 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-08-18 12:59:06,987 [INFO]   [S0-HYD] Python Developer: 17 listings
-2026-08-18 12:59:07,001 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
-2026-08-18 12:59:07,001 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 12:59:07,014 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
-2026-08-18 12:59:07,014 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 12:59:07,026 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-08-18 12:59:07,026 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 12:59:07,039 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
-2026-08-18 12:59:07,039 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 12:59:07,051 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-18 12:59:07,051 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 12:59:07,062 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-18 12:59:07,062 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 12:59:07,074 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 12:59:07,074 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 12:59:07,086 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 12:59:07,086 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 12:59:07,098 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-08-18 12:59:07,098 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-08-18 12:59:07,110 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
-2026-08-18 12:59:07,110 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 12:59:07,122 [INFO]   [S0-HYD] Checking: Graduate Trainee
-2026-08-18 12:59:07,122 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 12:59:07,134 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-08-18 12:59:07,134 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 12:59:07,146 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 12:59:07,146 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 12:59:07,158 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 12:59:07,158 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 12:59:07,170 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-18 12:59:07,170 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-18 12:59:07,182 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-18 12:59:07,183 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-18 12:59:07,194 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
-2026-08-18 12:59:07,194 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:00:23,232 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-08-18 13:01:24,511 [INFO]   [S0-HYD] SQL Developer: 10 listings
-2026-08-18 13:01:24,524 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:01:24,524 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:01:24,536 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-18 13:01:24,537 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:01:24,549 [INFO]   [S0-HYD] Checking: Graduate Trainee
-2026-08-18 13:01:24,549 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:01:24,561 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-08-18 13:01:24,561 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:01:24,574 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
-2026-08-18 13:01:24,574 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:01:24,586 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
-2026-08-18 13:01:24,586 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:01:24,598 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-18 13:01:24,598 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 13:01:24,611 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
-2026-08-18 13:01:24,611 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:01:24,623 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:01:24,623 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:01:24,635 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
-2026-08-18 13:01:24,635 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 13:02:40,587 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-08-18 13:03:41,949 [INFO]   [S0-HYD] Software Engineer: 20 listings
-2026-08-18 13:03:41,962 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-18 13:03:41,962 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:03:41,974 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-18 13:03:41,974 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:03:41,986 [INFO]   [S0-HYD] Checking: Software Development Engineer
-2026-08-18 13:03:41,986 [INFO]   [filter] No skill match: Software Development Engineer
-2026-08-18 13:03:41,999 [INFO]   [S0-HYD] Checking: GPS Service Engineer Technician - Freshers
-2026-08-18 13:03:41,999 [INFO]   [filter] No skill match: GPS Service Engineer Technician - Freshers
-2026-08-18 13:03:42,011 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
-2026-08-18 13:03:42,011 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:03:42,023 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:03:42,023 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:03:42,035 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
-2026-08-18 13:03:42,035 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 13:03:42,048 [INFO]   [S0-HYD] Checking: Graduate Trainee
-2026-08-18 13:03:42,048 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:03:42,060 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:03:42,060 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:03:42,072 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-08-18 13:03:42,072 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 13:03:42,085 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-08-18 13:03:42,085 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:03:42,097 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
-2026-08-18 13:03:42,097 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-18 13:03:42,109 [INFO]   [S0-HYD] Checking: Software Development Faculty Trainee
-2026-08-18 13:03:42,109 [INFO]   [filter] Excluded 'faculty': Software Development Faculty Trainee
-2026-08-18 13:03:42,121 [INFO]   [S0-HYD] Checking: Assistant Professor CSE
-2026-08-18 13:03:42,122 [INFO]   [filter] Excluded 'professor': Assistant Professor CSE
-2026-08-18 13:03:42,134 [INFO]   [S0-HYD] Checking: Front end Developer
-2026-08-18 13:03:42,134 [INFO]   [filter] No skill match: Front end Developer
-2026-08-18 13:03:42,146 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
-2026-08-18 13:03:42,146 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:03:42,158 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
-2026-08-18 13:03:42,158 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:03:42,170 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
-2026-08-18 13:03:42,170 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 13:03:42,182 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:03:42,183 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:03:42,195 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:03:42,195 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:04:58,133 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-08-18 13:05:59,186 [INFO]   [S0-HYD] Associate Software Engineer: 19 listings
-2026-08-18 13:05:59,200 [INFO]   [S0-HYD] Checking: Front end Developer
-2026-08-18 13:05:59,200 [INFO]   [filter] No skill match: Front end Developer
-2026-08-18 13:05:59,212 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-08-18 13:05:59,212 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-08-18 13:05:59,224 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-08-18 13:05:59,224 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:05:59,236 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-18 13:05:59,237 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 13:05:59,249 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
-2026-08-18 13:05:59,249 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:05:59,261 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
-2026-08-18 13:05:59,261 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:05:59,274 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
-2026-08-18 13:05:59,274 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:05:59,286 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
-2026-08-18 13:05:59,286 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 13:05:59,298 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-18 13:05:59,299 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:05:59,312 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:05:59,312 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:05:59,324 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:05:59,324 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:05:59,337 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
-2026-08-18 13:05:59,337 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 13:05:59,350 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-08-18 13:05:59,350 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-08-18 13:05:59,362 [INFO]   [S0-HYD] Checking: Graduate Trainee
-2026-08-18 13:05:59,362 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:05:59,375 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-08-18 13:05:59,375 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 13:05:59,387 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:05:59,387 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:05:59,400 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:05:59,400 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:05:59,412 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-18 13:05:59,412 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-18 13:05:59,426 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-18 13:05:59,426 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-18 13:07:15,368 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-08-18 13:08:16,505 [INFO]   [S0-HYD] Data Analyst: 20 listings
-2026-08-18 13:08:16,518 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
-2026-08-18 13:08:16,519 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-18 13:08:16,532 [INFO]   [S0-HYD] Checking: Mis Executive
-2026-08-18 13:08:16,532 [INFO]   [filter] No skill match: Mis Executive
-2026-08-18 13:08:16,544 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-18 13:08:16,544 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 13:08:16,557 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
-2026-08-18 13:08:16,557 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:08:16,570 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:08:16,570 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:08:16,582 [INFO]   [S0-HYD] Checking: R&D Engineer
-2026-08-18 13:08:16,583 [INFO]   [filter] No skill match: R&D Engineer
-2026-08-18 13:08:16,596 [INFO]   [S0-HYD] Checking: Procurement Assistant II
-2026-08-18 13:08:16,596 [INFO]   [filter] No skill match: Procurement Assistant II
-2026-08-18 13:08:16,608 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
-2026-08-18 13:08:16,608 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-08-18 13:08:16,622 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-08-18 13:08:16,622 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:08:16,635 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
-2026-08-18 13:08:16,635 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:08:16,648 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
-2026-08-18 13:08:16,649 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:08:16,662 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
-2026-08-18 13:08:16,662 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 13:08:16,675 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-18 13:08:16,675 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:08:16,688 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:08:16,688 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:08:16,701 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
-2026-08-18 13:08:16,701 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 13:08:16,714 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-08-18 13:08:16,714 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-08-18 13:08:16,727 [INFO]   [S0-HYD] Checking: Graduate Trainee
-2026-08-18 13:08:16,727 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:08:16,740 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-08-18 13:08:16,740 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 13:08:16,753 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:08:16,753 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:08:16,766 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:08:16,766 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:09:32,725 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-08-18 13:10:33,996 [INFO]   [S0-HYD] AI ML Engineer: 17 listings
-2026-08-18 13:10:34,009 [INFO]   [S0-HYD] Checking: Graduate Trainee
-2026-08-18 13:10:34,010 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:10:34,022 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-08-18 13:10:34,022 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:10:34,034 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-18 13:10:34,034 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 13:10:34,046 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
-2026-08-18 13:10:34,046 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:10:34,058 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
-2026-08-18 13:10:34,059 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:10:34,071 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
-2026-08-18 13:10:34,071 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:10:34,083 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
-2026-08-18 13:10:34,083 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 13:10:34,095 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-18 13:10:34,095 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:10:34,109 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:10:34,109 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:10:34,122 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:10:34,122 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:10:34,134 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
-2026-08-18 13:10:34,134 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 13:10:34,146 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-08-18 13:10:34,146 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-08-18 13:10:34,159 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-08-18 13:10:34,159 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 13:10:34,171 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:10:34,171 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:10:34,183 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:10:34,183 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:10:34,195 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-18 13:10:34,195 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-18 13:10:34,207 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-18 13:10:34,207 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-18 13:11:50,247 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-08-18 13:12:51,517 [INFO]   [S0-HYD] Machine Learning Engineer: 17 listings
-2026-08-18 13:12:51,530 [INFO]   [S0-HYD] Checking: Graduate Trainee
-2026-08-18 13:12:51,530 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:12:51,543 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-08-18 13:12:51,543 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:12:51,556 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-18 13:12:51,556 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 13:12:51,568 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
-2026-08-18 13:12:51,568 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:12:51,580 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
-2026-08-18 13:12:51,580 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:12:51,592 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
-2026-08-18 13:12:51,592 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:12:51,605 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
-2026-08-18 13:12:51,605 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 13:12:51,618 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-18 13:12:51,618 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:12:51,630 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:12:51,630 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:12:51,643 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:12:51,643 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:12:51,656 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
-2026-08-18 13:12:51,656 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 13:12:51,668 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-08-18 13:12:51,668 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-08-18 13:12:51,681 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-08-18 13:12:51,681 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 13:12:51,693 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:12:51,693 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:12:51,706 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:12:51,706 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:12:51,718 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-18 13:12:51,718 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-18 13:12:51,730 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-18 13:12:51,731 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-18 13:14:07,722 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-08-18 13:15:24,502 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-08-18 13:16:40,577 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-08-18 13:17:56,848 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-08-18 13:19:12,840 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-08-18 13:20:29,039 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-08-18 13:21:45,125 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-08-18 13:23:01,611 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-08-18 13:24:17,849 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-08-18 13:25:34,111 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-08-18 13:26:50,092 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-08-18 13:28:06,548 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-08-18 13:29:22,607 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-08-18 13:29:22,607 [INFO] 
+2026-08-18 16:30:49,829 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-08-18 16:30:49,829 [INFO] ███████████████████████████████████████████████████████
+2026-08-18 16:31:51,156 [INFO]   [S0-HYD] Java Developer: 14 listings
+2026-08-18 16:31:51,179 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
+2026-08-18 16:31:51,179 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 16:31:51,191 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-18 16:31:51,191 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 16:31:51,203 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-08-18 16:31:51,203 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 16:31:51,215 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
+2026-08-18 16:31:51,215 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 16:31:51,227 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:31:51,227 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:31:51,239 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-08-18 16:31:51,239 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-08-18 16:31:51,251 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
+2026-08-18 16:31:51,251 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 16:31:51,264 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-08-18 16:31:51,264 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 16:31:51,276 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:31:51,276 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:31:51,288 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:31:51,288 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:31:51,300 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-18 16:31:51,300 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-18 16:31:51,312 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-18 16:31:51,312 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-18 16:31:51,326 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
+2026-08-18 16:31:51,326 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 16:31:51,337 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
+2026-08-18 16:31:51,337 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
+2026-08-18 16:33:07,167 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-08-18 16:34:08,327 [INFO]   [S0-HYD] Python Developer: 17 listings
+2026-08-18 16:34:08,350 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
+2026-08-18 16:34:08,350 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 16:34:08,362 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-08-18 16:34:08,362 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 16:34:08,373 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
+2026-08-18 16:34:08,373 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 16:34:08,385 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-18 16:34:08,385 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 16:34:08,396 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-18 16:34:08,397 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 16:34:08,409 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:34:08,409 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:34:08,421 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:34:08,421 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:34:08,433 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-08-18 16:34:08,433 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-08-18 16:34:08,445 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
+2026-08-18 16:34:08,445 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 16:34:08,456 [INFO]   [S0-HYD] Checking: Graduate Trainee
+2026-08-18 16:34:08,456 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 16:34:08,468 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-08-18 16:34:08,468 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 16:34:08,479 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:34:08,479 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:34:08,493 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:34:08,493 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:34:08,505 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-18 16:34:08,505 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-18 16:34:08,516 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-18 16:34:08,516 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-18 16:34:08,527 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
+2026-08-18 16:34:08,527 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 16:34:08,539 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
+2026-08-18 16:34:08,539 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
+2026-08-18 16:35:24,470 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-08-18 16:36:25,706 [INFO]   [S0-HYD] SQL Developer: 10 listings
+2026-08-18 16:36:25,721 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:36:25,721 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:36:25,736 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-18 16:36:25,736 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 16:36:25,751 [INFO]   [S0-HYD] Checking: Graduate Trainee
+2026-08-18 16:36:25,751 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 16:36:25,764 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-08-18 16:36:25,764 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 16:36:25,776 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
+2026-08-18 16:36:25,776 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 16:36:25,790 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
+2026-08-18 16:36:25,790 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 16:36:25,803 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-18 16:36:25,803 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 16:36:25,815 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
+2026-08-18 16:36:25,816 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 16:36:25,828 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:36:25,828 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:36:25,841 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
+2026-08-18 16:36:25,841 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
+2026-08-18 16:37:41,799 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-08-18 16:38:42,917 [INFO]   [S0-HYD] Software Engineer: 20 listings
+2026-08-18 16:38:42,932 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-18 16:38:42,932 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 16:38:42,944 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-18 16:38:42,944 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 16:38:42,955 [INFO]   [S0-HYD] Checking: Software Development Engineer
+2026-08-18 16:38:42,955 [INFO]   [filter] No skill match: Software Development Engineer
+2026-08-18 16:38:42,966 [INFO]   [S0-HYD] Checking: GPS Service Engineer Technician - Freshers
+2026-08-18 16:38:42,966 [INFO]   [filter] No skill match: GPS Service Engineer Technician - Freshers
+2026-08-18 16:38:42,977 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
+2026-08-18 16:38:42,977 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 16:38:42,989 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:38:42,989 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:38:43,000 [INFO]   [S0-HYD] Checking: Graduate Trainee
+2026-08-18 16:38:43,000 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 16:38:43,012 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:38:43,012 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:38:43,024 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-08-18 16:38:43,024 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 16:38:43,036 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-08-18 16:38:43,036 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 16:38:43,047 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
+2026-08-18 16:38:43,047 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-08-18 16:38:43,058 [INFO]   [S0-HYD] Checking: Software Development Faculty Trainee
+2026-08-18 16:38:43,058 [INFO]   [filter] Excluded 'faculty': Software Development Faculty Trainee
+2026-08-18 16:38:43,070 [INFO]   [S0-HYD] Checking: Assistant Professor CSE
+2026-08-18 16:38:43,070 [INFO]   [filter] Excluded 'professor': Assistant Professor CSE
+2026-08-18 16:38:43,082 [INFO]   [S0-HYD] Checking: Front end Developer
+2026-08-18 16:38:43,082 [INFO]   [filter] No skill match: Front end Developer
+2026-08-18 16:38:43,093 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
+2026-08-18 16:38:43,093 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 16:38:43,105 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
+2026-08-18 16:38:43,105 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 16:38:43,117 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
+2026-08-18 16:38:43,117 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 16:38:43,127 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:38:43,127 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:38:43,139 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:38:43,139 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:38:43,151 [INFO]   [S0-HYD] Checking: Engineer
+2026-08-18 16:38:43,151 [INFO]   [filter] No skill match: Engineer
+2026-08-18 16:39:59,002 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-08-18 16:41:00,298 [INFO]   [S0-HYD] Associate Software Engineer: 19 listings
+2026-08-18 16:41:00,326 [INFO]   [S0-HYD] Checking: Front end Developer
+2026-08-18 16:41:00,326 [INFO]   [filter] No skill match: Front end Developer
+2026-08-18 16:41:00,341 [INFO]   [S0-HYD] Checking: Fullstack Developer
+2026-08-18 16:41:00,341 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-08-18 16:41:00,352 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-08-18 16:41:00,352 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 16:41:00,363 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-18 16:41:00,363 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 16:41:00,374 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
+2026-08-18 16:41:00,374 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 16:41:00,385 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
+2026-08-18 16:41:00,385 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 16:41:00,397 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
+2026-08-18 16:41:00,397 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 16:41:00,408 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
+2026-08-18 16:41:00,408 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 16:41:00,420 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-18 16:41:00,420 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 16:41:00,431 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:41:00,431 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:41:00,443 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:41:00,443 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:41:00,454 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-08-18 16:41:00,454 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-08-18 16:41:00,465 [INFO]   [S0-HYD] Checking: Graduate Trainee
+2026-08-18 16:41:00,465 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 16:41:00,476 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-08-18 16:41:00,476 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 16:41:00,488 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:41:00,488 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:41:00,499 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:41:00,499 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:41:00,511 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-18 16:41:00,511 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-18 16:41:00,522 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-18 16:41:00,522 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-18 16:41:00,533 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
+2026-08-18 16:41:00,533 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
+2026-08-18 16:42:16,455 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-08-18 16:43:17,606 [INFO]   [S0-HYD] Data Analyst: 20 listings
+2026-08-18 16:43:17,625 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
+2026-08-18 16:43:17,625 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-08-18 16:43:17,638 [INFO]   [S0-HYD] Checking: Mis Executive
+2026-08-18 16:43:17,638 [INFO]   [filter] No skill match: Mis Executive
+2026-08-18 16:43:17,650 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-18 16:43:17,650 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 16:43:17,662 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
+2026-08-18 16:43:17,662 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 16:43:17,674 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:43:17,674 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:43:17,685 [INFO]   [S0-HYD] Checking: R&D Engineer
+2026-08-18 16:43:17,685 [INFO]   [filter] No skill match: R&D Engineer
+2026-08-18 16:43:17,696 [INFO]   [S0-HYD] Checking: Junior Marketing Specialist II CloudAngles
+2026-08-18 16:43:17,696 [INFO]   [filter] Excluded 'marketing': Junior Marketing Specialist II CloudAngles
+2026-08-18 16:43:17,708 [INFO]   [S0-HYD] Checking: Procurement Assistant II
+2026-08-18 16:43:17,708 [INFO]   [filter] No skill match: Procurement Assistant II
+2026-08-18 16:43:17,719 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-08-18 16:43:17,719 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 16:43:17,730 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
+2026-08-18 16:43:17,730 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 16:43:17,741 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
+2026-08-18 16:43:17,741 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 16:43:17,753 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
+2026-08-18 16:43:17,753 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 16:43:17,765 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-18 16:43:17,765 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 16:43:17,777 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:43:17,777 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:43:17,788 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-08-18 16:43:17,788 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-08-18 16:43:17,799 [INFO]   [S0-HYD] Checking: Graduate Trainee
+2026-08-18 16:43:17,799 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 16:43:17,809 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-08-18 16:43:17,809 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 16:43:17,820 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:43:17,820 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:43:17,832 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:43:17,832 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:43:17,844 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-18 16:43:17,844 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-18 16:44:33,796 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-08-18 16:45:35,053 [INFO]   [S0-HYD] AI ML Engineer: 17 listings
+2026-08-18 16:45:35,067 [INFO]   [S0-HYD] Checking: Graduate Trainee
+2026-08-18 16:45:35,067 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 16:45:35,079 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-08-18 16:45:35,079 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 16:45:35,090 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-18 16:45:35,090 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 16:45:35,101 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
+2026-08-18 16:45:35,101 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 16:45:35,113 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
+2026-08-18 16:45:35,113 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 16:45:35,125 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
+2026-08-18 16:45:35,125 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 16:45:35,136 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
+2026-08-18 16:45:35,136 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 16:45:35,148 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-18 16:45:35,148 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 16:45:35,160 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:45:35,160 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:45:35,172 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:45:35,172 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:45:35,183 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-08-18 16:45:35,184 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-08-18 16:45:35,195 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-08-18 16:45:35,196 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 16:45:35,207 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:45:35,207 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:45:35,219 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:45:35,219 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:45:35,231 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-18 16:45:35,231 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-18 16:45:35,242 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-18 16:45:35,242 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-18 16:45:35,255 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
+2026-08-18 16:45:35,255 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
+2026-08-18 16:46:51,249 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-08-18 16:47:52,500 [INFO]   [S0-HYD] Machine Learning Engineer: 17 listings
+2026-08-18 16:47:52,524 [INFO]   [S0-HYD] Checking: Graduate Trainee
+2026-08-18 16:47:52,524 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 16:47:52,537 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-08-18 16:47:52,537 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 16:47:52,548 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-18 16:47:52,548 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 16:47:52,560 [INFO]   [S0-HYD] Checking: Level II - Database Administrator
+2026-08-18 16:47:52,560 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 16:47:52,572 [INFO]   [S0-HYD] Checking: Forward Deployed Architect II
+2026-08-18 16:47:52,572 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 16:47:52,583 [INFO]   [S0-HYD] Checking: Senior DevOps Engineer
+2026-08-18 16:47:52,583 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 16:47:52,595 [INFO]   [S0-HYD] Checking: Junior Full Stack Developer
+2026-08-18 16:47:52,595 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 16:47:52,606 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-18 16:47:52,606 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 16:47:52,616 [INFO]   [S0-HYD] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:47:52,616 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 16:47:52,627 [INFO]   [S0-HYD] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:47:52,627 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 16:47:52,639 [INFO]   [S0-HYD] Checking: Backend Developer/Tester
+2026-08-18 16:47:52,639 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
+2026-08-18 16:47:52,650 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-08-18 16:47:52,650 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-08-18 16:47:52,660 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-08-18 16:47:52,661 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 16:47:52,672 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:47:52,672 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 16:47:52,684 [INFO]   [S0-HYD] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:47:52,684 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 16:47:52,695 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-18 16:47:52,695 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-18 16:47:52,707 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-18 16:47:52,707 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-18 16:49:08,630 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-08-18 16:50:24,845 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-08-18 16:51:40,857 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-08-18 16:52:56,927 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-08-18 16:54:12,870 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-08-18 16:55:29,078 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-08-18 16:56:45,023 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-08-18 16:58:01,184 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-08-18 16:59:17,063 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-08-18 17:00:33,451 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-08-18 17:01:49,274 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-08-18 17:03:05,365 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-08-18 17:04:21,289 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-08-18 17:04:21,289 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-18 13:29:22,607 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-08-18 13:29:22,607 [INFO] ███████████████████████████████████████████████████████
-2026-08-18 13:30:23,923 [INFO]   [S1] Java Developer: 14 listings
-2026-08-18 13:30:23,942 [INFO]   [S1] Checking: Junior Full Stack Developer
-2026-08-18 13:30:23,942 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 13:30:23,955 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-18 13:30:23,955 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 13:30:23,968 [INFO]   [S1] Checking: Agent Product Builder
-2026-08-18 13:30:23,969 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:30:23,981 [INFO]   [S1] Checking: Level II - Database Administrator
-2026-08-18 13:30:23,982 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:30:23,995 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:30:23,995 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:30:24,008 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-08-18 13:30:24,008 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-08-18 13:30:24,021 [INFO]   [S1] Checking: Forward Deployed Architect II
-2026-08-18 13:30:24,021 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:30:24,035 [INFO]   [S1] Checking: Dotnet Developer
-2026-08-18 13:30:24,035 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 13:30:24,049 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:30:24,049 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:30:24,062 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:30:24,063 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:30:24,075 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-18 13:30:24,075 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-18 13:30:24,088 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-18 13:30:24,088 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-18 13:30:24,100 [INFO]   [S1] Checking: Senior DevOps Engineer
-2026-08-18 13:30:24,101 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:30:24,113 [INFO]   [S1] Checking: Backend Developer/Tester
-2026-08-18 13:30:24,113 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 13:31:25,459 [INFO]   [S1] Python Developer: 17 listings
-2026-08-18 13:31:25,472 [INFO]   [S1] Checking: Level II - Database Administrator
-2026-08-18 13:31:25,472 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:31:25,484 [INFO]   [S1] Checking: Agent Product Builder
-2026-08-18 13:31:25,484 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:31:25,496 [INFO]   [S1] Checking: Junior Full Stack Developer
-2026-08-18 13:31:25,496 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 13:31:25,511 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-18 13:31:25,511 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:31:25,523 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-18 13:31:25,524 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 13:31:25,536 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:31:25,536 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:31:25,549 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:31:25,549 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:31:25,561 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-08-18 13:31:25,561 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-08-18 13:31:25,574 [INFO]   [S1] Checking: Forward Deployed Architect II
-2026-08-18 13:31:25,574 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:31:25,586 [INFO]   [S1] Checking: Graduate Trainee
-2026-08-18 13:31:25,586 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:31:25,599 [INFO]   [S1] Checking: Dotnet Developer
-2026-08-18 13:31:25,599 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 13:31:25,613 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:31:25,613 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:31:25,626 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:31:25,626 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:31:25,638 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-18 13:31:25,639 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-18 13:31:25,651 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-18 13:31:25,651 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-18 13:31:25,663 [INFO]   [S1] Checking: Senior DevOps Engineer
-2026-08-18 13:31:25,663 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:31:25,676 [INFO]   [S1] Checking: Backend Developer/Tester
-2026-08-18 13:31:25,676 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 13:32:26,933 [INFO]   [S1] SQL Developer: 10 listings
-2026-08-18 13:32:26,946 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:32:26,946 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:32:26,959 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-18 13:32:26,959 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:32:26,972 [INFO]   [S1] Checking: Graduate Trainee
-2026-08-18 13:32:26,972 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:32:26,984 [INFO]   [S1] Checking: Agent Product Builder
-2026-08-18 13:32:26,984 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:32:26,996 [INFO]   [S1] Checking: Forward Deployed Architect II
-2026-08-18 13:32:26,996 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:32:27,009 [INFO]   [S1] Checking: Senior DevOps Engineer
-2026-08-18 13:32:27,009 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:32:27,021 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-18 13:32:27,021 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 13:32:27,034 [INFO]   [S1] Checking: Level II - Database Administrator
-2026-08-18 13:32:27,034 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:32:27,046 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:32:27,046 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:32:27,058 [INFO]   [S1] Checking: Backend Developer/Tester
-2026-08-18 13:32:27,058 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 13:33:28,399 [INFO]   [S1] Software Engineer: 20 listings
-2026-08-18 13:33:28,412 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-18 13:33:28,412 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:33:28,425 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-18 13:33:28,425 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:33:28,437 [INFO]   [S1] Checking: Software Development Engineer
-2026-08-18 13:33:28,437 [INFO]   [filter] No skill match: Software Development Engineer
-2026-08-18 13:33:28,449 [INFO]   [S1] Checking: GPS Service Engineer Technician - Freshers
-2026-08-18 13:33:28,449 [INFO]   [filter] No skill match: GPS Service Engineer Technician - Freshers
-2026-08-18 13:33:28,461 [INFO]   [S1] Checking: Senior DevOps Engineer
-2026-08-18 13:33:28,461 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:33:28,474 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:33:28,474 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:33:28,486 [INFO]   [S1] Checking: Graduate Trainee
-2026-08-18 13:33:28,486 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:33:28,499 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:33:28,499 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:33:28,512 [INFO]   [S1] Checking: Dotnet Developer
-2026-08-18 13:33:28,512 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 13:33:28,524 [INFO]   [S1] Checking: Agent Product Builder
-2026-08-18 13:33:28,524 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:33:28,537 [INFO]   [S1] Checking: Consultant - Data Engineer
-2026-08-18 13:33:28,537 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-18 13:33:28,549 [INFO]   [S1] Checking: Software Development Faculty Trainee
-2026-08-18 13:33:28,549 [INFO]   [filter] Excluded 'faculty': Software Development Faculty Trainee
-2026-08-18 13:33:28,561 [INFO]   [S1] Checking: Assistant Professor CSE
-2026-08-18 13:33:28,561 [INFO]   [filter] Excluded 'professor': Assistant Professor CSE
-2026-08-18 13:33:28,574 [INFO]   [S1] Checking: Front end Developer
-2026-08-18 13:33:28,574 [INFO]   [filter] No skill match: Front end Developer
-2026-08-18 13:33:28,586 [INFO]   [S1] Checking: Level II - Database Administrator
-2026-08-18 13:33:28,586 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:33:28,598 [INFO]   [S1] Checking: Forward Deployed Architect II
-2026-08-18 13:33:28,598 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:33:28,610 [INFO]   [S1] Checking: Junior Full Stack Developer
-2026-08-18 13:33:28,610 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 13:33:28,623 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:33:28,623 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:33:28,635 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:33:28,635 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:33:28,648 [INFO]   [S1] Checking: Engineer
-2026-08-18 13:33:28,648 [INFO]   [filter] No skill match: Engineer
-2026-08-18 13:34:29,901 [INFO]   [S1] Associate Software Engineer: 19 listings
-2026-08-18 13:34:29,915 [INFO]   [S1] Checking: Front end Developer
-2026-08-18 13:34:29,915 [INFO]   [filter] No skill match: Front end Developer
-2026-08-18 13:34:29,927 [INFO]   [S1] Checking: Fullstack Developer
-2026-08-18 13:34:29,927 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-08-18 13:34:29,939 [INFO]   [S1] Checking: Agent Product Builder
-2026-08-18 13:34:29,939 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:34:29,951 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-18 13:34:29,952 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 13:34:29,963 [INFO]   [S1] Checking: Level II - Database Administrator
-2026-08-18 13:34:29,964 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:34:29,976 [INFO]   [S1] Checking: Forward Deployed Architect II
-2026-08-18 13:34:29,976 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:34:29,988 [INFO]   [S1] Checking: Senior DevOps Engineer
-2026-08-18 13:34:29,988 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:34:30,001 [INFO]   [S1] Checking: Junior Full Stack Developer
-2026-08-18 13:34:30,001 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 13:34:30,013 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-18 13:34:30,013 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:34:30,025 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:34:30,025 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:34:30,038 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:34:30,038 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:34:30,050 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-08-18 13:34:30,050 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-08-18 13:34:30,062 [INFO]   [S1] Checking: Graduate Trainee
-2026-08-18 13:34:30,062 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:34:30,074 [INFO]   [S1] Checking: Dotnet Developer
-2026-08-18 13:34:30,075 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 13:34:30,088 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:34:30,088 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:34:30,100 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:34:30,100 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:34:30,112 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-18 13:34:30,112 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-18 13:34:30,125 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-18 13:34:30,125 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-18 13:34:30,137 [INFO]   [S1] Checking: Backend Developer/Tester
-2026-08-18 13:34:30,137 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 13:35:31,314 [INFO]   [S1] Data Analyst: 20 listings
-2026-08-18 13:35:31,327 [INFO]   [S1] Checking: Consultant - Data Engineer
-2026-08-18 13:35:31,327 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-18 13:35:31,339 [INFO]   [S1] Checking: Mis Executive
-2026-08-18 13:35:31,339 [INFO]   [filter] No skill match: Mis Executive
-2026-08-18 13:35:31,351 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-18 13:35:31,352 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 13:35:31,364 [INFO]   [S1] Checking: Forward Deployed Architect II
-2026-08-18 13:35:31,364 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:35:31,376 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:35:31,376 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:35:31,388 [INFO]   [S1] Checking: R&D Engineer
-2026-08-18 13:35:31,389 [INFO]   [filter] No skill match: R&D Engineer
-2026-08-18 13:35:31,401 [INFO]   [S1] Checking: Procurement Assistant II
-2026-08-18 13:35:31,401 [INFO]   [filter] No skill match: Procurement Assistant II
-2026-08-18 13:35:31,413 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
-2026-08-18 13:35:31,413 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-08-18 13:35:31,425 [INFO]   [S1] Checking: Agent Product Builder
-2026-08-18 13:35:31,425 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:35:31,438 [INFO]   [S1] Checking: Level II - Database Administrator
-2026-08-18 13:35:31,438 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:35:31,451 [INFO]   [S1] Checking: Senior DevOps Engineer
-2026-08-18 13:35:31,451 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:35:31,464 [INFO]   [S1] Checking: Junior Full Stack Developer
-2026-08-18 13:35:31,464 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 13:35:31,476 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-18 13:35:31,477 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:35:31,490 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:35:31,490 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:35:31,503 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-08-18 13:35:31,503 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-08-18 13:35:31,516 [INFO]   [S1] Checking: Graduate Trainee
-2026-08-18 13:35:31,516 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:35:31,528 [INFO]   [S1] Checking: Dotnet Developer
-2026-08-18 13:35:31,528 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 13:35:31,542 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:35:31,542 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:35:31,554 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:35:31,554 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:35:31,567 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-18 13:35:31,567 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-18 13:36:32,832 [INFO]   [S1] AI ML Engineer: 17 listings
-2026-08-18 13:36:32,845 [INFO]   [S1] Checking: Graduate Trainee
-2026-08-18 13:36:32,845 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:36:32,858 [INFO]   [S1] Checking: Agent Product Builder
-2026-08-18 13:36:32,858 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:36:32,870 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-18 13:36:32,870 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 13:36:32,883 [INFO]   [S1] Checking: Level II - Database Administrator
-2026-08-18 13:36:32,883 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:36:32,895 [INFO]   [S1] Checking: Forward Deployed Architect II
-2026-08-18 13:36:32,895 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:36:32,907 [INFO]   [S1] Checking: Senior DevOps Engineer
-2026-08-18 13:36:32,908 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:36:32,920 [INFO]   [S1] Checking: Junior Full Stack Developer
-2026-08-18 13:36:32,920 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 13:36:32,933 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-18 13:36:32,933 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:36:32,945 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:36:32,945 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:36:32,958 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:36:32,958 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:36:32,970 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-08-18 13:36:32,971 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-08-18 13:36:32,983 [INFO]   [S1] Checking: Dotnet Developer
-2026-08-18 13:36:32,983 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 13:36:32,997 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:36:32,997 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:36:33,009 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:36:33,010 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:36:33,022 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-18 13:36:33,022 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-18 13:36:33,034 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-18 13:36:33,034 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-18 13:36:33,046 [INFO]   [S1] Checking: Backend Developer/Tester
-2026-08-18 13:36:33,047 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 13:37:34,332 [INFO]   [S1] Machine Learning Engineer: 17 listings
-2026-08-18 13:37:34,346 [INFO]   [S1] Checking: Graduate Trainee
-2026-08-18 13:37:34,346 [INFO]   [filter] No skill match: Graduate Trainee
-2026-08-18 13:37:34,360 [INFO]   [S1] Checking: Agent Product Builder
-2026-08-18 13:37:34,360 [INFO]   [filter] No skill match: Agent Product Builder
-2026-08-18 13:37:34,373 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-18 13:37:34,373 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-18 13:37:34,386 [INFO]   [S1] Checking: Level II - Database Administrator
-2026-08-18 13:37:34,386 [INFO]   [filter] No skill match: Level II - Database Administrator
-2026-08-18 13:37:34,400 [INFO]   [S1] Checking: Forward Deployed Architect II
-2026-08-18 13:37:34,400 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
-2026-08-18 13:37:34,414 [INFO]   [S1] Checking: Senior DevOps Engineer
-2026-08-18 13:37:34,415 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
-2026-08-18 13:37:34,429 [INFO]   [S1] Checking: Junior Full Stack Developer
-2026-08-18 13:37:34,429 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
-2026-08-18 13:37:34,442 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-18 13:37:34,442 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-18 13:37:34,455 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:37:34,456 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
-2026-08-18 13:37:34,470 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:37:34,470 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
-2026-08-18 13:37:34,483 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-08-18 13:37:34,484 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-08-18 13:37:34,497 [INFO]   [S1] Checking: Dotnet Developer
-2026-08-18 13:37:34,497 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-08-18 13:37:34,510 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:37:34,510 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
-2026-08-18 13:37:34,523 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:37:34,523 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
-2026-08-18 13:37:34,536 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-18 13:37:34,536 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-18 13:37:34,549 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-18 13:37:34,549 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-18 13:37:34,561 [INFO]   [S1] Checking: Backend Developer/Tester
-2026-08-18 13:37:34,561 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
-2026-08-18 13:37:34,561 [INFO] 
+2026-08-18 17:04:21,289 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-08-18 17:04:21,289 [INFO] ███████████████████████████████████████████████████████
+2026-08-18 17:05:22,708 [INFO]   [S1] Java Developer: 14 listings
+2026-08-18 17:05:22,742 [INFO]   [S1] Checking: Junior Full Stack Developer
+2026-08-18 17:05:22,742 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 17:05:22,755 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-08-18 17:05:22,755 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 17:05:22,767 [INFO]   [S1] Checking: Agent Product Builder
+2026-08-18 17:05:22,768 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 17:05:22,780 [INFO]   [S1] Checking: Level II - Database Administrator
+2026-08-18 17:05:22,781 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 17:05:22,793 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:05:22,793 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:05:22,807 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-08-18 17:05:22,807 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-08-18 17:05:22,819 [INFO]   [S1] Checking: Forward Deployed Architect II
+2026-08-18 17:05:22,819 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 17:05:22,832 [INFO]   [S1] Checking: Dotnet Developer
+2026-08-18 17:05:22,832 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 17:05:22,844 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:05:22,844 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:05:22,857 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:05:22,857 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:05:22,872 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-18 17:05:22,872 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-18 17:05:22,885 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-18 17:05:22,885 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-18 17:05:22,899 [INFO]   [S1] Checking: Senior DevOps Engineer
+2026-08-18 17:05:22,899 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 17:05:22,914 [INFO]   [S1] Checking: Backend Developer/Tester
+2026-08-18 17:05:22,914 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
+2026-08-18 17:06:24,561 [INFO]   [S1] Python Developer: 17 listings
+2026-08-18 17:06:24,593 [INFO]   [S1] Checking: Level II - Database Administrator
+2026-08-18 17:06:24,593 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 17:06:24,611 [INFO]   [S1] Checking: Agent Product Builder
+2026-08-18 17:06:24,612 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 17:06:24,623 [INFO]   [S1] Checking: Junior Full Stack Developer
+2026-08-18 17:06:24,623 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 17:06:24,635 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-08-18 17:06:24,635 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 17:06:24,647 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-08-18 17:06:24,647 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 17:06:24,659 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:06:24,659 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:06:24,670 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:06:24,670 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:06:24,682 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-08-18 17:06:24,682 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-08-18 17:06:24,692 [INFO]   [S1] Checking: Forward Deployed Architect II
+2026-08-18 17:06:24,693 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 17:06:24,703 [INFO]   [S1] Checking: Graduate Trainee
+2026-08-18 17:06:24,704 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 17:06:24,715 [INFO]   [S1] Checking: Dotnet Developer
+2026-08-18 17:06:24,715 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 17:06:24,728 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:06:24,728 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:06:24,739 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:06:24,739 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:06:24,750 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-18 17:06:24,751 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-18 17:06:24,762 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-18 17:06:24,762 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-18 17:06:24,773 [INFO]   [S1] Checking: Senior DevOps Engineer
+2026-08-18 17:06:24,773 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 17:06:24,783 [INFO]   [S1] Checking: Backend Developer/Tester
+2026-08-18 17:06:24,783 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
+2026-08-18 17:07:25,783 [INFO]   [S1] SQL Developer: 10 listings
+2026-08-18 17:07:25,802 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:07:25,802 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:07:25,813 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-08-18 17:07:25,813 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 17:07:25,824 [INFO]   [S1] Checking: Graduate Trainee
+2026-08-18 17:07:25,824 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 17:07:25,835 [INFO]   [S1] Checking: Agent Product Builder
+2026-08-18 17:07:25,835 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 17:07:25,846 [INFO]   [S1] Checking: Forward Deployed Architect II
+2026-08-18 17:07:25,846 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 17:07:25,857 [INFO]   [S1] Checking: Senior DevOps Engineer
+2026-08-18 17:07:25,857 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 17:07:25,868 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-08-18 17:07:25,868 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 17:07:25,880 [INFO]   [S1] Checking: Level II - Database Administrator
+2026-08-18 17:07:25,880 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 17:07:25,892 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:07:25,892 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:07:25,903 [INFO]   [S1] Checking: Backend Developer/Tester
+2026-08-18 17:07:25,903 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
+2026-08-18 17:08:27,134 [INFO]   [S1] Software Engineer: 20 listings
+2026-08-18 17:08:27,146 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-08-18 17:08:27,147 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 17:08:27,158 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-08-18 17:08:27,158 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 17:08:27,169 [INFO]   [S1] Checking: Software Development Engineer
+2026-08-18 17:08:27,170 [INFO]   [filter] No skill match: Software Development Engineer
+2026-08-18 17:08:27,181 [INFO]   [S1] Checking: GPS Service Engineer Technician - Freshers
+2026-08-18 17:08:27,181 [INFO]   [filter] No skill match: GPS Service Engineer Technician - Freshers
+2026-08-18 17:08:27,193 [INFO]   [S1] Checking: Senior DevOps Engineer
+2026-08-18 17:08:27,193 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 17:08:27,204 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:08:27,204 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:08:27,216 [INFO]   [S1] Checking: Graduate Trainee
+2026-08-18 17:08:27,216 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 17:08:27,228 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:08:27,228 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:08:27,241 [INFO]   [S1] Checking: Dotnet Developer
+2026-08-18 17:08:27,241 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 17:08:27,252 [INFO]   [S1] Checking: Agent Product Builder
+2026-08-18 17:08:27,253 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 17:08:27,265 [INFO]   [S1] Checking: Consultant - Data Engineer
+2026-08-18 17:08:27,265 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-08-18 17:08:27,276 [INFO]   [S1] Checking: Software Development Faculty Trainee
+2026-08-18 17:08:27,276 [INFO]   [filter] Excluded 'faculty': Software Development Faculty Trainee
+2026-08-18 17:08:27,289 [INFO]   [S1] Checking: Assistant Professor CSE
+2026-08-18 17:08:27,289 [INFO]   [filter] Excluded 'professor': Assistant Professor CSE
+2026-08-18 17:08:27,300 [INFO]   [S1] Checking: Front end Developer
+2026-08-18 17:08:27,300 [INFO]   [filter] No skill match: Front end Developer
+2026-08-18 17:08:27,311 [INFO]   [S1] Checking: Level II - Database Administrator
+2026-08-18 17:08:27,311 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 17:08:27,322 [INFO]   [S1] Checking: Forward Deployed Architect II
+2026-08-18 17:08:27,322 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 17:08:27,334 [INFO]   [S1] Checking: Junior Full Stack Developer
+2026-08-18 17:08:27,334 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 17:08:27,346 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:08:27,346 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:08:27,358 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:08:27,358 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:08:27,369 [INFO]   [S1] Checking: Engineer
+2026-08-18 17:08:27,369 [INFO]   [filter] No skill match: Engineer
+2026-08-18 17:09:28,545 [INFO]   [S1] Associate Software Engineer: 19 listings
+2026-08-18 17:09:28,559 [INFO]   [S1] Checking: Front end Developer
+2026-08-18 17:09:28,559 [INFO]   [filter] No skill match: Front end Developer
+2026-08-18 17:09:28,571 [INFO]   [S1] Checking: Fullstack Developer
+2026-08-18 17:09:28,571 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-08-18 17:09:28,584 [INFO]   [S1] Checking: Agent Product Builder
+2026-08-18 17:09:28,584 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 17:09:28,598 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-08-18 17:09:28,598 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 17:09:28,610 [INFO]   [S1] Checking: Level II - Database Administrator
+2026-08-18 17:09:28,610 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 17:09:28,623 [INFO]   [S1] Checking: Forward Deployed Architect II
+2026-08-18 17:09:28,623 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 17:09:28,636 [INFO]   [S1] Checking: Senior DevOps Engineer
+2026-08-18 17:09:28,636 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 17:09:28,647 [INFO]   [S1] Checking: Junior Full Stack Developer
+2026-08-18 17:09:28,647 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 17:09:28,658 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-08-18 17:09:28,658 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 17:09:28,670 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:09:28,670 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:09:28,682 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:09:28,682 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:09:28,694 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-08-18 17:09:28,694 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-08-18 17:09:28,706 [INFO]   [S1] Checking: Graduate Trainee
+2026-08-18 17:09:28,706 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 17:09:28,717 [INFO]   [S1] Checking: Dotnet Developer
+2026-08-18 17:09:28,717 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 17:09:28,730 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:09:28,730 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:09:28,742 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:09:28,742 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:09:28,754 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-18 17:09:28,755 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-18 17:09:28,766 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-18 17:09:28,766 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-18 17:09:28,778 [INFO]   [S1] Checking: Backend Developer/Tester
+2026-08-18 17:09:28,778 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
+2026-08-18 17:10:30,023 [INFO]   [S1] Data Analyst: 20 listings
+2026-08-18 17:10:30,045 [INFO]   [S1] Checking: Consultant - Data Engineer
+2026-08-18 17:10:30,045 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-08-18 17:10:30,058 [INFO]   [S1] Checking: Mis Executive
+2026-08-18 17:10:30,058 [INFO]   [filter] No skill match: Mis Executive
+2026-08-18 17:10:30,069 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-08-18 17:10:30,069 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 17:10:30,081 [INFO]   [S1] Checking: Forward Deployed Architect II
+2026-08-18 17:10:30,081 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 17:10:30,092 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:10:30,092 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:10:30,104 [INFO]   [S1] Checking: R&D Engineer
+2026-08-18 17:10:30,104 [INFO]   [filter] No skill match: R&D Engineer
+2026-08-18 17:10:30,115 [INFO]   [S1] Checking: Junior Marketing Specialist II CloudAngles
+2026-08-18 17:10:30,115 [INFO]   [filter] Excluded 'marketing': Junior Marketing Specialist II CloudAngles
+2026-08-18 17:10:30,127 [INFO]   [S1] Checking: Procurement Assistant II
+2026-08-18 17:10:30,127 [INFO]   [filter] No skill match: Procurement Assistant II
+2026-08-18 17:10:30,138 [INFO]   [S1] Checking: Agent Product Builder
+2026-08-18 17:10:30,138 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 17:10:30,150 [INFO]   [S1] Checking: Level II - Database Administrator
+2026-08-18 17:10:30,150 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 17:10:30,162 [INFO]   [S1] Checking: Senior DevOps Engineer
+2026-08-18 17:10:30,162 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 17:10:30,173 [INFO]   [S1] Checking: Junior Full Stack Developer
+2026-08-18 17:10:30,173 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 17:10:30,183 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-08-18 17:10:30,183 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 17:10:30,194 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:10:30,194 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:10:30,205 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-08-18 17:10:30,205 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-08-18 17:10:30,217 [INFO]   [S1] Checking: Graduate Trainee
+2026-08-18 17:10:30,218 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 17:10:30,229 [INFO]   [S1] Checking: Dotnet Developer
+2026-08-18 17:10:30,229 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 17:10:30,239 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:10:30,239 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:10:30,251 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:10:30,251 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:10:30,261 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-18 17:10:30,261 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-18 17:11:31,447 [INFO]   [S1] AI ML Engineer: 17 listings
+2026-08-18 17:11:31,463 [INFO]   [S1] Checking: Graduate Trainee
+2026-08-18 17:11:31,463 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 17:11:31,474 [INFO]   [S1] Checking: Agent Product Builder
+2026-08-18 17:11:31,474 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 17:11:31,486 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-08-18 17:11:31,486 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 17:11:31,498 [INFO]   [S1] Checking: Level II - Database Administrator
+2026-08-18 17:11:31,498 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 17:11:31,509 [INFO]   [S1] Checking: Forward Deployed Architect II
+2026-08-18 17:11:31,509 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 17:11:31,520 [INFO]   [S1] Checking: Senior DevOps Engineer
+2026-08-18 17:11:31,520 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 17:11:31,532 [INFO]   [S1] Checking: Junior Full Stack Developer
+2026-08-18 17:11:31,532 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 17:11:31,543 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-08-18 17:11:31,544 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 17:11:31,554 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:11:31,554 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:11:31,566 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:11:31,566 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:11:31,577 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-08-18 17:11:31,577 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-08-18 17:11:31,589 [INFO]   [S1] Checking: Dotnet Developer
+2026-08-18 17:11:31,589 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 17:11:31,600 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:11:31,600 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:11:31,611 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:11:31,611 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:11:31,621 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-18 17:11:31,621 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-18 17:11:31,633 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-18 17:11:31,633 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-18 17:11:31,645 [INFO]   [S1] Checking: Backend Developer/Tester
+2026-08-18 17:11:31,645 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
+2026-08-18 17:12:32,921 [INFO]   [S1] Machine Learning Engineer: 17 listings
+2026-08-18 17:12:32,947 [INFO]   [S1] Checking: Graduate Trainee
+2026-08-18 17:12:32,947 [INFO]   [filter] No skill match: Graduate Trainee
+2026-08-18 17:12:32,964 [INFO]   [S1] Checking: Agent Product Builder
+2026-08-18 17:12:32,964 [INFO]   [filter] No skill match: Agent Product Builder
+2026-08-18 17:12:32,975 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-08-18 17:12:32,975 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-18 17:12:32,988 [INFO]   [S1] Checking: Level II - Database Administrator
+2026-08-18 17:12:32,988 [INFO]   [filter] No skill match: Level II - Database Administrator
+2026-08-18 17:12:32,998 [INFO]   [S1] Checking: Forward Deployed Architect II
+2026-08-18 17:12:32,998 [INFO]   [filter] Excluded 'architect': Forward Deployed Architect II
+2026-08-18 17:12:33,009 [INFO]   [S1] Checking: Senior DevOps Engineer
+2026-08-18 17:12:33,009 [INFO]   [filter] Excluded 'senior': Senior DevOps Engineer
+2026-08-18 17:12:33,019 [INFO]   [S1] Checking: Junior Full Stack Developer
+2026-08-18 17:12:33,019 [INFO]   [filter] Excluded 'full stack developer': Junior Full Stack Developer
+2026-08-18 17:12:33,031 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-08-18 17:12:33,031 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-18 17:12:33,043 [INFO]   [S1] Checking: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:12:33,043 [INFO]   [filter] No skill match: SailPoint/Saviynt Implementation Engineer
+2026-08-18 17:12:33,053 [INFO]   [S1] Checking: IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:12:33,053 [INFO]   [filter] Excluded 'senior': IDT - GT Technology - Tax Senior Professional
+2026-08-18 17:12:33,065 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-08-18 17:12:33,065 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-08-18 17:12:33,077 [INFO]   [S1] Checking: Dotnet Developer
+2026-08-18 17:12:33,077 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-08-18 17:12:33,088 [INFO]   [S1] Checking: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:12:33,088 [INFO]   Already applied: Walk-in || Looking For Database Developer (SQL) at KJ Systems.
+2026-08-18 17:12:33,100 [INFO]   [S1] Checking: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:12:33,100 [INFO]   Already applied: Walk-in || Looking For Software Developer (C#) at KJ Systems.
+2026-08-18 17:12:33,111 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-18 17:12:33,111 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-18 17:12:33,123 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-18 17:12:33,123 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-18 17:12:33,134 [INFO]   [S1] Checking: Backend Developer/Tester
+2026-08-18 17:12:33,134 [INFO]   [filter] Excluded 'backend developer': Backend Developer/Tester
+2026-08-18 17:12:33,134 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-18 13:37:34,561 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-08-18 13:37:34,561 [INFO] ███████████████████████████████████████████████████████
-2026-08-18 13:52:48,892 [INFO] 
+2026-08-18 17:12:33,134 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-08-18 17:12:33,134 [INFO] ███████████████████████████████████████████████████████
+2026-08-18 17:27:45,732 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-18 13:52:48,892 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-08-18 13:52:48,892 [INFO] ███████████████████████████████████████████████████████
-2026-08-18 13:54:04,782 [INFO]   [S3] Java Developer: 0 listings
-2026-08-18 13:55:21,102 [INFO]   [S3] Python Developer: 0 listings
-2026-08-18 13:56:37,134 [INFO]   [S3] SQL Developer: 0 listings
-2026-08-18 13:57:53,166 [INFO]   [S3] Software Engineer: 0 listings
-2026-08-18 13:59:09,062 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-08-18 14:00:25,114 [INFO]   [S3] Data Analyst: 0 listings
-2026-08-18 14:01:41,051 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-08-18 14:02:57,106 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-08-18 14:02:57,106 [INFO] 
+2026-08-18 17:27:45,733 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-08-18 17:27:45,733 [INFO] ███████████████████████████████████████████████████████
+2026-08-18 17:29:01,646 [INFO]   [S3] Java Developer: 0 listings
+2026-08-18 17:30:17,600 [INFO]   [S3] Python Developer: 0 listings
+2026-08-18 17:31:33,509 [INFO]   [S3] SQL Developer: 0 listings
+2026-08-18 17:32:49,516 [INFO]   [S3] Software Engineer: 0 listings
+2026-08-18 17:34:05,391 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-08-18 17:35:21,200 [INFO]   [S3] Data Analyst: 0 listings
+2026-08-18 17:36:37,125 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-08-18 17:37:53,005 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-08-18 17:37:53,005 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-18 14:02:57,106 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-08-18 14:02:57,106 [INFO] ███████████████████████████████████████████████████████
-2026-08-18 14:18:09,342 [INFO] 
+2026-08-18 17:37:53,005 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-08-18 17:37:53,005 [INFO] ███████████████████████████████████████████████████████
+2026-08-18 17:53:04,065 [INFO] 
 =======================================================
-2026-08-18 14:18:09,342 [INFO]   Run complete — Applied this session : 3
-2026-08-18 14:18:09,342 [INFO]   Total ever applied                  : 251
-2026-08-18 14:18:09,342 [INFO] =======================================================
+2026-08-18 17:53:04,065 [INFO]   Run complete — Applied this session : 0
+2026-08-18 17:53:04,066 [INFO]   Total ever applied                  : 251
+2026-08-18 17:53:04,066 [INFO] =======================================================

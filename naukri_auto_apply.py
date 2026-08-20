@@ -1027,58 +1027,112 @@ def update_profile_name(driver):
                 continue
 
         if name_clicked:
-            # Try headline input selectors
-            HEADLINE_INPUT_SELECTORS = [
-                "//input[contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'headline')]",
-                "//textarea[contains(translate(@placeholder,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'headline')]",
-                "//input[@name='resumeHeadline']",
-                "//input[@id='resumeHeadline']",
-                "//textarea[@name='resumeHeadline']",
-                "//input[contains(@class,'headline')]",
-                "//textarea[contains(@class,'headline')]",
-                "//input[@placeholder='Resume Headline']",
-                "//input[@placeholder='Enter your headline']",
-                "//textarea[@placeholder='Resume Headline']",
-                "//input[@type='text'][1]",
-                "//textarea[1]",
-            ]
-            for inp_sel in HEADLINE_INPUT_SELECTORS:
+            time.sleep(3)
+            headline_filled = False
+
+            # Method 1: Use active element (focused input after modal opens)
+            try:
+                active_el = driver.switch_to.active_element
+                tag = active_el.tag_name.lower()
+                if tag in ("input", "textarea") and active_el.is_displayed():
+                    driver.execute_script("arguments[0].scrollIntoView(true);", active_el)
+                    active_el.click()
+                    active_el.send_keys(Keys.CONTROL + "a")
+                    active_el.send_keys(Keys.DELETE)
+                    active_el.clear()
+                    time.sleep(0.3)
+                    active_el.send_keys(headline_today)
+                    time.sleep(0.5)
+                    log.info(f"  [Method 1] Headline entered via active element: {headline_today[:40]}")
+                    headline_filled = True
+            except Exception as e:
+                log.info(f"  [Method 1] Active element failed: {e}")
+
+            # Method 2: JS — set value directly on all visible inputs/textareas
+            if not headline_filled:
                 try:
-                    els = driver.find_elements(By.XPATH, inp_sel)
-                    for el in els:
-                        if el.is_displayed() and el.is_enabled():
-                            driver.execute_script("arguments[0].scrollIntoView(true);", el)
-                            el.click()
-                            time.sleep(0.3)
-                            el.send_keys(Keys.CONTROL + "a")
-                            el.send_keys(Keys.DELETE)
-                            el.clear()
-                            time.sleep(0.3)
-                            el.send_keys(headline_today)
-                            time.sleep(0.5)
-                            log.info(f"  Headline entered: {headline_today}")
-                            # Save
-                            for save_sel in [
-                                "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'save')]",
-                                "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'update')]",
-                                "//button[@type='submit']",
-                            ]:
-                                try:
-                                    btn = WebDriverWait(driver, 4).until(
-                                        EC.element_to_be_clickable((By.XPATH, save_sel))
-                                    )
-                                    driver.execute_script("arguments[0].click();", btn)
-                                    time.sleep(2)
-                                    log.info(f"  ✅ Headline updated to: {headline_today}")
-                                    with open(flag_file, "w") as f:
-                                        f.write(today_str)
-                                    break
-                                except TimeoutException:
-                                    continue
-                            break
-                    break
-                except Exception:
-                    continue
+                    result = driver.execute_script("""
+                        var inputs = document.querySelectorAll('input[type="text"], textarea');
+                        var filled = [];
+                        for(var i=0; i<inputs.length; i++){
+                            var el = inputs[i];
+                            var rect = el.getBoundingClientRect();
+                            if(rect.width > 0 && rect.height > 0){
+                                var nativeInputValueSetter = Object.getOwnPropertyDescriptor(
+                                    window.HTMLInputElement.prototype, 'value') ||
+                                    Object.getOwnPropertyDescriptor(
+                                    window.HTMLTextAreaElement.prototype, 'value');
+                                if(nativeInputValueSetter && nativeInputValueSetter.set){
+                                    nativeInputValueSetter.set.call(el, arguments[0]);
+                                } else {
+                                    el.value = arguments[0];
+                                }
+                                el.dispatchEvent(new Event('input', { bubbles: true }));
+                                el.dispatchEvent(new Event('change', { bubbles: true }));
+                                filled.push(el.tagName + '|' + (el.placeholder||'') + '|' + (el.name||''));
+                            }
+                        }
+                        return filled;
+                    """, headline_today)
+                    if result:
+                        log.info(f"  [Method 2] JS filled {len(result)} inputs: {result[:3]}")
+                        headline_filled = True
+                    else:
+                        log.warning("  [Method 2] No visible inputs found")
+                except Exception as e:
+                    log.warning(f"  [Method 2] JS method failed: {e}")
+
+            # Method 3: Try all visible inputs/textareas with send_keys
+            if not headline_filled:
+                try:
+                    all_inputs = driver.find_elements(By.XPATH, "//input[@type='text'] | //textarea")
+                    log.info(f"  [Method 3] Found {len(all_inputs)} text inputs/textareas")
+                    for el in all_inputs:
+                        try:
+                            if el.is_displayed() and el.is_enabled():
+                                driver.execute_script("arguments[0].scrollIntoView(true);", el)
+                                el.click()
+                                time.sleep(0.3)
+                                el.send_keys(Keys.CONTROL + "a")
+                                el.send_keys(Keys.DELETE)
+                                el.clear()
+                                time.sleep(0.3)
+                                el.send_keys(headline_today)
+                                time.sleep(0.3)
+                                log.info(f"  [Method 3] Typed into: {el.tag_name} placeholder={el.get_attribute('placeholder')}")
+                                headline_filled = True
+                                break
+                        except Exception:
+                            continue
+                except Exception as e:
+                    log.warning(f"  [Method 3] Failed: {e}")
+
+            # Save
+            if headline_filled:
+                saved = False
+                for save_sel in [
+                    "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'save')]",
+                    "//button[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'),'update')]",
+                    "//button[@type='submit']",
+                    "//input[@type='submit']",
+                ]:
+                    try:
+                        btn = WebDriverWait(driver, 5).until(
+                            EC.element_to_be_clickable((By.XPATH, save_sel))
+                        )
+                        driver.execute_script("arguments[0].click();", btn)
+                        time.sleep(3)
+                        log.info(f"  ✅ Headline updated to: {headline_today}")
+                        with open(flag_file, "w") as f:
+                            f.write(today_str)
+                        saved = True
+                        break
+                    except TimeoutException:
+                        continue
+                if not saved:
+                    log.warning("  Could not find Save button after filling headline")
+            else:
+                log.warning("  All 3 methods failed to fill headline input")
         else:
             log.warning(f"  Could not find headline edit button. Elements: {edit_info}")
 

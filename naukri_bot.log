@@ -1,319 +1,325 @@
-2026-08-21 04:35:33,942 [INFO] GitHub Actions — single run mode
-2026-08-21 04:35:33,943 [INFO] 
+2026-08-21 08:38:07,363 [INFO] GitHub Actions — single run mode
+2026-08-21 08:38:07,363 [INFO] 
 =======================================================
-2026-08-21 04:35:33,943 [INFO]   Run started: 2026-08-21 04:35:33
-2026-08-21 04:35:33,943 [INFO] =======================================================
-2026-08-21 04:35:33,944 [INFO] Previously applied: 252 jobs
-2026-08-21 04:35:33,945 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-08-21 04:35:33,945 [INFO] ====== WebDriver manager ======
-2026-08-21 04:35:37,896 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-21 04:35:37,951 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-21 04:35:37,983 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-21 04:35:37,983 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-21 04:35:38,124 [INFO] WebDriver version 151.0.7922.138 selected
-2026-08-21 04:35:38,131 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-21 04:35:38,131 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-21 04:35:38,208 [INFO] Driver downloading response is 200
-2026-08-21 04:35:38,486 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
-2026-08-21 04:35:53,418 [INFO]   Trying cookie login...
-2026-08-21 04:35:59,686 [INFO]   Loading 34 cookies...
-2026-08-21 04:36:03,897 [INFO]   ✅ Cookie login successful!
-2026-08-21 04:36:03,897 [INFO] 
+2026-08-21 08:38:07,363 [INFO]   Run started: 2026-08-21 08:38:07
+2026-08-21 08:38:07,363 [INFO] =======================================================
+2026-08-21 08:38:07,364 [INFO] Previously applied: 253 jobs
+2026-08-21 08:38:07,364 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-08-21 08:38:07,364 [INFO] ====== WebDriver manager ======
+2026-08-21 08:38:07,557 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-21 08:38:07,610 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-21 08:38:07,641 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-21 08:38:07,641 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-21 08:38:07,751 [INFO] WebDriver version 151.0.7922.138 selected
+2026-08-21 08:38:07,757 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-21 08:38:07,757 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-21 08:38:07,861 [INFO] Driver downloading response is 200
+2026-08-21 08:38:08,097 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
+2026-08-21 08:38:08,886 [INFO]   Trying cookie login...
+2026-08-21 08:38:13,562 [INFO]   Loading 34 cookies...
+2026-08-21 08:38:17,721 [INFO]   ✅ Cookie login successful!
+2026-08-21 08:38:17,722 [INFO] 
 ───────────────────────────────────────────────────────
-2026-08-21 04:36:03,897 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-08-21 04:36:03,897 [INFO] ───────────────────────────────────────────────────────
-2026-08-21 04:36:03,897 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-08-21 04:37:11,223 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-08-21 04:37:16,789 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 15 elements
-2026-08-21 04:37:19,153 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-08-21 04:37:22,176 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-08-21 04:37:25,236 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-08-21 04:37:25,236 [INFO] 
+2026-08-21 08:38:17,722 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-08-21 08:38:17,722 [INFO] ───────────────────────────────────────────────────────
+2026-08-21 08:38:17,722 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-08-21 08:39:24,438 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-08-21 08:39:29,987 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 15 elements
+2026-08-21 08:39:32,339 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-08-21 08:39:35,356 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-08-21 08:39:38,385 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-08-21 08:39:38,385 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-21 04:37:25,236 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-08-21 04:37:25,236 [INFO] ███████████████████████████████████████████████████████
-2026-08-21 04:38:27,085 [INFO]   [S0-HYD] Java Developer: 3 listings
-2026-08-21 04:38:27,104 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 04:38:27,104 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 04:38:27,118 [INFO]   [S0-HYD] Checking: Data Science Trainer
-2026-08-21 04:38:27,118 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 04:38:27,132 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:38:27,132 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:39:43,085 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-08-21 04:40:44,188 [INFO]   [S0-HYD] Python Developer: 1 listings
-2026-08-21 04:40:44,203 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:40:44,203 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:42:00,108 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-08-21 04:43:01,299 [INFO]   [S0-HYD] SQL Developer: 3 listings
-2026-08-21 04:43:01,312 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 04:43:01,312 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 04:43:01,325 [INFO]   [S0-HYD] Checking: Data Science Trainer
-2026-08-21 04:43:01,325 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 04:43:01,338 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:43:01,338 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:44:17,282 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-08-21 04:45:18,521 [INFO]   [S0-HYD] Software Engineer: 7 listings
-2026-08-21 04:45:18,534 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:45:18,535 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:45:18,548 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
-2026-08-21 04:46:16,022 [INFO]   [location] ✅ Hyderabad
-2026-08-21 04:46:16,394 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-21 04:46:16,394 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-08-21 04:46:16,394 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-08-21 04:46:16,394 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-08-21 04:46:16,421 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-21 04:46:16,421 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-08-21 04:47:12,549 [INFO]   Clicked Apply: Production Support Software Engineer
-2026-08-21 04:49:52,723 [INFO]   ✅ Applied: Production Support Software Engineer
-2026-08-21 04:49:54,801 [INFO]   [S0-HYD] Checking: Member Technical Professional
-2026-08-21 04:49:54,801 [INFO]   [filter] No skill match: Member Technical Professional
-2026-08-21 04:49:54,815 [INFO]   [S0-HYD] Checking: Associate Instructor - Aptitude
-2026-08-21 04:49:54,815 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
-2026-08-21 04:49:54,829 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 04:49:54,829 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 04:49:54,843 [INFO]   [S0-HYD] Checking: Biomedical Engineer Freshers
-2026-08-21 04:49:54,843 [INFO]   [filter] Excluded 'medical': Biomedical Engineer Freshers
-2026-08-21 04:49:54,857 [INFO]   [S0-HYD] Checking: Data Science Trainer
-2026-08-21 04:49:54,857 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 04:51:10,677 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-08-21 04:52:12,052 [INFO]   [S0-HYD] Associate Software Engineer: 4 listings
-2026-08-21 04:52:12,066 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
-2026-08-21 04:52:12,066 [INFO]   Already applied: Production Support Software Engineer
-2026-08-21 04:52:12,081 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 04:52:12,081 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 04:52:12,095 [INFO]   [S0-HYD] Checking: Data Science Trainer
-2026-08-21 04:52:12,095 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 04:52:12,110 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:52:12,110 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:53:28,004 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-08-21 04:54:29,275 [INFO]   [S0-HYD] Data Analyst: 6 listings
-2026-08-21 04:54:29,291 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
-2026-08-21 04:54:29,291 [INFO]   Already applied: Production Support Software Engineer
-2026-08-21 04:54:29,306 [INFO]   [S0-HYD] Checking: Hiring Freshers MIS Executive - Immediate Joiners
-2026-08-21 04:54:29,306 [INFO]   [filter] No skill match: Hiring Freshers MIS Executive - Immediate Joiners
-2026-08-21 04:54:29,322 [INFO]   [S0-HYD] Checking: Investment Banking Analyst / Finance & AI
-2026-08-21 04:54:29,322 [INFO]   [filter] Excluded 'finance': Investment Banking Analyst / Finance & AI
-2026-08-21 04:54:29,336 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 04:54:29,337 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 04:54:29,351 [INFO]   [S0-HYD] Checking: Data Science Trainer
-2026-08-21 04:54:29,351 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 04:54:29,366 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:54:29,366 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:55:45,317 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-08-21 04:56:46,599 [INFO]   [S0-HYD] AI ML Engineer: 4 listings
-2026-08-21 04:56:46,614 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
-2026-08-21 04:56:46,614 [INFO]   Already applied: Production Support Software Engineer
-2026-08-21 04:56:46,629 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 04:56:46,630 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 04:56:46,644 [INFO]   [S0-HYD] Checking: Data Science Trainer
-2026-08-21 04:56:46,644 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 04:56:46,659 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:56:46,659 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:58:02,480 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-08-21 04:59:03,796 [INFO]   [S0-HYD] Machine Learning Engineer: 4 listings
-2026-08-21 04:59:03,812 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
-2026-08-21 04:59:03,812 [INFO]   Already applied: Production Support Software Engineer
-2026-08-21 04:59:03,827 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 04:59:03,827 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 04:59:03,843 [INFO]   [S0-HYD] Checking: Data Science Trainer
-2026-08-21 04:59:03,843 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 04:59:03,858 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 04:59:03,858 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:00:19,605 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-08-21 05:01:35,857 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-08-21 05:02:51,901 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-08-21 05:04:09,079 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-08-21 05:05:24,989 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-08-21 05:06:41,639 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-08-21 05:07:57,486 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-08-21 05:09:13,706 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-08-21 05:10:29,718 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-08-21 05:11:45,951 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-08-21 05:13:01,967 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-08-21 05:14:18,360 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-08-21 05:15:34,316 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-08-21 05:15:34,316 [INFO] 
+2026-08-21 08:39:38,385 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-08-21 08:39:38,385 [INFO] ███████████████████████████████████████████████████████
+2026-08-21 08:40:40,085 [INFO]   [S0-HYD] Java Developer: 4 listings
+2026-08-21 08:40:40,099 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
+2026-08-21 08:40:40,099 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 08:40:40,109 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 08:40:40,109 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 08:40:40,119 [INFO]   [S0-HYD] Checking: Data Science Trainer
+2026-08-21 08:40:40,119 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 08:40:40,128 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:40:40,128 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:41:56,184 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-08-21 08:42:57,237 [INFO]   [S0-HYD] Python Developer: 2 listings
+2026-08-21 08:42:57,247 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
+2026-08-21 08:42:57,247 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 08:42:57,256 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:42:57,256 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:44:13,173 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-08-21 08:45:14,128 [INFO]   [S0-HYD] SQL Developer: 4 listings
+2026-08-21 08:45:14,138 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
+2026-08-21 08:45:14,138 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 08:45:14,147 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 08:45:14,148 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 08:45:14,157 [INFO]   [S0-HYD] Checking: Data Science Trainer
+2026-08-21 08:45:14,157 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 08:45:14,167 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:45:14,167 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:46:30,141 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-08-21 08:47:31,401 [INFO]   [S0-HYD] Software Engineer: 7 listings
+2026-08-21 08:47:31,411 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:47:31,411 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:47:31,432 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
+2026-08-21 08:47:31,432 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 08:47:31,442 [INFO]   [S0-HYD] Checking: Member Technical Professional
+2026-08-21 08:47:31,442 [INFO]   [filter] No skill match: Member Technical Professional
+2026-08-21 08:47:31,454 [INFO]   [S0-HYD] Checking: Associate Instructor - Aptitude
+2026-08-21 08:47:31,454 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
+2026-08-21 08:47:31,464 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 08:47:31,464 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 08:47:31,474 [INFO]   [S0-HYD] Checking: Biomedical Engineer Freshers
+2026-08-21 08:47:31,474 [INFO]   [filter] Excluded 'medical': Biomedical Engineer Freshers
+2026-08-21 08:47:31,483 [INFO]   [S0-HYD] Checking: Data Science Trainer
+2026-08-21 08:47:31,483 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 08:48:47,389 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-08-21 08:49:48,408 [INFO]   [S0-HYD] Associate Software Engineer: 4 listings
+2026-08-21 08:49:48,419 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
+2026-08-21 08:49:48,419 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 08:49:48,430 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 08:49:48,430 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 08:49:48,441 [INFO]   [S0-HYD] Checking: Data Science Trainer
+2026-08-21 08:49:48,441 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 08:49:48,451 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:49:48,452 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:51:04,317 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-08-21 08:52:05,381 [INFO]   [S0-HYD] Data Analyst: 8 listings
+2026-08-21 08:52:05,391 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
+2026-08-21 08:52:05,391 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 08:52:05,401 [INFO]   [S0-HYD] Checking: Data Analytic | Fresher | Business Analytics
+2026-08-21 08:52:05,401 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-08-21 08:52:05,410 [INFO]   [S0-HYD] Checking: Hiring Freshers MIS Executive - Immediate Joiners
+2026-08-21 08:52:05,411 [INFO]   [filter] No skill match: Hiring Freshers MIS Executive - Immediate Joiners
+2026-08-21 08:52:05,420 [INFO]   [S0-HYD] Checking: Investment Banking Analyst / Finance & AI
+2026-08-21 08:52:05,420 [INFO]   [filter] Excluded 'finance': Investment Banking Analyst / Finance & AI
+2026-08-21 08:52:05,430 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 08:52:05,430 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 08:52:05,439 [INFO]   [S0-HYD] Checking: Data Science Trainer
+2026-08-21 08:52:05,439 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 08:52:05,449 [INFO]   [S0-HYD] Checking: Financial Analyst
+2026-08-21 08:52:05,449 [INFO]   [filter] Excluded 'financial': Financial Analyst
+2026-08-21 08:52:05,458 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:52:05,458 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:53:21,405 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-08-21 08:54:22,478 [INFO]   [S0-HYD] AI ML Engineer: 4 listings
+2026-08-21 08:54:22,489 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
+2026-08-21 08:54:22,489 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 08:54:22,498 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 08:54:22,498 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 08:54:22,508 [INFO]   [S0-HYD] Checking: Data Science Trainer
+2026-08-21 08:54:22,508 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 08:54:22,518 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:54:22,518 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:55:38,363 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-08-21 08:56:39,555 [INFO]   [S0-HYD] Machine Learning Engineer: 4 listings
+2026-08-21 08:56:39,566 [INFO]   [S0-HYD] Checking: Production Support Software Engineer
+2026-08-21 08:56:39,566 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 08:56:39,575 [INFO]   [S0-HYD] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 08:56:39,576 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 08:56:39,585 [INFO]   [S0-HYD] Checking: Data Science Trainer
+2026-08-21 08:56:39,585 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 08:56:39,594 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:56:39,595 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 08:57:55,534 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-08-21 08:59:11,587 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-08-21 09:00:27,449 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-08-21 09:01:43,550 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-08-21 09:02:59,426 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-08-21 09:04:15,716 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-08-21 09:05:31,706 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-08-21 09:06:48,000 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-08-21 09:08:03,946 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-08-21 09:09:20,207 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-08-21 09:10:36,146 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-08-21 09:11:52,562 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-08-21 09:13:08,573 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-08-21 09:13:08,573 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-21 05:15:34,316 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-08-21 05:15:34,316 [INFO] ███████████████████████████████████████████████████████
-2026-08-21 05:16:35,670 [INFO]   [S1] Java Developer: 8 listings
-2026-08-21 05:16:35,690 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-21 05:16:35,690 [INFO]   Already applied: Production Support Software Engineer
-2026-08-21 05:16:35,707 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 05:16:35,707 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 05:16:35,721 [INFO]   [S1] Checking: Data Science Trainer
-2026-08-21 05:16:35,722 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 05:16:35,735 [INFO]   [S1] Checking: Cloud Engineer - III
-2026-08-21 05:16:35,735 [INFO]   [filter] No skill match: Cloud Engineer - III
-2026-08-21 05:16:35,749 [INFO]   [S1] Checking: QKD Feature Professional
-2026-08-21 05:16:35,749 [INFO]   [filter] No skill match: QKD Feature Professional
-2026-08-21 05:16:35,763 [INFO]   [S1] Checking: Product Support Engineer
-2026-08-21 05:16:35,763 [INFO]   [filter] No skill match: Product Support Engineer
-2026-08-21 05:16:35,777 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-21 05:16:35,777 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-21 05:16:35,791 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:16:35,791 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:17:37,149 [INFO]   [S1] Python Developer: 6 listings
-2026-08-21 05:17:37,164 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-21 05:17:37,164 [INFO]   Already applied: Production Support Software Engineer
-2026-08-21 05:17:37,179 [INFO]   [S1] Checking: Cloud Engineer - III
-2026-08-21 05:17:37,179 [INFO]   [filter] No skill match: Cloud Engineer - III
-2026-08-21 05:17:37,194 [INFO]   [S1] Checking: Product Support Engineer
-2026-08-21 05:17:37,194 [INFO]   [filter] No skill match: Product Support Engineer
-2026-08-21 05:17:37,208 [INFO]   [S1] Checking: Fresher Openings
-2026-08-21 05:17:37,208 [INFO]   [filter] No skill match: Fresher Openings
-2026-08-21 05:17:37,222 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-21 05:17:37,223 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-21 05:17:37,237 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:17:37,237 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:18:38,506 [INFO]   [S1] SQL Developer: 7 listings
-2026-08-21 05:18:38,522 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-21 05:18:38,522 [INFO]   Already applied: Production Support Software Engineer
-2026-08-21 05:18:38,537 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 05:18:38,537 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 05:18:38,551 [INFO]   [S1] Checking: Data Science Trainer
-2026-08-21 05:18:38,551 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 05:18:38,565 [INFO]   [S1] Checking: QKD Feature Professional
-2026-08-21 05:18:38,565 [INFO]   [filter] No skill match: QKD Feature Professional
-2026-08-21 05:18:38,579 [INFO]   [S1] Checking: Fresher Openings
-2026-08-21 05:18:38,579 [INFO]   [filter] No skill match: Fresher Openings
-2026-08-21 05:18:38,593 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-21 05:18:38,593 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-21 05:18:38,608 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:18:38,608 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:19:39,735 [INFO]   [S1] Software Engineer: 14 listings
-2026-08-21 05:19:39,750 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:19:39,750 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:19:39,764 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-21 05:19:39,764 [INFO]   Already applied: Production Support Software Engineer
-2026-08-21 05:19:39,778 [INFO]   [S1] Checking: Member Technical Professional
-2026-08-21 05:19:39,779 [INFO]   [filter] No skill match: Member Technical Professional
-2026-08-21 05:19:39,795 [INFO]   [S1] Checking: Associate Instructor - Aptitude
-2026-08-21 05:19:39,795 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
-2026-08-21 05:19:39,810 [INFO]   [S1] Checking: SDE Mentor
-2026-08-21 05:19:39,810 [INFO]   [filter] No skill match: SDE Mentor
-2026-08-21 05:19:39,823 [INFO]   [S1] Checking: Associate Instructor - Aptitude
-2026-08-21 05:19:39,824 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
-2026-08-21 05:19:39,838 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 05:19:39,838 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 05:19:39,852 [INFO]   [S1] Checking: Cloud Engineer - III
-2026-08-21 05:19:39,852 [INFO]   [filter] No skill match: Cloud Engineer - III
-2026-08-21 05:19:39,867 [INFO]   [S1] Checking: QKD Feature Professional
-2026-08-21 05:19:39,867 [INFO]   [filter] No skill match: QKD Feature Professional
-2026-08-21 05:19:39,880 [INFO]   [S1] Checking: Product Support Engineer
-2026-08-21 05:19:39,881 [INFO]   [filter] No skill match: Product Support Engineer
-2026-08-21 05:19:39,895 [INFO]   [S1] Checking: Fresher Openings
-2026-08-21 05:19:39,895 [INFO]   [filter] No skill match: Fresher Openings
-2026-08-21 05:19:39,909 [INFO]   [S1] Checking: Biomedical Engineer Freshers
-2026-08-21 05:19:39,909 [INFO]   [filter] Excluded 'medical': Biomedical Engineer Freshers
-2026-08-21 05:19:39,923 [INFO]   [S1] Checking: Data Science Trainer
-2026-08-21 05:19:39,923 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 05:19:39,937 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-21 05:19:39,938 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-21 05:20:41,057 [INFO]   [S1] Associate Software Engineer: 9 listings
-2026-08-21 05:20:41,072 [INFO]   [S1] Checking: Product Support Engineer
-2026-08-21 05:20:41,072 [INFO]   [filter] No skill match: Product Support Engineer
-2026-08-21 05:20:41,088 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-21 05:20:41,088 [INFO]   Already applied: Production Support Software Engineer
-2026-08-21 05:20:41,103 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 05:20:41,103 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 05:20:41,117 [INFO]   [S1] Checking: Data Science Trainer
-2026-08-21 05:20:41,117 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 05:20:41,131 [INFO]   [S1] Checking: Cloud Engineer - III
-2026-08-21 05:20:41,131 [INFO]   [filter] No skill match: Cloud Engineer - III
-2026-08-21 05:20:41,145 [INFO]   [S1] Checking: QKD Feature Professional
-2026-08-21 05:20:41,145 [INFO]   [filter] No skill match: QKD Feature Professional
-2026-08-21 05:20:41,159 [INFO]   [S1] Checking: Fresher Openings
-2026-08-21 05:20:41,159 [INFO]   [filter] No skill match: Fresher Openings
-2026-08-21 05:20:41,174 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-21 05:20:41,174 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-21 05:20:41,188 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:20:41,188 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:21:42,224 [INFO]   [S1] Data Analyst: 12 listings
-2026-08-21 05:21:42,239 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-21 05:21:42,239 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-21 05:21:42,253 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-21 05:21:42,253 [INFO]   Already applied: Production Support Software Engineer
-2026-08-21 05:21:42,266 [INFO]   [S1] Checking: Fresher Openings
-2026-08-21 05:21:42,267 [INFO]   [filter] No skill match: Fresher Openings
-2026-08-21 05:21:42,280 [INFO]   [S1] Checking: Hiring Freshers MIS Executive - Immediate Joiners
-2026-08-21 05:21:42,280 [INFO]   [filter] No skill match: Hiring Freshers MIS Executive - Immediate Joiners
-2026-08-21 05:21:42,296 [INFO]   [S1] Checking: Medical Geneticist and Counselor (PhD only)
-2026-08-21 05:21:42,296 [INFO]   [filter] Excluded 'medical': Medical Geneticist and Counselor (PhD only)
-2026-08-21 05:21:42,311 [INFO]   [S1] Checking: Investment Banking Analyst / Finance & AI
-2026-08-21 05:21:42,311 [INFO]   [filter] Excluded 'finance': Investment Banking Analyst / Finance & AI
-2026-08-21 05:21:42,325 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 05:21:42,325 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 05:21:42,339 [INFO]   [S1] Checking: Data Science Trainer
-2026-08-21 05:21:42,340 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 05:21:42,353 [INFO]   [S1] Checking: Cloud Engineer - III
-2026-08-21 05:21:42,354 [INFO]   [filter] No skill match: Cloud Engineer - III
-2026-08-21 05:21:42,367 [INFO]   [S1] Checking: QKD Feature Professional
-2026-08-21 05:21:42,367 [INFO]   [filter] No skill match: QKD Feature Professional
-2026-08-21 05:21:42,381 [INFO]   [S1] Checking: Product Support Engineer
-2026-08-21 05:21:42,382 [INFO]   [filter] No skill match: Product Support Engineer
-2026-08-21 05:21:42,396 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:21:42,396 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:22:43,677 [INFO]   [S1] AI ML Engineer: 9 listings
-2026-08-21 05:22:43,692 [INFO]   [S1] Checking: Fresher Openings
-2026-08-21 05:22:43,693 [INFO]   [filter] No skill match: Fresher Openings
-2026-08-21 05:22:43,707 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-21 05:22:43,707 [INFO]   Already applied: Production Support Software Engineer
-2026-08-21 05:22:43,721 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 05:22:43,721 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 05:22:43,736 [INFO]   [S1] Checking: Data Science Trainer
-2026-08-21 05:22:43,736 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 05:22:43,750 [INFO]   [S1] Checking: Cloud Engineer - III
-2026-08-21 05:22:43,750 [INFO]   [filter] No skill match: Cloud Engineer - III
-2026-08-21 05:22:43,765 [INFO]   [S1] Checking: QKD Feature Professional
-2026-08-21 05:22:43,765 [INFO]   [filter] No skill match: QKD Feature Professional
-2026-08-21 05:22:43,779 [INFO]   [S1] Checking: Product Support Engineer
-2026-08-21 05:22:43,780 [INFO]   [filter] No skill match: Product Support Engineer
-2026-08-21 05:22:43,794 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-21 05:22:43,794 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-21 05:22:43,809 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:22:43,809 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:23:45,119 [INFO]   [S1] Machine Learning Engineer: 9 listings
-2026-08-21 05:23:45,133 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-21 05:23:45,133 [INFO]   Already applied: Production Support Software Engineer
-2026-08-21 05:23:45,147 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
-2026-08-21 05:23:45,147 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
-2026-08-21 05:23:45,162 [INFO]   [S1] Checking: Data Science Trainer
-2026-08-21 05:23:45,162 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
-2026-08-21 05:23:45,176 [INFO]   [S1] Checking: Cloud Engineer - III
-2026-08-21 05:23:45,176 [INFO]   [filter] No skill match: Cloud Engineer - III
-2026-08-21 05:23:45,190 [INFO]   [S1] Checking: QKD Feature Professional
-2026-08-21 05:23:45,190 [INFO]   [filter] No skill match: QKD Feature Professional
-2026-08-21 05:23:45,205 [INFO]   [S1] Checking: Product Support Engineer
-2026-08-21 05:23:45,205 [INFO]   [filter] No skill match: Product Support Engineer
-2026-08-21 05:23:45,220 [INFO]   [S1] Checking: Fresher Openings
-2026-08-21 05:23:45,220 [INFO]   [filter] No skill match: Fresher Openings
-2026-08-21 05:23:45,235 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-21 05:23:45,235 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-21 05:23:45,250 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:23:45,250 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-21 05:23:45,250 [INFO] 
+2026-08-21 09:13:08,573 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-08-21 09:13:08,573 [INFO] ███████████████████████████████████████████████████████
+2026-08-21 09:14:09,617 [INFO]   [S1] Java Developer: 8 listings
+2026-08-21 09:14:09,631 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-21 09:14:09,632 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 09:14:09,642 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 09:14:09,642 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 09:14:09,652 [INFO]   [S1] Checking: Data Science Trainer
+2026-08-21 09:14:09,652 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 09:14:09,662 [INFO]   [S1] Checking: Cloud Engineer - III
+2026-08-21 09:14:09,662 [INFO]   [filter] No skill match: Cloud Engineer - III
+2026-08-21 09:14:09,672 [INFO]   [S1] Checking: QKD Feature Professional
+2026-08-21 09:14:09,672 [INFO]   [filter] No skill match: QKD Feature Professional
+2026-08-21 09:14:09,682 [INFO]   [S1] Checking: Product Support Engineer
+2026-08-21 09:14:09,682 [INFO]   [filter] No skill match: Product Support Engineer
+2026-08-21 09:14:09,692 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-21 09:14:09,692 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-21 09:14:09,702 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:14:09,702 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:15:10,780 [INFO]   [S1] Python Developer: 6 listings
+2026-08-21 09:15:10,790 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-21 09:15:10,790 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 09:15:10,801 [INFO]   [S1] Checking: Cloud Engineer - III
+2026-08-21 09:15:10,801 [INFO]   [filter] No skill match: Cloud Engineer - III
+2026-08-21 09:15:10,811 [INFO]   [S1] Checking: Product Support Engineer
+2026-08-21 09:15:10,811 [INFO]   [filter] No skill match: Product Support Engineer
+2026-08-21 09:15:10,821 [INFO]   [S1] Checking: Fresher Openings
+2026-08-21 09:15:10,822 [INFO]   [filter] No skill match: Fresher Openings
+2026-08-21 09:15:10,832 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-21 09:15:10,832 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-21 09:15:10,842 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:15:10,842 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:16:11,947 [INFO]   [S1] SQL Developer: 7 listings
+2026-08-21 09:16:11,957 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-21 09:16:11,957 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 09:16:11,967 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 09:16:11,967 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 09:16:11,977 [INFO]   [S1] Checking: Data Science Trainer
+2026-08-21 09:16:11,977 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 09:16:11,987 [INFO]   [S1] Checking: QKD Feature Professional
+2026-08-21 09:16:11,987 [INFO]   [filter] No skill match: QKD Feature Professional
+2026-08-21 09:16:11,997 [INFO]   [S1] Checking: Fresher Openings
+2026-08-21 09:16:11,997 [INFO]   [filter] No skill match: Fresher Openings
+2026-08-21 09:16:12,007 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-21 09:16:12,007 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-21 09:16:12,017 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:16:12,017 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:17:13,122 [INFO]   [S1] Software Engineer: 14 listings
+2026-08-21 09:17:13,133 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:17:13,133 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:17:13,143 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-21 09:17:13,143 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 09:17:13,153 [INFO]   [S1] Checking: Member Technical Professional
+2026-08-21 09:17:13,153 [INFO]   [filter] No skill match: Member Technical Professional
+2026-08-21 09:17:13,164 [INFO]   [S1] Checking: Associate Instructor - Aptitude
+2026-08-21 09:17:13,164 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
+2026-08-21 09:17:13,173 [INFO]   [S1] Checking: SDE Mentor
+2026-08-21 09:17:13,173 [INFO]   [filter] No skill match: SDE Mentor
+2026-08-21 09:17:13,183 [INFO]   [S1] Checking: Associate Instructor - Aptitude
+2026-08-21 09:17:13,183 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
+2026-08-21 09:17:13,193 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 09:17:13,193 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 09:17:13,203 [INFO]   [S1] Checking: Cloud Engineer - III
+2026-08-21 09:17:13,203 [INFO]   [filter] No skill match: Cloud Engineer - III
+2026-08-21 09:17:13,213 [INFO]   [S1] Checking: QKD Feature Professional
+2026-08-21 09:17:13,213 [INFO]   [filter] No skill match: QKD Feature Professional
+2026-08-21 09:17:13,223 [INFO]   [S1] Checking: Product Support Engineer
+2026-08-21 09:17:13,223 [INFO]   [filter] No skill match: Product Support Engineer
+2026-08-21 09:17:13,233 [INFO]   [S1] Checking: Fresher Openings
+2026-08-21 09:17:13,233 [INFO]   [filter] No skill match: Fresher Openings
+2026-08-21 09:17:13,243 [INFO]   [S1] Checking: Biomedical Engineer Freshers
+2026-08-21 09:17:13,243 [INFO]   [filter] Excluded 'medical': Biomedical Engineer Freshers
+2026-08-21 09:17:13,253 [INFO]   [S1] Checking: Data Science Trainer
+2026-08-21 09:17:13,253 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 09:17:13,263 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-21 09:17:13,263 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-21 09:18:14,339 [INFO]   [S1] Associate Software Engineer: 9 listings
+2026-08-21 09:18:14,349 [INFO]   [S1] Checking: Product Support Engineer
+2026-08-21 09:18:14,349 [INFO]   [filter] No skill match: Product Support Engineer
+2026-08-21 09:18:14,359 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-21 09:18:14,359 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 09:18:14,368 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 09:18:14,368 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 09:18:14,378 [INFO]   [S1] Checking: Data Science Trainer
+2026-08-21 09:18:14,378 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 09:18:14,387 [INFO]   [S1] Checking: Cloud Engineer - III
+2026-08-21 09:18:14,387 [INFO]   [filter] No skill match: Cloud Engineer - III
+2026-08-21 09:18:14,398 [INFO]   [S1] Checking: QKD Feature Professional
+2026-08-21 09:18:14,398 [INFO]   [filter] No skill match: QKD Feature Professional
+2026-08-21 09:18:14,408 [INFO]   [S1] Checking: Fresher Openings
+2026-08-21 09:18:14,408 [INFO]   [filter] No skill match: Fresher Openings
+2026-08-21 09:18:14,418 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-21 09:18:14,418 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-21 09:18:14,428 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:18:14,428 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:19:15,738 [INFO]   [S1] Data Analyst: 14 listings
+2026-08-21 09:19:15,751 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-21 09:19:15,751 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-21 09:19:15,760 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-21 09:19:15,760 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 09:19:15,770 [INFO]   [S1] Checking: Fresher Openings
+2026-08-21 09:19:15,770 [INFO]   [filter] No skill match: Fresher Openings
+2026-08-21 09:19:15,780 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
+2026-08-21 09:19:15,780 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-08-21 09:19:15,790 [INFO]   [S1] Checking: Hiring Freshers MIS Executive - Immediate Joiners
+2026-08-21 09:19:15,790 [INFO]   [filter] No skill match: Hiring Freshers MIS Executive - Immediate Joiners
+2026-08-21 09:19:15,799 [INFO]   [S1] Checking: Medical Geneticist and Counselor (PhD only)
+2026-08-21 09:19:15,800 [INFO]   [filter] Excluded 'medical': Medical Geneticist and Counselor (PhD only)
+2026-08-21 09:19:15,809 [INFO]   [S1] Checking: Investment Banking Analyst / Finance & AI
+2026-08-21 09:19:15,809 [INFO]   [filter] Excluded 'finance': Investment Banking Analyst / Finance & AI
+2026-08-21 09:19:15,819 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 09:19:15,819 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 09:19:15,829 [INFO]   [S1] Checking: Data Science Trainer
+2026-08-21 09:19:15,829 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 09:19:15,839 [INFO]   [S1] Checking: Cloud Engineer - III
+2026-08-21 09:19:15,840 [INFO]   [filter] No skill match: Cloud Engineer - III
+2026-08-21 09:19:15,850 [INFO]   [S1] Checking: QKD Feature Professional
+2026-08-21 09:19:15,850 [INFO]   [filter] No skill match: QKD Feature Professional
+2026-08-21 09:19:15,860 [INFO]   [S1] Checking: Product Support Engineer
+2026-08-21 09:19:15,860 [INFO]   [filter] No skill match: Product Support Engineer
+2026-08-21 09:19:15,870 [INFO]   [S1] Checking: Financial Analyst
+2026-08-21 09:19:15,870 [INFO]   [filter] Excluded 'financial': Financial Analyst
+2026-08-21 09:19:15,882 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:19:15,882 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:20:17,414 [INFO]   [S1] AI ML Engineer: 9 listings
+2026-08-21 09:20:17,425 [INFO]   [S1] Checking: Fresher Openings
+2026-08-21 09:20:17,425 [INFO]   [filter] No skill match: Fresher Openings
+2026-08-21 09:20:17,435 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-21 09:20:17,435 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 09:20:17,444 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 09:20:17,444 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 09:20:17,454 [INFO]   [S1] Checking: Data Science Trainer
+2026-08-21 09:20:17,454 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 09:20:17,463 [INFO]   [S1] Checking: Cloud Engineer - III
+2026-08-21 09:20:17,464 [INFO]   [filter] No skill match: Cloud Engineer - III
+2026-08-21 09:20:17,473 [INFO]   [S1] Checking: QKD Feature Professional
+2026-08-21 09:20:17,473 [INFO]   [filter] No skill match: QKD Feature Professional
+2026-08-21 09:20:17,483 [INFO]   [S1] Checking: Product Support Engineer
+2026-08-21 09:20:17,484 [INFO]   [filter] No skill match: Product Support Engineer
+2026-08-21 09:20:17,493 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-21 09:20:17,493 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-21 09:20:17,503 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:20:17,503 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:21:18,548 [INFO]   [S1] Machine Learning Engineer: 9 listings
+2026-08-21 09:21:18,559 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-21 09:21:18,559 [INFO]   Already applied: Production Support Software Engineer
+2026-08-21 09:21:18,571 [INFO]   [S1] Checking: Manager/AVP | Full Stack Engineer
+2026-08-21 09:21:18,571 [INFO]   [filter] Excluded 'manager': Manager/AVP | Full Stack Engineer
+2026-08-21 09:21:18,583 [INFO]   [S1] Checking: Data Science Trainer
+2026-08-21 09:21:18,583 [INFO]   [filter] Excluded 'trainer': Data Science Trainer
+2026-08-21 09:21:18,594 [INFO]   [S1] Checking: Cloud Engineer - III
+2026-08-21 09:21:18,594 [INFO]   [filter] No skill match: Cloud Engineer - III
+2026-08-21 09:21:18,606 [INFO]   [S1] Checking: QKD Feature Professional
+2026-08-21 09:21:18,606 [INFO]   [filter] No skill match: QKD Feature Professional
+2026-08-21 09:21:18,619 [INFO]   [S1] Checking: Product Support Engineer
+2026-08-21 09:21:18,619 [INFO]   [filter] No skill match: Product Support Engineer
+2026-08-21 09:21:18,631 [INFO]   [S1] Checking: Fresher Openings
+2026-08-21 09:21:18,631 [INFO]   [filter] No skill match: Fresher Openings
+2026-08-21 09:21:18,643 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-21 09:21:18,643 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-21 09:21:18,655 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:21:18,656 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-21 09:21:18,656 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-21 05:23:45,250 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-08-21 05:23:45,250 [INFO] ███████████████████████████████████████████████████████
-2026-08-21 05:38:57,197 [INFO] 
+2026-08-21 09:21:18,656 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-08-21 09:21:18,656 [INFO] ███████████████████████████████████████████████████████
+2026-08-21 09:36:30,548 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-21 05:38:57,197 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-08-21 05:38:57,197 [INFO] ███████████████████████████████████████████████████████
-2026-08-21 05:40:13,216 [INFO]   [S3] Java Developer: 0 listings
-2026-08-21 05:41:29,190 [INFO]   [S3] Python Developer: 0 listings
-2026-08-21 05:42:45,209 [INFO]   [S3] SQL Developer: 0 listings
-2026-08-21 05:44:01,170 [INFO]   [S3] Software Engineer: 0 listings
-2026-08-21 05:45:17,054 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-08-21 05:46:33,071 [INFO]   [S3] Data Analyst: 0 listings
-2026-08-21 05:47:49,064 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-08-21 05:49:05,082 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-08-21 05:49:05,082 [INFO] 
+2026-08-21 09:36:30,548 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-08-21 09:36:30,548 [INFO] ███████████████████████████████████████████████████████
+2026-08-21 09:37:46,456 [INFO]   [S3] Java Developer: 0 listings
+2026-08-21 09:39:02,349 [INFO]   [S3] Python Developer: 0 listings
+2026-08-21 09:40:18,287 [INFO]   [S3] SQL Developer: 0 listings
+2026-08-21 09:41:34,193 [INFO]   [S3] Software Engineer: 0 listings
+2026-08-21 09:42:50,260 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-08-21 09:44:06,052 [INFO]   [S3] Data Analyst: 0 listings
+2026-08-21 09:45:22,192 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-08-21 09:46:38,076 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-08-21 09:46:38,076 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-21 05:49:05,082 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-08-21 05:49:05,082 [INFO] ███████████████████████████████████████████████████████
-2026-08-21 06:04:14,727 [INFO] 
+2026-08-21 09:46:38,076 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-08-21 09:46:38,076 [INFO] ███████████████████████████████████████████████████████
+2026-08-21 10:01:48,565 [INFO] 
 =======================================================
-2026-08-21 06:04:14,728 [INFO]   Run complete — Applied this session : 1
-2026-08-21 06:04:14,728 [INFO]   Total ever applied                  : 253
-2026-08-21 06:04:14,728 [INFO] =======================================================
+2026-08-21 10:01:48,565 [INFO]   Run complete — Applied this session : 0
+2026-08-21 10:01:48,566 [INFO]   Total ever applied                  : 253
+2026-08-21 10:01:48,566 [INFO] =======================================================

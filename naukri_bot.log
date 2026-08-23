@@ -1,297 +1,299 @@
-2026-08-23 01:13:05,422 [INFO] GitHub Actions — single run mode
-2026-08-23 01:13:05,423 [INFO] 
+2026-08-23 04:34:50,814 [INFO] GitHub Actions — single run mode
+2026-08-23 04:34:50,815 [INFO] 
 =======================================================
-2026-08-23 01:13:05,423 [INFO]   Run started: 2026-08-23 01:13:05
-2026-08-23 01:13:05,423 [INFO] =======================================================
-2026-08-23 01:13:05,424 [INFO] Previously applied: 253 jobs
-2026-08-23 01:13:05,424 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-08-23 01:13:05,424 [INFO] ====== WebDriver manager ======
-2026-08-23 01:13:06,824 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-23 01:13:06,874 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-23 01:13:06,907 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-23 01:13:06,907 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-23 01:13:07,015 [INFO] WebDriver version 151.0.7922.138 selected
-2026-08-23 01:13:07,021 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-23 01:13:07,021 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-23 01:13:07,086 [INFO] Driver downloading response is 200
-2026-08-23 01:13:07,279 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
-2026-08-23 01:13:11,888 [INFO]   Trying cookie login...
-2026-08-23 01:13:16,745 [INFO]   Loading 34 cookies...
-2026-08-23 01:13:20,984 [INFO]   ✅ Cookie login successful!
-2026-08-23 01:13:20,984 [INFO] 
+2026-08-23 04:34:50,815 [INFO]   Run started: 2026-08-23 04:34:50
+2026-08-23 04:34:50,815 [INFO] =======================================================
+2026-08-23 04:34:50,815 [INFO] Previously applied: 253 jobs
+2026-08-23 04:34:50,816 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-08-23 04:34:50,816 [INFO] ====== WebDriver manager ======
+2026-08-23 04:34:51,020 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-23 04:34:51,058 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-23 04:34:51,092 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-23 04:34:51,093 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-23 04:34:51,194 [INFO] WebDriver version 151.0.7922.138 selected
+2026-08-23 04:34:51,200 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-23 04:34:51,200 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-23 04:34:51,255 [INFO] Driver downloading response is 200
+2026-08-23 04:34:51,478 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
+2026-08-23 04:34:52,344 [INFO]   Trying cookie login...
+2026-08-23 04:34:57,042 [INFO]   Loading 34 cookies...
+2026-08-23 04:35:01,194 [INFO]   ✅ Cookie login successful!
+2026-08-23 04:35:01,194 [INFO] 
 ───────────────────────────────────────────────────────
-2026-08-23 01:13:20,984 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-08-23 01:13:20,984 [INFO] ───────────────────────────────────────────────────────
-2026-08-23 01:13:20,984 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-08-23 01:14:27,953 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-08-23 01:14:33,475 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-08-23 01:14:35,832 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-08-23 01:14:38,854 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-08-23 01:14:41,888 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-08-23 01:14:41,889 [INFO] 
+2026-08-23 04:35:01,194 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-08-23 04:35:01,194 [INFO] ───────────────────────────────────────────────────────
+2026-08-23 04:35:01,194 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-08-23 04:36:07,772 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-08-23 04:36:13,299 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-08-23 04:36:15,656 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-08-23 04:36:18,678 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-08-23 04:36:21,711 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-08-23 04:36:21,712 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-23 01:14:41,889 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-08-23 01:14:41,889 [INFO] ███████████████████████████████████████████████████████
-2026-08-23 01:15:43,450 [INFO]   [S0-HYD] Java Developer: 5 listings
-2026-08-23 01:15:43,470 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:15:43,470 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:15:43,484 [INFO]   [S0-HYD] Checking: Python Fullstack WITH REACT Trainer AND AI/ML Trainer
-2026-08-23 01:15:43,484 [INFO]   [filter] Excluded 'trainer': Python Fullstack WITH REACT Trainer AND AI/ML Trainer
-2026-08-23 01:15:43,497 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
-2026-08-23 01:15:43,497 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
-2026-08-23 01:15:43,510 [INFO]   [S0-HYD] Checking: Walk-in || Professor/ Associate Professor /Assistant CSE Professor
-2026-08-23 01:15:43,510 [INFO]   [filter] Excluded 'professor': Walk-in || Professor/ Associate Professor /Assistant CSE Professor
-2026-08-23 01:15:43,523 [INFO]   [S0-HYD] Checking: Backend Software Engineer
-2026-08-23 01:16:40,933 [INFO]   [location] ❌ Wrong: Noida — skip
-2026-08-23 01:16:40,933 [INFO]   Skipping (wrong location): Backend Software Engineer
-2026-08-23 01:17:57,206 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-08-23 01:18:58,495 [INFO]   [S0-HYD] Python Developer: 4 listings
-2026-08-23 01:18:58,509 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer
-2026-08-23 01:19:55,800 [INFO]   [location] ❌ Wrong: Chennai — skip
-2026-08-23 01:19:55,800 [INFO]   Skipping (wrong location): Walk-in || Software Developer
-2026-08-23 01:19:55,869 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:19:55,869 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:19:55,883 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
-2026-08-23 01:19:55,884 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
-2026-08-23 01:19:55,898 [INFO]   [S0-HYD] Checking: Walk-in || Software Test Engineer
-2026-08-23 01:19:55,898 [INFO]   [filter] No skill match: Walk-in || Software Test Engineer
-2026-08-23 01:21:11,866 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-08-23 01:22:13,977 [INFO]   [S0-HYD] SQL Developer: 7 listings
-2026-08-23 01:22:13,990 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer
-2026-08-23 01:23:11,318 [INFO]   [location] ❌ Wrong: Chennai — skip
-2026-08-23 01:23:11,318 [INFO]   Skipping (wrong location): Walk-in || Software Developer
-2026-08-23 01:23:11,388 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:23:11,388 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:23:11,404 [INFO]   [S0-HYD] Checking: Python Fullstack WITH REACT Trainer AND AI/ML Trainer
-2026-08-23 01:23:11,404 [INFO]   [filter] Excluded 'trainer': Python Fullstack WITH REACT Trainer AND AI/ML Trainer
-2026-08-23 01:23:11,420 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
-2026-08-23 01:23:11,420 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
-2026-08-23 01:23:11,436 [INFO]   [S0-HYD] Checking: Walk-in || Software Test Engineer
-2026-08-23 01:23:11,436 [INFO]   [filter] No skill match: Walk-in || Software Test Engineer
-2026-08-23 01:23:11,452 [INFO]   [S0-HYD] Checking: Walk-in || Professor/ Associate Professor /Assistant CSE Professor
-2026-08-23 01:23:11,452 [INFO]   [filter] Excluded 'professor': Walk-in || Professor/ Associate Professor /Assistant CSE Professor
-2026-08-23 01:23:11,467 [INFO]   [S0-HYD] Checking: Backend Software Engineer
-2026-08-23 01:24:08,905 [INFO]   [location] ❌ Wrong: Noida — skip
-2026-08-23 01:24:08,905 [INFO]   Skipping (wrong location): Backend Software Engineer
-2026-08-23 01:25:24,800 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-08-23 01:26:25,964 [INFO]   [S0-HYD] Software Engineer: 11 listings
-2026-08-23 01:26:25,979 [INFO]   [S0-HYD] Checking: Walk-in || Software Test Engineer
-2026-08-23 01:26:25,979 [INFO]   [filter] No skill match: Walk-in || Software Test Engineer
-2026-08-23 01:26:25,993 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer
-2026-08-23 01:27:23,399 [INFO]   [location] ❌ Wrong: Chennai — skip
-2026-08-23 01:27:23,399 [INFO]   Skipping (wrong location): Walk-in || Software Developer
-2026-08-23 01:27:23,468 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
-2026-08-23 01:27:23,468 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
-2026-08-23 01:27:23,483 [INFO]   [S0-HYD] Checking: Technical Support Engineer - Freshers
-2026-08-23 01:27:23,483 [INFO]   [filter] No skill match: Technical Support Engineer - Freshers
-2026-08-23 01:27:23,497 [INFO]   [S0-HYD] Checking: Support Engineer - Freshers
-2026-08-23 01:27:23,497 [INFO]   [filter] No skill match: Support Engineer - Freshers
-2026-08-23 01:27:23,512 [INFO]   [S0-HYD] Checking: Engineer
-2026-08-23 01:27:23,512 [INFO]   [filter] No skill match: Engineer
-2026-08-23 01:27:23,527 [INFO]   [S0-HYD] Checking: Fresh Diploma Engineer
-2026-08-23 01:27:23,527 [INFO]   [filter] No skill match: Fresh Diploma Engineer
-2026-08-23 01:27:23,541 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:27:23,541 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:27:23,556 [INFO]   [S0-HYD] Checking: Python Fullstack WITH REACT Trainer AND AI/ML Trainer
-2026-08-23 01:27:23,556 [INFO]   [filter] Excluded 'trainer': Python Fullstack WITH REACT Trainer AND AI/ML Trainer
-2026-08-23 01:27:23,570 [INFO]   [S0-HYD] Checking: Walk-in || Professor/ Associate Professor /Assistant CSE Professor
-2026-08-23 01:27:23,570 [INFO]   [filter] Excluded 'professor': Walk-in || Professor/ Associate Professor /Assistant CSE Professor
-2026-08-23 01:27:23,584 [INFO]   [S0-HYD] Checking: Backend Software Engineer
-2026-08-23 01:28:21,055 [INFO]   [location] ❌ Wrong: Noida — skip
-2026-08-23 01:28:21,055 [INFO]   Skipping (wrong location): Backend Software Engineer
-2026-08-23 01:29:37,090 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-08-23 01:30:38,153 [INFO]   [S0-HYD] Associate Software Engineer: 7 listings
-2026-08-23 01:30:38,167 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer
-2026-08-23 01:31:35,564 [INFO]   [location] ❌ Wrong: Chennai — skip
-2026-08-23 01:31:35,565 [INFO]   Skipping (wrong location): Walk-in || Software Developer
-2026-08-23 01:31:35,634 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:31:35,634 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:31:35,649 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
-2026-08-23 01:31:35,650 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
-2026-08-23 01:31:35,665 [INFO]   [S0-HYD] Checking: Python Fullstack WITH REACT Trainer AND AI/ML Trainer
-2026-08-23 01:31:35,665 [INFO]   [filter] Excluded 'trainer': Python Fullstack WITH REACT Trainer AND AI/ML Trainer
-2026-08-23 01:31:35,680 [INFO]   [S0-HYD] Checking: Walk-in || Software Test Engineer
-2026-08-23 01:31:35,680 [INFO]   [filter] No skill match: Walk-in || Software Test Engineer
-2026-08-23 01:31:35,695 [INFO]   [S0-HYD] Checking: Walk-in || Professor/ Associate Professor /Assistant CSE Professor
-2026-08-23 01:31:35,695 [INFO]   [filter] Excluded 'professor': Walk-in || Professor/ Associate Professor /Assistant CSE Professor
-2026-08-23 01:31:35,710 [INFO]   [S0-HYD] Checking: Backend Software Engineer
-2026-08-23 01:32:33,055 [INFO]   [location] ❌ Wrong: Noida — skip
-2026-08-23 01:32:33,055 [INFO]   Skipping (wrong location): Backend Software Engineer
-2026-08-23 01:33:49,224 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-08-23 01:34:50,224 [INFO]   [S0-HYD] Data Analyst: 2 listings
-2026-08-23 01:34:50,240 [INFO]   [S0-HYD] Checking: Walk-in || Audit Executive
-2026-08-23 01:34:50,240 [INFO]   [filter] No skill match: Walk-in || Audit Executive
-2026-08-23 01:34:50,254 [INFO]   [S0-HYD] Checking: Quant Analyst Trainee / Intern
-2026-08-23 01:34:50,254 [INFO]   [filter] No skill match: Quant Analyst Trainee / Intern
-2026-08-23 01:36:06,090 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-08-23 01:37:07,193 [INFO]   [S0-HYD] AI ML Engineer: 7 listings
-2026-08-23 01:37:07,208 [INFO]   [S0-HYD] Checking: Python Fullstack WITH REACT Trainer AND AI/ML Trainer
-2026-08-23 01:37:07,208 [INFO]   [filter] Excluded 'trainer': Python Fullstack WITH REACT Trainer AND AI/ML Trainer
-2026-08-23 01:37:07,222 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:37:07,222 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:37:07,236 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
-2026-08-23 01:37:07,236 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
-2026-08-23 01:37:07,250 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer
-2026-08-23 01:38:04,669 [INFO]   [location] ❌ Wrong: Chennai — skip
-2026-08-23 01:38:04,669 [INFO]   Skipping (wrong location): Walk-in || Software Developer
-2026-08-23 01:38:04,739 [INFO]   [S0-HYD] Checking: Walk-in || Software Test Engineer
-2026-08-23 01:38:04,739 [INFO]   [filter] No skill match: Walk-in || Software Test Engineer
-2026-08-23 01:38:04,754 [INFO]   [S0-HYD] Checking: Walk-in || Professor/ Associate Professor /Assistant CSE Professor
-2026-08-23 01:38:04,754 [INFO]   [filter] Excluded 'professor': Walk-in || Professor/ Associate Professor /Assistant CSE Professor
-2026-08-23 01:38:04,770 [INFO]   [S0-HYD] Checking: Backend Software Engineer
-2026-08-23 01:39:02,172 [INFO]   [location] ❌ Wrong: Noida — skip
-2026-08-23 01:39:02,173 [INFO]   Skipping (wrong location): Backend Software Engineer
-2026-08-23 01:40:18,638 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-08-23 01:41:19,751 [INFO]   [S0-HYD] Machine Learning Engineer: 7 listings
-2026-08-23 01:41:19,767 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:41:19,767 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
-2026-08-23 01:41:19,780 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
-2026-08-23 01:41:19,781 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
-2026-08-23 01:41:19,794 [INFO]   [S0-HYD] Checking: Python Fullstack WITH REACT Trainer AND AI/ML Trainer
-2026-08-23 01:41:19,794 [INFO]   [filter] Excluded 'trainer': Python Fullstack WITH REACT Trainer AND AI/ML Trainer
-2026-08-23 01:41:19,807 [INFO]   [S0-HYD] Checking: Walk-in || Professor/ Associate Professor /Assistant CSE Professor
-2026-08-23 01:41:19,807 [INFO]   [filter] Excluded 'professor': Walk-in || Professor/ Associate Professor /Assistant CSE Professor
-2026-08-23 01:41:19,821 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer
-2026-08-23 01:42:17,223 [INFO]   [location] ❌ Wrong: Chennai — skip
-2026-08-23 01:42:17,224 [INFO]   Skipping (wrong location): Walk-in || Software Developer
-2026-08-23 01:42:17,293 [INFO]   [S0-HYD] Checking: Walk-in || Software Test Engineer
-2026-08-23 01:42:17,293 [INFO]   [filter] No skill match: Walk-in || Software Test Engineer
-2026-08-23 01:42:17,310 [INFO]   [S0-HYD] Checking: Backend Software Engineer
-2026-08-23 01:43:14,639 [INFO]   [location] ❌ Wrong: Noida — skip
-2026-08-23 01:43:14,639 [INFO]   Skipping (wrong location): Backend Software Engineer
-2026-08-23 01:44:30,650 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-08-23 01:45:46,842 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-08-23 01:47:02,732 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-08-23 01:48:19,000 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-08-23 01:49:34,763 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-08-23 01:50:50,872 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-08-23 01:52:06,731 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-08-23 01:53:22,836 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-08-23 01:54:38,752 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-08-23 01:55:54,947 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-08-23 01:57:10,859 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-08-23 01:58:27,049 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-08-23 01:59:42,996 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-08-23 01:59:42,996 [INFO] 
+2026-08-23 04:36:21,712 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-08-23 04:36:21,712 [INFO] ███████████████████████████████████████████████████████
+2026-08-23 04:37:22,929 [INFO]   [S0-HYD] Java Developer: 5 listings
+2026-08-23 04:37:22,950 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 04:37:22,950 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 04:37:22,964 [INFO]   [S0-HYD] Checking: Python Fullstack WITH REACT Trainer AND AI/ML Trainer
+2026-08-23 04:37:22,964 [INFO]   [filter] Excluded 'trainer': Python Fullstack WITH REACT Trainer AND AI/ML Trainer
+2026-08-23 04:37:22,978 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
+2026-08-23 04:37:22,978 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
+2026-08-23 04:37:22,993 [INFO]   [S0-HYD] Checking: Walk-in || Professor/ Associate Professor /Assistant CSE Professor
+2026-08-23 04:37:22,993 [INFO]   [filter] Excluded 'professor': Walk-in || Professor/ Associate Professor /Assistant CSE Professor
+2026-08-23 04:37:23,008 [INFO]   [S0-HYD] Checking: Backend Software Engineer
+2026-08-23 04:38:20,388 [INFO]   [location] ❌ Wrong: Noida — skip
+2026-08-23 04:38:20,388 [INFO]   Skipping (wrong location): Backend Software Engineer
+2026-08-23 04:39:36,173 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-08-23 04:40:37,339 [INFO]   [S0-HYD] Python Developer: 4 listings
+2026-08-23 04:40:37,354 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer
+2026-08-23 04:41:34,695 [INFO]   [location] ❌ Wrong: Chennai — skip
+2026-08-23 04:41:34,695 [INFO]   Skipping (wrong location): Walk-in || Software Developer
+2026-08-23 04:41:34,766 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 04:41:34,766 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 04:41:34,782 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
+2026-08-23 04:41:34,782 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
+2026-08-23 04:41:34,798 [INFO]   [S0-HYD] Checking: Walk-in || Software Test Engineer
+2026-08-23 04:41:34,798 [INFO]   [filter] No skill match: Walk-in || Software Test Engineer
+2026-08-23 04:42:50,623 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-08-23 04:43:51,700 [INFO]   [S0-HYD] SQL Developer: 7 listings
+2026-08-23 04:43:51,715 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer
+2026-08-23 04:44:49,057 [INFO]   [location] ❌ Wrong: Chennai — skip
+2026-08-23 04:44:49,057 [INFO]   Skipping (wrong location): Walk-in || Software Developer
+2026-08-23 04:44:49,128 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 04:44:49,128 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 04:44:49,142 [INFO]   [S0-HYD] Checking: Python Fullstack WITH REACT Trainer AND AI/ML Trainer
+2026-08-23 04:44:49,142 [INFO]   [filter] Excluded 'trainer': Python Fullstack WITH REACT Trainer AND AI/ML Trainer
+2026-08-23 04:44:49,157 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
+2026-08-23 04:44:49,157 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
+2026-08-23 04:44:49,171 [INFO]   [S0-HYD] Checking: Walk-in || Software Test Engineer
+2026-08-23 04:44:49,171 [INFO]   [filter] No skill match: Walk-in || Software Test Engineer
+2026-08-23 04:44:49,185 [INFO]   [S0-HYD] Checking: Walk-in || Professor/ Associate Professor /Assistant CSE Professor
+2026-08-23 04:44:49,185 [INFO]   [filter] Excluded 'professor': Walk-in || Professor/ Associate Professor /Assistant CSE Professor
+2026-08-23 04:44:49,199 [INFO]   [S0-HYD] Checking: Backend Software Engineer
+2026-08-23 04:45:46,602 [INFO]   [location] ❌ Wrong: Noida — skip
+2026-08-23 04:45:46,602 [INFO]   Skipping (wrong location): Backend Software Engineer
+2026-08-23 04:47:02,393 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-08-23 04:48:03,489 [INFO]   [S0-HYD] Software Engineer: 12 listings
+2026-08-23 04:48:03,504 [INFO]   [S0-HYD] Checking: Walk-in || Software Test Engineer
+2026-08-23 04:48:03,504 [INFO]   [filter] No skill match: Walk-in || Software Test Engineer
+2026-08-23 04:48:03,517 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer
+2026-08-23 04:49:00,869 [INFO]   [location] ❌ Wrong: Chennai — skip
+2026-08-23 04:49:00,869 [INFO]   Skipping (wrong location): Walk-in || Software Developer
+2026-08-23 04:49:00,939 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
+2026-08-23 04:49:00,939 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
+2026-08-23 04:49:00,955 [INFO]   [S0-HYD] Checking: Hiring HR Fresher/ Recruiter - 0 To 3 Yrs - Chandivali
+2026-08-23 04:49:00,955 [INFO]   [filter] Excluded 'hr ': Hiring HR Fresher/ Recruiter - 0 To 3 Yrs - Chandivali
+2026-08-23 04:49:00,970 [INFO]   [S0-HYD] Checking: Technical Support Engineer - Freshers
+2026-08-23 04:49:00,971 [INFO]   [filter] No skill match: Technical Support Engineer - Freshers
+2026-08-23 04:49:00,986 [INFO]   [S0-HYD] Checking: Support Engineer - Freshers
+2026-08-23 04:49:00,986 [INFO]   [filter] No skill match: Support Engineer - Freshers
+2026-08-23 04:49:01,001 [INFO]   [S0-HYD] Checking: Engineer
+2026-08-23 04:49:01,001 [INFO]   [filter] No skill match: Engineer
+2026-08-23 04:49:01,015 [INFO]   [S0-HYD] Checking: Fresh Diploma Engineer
+2026-08-23 04:49:01,015 [INFO]   [filter] No skill match: Fresh Diploma Engineer
+2026-08-23 04:49:01,030 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 04:49:01,030 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 04:49:01,045 [INFO]   [S0-HYD] Checking: Python Fullstack WITH REACT Trainer AND AI/ML Trainer
+2026-08-23 04:49:01,046 [INFO]   [filter] Excluded 'trainer': Python Fullstack WITH REACT Trainer AND AI/ML Trainer
+2026-08-23 04:49:01,060 [INFO]   [S0-HYD] Checking: Walk-in || Professor/ Associate Professor /Assistant CSE Professor
+2026-08-23 04:49:01,060 [INFO]   [filter] Excluded 'professor': Walk-in || Professor/ Associate Professor /Assistant CSE Professor
+2026-08-23 04:49:01,075 [INFO]   [S0-HYD] Checking: Backend Software Engineer
+2026-08-23 04:49:58,420 [INFO]   [location] ❌ Wrong: Noida — skip
+2026-08-23 04:49:58,421 [INFO]   Skipping (wrong location): Backend Software Engineer
+2026-08-23 04:51:14,325 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-08-23 04:52:15,432 [INFO]   [S0-HYD] Associate Software Engineer: 7 listings
+2026-08-23 04:52:15,446 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer
+2026-08-23 04:53:12,754 [INFO]   [location] ❌ Wrong: Chennai — skip
+2026-08-23 04:53:12,754 [INFO]   Skipping (wrong location): Walk-in || Software Developer
+2026-08-23 04:53:12,826 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 04:53:12,827 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 04:53:12,843 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
+2026-08-23 04:53:12,843 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
+2026-08-23 04:53:12,857 [INFO]   [S0-HYD] Checking: Python Fullstack WITH REACT Trainer AND AI/ML Trainer
+2026-08-23 04:53:12,858 [INFO]   [filter] Excluded 'trainer': Python Fullstack WITH REACT Trainer AND AI/ML Trainer
+2026-08-23 04:53:12,871 [INFO]   [S0-HYD] Checking: Walk-in || Software Test Engineer
+2026-08-23 04:53:12,872 [INFO]   [filter] No skill match: Walk-in || Software Test Engineer
+2026-08-23 04:53:12,886 [INFO]   [S0-HYD] Checking: Walk-in || Professor/ Associate Professor /Assistant CSE Professor
+2026-08-23 04:53:12,887 [INFO]   [filter] Excluded 'professor': Walk-in || Professor/ Associate Professor /Assistant CSE Professor
+2026-08-23 04:53:12,901 [INFO]   [S0-HYD] Checking: Backend Software Engineer
+2026-08-23 04:54:10,200 [INFO]   [location] ❌ Wrong: Noida — skip
+2026-08-23 04:54:10,200 [INFO]   Skipping (wrong location): Backend Software Engineer
+2026-08-23 04:55:26,059 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-08-23 04:56:27,110 [INFO]   [S0-HYD] Data Analyst: 2 listings
+2026-08-23 04:56:27,125 [INFO]   [S0-HYD] Checking: Walk-in || Audit Executive
+2026-08-23 04:56:27,125 [INFO]   [filter] No skill match: Walk-in || Audit Executive
+2026-08-23 04:56:27,140 [INFO]   [S0-HYD] Checking: Quant Analyst Trainee / Intern
+2026-08-23 04:56:27,140 [INFO]   [filter] No skill match: Quant Analyst Trainee / Intern
+2026-08-23 04:57:42,988 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-08-23 04:58:43,995 [INFO]   [S0-HYD] AI ML Engineer: 7 listings
+2026-08-23 04:58:44,009 [INFO]   [S0-HYD] Checking: Python Fullstack WITH REACT Trainer AND AI/ML Trainer
+2026-08-23 04:58:44,009 [INFO]   [filter] Excluded 'trainer': Python Fullstack WITH REACT Trainer AND AI/ML Trainer
+2026-08-23 04:58:44,023 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 04:58:44,023 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 04:58:44,037 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
+2026-08-23 04:58:44,037 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
+2026-08-23 04:58:44,051 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer
+2026-08-23 04:59:41,460 [INFO]   [location] ❌ Wrong: Chennai — skip
+2026-08-23 04:59:41,460 [INFO]   Skipping (wrong location): Walk-in || Software Developer
+2026-08-23 04:59:41,531 [INFO]   [S0-HYD] Checking: Walk-in || Software Test Engineer
+2026-08-23 04:59:41,531 [INFO]   [filter] No skill match: Walk-in || Software Test Engineer
+2026-08-23 04:59:41,547 [INFO]   [S0-HYD] Checking: Walk-in || Professor/ Associate Professor /Assistant CSE Professor
+2026-08-23 04:59:41,547 [INFO]   [filter] Excluded 'professor': Walk-in || Professor/ Associate Professor /Assistant CSE Professor
+2026-08-23 04:59:41,563 [INFO]   [S0-HYD] Checking: Backend Software Engineer
+2026-08-23 05:00:38,913 [INFO]   [location] ❌ Wrong: Noida — skip
+2026-08-23 05:00:38,914 [INFO]   Skipping (wrong location): Backend Software Engineer
+2026-08-23 05:01:54,781 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-08-23 05:02:55,835 [INFO]   [S0-HYD] Machine Learning Engineer: 7 listings
+2026-08-23 05:02:55,851 [INFO]   [S0-HYD] Checking: Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 05:02:55,851 [INFO]   [filter] Excluded 'customer service': Walk-in || International Customer Service Representative---Remote & WFH
+2026-08-23 05:02:55,866 [INFO]   [S0-HYD] Checking: Staff Consultant, Professional Services
+2026-08-23 05:02:55,866 [INFO]   [filter] No skill match: Staff Consultant, Professional Services
+2026-08-23 05:02:55,881 [INFO]   [S0-HYD] Checking: Python Fullstack WITH REACT Trainer AND AI/ML Trainer
+2026-08-23 05:02:55,881 [INFO]   [filter] Excluded 'trainer': Python Fullstack WITH REACT Trainer AND AI/ML Trainer
+2026-08-23 05:02:55,897 [INFO]   [S0-HYD] Checking: Walk-in || Professor/ Associate Professor /Assistant CSE Professor
+2026-08-23 05:02:55,897 [INFO]   [filter] Excluded 'professor': Walk-in || Professor/ Associate Professor /Assistant CSE Professor
+2026-08-23 05:02:55,912 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer
+2026-08-23 05:03:53,343 [INFO]   [location] ❌ Wrong: Chennai — skip
+2026-08-23 05:03:53,343 [INFO]   Skipping (wrong location): Walk-in || Software Developer
+2026-08-23 05:03:53,412 [INFO]   [S0-HYD] Checking: Walk-in || Software Test Engineer
+2026-08-23 05:03:53,412 [INFO]   [filter] No skill match: Walk-in || Software Test Engineer
+2026-08-23 05:03:53,427 [INFO]   [S0-HYD] Checking: Backend Software Engineer
+2026-08-23 05:04:50,808 [INFO]   [location] ❌ Wrong: Noida — skip
+2026-08-23 05:04:50,808 [INFO]   Skipping (wrong location): Backend Software Engineer
+2026-08-23 05:06:06,681 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-08-23 05:07:22,706 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-08-23 05:08:38,515 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-08-23 05:09:54,664 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-08-23 05:11:10,555 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-08-23 05:12:26,552 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-08-23 05:13:42,427 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-08-23 05:14:58,654 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-08-23 05:16:14,444 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-08-23 05:17:30,486 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-08-23 05:18:46,212 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-08-23 05:20:02,298 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-08-23 05:21:18,181 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-08-23 05:21:18,181 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-23 01:59:42,996 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-08-23 01:59:42,996 [INFO] ███████████████████████████████████████████████████████
-2026-08-23 02:00:44,121 [INFO]   [S1] Java Developer: 5 listings
-2026-08-23 02:00:44,141 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-08-23 02:00:44,141 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-08-23 02:00:44,154 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-23 02:00:44,154 [INFO]   Already applied: Production Support Software Engineer
-2026-08-23 02:00:44,167 [INFO]   [S1] Checking: Back End Developer
-2026-08-23 02:00:44,167 [INFO]   [filter] No skill match: Back End Developer
-2026-08-23 02:00:44,180 [INFO]   [S1] Checking: Agentic AI / Gen AI
-2026-08-23 02:00:44,180 [INFO]   [filter] No skill match: Agentic AI / Gen AI
-2026-08-23 02:00:44,193 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:00:44,193 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:01:45,455 [INFO]   [S1] Python Developer: 2 listings
-2026-08-23 02:01:45,468 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-23 02:01:45,468 [INFO]   Already applied: Production Support Software Engineer
-2026-08-23 02:01:45,481 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:01:45,481 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:02:47,776 [INFO]   [S1] SQL Developer: 5 listings
-2026-08-23 02:02:47,789 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-08-23 02:02:47,789 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-08-23 02:02:47,802 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-23 02:02:47,802 [INFO]   Already applied: Production Support Software Engineer
-2026-08-23 02:02:47,815 [INFO]   [S1] Checking: Back End Developer
-2026-08-23 02:02:47,815 [INFO]   [filter] No skill match: Back End Developer
-2026-08-23 02:02:47,828 [INFO]   [S1] Checking: Agentic AI / Gen AI
-2026-08-23 02:02:47,828 [INFO]   [filter] No skill match: Agentic AI / Gen AI
-2026-08-23 02:02:47,841 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:02:47,842 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:03:49,640 [INFO]   [S1] Software Engineer: 6 listings
-2026-08-23 02:03:49,654 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:03:49,655 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:03:49,668 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-23 02:03:49,668 [INFO]   Already applied: Production Support Software Engineer
-2026-08-23 02:03:49,682 [INFO]   [S1] Checking: Amazon Connect Developer
-2026-08-23 02:03:49,682 [INFO]   [filter] No skill match: Amazon Connect Developer
-2026-08-23 02:03:49,695 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-08-23 02:03:49,695 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-08-23 02:03:49,708 [INFO]   [S1] Checking: Back End Developer
-2026-08-23 02:03:49,709 [INFO]   [filter] No skill match: Back End Developer
-2026-08-23 02:03:49,722 [INFO]   [S1] Checking: Agentic AI / Gen AI
-2026-08-23 02:03:49,722 [INFO]   [filter] No skill match: Agentic AI / Gen AI
-2026-08-23 02:04:50,781 [INFO]   [S1] Associate Software Engineer: 6 listings
-2026-08-23 02:04:50,796 [INFO]   [S1] Checking: Fullstack Developer
-2026-08-23 02:04:50,796 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-08-23 02:04:50,809 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-23 02:04:50,810 [INFO]   Already applied: Production Support Software Engineer
-2026-08-23 02:04:50,823 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-08-23 02:04:50,823 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-08-23 02:04:50,837 [INFO]   [S1] Checking: Back End Developer
-2026-08-23 02:04:50,837 [INFO]   [filter] No skill match: Back End Developer
-2026-08-23 02:04:50,850 [INFO]   [S1] Checking: Agentic AI / Gen AI
-2026-08-23 02:04:50,850 [INFO]   [filter] No skill match: Agentic AI / Gen AI
-2026-08-23 02:04:50,864 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:04:50,864 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:05:51,901 [INFO]   [S1] Data Analyst: 9 listings
-2026-08-23 02:05:51,915 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-23 02:05:51,915 [INFO]   Already applied: Production Support Software Engineer
-2026-08-23 02:05:51,928 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-08-23 02:05:51,928 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-08-23 02:05:51,941 [INFO]   [S1] Checking: Walk-in || Audit Executive
-2026-08-23 02:05:51,941 [INFO]   [filter] No skill match: Walk-in || Audit Executive
-2026-08-23 02:05:51,954 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
-2026-08-23 02:05:51,954 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
-2026-08-23 02:05:51,967 [INFO]   [S1] Checking: Quant Analyst Trainee / Intern
-2026-08-23 02:05:51,967 [INFO]   [filter] No skill match: Quant Analyst Trainee / Intern
-2026-08-23 02:05:51,980 [INFO]   [S1] Checking: Back End Developer
-2026-08-23 02:05:51,980 [INFO]   [filter] No skill match: Back End Developer
-2026-08-23 02:05:51,993 [INFO]   [S1] Checking: Agentic AI / Gen AI
-2026-08-23 02:05:51,993 [INFO]   [filter] No skill match: Agentic AI / Gen AI
-2026-08-23 02:05:52,006 [INFO]   [S1] Checking: Financial Analyst
-2026-08-23 02:05:52,006 [INFO]   [filter] Excluded 'financial': Financial Analyst
-2026-08-23 02:05:52,019 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:05:52,019 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:06:53,260 [INFO]   [S1] AI ML Engineer: 5 listings
-2026-08-23 02:06:53,275 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-23 02:06:53,275 [INFO]   Already applied: Production Support Software Engineer
-2026-08-23 02:06:53,288 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-08-23 02:06:53,288 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-08-23 02:06:53,301 [INFO]   [S1] Checking: Back End Developer
-2026-08-23 02:06:53,302 [INFO]   [filter] No skill match: Back End Developer
-2026-08-23 02:06:53,315 [INFO]   [S1] Checking: Agentic AI / Gen AI
-2026-08-23 02:06:53,315 [INFO]   [filter] No skill match: Agentic AI / Gen AI
-2026-08-23 02:06:53,328 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:06:53,328 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:07:54,573 [INFO]   [S1] Machine Learning Engineer: 5 listings
-2026-08-23 02:07:54,587 [INFO]   [S1] Checking: Production Support Software Engineer
-2026-08-23 02:07:54,587 [INFO]   Already applied: Production Support Software Engineer
-2026-08-23 02:07:54,601 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-08-23 02:07:54,601 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-08-23 02:07:54,613 [INFO]   [S1] Checking: Back End Developer
-2026-08-23 02:07:54,614 [INFO]   [filter] No skill match: Back End Developer
-2026-08-23 02:07:54,627 [INFO]   [S1] Checking: Agentic AI / Gen AI
-2026-08-23 02:07:54,627 [INFO]   [filter] No skill match: Agentic AI / Gen AI
-2026-08-23 02:07:54,640 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:07:54,640 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-23 02:07:54,640 [INFO] 
+2026-08-23 05:21:18,181 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-08-23 05:21:18,181 [INFO] ███████████████████████████████████████████████████████
+2026-08-23 05:22:19,473 [INFO]   [S1] Java Developer: 5 listings
+2026-08-23 05:22:19,492 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-08-23 05:22:19,492 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-08-23 05:22:19,506 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-23 05:22:19,506 [INFO]   Already applied: Production Support Software Engineer
+2026-08-23 05:22:19,519 [INFO]   [S1] Checking: Back End Developer
+2026-08-23 05:22:19,519 [INFO]   [filter] No skill match: Back End Developer
+2026-08-23 05:22:19,532 [INFO]   [S1] Checking: Agentic AI / Gen AI
+2026-08-23 05:22:19,532 [INFO]   [filter] No skill match: Agentic AI / Gen AI
+2026-08-23 05:22:19,548 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:22:19,548 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:23:20,641 [INFO]   [S1] Python Developer: 2 listings
+2026-08-23 05:23:20,656 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-23 05:23:20,656 [INFO]   Already applied: Production Support Software Engineer
+2026-08-23 05:23:20,670 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:23:20,670 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:24:21,712 [INFO]   [S1] SQL Developer: 5 listings
+2026-08-23 05:24:21,727 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-08-23 05:24:21,727 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-08-23 05:24:21,742 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-23 05:24:21,742 [INFO]   Already applied: Production Support Software Engineer
+2026-08-23 05:24:21,756 [INFO]   [S1] Checking: Back End Developer
+2026-08-23 05:24:21,756 [INFO]   [filter] No skill match: Back End Developer
+2026-08-23 05:24:21,770 [INFO]   [S1] Checking: Agentic AI / Gen AI
+2026-08-23 05:24:21,770 [INFO]   [filter] No skill match: Agentic AI / Gen AI
+2026-08-23 05:24:21,784 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:24:21,785 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:25:22,914 [INFO]   [S1] Software Engineer: 6 listings
+2026-08-23 05:25:22,928 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:25:22,928 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:25:22,942 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-23 05:25:22,942 [INFO]   Already applied: Production Support Software Engineer
+2026-08-23 05:25:22,956 [INFO]   [S1] Checking: Amazon Connect Developer
+2026-08-23 05:25:22,956 [INFO]   [filter] No skill match: Amazon Connect Developer
+2026-08-23 05:25:22,969 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-08-23 05:25:22,969 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-08-23 05:25:22,983 [INFO]   [S1] Checking: Back End Developer
+2026-08-23 05:25:22,983 [INFO]   [filter] No skill match: Back End Developer
+2026-08-23 05:25:22,998 [INFO]   [S1] Checking: Agentic AI / Gen AI
+2026-08-23 05:25:22,998 [INFO]   [filter] No skill match: Agentic AI / Gen AI
+2026-08-23 05:26:24,217 [INFO]   [S1] Associate Software Engineer: 6 listings
+2026-08-23 05:26:24,232 [INFO]   [S1] Checking: Fullstack Developer
+2026-08-23 05:26:24,232 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-08-23 05:26:24,246 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-23 05:26:24,246 [INFO]   Already applied: Production Support Software Engineer
+2026-08-23 05:26:24,260 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-08-23 05:26:24,260 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-08-23 05:26:24,274 [INFO]   [S1] Checking: Back End Developer
+2026-08-23 05:26:24,274 [INFO]   [filter] No skill match: Back End Developer
+2026-08-23 05:26:24,288 [INFO]   [S1] Checking: Agentic AI / Gen AI
+2026-08-23 05:26:24,288 [INFO]   [filter] No skill match: Agentic AI / Gen AI
+2026-08-23 05:26:24,302 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:26:24,302 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:27:25,346 [INFO]   [S1] Data Analyst: 9 listings
+2026-08-23 05:27:25,361 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-23 05:27:25,361 [INFO]   Already applied: Production Support Software Engineer
+2026-08-23 05:27:25,375 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-08-23 05:27:25,375 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-08-23 05:27:25,389 [INFO]   [S1] Checking: Walk-in || Audit Executive
+2026-08-23 05:27:25,389 [INFO]   [filter] No skill match: Walk-in || Audit Executive
+2026-08-23 05:27:25,403 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
+2026-08-23 05:27:25,403 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-08-23 05:27:25,417 [INFO]   [S1] Checking: Quant Analyst Trainee / Intern
+2026-08-23 05:27:25,417 [INFO]   [filter] No skill match: Quant Analyst Trainee / Intern
+2026-08-23 05:27:25,431 [INFO]   [S1] Checking: Back End Developer
+2026-08-23 05:27:25,431 [INFO]   [filter] No skill match: Back End Developer
+2026-08-23 05:27:25,444 [INFO]   [S1] Checking: Agentic AI / Gen AI
+2026-08-23 05:27:25,445 [INFO]   [filter] No skill match: Agentic AI / Gen AI
+2026-08-23 05:27:25,459 [INFO]   [S1] Checking: Financial Analyst
+2026-08-23 05:27:25,459 [INFO]   [filter] Excluded 'financial': Financial Analyst
+2026-08-23 05:27:25,472 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:27:25,473 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:28:26,536 [INFO]   [S1] AI ML Engineer: 5 listings
+2026-08-23 05:28:26,551 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-23 05:28:26,551 [INFO]   Already applied: Production Support Software Engineer
+2026-08-23 05:28:26,566 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-08-23 05:28:26,566 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-08-23 05:28:26,580 [INFO]   [S1] Checking: Back End Developer
+2026-08-23 05:28:26,580 [INFO]   [filter] No skill match: Back End Developer
+2026-08-23 05:28:26,595 [INFO]   [S1] Checking: Agentic AI / Gen AI
+2026-08-23 05:28:26,595 [INFO]   [filter] No skill match: Agentic AI / Gen AI
+2026-08-23 05:28:26,609 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:28:26,609 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:29:27,632 [INFO]   [S1] Machine Learning Engineer: 5 listings
+2026-08-23 05:29:27,647 [INFO]   [S1] Checking: Production Support Software Engineer
+2026-08-23 05:29:27,647 [INFO]   Already applied: Production Support Software Engineer
+2026-08-23 05:29:27,661 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-08-23 05:29:27,662 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-08-23 05:29:27,675 [INFO]   [S1] Checking: Back End Developer
+2026-08-23 05:29:27,675 [INFO]   [filter] No skill match: Back End Developer
+2026-08-23 05:29:27,689 [INFO]   [S1] Checking: Agentic AI / Gen AI
+2026-08-23 05:29:27,689 [INFO]   [filter] No skill match: Agentic AI / Gen AI
+2026-08-23 05:29:27,703 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:29:27,703 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-23 05:29:27,703 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-23 02:07:54,640 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-08-23 02:07:54,640 [INFO] ███████████████████████████████████████████████████████
-2026-08-23 02:23:05,757 [INFO] 
+2026-08-23 05:29:27,703 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-08-23 05:29:27,703 [INFO] ███████████████████████████████████████████████████████
+2026-08-23 05:44:37,981 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-23 02:23:05,757 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-08-23 02:23:05,757 [INFO] ███████████████████████████████████████████████████████
-2026-08-23 02:24:21,612 [INFO]   [S3] Java Developer: 0 listings
-2026-08-23 02:25:37,436 [INFO]   [S3] Python Developer: 0 listings
-2026-08-23 02:26:53,283 [INFO]   [S3] SQL Developer: 0 listings
-2026-08-23 02:28:09,121 [INFO]   [S3] Software Engineer: 0 listings
-2026-08-23 02:29:24,934 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-08-23 02:30:40,777 [INFO]   [S3] Data Analyst: 0 listings
-2026-08-23 02:31:56,596 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-08-23 02:33:12,490 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-08-23 02:33:12,490 [INFO] 
+2026-08-23 05:44:37,981 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-08-23 05:44:37,981 [INFO] ███████████████████████████████████████████████████████
+2026-08-23 05:45:53,806 [INFO]   [S3] Java Developer: 0 listings
+2026-08-23 05:47:09,627 [INFO]   [S3] Python Developer: 0 listings
+2026-08-23 05:48:25,440 [INFO]   [S3] SQL Developer: 0 listings
+2026-08-23 05:49:41,207 [INFO]   [S3] Software Engineer: 0 listings
+2026-08-23 05:50:57,109 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-08-23 05:52:12,824 [INFO]   [S3] Data Analyst: 0 listings
+2026-08-23 05:53:28,548 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-08-23 05:54:44,403 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-08-23 05:54:44,403 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-23 02:33:12,490 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-08-23 02:33:12,491 [INFO] ███████████████████████████████████████████████████████
-2026-08-23 02:48:22,573 [INFO] 
+2026-08-23 05:54:44,403 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-08-23 05:54:44,403 [INFO] ███████████████████████████████████████████████████████
+2026-08-23 06:09:52,485 [INFO] 
 =======================================================
-2026-08-23 02:48:22,573 [INFO]   Run complete — Applied this session : 0
-2026-08-23 02:48:22,574 [INFO]   Total ever applied                  : 253
-2026-08-23 02:48:22,574 [INFO] =======================================================
+2026-08-23 06:09:52,486 [INFO]   Run complete — Applied this session : 0
+2026-08-23 06:09:52,486 [INFO]   Total ever applied                  : 253
+2026-08-23 06:09:52,486 [INFO] =======================================================

@@ -1,275 +1,299 @@
-2026-08-24 08:45:07,457 [INFO] GitHub Actions — single run mode
-2026-08-24 08:45:07,458 [INFO] 
+2026-08-24 12:45:39,344 [INFO] GitHub Actions — single run mode
+2026-08-24 12:45:39,344 [INFO] 
 =======================================================
-2026-08-24 08:45:07,458 [INFO]   Run started: 2026-08-24 08:45:07
-2026-08-24 08:45:07,458 [INFO] =======================================================
-2026-08-24 08:45:07,458 [INFO] Previously applied: 255 jobs
-2026-08-24 08:45:07,459 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-08-24 08:45:07,459 [INFO] ====== WebDriver manager ======
-2026-08-24 08:45:08,817 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-24 08:45:08,874 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-24 08:45:08,903 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-24 08:45:08,903 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-24 08:45:09,030 [INFO] WebDriver version 151.0.7922.138 selected
-2026-08-24 08:45:09,036 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-24 08:45:09,036 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-24 08:45:09,123 [INFO] Driver downloading response is 200
-2026-08-24 08:45:09,292 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
-2026-08-24 08:45:13,696 [INFO]   Trying cookie login...
-2026-08-24 08:45:19,448 [INFO]   Loading 34 cookies...
-2026-08-24 08:45:23,654 [INFO]   ✅ Cookie login successful!
-2026-08-24 08:45:23,654 [INFO] 
+2026-08-24 12:45:39,344 [INFO]   Run started: 2026-08-24 12:45:39
+2026-08-24 12:45:39,344 [INFO] =======================================================
+2026-08-24 12:45:39,345 [INFO] Previously applied: 258 jobs
+2026-08-24 12:45:39,345 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-08-24 12:45:39,345 [INFO] ====== WebDriver manager ======
+2026-08-24 12:45:41,797 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 12:45:41,831 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-24 12:45:41,861 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-24 12:45:41,861 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-24 12:45:41,947 [INFO] WebDriver version 151.0.7922.138 selected
+2026-08-24 12:45:41,951 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-24 12:45:41,951 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-24 12:45:42,014 [INFO] Driver downloading response is 200
+2026-08-24 12:45:42,239 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
+2026-08-24 12:45:51,817 [INFO]   Trying cookie login...
+2026-08-24 12:45:56,755 [INFO]   Loading 34 cookies...
+2026-08-24 12:46:00,891 [INFO]   ✅ Cookie login successful!
+2026-08-24 12:46:00,892 [INFO] 
 ───────────────────────────────────────────────────────
-2026-08-24 08:45:23,654 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-08-24 08:45:23,654 [INFO] ───────────────────────────────────────────────────────
-2026-08-24 08:45:23,654 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-08-24 08:46:30,713 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-08-24 08:46:36,292 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-08-24 08:46:38,662 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-08-24 08:46:41,685 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-08-24 08:46:44,719 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-08-24 08:46:44,720 [INFO] 
+2026-08-24 12:46:00,892 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-08-24 12:46:00,892 [INFO] ───────────────────────────────────────────────────────
+2026-08-24 12:46:00,892 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-08-24 12:47:06,731 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-08-24 12:47:12,270 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-08-24 12:47:14,614 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-08-24 12:47:17,631 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-08-24 12:47:20,658 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-08-24 12:47:20,658 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-24 08:46:44,720 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-08-24 08:46:44,720 [INFO] ███████████████████████████████████████████████████████
-2026-08-24 08:47:46,020 [INFO]   [S0-HYD] Java Developer: 6 listings
-2026-08-24 08:47:46,038 [INFO]   [S0-HYD] Checking: Software Engineer
-2026-08-24 08:48:43,409 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-24 08:48:43,721 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-24 08:48:43,722 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-08-24 08:48:43,722 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-08-24 08:48:43,722 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-08-24 08:48:43,777 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-24 08:48:43,777 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-08-24 08:49:39,950 [INFO]   Clicked Apply: Software Engineer
-2026-08-24 08:51:53,421 [INFO]   ✅ Applied: Software Engineer
-2026-08-24 08:51:55,496 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
-2026-08-24 08:51:55,496 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 08:51:55,509 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 08:52:52,794 [INFO]   [location] ✅ Hyderabad
-2026-08-24 08:52:52,986 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-24 08:52:52,986 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-08-24 08:52:52,986 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-08-24 08:52:52,986 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-08-24 08:52:53,043 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-24 08:52:53,043 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-08-24 08:54:20,736 [INFO]   Clicked Apply: Walk-in || Trainee Technology - IT Interns
-2026-08-24 08:57:00,480 [INFO]   ✅ Applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 08:57:02,566 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-24 08:57:02,566 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 08:57:02,579 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 08:57:02,579 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 08:57:02,591 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 08:57:02,591 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 08:58:18,462 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-08-24 08:59:19,933 [INFO]   [S0-HYD] Python Developer: 4 listings
-2026-08-24 08:59:19,947 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 08:59:19,947 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 08:59:19,959 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-24 08:59:19,959 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 08:59:19,972 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 08:59:19,972 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 08:59:19,984 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 08:59:19,984 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:00:35,807 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-08-24 09:01:36,732 [INFO]   [S0-HYD] SQL Developer: 2 listings
-2026-08-24 09:01:36,746 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
-2026-08-24 09:01:36,746 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:01:36,760 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:01:36,760 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:02:52,585 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-08-24 09:03:53,655 [INFO]   [S0-HYD] Software Engineer: 6 listings
-2026-08-24 09:03:53,670 [INFO]   [S0-HYD] Checking: Software Developer
-2026-08-24 09:04:50,986 [INFO]   [location] ✅ Hyderabad
-2026-08-24 09:04:51,150 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-24 09:04:51,150 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-08-24 09:04:51,150 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-08-24 09:04:51,150 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-08-24 09:04:51,202 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-24 09:04:51,202 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-08-24 09:05:47,416 [INFO]   Clicked Apply: Software Developer
-2026-08-24 09:08:00,881 [INFO]   ✅ Applied: Software Developer
-2026-08-24 09:08:02,957 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
-2026-08-24 09:08:02,957 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:08:02,971 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:08:02,971 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:08:02,985 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-24 09:08:02,985 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 09:08:02,999 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 09:08:02,999 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 09:08:03,013 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:08:03,013 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:09:18,789 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-08-24 09:10:19,878 [INFO]   [S0-HYD] Associate Software Engineer: 5 listings
-2026-08-24 09:10:19,892 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
-2026-08-24 09:10:19,892 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:10:19,905 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:10:19,906 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:10:19,919 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-24 09:10:19,919 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 09:10:19,932 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 09:10:19,933 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 09:10:19,945 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:10:19,946 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:11:35,692 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-08-24 09:12:36,717 [INFO]   [S0-HYD] Data Analyst: 5 listings
-2026-08-24 09:12:36,733 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:12:36,733 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:12:36,747 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:12:36,747 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:12:36,760 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
-2026-08-24 09:12:36,760 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:12:36,774 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-24 09:12:36,774 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 09:12:36,787 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 09:12:36,787 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 09:13:52,493 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-08-24 09:14:53,833 [INFO]   [S0-HYD] AI ML Engineer: 5 listings
-2026-08-24 09:14:53,847 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
-2026-08-24 09:14:53,847 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:14:53,860 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:14:53,860 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:14:53,874 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-24 09:14:53,874 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 09:14:53,887 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 09:14:53,887 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 09:14:53,900 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:14:53,900 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:16:09,898 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-08-24 09:17:11,024 [INFO]   [S0-HYD] Machine Learning Engineer: 5 listings
-2026-08-24 09:17:11,039 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
-2026-08-24 09:17:11,039 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:17:11,053 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:17:11,053 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:17:11,066 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-24 09:17:11,066 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 09:17:11,079 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 09:17:11,079 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 09:17:11,092 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:17:11,092 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:18:26,846 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-08-24 09:19:43,187 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-08-24 09:20:58,988 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-08-24 09:22:15,239 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-08-24 09:23:30,993 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-08-24 09:24:47,320 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-08-24 09:26:03,118 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-08-24 09:27:19,333 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-08-24 09:28:35,158 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-08-24 09:29:51,427 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-08-24 09:31:07,207 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-08-24 09:32:24,867 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-08-24 09:33:40,694 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-08-24 09:33:40,694 [INFO] 
+2026-08-24 12:47:20,658 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-08-24 12:47:20,658 [INFO] ███████████████████████████████████████████████████████
+2026-08-24 12:48:22,189 [INFO]   [S0-HYD] Java Developer: 6 listings
+2026-08-24 12:48:22,203 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
+2026-08-24 12:48:22,203 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 12:48:22,213 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 12:48:22,213 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 12:48:22,222 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-24 12:48:22,222 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 12:48:22,232 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 12:48:22,232 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 12:48:22,242 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 12:48:22,242 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 12:48:22,251 [INFO]   [S0-HYD] Checking: Data Analyst
+2026-08-24 12:49:19,709 [INFO]   [location] ✅ Hyderabad, Pune, Bengaluru
+2026-08-24 12:49:19,942 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-24 12:49:19,943 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-08-24 12:49:19,943 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-08-24 12:49:19,943 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-08-24 12:49:19,985 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-24 12:49:19,985 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-08-24 12:50:16,216 [INFO]   Clicked Apply: Data Analyst
+2026-08-24 12:52:29,297 [INFO]   ✅ Applied: Data Analyst
+2026-08-24 12:53:47,340 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-08-24 12:54:48,795 [INFO]   [S0-HYD] Python Developer: 5 listings
+2026-08-24 12:54:48,809 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-08-24 12:54:48,809 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 12:54:48,819 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 12:54:48,819 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 12:54:48,829 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-24 12:54:48,829 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 12:54:48,838 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 12:54:48,838 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 12:54:48,848 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 12:54:48,848 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 12:56:04,787 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-08-24 12:57:06,546 [INFO]   [S0-HYD] SQL Developer: 3 listings
+2026-08-24 12:57:06,556 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
+2026-08-24 12:57:06,556 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 12:57:06,566 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-08-24 12:57:06,566 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 12:57:06,576 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 12:57:06,576 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 12:58:22,525 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-08-24 12:59:23,904 [INFO]   [S0-HYD] Software Engineer: 6 listings
+2026-08-24 12:59:23,914 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
+2026-08-24 12:59:23,914 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 12:59:23,924 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-08-24 12:59:23,924 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 12:59:23,933 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 12:59:23,933 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 12:59:23,943 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-24 12:59:23,943 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 12:59:23,952 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 12:59:23,953 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 12:59:23,962 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 12:59:23,963 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:00:39,960 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-08-24 13:01:41,428 [INFO]   [S0-HYD] Associate Software Engineer: 6 listings
+2026-08-24 13:01:41,439 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
+2026-08-24 13:01:41,439 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 13:01:41,448 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-08-24 13:01:41,448 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 13:01:41,458 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:01:41,458 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:01:41,467 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-24 13:01:41,467 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 13:01:41,477 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 13:01:41,477 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 13:01:41,486 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 13:01:41,487 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:02:57,591 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-08-24 13:03:59,406 [INFO]   [S0-HYD] Data Analyst: 6 listings
+2026-08-24 13:03:59,417 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 13:03:59,417 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:03:59,426 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:03:59,426 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:03:59,436 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
+2026-08-24 13:03:59,436 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 13:03:59,445 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-08-24 13:03:59,445 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 13:03:59,455 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-24 13:03:59,455 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 13:03:59,464 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 13:03:59,464 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 13:05:15,961 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-08-24 13:06:17,956 [INFO]   [S0-HYD] AI ML Engineer: 6 listings
+2026-08-24 13:06:17,967 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
+2026-08-24 13:06:17,967 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 13:06:17,977 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-08-24 13:06:17,977 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 13:06:17,986 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:06:17,986 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:06:17,996 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-24 13:06:17,996 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 13:06:18,006 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 13:06:18,006 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 13:06:18,015 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 13:06:18,015 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:07:33,958 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-08-24 13:08:35,178 [INFO]   [S0-HYD] Machine Learning Engineer: 6 listings
+2026-08-24 13:08:35,188 [INFO]   [S0-HYD] Checking: AI / Full Stack Intern
+2026-08-24 13:08:35,188 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 13:08:35,198 [INFO]   [S0-HYD] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:08:35,198 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:08:35,207 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-08-24 13:08:35,208 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 13:08:35,217 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-24 13:08:35,217 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 13:08:35,226 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 13:08:35,226 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 13:08:35,236 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 13:08:35,236 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:09:51,244 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-08-24 13:11:07,631 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-08-24 13:12:23,644 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-08-24 13:13:40,001 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-08-24 13:14:56,572 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-08-24 13:16:12,949 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-08-24 13:17:29,035 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-08-24 13:18:46,204 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-08-24 13:20:02,465 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-08-24 13:21:18,749 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-08-24 13:22:34,763 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-08-24 13:23:51,248 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-08-24 13:25:07,238 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-08-24 13:25:07,238 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-24 09:33:40,694 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-08-24 09:33:40,694 [INFO] ███████████████████████████████████████████████████████
-2026-08-24 09:34:42,149 [INFO]   [S1] Java Developer: 5 listings
-2026-08-24 09:34:42,167 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-24 09:34:42,168 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:34:42,179 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:34:42,179 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:34:42,191 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-24 09:34:42,191 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 09:34:42,203 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 09:34:42,203 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 09:34:42,216 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:34:42,216 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:35:43,372 [INFO]   [S1] Python Developer: 4 listings
-2026-08-24 09:35:43,386 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:35:43,386 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:35:43,398 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-24 09:35:43,398 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 09:35:43,409 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 09:35:43,410 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 09:35:43,421 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:35:43,421 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:36:44,438 [INFO]   [S1] SQL Developer: 2 listings
-2026-08-24 09:36:44,451 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-24 09:36:44,451 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:36:44,463 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:36:44,463 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:37:45,801 [INFO]   [S1] Software Engineer: 5 listings
-2026-08-24 09:37:45,815 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-24 09:37:45,815 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:37:45,828 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:37:45,828 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:37:45,840 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-24 09:37:45,840 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 09:37:45,852 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 09:37:45,852 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 09:37:45,865 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:37:45,865 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:38:46,886 [INFO]   [S1] Associate Software Engineer: 5 listings
-2026-08-24 09:38:46,899 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-24 09:38:46,900 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:38:46,912 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:38:46,913 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:38:46,925 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-24 09:38:46,925 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 09:38:46,938 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 09:38:46,938 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 09:38:46,951 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:38:46,951 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:39:47,931 [INFO]   [S1] Data Analyst: 7 listings
-2026-08-24 09:39:47,944 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:39:47,944 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:39:47,959 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:39:47,959 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:39:47,971 [INFO]   [S1] Checking: Walk-in || Audit Executive
-2026-08-24 09:39:47,971 [INFO]   [filter] No skill match: Walk-in || Audit Executive
-2026-08-24 09:39:47,984 [INFO]   [S1] Checking: Quant Analyst Trainee / Intern
-2026-08-24 09:39:47,984 [INFO]   [filter] No skill match: Quant Analyst Trainee / Intern
-2026-08-24 09:39:47,997 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-24 09:39:47,997 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:39:48,009 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-24 09:39:48,009 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 09:39:48,021 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 09:39:48,021 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 09:40:49,578 [INFO]   [S1] AI ML Engineer: 5 listings
-2026-08-24 09:40:49,593 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-24 09:40:49,593 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:40:49,606 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:40:49,606 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:40:49,619 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-24 09:40:49,619 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 09:40:49,632 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 09:40:49,633 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 09:40:49,645 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:40:49,645 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:41:50,679 [INFO]   [S1] Machine Learning Engineer: 5 listings
-2026-08-24 09:41:50,692 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-24 09:41:50,692 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-24 09:41:50,705 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:41:50,705 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-24 09:41:50,717 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-24 09:41:50,717 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-24 09:41:50,729 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-24 09:41:50,729 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-24 09:41:50,741 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-24 09:41:50,741 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-24 09:41:50,741 [INFO] 
+2026-08-24 13:25:07,238 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-08-24 13:25:07,238 [INFO] ███████████████████████████████████████████████████████
+2026-08-24 13:26:08,656 [INFO]   [S1] Java Developer: 6 listings
+2026-08-24 13:26:08,671 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-24 13:26:08,671 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 13:26:08,682 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:26:08,682 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:26:08,692 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-24 13:26:08,692 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 13:26:08,701 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 13:26:08,701 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 13:26:08,711 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 13:26:08,711 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:26:08,721 [INFO]   [S1] Checking: AI Product Manager GenAI & Automation
+2026-08-24 13:26:08,721 [INFO]   [filter] Excluded 'manager': AI Product Manager GenAI & Automation
+2026-08-24 13:27:09,914 [INFO]   [S1] Python Developer: 6 listings
+2026-08-24 13:27:09,924 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-24 13:27:09,925 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 13:27:09,934 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:27:09,934 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:27:09,944 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-24 13:27:09,944 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 13:27:09,954 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 13:27:09,954 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 13:27:09,963 [INFO]   [S1] Checking: AI Product Manager GenAI & Automation
+2026-08-24 13:27:09,963 [INFO]   [filter] Excluded 'manager': AI Product Manager GenAI & Automation
+2026-08-24 13:27:09,973 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 13:27:09,973 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:28:11,397 [INFO]   [S1] SQL Developer: 3 listings
+2026-08-24 13:28:11,408 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-24 13:28:11,408 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 13:28:11,418 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-24 13:28:11,418 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 13:28:11,428 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 13:28:11,428 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:29:12,851 [INFO]   [S1] Software Engineer: 7 listings
+2026-08-24 13:29:12,862 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-24 13:29:12,862 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 13:29:12,871 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-24 13:29:12,871 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 13:29:12,881 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:29:12,881 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:29:12,890 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-24 13:29:12,890 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 13:29:12,900 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 13:29:12,900 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 13:29:12,909 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 13:29:12,910 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:29:12,922 [INFO]   [S1] Checking: AI Product Manager GenAI & Automation
+2026-08-24 13:29:12,922 [INFO]   [filter] Excluded 'manager': AI Product Manager GenAI & Automation
+2026-08-24 13:30:14,409 [INFO]   [S1] Associate Software Engineer: 7 listings
+2026-08-24 13:30:14,419 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-24 13:30:14,419 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 13:30:14,429 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-24 13:30:14,429 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 13:30:14,439 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:30:14,439 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:30:14,448 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-24 13:30:14,449 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 13:30:14,458 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 13:30:14,458 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 13:30:14,468 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 13:30:14,469 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:30:14,478 [INFO]   [S1] Checking: AI Product Manager GenAI & Automation
+2026-08-24 13:30:14,478 [INFO]   [filter] Excluded 'manager': AI Product Manager GenAI & Automation
+2026-08-24 13:31:15,828 [INFO]   [S1] Data Analyst: 9 listings
+2026-08-24 13:31:15,838 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 13:31:15,839 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:31:15,848 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:31:15,848 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:31:15,857 [INFO]   [S1] Checking: Walk-in || Audit Executive
+2026-08-24 13:31:15,857 [INFO]   [filter] No skill match: Walk-in || Audit Executive
+2026-08-24 13:31:15,867 [INFO]   [S1] Checking: Quant Analyst Trainee / Intern
+2026-08-24 13:31:15,867 [INFO]   [filter] No skill match: Quant Analyst Trainee / Intern
+2026-08-24 13:31:15,877 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-24 13:31:15,877 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 13:31:15,887 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-24 13:31:15,887 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 13:31:15,896 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-24 13:31:15,896 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 13:31:15,907 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 13:31:15,907 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 13:31:15,916 [INFO]   [S1] Checking: AI Product Manager GenAI & Automation
+2026-08-24 13:31:15,916 [INFO]   [filter] Excluded 'manager': AI Product Manager GenAI & Automation
+2026-08-24 13:32:17,422 [INFO]   [S1] AI ML Engineer: 7 listings
+2026-08-24 13:32:17,433 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-24 13:32:17,433 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 13:32:17,443 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-24 13:32:17,443 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 13:32:17,453 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:32:17,453 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:32:17,463 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-24 13:32:17,463 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 13:32:17,473 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 13:32:17,473 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 13:32:17,485 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 13:32:17,485 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:32:17,495 [INFO]   [S1] Checking: AI Product Manager GenAI & Automation
+2026-08-24 13:32:17,496 [INFO]   [filter] Excluded 'manager': AI Product Manager GenAI & Automation
+2026-08-24 13:33:18,887 [INFO]   [S1] Machine Learning Engineer: 7 listings
+2026-08-24 13:33:18,897 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-24 13:33:18,897 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-24 13:33:18,907 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:33:18,907 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-24 13:33:18,916 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-24 13:33:18,916 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-24 13:33:18,926 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-24 13:33:18,926 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-24 13:33:18,935 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-24 13:33:18,936 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-24 13:33:18,945 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-24 13:33:18,945 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-24 13:33:18,955 [INFO]   [S1] Checking: AI Product Manager GenAI & Automation
+2026-08-24 13:33:18,955 [INFO]   [filter] Excluded 'manager': AI Product Manager GenAI & Automation
+2026-08-24 13:33:18,955 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-24 09:41:50,741 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-08-24 09:41:50,741 [INFO] ███████████████████████████████████████████████████████
-2026-08-24 09:57:04,309 [INFO] 
+2026-08-24 13:33:18,955 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-08-24 13:33:18,955 [INFO] ███████████████████████████████████████████████████████
+2026-08-24 13:48:33,207 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-24 09:57:04,309 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-08-24 09:57:04,309 [INFO] ███████████████████████████████████████████████████████
-2026-08-24 09:58:20,130 [INFO]   [S3] Java Developer: 0 listings
-2026-08-24 09:59:35,939 [INFO]   [S3] Python Developer: 0 listings
-2026-08-24 10:00:51,700 [INFO]   [S3] SQL Developer: 0 listings
-2026-08-24 10:02:07,489 [INFO]   [S3] Software Engineer: 0 listings
-2026-08-24 10:03:23,294 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-08-24 10:04:39,053 [INFO]   [S3] Data Analyst: 0 listings
-2026-08-24 10:05:54,980 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-08-24 10:07:10,786 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-08-24 10:07:10,786 [INFO] 
+2026-08-24 13:48:33,207 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-08-24 13:48:33,207 [INFO] ███████████████████████████████████████████████████████
+2026-08-24 13:49:49,316 [INFO]   [S3] Java Developer: 0 listings
+2026-08-24 13:51:05,345 [INFO]   [S3] Python Developer: 0 listings
+2026-08-24 13:52:21,330 [INFO]   [S3] SQL Developer: 0 listings
+2026-08-24 13:53:37,468 [INFO]   [S3] Software Engineer: 0 listings
+2026-08-24 13:54:53,492 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-08-24 13:56:09,480 [INFO]   [S3] Data Analyst: 0 listings
+2026-08-24 13:57:25,534 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-08-24 13:58:41,570 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-08-24 13:58:41,570 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-24 10:07:10,786 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-08-24 10:07:10,786 [INFO] ███████████████████████████████████████████████████████
-2026-08-24 10:22:20,912 [INFO] 
+2026-08-24 13:58:41,570 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-08-24 13:58:41,570 [INFO] ███████████████████████████████████████████████████████
+2026-08-24 14:13:53,819 [INFO] 
 =======================================================
-2026-08-24 10:22:20,912 [INFO]   Run complete — Applied this session : 3
-2026-08-24 10:22:20,912 [INFO]   Total ever applied                  : 258
-2026-08-24 10:22:20,912 [INFO] =======================================================
+2026-08-24 14:13:53,819 [INFO]   Run complete — Applied this session : 1
+2026-08-24 14:13:53,819 [INFO]   Total ever applied                  : 259
+2026-08-24 14:13:53,819 [INFO] =======================================================

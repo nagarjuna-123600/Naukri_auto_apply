@@ -1,425 +1,441 @@
-2026-08-26 04:37:08,761 [INFO] GitHub Actions — single run mode
-2026-08-26 04:37:08,761 [INFO] 
+2026-08-26 08:40:41,575 [INFO] GitHub Actions — single run mode
+2026-08-26 08:40:41,575 [INFO] 
 =======================================================
-2026-08-26 04:37:08,761 [INFO]   Run started: 2026-08-26 04:37:08
-2026-08-26 04:37:08,761 [INFO] =======================================================
-2026-08-26 04:37:08,762 [INFO] Previously applied: 261 jobs
-2026-08-26 04:37:08,762 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-08-26 04:37:08,763 [INFO] ====== WebDriver manager ======
-2026-08-26 04:37:10,639 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-26 04:37:10,681 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-26 04:37:10,715 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-26 04:37:10,715 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-26 04:37:10,827 [INFO] WebDriver version 151.0.7922.138 selected
-2026-08-26 04:37:10,835 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-26 04:37:10,835 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-26 04:37:10,894 [INFO] Driver downloading response is 200
-2026-08-26 04:37:11,111 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
-2026-08-26 04:37:16,780 [INFO]   Trying cookie login...
-2026-08-26 04:37:22,250 [INFO]   Loading 34 cookies...
-2026-08-26 04:37:26,424 [INFO]   ✅ Cookie login successful!
-2026-08-26 04:37:26,424 [INFO] 
+2026-08-26 08:40:41,575 [INFO]   Run started: 2026-08-26 08:40:41
+2026-08-26 08:40:41,575 [INFO] =======================================================
+2026-08-26 08:40:41,576 [INFO] Previously applied: 262 jobs
+2026-08-26 08:40:41,577 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-08-26 08:40:41,577 [INFO] ====== WebDriver manager ======
+2026-08-26 08:40:45,801 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-26 08:40:45,841 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-26 08:40:45,873 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-26 08:40:45,873 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-26 08:40:45,972 [INFO] WebDriver version 151.0.7922.138 selected
+2026-08-26 08:40:45,976 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-26 08:40:45,977 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-26 08:40:46,035 [INFO] Driver downloading response is 200
+2026-08-26 08:40:46,264 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
+2026-08-26 08:41:05,344 [INFO]   Trying cookie login...
+2026-08-26 08:41:11,868 [INFO]   Loading 34 cookies...
+2026-08-26 08:41:16,072 [INFO]   ✅ Cookie login successful!
+2026-08-26 08:41:16,072 [INFO] 
 ───────────────────────────────────────────────────────
-2026-08-26 04:37:26,424 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-08-26 04:37:26,424 [INFO] ───────────────────────────────────────────────────────
-2026-08-26 04:37:26,424 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-08-26 04:38:33,191 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-08-26 04:38:38,747 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-08-26 04:38:41,108 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-08-26 04:38:44,130 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-08-26 04:38:47,165 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-08-26 04:38:47,165 [INFO] 
+2026-08-26 08:41:16,073 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-08-26 08:41:16,073 [INFO] ───────────────────────────────────────────────────────
+2026-08-26 08:41:16,073 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-08-26 08:42:23,169 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-08-26 08:42:28,707 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-08-26 08:42:31,063 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-08-26 08:42:34,084 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-08-26 08:42:37,116 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-08-26 08:42:37,116 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-26 04:38:47,165 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-08-26 04:38:47,165 [INFO] ███████████████████████████████████████████████████████
-2026-08-26 04:39:48,552 [INFO]   [S0-HYD] Java Developer: 6 listings
-2026-08-26 04:39:48,574 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 04:40:45,914 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 04:40:46,035 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 04:40:46,112 [INFO]   [S0-HYD] Checking: Software Engineer
-2026-08-26 04:41:43,659 [INFO]   [location] ✅ Hyderabad
-2026-08-26 04:41:43,928 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-26 04:41:43,928 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-08-26 04:41:43,928 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-08-26 04:41:43,929 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-08-26 04:41:43,970 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-26 04:41:43,970 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-08-26 04:42:40,291 [INFO]   Clicked Apply: Software Engineer
-2026-08-26 04:45:20,560 [INFO]   ✅ Applied: Software Engineer
-2026-08-26 04:45:22,637 [INFO]   [S0-HYD] Checking: Engineer - Camera Systems (3A)
-2026-08-26 04:45:22,638 [INFO]   [filter] No skill match: Engineer - Camera Systems (3A)
-2026-08-26 04:45:22,656 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-26 04:45:22,656 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 04:45:22,672 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 04:45:22,672 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 04:45:22,688 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 04:45:22,688 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 04:46:38,687 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-08-26 04:47:39,957 [INFO]   [S0-HYD] Python Developer: 5 listings
-2026-08-26 04:47:39,973 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 04:48:37,392 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 04:48:37,501 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 04:48:37,573 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 04:48:37,573 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 04:48:37,589 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-26 04:48:37,590 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 04:48:37,606 [INFO]   [S0-HYD] Checking: Software Engineer
-2026-08-26 04:48:37,606 [INFO]   Already applied: Software Engineer
-2026-08-26 04:48:37,622 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 04:48:37,622 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 04:49:53,552 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-08-26 04:50:54,882 [INFO]   [S0-HYD] SQL Developer: 6 listings
-2026-08-26 04:50:54,897 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 04:51:52,371 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 04:51:52,487 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 04:51:52,558 [INFO]   [S0-HYD] Checking: Engineer - Camera Systems (3A)
-2026-08-26 04:51:52,558 [INFO]   [filter] No skill match: Engineer - Camera Systems (3A)
-2026-08-26 04:51:52,574 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 04:51:52,574 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 04:51:52,591 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-26 04:51:52,591 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 04:51:52,610 [INFO]   [S0-HYD] Checking: Software Engineer
-2026-08-26 04:51:52,610 [INFO]   Already applied: Software Engineer
-2026-08-26 04:51:52,628 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 04:51:52,628 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 04:53:08,542 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-08-26 04:54:09,455 [INFO]   [S0-HYD] Software Engineer: 10 listings
-2026-08-26 04:54:09,471 [INFO]   [S0-HYD] Checking: Software Engineer
-2026-08-26 04:54:09,471 [INFO]   Already applied: Software Engineer
-2026-08-26 04:54:09,487 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 04:54:09,487 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 04:54:09,504 [INFO]   [S0-HYD] Checking: Engineer
-2026-08-26 04:54:09,504 [INFO]   [filter] No skill match: Engineer
-2026-08-26 04:54:09,519 [INFO]   [S0-HYD] Checking: Engineer
-2026-08-26 04:54:09,520 [INFO]   [filter] No skill match: Engineer
-2026-08-26 04:54:09,536 [INFO]   [S0-HYD] Checking: Engineer
-2026-08-26 04:54:09,536 [INFO]   [filter] No skill match: Engineer
-2026-08-26 04:54:09,552 [INFO]   [S0-HYD] Checking: Engineer - Camera Systems (3A)
-2026-08-26 04:54:09,552 [INFO]   [filter] No skill match: Engineer - Camera Systems (3A)
-2026-08-26 04:54:09,568 [INFO]   [S0-HYD] Checking: Unity Digital Twin Developer
-2026-08-26 04:54:09,568 [INFO]   [filter] No skill match: Unity Digital Twin Developer
-2026-08-26 04:54:09,584 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 04:55:06,991 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 04:55:07,113 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 04:55:07,207 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-26 04:55:07,207 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 04:55:07,223 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 04:55:07,223 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 04:56:23,077 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-08-26 04:57:24,352 [INFO]   [S0-HYD] Associate Software Engineer: 6 listings
-2026-08-26 04:57:24,368 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 04:58:21,831 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 04:58:21,952 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 04:58:22,037 [INFO]   [S0-HYD] Checking: Engineer - Camera Systems (3A)
-2026-08-26 04:58:22,037 [INFO]   [filter] No skill match: Engineer - Camera Systems (3A)
-2026-08-26 04:58:22,055 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 04:58:22,055 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 04:58:22,075 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-26 04:58:22,075 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 04:58:22,093 [INFO]   [S0-HYD] Checking: Software Engineer
-2026-08-26 04:58:22,093 [INFO]   Already applied: Software Engineer
-2026-08-26 04:58:22,110 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 04:58:22,110 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 04:59:38,092 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-08-26 05:00:39,400 [INFO]   [S0-HYD] Data Analyst: 11 listings
-2026-08-26 05:00:39,417 [INFO]   [S0-HYD] Checking: Interim Intern_Oneit
-2026-08-26 05:00:39,417 [INFO]   [filter] No skill match: Interim Intern_Oneit
-2026-08-26 05:00:39,431 [INFO]   [S0-HYD] Checking: Relationship Manager - CAT - Loyalty
-2026-08-26 05:00:39,431 [INFO]   [filter] Excluded 'manager': Relationship Manager - CAT - Loyalty
-2026-08-26 05:00:39,447 [INFO]   [S0-HYD] Checking: Walk-in || PE - Fresher Mapping Role
-2026-08-26 05:00:39,447 [INFO]   [filter] No skill match: Walk-in || PE - Fresher Mapping Role
-2026-08-26 05:00:39,461 [INFO]   [S0-HYD] Checking: AI in Pharma Trainer / Faculty
-2026-08-26 05:00:39,461 [INFO]   [filter] Excluded 'trainer': AI in Pharma Trainer / Faculty
-2026-08-26 05:00:39,477 [INFO]   [S0-HYD] Checking: Walk-in || Chemist Trainee
-2026-08-26 05:00:39,477 [INFO]   [filter] No skill match: Walk-in || Chemist Trainee
-2026-08-26 05:00:39,491 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:01:36,967 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 05:01:37,089 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:01:37,160 [INFO]   [S0-HYD] Checking: Engineer - Camera Systems (3A)
-2026-08-26 05:01:37,160 [INFO]   [filter] No skill match: Engineer - Camera Systems (3A)
-2026-08-26 05:01:37,177 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:01:37,178 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:01:37,193 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-26 05:01:37,194 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 05:01:37,210 [INFO]   [S0-HYD] Checking: Software Engineer
-2026-08-26 05:01:37,210 [INFO]   Already applied: Software Engineer
-2026-08-26 05:01:37,227 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:01:37,227 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:02:53,135 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-08-26 05:03:54,394 [INFO]   [S0-HYD] AI ML Engineer: 6 listings
-2026-08-26 05:03:54,408 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:03:54,408 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:03:54,421 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:04:51,796 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 05:04:51,907 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:04:51,977 [INFO]   [S0-HYD] Checking: Engineer - Camera Systems (3A)
-2026-08-26 05:04:51,978 [INFO]   [filter] No skill match: Engineer - Camera Systems (3A)
-2026-08-26 05:04:51,993 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-26 05:04:51,994 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 05:04:52,009 [INFO]   [S0-HYD] Checking: Software Engineer
-2026-08-26 05:04:52,009 [INFO]   Already applied: Software Engineer
-2026-08-26 05:04:52,024 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:04:52,025 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:06:07,853 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-08-26 05:07:08,961 [INFO]   [S0-HYD] Machine Learning Engineer: 6 listings
-2026-08-26 05:07:08,977 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:08:06,383 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 05:08:06,492 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:08:06,562 [INFO]   [S0-HYD] Checking: Engineer - Camera Systems (3A)
-2026-08-26 05:08:06,562 [INFO]   [filter] No skill match: Engineer - Camera Systems (3A)
-2026-08-26 05:08:06,577 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:08:06,577 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:08:06,593 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-26 05:08:06,594 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 05:08:06,609 [INFO]   [S0-HYD] Checking: Software Engineer
-2026-08-26 05:08:06,609 [INFO]   Already applied: Software Engineer
-2026-08-26 05:08:06,625 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:08:06,626 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:09:22,330 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-08-26 05:10:38,441 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-08-26 05:11:54,326 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-08-26 05:13:11,132 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-08-26 05:14:26,989 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-08-26 05:15:43,171 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-08-26 05:16:59,059 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-08-26 05:18:15,406 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-08-26 05:19:31,388 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-08-26 05:20:47,660 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-08-26 05:22:04,021 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-08-26 05:23:20,187 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-08-26 05:24:36,104 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-08-26 05:24:36,104 [INFO] 
+2026-08-26 08:42:37,116 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-08-26 08:42:37,116 [INFO] ███████████████████████████████████████████████████████
+2026-08-26 08:43:38,916 [INFO]   [S0-HYD] Java Developer: 6 listings
+2026-08-26 08:43:38,935 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 08:44:36,445 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 08:44:36,553 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 08:44:36,659 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-08-26 08:44:36,659 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 08:44:36,674 [INFO]   [S0-HYD] Checking: Software Engineer
+2026-08-26 08:44:36,674 [INFO]   Already applied: Software Engineer
+2026-08-26 08:44:36,690 [INFO]   [S0-HYD] Checking: Data Engineer
+2026-08-26 08:44:36,690 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 08:44:36,705 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 08:44:36,705 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 08:44:36,719 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 08:44:36,719 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 08:45:52,605 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-08-26 08:46:53,760 [INFO]   [S0-HYD] Python Developer: 6 listings
+2026-08-26 08:46:53,774 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 08:47:51,313 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 08:47:51,429 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 08:47:51,516 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-08-26 08:47:51,516 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 08:47:51,532 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 08:47:51,532 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 08:47:51,546 [INFO]   [S0-HYD] Checking: Data Engineer
+2026-08-26 08:47:51,546 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 08:47:51,561 [INFO]   [S0-HYD] Checking: Software Engineer
+2026-08-26 08:47:51,561 [INFO]   Already applied: Software Engineer
+2026-08-26 08:47:51,576 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 08:47:51,576 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 08:49:07,563 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-08-26 08:50:08,717 [INFO]   [S0-HYD] SQL Developer: 6 listings
+2026-08-26 08:50:08,732 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-08-26 08:50:08,732 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 08:50:08,747 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 08:51:06,157 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 08:51:06,270 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 08:51:06,384 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 08:51:06,384 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 08:51:06,399 [INFO]   [S0-HYD] Checking: Data Engineer
+2026-08-26 08:51:06,400 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 08:51:06,414 [INFO]   [S0-HYD] Checking: Software Engineer
+2026-08-26 08:51:06,414 [INFO]   Already applied: Software Engineer
+2026-08-26 08:51:06,430 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 08:51:06,431 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 08:52:22,361 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-08-26 08:53:23,696 [INFO]   [S0-HYD] Software Engineer: 7 listings
+2026-08-26 08:53:23,710 [INFO]   [S0-HYD] Checking: Software Engineer
+2026-08-26 08:53:23,710 [INFO]   Already applied: Software Engineer
+2026-08-26 08:53:23,725 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 08:53:23,725 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 08:53:23,739 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-08-26 08:53:23,739 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 08:53:23,753 [INFO]   [S0-HYD] Checking: Unity Digital Twin Developer
+2026-08-26 08:53:23,753 [INFO]   [filter] No skill match: Unity Digital Twin Developer
+2026-08-26 08:53:23,767 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 08:54:21,231 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 08:54:21,337 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 08:54:21,407 [INFO]   [S0-HYD] Checking: Data Engineer
+2026-08-26 08:54:21,407 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 08:54:21,423 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 08:54:21,423 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 08:55:37,438 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-08-26 08:56:38,707 [INFO]   [S0-HYD] Associate Software Engineer: 6 listings
+2026-08-26 08:56:38,722 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-08-26 08:56:38,722 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 08:56:38,736 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 08:57:36,189 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 08:57:36,295 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 08:57:36,366 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 08:57:36,366 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 08:57:36,382 [INFO]   [S0-HYD] Checking: Data Engineer
+2026-08-26 08:57:36,382 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 08:57:36,397 [INFO]   [S0-HYD] Checking: Software Engineer
+2026-08-26 08:57:36,397 [INFO]   Already applied: Software Engineer
+2026-08-26 08:57:36,413 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 08:57:36,413 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 08:58:52,253 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-08-26 08:59:53,422 [INFO]   [S0-HYD] Data Analyst: 10 listings
+2026-08-26 08:59:53,437 [INFO]   [S0-HYD] Checking: Relationship Manager - CAT - Loyalty
+2026-08-26 08:59:53,437 [INFO]   [filter] Excluded 'manager': Relationship Manager - CAT - Loyalty
+2026-08-26 08:59:53,451 [INFO]   [S0-HYD] Checking: Walk-in || PE - Fresher Mapping Role
+2026-08-26 08:59:53,451 [INFO]   [filter] No skill match: Walk-in || PE - Fresher Mapping Role
+2026-08-26 08:59:53,465 [INFO]   [S0-HYD] Checking: AI in Pharma Trainer / Faculty
+2026-08-26 08:59:53,465 [INFO]   [filter] Excluded 'trainer': AI in Pharma Trainer / Faculty
+2026-08-26 08:59:53,478 [INFO]   [S0-HYD] Checking: Walk-in || Chemist Trainee
+2026-08-26 08:59:53,478 [INFO]   [filter] No skill match: Walk-in || Chemist Trainee
+2026-08-26 08:59:53,492 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-08-26 08:59:53,492 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 08:59:53,506 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:00:50,996 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 09:00:51,106 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:00:51,197 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:00:51,197 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:00:51,213 [INFO]   [S0-HYD] Checking: Data Engineer
+2026-08-26 09:00:51,213 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 09:00:51,228 [INFO]   [S0-HYD] Checking: Software Engineer
+2026-08-26 09:00:51,228 [INFO]   Already applied: Software Engineer
+2026-08-26 09:00:51,243 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:00:51,243 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:02:07,178 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-08-26 09:03:08,335 [INFO]   [S0-HYD] AI ML Engineer: 6 listings
+2026-08-26 09:03:08,350 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:03:08,350 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:03:08,364 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-08-26 09:03:08,364 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 09:03:08,378 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:04:05,819 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 09:04:05,930 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:04:06,021 [INFO]   [S0-HYD] Checking: Data Engineer
+2026-08-26 09:04:06,021 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 09:04:06,036 [INFO]   [S0-HYD] Checking: Software Engineer
+2026-08-26 09:04:06,036 [INFO]   Already applied: Software Engineer
+2026-08-26 09:04:06,051 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:04:06,051 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:05:22,139 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-08-26 09:06:23,378 [INFO]   [S0-HYD] Machine Learning Engineer: 6 listings
+2026-08-26 09:06:23,393 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-08-26 09:06:23,393 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 09:06:23,407 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:07:20,838 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 09:07:20,946 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:07:21,016 [INFO]   [S0-HYD] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:07:21,016 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:07:21,031 [INFO]   [S0-HYD] Checking: Data Engineer
+2026-08-26 09:07:21,031 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 09:07:21,047 [INFO]   [S0-HYD] Checking: Software Engineer
+2026-08-26 09:07:21,047 [INFO]   Already applied: Software Engineer
+2026-08-26 09:07:21,064 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:07:21,064 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:08:36,899 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-08-26 09:09:53,316 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-08-26 09:11:09,220 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-08-26 09:12:25,263 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-08-26 09:13:41,193 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-08-26 09:14:57,513 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-08-26 09:16:13,393 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-08-26 09:17:29,710 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-08-26 09:18:45,766 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-08-26 09:20:02,088 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-08-26 09:21:18,029 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-08-26 09:22:34,333 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-08-26 09:23:50,216 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-08-26 09:23:50,216 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-26 05:24:36,104 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-08-26 05:24:36,104 [INFO] ███████████████████████████████████████████████████████
-2026-08-26 05:25:37,274 [INFO]   [S1] Java Developer: 11 listings
-2026-08-26 05:25:37,293 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:26:34,720 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 05:26:34,835 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:26:34,907 [INFO]   [S1] Checking: Sap Consultant
-2026-08-26 05:26:34,907 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-26 05:26:34,924 [INFO]   [S1] Checking: Software Engineer
-2026-08-26 05:26:34,924 [INFO]   Already applied: Software Engineer
-2026-08-26 05:26:34,941 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-26 05:26:34,941 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-26 05:26:34,957 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:26:34,957 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:26:34,974 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-26 05:26:34,974 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-26 05:26:34,989 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-26 05:26:34,989 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-26 05:26:35,005 [INFO]   [S1] Checking: Data Engineer
-2026-08-26 05:26:35,005 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 05:26:35,021 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:26:35,021 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:26:35,036 [INFO]   [S1] Checking: AI Product Manager
-2026-08-26 05:26:35,036 [INFO]   [filter] Excluded 'manager': AI Product Manager
-2026-08-26 05:26:35,053 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:26:35,053 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:27:36,112 [INFO]   [S1] Python Developer: 11 listings
-2026-08-26 05:27:36,127 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:28:33,620 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 05:28:33,729 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:28:33,801 [INFO]   [S1] Checking: Sap Consultant
-2026-08-26 05:28:33,801 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-26 05:28:33,818 [INFO]   [S1] Checking: Housekeeping Associate
-2026-08-26 05:28:33,818 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-08-26 05:28:33,835 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:28:33,836 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:28:33,852 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-26 05:28:33,852 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-26 05:28:33,869 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-26 05:28:33,869 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-26 05:28:33,890 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:28:33,890 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:28:33,908 [INFO]   [S1] Checking: Data Engineer
-2026-08-26 05:28:33,908 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 05:28:33,924 [INFO]   [S1] Checking: Software Engineer
-2026-08-26 05:28:33,924 [INFO]   Already applied: Software Engineer
-2026-08-26 05:28:33,941 [INFO]   [S1] Checking: AI Product Manager
-2026-08-26 05:28:33,941 [INFO]   [filter] Excluded 'manager': AI Product Manager
-2026-08-26 05:28:33,961 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:28:33,961 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:29:35,300 [INFO]   [S1] SQL Developer: 8 listings
-2026-08-26 05:29:35,316 [INFO]   [S1] Checking: Sap Consultant
-2026-08-26 05:29:35,316 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-26 05:29:35,334 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:30:32,856 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 05:30:32,968 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:30:33,040 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-26 05:30:33,040 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-26 05:30:33,058 [INFO]   [S1] Checking: Housekeeping Associate
-2026-08-26 05:30:33,058 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-08-26 05:30:33,075 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:30:33,075 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:30:33,094 [INFO]   [S1] Checking: Data Engineer
-2026-08-26 05:30:33,094 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 05:30:33,113 [INFO]   [S1] Checking: Software Engineer
-2026-08-26 05:30:33,113 [INFO]   Already applied: Software Engineer
-2026-08-26 05:30:33,131 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:30:33,131 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:31:34,285 [INFO]   [S1] Software Engineer: 13 listings
-2026-08-26 05:31:34,299 [INFO]   [S1] Checking: Software Engineer
-2026-08-26 05:31:34,299 [INFO]   Already applied: Software Engineer
-2026-08-26 05:31:34,313 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:31:34,313 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:31:34,326 [INFO]   [S1] Checking: Sap Consultant
-2026-08-26 05:31:34,327 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-26 05:31:34,340 [INFO]   [S1] Checking: Unity Digital Twin Developer
-2026-08-26 05:31:34,340 [INFO]   [filter] No skill match: Unity Digital Twin Developer
-2026-08-26 05:31:34,354 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:32:31,705 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 05:32:31,816 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:32:31,906 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-26 05:32:31,906 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-26 05:32:31,921 [INFO]   [S1] Checking: Data Engineer
-2026-08-26 05:32:31,921 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 05:32:31,937 [INFO]   [S1] Checking: Housekeeping Associate
-2026-08-26 05:32:31,937 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-08-26 05:32:31,952 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:32:31,952 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:32:31,967 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-26 05:32:31,968 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-26 05:32:31,983 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-26 05:32:31,983 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-26 05:32:31,998 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:32:31,998 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:32:32,012 [INFO]   [S1] Checking: AI Product Manager
-2026-08-26 05:32:32,012 [INFO]   [filter] Excluded 'manager': AI Product Manager
-2026-08-26 05:33:33,131 [INFO]   [S1] Associate Software Engineer: 12 listings
-2026-08-26 05:33:33,147 [INFO]   [S1] Checking: Sap Consultant
-2026-08-26 05:33:33,147 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-26 05:33:33,160 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:34:30,514 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 05:34:30,627 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:34:30,720 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-26 05:34:30,720 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-26 05:34:30,736 [INFO]   [S1] Checking: Housekeeping Associate
-2026-08-26 05:34:30,736 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-08-26 05:34:30,751 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:34:30,751 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:34:30,768 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-26 05:34:30,768 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-26 05:34:30,784 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-26 05:34:30,784 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-26 05:34:30,801 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:34:30,801 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:34:30,817 [INFO]   [S1] Checking: Data Engineer
-2026-08-26 05:34:30,817 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 05:34:30,833 [INFO]   [S1] Checking: Software Engineer
-2026-08-26 05:34:30,833 [INFO]   Already applied: Software Engineer
-2026-08-26 05:34:30,848 [INFO]   [S1] Checking: AI Product Manager
-2026-08-26 05:34:30,848 [INFO]   [filter] Excluded 'manager': AI Product Manager
-2026-08-26 05:34:30,863 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:34:30,863 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:35:31,926 [INFO]   [S1] Data Analyst: 16 listings
-2026-08-26 05:35:31,940 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:35:31,940 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:35:31,953 [INFO]   [S1] Checking: Relationship Manager - CAT - Loyalty
-2026-08-26 05:35:31,953 [INFO]   [filter] Excluded 'manager': Relationship Manager - CAT - Loyalty
-2026-08-26 05:35:31,966 [INFO]   [S1] Checking: Walk-in || PE - Fresher Mapping Role
-2026-08-26 05:35:31,966 [INFO]   [filter] No skill match: Walk-in || PE - Fresher Mapping Role
-2026-08-26 05:35:31,979 [INFO]   [S1] Checking: AI in Pharma Trainer / Faculty
-2026-08-26 05:35:31,980 [INFO]   [filter] Excluded 'trainer': AI in Pharma Trainer / Faculty
-2026-08-26 05:35:31,993 [INFO]   [S1] Checking: Walk-in || Chemist Trainee
-2026-08-26 05:35:31,993 [INFO]   [filter] No skill match: Walk-in || Chemist Trainee
-2026-08-26 05:35:32,007 [INFO]   [S1] Checking: Sap Consultant
-2026-08-26 05:35:32,007 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-26 05:35:32,020 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:36:29,371 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 05:36:29,480 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:36:29,551 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-26 05:36:29,551 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-26 05:36:29,567 [INFO]   [S1] Checking: Housekeeping Associate
-2026-08-26 05:36:29,567 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-08-26 05:36:29,583 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-26 05:36:29,583 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-26 05:36:29,598 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-26 05:36:29,598 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-26 05:36:29,613 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:36:29,614 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:36:29,629 [INFO]   [S1] Checking: Data Engineer
-2026-08-26 05:36:29,629 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 05:36:29,644 [INFO]   [S1] Checking: Software Engineer
-2026-08-26 05:36:29,644 [INFO]   Already applied: Software Engineer
-2026-08-26 05:36:29,658 [INFO]   [S1] Checking: AI Product Manager
-2026-08-26 05:36:29,658 [INFO]   [filter] Excluded 'manager': AI Product Manager
-2026-08-26 05:36:29,673 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:36:29,673 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:37:30,945 [INFO]   [S1] AI ML Engineer: 12 listings
-2026-08-26 05:37:30,960 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:37:30,960 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:37:30,974 [INFO]   [S1] Checking: Sap Consultant
-2026-08-26 05:37:30,974 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-26 05:37:30,987 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:38:28,393 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 05:38:28,508 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:38:28,589 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-26 05:38:28,590 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-26 05:38:28,604 [INFO]   [S1] Checking: Housekeeping Associate
-2026-08-26 05:38:28,604 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-08-26 05:38:28,620 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:38:28,620 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:38:28,635 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-26 05:38:28,635 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-26 05:38:28,649 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-26 05:38:28,650 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-26 05:38:28,664 [INFO]   [S1] Checking: Data Engineer
-2026-08-26 05:38:28,664 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 05:38:28,679 [INFO]   [S1] Checking: Software Engineer
-2026-08-26 05:38:28,679 [INFO]   Already applied: Software Engineer
-2026-08-26 05:38:28,693 [INFO]   [S1] Checking: AI Product Manager
-2026-08-26 05:38:28,693 [INFO]   [filter] Excluded 'manager': AI Product Manager
-2026-08-26 05:38:28,708 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:38:28,708 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:39:29,856 [INFO]   [S1] Machine Learning Engineer: 12 listings
-2026-08-26 05:39:29,870 [INFO]   [S1] Checking: AI / Full Stack Intern
-2026-08-26 05:39:29,871 [INFO]   [filter] No skill match: AI / Full Stack Intern
-2026-08-26 05:39:29,884 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:39:29,884 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
-2026-08-26 05:39:29,904 [INFO]   [S1] Checking: Sap Consultant
-2026-08-26 05:39:29,904 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-26 05:39:29,931 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:40:27,333 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-26 05:40:27,439 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-26 05:40:27,512 [INFO]   [S1] Checking: Housekeeping Associate
-2026-08-26 05:40:27,512 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-08-26 05:40:27,529 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-26 05:40:27,529 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-26 05:40:27,545 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-26 05:40:27,545 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-26 05:40:27,562 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:40:27,562 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-26 05:40:27,578 [INFO]   [S1] Checking: Data Engineer
-2026-08-26 05:40:27,578 [INFO]   [filter] No skill match: Data Engineer
-2026-08-26 05:40:27,594 [INFO]   [S1] Checking: Software Engineer
-2026-08-26 05:40:27,594 [INFO]   Already applied: Software Engineer
-2026-08-26 05:40:27,609 [INFO]   [S1] Checking: AI Product Manager
-2026-08-26 05:40:27,609 [INFO]   [filter] Excluded 'manager': AI Product Manager
-2026-08-26 05:40:27,625 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:40:27,625 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-26 05:40:27,626 [INFO] 
+2026-08-26 09:23:50,216 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-08-26 09:23:50,216 [INFO] ███████████████████████████████████████████████████████
+2026-08-26 09:24:51,444 [INFO]   [S1] Java Developer: 12 listings
+2026-08-26 09:24:51,464 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:25:48,881 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 09:25:48,992 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:25:49,062 [INFO]   [S1] Checking: Software Developer
+2026-08-26 09:26:46,523 [INFO]   [location] ✅ Hyderabad, Pune, Bengaluru
+2026-08-26 09:26:46,801 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-26 09:26:46,801 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-08-26 09:26:46,801 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-08-26 09:26:46,801 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-08-26 09:26:46,842 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-26 09:26:46,842 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-08-26 09:27:43,175 [INFO]   Clicked Apply: Software Developer
+2026-08-26 09:29:56,746 [INFO]   ✅ Applied: Software Developer
+2026-08-26 09:29:58,830 [INFO]   [S1] Checking: Sap Consultant
+2026-08-26 09:29:58,830 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 09:29:58,844 [INFO]   [S1] Checking: Software Engineer
+2026-08-26 09:29:58,844 [INFO]   Already applied: Software Engineer
+2026-08-26 09:29:58,858 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-26 09:29:58,858 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-26 09:29:58,871 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:29:58,871 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:29:58,885 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-26 09:29:58,885 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-26 09:29:58,898 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-26 09:29:58,898 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-26 09:29:58,912 [INFO]   [S1] Checking: Data Engineer
+2026-08-26 09:29:58,912 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 09:29:58,926 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:29:58,926 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:29:58,940 [INFO]   [S1] Checking: AI Product Manager
+2026-08-26 09:29:58,940 [INFO]   [filter] Excluded 'manager': AI Product Manager
+2026-08-26 09:29:58,954 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:29:58,954 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:31:00,187 [INFO]   [S1] Python Developer: 11 listings
+2026-08-26 09:31:00,202 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:31:57,702 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 09:31:57,810 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:31:57,879 [INFO]   [S1] Checking: Sap Consultant
+2026-08-26 09:31:57,880 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 09:31:57,895 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-26 09:31:57,895 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-26 09:31:57,910 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:31:57,910 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:31:57,925 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-26 09:31:57,926 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-26 09:31:57,940 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-26 09:31:57,940 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-26 09:31:57,955 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:31:57,955 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:31:57,970 [INFO]   [S1] Checking: Data Engineer
+2026-08-26 09:31:57,970 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 09:31:57,985 [INFO]   [S1] Checking: Software Engineer
+2026-08-26 09:31:57,985 [INFO]   Already applied: Software Engineer
+2026-08-26 09:31:58,000 [INFO]   [S1] Checking: AI Product Manager
+2026-08-26 09:31:58,000 [INFO]   [filter] Excluded 'manager': AI Product Manager
+2026-08-26 09:31:58,015 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:31:58,015 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:32:59,428 [INFO]   [S1] SQL Developer: 9 listings
+2026-08-26 09:32:59,443 [INFO]   [S1] Checking: Sap Consultant
+2026-08-26 09:32:59,443 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 09:32:59,457 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:33:56,930 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 09:33:57,042 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:33:57,112 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-26 09:33:57,113 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-26 09:33:57,128 [INFO]   [S1] Checking: Cyber Security Trainer
+2026-08-26 09:33:57,128 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer
+2026-08-26 09:33:57,144 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-26 09:33:57,144 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-26 09:33:57,159 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:33:57,159 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:33:57,175 [INFO]   [S1] Checking: Data Engineer
+2026-08-26 09:33:57,175 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 09:33:57,190 [INFO]   [S1] Checking: Software Engineer
+2026-08-26 09:33:57,190 [INFO]   Already applied: Software Engineer
+2026-08-26 09:33:57,206 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:33:57,206 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:34:58,304 [INFO]   [S1] Software Engineer: 16 listings
+2026-08-26 09:34:58,319 [INFO]   [S1] Checking: Software Engineer
+2026-08-26 09:34:58,319 [INFO]   Already applied: Software Engineer
+2026-08-26 09:34:58,334 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:34:58,334 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:34:58,347 [INFO]   [S1] Checking: Sap Consultant
+2026-08-26 09:34:58,347 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 09:34:58,361 [INFO]   [S1] Checking: Unity Digital Twin Developer
+2026-08-26 09:34:58,361 [INFO]   [filter] No skill match: Unity Digital Twin Developer
+2026-08-26 09:34:58,375 [INFO]   [S1] Checking: Developer
+2026-08-26 09:34:58,375 [INFO]   [filter] No skill match: Developer
+2026-08-26 09:34:58,389 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:35:55,858 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 09:35:55,967 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:35:56,037 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-26 09:35:56,038 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-26 09:35:56,053 [INFO]   [S1] Checking: Data Engineer
+2026-08-26 09:35:56,053 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 09:35:56,070 [INFO]   [S1] Checking: Engineer
+2026-08-26 09:35:56,070 [INFO]   [filter] No skill match: Engineer
+2026-08-26 09:35:56,087 [INFO]   [S1] Checking: Cyber Security Trainer
+2026-08-26 09:35:56,087 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer
+2026-08-26 09:35:56,102 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-26 09:35:56,102 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-26 09:35:56,119 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:35:56,119 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:35:56,136 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-26 09:35:56,136 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-26 09:35:56,152 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-26 09:35:56,152 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-26 09:35:56,167 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:35:56,167 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:35:56,183 [INFO]   [S1] Checking: AI Product Manager
+2026-08-26 09:35:56,183 [INFO]   [filter] Excluded 'manager': AI Product Manager
+2026-08-26 09:36:57,387 [INFO]   [S1] Associate Software Engineer: 13 listings
+2026-08-26 09:36:57,402 [INFO]   [S1] Checking: Sap Consultant
+2026-08-26 09:36:57,402 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 09:36:57,415 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:37:54,890 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 09:37:55,005 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:37:55,075 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-26 09:37:55,075 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-26 09:37:55,092 [INFO]   [S1] Checking: Cyber Security Trainer
+2026-08-26 09:37:55,092 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer
+2026-08-26 09:37:55,112 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-26 09:37:55,112 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-26 09:37:55,130 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:37:55,130 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:37:55,147 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-26 09:37:55,147 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-26 09:37:55,162 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-26 09:37:55,163 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-26 09:37:55,178 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:37:55,178 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:37:55,193 [INFO]   [S1] Checking: Data Engineer
+2026-08-26 09:37:55,193 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 09:37:55,208 [INFO]   [S1] Checking: Software Engineer
+2026-08-26 09:37:55,208 [INFO]   Already applied: Software Engineer
+2026-08-26 09:37:55,223 [INFO]   [S1] Checking: AI Product Manager
+2026-08-26 09:37:55,223 [INFO]   [filter] Excluded 'manager': AI Product Manager
+2026-08-26 09:37:55,238 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:37:55,238 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:38:56,513 [INFO]   [S1] Data Analyst: 19 listings
+2026-08-26 09:38:56,528 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:38:56,528 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:38:56,542 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
+2026-08-26 09:38:56,542 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-08-26 09:38:56,556 [INFO]   [S1] Checking: Associate - Marketing
+2026-08-26 09:38:56,556 [INFO]   [filter] Excluded 'marketing': Associate - Marketing
+2026-08-26 09:38:56,569 [INFO]   [S1] Checking: Relationship Manager - CAT - Loyalty
+2026-08-26 09:38:56,570 [INFO]   [filter] Excluded 'manager': Relationship Manager - CAT - Loyalty
+2026-08-26 09:38:56,583 [INFO]   [S1] Checking: Walk-in || PE - Fresher Mapping Role
+2026-08-26 09:38:56,583 [INFO]   [filter] No skill match: Walk-in || PE - Fresher Mapping Role
+2026-08-26 09:38:56,597 [INFO]   [S1] Checking: AI in Pharma Trainer / Faculty
+2026-08-26 09:38:56,597 [INFO]   [filter] Excluded 'trainer': AI in Pharma Trainer / Faculty
+2026-08-26 09:38:56,611 [INFO]   [S1] Checking: Walk-in || Chemist Trainee
+2026-08-26 09:38:56,611 [INFO]   [filter] No skill match: Walk-in || Chemist Trainee
+2026-08-26 09:38:56,625 [INFO]   [S1] Checking: Sap Consultant
+2026-08-26 09:38:56,625 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 09:38:56,639 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:39:54,087 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 09:39:54,205 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:39:54,276 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-26 09:39:54,276 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-26 09:39:54,294 [INFO]   [S1] Checking: Cyber Security Trainer
+2026-08-26 09:39:54,294 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer
+2026-08-26 09:39:54,310 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-26 09:39:54,311 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-26 09:39:54,328 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-26 09:39:54,328 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-26 09:39:54,346 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-26 09:39:54,346 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-26 09:39:54,363 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:39:54,363 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:39:54,379 [INFO]   [S1] Checking: Data Engineer
+2026-08-26 09:39:54,379 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 09:39:54,395 [INFO]   [S1] Checking: Software Engineer
+2026-08-26 09:39:54,395 [INFO]   Already applied: Software Engineer
+2026-08-26 09:39:54,411 [INFO]   [S1] Checking: AI Product Manager
+2026-08-26 09:39:54,411 [INFO]   [filter] Excluded 'manager': AI Product Manager
+2026-08-26 09:39:54,429 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:39:54,430 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:40:55,790 [INFO]   [S1] AI ML Engineer: 13 listings
+2026-08-26 09:40:55,805 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:40:55,805 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:40:55,819 [INFO]   [S1] Checking: Sap Consultant
+2026-08-26 09:40:55,819 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 09:40:55,833 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:41:53,206 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 09:41:53,314 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:41:53,386 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-26 09:41:53,386 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-26 09:41:53,402 [INFO]   [S1] Checking: Cyber Security Trainer
+2026-08-26 09:41:53,402 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer
+2026-08-26 09:41:53,418 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-26 09:41:53,419 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-26 09:41:53,433 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:41:53,433 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:41:53,449 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-26 09:41:53,449 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-26 09:41:53,464 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-26 09:41:53,464 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-26 09:41:53,480 [INFO]   [S1] Checking: Data Engineer
+2026-08-26 09:41:53,480 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 09:41:53,496 [INFO]   [S1] Checking: Software Engineer
+2026-08-26 09:41:53,496 [INFO]   Already applied: Software Engineer
+2026-08-26 09:41:53,511 [INFO]   [S1] Checking: AI Product Manager
+2026-08-26 09:41:53,511 [INFO]   [filter] Excluded 'manager': AI Product Manager
+2026-08-26 09:41:53,537 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:41:53,537 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:42:54,849 [INFO]   [S1] Machine Learning Engineer: 13 listings
+2026-08-26 09:42:54,863 [INFO]   [S1] Checking: AI / Full Stack Intern
+2026-08-26 09:42:54,864 [INFO]   [filter] No skill match: AI / Full Stack Intern
+2026-08-26 09:42:54,878 [INFO]   [S1] Checking: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:42:54,878 [INFO]   Already applied: Walk-in || Trainee Technology - IT Interns
+2026-08-26 09:42:54,891 [INFO]   [S1] Checking: Sap Consultant
+2026-08-26 09:42:54,891 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-26 09:42:54,905 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:43:52,320 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-08-26 09:43:52,434 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-08-26 09:43:52,527 [INFO]   [S1] Checking: Cyber Security Trainer
+2026-08-26 09:43:52,527 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer
+2026-08-26 09:43:52,542 [INFO]   [S1] Checking: Housekeeping Associate
+2026-08-26 09:43:52,542 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-08-26 09:43:52,557 [INFO]   [S1] Checking: Fresher Graduate
+2026-08-26 09:43:52,558 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-26 09:43:52,573 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-08-26 09:43:52,573 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-26 09:43:52,588 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:43:52,588 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
+2026-08-26 09:43:52,602 [INFO]   [S1] Checking: Data Engineer
+2026-08-26 09:43:52,602 [INFO]   [filter] No skill match: Data Engineer
+2026-08-26 09:43:52,617 [INFO]   [S1] Checking: Software Engineer
+2026-08-26 09:43:52,617 [INFO]   Already applied: Software Engineer
+2026-08-26 09:43:52,632 [INFO]   [S1] Checking: AI Product Manager
+2026-08-26 09:43:52,632 [INFO]   [filter] Excluded 'manager': AI Product Manager
+2026-08-26 09:43:52,647 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:43:52,647 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-26 09:43:52,647 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-26 05:40:27,626 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-08-26 05:40:27,626 [INFO] ███████████████████████████████████████████████████████
-2026-08-26 05:55:38,849 [INFO] 
+2026-08-26 09:43:52,647 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-08-26 09:43:52,648 [INFO] ███████████████████████████████████████████████████████
+2026-08-26 09:59:04,479 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-26 05:55:38,849 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-08-26 05:55:38,849 [INFO] ███████████████████████████████████████████████████████
-2026-08-26 05:56:54,646 [INFO]   [S3] Java Developer: 0 listings
-2026-08-26 05:58:10,622 [INFO]   [S3] Python Developer: 0 listings
-2026-08-26 05:59:26,505 [INFO]   [S3] SQL Developer: 0 listings
-2026-08-26 06:00:42,355 [INFO]   [S3] Software Engineer: 0 listings
-2026-08-26 06:01:58,235 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-08-26 06:03:14,162 [INFO]   [S3] Data Analyst: 0 listings
-2026-08-26 06:04:30,133 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-08-26 06:05:46,050 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-08-26 06:05:46,050 [INFO] 
+2026-08-26 09:59:04,479 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-08-26 09:59:04,479 [INFO] ███████████████████████████████████████████████████████
+2026-08-26 10:00:20,377 [INFO]   [S3] Java Developer: 0 listings
+2026-08-26 10:01:36,325 [INFO]   [S3] Python Developer: 0 listings
+2026-08-26 10:02:52,442 [INFO]   [S3] SQL Developer: 0 listings
+2026-08-26 10:04:08,462 [INFO]   [S3] Software Engineer: 0 listings
+2026-08-26 10:05:24,711 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-08-26 10:06:40,586 [INFO]   [S3] Data Analyst: 0 listings
+2026-08-26 10:07:56,615 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-08-26 10:09:12,565 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-08-26 10:09:12,565 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-26 06:05:46,050 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-08-26 06:05:46,050 [INFO] ███████████████████████████████████████████████████████
-2026-08-26 06:20:56,986 [INFO] 
+2026-08-26 10:09:12,565 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-08-26 10:09:12,565 [INFO] ███████████████████████████████████████████████████████
+2026-08-26 10:24:23,445 [INFO] 
 =======================================================
-2026-08-26 06:20:56,986 [INFO]   Run complete — Applied this session : 1
-2026-08-26 06:20:56,986 [INFO]   Total ever applied                  : 262
-2026-08-26 06:20:56,986 [INFO] =======================================================
+2026-08-26 10:24:23,445 [INFO]   Run complete — Applied this session : 1
+2026-08-26 10:24:23,446 [INFO]   Total ever applied                  : 263
+2026-08-26 10:24:23,446 [INFO] =======================================================

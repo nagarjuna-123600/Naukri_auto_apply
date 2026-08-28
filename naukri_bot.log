@@ -1,435 +1,267 @@
-2026-08-27 18:50:45,030 [INFO] GitHub Actions — single run mode
-2026-08-27 18:50:45,031 [INFO] 
+2026-08-28 04:02:14,908 [INFO] GitHub Actions — single run mode
+2026-08-28 04:02:14,908 [INFO] 
 =======================================================
-2026-08-27 18:50:45,031 [INFO]   Run started: 2026-08-27 18:50:45
-2026-08-27 18:50:45,031 [INFO] =======================================================
-2026-08-27 18:50:45,031 [INFO] Previously applied: 267 jobs
-2026-08-27 18:50:45,032 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-08-27 18:50:45,032 [INFO] ====== WebDriver manager ======
-2026-08-27 18:50:46,482 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-27 18:50:46,513 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-27 18:50:46,541 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-27 18:50:46,541 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-27 18:50:46,655 [INFO] WebDriver version 151.0.7922.138 selected
-2026-08-27 18:50:46,660 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-27 18:50:46,660 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-27 18:50:46,758 [INFO] Driver downloading response is 200
-2026-08-27 18:50:46,994 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
-2026-08-27 18:50:52,365 [INFO]   Trying cookie login...
-2026-08-27 18:50:58,564 [INFO]   Loading 34 cookies...
-2026-08-27 18:51:02,796 [INFO]   ✅ Cookie login successful!
-2026-08-27 18:51:02,796 [INFO] 
+2026-08-28 04:02:14,908 [INFO]   Run started: 2026-08-28 04:02:14
+2026-08-28 04:02:14,908 [INFO] =======================================================
+2026-08-28 04:02:14,909 [INFO] Previously applied: 268 jobs
+2026-08-28 04:02:14,909 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-08-28 04:02:14,909 [INFO] ====== WebDriver manager ======
+2026-08-28 04:02:15,077 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-28 04:02:15,136 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-28 04:02:15,171 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-28 04:02:15,171 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-28 04:02:15,305 [INFO] WebDriver version 151.0.7922.138 selected
+2026-08-28 04:02:15,312 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-28 04:02:15,312 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-28 04:02:15,392 [INFO] Driver downloading response is 200
+2026-08-28 04:02:15,616 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
+2026-08-28 04:02:16,351 [INFO]   Trying cookie login...
+2026-08-28 04:02:21,619 [INFO]   Loading 34 cookies...
+2026-08-28 04:02:25,764 [INFO]   ✅ Cookie login successful!
+2026-08-28 04:02:25,764 [INFO] 
 ───────────────────────────────────────────────────────
-2026-08-27 18:51:02,796 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-08-27 18:51:02,796 [INFO] ───────────────────────────────────────────────────────
-2026-08-27 18:51:02,796 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-08-27 18:52:09,508 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-08-27 18:52:15,064 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-08-27 18:52:17,409 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-08-27 18:52:20,426 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-08-27 18:52:23,451 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-08-27 18:52:23,452 [INFO] 
+2026-08-28 04:02:25,764 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-08-28 04:02:25,764 [INFO] ───────────────────────────────────────────────────────
+2026-08-28 04:02:25,764 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-08-28 04:03:33,418 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-08-28 04:03:38,951 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-08-28 04:03:41,309 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-08-28 04:03:44,332 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-08-28 04:03:47,366 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-08-28 04:03:47,366 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-27 18:52:23,452 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-08-27 18:52:23,452 [INFO] ███████████████████████████████████████████████████████
-2026-08-27 18:53:26,202 [INFO]   [S0-HYD] Java Developer: 8 listings
-2026-08-27 18:53:26,216 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-08-27 18:53:26,216 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 18:53:26,226 [INFO]   [S0-HYD] Checking: Financial Systems Professional
-2026-08-27 18:53:26,226 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 18:53:26,236 [INFO]   [S0-HYD] Checking: QKD Engineer
-2026-08-27 18:53:26,236 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 18:53:26,245 [INFO]   [S0-HYD] Checking: Associate Architect - Site Reliability
-2026-08-27 18:53:26,245 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 18:53:26,255 [INFO]   [S0-HYD] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 18:53:26,255 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 18:53:26,264 [INFO]   [S0-HYD] Checking: Associate Software Engineer (Python, Java, ServiceNow)
-2026-08-27 18:54:24,276 [INFO]   [location] ✅ Hyderabad
-2026-08-27 18:54:24,565 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-27 18:54:24,566 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-08-27 18:54:24,566 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-08-27 18:54:24,566 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-08-27 18:54:24,620 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-27 18:54:24,620 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-08-27 18:55:20,817 [INFO]   Clicked Apply: Associate Software Engineer (Python, Java, ServiceNow)
-2026-08-27 18:57:35,206 [INFO]   ✅ Applied: Associate Software Engineer (Python, Java, ServiceNow)
-2026-08-27 18:57:37,276 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-27 18:57:37,276 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 18:57:37,289 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
-2026-08-27 18:57:37,290 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 18:58:53,306 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-08-27 18:59:54,887 [INFO]   [S0-HYD] Python Developer: 3 listings
-2026-08-27 18:59:54,898 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-08-27 18:59:54,898 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 18:59:54,908 [INFO]   [S0-HYD] Checking: Financial Systems Professional
-2026-08-27 18:59:54,908 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 18:59:54,918 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-27 18:59:54,918 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:01:11,319 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-08-27 19:02:12,756 [INFO]   [S0-HYD] SQL Developer: 6 listings
-2026-08-27 19:02:12,767 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-08-27 19:02:12,767 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:02:12,777 [INFO]   [S0-HYD] Checking: QKD Engineer
-2026-08-27 19:02:12,777 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:02:12,787 [INFO]   [S0-HYD] Checking: Associate Architect - Site Reliability
-2026-08-27 19:02:12,787 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:02:12,799 [INFO]   [S0-HYD] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:02:12,799 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:02:12,810 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-27 19:02:12,810 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:02:12,821 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
-2026-08-27 19:02:12,821 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:03:28,713 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-08-27 19:04:30,164 [INFO]   [S0-HYD] Software Engineer: 11 listings
-2026-08-27 19:04:30,174 [INFO]   [S0-HYD] Checking: Associate Architect - Site Reliability
-2026-08-27 19:04:30,174 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:04:30,185 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-08-27 19:04:30,185 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:04:30,195 [INFO]   [S0-HYD] Checking: Software Development Faculty Trainee
-2026-08-27 19:04:30,195 [INFO]   [filter] Excluded 'faculty': Software Development Faculty Trainee
-2026-08-27 19:04:30,205 [INFO]   [S0-HYD] Checking: Associate Instructor - Aptitude
-2026-08-27 19:04:30,205 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
-2026-08-27 19:04:30,215 [INFO]   [S0-HYD] Checking: Developer
-2026-08-27 19:04:30,215 [INFO]   [filter] No skill match: Developer
-2026-08-27 19:04:30,225 [INFO]   [S0-HYD] Checking: Financial Systems Professional
-2026-08-27 19:04:30,225 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 19:04:30,235 [INFO]   [S0-HYD] Checking: QKD Engineer
-2026-08-27 19:04:30,236 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:04:30,246 [INFO]   [S0-HYD] Checking: Engineer
-2026-08-27 19:04:30,246 [INFO]   [filter] No skill match: Engineer
-2026-08-27 19:04:30,256 [INFO]   [S0-HYD] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:04:30,256 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:04:30,266 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
-2026-08-27 19:04:30,266 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:04:30,276 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-27 19:04:30,276 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:05:46,169 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-08-27 19:06:47,606 [INFO]   [S0-HYD] Associate Software Engineer: 7 listings
-2026-08-27 19:06:47,617 [INFO]   [S0-HYD] Checking: Associate Architect - Site Reliability
-2026-08-27 19:06:47,617 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:06:47,627 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-08-27 19:06:47,627 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:06:47,637 [INFO]   [S0-HYD] Checking: Financial Systems Professional
-2026-08-27 19:06:47,637 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 19:06:47,647 [INFO]   [S0-HYD] Checking: QKD Engineer
-2026-08-27 19:06:47,647 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:06:47,658 [INFO]   [S0-HYD] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:06:47,658 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:06:47,668 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-27 19:06:47,668 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:06:47,678 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
-2026-08-27 19:06:47,678 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:08:04,248 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-08-27 19:09:05,555 [INFO]   [S0-HYD] Data Analyst: 14 listings
-2026-08-27 19:09:05,566 [INFO]   [S0-HYD] Checking: Analyst, Data Governance (Corp Functions)
-2026-08-27 19:09:05,566 [INFO]   [filter] No skill match: Analyst, Data Governance (Corp Functions)
-2026-08-27 19:09:05,577 [INFO]   [S0-HYD] Checking: Hiring Clinical Data Analyst - M.Pharmacy - Freshers
-2026-08-27 19:09:05,577 [INFO]   Already applied: Hiring Clinical Data Analyst - M.Pharmacy - Freshers
-2026-08-27 19:09:05,588 [INFO]   [S0-HYD] Checking: Technical Course Instructor | Digital Marketing & AI/ML
-2026-08-27 19:09:05,588 [INFO]   [filter] Excluded 'marketing': Technical Course Instructor | Digital Marketing & AI/ML
-2026-08-27 19:09:05,598 [INFO]   [S0-HYD] Checking: SR - Associate Agency Development Manager
-2026-08-27 19:09:05,598 [INFO]   [filter] Excluded 'manager': SR - Associate Agency Development Manager
-2026-08-27 19:09:05,608 [INFO]   [S0-HYD] Checking: SR - Associate Agency Development Manager
-2026-08-27 19:09:05,608 [INFO]   [filter] Excluded 'manager': SR - Associate Agency Development Manager
-2026-08-27 19:09:05,618 [INFO]   [S0-HYD] Checking: SR - Associate Agency Development Manager
-2026-08-27 19:09:05,618 [INFO]   [filter] Excluded 'manager': SR - Associate Agency Development Manager
-2026-08-27 19:09:05,629 [INFO]   [S0-HYD] Checking: Associate - Marketing
-2026-08-27 19:09:05,629 [INFO]   [filter] Excluded 'marketing': Associate - Marketing
-2026-08-27 19:09:05,639 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-08-27 19:09:05,639 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:09:05,650 [INFO]   [S0-HYD] Checking: Financial Systems Professional
-2026-08-27 19:09:05,650 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 19:09:05,660 [INFO]   [S0-HYD] Checking: QKD Engineer
-2026-08-27 19:09:05,660 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:09:05,670 [INFO]   [S0-HYD] Checking: Associate Architect - Site Reliability
-2026-08-27 19:09:05,670 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:09:05,681 [INFO]   [S0-HYD] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:09:05,681 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:09:05,691 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-27 19:09:05,691 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:09:05,702 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
-2026-08-27 19:09:05,702 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:10:21,604 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-08-27 19:11:23,419 [INFO]   [S0-HYD] AI ML Engineer: 7 listings
-2026-08-27 19:11:23,429 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-08-27 19:11:23,429 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:11:23,440 [INFO]   [S0-HYD] Checking: Financial Systems Professional
-2026-08-27 19:11:23,440 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 19:11:23,450 [INFO]   [S0-HYD] Checking: QKD Engineer
-2026-08-27 19:11:23,450 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:11:23,460 [INFO]   [S0-HYD] Checking: Associate Architect - Site Reliability
-2026-08-27 19:11:23,460 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:11:23,470 [INFO]   [S0-HYD] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:11:23,470 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:11:23,480 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
-2026-08-27 19:11:23,480 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:11:23,491 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-27 19:11:23,491 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:12:39,448 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-08-27 19:13:40,797 [INFO]   [S0-HYD] Machine Learning Engineer: 7 listings
-2026-08-27 19:13:40,808 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-08-27 19:13:40,808 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:13:40,818 [INFO]   [S0-HYD] Checking: Financial Systems Professional
-2026-08-27 19:13:40,818 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 19:13:40,828 [INFO]   [S0-HYD] Checking: QKD Engineer
-2026-08-27 19:13:40,828 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:13:40,838 [INFO]   [S0-HYD] Checking: Associate Architect - Site Reliability
-2026-08-27 19:13:40,838 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:13:40,848 [INFO]   [S0-HYD] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:13:40,848 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:13:40,858 [INFO]   [S0-HYD] Checking: Data Engineer
-2026-08-27 19:13:40,858 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:13:40,868 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
-2026-08-27 19:13:40,868 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:14:56,834 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-08-27 19:16:13,079 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-08-27 19:17:29,035 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-08-27 19:18:45,620 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-08-27 19:20:01,513 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-08-27 19:21:17,735 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-08-27 19:22:33,727 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-08-27 19:23:49,951 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-08-27 19:25:05,874 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-08-27 19:26:22,095 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-08-27 19:27:38,023 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-08-27 19:28:54,347 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-08-27 19:30:10,317 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-08-27 19:30:10,318 [INFO] 
+2026-08-28 04:03:47,366 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-08-28 04:03:47,366 [INFO] ███████████████████████████████████████████████████████
+2026-08-28 04:04:48,752 [INFO]   [S0-HYD] Java Developer: 2 listings
+2026-08-28 04:04:48,770 [INFO]   [S0-HYD] Checking: Financial Systems Professional
+2026-08-28 04:04:48,770 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:04:48,782 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
+2026-08-28 04:04:48,782 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:06:04,703 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-08-28 04:07:06,015 [INFO]   [S0-HYD] Python Developer: 1 listings
+2026-08-28 04:07:06,028 [INFO]   [S0-HYD] Checking: Financial Systems Professional
+2026-08-28 04:07:06,028 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:08:22,047 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-08-28 04:09:23,156 [INFO]   [S0-HYD] SQL Developer: 1 listings
+2026-08-28 04:09:23,169 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
+2026-08-28 04:09:23,169 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:10:39,113 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-08-28 04:11:40,454 [INFO]   [S0-HYD] Software Engineer: 3 listings
+2026-08-28 04:11:40,467 [INFO]   [S0-HYD] Checking: Software Development Faculty Trainee
+2026-08-28 04:11:40,467 [INFO]   [filter] Excluded 'faculty': Software Development Faculty Trainee
+2026-08-28 04:11:40,479 [INFO]   [S0-HYD] Checking: Financial Systems Professional
+2026-08-28 04:11:40,480 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:11:40,492 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
+2026-08-28 04:11:40,492 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:12:56,404 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-08-28 04:13:57,544 [INFO]   [S0-HYD] Associate Software Engineer: 2 listings
+2026-08-28 04:13:57,557 [INFO]   [S0-HYD] Checking: Financial Systems Professional
+2026-08-28 04:13:57,557 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:13:57,569 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
+2026-08-28 04:13:57,569 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:15:13,543 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-08-28 04:16:14,728 [INFO]   [S0-HYD] Data Analyst: 4 listings
+2026-08-28 04:16:14,741 [INFO]   [S0-HYD] Checking: Analyst, Data Governance (Corp Functions)
+2026-08-28 04:16:14,741 [INFO]   [filter] No skill match: Analyst, Data Governance (Corp Functions)
+2026-08-28 04:16:14,753 [INFO]   [S0-HYD] Checking: Technical Course Instructor | Digital Marketing & AI/ML
+2026-08-28 04:16:14,753 [INFO]   [filter] Excluded 'marketing': Technical Course Instructor | Digital Marketing & AI/ML
+2026-08-28 04:16:14,766 [INFO]   [S0-HYD] Checking: Financial Systems Professional
+2026-08-28 04:16:14,766 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:16:14,778 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
+2026-08-28 04:16:14,778 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:17:30,711 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-08-28 04:18:31,965 [INFO]   [S0-HYD] AI ML Engineer: 2 listings
+2026-08-28 04:18:31,978 [INFO]   [S0-HYD] Checking: Financial Systems Professional
+2026-08-28 04:18:31,978 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:18:31,990 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
+2026-08-28 04:18:31,990 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:19:48,040 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-08-28 04:20:49,142 [INFO]   [S0-HYD] Machine Learning Engineer: 2 listings
+2026-08-28 04:20:49,155 [INFO]   [S0-HYD] Checking: Financial Systems Professional
+2026-08-28 04:20:49,155 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:20:49,168 [INFO]   [S0-HYD] Checking: Junior / Intern AI Engineer
+2026-08-28 04:20:49,168 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:22:05,206 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-08-28 04:23:21,512 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-08-28 04:24:37,459 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-08-28 04:25:53,784 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-08-28 04:27:09,806 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-08-28 04:28:26,134 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-08-28 04:29:42,140 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-08-28 04:30:58,211 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-08-28 04:32:14,126 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-08-28 04:33:30,405 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-08-28 04:34:46,180 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-08-28 04:36:02,484 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-08-28 04:37:18,524 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-08-28 04:37:18,524 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-27 19:30:10,318 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-08-27 19:30:10,318 [INFO] ███████████████████████████████████████████████████████
-2026-08-27 19:31:11,553 [INFO]   [S1] Java Developer: 11 listings
-2026-08-27 19:31:11,567 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:32:08,964 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-27 19:32:09,046 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:32:09,128 [INFO]   [S1] Checking: Sap Consultant
-2026-08-27 19:32:09,128 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:32:09,139 [INFO]   [S1] Checking: Financial Systems Professional
-2026-08-27 19:32:09,139 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 19:32:09,150 [INFO]   [S1] Checking: QKD Engineer
-2026-08-27 19:32:09,150 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:32:09,161 [INFO]   [S1] Checking: Associate Architect - Site Reliability
-2026-08-27 19:32:09,161 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:32:09,171 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:32:09,171 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:32:09,183 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:32:09,183 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:32:09,193 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:32:09,193 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:32:09,204 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:32:09,204 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:32:09,215 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:32:09,215 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:32:09,225 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-27 19:32:09,225 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:33:10,480 [INFO]   [S1] Python Developer: 7 listings
-2026-08-27 19:33:10,491 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:34:07,933 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-27 19:34:08,018 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:34:08,082 [INFO]   [S1] Checking: Sap Consultant
-2026-08-27 19:34:08,082 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:34:08,094 [INFO]   [S1] Checking: Financial Systems Professional
-2026-08-27 19:34:08,094 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 19:34:08,105 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:34:08,105 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:34:08,115 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:34:08,115 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:34:08,127 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:34:08,127 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:34:08,138 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:34:08,138 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:35:10,158 [INFO]   [S1] SQL Developer: 10 listings
-2026-08-27 19:35:10,169 [INFO]   [S1] Checking: Sap Consultant
-2026-08-27 19:35:10,169 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:35:10,180 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:36:07,643 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-27 19:36:07,724 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:36:07,804 [INFO]   [S1] Checking: QKD Engineer
-2026-08-27 19:36:07,804 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:36:07,815 [INFO]   [S1] Checking: Associate Architect - Site Reliability
-2026-08-27 19:36:07,815 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:36:07,826 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:36:07,826 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:36:07,838 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:36:07,838 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:36:07,848 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:36:07,848 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:36:07,859 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:36:07,859 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:36:07,870 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-27 19:36:07,870 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:36:07,881 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:36:07,881 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:37:09,663 [INFO]   [S1] Software Engineer: 16 listings
-2026-08-27 19:37:09,674 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:37:09,674 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:37:09,685 [INFO]   [S1] Checking: Associate Architect - Site Reliability
-2026-08-27 19:37:09,685 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:37:09,695 [INFO]   [S1] Checking: Sap Consultant
-2026-08-27 19:37:09,695 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:37:09,705 [INFO]   [S1] Checking: Software Development Faculty Trainee
-2026-08-27 19:37:09,705 [INFO]   [filter] Excluded 'faculty': Software Development Faculty Trainee
-2026-08-27 19:37:09,716 [INFO]   [S1] Checking: Associate Instructor - Aptitude
-2026-08-27 19:37:09,716 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
-2026-08-27 19:37:09,726 [INFO]   [S1] Checking: Unity Digital Twin Developer
-2026-08-27 19:37:09,726 [INFO]   [filter] No skill match: Unity Digital Twin Developer
-2026-08-27 19:37:09,736 [INFO]   [S1] Checking: Developer
-2026-08-27 19:37:09,737 [INFO]   [filter] No skill match: Developer
-2026-08-27 19:37:09,747 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:38:07,206 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-27 19:38:07,288 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:38:07,354 [INFO]   [S1] Checking: Financial Systems Professional
-2026-08-27 19:38:07,354 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 19:38:07,366 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:38:07,366 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:38:07,376 [INFO]   [S1] Checking: QKD Engineer
-2026-08-27 19:38:07,376 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:38:07,389 [INFO]   [S1] Checking: Engineer
-2026-08-27 19:38:07,389 [INFO]   [filter] No skill match: Engineer
-2026-08-27 19:38:07,401 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:38:07,401 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:38:07,412 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:38:07,412 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:38:07,423 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-27 19:38:07,423 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:38:07,436 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:38:07,436 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:39:08,851 [INFO]   [S1] Associate Software Engineer: 11 listings
-2026-08-27 19:39:08,862 [INFO]   [S1] Checking: Associate Architect - Site Reliability
-2026-08-27 19:39:08,862 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:39:08,872 [INFO]   [S1] Checking: Sap Consultant
-2026-08-27 19:39:08,872 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:39:08,883 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:40:06,322 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-27 19:40:06,408 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:40:06,472 [INFO]   [S1] Checking: Financial Systems Professional
-2026-08-27 19:40:06,472 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 19:40:06,484 [INFO]   [S1] Checking: QKD Engineer
-2026-08-27 19:40:06,484 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:40:06,495 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:40:06,495 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:40:06,505 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:40:06,505 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:40:06,517 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:40:06,517 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:40:06,527 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:40:06,527 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:40:06,538 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-27 19:40:06,538 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:40:06,549 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:40:06,549 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:41:09,477 [INFO]   [S1] Data Analyst: 20 listings
-2026-08-27 19:41:09,487 [INFO]   [S1] Checking: Analyst, Data Governance (Corp Functions)
-2026-08-27 19:41:09,487 [INFO]   [filter] No skill match: Analyst, Data Governance (Corp Functions)
-2026-08-27 19:41:09,498 [INFO]   [S1] Checking: Hiring Clinical Data Analyst - M.Pharmacy - Freshers
-2026-08-27 19:41:09,498 [INFO]   Already applied: Hiring Clinical Data Analyst - M.Pharmacy - Freshers
-2026-08-27 19:41:09,507 [INFO]   [S1] Checking: Technical Course Instructor | Digital Marketing & AI/ML
-2026-08-27 19:41:09,507 [INFO]   [filter] Excluded 'marketing': Technical Course Instructor | Digital Marketing & AI/ML
-2026-08-27 19:41:09,519 [INFO]   [S1] Checking: SR - Associate Agency Development Manager
-2026-08-27 19:41:09,519 [INFO]   [filter] Excluded 'manager': SR - Associate Agency Development Manager
-2026-08-27 19:41:09,530 [INFO]   [S1] Checking: SR - Associate Agency Development Manager
-2026-08-27 19:41:09,530 [INFO]   [filter] Excluded 'manager': SR - Associate Agency Development Manager
-2026-08-27 19:41:09,541 [INFO]   [S1] Checking: SR - Associate Agency Development Manager
-2026-08-27 19:41:09,541 [INFO]   [filter] Excluded 'manager': SR - Associate Agency Development Manager
-2026-08-27 19:41:09,552 [INFO]   [S1] Checking: Associate - Marketing
-2026-08-27 19:41:09,552 [INFO]   [filter] Excluded 'marketing': Associate - Marketing
-2026-08-27 19:41:09,562 [INFO]   [S1] Checking: Relationship Manager - CAT - Loyalty
-2026-08-27 19:41:09,562 [INFO]   [filter] Excluded 'manager': Relationship Manager - CAT - Loyalty
-2026-08-27 19:41:09,572 [INFO]   [S1] Checking: AI in Pharma Trainer / Faculty
-2026-08-27 19:41:09,573 [INFO]   [filter] Excluded 'trainer': AI in Pharma Trainer / Faculty
-2026-08-27 19:41:09,583 [INFO]   [S1] Checking: Walk-in || Chemist Trainee
-2026-08-27 19:41:09,583 [INFO]   [filter] No skill match: Walk-in || Chemist Trainee
-2026-08-27 19:41:09,593 [INFO]   [S1] Checking: Sap Consultant
-2026-08-27 19:41:09,593 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:41:09,604 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:42:07,005 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-27 19:42:07,090 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:42:07,157 [INFO]   [S1] Checking: Financial Systems Professional
-2026-08-27 19:42:07,157 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 19:42:07,167 [INFO]   [S1] Checking: QKD Engineer
-2026-08-27 19:42:07,167 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:42:07,178 [INFO]   [S1] Checking: Associate Architect - Site Reliability
-2026-08-27 19:42:07,178 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:42:07,190 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:42:07,190 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:42:07,200 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:42:07,200 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:42:07,212 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:42:07,212 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:42:07,223 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:42:07,223 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:42:07,234 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-27 19:42:07,234 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:43:08,592 [INFO]   [S1] AI ML Engineer: 11 listings
-2026-08-27 19:43:08,603 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:43:08,603 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:43:08,614 [INFO]   [S1] Checking: Sap Consultant
-2026-08-27 19:43:08,614 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:43:08,624 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:44:06,027 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-27 19:44:06,106 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:44:06,171 [INFO]   [S1] Checking: Financial Systems Professional
-2026-08-27 19:44:06,171 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 19:44:06,183 [INFO]   [S1] Checking: QKD Engineer
-2026-08-27 19:44:06,183 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:44:06,193 [INFO]   [S1] Checking: Associate Architect - Site Reliability
-2026-08-27 19:44:06,193 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:44:06,204 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:44:06,205 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:44:06,216 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:44:06,216 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:44:06,227 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-27 19:44:06,227 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:44:06,238 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:44:06,238 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:44:06,249 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:44:06,249 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:45:07,417 [INFO]   [S1] Machine Learning Engineer: 11 listings
-2026-08-27 19:45:07,428 [INFO]   [S1] Checking: Sap Consultant
-2026-08-27 19:45:07,428 [INFO]   [filter] No skill match: Sap Consultant
-2026-08-27 19:45:07,438 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:46:04,837 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-08-27 19:46:04,925 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-08-27 19:46:05,000 [INFO]   [S1] Checking: Financial Systems Professional
-2026-08-27 19:46:05,000 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
-2026-08-27 19:46:05,011 [INFO]   [S1] Checking: QKD Engineer
-2026-08-27 19:46:05,011 [INFO]   [filter] No skill match: QKD Engineer
-2026-08-27 19:46:05,021 [INFO]   [S1] Checking: Associate Architect - Site Reliability
-2026-08-27 19:46:05,021 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
-2026-08-27 19:46:05,032 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:46:05,032 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
-2026-08-27 19:46:05,043 [INFO]   [S1] Checking: Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:46:05,043 [INFO]   [filter] Excluded 'trainer': Looking For Online/Offline Trainers For Python /Java / Web Development
-2026-08-27 19:46:05,053 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:46:05,054 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:46:05,065 [INFO]   [S1] Checking: Data Engineer
-2026-08-27 19:46:05,065 [INFO]   [filter] No skill match: Data Engineer
-2026-08-27 19:46:05,076 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-27 19:46:05,076 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-27 19:46:05,086 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:46:05,086 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-27 19:46:05,086 [INFO] 
+2026-08-28 04:37:18,524 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-08-28 04:37:18,524 [INFO] ███████████████████████████████████████████████████████
+2026-08-28 04:38:19,826 [INFO]   [S1] Java Developer: 7 listings
+2026-08-28 04:38:19,844 [INFO]   [S1] Checking: Sap Consultant
+2026-08-28 04:38:19,844 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-28 04:38:19,856 [INFO]   [S1] Checking: Financial Systems Professional
+2026-08-28 04:38:19,856 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:38:19,868 [INFO]   [S1] Checking: QKD Engineer
+2026-08-28 04:38:19,868 [INFO]   [filter] No skill match: QKD Engineer
+2026-08-28 04:38:19,880 [INFO]   [S1] Checking: Associate Architect - Site Reliability
+2026-08-28 04:38:19,880 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
+2026-08-28 04:38:19,892 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:38:19,893 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:38:19,904 [INFO]   [S1] Checking: Data Engineer
+2026-08-28 04:38:19,905 [INFO]   [filter] No skill match: Data Engineer
+2026-08-28 04:38:19,917 [INFO]   [S1] Checking: Junior / Intern AI Engineer
+2026-08-28 04:38:19,917 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:39:21,178 [INFO]   [S1] Python Developer: 3 listings
+2026-08-28 04:39:21,192 [INFO]   [S1] Checking: Sap Consultant
+2026-08-28 04:39:21,193 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-28 04:39:21,207 [INFO]   [S1] Checking: Financial Systems Professional
+2026-08-28 04:39:21,207 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:39:21,220 [INFO]   [S1] Checking: Data Engineer
+2026-08-28 04:39:21,220 [INFO]   [filter] No skill match: Data Engineer
+2026-08-28 04:40:22,280 [INFO]   [S1] SQL Developer: 6 listings
+2026-08-28 04:40:22,293 [INFO]   [S1] Checking: Sap Consultant
+2026-08-28 04:40:22,293 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-28 04:40:22,306 [INFO]   [S1] Checking: QKD Engineer
+2026-08-28 04:40:22,306 [INFO]   [filter] No skill match: QKD Engineer
+2026-08-28 04:40:22,318 [INFO]   [S1] Checking: Associate Architect - Site Reliability
+2026-08-28 04:40:22,318 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
+2026-08-28 04:40:22,330 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:40:22,330 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:40:22,343 [INFO]   [S1] Checking: Data Engineer
+2026-08-28 04:40:22,343 [INFO]   [filter] No skill match: Data Engineer
+2026-08-28 04:40:22,355 [INFO]   [S1] Checking: Junior / Intern AI Engineer
+2026-08-28 04:40:22,355 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:41:23,486 [INFO]   [S1] Software Engineer: 11 listings
+2026-08-28 04:41:23,499 [INFO]   [S1] Checking: Associate Architect - Site Reliability
+2026-08-28 04:41:23,499 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
+2026-08-28 04:41:23,512 [INFO]   [S1] Checking: Sap Consultant
+2026-08-28 04:41:23,512 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-28 04:41:23,524 [INFO]   [S1] Checking: Software Development Faculty Trainee
+2026-08-28 04:41:23,524 [INFO]   [filter] Excluded 'faculty': Software Development Faculty Trainee
+2026-08-28 04:41:23,536 [INFO]   [S1] Checking: Associate Instructor - Aptitude
+2026-08-28 04:41:23,536 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
+2026-08-28 04:41:23,548 [INFO]   [S1] Checking: Developer
+2026-08-28 04:41:23,549 [INFO]   [filter] No skill match: Developer
+2026-08-28 04:41:23,561 [INFO]   [S1] Checking: Financial Systems Professional
+2026-08-28 04:41:23,561 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:41:23,573 [INFO]   [S1] Checking: QKD Engineer
+2026-08-28 04:41:23,573 [INFO]   [filter] No skill match: QKD Engineer
+2026-08-28 04:41:23,586 [INFO]   [S1] Checking: Engineer
+2026-08-28 04:41:23,586 [INFO]   [filter] No skill match: Engineer
+2026-08-28 04:41:23,598 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:41:23,598 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:41:23,610 [INFO]   [S1] Checking: Junior / Intern AI Engineer
+2026-08-28 04:41:23,610 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:41:23,622 [INFO]   [S1] Checking: Data Engineer
+2026-08-28 04:41:23,622 [INFO]   [filter] No skill match: Data Engineer
+2026-08-28 04:42:24,864 [INFO]   [S1] Associate Software Engineer: 8 listings
+2026-08-28 04:42:24,877 [INFO]   [S1] Checking: Associate Architect - Site Reliability
+2026-08-28 04:42:24,877 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
+2026-08-28 04:42:24,889 [INFO]   [S1] Checking: Sap Consultant
+2026-08-28 04:42:24,889 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-28 04:42:24,901 [INFO]   [S1] Checking: Walk-in || Software Engineer
+2026-08-28 04:43:22,399 [INFO]   [location] ✅ Hyderabad
+2026-08-28 04:43:22,729 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-28 04:43:22,729 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-08-28 04:43:22,729 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-08-28 04:43:22,729 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-08-28 04:43:22,810 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-08-28 04:43:22,810 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-08-28 04:44:50,837 [INFO]   Clicked Apply: Walk-in || Software Engineer
+2026-08-28 04:47:04,039 [INFO]   ✅ Applied: Walk-in || Software Engineer
+2026-08-28 04:47:06,114 [INFO]   [S1] Checking: Financial Systems Professional
+2026-08-28 04:47:06,114 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:47:06,127 [INFO]   [S1] Checking: QKD Engineer
+2026-08-28 04:47:06,127 [INFO]   [filter] No skill match: QKD Engineer
+2026-08-28 04:47:06,140 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:47:06,140 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:47:06,153 [INFO]   [S1] Checking: Data Engineer
+2026-08-28 04:47:06,153 [INFO]   [filter] No skill match: Data Engineer
+2026-08-28 04:47:06,166 [INFO]   [S1] Checking: Junior / Intern AI Engineer
+2026-08-28 04:47:06,166 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:48:07,307 [INFO]   [S1] Data Analyst: 14 listings
+2026-08-28 04:48:07,321 [INFO]   [S1] Checking: Analyst, Data Governance (Corp Functions)
+2026-08-28 04:48:07,321 [INFO]   [filter] No skill match: Analyst, Data Governance (Corp Functions)
+2026-08-28 04:48:07,334 [INFO]   [S1] Checking: Hiring Clinical Data Analyst - M.Pharmacy - Freshers
+2026-08-28 04:48:07,334 [INFO]   Already applied: Hiring Clinical Data Analyst - M.Pharmacy - Freshers
+2026-08-28 04:48:07,347 [INFO]   [S1] Checking: Technical Course Instructor | Digital Marketing & AI/ML
+2026-08-28 04:48:07,347 [INFO]   [filter] Excluded 'marketing': Technical Course Instructor | Digital Marketing & AI/ML
+2026-08-28 04:48:07,361 [INFO]   [S1] Checking: SR - Associate Agency Development Manager
+2026-08-28 04:48:07,361 [INFO]   [filter] Excluded 'manager': SR - Associate Agency Development Manager
+2026-08-28 04:48:07,374 [INFO]   [S1] Checking: SR - Associate Agency Development Manager
+2026-08-28 04:48:07,374 [INFO]   [filter] Excluded 'manager': SR - Associate Agency Development Manager
+2026-08-28 04:48:07,387 [INFO]   [S1] Checking: SR - Associate Agency Development Manager
+2026-08-28 04:48:07,387 [INFO]   [filter] Excluded 'manager': SR - Associate Agency Development Manager
+2026-08-28 04:48:07,401 [INFO]   [S1] Checking: Associate - Marketing
+2026-08-28 04:48:07,401 [INFO]   [filter] Excluded 'marketing': Associate - Marketing
+2026-08-28 04:48:07,414 [INFO]   [S1] Checking: Sap Consultant
+2026-08-28 04:48:07,414 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-28 04:48:07,428 [INFO]   [S1] Checking: Financial Systems Professional
+2026-08-28 04:48:07,428 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:48:07,441 [INFO]   [S1] Checking: QKD Engineer
+2026-08-28 04:48:07,441 [INFO]   [filter] No skill match: QKD Engineer
+2026-08-28 04:48:07,454 [INFO]   [S1] Checking: Associate Architect - Site Reliability
+2026-08-28 04:48:07,455 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
+2026-08-28 04:48:07,469 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:48:07,469 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:48:07,482 [INFO]   [S1] Checking: Data Engineer
+2026-08-28 04:48:07,482 [INFO]   [filter] No skill match: Data Engineer
+2026-08-28 04:48:07,496 [INFO]   [S1] Checking: Junior / Intern AI Engineer
+2026-08-28 04:48:07,496 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:49:08,567 [INFO]   [S1] AI ML Engineer: 7 listings
+2026-08-28 04:49:08,581 [INFO]   [S1] Checking: Sap Consultant
+2026-08-28 04:49:08,581 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-28 04:49:08,595 [INFO]   [S1] Checking: Financial Systems Professional
+2026-08-28 04:49:08,595 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:49:08,609 [INFO]   [S1] Checking: QKD Engineer
+2026-08-28 04:49:08,609 [INFO]   [filter] No skill match: QKD Engineer
+2026-08-28 04:49:08,623 [INFO]   [S1] Checking: Associate Architect - Site Reliability
+2026-08-28 04:49:08,623 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
+2026-08-28 04:49:08,637 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:49:08,637 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:49:08,650 [INFO]   [S1] Checking: Junior / Intern AI Engineer
+2026-08-28 04:49:08,650 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:49:08,664 [INFO]   [S1] Checking: Data Engineer
+2026-08-28 04:49:08,664 [INFO]   [filter] No skill match: Data Engineer
+2026-08-28 04:50:09,732 [INFO]   [S1] Machine Learning Engineer: 7 listings
+2026-08-28 04:50:09,745 [INFO]   [S1] Checking: Sap Consultant
+2026-08-28 04:50:09,746 [INFO]   [filter] No skill match: Sap Consultant
+2026-08-28 04:50:09,759 [INFO]   [S1] Checking: Financial Systems Professional
+2026-08-28 04:50:09,759 [INFO]   [filter] Excluded 'financial': Financial Systems Professional
+2026-08-28 04:50:09,772 [INFO]   [S1] Checking: QKD Engineer
+2026-08-28 04:50:09,772 [INFO]   [filter] No skill match: QKD Engineer
+2026-08-28 04:50:09,785 [INFO]   [S1] Checking: Associate Architect - Site Reliability
+2026-08-28 04:50:09,785 [INFO]   [filter] Excluded 'architect': Associate Architect - Site Reliability
+2026-08-28 04:50:09,799 [INFO]   [S1] Checking: Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:50:09,799 [INFO]   [filter] Excluded 'trainer': Cyber Security Trainer - Hiring Male candidates Only
+2026-08-28 04:50:09,813 [INFO]   [S1] Checking: Data Engineer
+2026-08-28 04:50:09,813 [INFO]   [filter] No skill match: Data Engineer
+2026-08-28 04:50:09,825 [INFO]   [S1] Checking: Junior / Intern AI Engineer
+2026-08-28 04:50:09,826 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
+2026-08-28 04:50:09,826 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-27 19:46:05,086 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-08-27 19:46:05,086 [INFO] ███████████████████████████████████████████████████████
-2026-08-27 20:01:19,198 [INFO] 
+2026-08-28 04:50:09,826 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-08-28 04:50:09,826 [INFO] ███████████████████████████████████████████████████████
+2026-08-28 05:05:20,946 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-27 20:01:19,198 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-08-27 20:01:19,198 [INFO] ███████████████████████████████████████████████████████
-2026-08-27 20:02:35,097 [INFO]   [S3] Java Developer: 0 listings
-2026-08-27 20:03:51,200 [INFO]   [S3] Python Developer: 0 listings
-2026-08-27 20:05:07,223 [INFO]   [S3] SQL Developer: 0 listings
-2026-08-27 20:06:23,098 [INFO]   [S3] Software Engineer: 0 listings
-2026-08-27 20:07:39,116 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-08-27 20:08:55,082 [INFO]   [S3] Data Analyst: 0 listings
-2026-08-27 20:10:11,439 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-08-27 20:11:27,405 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-08-27 20:11:27,405 [INFO] 
+2026-08-28 05:05:20,946 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-08-28 05:05:20,946 [INFO] ███████████████████████████████████████████████████████
+2026-08-28 05:06:36,744 [INFO]   [S3] Java Developer: 0 listings
+2026-08-28 05:07:52,723 [INFO]   [S3] Python Developer: 0 listings
+2026-08-28 05:09:08,691 [INFO]   [S3] SQL Developer: 0 listings
+2026-08-28 05:10:24,606 [INFO]   [S3] Software Engineer: 0 listings
+2026-08-28 05:11:40,545 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-08-28 05:12:56,565 [INFO]   [S3] Data Analyst: 0 listings
+2026-08-28 05:14:12,587 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-08-28 05:15:28,563 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-08-28 05:15:28,563 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-27 20:11:27,405 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-08-27 20:11:27,405 [INFO] ███████████████████████████████████████████████████████
-2026-08-27 20:26:39,568 [INFO] 
+2026-08-28 05:15:28,563 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-08-28 05:15:28,563 [INFO] ███████████████████████████████████████████████████████
+2026-08-28 05:30:38,396 [INFO] 
 =======================================================
-2026-08-27 20:26:39,568 [INFO]   Run complete — Applied this session : 1
-2026-08-27 20:26:39,569 [INFO]   Total ever applied                  : 268
-2026-08-27 20:26:39,569 [INFO] =======================================================
+2026-08-28 05:30:38,396 [INFO]   Run complete — Applied this session : 1
+2026-08-28 05:30:38,397 [INFO]   Total ever applied                  : 269
+2026-08-28 05:30:38,397 [INFO] =======================================================

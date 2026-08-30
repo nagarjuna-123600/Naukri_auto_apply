@@ -1,219 +1,183 @@
-2026-08-29 22:21:40,340 [INFO] GitHub Actions — single run mode
-2026-08-29 22:21:40,340 [INFO] 
+2026-08-30 03:43:38,340 [INFO] GitHub Actions — single run mode
+2026-08-30 03:43:38,340 [INFO] 
 =======================================================
-2026-08-29 22:21:40,340 [INFO]   Run started: 2026-08-29 22:21:40
-2026-08-29 22:21:40,340 [INFO] =======================================================
-2026-08-29 22:21:40,341 [INFO] Previously applied: 269 jobs
-2026-08-29 22:21:40,341 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-08-29 22:21:40,342 [INFO] ====== WebDriver manager ======
-2026-08-29 22:21:43,718 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-29 22:21:43,806 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-29 22:21:43,842 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-29 22:21:43,842 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-29 22:21:44,063 [INFO] WebDriver version 151.0.7922.138 selected
-2026-08-29 22:21:44,069 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-29 22:21:44,069 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-29 22:21:44,172 [INFO] Driver downloading response is 200
-2026-08-29 22:21:44,451 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
-2026-08-29 22:22:03,000 [INFO]   Trying cookie login...
-2026-08-29 22:22:08,413 [INFO]   Loading 34 cookies...
-2026-08-29 22:22:12,647 [INFO]   ✅ Cookie login successful!
-2026-08-29 22:22:12,648 [INFO] 
+2026-08-30 03:43:38,340 [INFO]   Run started: 2026-08-30 03:43:38
+2026-08-30 03:43:38,340 [INFO] =======================================================
+2026-08-30 03:43:38,341 [INFO] Previously applied: 269 jobs
+2026-08-30 03:43:38,342 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-08-30 03:43:38,342 [INFO] ====== WebDriver manager ======
+2026-08-30 03:43:38,571 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-30 03:43:38,611 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-30 03:43:38,649 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-30 03:43:38,650 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-30 03:43:38,760 [INFO] WebDriver version 151.0.7922.138 selected
+2026-08-30 03:43:38,768 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-30 03:43:38,769 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-30 03:43:38,880 [INFO] Driver downloading response is 200
+2026-08-30 03:43:39,093 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
+2026-08-30 03:43:42,517 [INFO]   Trying cookie login...
+2026-08-30 03:43:47,668 [INFO]   Loading 34 cookies...
+2026-08-30 03:43:51,898 [INFO]   ✅ Cookie login successful!
+2026-08-30 03:43:51,898 [INFO] 
 ───────────────────────────────────────────────────────
-2026-08-29 22:22:12,648 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-08-29 22:22:12,648 [INFO] ───────────────────────────────────────────────────────
-2026-08-29 22:22:12,648 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-08-29 22:23:20,287 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-08-29 22:23:25,819 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-08-29 22:23:28,176 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-08-29 22:23:31,198 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-08-29 22:23:34,231 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-08-29 22:23:34,231 [INFO] 
+2026-08-30 03:43:51,898 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-08-30 03:43:51,898 [INFO] ───────────────────────────────────────────────────────
+2026-08-30 03:43:51,898 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-08-30 03:44:59,163 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-08-30 03:45:04,687 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-08-30 03:45:07,056 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-08-30 03:45:10,082 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-08-30 03:45:13,122 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-08-30 03:45:13,122 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-29 22:23:34,231 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-08-29 22:23:34,231 [INFO] ███████████████████████████████████████████████████████
-2026-08-29 22:24:35,641 [INFO]   [S0-HYD] Java Developer: 3 listings
-2026-08-29 22:24:35,659 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 22:24:35,659 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 22:24:35,672 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 22:24:35,672 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 22:24:35,684 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:24:35,685 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:25:51,668 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-08-29 22:26:52,730 [INFO]   [S0-HYD] Python Developer: 3 listings
-2026-08-29 22:26:52,744 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 22:26:52,744 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 22:26:52,757 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 22:26:52,757 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 22:26:52,770 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:26:52,770 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:28:08,625 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-08-29 22:29:09,996 [INFO]   [S0-HYD] SQL Developer: 3 listings
-2026-08-29 22:29:10,010 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 22:29:10,010 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 22:29:10,023 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 22:29:10,023 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 22:29:10,036 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:29:10,036 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:30:25,962 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-08-29 22:31:27,127 [INFO]   [S0-HYD] Software Engineer: 4 listings
-2026-08-29 22:31:27,140 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:31:27,140 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:31:27,153 [INFO]   [S0-HYD] Checking: Associate Instructor - Aptitude
-2026-08-29 22:31:27,154 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
-2026-08-29 22:31:27,167 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 22:31:27,167 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 22:31:27,180 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 22:31:27,180 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 22:32:43,192 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-08-29 22:33:44,454 [INFO]   [S0-HYD] Associate Software Engineer: 3 listings
-2026-08-29 22:33:44,468 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 22:33:44,468 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 22:33:44,481 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 22:33:44,482 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 22:33:44,495 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:33:44,495 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:35:00,597 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-08-29 22:36:01,757 [INFO]   [S0-HYD] Data Analyst: 3 listings
-2026-08-29 22:36:01,771 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 22:36:01,771 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 22:36:01,784 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 22:36:01,785 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 22:36:01,798 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:36:01,798 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:37:17,815 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-08-29 22:38:19,003 [INFO]   [S0-HYD] AI ML Engineer: 3 listings
-2026-08-29 22:38:19,016 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 22:38:19,016 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 22:38:19,029 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 22:38:19,029 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 22:38:19,042 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:38:19,042 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:39:34,938 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-08-29 22:40:36,047 [INFO]   [S0-HYD] Machine Learning Engineer: 3 listings
-2026-08-29 22:40:36,061 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 22:40:36,061 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 22:40:36,074 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 22:40:36,074 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 22:40:36,087 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:40:36,087 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:41:51,920 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-08-29 22:43:08,028 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-08-29 22:44:23,741 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-08-29 22:45:39,871 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-08-29 22:46:55,782 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-08-29 22:48:12,109 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-08-29 22:49:27,952 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-08-29 22:50:44,177 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-08-29 22:51:59,978 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-08-29 22:53:16,227 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-08-29 22:54:32,024 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-08-29 22:55:48,214 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-08-29 22:57:04,024 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-08-29 22:57:04,024 [INFO] 
+2026-08-30 03:45:13,122 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-08-30 03:45:13,122 [INFO] ███████████████████████████████████████████████████████
+2026-08-30 03:46:14,564 [INFO]   [S0-HYD] Java Developer: 2 listings
+2026-08-30 03:46:14,585 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 03:46:14,585 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 03:46:14,601 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 03:46:14,601 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 03:47:30,914 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-08-30 03:48:31,971 [INFO]   [S0-HYD] Python Developer: 2 listings
+2026-08-30 03:48:31,988 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 03:48:31,989 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 03:48:32,005 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 03:48:32,005 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 03:49:48,014 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-08-30 03:50:49,185 [INFO]   [S0-HYD] SQL Developer: 2 listings
+2026-08-30 03:50:49,201 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 03:50:49,201 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 03:50:49,216 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 03:50:49,216 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 03:52:05,195 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-08-30 03:53:06,396 [INFO]   [S0-HYD] Software Engineer: 3 listings
+2026-08-30 03:53:06,413 [INFO]   [S0-HYD] Checking: Associate Instructor - Aptitude
+2026-08-30 03:53:06,413 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
+2026-08-30 03:53:06,429 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 03:53:06,429 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 03:53:06,445 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 03:53:06,445 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 03:54:22,636 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-08-30 03:55:23,914 [INFO]   [S0-HYD] Associate Software Engineer: 2 listings
+2026-08-30 03:55:23,929 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 03:55:23,929 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 03:55:23,944 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 03:55:23,945 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 03:56:39,912 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-08-30 03:57:41,077 [INFO]   [S0-HYD] Data Analyst: 2 listings
+2026-08-30 03:57:41,093 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 03:57:41,093 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 03:57:41,110 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 03:57:41,110 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 03:58:57,095 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-08-30 03:59:58,202 [INFO]   [S0-HYD] AI ML Engineer: 2 listings
+2026-08-30 03:59:58,217 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 03:59:58,217 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 03:59:58,233 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 03:59:58,233 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 04:01:14,092 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-08-30 04:02:15,227 [INFO]   [S0-HYD] Machine Learning Engineer: 2 listings
+2026-08-30 04:02:15,243 [INFO]   [S0-HYD] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 04:02:15,243 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 04:02:15,259 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 04:02:15,259 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 04:03:31,260 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-08-30 04:04:47,610 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-08-30 04:06:03,631 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-08-30 04:07:20,034 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-08-30 04:08:36,001 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-08-30 04:09:52,310 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-08-30 04:11:08,232 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-08-30 04:12:24,464 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-08-30 04:13:40,438 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-08-30 04:14:56,790 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-08-30 04:16:12,789 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-08-30 04:17:29,032 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-08-30 04:18:45,108 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-08-30 04:18:45,108 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-29 22:57:04,024 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-08-29 22:57:04,024 [INFO] ███████████████████████████████████████████████████████
-2026-08-29 22:58:05,255 [INFO]   [S1] Java Developer: 4 listings
-2026-08-29 22:58:05,274 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 22:58:05,274 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 22:58:05,287 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 22:58:05,287 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 22:58:05,300 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:58:05,300 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:58:05,313 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-29 22:58:05,313 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-29 22:59:06,508 [INFO]   [S1] Python Developer: 3 listings
-2026-08-29 22:59:06,522 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 22:59:06,522 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 22:59:06,535 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 22:59:06,535 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 22:59:06,548 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 22:59:06,548 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:00:07,701 [INFO]   [S1] SQL Developer: 4 listings
-2026-08-29 23:00:07,714 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 23:00:07,715 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 23:00:07,727 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 23:00:07,728 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 23:00:07,740 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-29 23:00:07,741 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-29 23:00:07,753 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:00:07,753 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:01:08,979 [INFO]   [S1] Software Engineer: 6 listings
-2026-08-29 23:01:08,993 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:01:08,993 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:01:09,006 [INFO]   [S1] Checking: Associate Instructor - Aptitude
-2026-08-29 23:01:09,006 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
-2026-08-29 23:01:09,019 [INFO]   [S1] Checking: Software Development Faculty Trainee
-2026-08-29 23:01:09,019 [INFO]   [filter] Excluded 'faculty': Software Development Faculty Trainee
-2026-08-29 23:01:09,032 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 23:01:09,032 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 23:01:09,045 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 23:01:09,046 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 23:01:09,058 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-29 23:01:09,058 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-29 23:02:10,262 [INFO]   [S1] Associate Software Engineer: 4 listings
-2026-08-29 23:02:10,276 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 23:02:10,276 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 23:02:10,289 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 23:02:10,289 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 23:02:10,301 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-29 23:02:10,302 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-29 23:02:10,315 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:02:10,315 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:03:11,499 [INFO]   [S1] Data Analyst: 6 listings
-2026-08-29 23:03:11,513 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 23:03:11,513 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 23:03:11,526 [INFO]   [S1] Checking: Analyst, Data Governance (Corp Functions)
-2026-08-29 23:03:11,526 [INFO]   [filter] No skill match: Analyst, Data Governance (Corp Functions)
-2026-08-29 23:03:11,539 [INFO]   [S1] Checking: Technical Course Instructor | Digital Marketing & AI/ML
-2026-08-29 23:03:11,539 [INFO]   [filter] Excluded 'marketing': Technical Course Instructor | Digital Marketing & AI/ML
-2026-08-29 23:03:11,552 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 23:03:11,552 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 23:03:11,566 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-29 23:03:11,566 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-29 23:03:11,579 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:03:11,579 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:04:12,831 [INFO]   [S1] AI ML Engineer: 4 listings
-2026-08-29 23:04:12,845 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 23:04:12,845 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 23:04:12,858 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 23:04:12,858 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 23:04:12,872 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-29 23:04:12,873 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-29 23:04:12,886 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:04:12,886 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:05:14,082 [INFO]   [S1] Machine Learning Engineer: 4 listings
-2026-08-29 23:05:14,096 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-29 23:05:14,096 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-29 23:05:14,110 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-29 23:05:14,110 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-29 23:05:14,124 [INFO]   [S1] Checking: Junior / Intern AI Engineer
-2026-08-29 23:05:14,124 [INFO]   [filter] No skill match: Junior / Intern AI Engineer
-2026-08-29 23:05:14,138 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:05:14,138 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-29 23:05:14,138 [INFO] 
+2026-08-30 04:18:45,108 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-08-30 04:18:45,108 [INFO] ███████████████████████████████████████████████████████
+2026-08-30 04:19:46,263 [INFO]   [S1] Java Developer: 3 listings
+2026-08-30 04:19:46,285 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 04:19:46,285 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 04:19:46,301 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 04:19:46,301 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 04:19:46,317 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:19:46,317 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:20:47,585 [INFO]   [S1] Python Developer: 3 listings
+2026-08-30 04:20:47,599 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 04:20:47,599 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 04:20:47,613 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 04:20:47,613 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 04:20:47,627 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:20:47,627 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:21:48,778 [INFO]   [S1] SQL Developer: 3 listings
+2026-08-30 04:21:48,792 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 04:21:48,792 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 04:21:48,806 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 04:21:48,806 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 04:21:48,819 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:21:48,820 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:22:50,213 [INFO]   [S1] Software Engineer: 4 listings
+2026-08-30 04:22:50,228 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:22:50,228 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:22:50,243 [INFO]   [S1] Checking: Associate Instructor - Aptitude
+2026-08-30 04:22:50,243 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
+2026-08-30 04:22:50,257 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 04:22:50,257 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 04:22:50,271 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 04:22:50,272 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 04:23:51,429 [INFO]   [S1] Associate Software Engineer: 3 listings
+2026-08-30 04:23:51,446 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 04:23:51,446 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 04:23:51,462 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 04:23:51,462 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 04:23:51,479 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:23:51,479 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:24:52,704 [INFO]   [S1] Data Analyst: 3 listings
+2026-08-30 04:24:52,720 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 04:24:52,720 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 04:24:52,735 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 04:24:52,735 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 04:24:52,750 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:24:52,750 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:25:54,001 [INFO]   [S1] AI ML Engineer: 3 listings
+2026-08-30 04:25:54,016 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 04:25:54,016 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 04:25:54,030 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 04:25:54,030 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 04:25:54,044 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:25:54,044 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:26:55,286 [INFO]   [S1] Machine Learning Engineer: 3 listings
+2026-08-30 04:26:55,302 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
+2026-08-30 04:26:55,302 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
+2026-08-30 04:26:55,317 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-08-30 04:26:55,317 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-08-30 04:26:55,333 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:26:55,333 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-30 04:26:55,333 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-29 23:05:14,138 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-08-29 23:05:14,138 [INFO] ███████████████████████████████████████████████████████
-2026-08-29 23:20:25,568 [INFO] 
+2026-08-30 04:26:55,334 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-08-30 04:26:55,334 [INFO] ███████████████████████████████████████████████████████
+2026-08-30 04:42:08,206 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-29 23:20:25,568 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-08-29 23:20:25,568 [INFO] ███████████████████████████████████████████████████████
-2026-08-29 23:21:41,353 [INFO]   [S3] Java Developer: 0 listings
-2026-08-29 23:22:57,125 [INFO]   [S3] Python Developer: 0 listings
-2026-08-29 23:24:12,968 [INFO]   [S3] SQL Developer: 0 listings
-2026-08-29 23:25:28,792 [INFO]   [S3] Software Engineer: 0 listings
-2026-08-29 23:26:44,616 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-08-29 23:28:00,430 [INFO]   [S3] Data Analyst: 0 listings
-2026-08-29 23:29:16,264 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-08-29 23:30:32,083 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-08-29 23:30:32,083 [INFO] 
+2026-08-30 04:42:08,206 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-08-30 04:42:08,206 [INFO] ███████████████████████████████████████████████████████
+2026-08-30 04:43:24,185 [INFO]   [S3] Java Developer: 0 listings
+2026-08-30 04:44:40,209 [INFO]   [S3] Python Developer: 0 listings
+2026-08-30 04:45:56,166 [INFO]   [S3] SQL Developer: 0 listings
+2026-08-30 04:47:12,066 [INFO]   [S3] Software Engineer: 0 listings
+2026-08-30 04:48:28,051 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-08-30 04:49:44,043 [INFO]   [S3] Data Analyst: 0 listings
+2026-08-30 04:50:59,954 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-08-30 04:52:15,934 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-08-30 04:52:15,934 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-29 23:30:32,083 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-08-29 23:30:32,083 [INFO] ███████████████████████████████████████████████████████
-2026-08-29 23:45:41,013 [INFO] 
+2026-08-30 04:52:15,934 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-08-30 04:52:15,934 [INFO] ███████████████████████████████████████████████████████
+2026-08-30 05:07:25,955 [INFO] 
 =======================================================
-2026-08-29 23:45:41,013 [INFO]   Run complete — Applied this session : 0
-2026-08-29 23:45:41,014 [INFO]   Total ever applied                  : 269
-2026-08-29 23:45:41,014 [INFO] =======================================================
+2026-08-30 05:07:25,955 [INFO]   Run complete — Applied this session : 0
+2026-08-30 05:07:25,956 [INFO]   Total ever applied                  : 269
+2026-08-30 05:07:25,956 [INFO] =======================================================

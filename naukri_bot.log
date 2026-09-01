@@ -1,711 +1,691 @@
-2026-08-31 18:47:18,480 [INFO] GitHub Actions — single run mode
-2026-08-31 18:47:18,480 [INFO] 
+2026-08-31 23:37:27,309 [INFO] GitHub Actions — single run mode
+2026-08-31 23:37:27,309 [INFO] 
 =======================================================
-2026-08-31 18:47:18,481 [INFO]   Run started: 2026-08-31 18:47:18
-2026-08-31 18:47:18,481 [INFO] =======================================================
-2026-08-31 18:47:18,482 [INFO] Previously applied: 274 jobs
-2026-08-31 18:47:18,482 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-08-31 18:47:18,482 [INFO] ====== WebDriver manager ======
-2026-08-31 18:47:20,838 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-31 18:47:20,876 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-31 18:47:20,915 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
-2026-08-31 18:47:20,915 [INFO] Get LATEST chromedriver version for google-chrome
-2026-08-31 18:47:21,014 [INFO] WebDriver version 151.0.7922.138 selected
-2026-08-31 18:47:21,020 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-31 18:47:21,021 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
-2026-08-31 18:47:21,113 [INFO] Driver downloading response is 200
-2026-08-31 18:47:21,438 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
-2026-08-31 18:47:28,396 [INFO]   Trying cookie login...
-2026-08-31 18:47:33,144 [INFO]   Loading 34 cookies...
-2026-08-31 18:47:37,367 [INFO]   ✅ Cookie login successful!
-2026-08-31 18:47:37,367 [INFO] 
+2026-08-31 23:37:27,309 [INFO]   Run started: 2026-08-31 23:37:27
+2026-08-31 23:37:27,309 [INFO] =======================================================
+2026-08-31 23:37:27,310 [INFO] Previously applied: 275 jobs
+2026-08-31 23:37:27,311 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-08-31 23:37:27,311 [INFO] ====== WebDriver manager ======
+2026-08-31 23:37:29,438 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-31 23:37:29,476 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-31 23:37:29,509 [INFO] There is no [linux64] chromedriver "151.0.7922.138" for browser google-chrome "151.0.7922" in cache
+2026-08-31 23:37:29,509 [INFO] Get LATEST chromedriver version for google-chrome
+2026-08-31 23:37:29,610 [INFO] WebDriver version 151.0.7922.138 selected
+2026-08-31 23:37:29,617 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-31 23:37:29,618 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.138/linux64/chromedriver-linux64.zip
+2026-08-31 23:37:29,724 [INFO] Driver downloading response is 200
+2026-08-31 23:37:30,028 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/151.0.7922.138]
+2026-08-31 23:37:36,576 [INFO]   Trying cookie login...
+2026-08-31 23:37:43,668 [INFO]   Loading 34 cookies...
+2026-08-31 23:37:48,059 [INFO]   ✅ Cookie login successful!
+2026-08-31 23:37:48,059 [INFO] 
 ───────────────────────────────────────────────────────
-2026-08-31 18:47:37,367 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-08-31 18:47:37,367 [INFO] ───────────────────────────────────────────────────────
-2026-08-31 18:47:37,367 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-08-31 18:48:44,524 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-08-31 18:48:50,071 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-08-31 18:48:52,424 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-08-31 18:48:55,445 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-08-31 18:48:58,479 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-08-31 18:48:58,480 [INFO] 
+2026-08-31 23:37:48,059 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-08-31 23:37:48,059 [INFO] ───────────────────────────────────────────────────────
+2026-08-31 23:37:48,059 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-08-31 23:38:55,139 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-08-31 23:39:00,658 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-08-31 23:39:03,022 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-08-31 23:39:06,046 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-08-31 23:39:09,087 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-08-31 23:39:09,088 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-31 18:48:58,480 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-08-31 18:48:58,480 [INFO] ███████████████████████████████████████████████████████
-2026-08-31 18:50:00,018 [INFO]   [S0-HYD] Java Developer: 20 listings
-2026-08-31 18:50:00,036 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
-2026-08-31 18:50:00,037 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 18:50:00,050 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
-2026-08-31 18:50:00,050 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 18:50:00,062 [INFO]   [S0-HYD] Checking: Python Developer
-2026-08-31 18:50:57,500 [INFO]   [location] ✅ Hyderabad
-2026-08-31 18:50:57,921 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-31 18:50:57,922 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-08-31 18:50:57,922 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-08-31 18:50:57,922 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-08-31 18:50:57,964 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-08-31 18:50:57,965 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-08-31 18:51:55,433 [INFO]   Clicked Apply: Python Developer
-2026-08-31 18:54:08,485 [INFO]   ✅ Applied: Python Developer
-2026-08-31 18:54:10,568 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-31 18:54:10,568 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 18:54:10,581 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
-2026-08-31 18:54:10,581 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 18:54:10,594 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
-2026-08-31 18:54:10,594 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 18:54:10,606 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
-2026-08-31 18:54:10,607 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 18:54:10,619 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
-2026-08-31 18:54:10,619 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 18:54:10,632 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 18:54:10,632 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 18:54:10,645 [INFO]   [S0-HYD] Checking: Trainee Engineer
-2026-08-31 18:54:10,645 [INFO]   [filter] No skill match: Trainee Engineer
-2026-08-31 18:54:10,658 [INFO]   [S0-HYD] Checking: Quality Engineer
-2026-08-31 18:54:10,658 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 18:54:10,671 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-08-31 18:54:10,671 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 18:54:10,684 [INFO]   [S0-HYD] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-08-31 18:54:10,684 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-08-31 18:54:10,696 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 18:54:10,696 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 18:54:10,709 [INFO]   [S0-HYD] Checking: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 18:54:10,709 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 18:54:10,722 [INFO]   [S0-HYD] Checking: Cobol Developer
-2026-08-31 18:54:10,722 [INFO]   [filter] No skill match: Cobol Developer
-2026-08-31 18:54:10,735 [INFO]   [S0-HYD] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 18:54:10,735 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 18:54:10,748 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-31 18:54:10,748 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-31 18:54:10,761 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-31 18:54:10,761 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-31 18:54:10,773 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 18:54:10,774 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 18:55:26,710 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-08-31 18:56:27,957 [INFO]   [S0-HYD] Python Developer: 16 listings
-2026-08-31 18:56:27,971 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
-2026-08-31 18:56:27,971 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 18:56:27,984 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 18:56:27,984 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 18:56:27,997 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 18:56:27,997 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 18:56:28,010 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
-2026-08-31 18:56:28,010 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 18:56:28,023 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-31 18:56:28,023 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 18:56:28,036 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
-2026-08-31 18:56:28,036 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 18:56:28,049 [INFO]   [S0-HYD] Checking: Trainee Engineer
-2026-08-31 18:56:28,049 [INFO]   [filter] No skill match: Trainee Engineer
-2026-08-31 18:56:28,064 [INFO]   [S0-HYD] Checking: Quality Engineer
-2026-08-31 18:56:28,064 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 18:56:28,077 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
-2026-08-31 18:56:28,077 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 18:56:28,090 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-08-31 18:56:28,090 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 18:56:28,104 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
-2026-08-31 18:56:28,104 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 18:56:28,117 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 18:56:28,117 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 18:56:28,130 [INFO]   [S0-HYD] Checking: Cobol Developer
-2026-08-31 18:56:28,130 [INFO]   [filter] No skill match: Cobol Developer
-2026-08-31 18:56:28,143 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-31 18:56:28,143 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-31 18:56:28,156 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-31 18:56:28,156 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-31 18:56:28,168 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 18:56:28,169 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 18:57:44,131 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-08-31 18:58:45,483 [INFO]   [S0-HYD] SQL Developer: 13 listings
-2026-08-31 18:58:45,498 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
-2026-08-31 18:58:45,498 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 18:58:45,511 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 18:58:45,511 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 18:58:45,524 [INFO]   [S0-HYD] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 18:58:45,524 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 18:58:45,537 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-08-31 18:58:45,537 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 18:58:45,551 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
-2026-08-31 18:58:45,551 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 18:58:45,564 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
-2026-08-31 18:58:45,564 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 18:58:45,577 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 18:58:45,577 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 18:58:45,590 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-31 18:58:45,590 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 18:58:45,604 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
-2026-08-31 18:58:45,604 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 18:58:45,616 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
-2026-08-31 18:58:45,617 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 18:58:45,629 [INFO]   [S0-HYD] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-08-31 18:58:45,630 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-08-31 18:58:45,642 [INFO]   [S0-HYD] Checking: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 18:58:45,643 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 18:58:45,655 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 18:58:45,656 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:00:01,634 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-08-31 19:01:02,772 [INFO]   [S0-HYD] Software Engineer: 20 listings
-2026-08-31 19:01:02,785 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:01:02,786 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:01:02,801 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 19:01:02,801 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:01:02,814 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 19:01:02,814 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:01:02,827 [INFO]   [S0-HYD] Checking: IT Network Engineer | IT Software engineer
-2026-08-31 19:01:02,828 [INFO]   [filter] Excluded 'network engineer': IT Network Engineer | IT Software engineer
-2026-08-31 19:01:02,841 [INFO]   [S0-HYD] Checking: Quality Engineer
-2026-08-31 19:01:02,841 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 19:01:02,854 [INFO]   [S0-HYD] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:01:02,854 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:01:02,867 [INFO]   [S0-HYD] Checking: Developer
-2026-08-31 19:01:02,867 [INFO]   [filter] No skill match: Developer
-2026-08-31 19:01:02,881 [INFO]   [S0-HYD] Checking: Developer
-2026-08-31 19:01:02,881 [INFO]   [filter] No skill match: Developer
-2026-08-31 19:01:02,894 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:01:02,894 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:01:02,908 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
-2026-08-31 19:01:02,908 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 19:01:02,921 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
-2026-08-31 19:01:02,922 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 19:01:02,935 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 19:01:02,935 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 19:01:02,948 [INFO]   [S0-HYD] Checking: Cobol Developer
-2026-08-31 19:01:02,948 [INFO]   [filter] No skill match: Cobol Developer
-2026-08-31 19:01:02,962 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
-2026-08-31 19:01:02,962 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:01:02,975 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-31 19:01:02,975 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:01:02,988 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
-2026-08-31 19:01:02,988 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:01:03,001 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
-2026-08-31 19:01:03,001 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:01:03,015 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-08-31 19:01:03,015 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:01:03,028 [INFO]   [S0-HYD] Checking: Trainee Engineer
-2026-08-31 19:01:03,028 [INFO]   [filter] No skill match: Trainee Engineer
-2026-08-31 19:01:03,041 [INFO]   [S0-HYD] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:01:03,041 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:02:19,013 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-08-31 19:03:20,451 [INFO]   [S0-HYD] Associate Software Engineer: 20 listings
-2026-08-31 19:03:20,465 [INFO]   [S0-HYD] Checking: Quality Engineer
-2026-08-31 19:03:20,465 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 19:03:20,478 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
-2026-08-31 19:03:20,478 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:03:20,491 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 19:03:20,492 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:03:20,505 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-31 19:03:20,505 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:03:20,518 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
-2026-08-31 19:03:20,518 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:03:20,531 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
-2026-08-31 19:03:20,531 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:03:20,544 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-08-31 19:03:20,544 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:03:20,558 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:03:20,558 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:03:20,571 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 19:03:20,571 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:03:20,584 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
-2026-08-31 19:03:20,584 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 19:03:20,597 [INFO]   [S0-HYD] Checking: Trainee Engineer
-2026-08-31 19:03:20,597 [INFO]   [filter] No skill match: Trainee Engineer
-2026-08-31 19:03:20,610 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
-2026-08-31 19:03:20,610 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 19:03:20,623 [INFO]   [S0-HYD] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:03:20,623 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:03:20,636 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 19:03:20,637 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 19:03:20,650 [INFO]   [S0-HYD] Checking: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:03:20,650 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:03:20,663 [INFO]   [S0-HYD] Checking: Cobol Developer
-2026-08-31 19:03:20,663 [INFO]   [filter] No skill match: Cobol Developer
-2026-08-31 19:03:20,676 [INFO]   [S0-HYD] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:03:20,676 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:03:20,689 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-31 19:03:20,689 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-31 19:03:20,703 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-31 19:03:20,703 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-31 19:03:20,716 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:03:20,716 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:04:36,636 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-08-31 19:05:37,842 [INFO]   [S0-HYD] Data Analyst: 20 listings
-2026-08-31 19:05:37,856 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
-2026-08-31 19:05:37,856 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:05:37,870 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-31 19:05:37,870 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:05:37,884 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
-2026-08-31 19:05:37,884 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:05:37,898 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
-2026-08-31 19:05:37,898 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:05:37,912 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:05:37,912 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:05:37,926 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 19:05:37,926 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 19:05:37,940 [INFO]   [S0-HYD] Checking: Quality Engineer
-2026-08-31 19:05:37,941 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 19:05:37,955 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
-2026-08-31 19:05:37,955 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-08-31 19:05:37,969 [INFO]   [S0-HYD] Checking: Hiring Analyst For KYC/AML
-2026-08-31 19:05:37,969 [INFO]   [filter] No skill match: Hiring Analyst For KYC/AML
-2026-08-31 19:05:37,983 [INFO]   [S0-HYD] Checking: Data Analytic | Fresher | Business Analytics
-2026-08-31 19:05:37,983 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
-2026-08-31 19:05:37,998 [INFO]   [S0-HYD] Checking: Walk-in || POI Mapping - Fresher
-2026-08-31 19:05:37,998 [INFO]   [filter] No skill match: Walk-in || POI Mapping - Fresher
-2026-08-31 19:05:38,013 [INFO]   [S0-HYD] Checking: KYC AML Analyst | Banking Operations | Freshers | Gurugram
-2026-08-31 19:05:38,013 [INFO]   [filter] Excluded 'bank': KYC AML Analyst | Banking Operations | Freshers | Gurugram
-2026-08-31 19:05:38,026 [INFO]   [S0-HYD] Checking: Investment Banking Analyst
-2026-08-31 19:05:38,026 [INFO]   [filter] Excluded 'bank': Investment Banking Analyst
-2026-08-31 19:05:38,040 [INFO]   [S0-HYD] Checking: Walk-in || Research And Development Officer
-2026-08-31 19:05:38,040 [INFO]   [filter] No skill match: Walk-in || Research And Development Officer
-2026-08-31 19:05:38,056 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 19:05:38,056 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:05:38,071 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-08-31 19:05:38,071 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:05:38,085 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 19:05:38,085 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:05:38,098 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
-2026-08-31 19:05:38,098 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 19:05:38,112 [INFO]   [S0-HYD] Checking: Trainee Engineer
-2026-08-31 19:05:38,112 [INFO]   [filter] No skill match: Trainee Engineer
-2026-08-31 19:05:38,125 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
-2026-08-31 19:05:38,126 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 19:06:54,101 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-08-31 19:07:55,418 [INFO]   [S0-HYD] AI ML Engineer: 20 listings
-2026-08-31 19:07:55,432 [INFO]   [S0-HYD] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:07:55,432 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:07:55,445 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
-2026-08-31 19:07:55,445 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:07:55,458 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 19:07:55,458 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:07:55,472 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-31 19:07:55,472 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:07:55,485 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
-2026-08-31 19:07:55,485 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:07:55,499 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
-2026-08-31 19:07:55,499 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:07:55,513 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-08-31 19:07:55,513 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:07:55,528 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:07:55,528 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:07:55,542 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 19:07:55,542 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:07:55,555 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
-2026-08-31 19:07:55,555 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 19:07:55,568 [INFO]   [S0-HYD] Checking: Trainee Engineer
-2026-08-31 19:07:55,569 [INFO]   [filter] No skill match: Trainee Engineer
-2026-08-31 19:07:55,582 [INFO]   [S0-HYD] Checking: Quality Engineer
-2026-08-31 19:07:55,582 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 19:07:55,595 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
-2026-08-31 19:07:55,595 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 19:07:55,609 [INFO]   [S0-HYD] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:07:55,609 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:07:55,623 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 19:07:55,624 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 19:07:55,637 [INFO]   [S0-HYD] Checking: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:07:55,637 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:07:55,650 [INFO]   [S0-HYD] Checking: Cobol Developer
-2026-08-31 19:07:55,650 [INFO]   [filter] No skill match: Cobol Developer
-2026-08-31 19:07:55,664 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-31 19:07:55,664 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-31 19:07:55,678 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-31 19:07:55,678 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-31 19:07:55,692 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:07:55,692 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:09:11,532 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-08-31 19:10:12,831 [INFO]   [S0-HYD] Machine Learning Engineer: 20 listings
-2026-08-31 19:10:12,845 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
-2026-08-31 19:10:12,845 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:10:12,858 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
-2026-08-31 19:10:12,858 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:10:12,871 [INFO]   [S0-HYD] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:10:12,872 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:10:12,885 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 19:10:12,886 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:10:12,898 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
-2026-08-31 19:10:12,899 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:10:12,912 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
-2026-08-31 19:10:12,912 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:10:12,925 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-08-31 19:10:12,925 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:10:12,938 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:10:12,938 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:10:12,954 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
-2026-08-31 19:10:12,954 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:10:12,967 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
-2026-08-31 19:10:12,967 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 19:10:12,980 [INFO]   [S0-HYD] Checking: Trainee Engineer
-2026-08-31 19:10:12,980 [INFO]   [filter] No skill match: Trainee Engineer
-2026-08-31 19:10:12,993 [INFO]   [S0-HYD] Checking: Quality Engineer
-2026-08-31 19:10:12,994 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 19:10:13,007 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
-2026-08-31 19:10:13,007 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 19:10:13,020 [INFO]   [S0-HYD] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:10:13,020 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:10:13,034 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 19:10:13,034 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 19:10:13,047 [INFO]   [S0-HYD] Checking: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:10:13,047 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:10:13,060 [INFO]   [S0-HYD] Checking: Cobol Developer
-2026-08-31 19:10:13,060 [INFO]   [filter] No skill match: Cobol Developer
-2026-08-31 19:10:13,073 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-08-31 19:10:13,074 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-31 19:10:13,087 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-08-31 19:10:13,087 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-31 19:10:13,101 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:10:13,101 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:11:29,096 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-08-31 19:12:45,376 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-08-31 19:14:01,501 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-08-31 19:15:17,926 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-08-31 19:16:33,952 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-08-31 19:17:50,325 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-08-31 19:19:06,150 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-08-31 19:20:22,429 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-08-31 19:21:38,409 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-08-31 19:22:54,872 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-08-31 19:24:12,775 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-08-31 19:25:28,999 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-08-31 19:26:44,935 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-08-31 19:26:44,935 [INFO] 
+2026-08-31 23:39:09,088 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-08-31 23:39:09,088 [INFO] ███████████████████████████████████████████████████████
+2026-08-31 23:40:10,642 [INFO]   [S0-HYD] Java Developer: 19 listings
+2026-08-31 23:40:10,663 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
+2026-08-31 23:40:10,663 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-08-31 23:40:10,678 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
+2026-08-31 23:40:10,678 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-08-31 23:40:10,693 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-31 23:40:10,693 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-31 23:40:10,708 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
+2026-08-31 23:40:10,708 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-08-31 23:40:10,723 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
+2026-08-31 23:40:10,723 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-08-31 23:40:10,738 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
+2026-08-31 23:40:10,738 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-08-31 23:40:10,752 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
+2026-08-31 23:40:10,752 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-08-31 23:40:10,767 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:40:10,767 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:40:10,784 [INFO]   [S0-HYD] Checking: Trainee Engineer
+2026-08-31 23:40:10,784 [INFO]   [filter] No skill match: Trainee Engineer
+2026-08-31 23:40:10,799 [INFO]   [S0-HYD] Checking: Quality Engineer
+2026-08-31 23:40:10,799 [INFO]   [filter] No skill match: Quality Engineer
+2026-08-31 23:40:10,814 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-08-31 23:40:10,814 [INFO]   [filter] No skill match: CSA Professional
+2026-08-31 23:40:10,829 [INFO]   [S0-HYD] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-08-31 23:40:10,829 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-08-31 23:40:10,844 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
+2026-08-31 23:40:10,844 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-08-31 23:40:10,859 [INFO]   [S0-HYD] Checking: Virtualization Security Engineer / Infrastructure Security Executive
+2026-08-31 23:40:10,860 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
+2026-08-31 23:40:10,875 [INFO]   [S0-HYD] Checking: Cobol Developer
+2026-08-31 23:40:10,875 [INFO]   [filter] No skill match: Cobol Developer
+2026-08-31 23:40:10,890 [INFO]   [S0-HYD] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-08-31 23:40:10,890 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-08-31 23:40:10,905 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-31 23:40:10,906 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-31 23:40:10,921 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-31 23:40:10,921 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-31 23:40:10,936 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:40:10,936 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:41:26,806 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-08-31 23:42:27,942 [INFO]   [S0-HYD] Python Developer: 16 listings
+2026-08-31 23:42:27,958 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
+2026-08-31 23:42:27,958 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-08-31 23:42:27,973 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:42:27,973 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:42:27,988 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:42:27,988 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:42:28,002 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
+2026-08-31 23:42:28,002 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-08-31 23:42:28,017 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-31 23:42:28,017 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-31 23:42:28,031 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
+2026-08-31 23:42:28,032 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-08-31 23:42:28,046 [INFO]   [S0-HYD] Checking: Trainee Engineer
+2026-08-31 23:42:28,046 [INFO]   [filter] No skill match: Trainee Engineer
+2026-08-31 23:42:28,060 [INFO]   [S0-HYD] Checking: Quality Engineer
+2026-08-31 23:42:28,061 [INFO]   [filter] No skill match: Quality Engineer
+2026-08-31 23:42:28,075 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
+2026-08-31 23:42:28,075 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-08-31 23:42:28,090 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-08-31 23:42:28,090 [INFO]   [filter] No skill match: CSA Professional
+2026-08-31 23:42:28,105 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
+2026-08-31 23:42:28,105 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-08-31 23:42:28,120 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
+2026-08-31 23:42:28,120 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-08-31 23:42:28,134 [INFO]   [S0-HYD] Checking: Cobol Developer
+2026-08-31 23:42:28,134 [INFO]   [filter] No skill match: Cobol Developer
+2026-08-31 23:42:28,149 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-31 23:42:28,149 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-31 23:42:28,163 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-31 23:42:28,163 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-31 23:42:28,178 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:42:28,178 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:43:44,086 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-08-31 23:44:45,421 [INFO]   [S0-HYD] SQL Developer: 13 listings
+2026-08-31 23:44:45,436 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
+2026-08-31 23:44:45,436 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-08-31 23:44:45,450 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:44:45,450 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:44:45,464 [INFO]   [S0-HYD] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-08-31 23:44:45,464 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-08-31 23:44:45,478 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-08-31 23:44:45,478 [INFO]   [filter] No skill match: CSA Professional
+2026-08-31 23:44:45,492 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
+2026-08-31 23:44:45,493 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-08-31 23:44:45,507 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
+2026-08-31 23:44:45,507 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-08-31 23:44:45,521 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:44:45,521 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:44:45,536 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-31 23:44:45,536 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-31 23:44:45,550 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
+2026-08-31 23:44:45,550 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-08-31 23:44:45,564 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
+2026-08-31 23:44:45,565 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-08-31 23:44:45,578 [INFO]   [S0-HYD] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-08-31 23:44:45,578 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-08-31 23:44:45,592 [INFO]   [S0-HYD] Checking: Virtualization Security Engineer / Infrastructure Security Executive
+2026-08-31 23:44:45,592 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
+2026-08-31 23:44:45,606 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:44:45,607 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:46:01,493 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-08-31 23:47:02,918 [INFO]   [S0-HYD] Software Engineer: 20 listings
+2026-08-31 23:47:02,932 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:47:02,932 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:47:02,946 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:47:02,946 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:47:02,959 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:47:02,959 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:47:02,973 [INFO]   [S0-HYD] Checking: IT Network Engineer | IT Software engineer
+2026-08-31 23:47:02,973 [INFO]   [filter] Excluded 'network engineer': IT Network Engineer | IT Software engineer
+2026-08-31 23:47:02,986 [INFO]   [S0-HYD] Checking: Quality Engineer
+2026-08-31 23:47:02,986 [INFO]   [filter] No skill match: Quality Engineer
+2026-08-31 23:47:03,000 [INFO]   [S0-HYD] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-08-31 23:47:03,000 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-08-31 23:47:03,014 [INFO]   [S0-HYD] Checking: Developer
+2026-08-31 23:47:03,014 [INFO]   [filter] No skill match: Developer
+2026-08-31 23:47:03,028 [INFO]   [S0-HYD] Checking: Developer
+2026-08-31 23:47:03,028 [INFO]   [filter] No skill match: Developer
+2026-08-31 23:47:03,041 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
+2026-08-31 23:47:03,041 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-08-31 23:47:03,055 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
+2026-08-31 23:47:03,055 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-08-31 23:47:03,069 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
+2026-08-31 23:47:03,069 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-08-31 23:47:03,082 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
+2026-08-31 23:47:03,082 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-08-31 23:47:03,096 [INFO]   [S0-HYD] Checking: Cobol Developer
+2026-08-31 23:47:03,096 [INFO]   [filter] No skill match: Cobol Developer
+2026-08-31 23:47:03,109 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
+2026-08-31 23:47:03,109 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-08-31 23:47:03,123 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-31 23:47:03,123 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-31 23:47:03,137 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
+2026-08-31 23:47:03,137 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-08-31 23:47:03,150 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
+2026-08-31 23:47:03,150 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-08-31 23:47:03,166 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-08-31 23:47:03,166 [INFO]   [filter] No skill match: CSA Professional
+2026-08-31 23:47:03,179 [INFO]   [S0-HYD] Checking: Trainee Engineer
+2026-08-31 23:47:03,180 [INFO]   [filter] No skill match: Trainee Engineer
+2026-08-31 23:47:03,193 [INFO]   [S0-HYD] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-08-31 23:47:03,193 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-08-31 23:48:19,191 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-08-31 23:49:20,270 [INFO]   [S0-HYD] Associate Software Engineer: 20 listings
+2026-08-31 23:49:20,284 [INFO]   [S0-HYD] Checking: Quality Engineer
+2026-08-31 23:49:20,284 [INFO]   [filter] No skill match: Quality Engineer
+2026-08-31 23:49:20,298 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
+2026-08-31 23:49:20,298 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-08-31 23:49:20,311 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:49:20,311 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:49:20,325 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-31 23:49:20,325 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-31 23:49:20,338 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
+2026-08-31 23:49:20,338 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-08-31 23:49:20,352 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
+2026-08-31 23:49:20,352 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-08-31 23:49:20,365 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-08-31 23:49:20,365 [INFO]   [filter] No skill match: CSA Professional
+2026-08-31 23:49:20,379 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
+2026-08-31 23:49:20,379 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-08-31 23:49:20,393 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:49:20,393 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:49:20,407 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
+2026-08-31 23:49:20,407 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-08-31 23:49:20,421 [INFO]   [S0-HYD] Checking: Trainee Engineer
+2026-08-31 23:49:20,421 [INFO]   [filter] No skill match: Trainee Engineer
+2026-08-31 23:49:20,434 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
+2026-08-31 23:49:20,434 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-08-31 23:49:20,448 [INFO]   [S0-HYD] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-08-31 23:49:20,448 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-08-31 23:49:20,462 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
+2026-08-31 23:49:20,462 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-08-31 23:49:20,476 [INFO]   [S0-HYD] Checking: Virtualization Security Engineer / Infrastructure Security Executive
+2026-08-31 23:49:20,476 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
+2026-08-31 23:49:20,490 [INFO]   [S0-HYD] Checking: Cobol Developer
+2026-08-31 23:49:20,490 [INFO]   [filter] No skill match: Cobol Developer
+2026-08-31 23:49:20,504 [INFO]   [S0-HYD] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-08-31 23:49:20,504 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-08-31 23:49:20,517 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-31 23:49:20,517 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-31 23:49:20,532 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-31 23:49:20,532 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-31 23:49:20,546 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:49:20,546 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:50:36,508 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-08-31 23:51:37,708 [INFO]   [S0-HYD] Data Analyst: 20 listings
+2026-08-31 23:51:37,727 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
+2026-08-31 23:51:37,727 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-08-31 23:51:37,741 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-31 23:51:37,741 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-31 23:51:37,755 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
+2026-08-31 23:51:37,755 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-08-31 23:51:37,769 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
+2026-08-31 23:51:37,769 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-08-31 23:51:37,784 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
+2026-08-31 23:51:37,784 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-08-31 23:51:37,798 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
+2026-08-31 23:51:37,798 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-08-31 23:51:37,812 [INFO]   [S0-HYD] Checking: Quality Engineer
+2026-08-31 23:51:37,812 [INFO]   [filter] No skill match: Quality Engineer
+2026-08-31 23:51:37,827 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
+2026-08-31 23:51:37,827 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-08-31 23:51:37,842 [INFO]   [S0-HYD] Checking: Hiring Analyst For KYC/AML
+2026-08-31 23:51:37,842 [INFO]   [filter] No skill match: Hiring Analyst For KYC/AML
+2026-08-31 23:51:37,856 [INFO]   [S0-HYD] Checking: Data Analytic | Fresher | Business Analytics
+2026-08-31 23:51:37,856 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-08-31 23:51:37,871 [INFO]   [S0-HYD] Checking: Walk-in || POI Mapping - Fresher
+2026-08-31 23:51:37,871 [INFO]   [filter] No skill match: Walk-in || POI Mapping - Fresher
+2026-08-31 23:51:37,885 [INFO]   [S0-HYD] Checking: KYC AML Analyst | Banking Operations | Freshers | Gurugram
+2026-08-31 23:51:37,885 [INFO]   [filter] Excluded 'bank': KYC AML Analyst | Banking Operations | Freshers | Gurugram
+2026-08-31 23:51:37,899 [INFO]   [S0-HYD] Checking: Investment Banking Analyst
+2026-08-31 23:51:37,899 [INFO]   [filter] Excluded 'bank': Investment Banking Analyst
+2026-08-31 23:51:37,913 [INFO]   [S0-HYD] Checking: Walk-in || Research And Development Officer
+2026-08-31 23:51:37,914 [INFO]   [filter] No skill match: Walk-in || Research And Development Officer
+2026-08-31 23:51:37,928 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:51:37,928 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:51:37,941 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-08-31 23:51:37,942 [INFO]   [filter] No skill match: CSA Professional
+2026-08-31 23:51:37,956 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:51:37,956 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:51:37,971 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
+2026-08-31 23:51:37,971 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-08-31 23:51:37,984 [INFO]   [S0-HYD] Checking: Trainee Engineer
+2026-08-31 23:51:37,984 [INFO]   [filter] No skill match: Trainee Engineer
+2026-08-31 23:51:37,999 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
+2026-08-31 23:51:37,999 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-08-31 23:52:53,976 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-08-31 23:53:55,136 [INFO]   [S0-HYD] AI ML Engineer: 20 listings
+2026-08-31 23:53:55,150 [INFO]   [S0-HYD] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-08-31 23:53:55,151 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-08-31 23:53:55,165 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
+2026-08-31 23:53:55,165 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-08-31 23:53:55,178 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:53:55,179 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:53:55,192 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-31 23:53:55,192 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-31 23:53:55,206 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
+2026-08-31 23:53:55,206 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-08-31 23:53:55,220 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
+2026-08-31 23:53:55,220 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-08-31 23:53:55,234 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-08-31 23:53:55,234 [INFO]   [filter] No skill match: CSA Professional
+2026-08-31 23:53:55,248 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
+2026-08-31 23:53:55,248 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-08-31 23:53:55,262 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:53:55,262 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:53:55,276 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
+2026-08-31 23:53:55,276 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-08-31 23:53:55,289 [INFO]   [S0-HYD] Checking: Trainee Engineer
+2026-08-31 23:53:55,290 [INFO]   [filter] No skill match: Trainee Engineer
+2026-08-31 23:53:55,304 [INFO]   [S0-HYD] Checking: Quality Engineer
+2026-08-31 23:53:55,304 [INFO]   [filter] No skill match: Quality Engineer
+2026-08-31 23:53:55,318 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
+2026-08-31 23:53:55,318 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-08-31 23:53:55,332 [INFO]   [S0-HYD] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-08-31 23:53:55,332 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-08-31 23:53:55,346 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
+2026-08-31 23:53:55,346 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-08-31 23:53:55,361 [INFO]   [S0-HYD] Checking: Virtualization Security Engineer / Infrastructure Security Executive
+2026-08-31 23:53:55,361 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
+2026-08-31 23:53:55,374 [INFO]   [S0-HYD] Checking: Cobol Developer
+2026-08-31 23:53:55,374 [INFO]   [filter] No skill match: Cobol Developer
+2026-08-31 23:53:55,388 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-31 23:53:55,388 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-31 23:53:55,402 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-31 23:53:55,402 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-31 23:53:55,416 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:53:55,416 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:55:11,225 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-08-31 23:56:12,272 [INFO]   [S0-HYD] Machine Learning Engineer: 20 listings
+2026-08-31 23:56:12,287 [INFO]   [S0-HYD] Checking: Consultant - Data Engineer
+2026-08-31 23:56:12,287 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-08-31 23:56:12,301 [INFO]   [S0-HYD] Checking: Senior - Data Engineer
+2026-08-31 23:56:12,301 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-08-31 23:56:12,315 [INFO]   [S0-HYD] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-08-31 23:56:12,316 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-08-31 23:56:12,330 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:56:12,330 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:56:12,346 [INFO]   [S0-HYD] Checking: Consultant - Product Analyst
+2026-08-31 23:56:12,346 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-08-31 23:56:12,360 [INFO]   [S0-HYD] Checking: Senior - Power BI Developer
+2026-08-31 23:56:12,360 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-08-31 23:56:12,374 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-08-31 23:56:12,374 [INFO]   [filter] No skill match: CSA Professional
+2026-08-31 23:56:12,391 [INFO]   [S0-HYD] Checking: Tier 1 Production Support Engineer
+2026-08-31 23:56:12,391 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-08-31 23:56:12,405 [INFO]   [S0-HYD] Checking: Senior - Software Engineer
+2026-08-31 23:56:12,405 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-08-31 23:56:12,419 [INFO]   [S0-HYD] Checking: Consultant - Site Reliability Engineer
+2026-08-31 23:56:12,419 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-08-31 23:56:12,434 [INFO]   [S0-HYD] Checking: Trainee Engineer
+2026-08-31 23:56:12,434 [INFO]   [filter] No skill match: Trainee Engineer
+2026-08-31 23:56:12,448 [INFO]   [S0-HYD] Checking: Quality Engineer
+2026-08-31 23:56:12,449 [INFO]   [filter] No skill match: Quality Engineer
+2026-08-31 23:56:12,462 [INFO]   [S0-HYD] Checking: Guidewire Developer Fresher
+2026-08-31 23:56:12,463 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-08-31 23:56:12,477 [INFO]   [S0-HYD] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-08-31 23:56:12,477 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-08-31 23:56:12,491 [INFO]   [S0-HYD] Checking: Dot Net Core-Non Paid Internship
+2026-08-31 23:56:12,491 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-08-31 23:56:12,505 [INFO]   [S0-HYD] Checking: Virtualization Security Engineer / Infrastructure Security Executive
+2026-08-31 23:56:12,505 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
+2026-08-31 23:56:12,519 [INFO]   [S0-HYD] Checking: Cobol Developer
+2026-08-31 23:56:12,519 [INFO]   [filter] No skill match: Cobol Developer
+2026-08-31 23:56:12,533 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-08-31 23:56:12,533 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-08-31 23:56:12,548 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-08-31 23:56:12,548 [INFO]   [filter] No skill match: Fresher Graduate
+2026-08-31 23:56:12,563 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:56:12,563 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-08-31 23:57:28,334 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-08-31 23:58:44,697 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-01 00:00:00,601 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-01 00:01:16,758 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-01 00:02:32,642 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-01 00:03:48,861 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-01 00:05:04,843 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-01 00:06:21,260 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-01 00:07:37,290 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-01 00:08:53,892 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-01 00:10:09,838 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-01 00:11:26,231 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-01 00:12:42,404 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-01 00:12:42,405 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-31 19:26:44,935 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-08-31 19:26:44,935 [INFO] ███████████████████████████████████████████████████████
-2026-08-31 19:27:46,213 [INFO]   [S1] Java Developer: 20 listings
-2026-08-31 19:27:46,231 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-08-31 19:27:46,231 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 19:27:46,244 [INFO]   [S1] Checking: Consultant - Data Engineer
-2026-08-31 19:27:46,244 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:27:46,256 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-31 19:27:46,256 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:27:46,269 [INFO]   [S1] Checking: Senior - Power BI Developer
-2026-08-31 19:27:46,269 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:27:46,281 [INFO]   [S1] Checking: Senior - Data Engineer
-2026-08-31 19:27:46,281 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:27:46,293 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:27:46,293 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:27:46,305 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-31 19:27:46,305 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-31 19:27:46,318 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
-2026-08-31 19:27:46,318 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 19:27:46,331 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:27:46,331 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:27:46,343 [INFO]   [S1] Checking: Trainee Engineer
-2026-08-31 19:27:46,343 [INFO]   [filter] No skill match: Trainee Engineer
-2026-08-31 19:27:46,355 [INFO]   [S1] Checking: Quality Engineer
-2026-08-31 19:27:46,355 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 19:27:46,368 [INFO]   [S1] Checking: CSA Professional
-2026-08-31 19:27:46,368 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:27:46,380 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:27:46,380 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:27:46,392 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 19:27:46,392 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 19:27:46,404 [INFO]   [S1] Checking: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:27:46,404 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:27:46,417 [INFO]   [S1] Checking: Cobol Developer
-2026-08-31 19:27:46,417 [INFO]   [filter] No skill match: Cobol Developer
-2026-08-31 19:27:46,429 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:27:46,429 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:27:46,441 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-31 19:27:46,442 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-31 19:27:46,454 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-31 19:27:46,454 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-31 19:27:46,466 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-31 19:27:46,466 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-31 19:28:47,627 [INFO]   [S1] Python Developer: 18 listings
-2026-08-31 19:28:47,640 [INFO]   [S1] Checking: Senior - Power BI Developer
-2026-08-31 19:28:47,640 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:28:47,653 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:28:47,653 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:28:47,665 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:28:47,665 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:28:47,678 [INFO]   [S1] Checking: Consultant - Data Engineer
-2026-08-31 19:28:47,678 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:28:47,690 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-31 19:28:47,690 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:28:47,702 [INFO]   [S1] Checking: Senior - Data Engineer
-2026-08-31 19:28:47,702 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:28:47,715 [INFO]   [S1] Checking: Trainee Engineer
-2026-08-31 19:28:47,715 [INFO]   [filter] No skill match: Trainee Engineer
-2026-08-31 19:28:47,727 [INFO]   [S1] Checking: Quality Engineer
-2026-08-31 19:28:47,727 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 19:28:47,753 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-08-31 19:28:47,753 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 19:28:47,784 [INFO]   [S1] Checking: CSA Professional
-2026-08-31 19:28:47,784 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:28:47,798 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:28:47,798 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:28:47,810 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 19:28:47,810 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 19:28:47,823 [INFO]   [S1] Checking: Cobol Developer
-2026-08-31 19:28:47,823 [INFO]   [filter] No skill match: Cobol Developer
-2026-08-31 19:28:47,835 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-31 19:28:47,835 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-31 19:28:47,848 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-31 19:28:47,848 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-31 19:28:47,860 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-31 19:28:47,860 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-31 19:28:47,873 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-31 19:28:47,873 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-31 19:28:47,885 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:28:47,885 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:29:48,971 [INFO]   [S1] SQL Developer: 15 listings
-2026-08-31 19:29:48,984 [INFO]   [S1] Checking: Senior - Power BI Developer
-2026-08-31 19:29:48,984 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:29:48,997 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:29:48,997 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:29:49,009 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:29:49,009 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:29:49,022 [INFO]   [S1] Checking: CSA Professional
-2026-08-31 19:29:49,022 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:29:49,035 [INFO]   [S1] Checking: Consultant - Data Engineer
-2026-08-31 19:29:49,035 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:29:49,047 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
-2026-08-31 19:29:49,047 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 19:29:49,060 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:29:49,060 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:29:49,072 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-31 19:29:49,073 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:29:49,086 [INFO]   [S1] Checking: Senior - Data Engineer
-2026-08-31 19:29:49,086 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:29:49,098 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:29:49,098 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:29:49,110 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:29:49,111 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:29:49,123 [INFO]   [S1] Checking: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:29:49,123 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:29:49,135 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-31 19:29:49,136 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-31 19:29:49,148 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-31 19:29:49,148 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-31 19:29:49,160 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:29:49,160 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:30:50,308 [INFO]   [S1] Software Engineer: 20 listings
-2026-08-31 19:30:50,322 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:30:50,322 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-08-31 19:30:50,335 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:30:50,335 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:30:50,347 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:30:50,347 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:30:50,360 [INFO]   [S1] Checking: IT Network Engineer | IT Software engineer
-2026-08-31 19:30:50,360 [INFO]   [filter] Excluded 'network engineer': IT Network Engineer | IT Software engineer
-2026-08-31 19:30:50,373 [INFO]   [S1] Checking: Quality Engineer
-2026-08-31 19:30:50,373 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 19:30:50,386 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:30:50,386 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:30:50,398 [INFO]   [S1] Checking: Associate Instructor - Aptitude
-2026-08-31 19:30:50,398 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
-2026-08-31 19:30:50,411 [INFO]   [S1] Checking: Developer
-2026-08-31 19:30:50,411 [INFO]   [filter] No skill match: Developer
-2026-08-31 19:30:50,424 [INFO]   [S1] Checking: Developer
-2026-08-31 19:30:50,424 [INFO]   [filter] No skill match: Developer
-2026-08-31 19:30:50,437 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:30:50,437 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:30:50,450 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
-2026-08-31 19:30:50,450 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 19:30:50,462 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-08-31 19:30:50,462 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 19:30:50,475 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 19:30:50,475 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 19:30:50,488 [INFO]   [S1] Checking: Cobol Developer
-2026-08-31 19:30:50,488 [INFO]   [filter] No skill match: Cobol Developer
-2026-08-31 19:30:50,501 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-31 19:30:50,501 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-31 19:30:50,513 [INFO]   [S1] Checking: Consultant - Data Engineer
-2026-08-31 19:30:50,513 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:30:50,526 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-31 19:30:50,527 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:30:50,540 [INFO]   [S1] Checking: Senior - Power BI Developer
-2026-08-31 19:30:50,540 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:30:50,553 [INFO]   [S1] Checking: Senior - Data Engineer
-2026-08-31 19:30:50,553 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:30:50,565 [INFO]   [S1] Checking: CSA Professional
-2026-08-31 19:30:50,566 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:31:51,777 [INFO]   [S1] Associate Software Engineer: 20 listings
-2026-08-31 19:31:51,791 [INFO]   [S1] Checking: Quality Engineer
-2026-08-31 19:31:51,791 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 19:31:51,805 [INFO]   [S1] Checking: Consultant - Data Engineer
-2026-08-31 19:31:51,805 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:31:51,818 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:31:51,818 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:31:51,831 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-31 19:31:51,831 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:31:51,844 [INFO]   [S1] Checking: Senior - Power BI Developer
-2026-08-31 19:31:51,844 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:31:51,856 [INFO]   [S1] Checking: Senior - Data Engineer
-2026-08-31 19:31:51,857 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:31:51,870 [INFO]   [S1] Checking: CSA Professional
-2026-08-31 19:31:51,870 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:31:51,883 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:31:51,883 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:31:51,896 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-31 19:31:51,896 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-31 19:31:51,912 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:31:51,912 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:31:51,925 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
-2026-08-31 19:31:51,925 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 19:31:51,937 [INFO]   [S1] Checking: Trainee Engineer
-2026-08-31 19:31:51,937 [INFO]   [filter] No skill match: Trainee Engineer
-2026-08-31 19:31:51,950 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-08-31 19:31:51,950 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 19:31:51,963 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:31:51,963 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:31:51,976 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 19:31:51,976 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 19:31:51,989 [INFO]   [S1] Checking: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:31:51,989 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:31:52,002 [INFO]   [S1] Checking: Cobol Developer
-2026-08-31 19:31:52,002 [INFO]   [filter] No skill match: Cobol Developer
-2026-08-31 19:31:52,015 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:31:52,015 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:31:52,028 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-31 19:31:52,028 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-31 19:31:52,041 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-31 19:31:52,041 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-31 19:32:53,292 [INFO]   [S1] Data Analyst: 20 listings
-2026-08-31 19:32:53,305 [INFO]   [S1] Checking: Consultant - Data Engineer
-2026-08-31 19:32:53,305 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:32:53,318 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-08-31 19:32:53,318 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-08-31 19:32:53,332 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-31 19:32:53,332 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:32:53,345 [INFO]   [S1] Checking: Senior - Power BI Developer
-2026-08-31 19:32:53,345 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:32:53,358 [INFO]   [S1] Checking: Senior - Data Engineer
-2026-08-31 19:32:53,358 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:32:53,370 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:32:53,370 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:32:53,383 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 19:32:53,383 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 19:32:53,396 [INFO]   [S1] Checking: Quality Engineer
-2026-08-31 19:32:53,396 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 19:32:53,409 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
-2026-08-31 19:32:53,409 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-08-31 19:32:53,422 [INFO]   [S1] Checking: Hiring Analyst For KYC/AML
-2026-08-31 19:32:53,422 [INFO]   [filter] No skill match: Hiring Analyst For KYC/AML
-2026-08-31 19:32:53,435 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
-2026-08-31 19:32:53,435 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
-2026-08-31 19:32:53,448 [INFO]   [S1] Checking: Walk-in || POI Mapping - Fresher
-2026-08-31 19:32:53,448 [INFO]   [filter] No skill match: Walk-in || POI Mapping - Fresher
-2026-08-31 19:32:53,462 [INFO]   [S1] Checking: KYC AML Analyst | Banking Operations | Freshers | Gurugram
-2026-08-31 19:32:53,462 [INFO]   [filter] Excluded 'bank': KYC AML Analyst | Banking Operations | Freshers | Gurugram
-2026-08-31 19:32:53,475 [INFO]   [S1] Checking: Investment Banking Analyst
-2026-08-31 19:32:53,475 [INFO]   [filter] Excluded 'bank': Investment Banking Analyst
-2026-08-31 19:32:53,488 [INFO]   [S1] Checking: Walk-in || Research And Development Officer
-2026-08-31 19:32:53,488 [INFO]   [filter] No skill match: Walk-in || Research And Development Officer
-2026-08-31 19:32:53,501 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:32:53,501 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:32:53,513 [INFO]   [S1] Checking: CSA Professional
-2026-08-31 19:32:53,514 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:32:53,527 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-31 19:32:53,527 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-31 19:32:53,540 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:32:53,541 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:32:53,554 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
-2026-08-31 19:32:53,554 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 19:33:55,439 [INFO]   [S1] AI ML Engineer: 20 listings
-2026-08-31 19:33:55,453 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:33:55,453 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:33:55,468 [INFO]   [S1] Checking: Consultant - Data Engineer
-2026-08-31 19:33:55,468 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:33:55,481 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:33:55,481 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:33:55,494 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-31 19:33:55,494 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:33:55,507 [INFO]   [S1] Checking: Senior - Power BI Developer
-2026-08-31 19:33:55,507 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:33:55,522 [INFO]   [S1] Checking: Senior - Data Engineer
-2026-08-31 19:33:55,522 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:33:55,537 [INFO]   [S1] Checking: CSA Professional
-2026-08-31 19:33:55,537 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:33:55,552 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:33:55,552 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:33:55,568 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-31 19:33:55,568 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-31 19:33:55,583 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:33:55,584 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:33:55,598 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
-2026-08-31 19:33:55,599 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 19:33:55,614 [INFO]   [S1] Checking: Trainee Engineer
-2026-08-31 19:33:55,614 [INFO]   [filter] No skill match: Trainee Engineer
-2026-08-31 19:33:55,629 [INFO]   [S1] Checking: Quality Engineer
-2026-08-31 19:33:55,629 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 19:33:55,643 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-08-31 19:33:55,643 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 19:33:55,656 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:33:55,656 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:33:55,671 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 19:33:55,671 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 19:33:55,688 [INFO]   [S1] Checking: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:33:55,688 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:33:55,704 [INFO]   [S1] Checking: Cobol Developer
-2026-08-31 19:33:55,705 [INFO]   [filter] No skill match: Cobol Developer
-2026-08-31 19:33:55,719 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-31 19:33:55,720 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-31 19:33:55,734 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-31 19:33:55,735 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-31 19:34:57,147 [INFO]   [S1] Machine Learning Engineer: 20 listings
-2026-08-31 19:34:57,161 [INFO]   [S1] Checking: Consultant - Data Engineer
-2026-08-31 19:34:57,161 [INFO]   [filter] No skill match: Consultant - Data Engineer
-2026-08-31 19:34:57,174 [INFO]   [S1] Checking: Senior - Data Engineer
-2026-08-31 19:34:57,174 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
-2026-08-31 19:34:57,188 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:34:57,188 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-08-31 19:34:57,201 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:34:57,202 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:34:57,215 [INFO]   [S1] Checking: Consultant - Product Analyst
-2026-08-31 19:34:57,215 [INFO]   [filter] No skill match: Consultant - Product Analyst
-2026-08-31 19:34:57,228 [INFO]   [S1] Checking: Senior - Power BI Developer
-2026-08-31 19:34:57,228 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
-2026-08-31 19:34:57,241 [INFO]   [S1] Checking: CSA Professional
-2026-08-31 19:34:57,241 [INFO]   [filter] No skill match: CSA Professional
-2026-08-31 19:34:57,254 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-08-31 19:34:57,254 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-08-31 19:34:57,267 [INFO]   [S1] Checking: Workload Automation Engineer (Fresher)
-2026-08-31 19:34:57,267 [INFO]   [filter] No skill match: Workload Automation Engineer (Fresher)
-2026-08-31 19:34:57,280 [INFO]   [S1] Checking: Senior - Software Engineer
-2026-08-31 19:34:57,280 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
-2026-08-31 19:34:57,294 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
-2026-08-31 19:34:57,294 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
-2026-08-31 19:34:57,307 [INFO]   [S1] Checking: Trainee Engineer
-2026-08-31 19:34:57,307 [INFO]   [filter] No skill match: Trainee Engineer
-2026-08-31 19:34:57,319 [INFO]   [S1] Checking: Quality Engineer
-2026-08-31 19:34:57,319 [INFO]   [filter] No skill match: Quality Engineer
-2026-08-31 19:34:57,332 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-08-31 19:34:57,332 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-08-31 19:34:57,345 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:34:57,345 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-08-31 19:34:57,358 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-08-31 19:34:57,359 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-08-31 19:34:57,371 [INFO]   [S1] Checking: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:34:57,372 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
-2026-08-31 19:34:57,385 [INFO]   [S1] Checking: Cobol Developer
-2026-08-31 19:34:57,385 [INFO]   [filter] No skill match: Cobol Developer
-2026-08-31 19:34:57,398 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-08-31 19:34:57,398 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-08-31 19:34:57,411 [INFO]   [S1] Checking: Fresher Graduate
-2026-08-31 19:34:57,411 [INFO]   [filter] No skill match: Fresher Graduate
-2026-08-31 19:34:57,411 [INFO] 
+2026-09-01 00:12:42,405 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-01 00:12:42,405 [INFO] ███████████████████████████████████████████████████████
+2026-09-01 00:13:43,349 [INFO]   [S1] Java Developer: 19 listings
+2026-09-01 00:13:43,368 [INFO]   [S1] Checking: Guidewire Developer Fresher
+2026-09-01 00:13:43,368 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-09-01 00:13:43,381 [INFO]   [S1] Checking: Consultant - Data Engineer
+2026-09-01 00:13:43,381 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-09-01 00:13:43,394 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-09-01 00:13:43,394 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-09-01 00:13:43,407 [INFO]   [S1] Checking: Senior - Power BI Developer
+2026-09-01 00:13:43,407 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-09-01 00:13:43,421 [INFO]   [S1] Checking: Senior - Data Engineer
+2026-09-01 00:13:43,421 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-09-01 00:13:43,434 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-01 00:13:43,434 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-01 00:13:43,447 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
+2026-09-01 00:13:43,447 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-09-01 00:13:43,460 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:13:43,460 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:13:43,473 [INFO]   [S1] Checking: Trainee Engineer
+2026-09-01 00:13:43,474 [INFO]   [filter] No skill match: Trainee Engineer
+2026-09-01 00:13:43,487 [INFO]   [S1] Checking: Quality Engineer
+2026-09-01 00:13:43,487 [INFO]   [filter] No skill match: Quality Engineer
+2026-09-01 00:13:43,500 [INFO]   [S1] Checking: CSA Professional
+2026-09-01 00:13:43,500 [INFO]   [filter] No skill match: CSA Professional
+2026-09-01 00:13:43,516 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-09-01 00:13:43,516 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-09-01 00:13:43,529 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-01 00:13:43,529 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-01 00:13:43,543 [INFO]   [S1] Checking: Virtualization Security Engineer / Infrastructure Security Executive
+2026-09-01 00:13:43,543 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
+2026-09-01 00:13:43,556 [INFO]   [S1] Checking: Cobol Developer
+2026-09-01 00:13:43,556 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-01 00:13:43,569 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-01 00:13:43,569 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-01 00:13:43,583 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-01 00:13:43,583 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-01 00:13:43,596 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-01 00:13:43,596 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-01 00:13:43,609 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:13:43,609 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:14:44,747 [INFO]   [S1] Python Developer: 16 listings
+2026-09-01 00:14:44,761 [INFO]   [S1] Checking: Senior - Power BI Developer
+2026-09-01 00:14:44,761 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-09-01 00:14:44,775 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:14:44,775 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:14:44,788 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:14:44,788 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:14:44,802 [INFO]   [S1] Checking: Consultant - Data Engineer
+2026-09-01 00:14:44,802 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-09-01 00:14:44,815 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-09-01 00:14:44,815 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-09-01 00:14:44,828 [INFO]   [S1] Checking: Senior - Data Engineer
+2026-09-01 00:14:44,828 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-09-01 00:14:44,841 [INFO]   [S1] Checking: Trainee Engineer
+2026-09-01 00:14:44,841 [INFO]   [filter] No skill match: Trainee Engineer
+2026-09-01 00:14:44,854 [INFO]   [S1] Checking: Quality Engineer
+2026-09-01 00:14:44,854 [INFO]   [filter] No skill match: Quality Engineer
+2026-09-01 00:14:44,867 [INFO]   [S1] Checking: Guidewire Developer Fresher
+2026-09-01 00:14:44,867 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-09-01 00:14:44,881 [INFO]   [S1] Checking: CSA Professional
+2026-09-01 00:14:44,881 [INFO]   [filter] No skill match: CSA Professional
+2026-09-01 00:14:44,894 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-01 00:14:44,894 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-01 00:14:44,907 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-01 00:14:44,907 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-01 00:14:44,920 [INFO]   [S1] Checking: Cobol Developer
+2026-09-01 00:14:44,920 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-01 00:14:44,933 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-01 00:14:44,933 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-01 00:14:44,946 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-01 00:14:44,946 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-01 00:14:44,960 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:14:44,960 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:15:46,453 [INFO]   [S1] SQL Developer: 13 listings
+2026-09-01 00:15:46,468 [INFO]   [S1] Checking: Senior - Power BI Developer
+2026-09-01 00:15:46,468 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-09-01 00:15:46,481 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:15:46,482 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:15:46,495 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-01 00:15:46,495 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-01 00:15:46,508 [INFO]   [S1] Checking: CSA Professional
+2026-09-01 00:15:46,509 [INFO]   [filter] No skill match: CSA Professional
+2026-09-01 00:15:46,522 [INFO]   [S1] Checking: Consultant - Data Engineer
+2026-09-01 00:15:46,522 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-09-01 00:15:46,536 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
+2026-09-01 00:15:46,536 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-09-01 00:15:46,549 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:15:46,549 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:15:46,563 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-09-01 00:15:46,563 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-09-01 00:15:46,576 [INFO]   [S1] Checking: Senior - Data Engineer
+2026-09-01 00:15:46,576 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-09-01 00:15:46,590 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-01 00:15:46,590 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-01 00:15:46,603 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-09-01 00:15:46,603 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-09-01 00:15:46,616 [INFO]   [S1] Checking: Virtualization Security Engineer / Infrastructure Security Executive
+2026-09-01 00:15:46,616 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
+2026-09-01 00:15:46,629 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:15:46,629 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:16:47,756 [INFO]   [S1] Software Engineer: 20 listings
+2026-09-01 00:16:47,770 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:16:47,770 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:16:47,784 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:16:47,784 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:16:47,797 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:16:47,797 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:16:47,811 [INFO]   [S1] Checking: IT Network Engineer | IT Software engineer
+2026-09-01 00:16:47,811 [INFO]   [filter] Excluded 'network engineer': IT Network Engineer | IT Software engineer
+2026-09-01 00:16:47,824 [INFO]   [S1] Checking: Quality Engineer
+2026-09-01 00:16:47,824 [INFO]   [filter] No skill match: Quality Engineer
+2026-09-01 00:16:47,837 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-01 00:16:47,837 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-01 00:16:47,850 [INFO]   [S1] Checking: Developer
+2026-09-01 00:16:47,850 [INFO]   [filter] No skill match: Developer
+2026-09-01 00:16:47,863 [INFO]   [S1] Checking: Developer
+2026-09-01 00:16:47,864 [INFO]   [filter] No skill match: Developer
+2026-09-01 00:16:47,877 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-01 00:16:47,877 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-01 00:16:47,890 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
+2026-09-01 00:16:47,890 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-09-01 00:16:47,903 [INFO]   [S1] Checking: Guidewire Developer Fresher
+2026-09-01 00:16:47,903 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-09-01 00:16:47,917 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-01 00:16:47,917 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-01 00:16:47,930 [INFO]   [S1] Checking: Cobol Developer
+2026-09-01 00:16:47,930 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-01 00:16:47,943 [INFO]   [S1] Checking: Consultant - Data Engineer
+2026-09-01 00:16:47,943 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-09-01 00:16:47,956 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-09-01 00:16:47,956 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-09-01 00:16:47,969 [INFO]   [S1] Checking: Senior - Power BI Developer
+2026-09-01 00:16:47,969 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-09-01 00:16:47,982 [INFO]   [S1] Checking: Senior - Data Engineer
+2026-09-01 00:16:47,982 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-09-01 00:16:47,996 [INFO]   [S1] Checking: CSA Professional
+2026-09-01 00:16:47,996 [INFO]   [filter] No skill match: CSA Professional
+2026-09-01 00:16:48,009 [INFO]   [S1] Checking: Trainee Engineer
+2026-09-01 00:16:48,009 [INFO]   [filter] No skill match: Trainee Engineer
+2026-09-01 00:16:48,022 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-09-01 00:16:48,022 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-09-01 00:17:49,100 [INFO]   [S1] Associate Software Engineer: 20 listings
+2026-09-01 00:17:49,115 [INFO]   [S1] Checking: Quality Engineer
+2026-09-01 00:17:49,115 [INFO]   [filter] No skill match: Quality Engineer
+2026-09-01 00:17:49,129 [INFO]   [S1] Checking: Consultant - Data Engineer
+2026-09-01 00:17:49,129 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-09-01 00:17:49,142 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:17:49,142 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:17:49,156 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-09-01 00:17:49,156 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-09-01 00:17:49,170 [INFO]   [S1] Checking: Senior - Power BI Developer
+2026-09-01 00:17:49,170 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-09-01 00:17:49,183 [INFO]   [S1] Checking: Senior - Data Engineer
+2026-09-01 00:17:49,183 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-09-01 00:17:49,197 [INFO]   [S1] Checking: CSA Professional
+2026-09-01 00:17:49,197 [INFO]   [filter] No skill match: CSA Professional
+2026-09-01 00:17:49,210 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-01 00:17:49,210 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-01 00:17:49,224 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:17:49,224 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:17:49,237 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
+2026-09-01 00:17:49,237 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-09-01 00:17:49,250 [INFO]   [S1] Checking: Trainee Engineer
+2026-09-01 00:17:49,250 [INFO]   [filter] No skill match: Trainee Engineer
+2026-09-01 00:17:49,265 [INFO]   [S1] Checking: Guidewire Developer Fresher
+2026-09-01 00:17:49,265 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-09-01 00:17:49,278 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-09-01 00:17:49,279 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-09-01 00:17:49,292 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-01 00:17:49,292 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-01 00:17:49,306 [INFO]   [S1] Checking: Virtualization Security Engineer / Infrastructure Security Executive
+2026-09-01 00:17:49,306 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
+2026-09-01 00:17:49,319 [INFO]   [S1] Checking: Cobol Developer
+2026-09-01 00:17:49,319 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-01 00:17:49,333 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-01 00:17:49,333 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-01 00:17:49,346 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-01 00:17:49,346 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-01 00:17:49,360 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-01 00:17:49,360 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-01 00:17:49,374 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:17:49,374 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:18:50,402 [INFO]   [S1] Data Analyst: 20 listings
+2026-09-01 00:18:50,416 [INFO]   [S1] Checking: Consultant - Data Engineer
+2026-09-01 00:18:50,417 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-09-01 00:18:50,430 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-09-01 00:18:50,430 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-09-01 00:18:50,443 [INFO]   [S1] Checking: Senior - Power BI Developer
+2026-09-01 00:18:50,443 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-09-01 00:18:50,456 [INFO]   [S1] Checking: Senior - Data Engineer
+2026-09-01 00:18:50,456 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-09-01 00:18:50,469 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-01 00:18:50,469 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-01 00:18:50,482 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-01 00:18:50,482 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-01 00:18:50,498 [INFO]   [S1] Checking: Quality Engineer
+2026-09-01 00:18:50,498 [INFO]   [filter] No skill match: Quality Engineer
+2026-09-01 00:18:50,511 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
+2026-09-01 00:18:50,511 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-09-01 00:18:50,524 [INFO]   [S1] Checking: Hiring Analyst For KYC/AML
+2026-09-01 00:18:50,525 [INFO]   [filter] No skill match: Hiring Analyst For KYC/AML
+2026-09-01 00:18:50,538 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-01 00:18:50,538 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-01 00:18:50,551 [INFO]   [S1] Checking: Walk-in || POI Mapping - Fresher
+2026-09-01 00:18:50,551 [INFO]   [filter] No skill match: Walk-in || POI Mapping - Fresher
+2026-09-01 00:18:50,565 [INFO]   [S1] Checking: KYC AML Analyst | Banking Operations | Freshers | Gurugram
+2026-09-01 00:18:50,565 [INFO]   [filter] Excluded 'bank': KYC AML Analyst | Banking Operations | Freshers | Gurugram
+2026-09-01 00:18:50,578 [INFO]   [S1] Checking: Investment Banking Analyst
+2026-09-01 00:18:50,578 [INFO]   [filter] Excluded 'bank': Investment Banking Analyst
+2026-09-01 00:18:50,592 [INFO]   [S1] Checking: Walk-in || Research And Development Officer
+2026-09-01 00:18:50,592 [INFO]   [filter] No skill match: Walk-in || Research And Development Officer
+2026-09-01 00:18:50,605 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:18:50,605 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:18:50,619 [INFO]   [S1] Checking: CSA Professional
+2026-09-01 00:18:50,619 [INFO]   [filter] No skill match: CSA Professional
+2026-09-01 00:18:50,632 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:18:50,632 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:18:50,645 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
+2026-09-01 00:18:50,645 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-09-01 00:18:50,658 [INFO]   [S1] Checking: Trainee Engineer
+2026-09-01 00:18:50,659 [INFO]   [filter] No skill match: Trainee Engineer
+2026-09-01 00:18:50,672 [INFO]   [S1] Checking: Guidewire Developer Fresher
+2026-09-01 00:18:50,672 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-09-01 00:19:51,697 [INFO]   [S1] AI ML Engineer: 20 listings
+2026-09-01 00:19:51,711 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-01 00:19:51,711 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-01 00:19:51,724 [INFO]   [S1] Checking: Consultant - Data Engineer
+2026-09-01 00:19:51,725 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-09-01 00:19:51,737 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:19:51,737 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:19:51,750 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-09-01 00:19:51,750 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-09-01 00:19:51,763 [INFO]   [S1] Checking: Senior - Power BI Developer
+2026-09-01 00:19:51,763 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-09-01 00:19:51,778 [INFO]   [S1] Checking: Senior - Data Engineer
+2026-09-01 00:19:51,779 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-09-01 00:19:51,794 [INFO]   [S1] Checking: CSA Professional
+2026-09-01 00:19:51,794 [INFO]   [filter] No skill match: CSA Professional
+2026-09-01 00:19:51,808 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-01 00:19:51,808 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-01 00:19:51,822 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:19:51,822 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:19:51,835 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
+2026-09-01 00:19:51,835 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-09-01 00:19:51,849 [INFO]   [S1] Checking: Trainee Engineer
+2026-09-01 00:19:51,849 [INFO]   [filter] No skill match: Trainee Engineer
+2026-09-01 00:19:51,862 [INFO]   [S1] Checking: Quality Engineer
+2026-09-01 00:19:51,862 [INFO]   [filter] No skill match: Quality Engineer
+2026-09-01 00:19:51,875 [INFO]   [S1] Checking: Guidewire Developer Fresher
+2026-09-01 00:19:51,875 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-09-01 00:19:51,889 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-09-01 00:19:51,889 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-09-01 00:19:51,902 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-01 00:19:51,902 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-01 00:19:51,915 [INFO]   [S1] Checking: Virtualization Security Engineer / Infrastructure Security Executive
+2026-09-01 00:19:51,915 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
+2026-09-01 00:19:51,928 [INFO]   [S1] Checking: Cobol Developer
+2026-09-01 00:19:51,928 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-01 00:19:51,942 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-01 00:19:51,942 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-01 00:19:51,955 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-01 00:19:51,955 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-01 00:19:51,969 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:19:51,969 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:20:53,108 [INFO]   [S1] Machine Learning Engineer: 20 listings
+2026-09-01 00:20:53,122 [INFO]   [S1] Checking: Consultant - Data Engineer
+2026-09-01 00:20:53,122 [INFO]   [filter] No skill match: Consultant - Data Engineer
+2026-09-01 00:20:53,138 [INFO]   [S1] Checking: Senior - Data Engineer
+2026-09-01 00:20:53,138 [INFO]   [filter] Excluded 'senior': Senior - Data Engineer
+2026-09-01 00:20:53,153 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-01 00:20:53,153 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-01 00:20:53,167 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:20:53,167 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:20:53,180 [INFO]   [S1] Checking: Consultant - Product Analyst
+2026-09-01 00:20:53,181 [INFO]   [filter] No skill match: Consultant - Product Analyst
+2026-09-01 00:20:53,194 [INFO]   [S1] Checking: Senior - Power BI Developer
+2026-09-01 00:20:53,194 [INFO]   [filter] Excluded 'senior': Senior - Power BI Developer
+2026-09-01 00:20:53,208 [INFO]   [S1] Checking: CSA Professional
+2026-09-01 00:20:53,208 [INFO]   [filter] No skill match: CSA Professional
+2026-09-01 00:20:53,221 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-01 00:20:53,221 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-01 00:20:53,234 [INFO]   [S1] Checking: Senior - Software Engineer
+2026-09-01 00:20:53,234 [INFO]   [filter] Excluded 'senior': Senior - Software Engineer
+2026-09-01 00:20:53,248 [INFO]   [S1] Checking: Consultant - Site Reliability Engineer
+2026-09-01 00:20:53,248 [INFO]   [filter] No skill match: Consultant - Site Reliability Engineer
+2026-09-01 00:20:53,262 [INFO]   [S1] Checking: Trainee Engineer
+2026-09-01 00:20:53,262 [INFO]   [filter] No skill match: Trainee Engineer
+2026-09-01 00:20:53,276 [INFO]   [S1] Checking: Quality Engineer
+2026-09-01 00:20:53,276 [INFO]   [filter] No skill match: Quality Engineer
+2026-09-01 00:20:53,290 [INFO]   [S1] Checking: Guidewire Developer Fresher
+2026-09-01 00:20:53,290 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-09-01 00:20:53,303 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-09-01 00:20:53,303 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-09-01 00:20:53,317 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-01 00:20:53,317 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-01 00:20:53,331 [INFO]   [S1] Checking: Virtualization Security Engineer / Infrastructure Security Executive
+2026-09-01 00:20:53,331 [INFO]   [filter] No skill match: Virtualization Security Engineer / Infrastructure Security Executive
+2026-09-01 00:20:53,344 [INFO]   [S1] Checking: Cobol Developer
+2026-09-01 00:20:53,345 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-01 00:20:53,358 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-01 00:20:53,358 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-01 00:20:53,372 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-01 00:20:53,372 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-01 00:20:53,385 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:20:53,385 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-01 00:20:53,385 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-31 19:34:57,411 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-08-31 19:34:57,411 [INFO] ███████████████████████████████████████████████████████
-2026-08-31 19:50:12,456 [INFO] 
+2026-09-01 00:20:53,385 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-01 00:20:53,385 [INFO] ███████████████████████████████████████████████████████
+2026-09-01 00:36:06,975 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-31 19:50:12,456 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-08-31 19:50:12,456 [INFO] ███████████████████████████████████████████████████████
-2026-08-31 19:51:28,445 [INFO]   [S3] Java Developer: 0 listings
-2026-08-31 19:52:44,454 [INFO]   [S3] Python Developer: 0 listings
-2026-08-31 19:54:00,412 [INFO]   [S3] SQL Developer: 0 listings
-2026-08-31 19:55:16,465 [INFO]   [S3] Software Engineer: 0 listings
-2026-08-31 19:56:32,448 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-08-31 19:57:48,491 [INFO]   [S3] Data Analyst: 0 listings
-2026-08-31 19:59:04,457 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-08-31 20:00:20,326 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-08-31 20:00:20,326 [INFO] 
+2026-09-01 00:36:06,976 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-01 00:36:06,976 [INFO] ███████████████████████████████████████████████████████
+2026-09-01 00:37:23,025 [INFO]   [S3] Java Developer: 0 listings
+2026-09-01 00:38:39,036 [INFO]   [S3] Python Developer: 0 listings
+2026-09-01 00:39:55,166 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-01 00:41:11,104 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-01 00:42:27,079 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-01 00:43:42,977 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-01 00:44:58,924 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-01 00:46:14,966 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-01 00:46:14,966 [INFO] 
 ███████████████████████████████████████████████████████
-2026-08-31 20:00:20,326 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-08-31 20:00:20,326 [INFO] ███████████████████████████████████████████████████████
-2026-08-31 20:15:32,599 [INFO] 
+2026-09-01 00:46:14,966 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-01 00:46:14,966 [INFO] ███████████████████████████████████████████████████████
+2026-09-01 01:01:26,332 [INFO] 
 =======================================================
-2026-08-31 20:15:32,599 [INFO]   Run complete — Applied this session : 1
-2026-08-31 20:15:32,599 [INFO]   Total ever applied                  : 275
-2026-08-31 20:15:32,599 [INFO] =======================================================
+2026-09-01 01:01:26,332 [INFO]   Run complete — Applied this session : 0
+2026-09-01 01:01:26,333 [INFO]   Total ever applied                  : 275
+2026-09-01 01:01:26,333 [INFO] =======================================================

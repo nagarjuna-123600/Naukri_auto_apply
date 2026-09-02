@@ -1,675 +1,645 @@
-2026-09-02 19:20:54,741 [INFO] GitHub Actions — single run mode
-2026-09-02 19:20:54,741 [INFO] 
+2026-09-02 22:22:18,047 [INFO] GitHub Actions — single run mode
+2026-09-02 22:22:18,047 [INFO] 
 =======================================================
-2026-09-02 19:20:54,741 [INFO]   Run started: 2026-09-02 19:20:54
-2026-09-02 19:20:54,741 [INFO] =======================================================
-2026-09-02 19:20:54,742 [INFO] Previously applied: 282 jobs
-2026-09-02 19:20:54,743 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-02 19:20:54,743 [INFO] ====== WebDriver manager ======
-2026-09-02 19:20:56,348 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-02 19:20:56,403 [INFO] There is no [linux64] chromedriver "152.0.7977.75" for browser google-chrome "152.0.7977" in cache
-2026-09-02 19:20:56,439 [INFO] There is no [linux64] chromedriver "152.0.7977.75" for browser google-chrome "152.0.7977" in cache
-2026-09-02 19:20:56,439 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-02 19:20:56,574 [INFO] WebDriver version 152.0.7977.75 selected
-2026-09-02 19:20:56,581 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.75/linux64/chromedriver-linux64.zip
-2026-09-02 19:20:56,581 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.75/linux64/chromedriver-linux64.zip
-2026-09-02 19:20:56,654 [INFO] Driver downloading response is 200
-2026-09-02 19:20:56,909 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.75]
-2026-09-02 19:21:03,120 [INFO]   Trying cookie login...
-2026-09-02 19:21:08,339 [INFO]   Loading 34 cookies...
-2026-09-02 19:21:12,497 [INFO]   ✅ Cookie login successful!
-2026-09-02 19:21:12,497 [INFO] 
+2026-09-02 22:22:18,047 [INFO]   Run started: 2026-09-02 22:22:18
+2026-09-02 22:22:18,048 [INFO] =======================================================
+2026-09-02 22:22:18,048 [INFO] Previously applied: 282 jobs
+2026-09-02 22:22:18,049 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-02 22:22:18,049 [INFO] ====== WebDriver manager ======
+2026-09-02 22:22:21,240 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-02 22:22:21,311 [INFO] There is no [linux64] chromedriver "152.0.7977.75" for browser google-chrome "152.0.7977" in cache
+2026-09-02 22:22:21,347 [INFO] There is no [linux64] chromedriver "152.0.7977.75" for browser google-chrome "152.0.7977" in cache
+2026-09-02 22:22:21,347 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-02 22:22:21,488 [INFO] WebDriver version 152.0.7977.75 selected
+2026-09-02 22:22:21,495 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.75/linux64/chromedriver-linux64.zip
+2026-09-02 22:22:21,495 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.75/linux64/chromedriver-linux64.zip
+2026-09-02 22:22:21,568 [INFO] Driver downloading response is 200
+2026-09-02 22:22:21,917 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.75]
+2026-09-02 22:22:35,804 [INFO]   Trying cookie login...
+2026-09-02 22:22:40,582 [INFO]   Loading 34 cookies...
+2026-09-02 22:22:44,799 [INFO]   ✅ Cookie login successful!
+2026-09-02 22:22:44,799 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-02 19:21:12,497 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-02 19:21:12,497 [INFO] ───────────────────────────────────────────────────────
-2026-09-02 19:21:12,497 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-02 19:22:19,427 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-02 19:22:24,958 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-02 19:22:27,312 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-02 19:22:30,333 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-02 19:22:33,365 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-02 19:22:33,366 [INFO] 
+2026-09-02 22:22:44,799 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-02 22:22:44,799 [INFO] ───────────────────────────────────────────────────────
+2026-09-02 22:22:44,799 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-09-02 22:23:51,679 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-02 22:23:57,239 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-02 22:23:59,596 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-02 22:24:02,619 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-02 22:24:05,656 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-09-02 22:24:05,657 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-02 19:22:33,366 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-02 19:22:33,366 [INFO] ███████████████████████████████████████████████████████
-2026-09-02 19:23:35,054 [INFO]   [S0-HYD] Java Developer: 14 listings
-2026-09-02 19:23:35,072 [INFO]   [S0-HYD] Checking: SE Trainee .Net
-2026-09-02 19:23:35,072 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 19:23:35,085 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:23:35,085 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:23:35,099 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-02 19:23:35,099 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-02 19:23:35,111 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-02 19:23:35,111 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 19:23:35,123 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:23:35,123 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:23:35,135 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
-2026-09-02 19:23:35,135 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
-2026-09-02 19:23:35,147 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:23:35,147 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:23:35,159 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:23:35,159 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:23:35,171 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:23:35,171 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:23:35,184 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-02 19:23:35,184 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-02 19:23:35,196 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
-2026-09-02 19:23:35,196 [INFO]   [filter] No skill match: Junior AI ML programmer
-2026-09-02 19:23:35,208 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-09-02 19:23:35,208 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-02 19:23:35,220 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:23:35,220 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:23:35,232 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:23:35,232 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:24:51,015 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-02 19:25:52,198 [INFO]   [S0-HYD] Python Developer: 13 listings
-2026-09-02 19:25:52,210 [INFO]   [S0-HYD] Checking: SE Trainee .Net
-2026-09-02 19:25:52,210 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 19:25:52,222 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:25:52,222 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:25:52,235 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:25:52,235 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:25:52,247 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-02 19:25:52,247 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 19:25:52,259 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
-2026-09-02 19:25:52,259 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 19:25:52,272 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:25:52,272 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:25:52,284 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:25:52,284 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:25:52,296 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:25:52,296 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:25:52,308 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:25:52,308 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:25:52,320 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-02 19:25:52,321 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-02 19:25:52,333 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-09-02 19:25:52,333 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-02 19:25:52,345 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:25:52,346 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:25:52,358 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:25:52,358 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:27:08,398 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-02 19:28:09,673 [INFO]   [S0-HYD] SQL Developer: 13 listings
-2026-09-02 19:28:09,686 [INFO]   [S0-HYD] Checking: SE Trainee .Net
-2026-09-02 19:28:09,686 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 19:28:09,699 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:28:09,699 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:28:09,712 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:28:09,712 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:28:09,725 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:28:09,725 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:28:09,737 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:28:09,738 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:28:09,750 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-02 19:28:09,750 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-02 19:28:09,762 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
-2026-09-02 19:28:09,762 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 19:28:09,775 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:28:09,776 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:28:09,788 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
-2026-09-02 19:28:09,789 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
-2026-09-02 19:28:09,801 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:28:09,801 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:28:09,814 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
-2026-09-02 19:28:09,814 [INFO]   [filter] No skill match: Junior AI ML programmer
-2026-09-02 19:28:09,827 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-09-02 19:28:09,827 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-02 19:28:09,840 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:28:09,840 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:29:25,782 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-02 19:30:26,812 [INFO]   [S0-HYD] Software Engineer: 20 listings
-2026-09-02 19:30:26,825 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:30:26,825 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:30:26,838 [INFO]   [S0-HYD] Checking: SE Trainee .Net
-2026-09-02 19:30:26,838 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 19:30:26,851 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:30:26,851 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:30:26,863 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:30:26,864 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:30:26,876 [INFO]   [S0-HYD] Checking: Construction ERP Implementation Engineer
-2026-09-02 19:30:26,876 [INFO]   [filter] No skill match: Construction ERP Implementation Engineer
-2026-09-02 19:30:26,889 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
-2026-09-02 19:30:26,889 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
-2026-09-02 19:30:26,901 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
-2026-09-02 19:30:26,901 [INFO]   [filter] No skill match: Junior AI ML programmer
-2026-09-02 19:30:26,914 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-02 19:30:26,914 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 19:30:26,926 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:30:26,927 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:30:26,939 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:30:26,939 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:30:26,951 [INFO]   [S0-HYD] Checking: Junior Software Developer
-2026-09-02 19:30:26,951 [INFO]   Already applied: Junior Software Developer
-2026-09-02 19:30:26,963 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
-2026-09-02 19:30:26,964 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 19:30:26,976 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:30:26,976 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:30:26,988 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-02 19:30:26,988 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-02 19:30:27,001 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:30:27,001 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:30:27,013 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:30:27,014 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:30:27,026 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:30:27,026 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:30:27,038 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-02 19:30:27,039 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-02 19:30:27,051 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-09-02 19:30:27,052 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-02 19:30:27,064 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:30:27,064 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:31:43,003 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-02 19:32:43,945 [INFO]   [S0-HYD] Associate Software Engineer: 17 listings
-2026-09-02 19:32:43,957 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:32:43,958 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:32:43,970 [INFO]   [S0-HYD] Checking: SE Trainee .Net
-2026-09-02 19:32:43,970 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 19:32:43,982 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:32:43,982 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:32:43,994 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:32:43,994 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:32:44,006 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:32:44,006 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:32:44,018 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-02 19:32:44,018 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-02 19:32:44,033 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-02 19:32:44,033 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 19:32:44,046 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
-2026-09-02 19:32:44,046 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 19:32:44,058 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:32:44,058 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:32:44,070 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
-2026-09-02 19:32:44,070 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
-2026-09-02 19:32:44,082 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:32:44,083 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:32:44,095 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:32:44,095 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:32:44,107 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-02 19:32:44,107 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-02 19:32:44,119 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
-2026-09-02 19:32:44,119 [INFO]   [filter] No skill match: Junior AI ML programmer
-2026-09-02 19:32:44,132 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-09-02 19:32:44,132 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-02 19:32:44,144 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:32:44,144 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:32:44,156 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:32:44,157 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:34:00,062 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-02 19:35:01,184 [INFO]   [S0-HYD] Data Analyst: 20 listings
-2026-09-02 19:35:01,197 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-09-02 19:35:01,197 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-02 19:35:01,211 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:35:01,211 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:35:01,224 [INFO]   [S0-HYD] Checking: SE Trainee .Net
-2026-09-02 19:35:01,224 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 19:35:01,237 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:35:01,237 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:35:01,251 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
-2026-09-02 19:35:01,251 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-09-02 19:35:01,264 [INFO]   [S0-HYD] Checking: Walk-in || AI Data Processing Associate | Data Annotation | AI/ML Projects |
-2026-09-02 19:35:01,264 [INFO]   [filter] No skill match: Walk-in || AI Data Processing Associate | Data Annotation | AI/ML Projects |
-2026-09-02 19:35:01,278 [INFO]   [S0-HYD] Checking: Digital Marketer
-2026-09-02 19:35:01,278 [INFO]   [filter] No skill match: Digital Marketer
-2026-09-02 19:35:01,292 [INFO]   [S0-HYD] Checking: Market Research Analyst
-2026-09-02 19:35:01,292 [INFO]   [filter] No skill match: Market Research Analyst
-2026-09-02 19:35:01,306 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:35:01,306 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:35:01,320 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:35:01,320 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:35:01,333 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:35:01,333 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:35:01,346 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:35:01,346 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:35:01,359 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-02 19:35:01,359 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-02 19:35:01,373 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-02 19:35:01,373 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 19:35:01,386 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
-2026-09-02 19:35:01,386 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 19:35:01,399 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:35:01,400 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:35:01,413 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
-2026-09-02 19:35:01,413 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
-2026-09-02 19:35:01,426 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:35:01,426 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:35:01,440 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-02 19:35:01,440 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-02 19:35:01,454 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
-2026-09-02 19:35:01,454 [INFO]   [filter] No skill match: Junior AI ML programmer
-2026-09-02 19:36:17,299 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-02 19:37:18,337 [INFO]   [S0-HYD] AI ML Engineer: 17 listings
-2026-09-02 19:37:18,350 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
-2026-09-02 19:37:18,350 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
-2026-09-02 19:37:18,362 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
-2026-09-02 19:37:18,362 [INFO]   [filter] No skill match: Junior AI ML programmer
-2026-09-02 19:37:18,375 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-02 19:37:18,375 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-02 19:37:18,388 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:37:18,388 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:37:18,400 [INFO]   [S0-HYD] Checking: SE Trainee .Net
-2026-09-02 19:37:18,400 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 19:37:18,412 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:37:18,413 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:37:18,425 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:37:18,425 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:37:18,437 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:37:18,437 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:37:18,450 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-02 19:37:18,450 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 19:37:18,462 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
-2026-09-02 19:37:18,462 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 19:37:18,474 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:37:18,474 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:37:18,487 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:37:18,487 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:37:18,499 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:37:18,499 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:37:18,512 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-02 19:37:18,512 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-02 19:37:18,524 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-09-02 19:37:18,524 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-02 19:37:18,537 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:37:18,537 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:37:18,549 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:37:18,550 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:38:34,458 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-02 19:39:35,562 [INFO]   [S0-HYD] Machine Learning Engineer: 17 listings
-2026-09-02 19:39:35,575 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:39:35,575 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:39:35,588 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
-2026-09-02 19:39:35,588 [INFO]   [filter] No skill match: Junior AI ML programmer
-2026-09-02 19:39:35,602 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:39:35,602 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:39:35,615 [INFO]   [S0-HYD] Checking: SE Trainee .Net
-2026-09-02 19:39:35,615 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 19:39:35,629 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:39:35,629 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:39:35,641 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-02 19:39:35,641 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:39:35,654 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:39:35,655 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:39:35,667 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-02 19:39:35,667 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-02 19:39:35,680 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-02 19:39:35,680 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 19:39:35,693 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
-2026-09-02 19:39:35,693 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 19:39:35,706 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
-2026-09-02 19:39:35,706 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
-2026-09-02 19:39:35,719 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-02 19:39:35,719 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:39:35,732 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:39:35,732 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:39:35,745 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-02 19:39:35,745 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-02 19:39:35,758 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
-2026-09-02 19:39:35,758 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-02 19:39:35,771 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:39:35,771 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:39:35,783 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:39:35,783 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:40:51,691 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-02 19:42:08,042 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-02 19:43:24,007 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-02 19:44:40,230 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-02 19:45:56,266 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-02 19:47:12,391 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-02 19:48:28,329 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-02 19:49:44,547 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-02 19:51:00,611 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-02 19:52:16,918 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-02 19:53:32,845 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-02 19:54:49,056 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-02 19:56:04,973 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-02 19:56:04,974 [INFO] 
+2026-09-02 22:24:05,657 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-02 22:24:05,657 [INFO] ███████████████████████████████████████████████████████
+2026-09-02 22:25:07,095 [INFO]   [S0-HYD] Java Developer: 13 listings
+2026-09-02 22:25:07,113 [INFO]   [S0-HYD] Checking: SE Trainee .Net
+2026-09-02 22:25:07,113 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 22:25:07,126 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:25:07,126 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:25:07,139 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
+2026-09-02 22:25:07,139 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 22:25:07,151 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:25:07,151 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:25:07,164 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 22:25:07,164 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 22:25:07,176 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:25:07,177 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:25:07,198 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:25:07,198 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:25:07,243 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:25:07,243 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:25:07,255 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-02 22:25:07,255 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-02 22:25:07,268 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
+2026-09-02 22:25:07,268 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 22:25:07,280 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 22:25:07,280 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 22:25:07,292 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:25:07,292 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:25:07,304 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:25:07,304 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:26:23,252 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-02 22:27:24,306 [INFO]   [S0-HYD] Python Developer: 11 listings
+2026-09-02 22:27:24,320 [INFO]   [S0-HYD] Checking: SE Trainee .Net
+2026-09-02 22:27:24,320 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 22:27:24,333 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:27:24,333 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:27:24,345 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-09-02 22:27:24,345 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-02 22:27:24,358 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
+2026-09-02 22:27:24,358 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 22:27:24,370 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:27:24,371 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:27:24,383 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:27:24,383 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:27:24,396 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:27:24,396 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:27:24,409 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-02 22:27:24,409 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-02 22:27:24,422 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 22:27:24,422 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 22:27:24,435 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:27:24,435 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:27:24,447 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:27:24,447 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:28:40,384 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-02 22:29:41,622 [INFO]   [S0-HYD] SQL Developer: 12 listings
+2026-09-02 22:29:41,636 [INFO]   [S0-HYD] Checking: SE Trainee .Net
+2026-09-02 22:29:41,636 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 22:29:41,648 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:29:41,648 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:29:41,661 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:29:41,661 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:29:41,673 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:29:41,673 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:29:41,686 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-09-02 22:29:41,686 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-02 22:29:41,698 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
+2026-09-02 22:29:41,698 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 22:29:41,711 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
+2026-09-02 22:29:41,711 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 22:29:41,723 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:29:41,723 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:29:41,736 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 22:29:41,736 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 22:29:41,749 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
+2026-09-02 22:29:41,749 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 22:29:41,761 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 22:29:41,761 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 22:29:41,773 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:29:41,773 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:30:57,477 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-02 22:31:58,618 [INFO]   [S0-HYD] Software Engineer: 19 listings
+2026-09-02 22:31:58,631 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:31:58,631 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:31:58,643 [INFO]   [S0-HYD] Checking: SE Trainee .Net
+2026-09-02 22:31:58,643 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 22:31:58,656 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:31:58,656 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:31:58,668 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:31:58,669 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:31:58,681 [INFO]   [S0-HYD] Checking: Construction ERP Implementation Engineer
+2026-09-02 22:31:58,681 [INFO]   [filter] No skill match: Construction ERP Implementation Engineer
+2026-09-02 22:31:58,693 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 22:31:58,693 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 22:31:58,705 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
+2026-09-02 22:31:58,705 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 22:31:58,718 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:31:58,718 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:31:58,731 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:31:58,731 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:31:58,744 [INFO]   [S0-HYD] Checking: Junior Software Developer
+2026-09-02 22:31:58,744 [INFO]   Already applied: Junior Software Developer
+2026-09-02 22:31:58,757 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
+2026-09-02 22:31:58,757 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 22:31:58,770 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:31:58,770 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:31:58,782 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
+2026-09-02 22:31:58,782 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 22:31:58,795 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-09-02 22:31:58,795 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-02 22:31:58,808 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:31:58,808 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:31:58,820 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-02 22:31:58,820 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-02 22:31:58,833 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 22:31:58,833 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 22:31:58,845 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:31:58,846 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:31:58,858 [INFO]   [S0-HYD] Checking: Hiring For All Engineers
+2026-09-02 22:31:58,858 [INFO]   [filter] No skill match: Hiring For All Engineers
+2026-09-02 22:33:14,805 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-02 22:34:16,049 [INFO]   [S0-HYD] Associate Software Engineer: 15 listings
+2026-09-02 22:34:16,062 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:34:16,063 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:34:16,075 [INFO]   [S0-HYD] Checking: SE Trainee .Net
+2026-09-02 22:34:16,075 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 22:34:16,088 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:34:16,088 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:34:16,100 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:34:16,100 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:34:16,113 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-09-02 22:34:16,113 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-02 22:34:16,126 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
+2026-09-02 22:34:16,126 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 22:34:16,138 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
+2026-09-02 22:34:16,138 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 22:34:16,151 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:34:16,151 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:34:16,165 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 22:34:16,165 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 22:34:16,178 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:34:16,178 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:34:16,191 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-02 22:34:16,191 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-02 22:34:16,204 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
+2026-09-02 22:34:16,204 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 22:34:16,216 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 22:34:16,217 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 22:34:16,229 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:34:16,229 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:34:16,242 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:34:16,242 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:35:32,131 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-02 22:36:33,247 [INFO]   [S0-HYD] Data Analyst: 19 listings
+2026-09-02 22:36:33,260 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 22:36:33,260 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 22:36:33,272 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:36:33,272 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:36:33,285 [INFO]   [S0-HYD] Checking: SE Trainee .Net
+2026-09-02 22:36:33,285 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 22:36:33,297 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:36:33,298 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:36:33,310 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
+2026-09-02 22:36:33,310 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-09-02 22:36:33,322 [INFO]   [S0-HYD] Checking: Walk-in || AI Data Processing Associate | Data Annotation | AI/ML Projects |
+2026-09-02 22:36:33,322 [INFO]   [filter] No skill match: Walk-in || AI Data Processing Associate | Data Annotation | AI/ML Projects |
+2026-09-02 22:36:33,335 [INFO]   [S0-HYD] Checking: Digital Marketer
+2026-09-02 22:36:33,335 [INFO]   [filter] No skill match: Digital Marketer
+2026-09-02 22:36:33,348 [INFO]   [S0-HYD] Checking: Market Research Analyst
+2026-09-02 22:36:33,348 [INFO]   [filter] No skill match: Market Research Analyst
+2026-09-02 22:36:33,360 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:36:33,360 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:36:33,372 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:36:33,372 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:36:33,385 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:36:33,385 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:36:33,397 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-09-02 22:36:33,397 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-02 22:36:33,410 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
+2026-09-02 22:36:33,410 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 22:36:33,422 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
+2026-09-02 22:36:33,422 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 22:36:33,434 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:36:33,434 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:36:33,447 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 22:36:33,447 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 22:36:33,459 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-02 22:36:33,459 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-02 22:36:33,472 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
+2026-09-02 22:36:33,472 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 22:36:33,484 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:36:33,484 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:37:49,407 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-02 22:38:50,658 [INFO]   [S0-HYD] AI ML Engineer: 15 listings
+2026-09-02 22:38:50,672 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 22:38:50,672 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 22:38:50,685 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
+2026-09-02 22:38:50,685 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 22:38:50,698 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
+2026-09-02 22:38:50,698 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 22:38:50,711 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:38:50,711 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:38:50,723 [INFO]   [S0-HYD] Checking: SE Trainee .Net
+2026-09-02 22:38:50,723 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 22:38:50,736 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:38:50,736 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:38:50,750 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:38:50,750 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:38:50,764 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-09-02 22:38:50,764 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-02 22:38:50,778 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
+2026-09-02 22:38:50,778 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 22:38:50,790 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:38:50,790 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:38:50,803 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:38:50,803 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:38:50,816 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-02 22:38:50,817 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-02 22:38:50,829 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 22:38:50,830 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 22:38:50,843 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:38:50,843 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:38:50,857 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:38:50,857 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:40:06,659 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-02 22:41:08,013 [INFO]   [S0-HYD] Machine Learning Engineer: 15 listings
+2026-09-02 22:41:08,027 [INFO]   [S0-HYD] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:41:08,027 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:41:08,040 [INFO]   [S0-HYD] Checking: Junior AI ML programmer
+2026-09-02 22:41:08,041 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 22:41:08,054 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:41:08,054 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:41:08,068 [INFO]   [S0-HYD] Checking: SE Trainee .Net
+2026-09-02 22:41:08,068 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 22:41:08,082 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:41:08,082 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:41:08,097 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-02 22:41:08,097 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:41:08,110 [INFO]   [S0-HYD] Checking: Housekeeping Associate
+2026-09-02 22:41:08,111 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-02 22:41:08,124 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
+2026-09-02 22:41:08,124 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 22:41:08,138 [INFO]   [S0-HYD] Checking: Android & iOS App Developer
+2026-09-02 22:41:08,138 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 22:41:08,152 [INFO]   [S0-HYD] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 22:41:08,153 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 22:41:08,166 [INFO]   [S0-HYD] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:41:08,166 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:41:08,179 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-02 22:41:08,179 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-02 22:41:08,192 [INFO]   [S0-HYD] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 22:41:08,192 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 22:41:08,205 [INFO]   [S0-HYD] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:41:08,205 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:41:08,218 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:41:08,218 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:42:24,019 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-02 22:43:40,230 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-02 22:44:56,066 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-02 22:46:12,360 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-02 22:47:28,216 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-02 22:48:44,439 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-02 22:50:00,293 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-02 22:51:16,536 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-02 22:52:32,440 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-02 22:53:48,591 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-02 22:55:04,471 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-02 22:56:20,713 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-02 22:57:36,495 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-02 22:57:36,495 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-02 19:56:04,974 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-02 19:56:04,974 [INFO] ███████████████████████████████████████████████████████
-2026-09-02 19:57:06,144 [INFO]   [S1] Java Developer: 20 listings
-2026-09-02 19:57:06,163 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-02 19:57:06,163 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 19:57:06,176 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-09-02 19:57:06,176 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-09-02 19:57:06,189 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-09-02 19:57:06,189 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-09-02 19:57:06,202 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:57:06,202 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:57:06,215 [INFO]   [S1] Checking: Trainee Engineer
-2026-09-02 19:57:06,215 [INFO]   [filter] No skill match: Trainee Engineer
-2026-09-02 19:57:06,228 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-09-02 19:57:06,229 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-09-02 19:57:06,241 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-09-02 19:57:06,242 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-09-02 19:57:06,254 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-02 19:57:06,254 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-02 19:57:06,267 [INFO]   [S1] Checking: Cobol Developer
-2026-09-02 19:57:06,268 [INFO]   [filter] No skill match: Cobol Developer
-2026-09-02 19:57:06,281 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-09-02 19:57:06,281 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-09-02 19:57:06,294 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-02 19:57:06,294 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-02 19:57:06,307 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-02 19:57:06,308 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-02 19:57:06,321 [INFO]   [S1] Checking: Analog EDA Backend Lead
-2026-09-02 19:57:06,321 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-02 19:57:06,334 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-02 19:57:06,334 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 19:57:06,347 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:57:06,348 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:57:06,362 [INFO]   [S1] Checking: Lead Full Stack Engineer- GO , Python
-2026-09-02 19:57:06,362 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
-2026-09-02 19:57:06,375 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 19:57:06,375 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:57:06,388 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 19:57:06,388 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:57:06,401 [INFO]   [S1] Checking: Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:57:06,401 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:57:06,414 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-02 19:57:06,414 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-02 19:58:07,440 [INFO]   [S1] Python Developer: 20 listings
-2026-09-02 19:58:07,453 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-02 19:58:07,453 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 19:58:07,466 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:58:07,466 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:58:07,478 [INFO]   [S1] Checking: Trainee Engineer
-2026-09-02 19:58:07,478 [INFO]   [filter] No skill match: Trainee Engineer
-2026-09-02 19:58:07,490 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-09-02 19:58:07,490 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-09-02 19:58:07,502 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-09-02 19:58:07,502 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-09-02 19:58:07,515 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-09-02 19:58:07,515 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-09-02 19:58:07,530 [INFO]   [S1] Checking: Cobol Developer
-2026-09-02 19:58:07,530 [INFO]   [filter] No skill match: Cobol Developer
-2026-09-02 19:58:07,543 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-02 19:58:07,543 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-02 19:58:07,555 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-02 19:58:07,555 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-02 19:58:07,568 [INFO]   [S1] Checking: Housekeeping Associate
-2026-09-02 19:58:07,568 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:58:07,580 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-02 19:58:07,580 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 19:58:07,593 [INFO]   [S1] Checking: Android & iOS App Developer
-2026-09-02 19:58:07,593 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 19:58:07,605 [INFO]   [S1] Checking: Housekeeping Associate
-2026-09-02 19:58:07,605 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:58:07,618 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 19:58:07,618 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:58:07,630 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 19:58:07,630 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:58:07,643 [INFO]   [S1] Checking: Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:58:07,643 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 19:58:07,656 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-02 19:58:07,656 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-02 19:58:07,669 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-09-02 19:58:07,669 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-02 19:58:07,681 [INFO]   [S1] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:58:07,682 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 19:58:07,694 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:58:07,694 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:59:08,859 [INFO]   [S1] SQL Developer: 17 listings
-2026-09-02 19:59:08,873 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-02 19:59:08,873 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 19:59:08,885 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-09-02 19:59:08,885 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-09-02 19:59:08,897 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:59:08,897 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 19:59:08,910 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 19:59:08,910 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:59:08,922 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 19:59:08,923 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 19:59:08,935 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-09-02 19:59:08,935 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-09-02 19:59:08,947 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-09-02 19:59:08,947 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-09-02 19:59:08,960 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-02 19:59:08,960 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-02 19:59:08,972 [INFO]   [S1] Checking: Housekeeping Associate
-2026-09-02 19:59:08,973 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:59:08,985 [INFO]   [S1] Checking: Analog EDA Backend Lead
-2026-09-02 19:59:08,985 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-02 19:59:08,997 [INFO]   [S1] Checking: Android & iOS App Developer
-2026-09-02 19:59:08,997 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 19:59:09,009 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:59:09,009 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 19:59:09,021 [INFO]   [S1] Checking: Lead Full Stack Engineer- GO , Python
-2026-09-02 19:59:09,021 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
-2026-09-02 19:59:09,034 [INFO]   [S1] Checking: Housekeeping Associate
-2026-09-02 19:59:09,034 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 19:59:09,046 [INFO]   [S1] Checking: Junior AI ML programmer
-2026-09-02 19:59:09,046 [INFO]   [filter] No skill match: Junior AI ML programmer
-2026-09-02 19:59:09,058 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-09-02 19:59:09,058 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-02 19:59:09,070 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 19:59:09,070 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 20:00:10,256 [INFO]   [S1] Software Engineer: 20 listings
-2026-09-02 20:00:10,269 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 20:00:10,269 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-02 20:00:10,283 [INFO]   [S1] Checking: IT Network Engineer | IT Software engineer
-2026-09-02 20:00:10,283 [INFO]   [filter] Excluded 'network engineer': IT Network Engineer | IT Software engineer
-2026-09-02 20:00:10,296 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-02 20:00:10,296 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 20:00:10,310 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 20:00:10,310 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 20:00:10,323 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 20:00:10,323 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 20:00:10,336 [INFO]   [S1] Checking: Construction ERP Implementation Engineer
-2026-09-02 20:00:10,336 [INFO]   [filter] No skill match: Construction ERP Implementation Engineer
-2026-09-02 20:00:10,349 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-09-02 20:00:10,349 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-09-02 20:00:10,363 [INFO]   [S1] Checking: Lead Full Stack Engineer- GO , Python
-2026-09-02 20:00:10,363 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
-2026-09-02 20:00:10,377 [INFO]   [S1] Checking: Junior AI ML programmer
-2026-09-02 20:00:10,377 [INFO]   [filter] No skill match: Junior AI ML programmer
-2026-09-02 20:00:10,391 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-02 20:00:10,391 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 20:00:10,405 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 20:00:10,405 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 20:00:10,418 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 20:00:10,419 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 20:00:10,432 [INFO]   [S1] Checking: Developer
-2026-09-02 20:00:10,432 [INFO]   [filter] No skill match: Developer
-2026-09-02 20:00:10,446 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-09-02 20:00:10,446 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-09-02 20:00:10,459 [INFO]   [S1] Checking: Junior Software Developer
-2026-09-02 20:00:10,459 [INFO]   Already applied: Junior Software Developer
-2026-09-02 20:00:10,473 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-09-02 20:00:10,473 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-09-02 20:00:10,487 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-09-02 20:00:10,487 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-09-02 20:00:10,500 [INFO]   [S1] Checking: Cobol Developer
-2026-09-02 20:00:10,501 [INFO]   [filter] No skill match: Cobol Developer
-2026-09-02 20:00:10,514 [INFO]   [S1] Checking: Android & iOS App Developer
-2026-09-02 20:00:10,514 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 20:00:10,528 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 20:00:10,528 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 20:01:11,703 [INFO]   [S1] Associate Software Engineer: 20 listings
-2026-09-02 20:01:11,717 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 20:01:11,717 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 20:01:11,729 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-09-02 20:01:11,730 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-09-02 20:01:11,743 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-02 20:01:11,743 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 20:01:11,756 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 20:01:11,756 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 20:01:11,769 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 20:01:11,769 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 20:01:11,781 [INFO]   [S1] Checking: Trainee Engineer
-2026-09-02 20:01:11,781 [INFO]   [filter] No skill match: Trainee Engineer
-2026-09-02 20:01:11,794 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-09-02 20:01:11,794 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-09-02 20:01:11,807 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-09-02 20:01:11,807 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-09-02 20:01:11,820 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-09-02 20:01:11,820 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-09-02 20:01:11,832 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-02 20:01:11,832 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-02 20:01:11,845 [INFO]   [S1] Checking: Cobol Developer
-2026-09-02 20:01:11,845 [INFO]   [filter] No skill match: Cobol Developer
-2026-09-02 20:01:11,858 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-09-02 20:01:11,858 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-09-02 20:01:11,871 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-02 20:01:11,871 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-02 20:01:11,884 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-02 20:01:11,884 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-02 20:01:11,897 [INFO]   [S1] Checking: Housekeeping Associate
-2026-09-02 20:01:11,898 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 20:01:11,910 [INFO]   [S1] Checking: Analog EDA Backend Lead
-2026-09-02 20:01:11,911 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-02 20:01:11,923 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-02 20:01:11,923 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 20:01:11,938 [INFO]   [S1] Checking: Android & iOS App Developer
-2026-09-02 20:01:11,938 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 20:01:11,951 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 20:01:11,951 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 20:01:11,964 [INFO]   [S1] Checking: Lead Full Stack Engineer- GO , Python
-2026-09-02 20:01:11,964 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
-2026-09-02 20:02:13,008 [INFO]   [S1] Data Analyst: 20 listings
-2026-09-02 20:02:13,021 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-09-02 20:02:13,021 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-02 20:02:13,034 [INFO]   [S1] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 20:02:13,034 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
-2026-09-02 20:02:13,046 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-09-02 20:02:13,046 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-09-02 20:02:13,059 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-02 20:02:13,059 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 20:02:13,071 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-09-02 20:02:13,071 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-09-02 20:02:13,084 [INFO]   [S1] Checking: Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 20:02:13,084 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
-2026-09-02 20:02:13,096 [INFO]   [S1] Checking: Hiring Analyst For KYC/AML
-2026-09-02 20:02:13,096 [INFO]   [filter] No skill match: Hiring Analyst For KYC/AML
-2026-09-02 20:02:13,109 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
-2026-09-02 20:02:13,109 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
-2026-09-02 20:02:13,121 [INFO]   [S1] Checking: KYC AML Analyst | Banking Operations | Freshers | Gurugram
-2026-09-02 20:02:13,121 [INFO]   [filter] Excluded 'bank': KYC AML Analyst | Banking Operations | Freshers | Gurugram
-2026-09-02 20:02:13,134 [INFO]   [S1] Checking: Investment Banking Analyst
-2026-09-02 20:02:13,134 [INFO]   [filter] Excluded 'bank': Investment Banking Analyst
-2026-09-02 20:02:13,147 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
-2026-09-02 20:02:13,147 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-09-02 20:02:13,159 [INFO]   [S1] Checking: Walk-in || AI Data Processing Associate | Data Annotation | AI/ML Projects |
-2026-09-02 20:02:13,160 [INFO]   [filter] No skill match: Walk-in || AI Data Processing Associate | Data Annotation | AI/ML Projects |
-2026-09-02 20:02:13,172 [INFO]   [S1] Checking: Digital Marketer
-2026-09-02 20:02:13,172 [INFO]   [filter] No skill match: Digital Marketer
-2026-09-02 20:02:13,184 [INFO]   [S1] Checking: Market Research Analyst
-2026-09-02 20:02:13,184 [INFO]   [filter] No skill match: Market Research Analyst
-2026-09-02 20:02:13,197 [INFO]   [S1] Checking: Walk-in || Research And Development Officer
-2026-09-02 20:02:13,197 [INFO]   [filter] No skill match: Walk-in || Research And Development Officer
-2026-09-02 20:02:13,210 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 20:02:13,210 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 20:02:13,222 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 20:02:13,222 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 20:02:13,235 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 20:02:13,235 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 20:02:13,248 [INFO]   [S1] Checking: Trainee Engineer
-2026-09-02 20:02:13,248 [INFO]   [filter] No skill match: Trainee Engineer
-2026-09-02 20:02:13,261 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-09-02 20:02:13,261 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-09-02 20:03:14,905 [INFO]   [S1] AI ML Engineer: 20 listings
-2026-09-02 20:03:14,918 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-09-02 20:03:14,918 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-09-02 20:03:14,930 [INFO]   [S1] Checking: Lead Full Stack Engineer- GO , Python
-2026-09-02 20:03:14,930 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
-2026-09-02 20:03:14,942 [INFO]   [S1] Checking: Junior AI ML programmer
-2026-09-02 20:03:14,942 [INFO]   [filter] No skill match: Junior AI ML programmer
-2026-09-02 20:03:14,955 [INFO]   [S1] Checking: Analog EDA Backend Lead
-2026-09-02 20:03:14,955 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-02 20:03:14,967 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 20:03:14,967 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 20:03:14,980 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-09-02 20:03:14,980 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-09-02 20:03:14,995 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-02 20:03:14,995 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 20:03:15,007 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 20:03:15,008 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 20:03:15,020 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 20:03:15,020 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 20:03:15,033 [INFO]   [S1] Checking: Trainee Engineer
-2026-09-02 20:03:15,033 [INFO]   [filter] No skill match: Trainee Engineer
-2026-09-02 20:03:15,045 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-09-02 20:03:15,045 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-09-02 20:03:15,058 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-09-02 20:03:15,058 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-09-02 20:03:15,071 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-09-02 20:03:15,071 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-09-02 20:03:15,084 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-02 20:03:15,084 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-02 20:03:15,099 [INFO]   [S1] Checking: Cobol Developer
-2026-09-02 20:03:15,099 [INFO]   [filter] No skill match: Cobol Developer
-2026-09-02 20:03:15,112 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-02 20:03:15,112 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-02 20:03:15,124 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-02 20:03:15,124 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-02 20:03:15,137 [INFO]   [S1] Checking: Housekeeping Associate
-2026-09-02 20:03:15,137 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 20:03:15,149 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-02 20:03:15,149 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 20:03:15,163 [INFO]   [S1] Checking: Android & iOS App Developer
-2026-09-02 20:03:15,163 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 20:04:16,345 [INFO]   [S1] Machine Learning Engineer: 20 listings
-2026-09-02 20:04:16,358 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-09-02 20:04:16,358 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
-2026-09-02 20:04:16,370 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 20:04:16,371 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-02 20:04:16,383 [INFO]   [S1] Checking: Junior AI ML programmer
-2026-09-02 20:04:16,383 [INFO]   [filter] No skill match: Junior AI ML programmer
-2026-09-02 20:04:16,396 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 20:04:16,396 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-02 20:04:16,408 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
-2026-09-02 20:04:16,408 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
-2026-09-02 20:04:16,420 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-02 20:04:16,420 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-02 20:04:16,433 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 20:04:16,433 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 20:04:16,446 [INFO]   [S1] Checking: CSA Professional
-2026-09-02 20:04:16,446 [INFO]   [filter] No skill match: CSA Professional
-2026-09-02 20:04:16,462 [INFO]   [S1] Checking: Trainee Engineer
-2026-09-02 20:04:16,462 [INFO]   [filter] No skill match: Trainee Engineer
-2026-09-02 20:04:16,475 [INFO]   [S1] Checking: Guidewire Developer Fresher
-2026-09-02 20:04:16,475 [INFO]   [filter] No skill match: Guidewire Developer Fresher
-2026-09-02 20:04:16,488 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
-2026-09-02 20:04:16,488 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
-2026-09-02 20:04:16,501 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
-2026-09-02 20:04:16,501 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
-2026-09-02 20:04:16,514 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-02 20:04:16,514 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-02 20:04:16,526 [INFO]   [S1] Checking: Cobol Developer
-2026-09-02 20:04:16,526 [INFO]   [filter] No skill match: Cobol Developer
-2026-09-02 20:04:16,539 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-02 20:04:16,539 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-02 20:04:16,552 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-02 20:04:16,552 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-02 20:04:16,565 [INFO]   [S1] Checking: Housekeeping Associate
-2026-09-02 20:04:16,565 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-02 20:04:16,578 [INFO]   [S1] Checking: Analog EDA Backend Lead
-2026-09-02 20:04:16,578 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-02 20:04:16,590 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-02 20:04:16,590 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-02 20:04:16,603 [INFO]   [S1] Checking: Android & iOS App Developer
-2026-09-02 20:04:16,603 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-02 20:04:16,603 [INFO] 
+2026-09-02 22:57:36,495 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-02 22:57:36,495 [INFO] ███████████████████████████████████████████████████████
+2026-09-02 22:58:37,698 [INFO]   [S1] Java Developer: 20 listings
+2026-09-02 22:58:37,718 [INFO]   [S1] Checking: SE Trainee .Net
+2026-09-02 22:58:37,718 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 22:58:37,732 [INFO]   [S1] Checking: Guidewire Developer Fresher
+2026-09-02 22:58:37,732 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-09-02 22:58:37,747 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:58:37,747 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:58:37,761 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-02 22:58:37,761 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-02 22:58:37,776 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-02 22:58:37,776 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-02 22:58:37,790 [INFO]   [S1] Checking: Cobol Developer
+2026-09-02 22:58:37,791 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-02 22:58:37,804 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-02 22:58:37,805 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-02 22:58:37,819 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-02 22:58:37,819 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-02 22:58:37,833 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-02 22:58:37,834 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-02 22:58:37,848 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-02 22:58:37,848 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 22:58:37,862 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:58:37,862 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 22:58:37,877 [INFO]   [S1] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 22:58:37,877 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 22:58:37,891 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 22:58:37,891 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:58:37,905 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 22:58:37,905 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:58:37,918 [INFO]   [S1] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:58:37,919 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:58:37,932 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-09-02 22:58:37,933 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-02 22:58:37,947 [INFO]   [S1] Checking: Junior AI ML programmer
+2026-09-02 22:58:37,947 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 22:58:37,960 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-02 22:58:37,961 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-02 22:58:37,974 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 22:58:37,975 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 22:58:37,988 [INFO]   [S1] Checking: Trainee Engineer
+2026-09-02 22:58:37,988 [INFO]   [filter] No skill match: Trainee Engineer
+2026-09-02 22:59:39,174 [INFO]   [S1] Python Developer: 18 listings
+2026-09-02 22:59:39,189 [INFO]   [S1] Checking: SE Trainee .Net
+2026-09-02 22:59:39,189 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 22:59:39,203 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:59:39,203 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 22:59:39,217 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-02 22:59:39,217 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-02 22:59:39,231 [INFO]   [S1] Checking: Cobol Developer
+2026-09-02 22:59:39,231 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-02 22:59:39,245 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-02 22:59:39,246 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-02 22:59:39,260 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-02 22:59:39,260 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-02 22:59:39,274 [INFO]   [S1] Checking: Housekeeping Associate
+2026-09-02 22:59:39,274 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-02 22:59:39,288 [INFO]   [S1] Checking: Android & iOS App Developer
+2026-09-02 22:59:39,288 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 22:59:39,302 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 22:59:39,302 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:59:39,316 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 22:59:39,316 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 22:59:39,330 [INFO]   [S1] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:59:39,330 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 22:59:39,343 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-09-02 22:59:39,343 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-02 22:59:39,357 [INFO]   [S1] Checking: Trainee Engineer
+2026-09-02 22:59:39,357 [INFO]   [filter] No skill match: Trainee Engineer
+2026-09-02 22:59:39,371 [INFO]   [S1] Checking: Guidewire Developer Fresher
+2026-09-02 22:59:39,371 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-09-02 22:59:39,385 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-02 22:59:39,385 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-02 22:59:39,399 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 22:59:39,399 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 22:59:39,414 [INFO]   [S1] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:59:39,414 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 22:59:39,428 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 22:59:39,428 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 23:00:40,702 [INFO]   [S1] SQL Developer: 16 listings
+2026-09-02 23:00:40,715 [INFO]   [S1] Checking: SE Trainee .Net
+2026-09-02 23:00:40,715 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 23:00:40,728 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-02 23:00:40,729 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-02 23:00:40,742 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 23:00:40,742 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 23:00:40,754 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:00:40,754 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:00:40,767 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:00:40,767 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:00:40,780 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-02 23:00:40,780 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-02 23:00:40,793 [INFO]   [S1] Checking: Housekeeping Associate
+2026-09-02 23:00:40,793 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-02 23:00:40,807 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-02 23:00:40,807 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 23:00:40,820 [INFO]   [S1] Checking: Android & iOS App Developer
+2026-09-02 23:00:40,820 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 23:00:40,833 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 23:00:40,833 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 23:00:40,846 [INFO]   [S1] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 23:00:40,846 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 23:00:40,859 [INFO]   [S1] Checking: Junior AI ML programmer
+2026-09-02 23:00:40,859 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 23:00:40,873 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-02 23:00:40,873 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-02 23:00:40,886 [INFO]   [S1] Checking: Senior Infrastructure Unix/Linux Administrator
+2026-09-02 23:00:40,886 [INFO]   [filter] Excluded 'senior': Senior Infrastructure Unix/Linux Administrator
+2026-09-02 23:00:40,899 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 23:00:40,899 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 23:00:40,912 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 23:00:40,912 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 23:01:42,040 [INFO]   [S1] Software Engineer: 20 listings
+2026-09-02 23:01:42,054 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 23:01:42,054 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-02 23:01:42,067 [INFO]   [S1] Checking: IT Network Engineer | IT Software engineer
+2026-09-02 23:01:42,067 [INFO]   [filter] Excluded 'network engineer': IT Network Engineer | IT Software engineer
+2026-09-02 23:01:42,080 [INFO]   [S1] Checking: SE Trainee .Net
+2026-09-02 23:01:42,080 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 23:01:42,093 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:01:42,093 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:01:42,106 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:01:42,107 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:01:42,120 [INFO]   [S1] Checking: Construction ERP Implementation Engineer
+2026-09-02 23:01:42,120 [INFO]   [filter] No skill match: Construction ERP Implementation Engineer
+2026-09-02 23:01:42,133 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-02 23:01:42,133 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-02 23:01:42,146 [INFO]   [S1] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 23:01:42,146 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 23:01:42,159 [INFO]   [S1] Checking: Junior AI ML programmer
+2026-09-02 23:01:42,159 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 23:01:42,173 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 23:01:42,173 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 23:01:42,186 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:01:42,186 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:01:42,199 [INFO]   [S1] Checking: Junior Software Developer
+2026-09-02 23:01:42,200 [INFO]   Already applied: Junior Software Developer
+2026-09-02 23:01:42,213 [INFO]   [S1] Checking: Developer
+2026-09-02 23:01:42,213 [INFO]   [filter] No skill match: Developer
+2026-09-02 23:01:42,226 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-02 23:01:42,226 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-02 23:01:42,240 [INFO]   [S1] Checking: Cobol Developer
+2026-09-02 23:01:42,240 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-02 23:01:42,253 [INFO]   [S1] Checking: Android & iOS App Developer
+2026-09-02 23:01:42,253 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 23:01:42,266 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 23:01:42,267 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 23:01:42,280 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-02 23:01:42,281 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-02 23:01:42,294 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-02 23:01:42,294 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 23:01:42,307 [INFO]   [S1] Checking: Guidewire Developer Fresher
+2026-09-02 23:01:42,307 [INFO]   [filter] No skill match: Guidewire Developer Fresher
+2026-09-02 23:02:43,617 [INFO]   [S1] Associate Software Engineer: 20 listings
+2026-09-02 23:02:43,631 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 23:02:43,631 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 23:02:43,644 [INFO]   [S1] Checking: SE Trainee .Net
+2026-09-02 23:02:43,644 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 23:02:43,657 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:02:43,657 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:02:43,670 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:02:43,670 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:02:43,682 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-02 23:02:43,683 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-02 23:02:43,695 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-02 23:02:43,695 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-02 23:02:43,708 [INFO]   [S1] Checking: Cobol Developer
+2026-09-02 23:02:43,708 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-02 23:02:43,721 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-02 23:02:43,722 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-02 23:02:43,736 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-02 23:02:43,736 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-02 23:02:43,749 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-02 23:02:43,749 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-02 23:02:43,762 [INFO]   [S1] Checking: Housekeeping Associate
+2026-09-02 23:02:43,762 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-02 23:02:43,775 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-02 23:02:43,775 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 23:02:43,788 [INFO]   [S1] Checking: Android & iOS App Developer
+2026-09-02 23:02:43,788 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 23:02:43,800 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 23:02:43,801 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 23:02:43,813 [INFO]   [S1] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 23:02:43,813 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 23:02:43,826 [INFO]   [S1] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 23:02:43,826 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 23:02:43,839 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-09-02 23:02:43,839 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-02 23:02:43,852 [INFO]   [S1] Checking: Junior AI ML programmer
+2026-09-02 23:02:43,852 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 23:02:43,865 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-02 23:02:43,865 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-02 23:02:43,878 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 23:02:43,878 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 23:03:45,024 [INFO]   [S1] Data Analyst: 20 listings
+2026-09-02 23:03:45,037 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 23:03:45,037 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 23:03:45,051 [INFO]   [S1] Checking: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 23:03:45,051 [INFO]   Already applied: Walk-In Any Fresher's/Expr-Data Analyst/Reporting Associate Analyst/
+2026-09-02 23:03:45,063 [INFO]   [S1] Checking: SE Trainee .Net
+2026-09-02 23:03:45,063 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 23:03:45,076 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-02 23:03:45,076 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-02 23:03:45,089 [INFO]   [S1] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 23:03:45,090 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 23:03:45,103 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-02 23:03:45,103 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-02 23:03:45,116 [INFO]   [S1] Checking: Hiring Analyst For KYC/AML
+2026-09-02 23:03:45,116 [INFO]   [filter] No skill match: Hiring Analyst For KYC/AML
+2026-09-02 23:03:45,129 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-02 23:03:45,129 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-02 23:03:45,142 [INFO]   [S1] Checking: KYC AML Analyst | Banking Operations | Freshers | Gurugram
+2026-09-02 23:03:45,142 [INFO]   [filter] Excluded 'bank': KYC AML Analyst | Banking Operations | Freshers | Gurugram
+2026-09-02 23:03:45,156 [INFO]   [S1] Checking: Investment Banking Analyst
+2026-09-02 23:03:45,156 [INFO]   [filter] Excluded 'bank': Investment Banking Analyst
+2026-09-02 23:03:45,170 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
+2026-09-02 23:03:45,170 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-09-02 23:03:45,183 [INFO]   [S1] Checking: Walk-in || AI Data Processing Associate | Data Annotation | AI/ML Projects |
+2026-09-02 23:03:45,183 [INFO]   [filter] No skill match: Walk-in || AI Data Processing Associate | Data Annotation | AI/ML Projects |
+2026-09-02 23:03:45,196 [INFO]   [S1] Checking: Digital Marketer
+2026-09-02 23:03:45,196 [INFO]   [filter] No skill match: Digital Marketer
+2026-09-02 23:03:45,209 [INFO]   [S1] Checking: Market Research Analyst
+2026-09-02 23:03:45,210 [INFO]   [filter] No skill match: Market Research Analyst
+2026-09-02 23:03:45,223 [INFO]   [S1] Checking: Walk-in || Research And Development Officer
+2026-09-02 23:03:45,223 [INFO]   [filter] No skill match: Walk-in || Research And Development Officer
+2026-09-02 23:03:45,236 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 23:03:45,236 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 23:03:45,250 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:03:45,250 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:03:45,262 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:03:45,263 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:03:45,275 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-02 23:03:45,276 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-02 23:03:45,289 [INFO]   [S1] Checking: Cobol Developer
+2026-09-02 23:03:45,289 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-02 23:04:46,293 [INFO]   [S1] AI ML Engineer: 20 listings
+2026-09-02 23:04:46,307 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-02 23:04:46,307 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-02 23:04:46,319 [INFO]   [S1] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 23:04:46,320 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 23:04:46,332 [INFO]   [S1] Checking: Junior AI ML programmer
+2026-09-02 23:04:46,332 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 23:04:46,344 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-02 23:04:46,344 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 23:04:46,356 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 23:04:46,357 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 23:04:46,369 [INFO]   [S1] Checking: SE Trainee .Net
+2026-09-02 23:04:46,369 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 23:04:46,382 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:04:46,382 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:04:46,394 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:04:46,394 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:04:46,407 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-02 23:04:46,407 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-02 23:04:46,420 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-02 23:04:46,420 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-02 23:04:46,433 [INFO]   [S1] Checking: Cobol Developer
+2026-09-02 23:04:46,433 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-02 23:04:46,445 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-02 23:04:46,445 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-02 23:04:46,458 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-02 23:04:46,458 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-02 23:04:46,470 [INFO]   [S1] Checking: Housekeeping Associate
+2026-09-02 23:04:46,470 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-02 23:04:46,483 [INFO]   [S1] Checking: Android & iOS App Developer
+2026-09-02 23:04:46,483 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 23:04:46,496 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 23:04:46,496 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 23:04:46,508 [INFO]   [S1] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 23:04:46,508 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 23:04:46,521 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-09-02 23:04:46,521 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-02 23:04:46,533 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-02 23:04:46,534 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-02 23:04:46,546 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 23:04:46,546 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 23:05:47,662 [INFO]   [S1] Machine Learning Engineer: 20 listings
+2026-09-02 23:05:47,678 [INFO]   [S1] Checking: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-02 23:05:47,678 [INFO]   [filter] No skill match: Immediate requriment For AI-Native Engineer / AI Agent Engineer
+2026-09-02 23:05:47,691 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 23:05:47,691 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
+2026-09-02 23:05:47,703 [INFO]   [S1] Checking: Junior AI ML programmer
+2026-09-02 23:05:47,703 [INFO]   [filter] No skill match: Junior AI ML programmer
+2026-09-02 23:05:47,716 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 23:05:47,716 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-02 23:05:47,728 [INFO]   [S1] Checking: SE Trainee .Net
+2026-09-02 23:05:47,728 [INFO]   [filter] No skill match: SE Trainee .Net
+2026-09-02 23:05:47,740 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:05:47,741 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:05:47,753 [INFO]   [S1] Checking: CSA Professional
+2026-09-02 23:05:47,753 [INFO]   [filter] No skill match: CSA Professional
+2026-09-02 23:05:47,765 [INFO]   [S1] Checking: Dot Net Core-Non Paid Internship
+2026-09-02 23:05:47,765 [INFO]   [filter] No skill match: Dot Net Core-Non Paid Internship
+2026-09-02 23:05:47,777 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-02 23:05:47,777 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-02 23:05:47,789 [INFO]   [S1] Checking: Cobol Developer
+2026-09-02 23:05:47,790 [INFO]   [filter] No skill match: Cobol Developer
+2026-09-02 23:05:47,802 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-02 23:05:47,802 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-02 23:05:47,814 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-02 23:05:47,815 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-02 23:05:47,827 [INFO]   [S1] Checking: Housekeeping Associate
+2026-09-02 23:05:47,827 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-02 23:05:47,839 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-02 23:05:47,839 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-02 23:05:47,852 [INFO]   [S1] Checking: Android & iOS App Developer
+2026-09-02 23:05:47,852 [INFO]   [filter] No skill match: Android & iOS App Developer
+2026-09-02 23:05:47,865 [INFO]   [S1] Checking: Lead Full Stack Engineer- GO , Python
+2026-09-02 23:05:47,865 [INFO]   [filter] Excluded 'lead': Lead Full Stack Engineer- GO , Python
+2026-09-02 23:05:47,877 [INFO]   [S1] Checking: Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 23:05:47,877 [INFO]   [filter] Excluded 'financial': Associate Financial Analyst, Loans & Distribution - India
+2026-09-02 23:05:47,889 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-09-02 23:05:47,889 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-02 23:05:47,902 [INFO]   [S1] Checking: Tier 1 Production Support Engineer
+2026-09-02 23:05:47,902 [INFO]   [filter] No skill match: Tier 1 Production Support Engineer
+2026-09-02 23:05:47,914 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
+2026-09-02 23:05:47,915 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
+2026-09-02 23:05:47,915 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-02 20:04:16,603 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-02 20:04:16,603 [INFO] ███████████████████████████████████████████████████████
-2026-09-02 20:19:28,459 [INFO] 
+2026-09-02 23:05:47,915 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-02 23:05:47,915 [INFO] ███████████████████████████████████████████████████████
+2026-09-02 23:21:19,194 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-02 20:19:28,460 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-02 20:19:28,460 [INFO] ███████████████████████████████████████████████████████
-2026-09-02 20:20:44,305 [INFO]   [S3] Java Developer: 0 listings
-2026-09-02 20:22:00,191 [INFO]   [S3] Python Developer: 0 listings
-2026-09-02 20:23:16,279 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-02 20:24:31,975 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-02 20:25:47,730 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-02 20:27:03,454 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-02 20:28:19,416 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-02 20:29:35,439 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-02 20:29:35,439 [INFO] 
+2026-09-02 23:21:19,195 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-02 23:21:19,195 [INFO] ███████████████████████████████████████████████████████
+2026-09-02 23:22:35,112 [INFO]   [S3] Java Developer: 0 listings
+2026-09-02 23:23:51,077 [INFO]   [S3] Python Developer: 0 listings
+2026-09-02 23:25:07,006 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-02 23:26:22,851 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-02 23:27:38,760 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-02 23:28:54,750 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-02 23:30:16,745 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-02 23:31:32,862 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-02 23:31:32,862 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-02 20:29:35,440 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-02 20:29:35,440 [INFO] ███████████████████████████████████████████████████████
-2026-09-02 20:44:45,887 [INFO] 
+2026-09-02 23:31:32,862 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-02 23:31:32,862 [INFO] ███████████████████████████████████████████████████████
+2026-09-02 23:46:43,874 [INFO] 
 =======================================================
-2026-09-02 20:44:45,887 [INFO]   Run complete — Applied this session : 0
-2026-09-02 20:44:45,888 [INFO]   Total ever applied                  : 282
-2026-09-02 20:44:45,888 [INFO] =======================================================
+2026-09-02 23:46:43,874 [INFO]   Run complete — Applied this session : 0
+2026-09-02 23:46:43,875 [INFO]   Total ever applied                  : 282
+2026-09-02 23:46:43,875 [INFO] =======================================================

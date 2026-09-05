@@ -1,659 +1,493 @@
-2026-09-04 22:07:10,851 [INFO] GitHub Actions — single run mode
-2026-09-04 22:07:10,851 [INFO] 
+2026-09-05 03:01:03,393 [INFO] GitHub Actions — single run mode
+2026-09-05 03:01:03,393 [INFO] 
 =======================================================
-2026-09-04 22:07:10,851 [INFO]   Run started: 2026-09-04 22:07:10
-2026-09-04 22:07:10,851 [INFO] =======================================================
-2026-09-04 22:07:10,852 [INFO] Previously applied: 289 jobs
-2026-09-04 22:07:10,853 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-04 22:07:10,853 [INFO] ====== WebDriver manager ======
-2026-09-04 22:07:13,187 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-04 22:07:13,236 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-04 22:07:13,269 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-04 22:07:13,269 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-04 22:07:13,372 [INFO] WebDriver version 152.0.7977.82 selected
-2026-09-04 22:07:13,379 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-04 22:07:13,379 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-04 22:07:13,483 [INFO] Driver downloading response is 200
-2026-09-04 22:07:13,714 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
-2026-09-04 22:07:21,528 [INFO]   Trying cookie login...
-2026-09-04 22:07:28,422 [INFO]   Loading 34 cookies...
-2026-09-04 22:07:32,604 [INFO]   ✅ Cookie login successful!
-2026-09-04 22:07:32,604 [INFO] 
+2026-09-05 03:01:03,393 [INFO]   Run started: 2026-09-05 03:01:03
+2026-09-05 03:01:03,393 [INFO] =======================================================
+2026-09-05 03:01:03,393 [INFO] Previously applied: 289 jobs
+2026-09-05 03:01:03,394 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-05 03:01:03,394 [INFO] ====== WebDriver manager ======
+2026-09-05 03:01:07,060 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-05 03:01:07,110 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-05 03:01:07,140 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-05 03:01:07,140 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-05 03:01:07,261 [INFO] WebDriver version 152.0.7977.82 selected
+2026-09-05 03:01:07,266 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-05 03:01:07,266 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-05 03:01:07,382 [INFO] Driver downloading response is 200
+2026-09-05 03:01:07,654 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
+2026-09-05 03:01:20,754 [INFO]   Trying cookie login...
+2026-09-05 03:01:25,727 [INFO]   Loading 34 cookies...
+2026-09-05 03:01:29,941 [INFO]   ✅ Cookie login successful!
+2026-09-05 03:01:29,941 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-04 22:07:32,604 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-04 22:07:32,604 [INFO] ───────────────────────────────────────────────────────
-2026-09-04 22:07:32,604 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-04 22:08:39,782 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-04 22:08:45,343 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-04 22:08:47,700 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-04 22:08:50,722 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-04 22:08:53,756 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-04 22:08:53,756 [INFO] 
+2026-09-05 03:01:29,941 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-05 03:01:29,941 [INFO] ───────────────────────────────────────────────────────
+2026-09-05 03:01:29,941 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-05 03:02:36,767 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-05 03:02:42,334 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-05 03:02:44,692 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-05 03:02:47,715 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-05 03:02:50,747 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-05 03:02:50,747 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-04 22:08:53,756 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-04 22:08:53,756 [INFO] ███████████████████████████████████████████████████████
-2026-09-04 22:09:55,118 [INFO]   [S0-HYD] Java Developer: 13 listings
-2026-09-04 22:09:55,137 [INFO]   [S0-HYD] Checking: Java Developer
-2026-09-04 22:09:55,137 [INFO]   Already applied: Java Developer
-2026-09-04 22:09:55,150 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:09:55,150 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:09:55,164 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:09:55,164 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:09:55,177 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-04 22:09:55,177 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:09:55,190 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:09:55,190 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:09:55,204 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-04 22:09:55,204 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:09:55,216 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:09:55,216 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:09:55,230 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:09:55,230 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:09:55,244 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:09:55,244 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:09:55,260 [INFO]   [S0-HYD] Checking: Test Engineer
-2026-09-04 22:09:55,260 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:09:55,273 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:09:55,273 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:09:55,287 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:09:55,287 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:09:55,300 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-04 22:09:55,300 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-04 22:11:11,389 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-04 22:12:12,672 [INFO]   [S0-HYD] Python Developer: 12 listings
-2026-09-04 22:12:12,686 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:12:12,686 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:12:12,699 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:12:12,699 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:12:12,713 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:12:12,713 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:12:12,726 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:12:12,726 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:12:12,739 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:12:12,739 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:12:12,753 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-04 22:12:12,753 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:12:12,766 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:12:12,766 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:12:12,780 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:12:12,780 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:12:12,793 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:12:12,793 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:12:12,806 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:12:12,807 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:12:12,820 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-04 22:12:12,820 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-04 22:12:12,833 [INFO]   [S0-HYD] Checking: Java Developer
-2026-09-04 22:12:12,833 [INFO]   Already applied: Java Developer
-2026-09-04 22:13:28,736 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-04 22:14:29,810 [INFO]   [S0-HYD] SQL Developer: 16 listings
-2026-09-04 22:14:29,826 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:14:29,826 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:14:29,840 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:14:29,841 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:14:29,855 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:14:29,856 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:14:29,870 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:14:29,870 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:14:29,884 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-04 22:14:29,884 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:14:29,899 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:14:29,899 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:14:29,913 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:14:29,913 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:14:29,929 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:14:29,929 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:14:29,944 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:14:29,944 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:14:29,958 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:14:29,959 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:14:29,974 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:14:29,974 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:14:29,989 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:14:29,989 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:14:30,003 [INFO]   [S0-HYD] Checking: Test Engineer
-2026-09-04 22:14:30,003 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:14:30,017 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-04 22:14:30,018 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-04 22:14:30,034 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-04 22:14:30,034 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-04 22:14:30,049 [INFO]   [S0-HYD] Checking: Java Developer
-2026-09-04 22:14:30,049 [INFO]   Already applied: Java Developer
-2026-09-04 22:15:46,036 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-04 22:16:47,219 [INFO]   [S0-HYD] Software Engineer: 20 listings
-2026-09-04 22:16:47,233 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-04 22:16:47,233 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:16:47,247 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-04 22:16:47,247 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:16:47,260 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:16:47,260 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:16:47,274 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:16:47,274 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:16:47,287 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:16:47,288 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:16:47,301 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:16:47,301 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:16:47,314 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:16:47,315 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:16:47,328 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:16:47,328 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:16:47,342 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:16:47,342 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:16:47,355 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:16:47,355 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:16:47,369 [INFO]   [S0-HYD] Checking: Java Developer
-2026-09-04 22:16:47,369 [INFO]   Already applied: Java Developer
-2026-09-04 22:16:47,382 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:16:47,383 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:16:47,396 [INFO]   [S0-HYD] Checking: Associate Instructor - Aptitude
-2026-09-04 22:16:47,396 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
-2026-09-04 22:16:47,410 [INFO]   [S0-HYD] Checking: SDE- AI Native Engg Platform
-2026-09-04 22:16:47,410 [INFO]   [filter] No skill match: SDE- AI Native Engg Platform
-2026-09-04 22:16:47,424 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:16:47,424 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:16:47,437 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:16:47,437 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:16:47,450 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:16:47,451 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:16:47,464 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:16:47,464 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:16:47,478 [INFO]   [S0-HYD] Checking: Test Engineer
-2026-09-04 22:16:47,478 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:16:47,492 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-04 22:16:47,492 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-04 22:18:03,512 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-04 22:19:04,762 [INFO]   [S0-HYD] Associate Software Engineer: 16 listings
-2026-09-04 22:19:04,775 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-04 22:19:04,776 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:19:04,789 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:19:04,789 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:19:04,802 [INFO]   [S0-HYD] Checking: Java Developer
-2026-09-04 22:19:04,802 [INFO]   Already applied: Java Developer
-2026-09-04 22:19:04,815 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:19:04,815 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:19:04,829 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:19:04,829 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:19:04,842 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:19:04,842 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:19:04,855 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:19:04,855 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:19:04,869 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-04 22:19:04,869 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:19:04,882 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:19:04,883 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:19:04,895 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:19:04,896 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:19:04,909 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:19:04,909 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:19:04,922 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:19:04,922 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:19:04,935 [INFO]   [S0-HYD] Checking: Test Engineer
-2026-09-04 22:19:04,935 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:19:04,949 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:19:04,949 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:19:04,962 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-04 22:19:04,962 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-04 22:19:04,975 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-04 22:19:04,975 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-04 22:20:20,874 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-04 22:21:22,073 [INFO]   [S0-HYD] Data Analyst: 20 listings
-2026-09-04 22:21:22,087 [INFO]   [S0-HYD] Checking: Walk-in || Junior Analyst
-2026-09-04 22:21:22,087 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
-2026-09-04 22:21:22,101 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:21:22,101 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:21:22,115 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:21:22,115 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:21:22,128 [INFO]   [S0-HYD] Checking: Pharmacovigilance Associate
-2026-09-04 22:21:22,128 [INFO]   [filter] No skill match: Pharmacovigilance Associate
-2026-09-04 22:21:22,142 [INFO]   [S0-HYD] Checking: Associate Project Management Intern
-2026-09-04 22:21:22,142 [INFO]   [filter] No skill match: Associate Project Management Intern
-2026-09-04 22:21:22,155 [INFO]   [S0-HYD] Checking: Quality Analyst
-2026-09-04 22:21:22,155 [INFO]   [filter] No skill match: Quality Analyst
-2026-09-04 22:21:22,168 [INFO]   [S0-HYD] Checking: Test Engineer
-2026-09-04 22:21:22,168 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:21:22,181 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:21:22,181 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:21:22,195 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:21:22,195 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:21:22,209 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:21:22,209 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:21:22,223 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:21:22,223 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:21:22,236 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-04 22:21:22,236 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:21:22,250 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:21:22,250 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:21:22,263 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-04 22:21:22,263 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:21:22,276 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:21:22,276 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:21:22,290 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:21:22,290 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:21:22,303 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:21:22,303 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:21:22,316 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-04 22:21:22,316 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-04 22:21:22,330 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-04 22:21:22,330 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-04 22:21:22,343 [INFO]   [S0-HYD] Checking: Java Developer
-2026-09-04 22:21:22,343 [INFO]   Already applied: Java Developer
-2026-09-04 22:22:38,374 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-04 22:23:39,473 [INFO]   [S0-HYD] AI ML Engineer: 16 listings
-2026-09-04 22:23:39,487 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-04 22:23:39,487 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-04 22:23:39,500 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:23:39,500 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:23:39,514 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:23:39,514 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:23:39,527 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:23:39,527 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:23:39,541 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:23:39,541 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:23:39,554 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-04 22:23:39,554 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:23:39,568 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:23:39,568 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:23:39,581 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:23:39,581 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:23:39,594 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-04 22:23:39,594 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:23:39,608 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:23:39,608 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:23:39,621 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:23:39,621 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:23:39,634 [INFO]   [S0-HYD] Checking: Test Engineer
-2026-09-04 22:23:39,634 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:23:39,648 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:23:39,648 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:23:39,662 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:23:39,662 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:23:39,675 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-04 22:23:39,675 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-04 22:23:39,689 [INFO]   [S0-HYD] Checking: Java Developer
-2026-09-04 22:23:39,689 [INFO]   Already applied: Java Developer
-2026-09-04 22:24:55,561 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-04 22:25:56,784 [INFO]   [S0-HYD] Machine Learning Engineer: 16 listings
-2026-09-04 22:25:56,798 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:25:56,798 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:25:56,812 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:25:56,812 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:25:56,826 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:25:56,826 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:25:56,839 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:25:56,840 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:25:56,853 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-04 22:25:56,854 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:25:56,867 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:25:56,868 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:25:56,881 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:25:56,881 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:25:56,895 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-04 22:25:56,895 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:25:56,909 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:25:56,909 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:25:56,923 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:25:56,923 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:25:56,937 [INFO]   [S0-HYD] Checking: Test Engineer
-2026-09-04 22:25:56,937 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:25:56,950 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:25:56,950 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:25:56,964 [INFO]   [S0-HYD] Checking: Developer
-2026-09-04 22:25:56,964 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:25:56,978 [INFO]   [S0-HYD] Checking: Analog EDA Backend Lead
-2026-09-04 22:25:56,978 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-04 22:25:56,992 [INFO]   [S0-HYD] Checking: Housekeeping Associate
-2026-09-04 22:25:56,992 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-04 22:25:57,006 [INFO]   [S0-HYD] Checking: Java Developer
-2026-09-04 22:25:57,006 [INFO]   Already applied: Java Developer
-2026-09-04 22:27:12,837 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-04 22:28:29,131 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-04 22:29:45,039 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-04 22:31:01,299 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-04 22:32:17,204 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-04 22:33:33,597 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-04 22:34:49,532 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-04 22:36:05,890 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-04 22:37:21,757 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-04 22:38:38,211 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-04 22:39:54,347 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-04 22:41:10,751 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-04 22:42:26,563 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-04 22:42:26,564 [INFO] 
+2026-09-05 03:02:50,747 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-05 03:02:50,747 [INFO] ███████████████████████████████████████████████████████
+2026-09-05 03:03:52,104 [INFO]   [S0-HYD] Java Developer: 6 listings
+2026-09-05 03:03:52,122 [INFO]   [S0-HYD] Checking: Developer
+2026-09-05 03:03:52,122 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:03:52,134 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:03:52,134 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:03:52,146 [INFO]   [S0-HYD] Checking: Dot Net Developer
+2026-09-05 03:03:52,146 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:03:52,159 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:03:52,159 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:03:52,171 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:03:52,171 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:03:52,183 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:03:52,183 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:05:08,058 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-05 03:06:09,046 [INFO]   [S0-HYD] Python Developer: 7 listings
+2026-09-05 03:06:09,060 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:06:09,060 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:06:09,072 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:06:09,072 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:06:09,085 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:06:09,085 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:06:09,097 [INFO]   [S0-HYD] Checking: Developer
+2026-09-05 03:06:09,097 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:06:09,109 [INFO]   [S0-HYD] Checking: Dot Net Developer
+2026-09-05 03:06:09,109 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:06:09,121 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:06:09,121 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:06:09,135 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:06:09,136 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:07:24,978 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-05 03:08:26,044 [INFO]   [S0-HYD] SQL Developer: 8 listings
+2026-09-05 03:08:26,058 [INFO]   [S0-HYD] Checking: Developer
+2026-09-05 03:08:26,058 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:08:26,070 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:08:26,070 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:08:26,082 [INFO]   [S0-HYD] Checking: Developer
+2026-09-05 03:08:26,082 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:08:26,096 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:08:26,096 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:08:26,108 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:08:26,108 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:08:26,120 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:08:26,120 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:08:26,133 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:08:26,133 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:08:26,145 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:08:26,145 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:09:42,098 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-05 03:10:43,216 [INFO]   [S0-HYD] Software Engineer: 12 listings
+2026-09-05 03:10:43,229 [INFO]   [S0-HYD] Checking: Dot Net Developer
+2026-09-05 03:10:43,229 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:10:43,240 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:10:43,240 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:10:43,252 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:10:43,252 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:10:43,263 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:10:43,263 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:10:43,275 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:10:43,275 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:10:43,287 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:10:43,287 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:10:43,298 [INFO]   [S0-HYD] Checking: Developer
+2026-09-05 03:10:43,298 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:10:43,310 [INFO]   [S0-HYD] Checking: Associate Instructor - Aptitude
+2026-09-05 03:10:43,310 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
+2026-09-05 03:10:43,322 [INFO]   [S0-HYD] Checking: Developer
+2026-09-05 03:10:43,322 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:10:43,336 [INFO]   [S0-HYD] Checking: Developer
+2026-09-05 03:10:43,336 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:10:43,348 [INFO]   [S0-HYD] Checking: Developer
+2026-09-05 03:10:43,348 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:10:43,359 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:10:43,359 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:11:59,074 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-05 03:13:00,152 [INFO]   [S0-HYD] Associate Software Engineer: 8 listings
+2026-09-05 03:13:00,167 [INFO]   [S0-HYD] Checking: Dot Net Developer
+2026-09-05 03:13:00,167 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:13:00,180 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:13:00,180 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:13:00,192 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:13:00,192 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:13:00,205 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:13:00,205 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:13:00,217 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:13:00,217 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:13:00,229 [INFO]   [S0-HYD] Checking: Developer
+2026-09-05 03:13:00,229 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:13:00,241 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:13:00,241 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:13:00,253 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:13:00,253 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:14:16,007 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-05 03:15:17,084 [INFO]   [S0-HYD] Data Analyst: 11 listings
+2026-09-05 03:15:17,098 [INFO]   [S0-HYD] Checking: Walk-in || Junior Analyst
+2026-09-05 03:15:17,098 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
+2026-09-05 03:15:17,110 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:15:17,110 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:15:17,122 [INFO]   [S0-HYD] Checking: Pharmacovigilance Associate
+2026-09-05 03:15:17,122 [INFO]   [filter] No skill match: Pharmacovigilance Associate
+2026-09-05 03:15:17,134 [INFO]   [S0-HYD] Checking: Associate Project Management Intern
+2026-09-05 03:15:17,134 [INFO]   [filter] No skill match: Associate Project Management Intern
+2026-09-05 03:15:17,147 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:15:17,147 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:15:17,158 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:15:17,159 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:15:17,170 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:15:17,170 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:15:17,183 [INFO]   [S0-HYD] Checking: Developer
+2026-09-05 03:15:17,183 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:15:17,195 [INFO]   [S0-HYD] Checking: Dot Net Developer
+2026-09-05 03:15:17,195 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:15:17,207 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:15:17,207 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:15:17,219 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:15:17,219 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:16:33,024 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-05 03:17:34,153 [INFO]   [S0-HYD] AI ML Engineer: 8 listings
+2026-09-05 03:17:34,167 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:17:34,167 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:17:34,179 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:17:34,179 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:17:34,191 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:17:34,191 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:17:34,203 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:17:34,203 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:17:34,215 [INFO]   [S0-HYD] Checking: Developer
+2026-09-05 03:17:34,215 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:17:34,227 [INFO]   [S0-HYD] Checking: Dot Net Developer
+2026-09-05 03:17:34,227 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:17:34,239 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:17:34,239 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:17:34,252 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:17:34,252 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:18:50,113 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-05 03:19:51,449 [INFO]   [S0-HYD] Machine Learning Engineer: 8 listings
+2026-09-05 03:19:51,463 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:19:51,463 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:19:51,475 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:19:51,476 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:19:51,487 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:19:51,487 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:19:51,500 [INFO]   [S0-HYD] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:19:51,500 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:19:51,512 [INFO]   [S0-HYD] Checking: Developer
+2026-09-05 03:19:51,512 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:19:51,524 [INFO]   [S0-HYD] Checking: Dot Net Developer
+2026-09-05 03:19:51,524 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:19:51,536 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:19:51,536 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:19:51,548 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:19:51,548 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:21:07,327 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-05 03:22:23,763 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-05 03:23:39,569 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-05 03:24:55,878 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-05 03:26:11,700 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-05 03:27:28,185 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-05 03:28:44,022 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-05 03:30:00,367 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-05 03:31:16,186 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-05 03:32:32,542 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-05 03:33:48,491 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-05 03:35:04,870 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-05 03:36:20,578 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-05 03:36:20,579 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-04 22:42:26,564 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-04 22:42:26,564 [INFO] ███████████████████████████████████████████████████████
-2026-09-04 22:43:27,724 [INFO]   [S1] Java Developer: 16 listings
-2026-09-04 22:43:27,744 [INFO]   [S1] Checking: Java Developer
-2026-09-04 22:43:27,744 [INFO]   Already applied: Java Developer
-2026-09-04 22:43:27,758 [INFO]   [S1] Checking: Developer
-2026-09-04 22:43:27,758 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:43:27,772 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-04 22:43:27,772 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-04 22:43:27,786 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:43:27,786 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:43:27,799 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-04 22:43:27,800 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:43:27,813 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:43:27,813 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:43:27,827 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-04 22:43:27,827 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:43:27,842 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:43:27,842 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:43:27,856 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:43:27,856 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:43:27,870 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:43:27,870 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:43:27,885 [INFO]   [S1] Checking: Test Engineer
-2026-09-04 22:43:27,885 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:43:27,899 [INFO]   [S1] Checking: Developer
-2026-09-04 22:43:27,899 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:43:27,913 [INFO]   [S1] Checking: Developer
-2026-09-04 22:43:27,913 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:43:27,927 [INFO]   [S1] Checking: Analog EDA Backend Lead
-2026-09-04 22:43:27,927 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-04 22:43:27,941 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-04 22:43:27,942 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-04 22:43:27,955 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-09-04 22:43:27,955 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-04 22:44:29,097 [INFO]   [S1] Python Developer: 15 listings
-2026-09-04 22:44:29,111 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-04 22:44:29,111 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-04 22:44:29,125 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:44:29,125 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:44:29,140 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:44:29,140 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:44:29,155 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:44:29,155 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:44:29,169 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:44:29,169 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:44:29,184 [INFO]   [S1] Checking: Developer
-2026-09-04 22:44:29,184 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:44:29,197 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-04 22:44:29,198 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:44:29,211 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:44:29,211 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:44:29,225 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:44:29,225 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:44:29,239 [INFO]   [S1] Checking: Developer
-2026-09-04 22:44:29,239 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:44:29,253 [INFO]   [S1] Checking: Developer
-2026-09-04 22:44:29,254 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:44:29,267 [INFO]   [S1] Checking: Housekeeping Associate
-2026-09-04 22:44:29,267 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-04 22:44:29,281 [INFO]   [S1] Checking: Java Developer
-2026-09-04 22:44:29,281 [INFO]   Already applied: Java Developer
-2026-09-04 22:44:29,294 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-09-04 22:44:29,294 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-04 22:44:29,308 [INFO]   [S1] Checking: Android & iOS App Developer
-2026-09-04 22:44:29,308 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-04 22:45:30,646 [INFO]   [S1] SQL Developer: 20 listings
-2026-09-04 22:45:30,660 [INFO]   [S1] Checking: Developer
-2026-09-04 22:45:30,661 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:45:30,674 [INFO]   [S1] Checking: Developer
-2026-09-04 22:45:30,674 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:45:30,688 [INFO]   [S1] Checking: Developer
-2026-09-04 22:45:30,688 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:45:30,702 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-04 22:45:30,702 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-04 22:45:30,715 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:45:30,715 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:45:30,729 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-04 22:45:30,729 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:45:30,743 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:45:30,743 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:45:30,756 [INFO]   [S1] Checking: Developer
-2026-09-04 22:45:30,756 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:45:30,770 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:45:30,770 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:45:30,783 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:45:30,784 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:45:30,797 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:45:30,797 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:45:30,811 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:45:30,811 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:45:30,825 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:45:30,825 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:45:30,839 [INFO]   [S1] Checking: Test Engineer
-2026-09-04 22:45:30,839 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:45:30,853 [INFO]   [S1] Checking: Analog EDA Backend Lead
-2026-09-04 22:45:30,853 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-04 22:45:30,867 [INFO]   [S1] Checking: Housekeeping Associate
-2026-09-04 22:45:30,867 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-04 22:45:30,881 [INFO]   [S1] Checking: Java Developer
-2026-09-04 22:45:30,881 [INFO]   Already applied: Java Developer
-2026-09-04 22:45:30,896 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-04 22:45:30,896 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-04 22:45:30,911 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-09-04 22:45:30,911 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-04 22:45:30,925 [INFO]   [S1] Checking: Android & iOS App Developer
-2026-09-04 22:45:30,925 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-04 22:46:32,017 [INFO]   [S1] Software Engineer: 20 listings
-2026-09-04 22:46:32,032 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-04 22:46:32,032 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:46:32,046 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-04 22:46:32,046 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:46:32,062 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:46:32,062 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:46:32,076 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:46:32,076 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:46:32,090 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:46:32,090 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:46:32,104 [INFO]   [S1] Checking: Construction ERP Implementation Engineer
-2026-09-04 22:46:32,104 [INFO]   [filter] No skill match: Construction ERP Implementation Engineer
-2026-09-04 22:46:32,118 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:46:32,118 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:46:32,132 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:46:32,133 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:46:32,146 [INFO]   [S1] Checking: Developer
-2026-09-04 22:46:32,146 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:46:32,160 [INFO]   [S1] Checking: Developer
-2026-09-04 22:46:32,160 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:46:32,174 [INFO]   [S1] Checking: Developer
-2026-09-04 22:46:32,174 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:46:32,188 [INFO]   [S1] Checking: Java Developer
-2026-09-04 22:46:32,188 [INFO]   Already applied: Java Developer
-2026-09-04 22:46:32,204 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-04 22:46:32,204 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-04 22:46:32,220 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:46:32,220 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:46:32,234 [INFO]   [S1] Checking: Associate Instructor - Aptitude
-2026-09-04 22:46:32,234 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
-2026-09-04 22:46:32,247 [INFO]   [S1] Checking: SDE- AI Native Engg Platform
-2026-09-04 22:46:32,248 [INFO]   [filter] No skill match: SDE- AI Native Engg Platform
-2026-09-04 22:46:32,262 [INFO]   [S1] Checking: Developer
-2026-09-04 22:46:32,262 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:46:32,276 [INFO]   [S1] Checking: Developer
-2026-09-04 22:46:32,276 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:46:32,290 [INFO]   [S1] Checking: Developer
-2026-09-04 22:46:32,290 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:46:32,304 [INFO]   [S1] Checking: CSA Professional
-2026-09-04 22:46:32,304 [INFO]   [filter] No skill match: CSA Professional
-2026-09-04 22:47:33,483 [INFO]   [S1] Associate Software Engineer: 20 listings
-2026-09-04 22:47:33,499 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-04 22:47:33,499 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:47:33,514 [INFO]   [S1] Checking: Developer
-2026-09-04 22:47:33,514 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:47:33,528 [INFO]   [S1] Checking: Java Developer
-2026-09-04 22:47:33,528 [INFO]   Already applied: Java Developer
-2026-09-04 22:47:33,543 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:47:33,544 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:47:33,558 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:47:33,558 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:47:33,573 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:47:33,573 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:47:33,587 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:47:33,588 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:47:33,603 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-04 22:47:33,603 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:47:33,618 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:47:33,618 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:47:33,633 [INFO]   [S1] Checking: Developer
-2026-09-04 22:47:33,634 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:47:33,649 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:47:33,649 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:47:33,665 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:47:33,665 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:47:33,679 [INFO]   [S1] Checking: Test Engineer
-2026-09-04 22:47:33,679 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:47:33,694 [INFO]   [S1] Checking: Developer
-2026-09-04 22:47:33,695 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:47:33,710 [INFO]   [S1] Checking: Analog EDA Backend Lead
-2026-09-04 22:47:33,710 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-04 22:47:33,725 [INFO]   [S1] Checking: Housekeeping Associate
-2026-09-04 22:47:33,725 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-04 22:47:33,739 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-04 22:47:33,739 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-04 22:47:33,754 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-09-04 22:47:33,754 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-04 22:47:33,768 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-04 22:47:33,769 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-04 22:47:33,783 [INFO]   [S1] Checking: Android & iOS App Developer
-2026-09-04 22:47:33,783 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-04 22:48:34,964 [INFO]   [S1] Data Analyst: 20 listings
-2026-09-04 22:48:34,978 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-09-04 22:48:34,978 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-04 22:48:34,992 [INFO]   [S1] Checking: Walk-in || Junior Analyst
-2026-09-04 22:48:34,992 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
-2026-09-04 22:48:35,005 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:48:35,005 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:48:35,020 [INFO]   [S1] Checking: Developer
-2026-09-04 22:48:35,020 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:48:35,035 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-04 22:48:35,035 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-04 22:48:35,049 [INFO]   [S1] Checking: Pharmacovigilance Associate
-2026-09-04 22:48:35,049 [INFO]   [filter] No skill match: Pharmacovigilance Associate
-2026-09-04 22:48:35,063 [INFO]   [S1] Checking: Associate Project Management Intern
-2026-09-04 22:48:35,063 [INFO]   [filter] No skill match: Associate Project Management Intern
-2026-09-04 22:48:35,076 [INFO]   [S1] Checking: Quality Analyst
-2026-09-04 22:48:35,076 [INFO]   [filter] No skill match: Quality Analyst
-2026-09-04 22:48:35,089 [INFO]   [S1] Checking: Digital Marketer
-2026-09-04 22:48:35,089 [INFO]   [filter] No skill match: Digital Marketer
-2026-09-04 22:48:35,103 [INFO]   [S1] Checking: Test Engineer
-2026-09-04 22:48:35,103 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:48:35,116 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:48:35,116 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:48:35,130 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:48:35,130 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:48:35,143 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:48:35,143 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:48:35,156 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:48:35,156 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:48:35,170 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-04 22:48:35,170 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:48:35,184 [INFO]   [S1] Checking: Developer
-2026-09-04 22:48:35,184 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:48:35,197 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-04 22:48:35,197 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:48:35,211 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:48:35,211 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:48:35,225 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:48:35,225 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:48:35,239 [INFO]   [S1] Checking: Developer
-2026-09-04 22:48:35,239 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:49:36,311 [INFO]   [S1] AI ML Engineer: 20 listings
-2026-09-04 22:49:36,326 [INFO]   [S1] Checking: Analog EDA Backend Lead
-2026-09-04 22:49:36,327 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-04 22:49:36,340 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:49:36,341 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:49:36,354 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:49:36,354 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:49:36,368 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:49:36,368 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:49:36,382 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:49:36,382 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:49:36,396 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-04 22:49:36,396 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:49:36,409 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:49:36,409 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:49:36,423 [INFO]   [S1] Checking: Developer
-2026-09-04 22:49:36,423 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:49:36,437 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-04 22:49:36,437 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:49:36,450 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:49:36,450 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:49:36,464 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:49:36,464 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:49:36,478 [INFO]   [S1] Checking: Test Engineer
-2026-09-04 22:49:36,479 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:49:36,492 [INFO]   [S1] Checking: Developer
-2026-09-04 22:49:36,492 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:49:36,505 [INFO]   [S1] Checking: Developer
-2026-09-04 22:49:36,506 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:49:36,519 [INFO]   [S1] Checking: Housekeeping Associate
-2026-09-04 22:49:36,519 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-04 22:49:36,533 [INFO]   [S1] Checking: Java Developer
-2026-09-04 22:49:36,533 [INFO]   Already applied: Java Developer
-2026-09-04 22:49:36,547 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-04 22:49:36,548 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-04 22:49:36,562 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-09-04 22:49:36,562 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-04 22:49:36,578 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-04 22:49:36,578 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-04 22:49:36,593 [INFO]   [S1] Checking: Android & iOS App Developer
-2026-09-04 22:49:36,593 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-04 22:50:38,017 [INFO]   [S1] Machine Learning Engineer: 20 listings
-2026-09-04 22:50:38,032 [INFO]   [S1] Checking: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-04 22:50:38,032 [INFO]   [filter] No skill match: AI & Automation Developer(Fresher)Apply-https://forms.cloud.microsoft
-2026-09-04 22:50:38,046 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:50:38,046 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-04 22:50:38,060 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:50:38,060 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-04 22:50:38,075 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:50:38,075 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-04 22:50:38,089 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:50:38,089 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-04 22:50:38,103 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-04 22:50:38,103 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-04 22:50:38,118 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
-2026-09-04 22:50:38,118 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
-2026-09-04 22:50:38,133 [INFO]   [S1] Checking: Developer
-2026-09-04 22:50:38,133 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:50:38,146 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-04 22:50:38,147 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-04 22:50:38,161 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:50:38,161 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-04 22:50:38,175 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:50:38,175 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-04 22:50:38,190 [INFO]   [S1] Checking: Test Engineer
-2026-09-04 22:50:38,190 [INFO]   [filter] No skill match: Test Engineer
-2026-09-04 22:50:38,203 [INFO]   [S1] Checking: Developer
-2026-09-04 22:50:38,203 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:50:38,217 [INFO]   [S1] Checking: Developer
-2026-09-04 22:50:38,217 [INFO]   [filter] No skill match: Developer
-2026-09-04 22:50:38,231 [INFO]   [S1] Checking: Analog EDA Backend Lead
-2026-09-04 22:50:38,231 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
-2026-09-04 22:50:38,245 [INFO]   [S1] Checking: Housekeeping Associate
-2026-09-04 22:50:38,245 [INFO]   [filter] No skill match: Housekeeping Associate
-2026-09-04 22:50:38,259 [INFO]   [S1] Checking: Java Developer
-2026-09-04 22:50:38,259 [INFO]   Already applied: Java Developer
-2026-09-04 22:50:38,273 [INFO]   [S1] Checking: Data Analyst Fresher , Data Analytics
-2026-09-04 22:50:38,273 [INFO]   Already applied: Data Analyst Fresher , Data Analytics
-2026-09-04 22:50:38,287 [INFO]   [S1] Checking: SE Trainee .Net
-2026-09-04 22:50:38,287 [INFO]   [filter] No skill match: SE Trainee .Net
-2026-09-04 22:50:38,302 [INFO]   [S1] Checking: Android & iOS App Developer
-2026-09-04 22:50:38,302 [INFO]   [filter] No skill match: Android & iOS App Developer
-2026-09-04 22:50:38,302 [INFO] 
+2026-09-05 03:36:20,579 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-05 03:36:20,579 [INFO] ███████████████████████████████████████████████████████
+2026-09-05 03:37:21,549 [INFO]   [S1] Java Developer: 13 listings
+2026-09-05 03:37:21,567 [INFO]   [S1] Checking: Java Developer
+2026-09-05 03:37:21,567 [INFO]   Already applied: Java Developer
+2026-09-05 03:37:21,580 [INFO]   [S1] Checking: Developer
+2026-09-05 03:37:21,580 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:37:21,594 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:37:21,594 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:37:21,607 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-05 03:37:21,607 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-05 03:37:21,619 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:37:21,619 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:37:21,631 [INFO]   [S1] Checking: Dot Net Developer
+2026-09-05 03:37:21,631 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:37:21,643 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:37:21,643 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:37:21,656 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:37:21,656 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:37:21,668 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:37:21,668 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:37:21,680 [INFO]   [S1] Checking: Test Engineer
+2026-09-05 03:37:21,680 [INFO]   [filter] No skill match: Test Engineer
+2026-09-05 03:37:21,692 [INFO]   [S1] Checking: Developer
+2026-09-05 03:37:21,692 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:37:21,704 [INFO]   [S1] Checking: Developer
+2026-09-05 03:37:21,704 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:37:21,716 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-05 03:37:21,716 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-05 03:38:22,928 [INFO]   [S1] Python Developer: 12 listings
+2026-09-05 03:38:22,942 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:38:22,943 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:38:22,954 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:38:22,954 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:38:22,966 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:38:22,966 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:38:22,978 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:38:22,978 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:38:22,990 [INFO]   [S1] Checking: Developer
+2026-09-05 03:38:22,990 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:38:23,002 [INFO]   [S1] Checking: Dot Net Developer
+2026-09-05 03:38:23,002 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:38:23,014 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:38:23,014 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:38:23,026 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:38:23,026 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:38:23,038 [INFO]   [S1] Checking: Developer
+2026-09-05 03:38:23,038 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:38:23,050 [INFO]   [S1] Checking: Developer
+2026-09-05 03:38:23,050 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:38:23,062 [INFO]   [S1] Checking: Housekeeping Associate
+2026-09-05 03:38:23,062 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-05 03:38:23,074 [INFO]   [S1] Checking: Java Developer
+2026-09-05 03:38:23,074 [INFO]   Already applied: Java Developer
+2026-09-05 03:39:24,175 [INFO]   [S1] SQL Developer: 16 listings
+2026-09-05 03:39:24,188 [INFO]   [S1] Checking: Developer
+2026-09-05 03:39:24,188 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:39:24,200 [INFO]   [S1] Checking: Developer
+2026-09-05 03:39:24,201 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:39:24,212 [INFO]   [S1] Checking: Developer
+2026-09-05 03:39:24,212 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:39:24,226 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:39:24,226 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:39:24,239 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-05 03:39:24,239 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-05 03:39:24,251 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:39:24,251 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:39:24,264 [INFO]   [S1] Checking: Developer
+2026-09-05 03:39:24,264 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:39:24,276 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:39:24,276 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:39:24,288 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:39:24,289 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:39:24,301 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:39:24,301 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:39:24,313 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:39:24,313 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:39:24,325 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:39:24,325 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:39:24,337 [INFO]   [S1] Checking: Test Engineer
+2026-09-05 03:39:24,337 [INFO]   [filter] No skill match: Test Engineer
+2026-09-05 03:39:24,349 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-05 03:39:24,349 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-05 03:39:24,361 [INFO]   [S1] Checking: Housekeeping Associate
+2026-09-05 03:39:24,361 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-05 03:39:24,373 [INFO]   [S1] Checking: Java Developer
+2026-09-05 03:39:24,373 [INFO]   Already applied: Java Developer
+2026-09-05 03:40:25,446 [INFO]   [S1] Software Engineer: 20 listings
+2026-09-05 03:40:25,460 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-05 03:40:25,460 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-05 03:40:25,472 [INFO]   [S1] Checking: Dot Net Developer
+2026-09-05 03:40:25,472 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:40:25,484 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:40:25,484 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:40:25,496 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:40:25,496 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:40:25,510 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:40:25,510 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:40:25,522 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:40:25,522 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:40:25,534 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:40:25,534 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:40:25,547 [INFO]   [S1] Checking: Developer
+2026-09-05 03:40:25,547 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:40:25,558 [INFO]   [S1] Checking: Developer
+2026-09-05 03:40:25,559 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:40:25,570 [INFO]   [S1] Checking: Developer
+2026-09-05 03:40:25,570 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:40:25,583 [INFO]   [S1] Checking: Java Developer
+2026-09-05 03:40:25,583 [INFO]   Already applied: Java Developer
+2026-09-05 03:40:25,595 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:40:25,595 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:40:25,607 [INFO]   [S1] Checking: Associate Instructor - Aptitude
+2026-09-05 03:40:25,607 [INFO]   [filter] No skill match: Associate Instructor - Aptitude
+2026-09-05 03:40:25,622 [INFO]   [S1] Checking: SDE- AI Native Engg Platform
+2026-09-05 03:40:25,622 [INFO]   [filter] No skill match: SDE- AI Native Engg Platform
+2026-09-05 03:40:25,634 [INFO]   [S1] Checking: Developer
+2026-09-05 03:40:25,634 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:40:25,646 [INFO]   [S1] Checking: Developer
+2026-09-05 03:40:25,646 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:40:25,658 [INFO]   [S1] Checking: Developer
+2026-09-05 03:40:25,658 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:40:25,670 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:40:25,670 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:40:25,682 [INFO]   [S1] Checking: Test Engineer
+2026-09-05 03:40:25,682 [INFO]   [filter] No skill match: Test Engineer
+2026-09-05 03:40:25,694 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-05 03:40:25,694 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-05 03:41:27,869 [INFO]   [S1] Associate Software Engineer: 16 listings
+2026-09-05 03:41:27,883 [INFO]   [S1] Checking: Dot Net Developer
+2026-09-05 03:41:27,883 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:41:27,895 [INFO]   [S1] Checking: Developer
+2026-09-05 03:41:27,895 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:41:27,906 [INFO]   [S1] Checking: Java Developer
+2026-09-05 03:41:27,906 [INFO]   Already applied: Java Developer
+2026-09-05 03:41:27,919 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:41:27,919 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:41:27,933 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:41:27,933 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:41:27,945 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:41:27,945 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:41:27,957 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:41:27,957 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:41:27,969 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-05 03:41:27,969 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-05 03:41:27,981 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:41:27,981 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:41:27,993 [INFO]   [S1] Checking: Developer
+2026-09-05 03:41:27,993 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:41:28,004 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:41:28,004 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:41:28,017 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:41:28,017 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:41:28,028 [INFO]   [S1] Checking: Test Engineer
+2026-09-05 03:41:28,028 [INFO]   [filter] No skill match: Test Engineer
+2026-09-05 03:41:28,040 [INFO]   [S1] Checking: Developer
+2026-09-05 03:41:28,040 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:41:28,052 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-05 03:41:28,052 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-05 03:41:28,064 [INFO]   [S1] Checking: Housekeeping Associate
+2026-09-05 03:41:28,064 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-05 03:42:29,274 [INFO]   [S1] Data Analyst: 20 listings
+2026-09-05 03:42:29,288 [INFO]   [S1] Checking: Walk-in || Junior Analyst
+2026-09-05 03:42:29,288 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
+2026-09-05 03:42:29,301 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:42:29,301 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:42:29,313 [INFO]   [S1] Checking: Developer
+2026-09-05 03:42:29,313 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:42:29,325 [INFO]   [S1] Checking: Pharmacovigilance Associate
+2026-09-05 03:42:29,325 [INFO]   [filter] No skill match: Pharmacovigilance Associate
+2026-09-05 03:42:29,336 [INFO]   [S1] Checking: Associate Project Management Intern
+2026-09-05 03:42:29,336 [INFO]   [filter] No skill match: Associate Project Management Intern
+2026-09-05 03:42:29,348 [INFO]   [S1] Checking: Quality Analyst
+2026-09-05 03:42:29,348 [INFO]   [filter] No skill match: Quality Analyst
+2026-09-05 03:42:29,360 [INFO]   [S1] Checking: Test Engineer
+2026-09-05 03:42:29,360 [INFO]   [filter] No skill match: Test Engineer
+2026-09-05 03:42:29,372 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:42:29,372 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:42:29,384 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:42:29,384 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:42:29,396 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:42:29,396 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:42:29,408 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:42:29,408 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:42:29,420 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-05 03:42:29,420 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-05 03:42:29,432 [INFO]   [S1] Checking: Developer
+2026-09-05 03:42:29,432 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:42:29,444 [INFO]   [S1] Checking: Dot Net Developer
+2026-09-05 03:42:29,444 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:42:29,456 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:42:29,456 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:42:29,469 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:42:29,469 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:42:29,482 [INFO]   [S1] Checking: Developer
+2026-09-05 03:42:29,482 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:42:29,494 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-05 03:42:29,494 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-05 03:42:29,507 [INFO]   [S1] Checking: Housekeeping Associate
+2026-09-05 03:42:29,507 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-05 03:42:29,519 [INFO]   [S1] Checking: Java Developer
+2026-09-05 03:42:29,519 [INFO]   Already applied: Java Developer
+2026-09-05 03:43:30,675 [INFO]   [S1] AI ML Engineer: 16 listings
+2026-09-05 03:43:30,689 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-05 03:43:30,689 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-05 03:43:30,701 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:43:30,701 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:43:30,713 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:43:30,713 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:43:30,729 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:43:30,729 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:43:30,743 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:43:30,743 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:43:30,755 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-05 03:43:30,756 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-05 03:43:30,768 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:43:30,768 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:43:30,782 [INFO]   [S1] Checking: Developer
+2026-09-05 03:43:30,782 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:43:30,794 [INFO]   [S1] Checking: Dot Net Developer
+2026-09-05 03:43:30,795 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:43:30,807 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:43:30,807 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:43:30,820 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:43:30,820 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:43:30,833 [INFO]   [S1] Checking: Test Engineer
+2026-09-05 03:43:30,833 [INFO]   [filter] No skill match: Test Engineer
+2026-09-05 03:43:30,846 [INFO]   [S1] Checking: Developer
+2026-09-05 03:43:30,846 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:43:30,858 [INFO]   [S1] Checking: Developer
+2026-09-05 03:43:30,858 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:43:30,871 [INFO]   [S1] Checking: Housekeeping Associate
+2026-09-05 03:43:30,871 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-05 03:43:30,884 [INFO]   [S1] Checking: Java Developer
+2026-09-05 03:43:30,884 [INFO]   Already applied: Java Developer
+2026-09-05 03:44:32,208 [INFO]   [S1] Machine Learning Engineer: 16 listings
+2026-09-05 03:44:32,221 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:44:32,221 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-05 03:44:32,234 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:44:32,234 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-05 03:44:32,246 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:44:32,246 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-05 03:44:32,258 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:44:32,258 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-05 03:44:32,269 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-05 03:44:32,270 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-05 03:44:32,281 [INFO]   [S1] Checking: Security Analyst, Attack Surface Management
+2026-09-05 03:44:32,281 [INFO]   [filter] No skill match: Security Analyst, Attack Surface Management
+2026-09-05 03:44:32,293 [INFO]   [S1] Checking: Developer
+2026-09-05 03:44:32,294 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:44:32,306 [INFO]   [S1] Checking: Dot Net Developer
+2026-09-05 03:44:32,306 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-05 03:44:32,318 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:44:32,318 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-05 03:44:32,330 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:44:32,330 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-05 03:44:32,342 [INFO]   [S1] Checking: Test Engineer
+2026-09-05 03:44:32,342 [INFO]   [filter] No skill match: Test Engineer
+2026-09-05 03:44:32,354 [INFO]   [S1] Checking: Developer
+2026-09-05 03:44:32,354 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:44:32,366 [INFO]   [S1] Checking: Developer
+2026-09-05 03:44:32,366 [INFO]   [filter] No skill match: Developer
+2026-09-05 03:44:32,378 [INFO]   [S1] Checking: Analog EDA Backend Lead
+2026-09-05 03:44:32,378 [INFO]   [filter] Excluded 'lead': Analog EDA Backend Lead
+2026-09-05 03:44:32,390 [INFO]   [S1] Checking: Housekeeping Associate
+2026-09-05 03:44:32,390 [INFO]   [filter] No skill match: Housekeeping Associate
+2026-09-05 03:44:32,402 [INFO]   [S1] Checking: Java Developer
+2026-09-05 03:44:32,402 [INFO]   Already applied: Java Developer
+2026-09-05 03:44:32,402 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-04 22:50:38,302 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-04 22:50:38,302 [INFO] ███████████████████████████████████████████████████████
-2026-09-04 23:05:51,643 [INFO] 
+2026-09-05 03:44:32,403 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-05 03:44:32,403 [INFO] ███████████████████████████████████████████████████████
+2026-09-05 03:59:45,776 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-04 23:05:51,643 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-04 23:05:51,643 [INFO] ███████████████████████████████████████████████████████
-2026-09-04 23:07:07,549 [INFO]   [S3] Java Developer: 0 listings
-2026-09-04 23:08:23,449 [INFO]   [S3] Python Developer: 0 listings
-2026-09-04 23:09:39,407 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-04 23:10:55,321 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-04 23:12:11,091 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-04 23:13:27,057 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-04 23:14:42,943 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-04 23:15:59,019 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-04 23:15:59,019 [INFO] 
+2026-09-05 03:59:45,776 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-05 03:59:45,776 [INFO] ███████████████████████████████████████████████████████
+2026-09-05 04:01:01,665 [INFO]   [S3] Java Developer: 0 listings
+2026-09-05 04:02:17,647 [INFO]   [S3] Python Developer: 0 listings
+2026-09-05 04:03:33,479 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-05 04:04:49,293 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-05 04:06:05,073 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-05 04:07:21,135 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-05 04:08:36,948 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-05 04:09:53,024 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-05 04:09:53,024 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-04 23:15:59,019 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-04 23:15:59,019 [INFO] ███████████████████████████████████████████████████████
-2026-09-04 23:31:09,535 [INFO] 
+2026-09-05 04:09:53,024 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-05 04:09:53,024 [INFO] ███████████████████████████████████████████████████████
+2026-09-05 04:25:03,417 [INFO] 
 =======================================================
-2026-09-04 23:31:09,535 [INFO]   Run complete — Applied this session : 0
-2026-09-04 23:31:09,535 [INFO]   Total ever applied                  : 289
-2026-09-04 23:31:09,535 [INFO] =======================================================
+2026-09-05 04:25:03,418 [INFO]   Run complete — Applied this session : 0
+2026-09-05 04:25:03,418 [INFO]   Total ever applied                  : 289
+2026-09-05 04:25:03,418 [INFO] =======================================================

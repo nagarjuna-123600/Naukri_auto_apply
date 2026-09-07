@@ -1,147 +1,467 @@
-2026-09-07 02:58:29,331 [INFO] GitHub Actions — single run mode
-2026-09-07 02:58:29,331 [INFO] 
+2026-09-07 08:55:42,114 [INFO] GitHub Actions — single run mode
+2026-09-07 08:55:42,114 [INFO] 
 =======================================================
-2026-09-07 02:58:29,331 [INFO]   Run started: 2026-09-07 02:58:29
-2026-09-07 02:58:29,331 [INFO] =======================================================
-2026-09-07 02:58:29,331 [INFO] Previously applied: 289 jobs
-2026-09-07 02:58:29,332 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-07 02:58:29,332 [INFO] ====== WebDriver manager ======
-2026-09-07 02:58:29,478 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-07 02:58:29,588 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-07 02:58:29,617 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-07 02:58:29,617 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-07 02:58:29,717 [INFO] WebDriver version 152.0.7977.82 selected
-2026-09-07 02:58:29,722 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-07 02:58:29,722 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-07 02:58:29,777 [INFO] Driver downloading response is 200
-2026-09-07 02:58:29,928 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
-2026-09-07 02:58:30,682 [INFO]   Trying cookie login...
-2026-09-07 02:58:34,460 [INFO]   Loading 34 cookies...
-2026-09-07 02:58:38,752 [INFO]   ✅ Cookie login successful!
-2026-09-07 02:58:38,752 [INFO] 
+2026-09-07 08:55:42,114 [INFO]   Run started: 2026-09-07 08:55:42
+2026-09-07 08:55:42,114 [INFO] =======================================================
+2026-09-07 08:55:42,115 [INFO] Previously applied: 289 jobs
+2026-09-07 08:55:42,116 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-07 08:55:42,116 [INFO] ====== WebDriver manager ======
+2026-09-07 08:55:45,120 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-07 08:55:45,232 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-07 08:55:45,262 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-07 08:55:45,262 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-07 08:55:45,363 [INFO] WebDriver version 152.0.7977.82 selected
+2026-09-07 08:55:45,368 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-07 08:55:45,368 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-07 08:55:45,467 [INFO] Driver downloading response is 200
+2026-09-07 08:55:45,722 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
+2026-09-07 08:55:52,230 [INFO]   Trying cookie login...
+2026-09-07 08:55:56,631 [INFO]   Loading 34 cookies...
+2026-09-07 08:56:00,813 [INFO]   ✅ Cookie login successful!
+2026-09-07 08:56:00,814 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-07 02:58:38,752 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-07 02:58:38,752 [INFO] ───────────────────────────────────────────────────────
-2026-09-07 02:58:38,752 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-09-07 02:59:45,413 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-07 02:59:50,956 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-07 02:59:53,302 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-07 02:59:56,319 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-07 02:59:59,344 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-09-07 02:59:59,344 [INFO] 
+2026-09-07 08:56:00,814 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-07 08:56:00,814 [INFO] ───────────────────────────────────────────────────────
+2026-09-07 08:56:00,814 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-07 08:57:07,309 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-07 08:57:12,833 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-07 08:57:15,187 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-07 08:57:18,209 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-07 08:57:21,240 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-07 08:57:21,241 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-07 02:59:59,344 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-07 02:59:59,344 [INFO] ███████████████████████████████████████████████████████
-2026-09-07 03:01:00,532 [INFO]   [S0-HYD] Java Developer: 1 listings
-2026-09-07 03:01:00,546 [INFO]   [S0-HYD] Checking: Java Full Stack Developer (angular)
-2026-09-07 03:01:00,546 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer (angular)
-2026-09-07 03:02:16,443 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-07 03:03:17,767 [INFO]   [S0-HYD] Python Developer: 1 listings
-2026-09-07 03:03:17,777 [INFO]   [S0-HYD] Checking: Java Full Stack Developer (angular)
-2026-09-07 03:03:17,777 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer (angular)
-2026-09-07 03:04:33,825 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-07 03:05:35,133 [INFO]   [S0-HYD] SQL Developer: 1 listings
-2026-09-07 03:05:35,144 [INFO]   [S0-HYD] Checking: Java Full Stack Developer (angular)
-2026-09-07 03:05:35,144 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer (angular)
-2026-09-07 03:06:51,059 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-07 03:07:52,205 [INFO]   [S0-HYD] Software Engineer: 3 listings
-2026-09-07 03:07:52,215 [INFO]   [S0-HYD] Checking: Java Full Stack Developer (angular)
-2026-09-07 03:07:52,215 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer (angular)
-2026-09-07 03:07:52,225 [INFO]   [S0-HYD] Checking: Academic Counsellor
-2026-09-07 03:07:52,225 [INFO]   [filter] No skill match: Academic Counsellor
-2026-09-07 03:07:52,234 [INFO]   [S0-HYD] Checking: Software Developer
-2026-09-07 03:08:49,739 [INFO]   [location] ❌ Wrong: Chennai — skip
-2026-09-07 03:08:49,739 [INFO]   Skipping (wrong location): Software Developer
-2026-09-07 03:10:05,806 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-07 03:11:06,743 [INFO]   [S0-HYD] Associate Software Engineer: 2 listings
-2026-09-07 03:11:06,754 [INFO]   [S0-HYD] Checking: Software Developer
-2026-09-07 03:12:03,994 [INFO]   [location] ❌ Wrong: Chennai — skip
-2026-09-07 03:12:03,994 [INFO]   Skipping (wrong location): Software Developer
-2026-09-07 03:12:04,060 [INFO]   [S0-HYD] Checking: Java Full Stack Developer (angular)
-2026-09-07 03:12:04,060 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer (angular)
-2026-09-07 03:13:19,948 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-07 03:14:21,143 [INFO]   [S0-HYD] Data Analyst: 5 listings
-2026-09-07 03:14:21,154 [INFO]   [S0-HYD] Checking: Internal Audit Associate
-2026-09-07 03:14:21,154 [INFO]   [filter] No skill match: Internal Audit Associate
-2026-09-07 03:14:21,163 [INFO]   [S0-HYD] Checking: Assistant Manager Finance & Accounts (Manufacturing)
-2026-09-07 03:14:21,163 [INFO]   [filter] Excluded 'manager': Assistant Manager Finance & Accounts (Manufacturing)
-2026-09-07 03:14:21,173 [INFO]   [S0-HYD] Checking: Walk-in Interview For Process Associate
-2026-09-07 03:14:21,173 [INFO]   [filter] No skill match: Walk-in Interview For Process Associate
-2026-09-07 03:14:21,182 [INFO]   [S0-HYD] Checking: Graduate Apprentice Trainee
-2026-09-07 03:14:21,182 [INFO]   [filter] No skill match: Graduate Apprentice Trainee
-2026-09-07 03:14:21,192 [INFO]   [S0-HYD] Checking: Java Full Stack Developer (angular)
-2026-09-07 03:14:21,192 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer (angular)
-2026-09-07 03:15:37,126 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-07 03:16:38,188 [INFO]   [S0-HYD] AI ML Engineer: 1 listings
-2026-09-07 03:16:38,198 [INFO]   [S0-HYD] Checking: Java Full Stack Developer (angular)
-2026-09-07 03:16:38,198 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer (angular)
-2026-09-07 03:17:54,221 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-07 03:18:55,407 [INFO]   [S0-HYD] Machine Learning Engineer: 1 listings
-2026-09-07 03:18:55,417 [INFO]   [S0-HYD] Checking: Java Full Stack Developer (angular)
-2026-09-07 03:18:55,417 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer (angular)
-2026-09-07 03:20:11,397 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-07 03:21:27,671 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-07 03:22:43,645 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-07 03:23:59,875 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-07 03:25:16,274 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-07 03:26:32,427 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-07 03:27:48,367 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-07 03:29:04,640 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-07 03:30:20,629 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-07 03:31:36,811 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-07 03:32:52,726 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-07 03:34:08,969 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-07 03:35:24,823 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-07 03:35:24,824 [INFO] 
+2026-09-07 08:57:21,241 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-07 08:57:21,241 [INFO] ███████████████████████████████████████████████████████
+2026-09-07 08:58:23,103 [INFO]   [S0-HYD] Java Developer: 6 listings
+2026-09-07 08:58:23,121 [INFO]   [S0-HYD] Checking: Software-Java Developer
+2026-09-07 08:59:20,413 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-07 08:59:20,777 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-07 08:59:20,778 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-07 08:59:20,778 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-07 08:59:20,778 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-07 08:59:20,831 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-07 08:59:20,831 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-07 09:00:16,920 [INFO]   Clicked Apply: Software-Java Developer
+2026-09-07 09:02:29,917 [INFO]   ✅ Applied: Software-Java Developer
+2026-09-07 09:02:31,992 [INFO]   [S0-HYD] Checking: Software Engineer
+2026-09-07 09:03:29,286 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-07 09:03:29,426 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-07 09:03:29,426 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-07 09:03:29,426 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-07 09:03:29,426 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-07 09:03:29,462 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-07 09:03:29,462 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-07 09:04:25,559 [INFO]   Clicked Apply: Software Engineer
+2026-09-07 09:06:38,663 [INFO]   ✅ Applied: Software Engineer
+2026-09-07 09:06:40,737 [INFO]   [S0-HYD] Checking: Software Engineer, developer / Programmer, 2026 graduate Can apply
+2026-09-07 09:07:38,062 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-07 09:07:38,216 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-07 09:07:38,217 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-07 09:07:38,217 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-07 09:07:38,217 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-07 09:07:38,289 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-07 09:07:38,289 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-07 09:08:34,473 [INFO]   Clicked Apply: Software Engineer, developer / Programmer, 2026 graduate Can apply
+2026-09-07 09:10:47,375 [INFO]   ✅ Applied: Software Engineer, developer / Programmer, 2026 graduate Can apply
+2026-09-07 09:10:49,453 [INFO]   [S0-HYD] Checking: Junior Developer
+2026-09-07 09:11:46,767 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-07 09:11:46,914 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-07 09:11:46,915 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-07 09:11:46,915 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-07 09:11:46,915 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-07 09:11:46,968 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-07 09:11:46,969 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-07 09:12:43,073 [INFO]   Clicked Apply: Junior Developer
+2026-09-07 09:14:56,118 [INFO]   ✅ Applied: Junior Developer
+2026-09-07 09:14:58,192 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-07 09:14:58,192 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:14:58,206 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:14:58,206 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:16:14,117 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-07 09:17:15,205 [INFO]   [S0-HYD] Python Developer: 6 listings
+2026-09-07 09:17:15,219 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:17:15,219 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:17:15,233 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:17:15,233 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:17:15,246 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-09-07 09:17:15,246 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:17:15,260 [INFO]   [S0-HYD] Checking: HR Management Professional
+2026-09-07 09:17:15,260 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:17:15,273 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-07 09:17:15,274 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:17:15,287 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:17:15,287 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:18:31,155 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-07 09:19:32,204 [INFO]   [S0-HYD] SQL Developer: 3 listings
+2026-09-07 09:19:32,218 [INFO]   [S0-HYD] Checking: Home Tutor
+2026-09-07 09:19:32,218 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:19:32,232 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:19:32,232 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:19:32,246 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:19:32,246 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:20:48,157 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-07 09:21:49,300 [INFO]   [S0-HYD] Software Engineer: 10 listings
+2026-09-07 09:21:49,314 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:21:49,314 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:21:49,328 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:21:49,328 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:21:49,341 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-09-07 09:21:49,342 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:21:49,354 [INFO]   [S0-HYD] Checking: Junior Software Developer - Dotnet Core / C#
+2026-09-07 09:22:46,700 [INFO]   [location] ✅ Hyderabad
+2026-09-07 09:22:47,003 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-07 09:22:47,003 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-07 09:22:47,003 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-07 09:22:47,003 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-07 09:22:47,052 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-07 09:22:47,053 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-07 09:23:44,443 [INFO]   Clicked Apply: Junior Software Developer - Dotnet Core / C#
+2026-09-07 09:25:57,343 [INFO]   ✅ Applied: Junior Software Developer - Dotnet Core / C#
+2026-09-07 09:25:59,426 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:25:59,426 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:25:59,440 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
+2026-09-07 09:25:59,440 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-07 09:25:59,453 [INFO]   [S0-HYD] Checking: Home Tutor
+2026-09-07 09:25:59,453 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:25:59,466 [INFO]   [S0-HYD] Checking: HR Management Professional
+2026-09-07 09:25:59,466 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:25:59,478 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-07 09:25:59,478 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:25:59,491 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:25:59,491 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:27:15,535 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-07 09:28:16,611 [INFO]   [S0-HYD] Associate Software Engineer: 9 listings
+2026-09-07 09:28:16,627 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
+2026-09-07 09:28:16,627 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-07 09:28:16,641 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:28:16,641 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:28:16,654 [INFO]   [S0-HYD] Checking: Home Tutor
+2026-09-07 09:28:16,655 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:28:16,668 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:28:16,668 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:28:16,682 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:28:16,682 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:28:16,695 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-09-07 09:28:16,695 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:28:16,709 [INFO]   [S0-HYD] Checking: HR Management Professional
+2026-09-07 09:28:16,709 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:28:16,724 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-07 09:28:16,724 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:28:16,738 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:28:16,738 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:29:33,107 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-07 09:30:34,145 [INFO]   [S0-HYD] Data Analyst: 12 listings
+2026-09-07 09:30:34,161 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
+2026-09-07 09:30:34,161 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-09-07 09:30:34,175 [INFO]   [S0-HYD] Checking: Walk-in || Fresher
+2026-09-07 09:30:34,175 [INFO]   [filter] No skill match: Walk-in || Fresher
+2026-09-07 09:30:34,189 [INFO]   [S0-HYD] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-07 09:30:34,190 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-07 09:30:34,203 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
+2026-09-07 09:30:34,203 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-07 09:30:34,216 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:30:34,216 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:30:34,229 [INFO]   [S0-HYD] Checking: Home Tutor
+2026-09-07 09:30:34,230 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:30:34,242 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:30:34,242 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:30:34,257 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:30:34,257 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:30:34,270 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-09-07 09:30:34,270 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:30:34,283 [INFO]   [S0-HYD] Checking: HR Management Professional
+2026-09-07 09:30:34,283 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:30:34,296 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-07 09:30:34,296 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:30:34,310 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:30:34,310 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:31:50,135 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-07 09:32:51,437 [INFO]   [S0-HYD] AI ML Engineer: 9 listings
+2026-09-07 09:32:51,451 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
+2026-09-07 09:32:51,451 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-07 09:32:51,464 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:32:51,464 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:32:51,478 [INFO]   [S0-HYD] Checking: Home Tutor
+2026-09-07 09:32:51,478 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:32:51,491 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:32:51,491 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:32:51,504 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:32:51,504 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:32:51,518 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-09-07 09:32:51,518 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:32:51,530 [INFO]   [S0-HYD] Checking: HR Management Professional
+2026-09-07 09:32:51,530 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:32:51,543 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-07 09:32:51,543 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:32:51,557 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:32:51,557 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:34:07,529 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-07 09:35:08,539 [INFO]   [S0-HYD] Machine Learning Engineer: 9 listings
+2026-09-07 09:35:08,553 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
+2026-09-07 09:35:08,553 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-07 09:35:08,567 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:35:08,567 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:35:08,580 [INFO]   [S0-HYD] Checking: Home Tutor
+2026-09-07 09:35:08,580 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:35:08,594 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:35:08,594 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:35:08,607 [INFO]   [S0-HYD] Checking: Developer
+2026-09-07 09:35:08,607 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:35:08,620 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-09-07 09:35:08,620 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:35:08,634 [INFO]   [S0-HYD] Checking: HR Management Professional
+2026-09-07 09:35:08,634 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:35:08,649 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-07 09:35:08,649 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:35:08,665 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:35:08,666 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:36:24,610 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-07 09:37:40,615 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-07 09:38:56,618 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-07 09:40:12,901 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-07 09:41:28,684 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-07 09:42:44,776 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-07 09:44:00,694 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-07 09:45:16,737 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-07 09:46:32,589 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-07 09:47:33,733 [INFO]   [S0-HYD] Data Analyst Intern: 20 listings
+2026-09-07 09:47:33,752 [INFO]   [S0-HYD] Checking: Marketing Intelligence & Data Analysis(Fresher)
+2026-09-07 09:47:33,752 [INFO]   [filter] Excluded 'marketing': Marketing Intelligence & Data Analysis(Fresher)
+2026-09-07 09:47:33,764 [INFO]   [S0-HYD] Checking: Research Analyst
+2026-09-07 09:47:33,764 [INFO]   [filter] No skill match: Research Analyst
+2026-09-07 09:47:33,776 [INFO]   [S0-HYD] Checking: Analyst - Government Consulting
+2026-09-07 09:47:33,776 [INFO]   [filter] No skill match: Analyst - Government Consulting
+2026-09-07 09:47:33,788 [INFO]   [S0-HYD] Checking: Research Analyst
+2026-09-07 09:47:33,788 [INFO]   [filter] No skill match: Research Analyst
+2026-09-07 09:47:33,801 [INFO]   [S0-HYD] Checking: Data Scientist with Gen AI
+2026-09-07 09:47:33,801 [INFO]   [filter] No skill match: Data Scientist with Gen AI
+2026-09-07 09:47:33,813 [INFO]   [S0-HYD] Checking: University Research Analyst
+2026-09-07 09:47:33,813 [INFO]   [filter] No skill match: University Research Analyst
+2026-09-07 09:47:33,825 [INFO]   [S0-HYD] Checking: Data Entry Executive
+2026-09-07 09:47:33,825 [INFO]   [filter] Excluded 'data entry': Data Entry Executive
+2026-09-07 09:47:33,838 [INFO]   [S0-HYD] Checking: Quantitative Analyst
+2026-09-07 09:47:33,838 [INFO]   [filter] No skill match: Quantitative Analyst
+2026-09-07 09:47:33,850 [INFO]   [S0-HYD] Checking: Technical Business Analyst
+2026-09-07 09:47:33,850 [INFO]   [filter] No skill match: Technical Business Analyst
+2026-09-07 09:47:33,862 [INFO]   [S0-HYD] Checking: Equity Research Analyst
+2026-09-07 09:47:33,862 [INFO]   [filter] No skill match: Equity Research Analyst
+2026-09-07 09:47:33,875 [INFO]   [S0-HYD] Checking: Data Steward-BIU
+2026-09-07 09:47:33,875 [INFO]   [filter] No skill match: Data Steward-BIU
+2026-09-07 09:47:33,887 [INFO]   [S0-HYD] Checking: Medical Coding Analyst
+2026-09-07 09:47:33,887 [INFO]   [filter] Excluded 'medical': Medical Coding Analyst
+2026-09-07 09:47:33,899 [INFO]   [S0-HYD] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-07 09:47:33,900 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-07 09:47:33,911 [INFO]   [S0-HYD] Checking: Financial Analyst
+2026-09-07 09:47:33,912 [INFO]   [filter] Excluded 'financial': Financial Analyst
+2026-09-07 09:47:33,923 [INFO]   [S0-HYD] Checking: Financial Analyst
+2026-09-07 09:47:33,924 [INFO]   [filter] Excluded 'financial': Financial Analyst
+2026-09-07 09:47:33,935 [INFO]   [S0-HYD] Checking: Market Research Startup Funding Analyst
+2026-09-07 09:47:33,936 [INFO]   [filter] No skill match: Market Research Startup Funding Analyst
+2026-09-07 09:47:33,948 [INFO]   [S0-HYD] Checking: TA Intern (6 Months with possibility To convert fulltime)
+2026-09-07 09:47:33,948 [INFO]   [filter] No skill match: TA Intern (6 Months with possibility To convert fulltime)
+2026-09-07 09:47:33,959 [INFO]   [S0-HYD] Checking: Legal Intern
+2026-09-07 09:47:33,959 [INFO]   [filter] Excluded 'legal': Legal Intern
+2026-09-07 09:47:33,972 [INFO]   [S0-HYD] Checking: Meta Assistant Intern
+2026-09-07 09:47:33,972 [INFO]   [filter] No skill match: Meta Assistant Intern
+2026-09-07 09:47:33,984 [INFO]   [S0-HYD] Checking: Req. Travel White Hat SEO/ SEO intern -12k -Noida
+2026-09-07 09:47:33,984 [INFO]   [filter] Excluded 'seo': Req. Travel White Hat SEO/ SEO intern -12k -Noida
+2026-09-07 09:48:50,032 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-07 09:50:06,076 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-07 09:51:21,889 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-07 09:51:21,890 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-07 03:35:24,824 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-07 03:35:24,824 [INFO] ███████████████████████████████████████████████████████
-2026-09-07 03:36:26,036 [INFO]   [S1] Java Developer: 1 listings
-2026-09-07 03:36:26,050 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:36:26,050 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:37:27,709 [INFO]   [S1] Python Developer: 1 listings
-2026-09-07 03:37:27,725 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:37:27,725 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:38:28,988 [INFO]   [S1] SQL Developer: 1 listings
-2026-09-07 03:38:28,998 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:38:28,998 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:39:30,342 [INFO]   [S1] Software Engineer: 1 listings
-2026-09-07 03:39:30,352 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:39:30,352 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:40:31,556 [INFO]   [S1] Associate Software Engineer: 1 listings
-2026-09-07 03:40:31,566 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:40:31,566 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:41:32,695 [INFO]   [S1] Data Analyst: 1 listings
-2026-09-07 03:41:32,705 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:41:32,705 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:42:33,924 [INFO]   [S1] AI ML Engineer: 1 listings
-2026-09-07 03:42:33,934 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:42:33,934 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:43:35,198 [INFO]   [S1] Machine Learning Engineer: 1 listings
-2026-09-07 03:43:35,208 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:43:35,208 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-07 03:43:35,208 [INFO] 
+2026-09-07 09:51:21,890 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-07 09:51:21,890 [INFO] ███████████████████████████████████████████████████████
+2026-09-07 09:52:22,922 [INFO]   [S1] Java Developer: 10 listings
+2026-09-07 09:52:22,943 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
+2026-09-07 09:52:22,943 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-07 09:52:22,958 [INFO]   [S1] Checking: Developer
+2026-09-07 09:52:22,958 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:52:22,970 [INFO]   [S1] Checking: Home Tutor
+2026-09-07 09:52:22,971 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:52:22,984 [INFO]   [S1] Checking: Developer
+2026-09-07 09:52:22,984 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:52:22,997 [INFO]   [S1] Checking: Developer
+2026-09-07 09:52:22,997 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:52:23,010 [INFO]   [S1] Checking: Dotnet Developer
+2026-09-07 09:52:23,010 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:52:23,024 [INFO]   [S1] Checking: HR Management Professional
+2026-09-07 09:52:23,024 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:52:23,038 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-07 09:52:23,038 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:52:23,052 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:52:23,052 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:52:23,066 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:52:23,066 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:53:24,078 [INFO]   [S1] Python Developer: 8 listings
+2026-09-07 09:53:24,091 [INFO]   [S1] Checking: Developer
+2026-09-07 09:53:24,092 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:53:24,104 [INFO]   [S1] Checking: Developer
+2026-09-07 09:53:24,104 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:53:24,116 [INFO]   [S1] Checking: Developer
+2026-09-07 09:53:24,116 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:53:24,129 [INFO]   [S1] Checking: Dotnet Developer
+2026-09-07 09:53:24,129 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:53:24,141 [INFO]   [S1] Checking: HR Management Professional
+2026-09-07 09:53:24,141 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:53:24,154 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-07 09:53:24,154 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:53:24,165 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:53:24,165 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:53:24,178 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:53:24,178 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:54:25,246 [INFO]   [S1] SQL Developer: 6 listings
+2026-09-07 09:54:25,259 [INFO]   [S1] Checking: Developer
+2026-09-07 09:54:25,259 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:54:25,271 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
+2026-09-07 09:54:25,272 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-07 09:54:25,284 [INFO]   [S1] Checking: Home Tutor
+2026-09-07 09:54:25,284 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:54:25,296 [INFO]   [S1] Checking: Developer
+2026-09-07 09:54:25,296 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:54:25,308 [INFO]   [S1] Checking: Developer
+2026-09-07 09:54:25,308 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:54:25,321 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:54:25,321 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:55:26,474 [INFO]   [S1] Software Engineer: 13 listings
+2026-09-07 09:55:26,487 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:55:26,487 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:55:26,499 [INFO]   [S1] Checking: Developer
+2026-09-07 09:55:26,500 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:55:26,512 [INFO]   [S1] Checking: Developer
+2026-09-07 09:55:26,512 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:55:26,525 [INFO]   [S1] Checking: Developer
+2026-09-07 09:55:26,525 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:55:26,537 [INFO]   [S1] Checking: Dotnet Developer
+2026-09-07 09:55:26,537 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:55:26,549 [INFO]   [S1] Checking: Developer
+2026-09-07 09:55:26,549 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:55:26,562 [INFO]   [S1] Checking: Developer
+2026-09-07 09:55:26,562 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:55:26,574 [INFO]   [S1] Checking: Developer
+2026-09-07 09:55:26,574 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:55:26,586 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
+2026-09-07 09:55:26,586 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-07 09:55:26,598 [INFO]   [S1] Checking: Home Tutor
+2026-09-07 09:55:26,598 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:55:26,610 [INFO]   [S1] Checking: HR Management Professional
+2026-09-07 09:55:26,610 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:55:26,623 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-07 09:55:26,623 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:55:26,635 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:55:26,635 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:56:28,084 [INFO]   [S1] Associate Software Engineer: 10 listings
+2026-09-07 09:56:28,097 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
+2026-09-07 09:56:28,097 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-07 09:56:28,109 [INFO]   [S1] Checking: Developer
+2026-09-07 09:56:28,109 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:56:28,121 [INFO]   [S1] Checking: Home Tutor
+2026-09-07 09:56:28,121 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:56:28,133 [INFO]   [S1] Checking: Developer
+2026-09-07 09:56:28,133 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:56:28,146 [INFO]   [S1] Checking: Developer
+2026-09-07 09:56:28,146 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:56:28,158 [INFO]   [S1] Checking: Dotnet Developer
+2026-09-07 09:56:28,158 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:56:28,170 [INFO]   [S1] Checking: HR Management Professional
+2026-09-07 09:56:28,170 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:56:28,182 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-07 09:56:28,182 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:56:28,194 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:56:28,194 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:56:28,206 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:56:28,206 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:57:29,462 [INFO]   [S1] Data Analyst: 13 listings
+2026-09-07 09:57:29,475 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
+2026-09-07 09:57:29,475 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-09-07 09:57:29,486 [INFO]   [S1] Checking: Walk-in || Fresher
+2026-09-07 09:57:29,487 [INFO]   [filter] No skill match: Walk-in || Fresher
+2026-09-07 09:57:29,499 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-07 09:57:29,499 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-07 09:57:29,511 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
+2026-09-07 09:57:29,511 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-07 09:57:29,523 [INFO]   [S1] Checking: Developer
+2026-09-07 09:57:29,523 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:57:29,535 [INFO]   [S1] Checking: Home Tutor
+2026-09-07 09:57:29,535 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:57:29,547 [INFO]   [S1] Checking: Developer
+2026-09-07 09:57:29,547 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:57:29,560 [INFO]   [S1] Checking: Developer
+2026-09-07 09:57:29,560 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:57:29,572 [INFO]   [S1] Checking: Dotnet Developer
+2026-09-07 09:57:29,572 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:57:29,584 [INFO]   [S1] Checking: HR Management Professional
+2026-09-07 09:57:29,584 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:57:29,596 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-07 09:57:29,596 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:57:29,609 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:57:29,609 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:57:29,621 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:57:29,621 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:58:30,752 [INFO]   [S1] AI ML Engineer: 10 listings
+2026-09-07 09:58:30,766 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
+2026-09-07 09:58:30,766 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-07 09:58:30,778 [INFO]   [S1] Checking: Developer
+2026-09-07 09:58:30,779 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:58:30,791 [INFO]   [S1] Checking: Home Tutor
+2026-09-07 09:58:30,791 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:58:30,804 [INFO]   [S1] Checking: Developer
+2026-09-07 09:58:30,804 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:58:30,816 [INFO]   [S1] Checking: Developer
+2026-09-07 09:58:30,816 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:58:30,828 [INFO]   [S1] Checking: Dotnet Developer
+2026-09-07 09:58:30,828 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:58:30,840 [INFO]   [S1] Checking: HR Management Professional
+2026-09-07 09:58:30,840 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:58:30,852 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-07 09:58:30,852 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:58:30,864 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:58:30,865 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:58:30,877 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:58:30,877 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:59:32,032 [INFO]   [S1] Machine Learning Engineer: 10 listings
+2026-09-07 09:59:32,046 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
+2026-09-07 09:59:32,046 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-07 09:59:32,059 [INFO]   [S1] Checking: Developer
+2026-09-07 09:59:32,059 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:59:32,072 [INFO]   [S1] Checking: Home Tutor
+2026-09-07 09:59:32,072 [INFO]   [filter] No skill match: Home Tutor
+2026-09-07 09:59:32,085 [INFO]   [S1] Checking: Developer
+2026-09-07 09:59:32,085 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:59:32,097 [INFO]   [S1] Checking: Developer
+2026-09-07 09:59:32,097 [INFO]   [filter] No skill match: Developer
+2026-09-07 09:59:32,110 [INFO]   [S1] Checking: Dotnet Developer
+2026-09-07 09:59:32,110 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-07 09:59:32,123 [INFO]   [S1] Checking: HR Management Professional
+2026-09-07 09:59:32,123 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-07 09:59:32,136 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-07 09:59:32,136 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-07 09:59:32,149 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-07 09:59:32,149 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-07 09:59:32,162 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:59:32,162 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-07 09:59:32,162 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-07 03:43:35,208 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-07 03:43:35,208 [INFO] ███████████████████████████████████████████████████████
-2026-09-07 03:58:47,181 [INFO] 
+2026-09-07 09:59:32,162 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-07 09:59:32,162 [INFO] ███████████████████████████████████████████████████████
+2026-09-07 10:14:44,459 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-07 03:58:47,181 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-07 03:58:47,181 [INFO] ███████████████████████████████████████████████████████
-2026-09-07 04:00:03,291 [INFO]   [S3] Java Developer: 0 listings
-2026-09-07 04:01:19,158 [INFO]   [S3] Python Developer: 0 listings
-2026-09-07 04:02:35,102 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-07 04:03:51,067 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-07 04:05:07,084 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-07 04:06:22,989 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-07 04:07:39,046 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-07 04:08:55,145 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-07 04:08:55,145 [INFO] 
+2026-09-07 10:14:44,459 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-07 10:14:44,459 [INFO] ███████████████████████████████████████████████████████
+2026-09-07 10:16:00,456 [INFO]   [S3] Java Developer: 0 listings
+2026-09-07 10:17:16,206 [INFO]   [S3] Python Developer: 0 listings
+2026-09-07 10:18:31,956 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-07 10:19:47,707 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-07 10:21:03,456 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-07 10:22:19,262 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-07 10:23:34,965 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-07 10:24:50,875 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-07 10:24:50,875 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-07 04:08:55,145 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-07 04:08:55,145 [INFO] ███████████████████████████████████████████████████████
-2026-09-07 04:24:05,402 [INFO] 
+2026-09-07 10:24:50,876 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-07 10:24:50,876 [INFO] ███████████████████████████████████████████████████████
+2026-09-07 10:40:02,629 [INFO] 
 =======================================================
-2026-09-07 04:24:05,402 [INFO]   Run complete — Applied this session : 0
-2026-09-07 04:24:05,402 [INFO]   Total ever applied                  : 289
-2026-09-07 04:24:05,402 [INFO] =======================================================
+2026-09-07 10:40:02,630 [INFO]   Run complete — Applied this session : 5
+2026-09-07 10:40:02,630 [INFO]   Total ever applied                  : 294
+2026-09-07 10:40:02,630 [INFO] =======================================================

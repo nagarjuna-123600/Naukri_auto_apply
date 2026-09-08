@@ -1,463 +1,713 @@
-2026-09-08 03:08:19,863 [INFO] GitHub Actions — single run mode
-2026-09-08 03:08:19,863 [INFO] 
+2026-09-08 08:36:43,326 [INFO] GitHub Actions — single run mode
+2026-09-08 08:36:43,326 [INFO] 
 =======================================================
-2026-09-08 03:08:19,863 [INFO]   Run started: 2026-09-08 03:08:19
-2026-09-08 03:08:19,863 [INFO] =======================================================
-2026-09-08 03:08:19,864 [INFO] Previously applied: 294 jobs
-2026-09-08 03:08:19,865 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-08 03:08:19,865 [INFO] ====== WebDriver manager ======
-2026-09-08 03:08:20,052 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-08 03:08:20,189 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-08 03:08:20,223 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-08 03:08:20,224 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-08 03:08:20,414 [INFO] WebDriver version 152.0.7977.82 selected
-2026-09-08 03:08:20,420 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-08 03:08:20,420 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-08 03:08:20,527 [INFO] Driver downloading response is 200
-2026-09-08 03:08:20,797 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
-2026-09-08 03:08:21,504 [INFO]   Trying cookie login...
-2026-09-08 03:08:27,459 [INFO]   Loading 34 cookies...
-2026-09-08 03:08:31,668 [INFO]   ✅ Cookie login successful!
-2026-09-08 03:08:31,668 [INFO] 
+2026-09-08 08:36:43,327 [INFO]   Run started: 2026-09-08 08:36:43
+2026-09-08 08:36:43,327 [INFO] =======================================================
+2026-09-08 08:36:43,327 [INFO] Previously applied: 294 jobs
+2026-09-08 08:36:43,328 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-08 08:36:43,328 [INFO] ====== WebDriver manager ======
+2026-09-08 08:36:45,079 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-08 08:36:45,142 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-08 08:36:45,177 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-08 08:36:45,177 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-08 08:36:45,278 [INFO] WebDriver version 152.0.7977.82 selected
+2026-09-08 08:36:45,284 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-08 08:36:45,284 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-08 08:36:45,340 [INFO] Driver downloading response is 200
+2026-09-08 08:36:45,533 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
+2026-09-08 08:36:50,684 [INFO]   Trying cookie login...
+2026-09-08 08:36:56,353 [INFO]   Loading 34 cookies...
+2026-09-08 08:37:00,504 [INFO]   ✅ Cookie login successful!
+2026-09-08 08:37:00,504 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-08 03:08:31,668 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-08 03:08:31,668 [INFO] ───────────────────────────────────────────────────────
-2026-09-08 03:08:31,668 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-08 03:09:38,673 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-08 03:09:44,221 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-08 03:09:46,575 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-08 03:09:49,596 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-08 03:09:52,627 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-08 03:09:52,627 [INFO] 
+2026-09-08 08:37:00,504 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-08 08:37:00,504 [INFO] ───────────────────────────────────────────────────────
+2026-09-08 08:37:00,504 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-09-08 08:38:07,132 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-08 08:38:12,665 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-08 08:38:15,022 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-08 08:38:18,044 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-08 08:38:21,077 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-09-08 08:38:21,077 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-08 03:09:52,627 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-08 03:09:52,627 [INFO] ███████████████████████████████████████████████████████
-2026-09-08 03:10:54,171 [INFO]   [S0-HYD] Java Developer: 11 listings
-2026-09-08 03:10:54,189 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-08 03:10:54,189 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:10:54,201 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
-2026-09-08 03:10:54,201 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:10:54,214 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:10:54,214 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:10:54,227 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:10:54,227 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:10:54,239 [INFO]   [S0-HYD] Checking: Home Tutor
-2026-09-08 03:10:54,239 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:10:54,252 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:10:54,252 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:10:54,264 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:10:54,265 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:10:54,277 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-09-08 03:10:54,277 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:10:54,289 [INFO]   [S0-HYD] Checking: HR Management Professional
-2026-09-08 03:10:54,289 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:10:54,301 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-08 03:10:54,301 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:10:54,313 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:10:54,313 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:12:10,233 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-08 03:13:11,515 [INFO]   [S0-HYD] Python Developer: 8 listings
-2026-09-08 03:13:11,529 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:13:11,529 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:13:11,541 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:13:11,541 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:13:11,553 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-08 03:13:11,554 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:13:11,566 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:13:11,566 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:13:11,579 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-09-08 03:13:11,579 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:13:11,591 [INFO]   [S0-HYD] Checking: HR Management Professional
-2026-09-08 03:13:11,591 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:13:11,604 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-08 03:13:11,604 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:13:11,616 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:13:11,616 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:14:27,513 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-08 03:15:28,965 [INFO]   [S0-HYD] SQL Developer: 7 listings
-2026-09-08 03:15:28,978 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:15:28,978 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:15:28,991 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-08 03:15:28,991 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:15:29,003 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
-2026-09-08 03:15:29,003 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:15:29,016 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:15:29,016 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:15:29,028 [INFO]   [S0-HYD] Checking: Home Tutor
-2026-09-08 03:15:29,028 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:15:29,040 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:15:29,041 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:15:29,053 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:15:29,053 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:16:45,002 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-08 03:17:46,194 [INFO]   [S0-HYD] Software Engineer: 15 listings
-2026-09-08 03:17:46,207 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:17:46,207 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:17:46,219 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:17:46,219 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:17:46,232 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:17:46,232 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:17:46,244 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-09-08 03:17:46,244 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:17:46,257 [INFO]   [S0-HYD] Checking: Maths Instructor
-2026-09-08 03:17:46,257 [INFO]   [filter] No skill match: Maths Instructor
-2026-09-08 03:17:46,269 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:17:46,269 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:17:46,281 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:17:46,282 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:17:46,294 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:17:46,294 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:17:46,307 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-08 03:17:46,307 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:17:46,320 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
-2026-09-08 03:17:46,320 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:17:46,332 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:17:46,332 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:17:46,345 [INFO]   [S0-HYD] Checking: Home Tutor
-2026-09-08 03:17:46,345 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:17:46,357 [INFO]   [S0-HYD] Checking: HR Management Professional
-2026-09-08 03:17:46,357 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:17:46,369 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-08 03:17:46,369 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:17:46,381 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:17:46,382 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:19:02,369 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-08 03:20:04,706 [INFO]   [S0-HYD] Associate Software Engineer: 11 listings
-2026-09-08 03:20:04,719 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
-2026-09-08 03:20:04,719 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:20:04,731 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:20:04,731 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:20:04,744 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:20:04,744 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:20:04,756 [INFO]   [S0-HYD] Checking: Home Tutor
-2026-09-08 03:20:04,756 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:20:04,769 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:20:04,769 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:20:04,781 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:20:04,781 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:20:04,793 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-09-08 03:20:04,793 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:20:04,806 [INFO]   [S0-HYD] Checking: HR Management Professional
-2026-09-08 03:20:04,806 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:20:04,818 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-08 03:20:04,818 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:20:04,831 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:20:04,831 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:20:04,843 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-08 03:20:04,843 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:21:20,922 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-08 03:22:22,096 [INFO]   [S0-HYD] Data Analyst: 17 listings
-2026-09-08 03:22:22,108 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
-2026-09-08 03:22:22,109 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:22:22,123 [INFO]   [S0-HYD] Checking: Intern
-2026-09-08 03:22:22,124 [INFO]   [filter] No skill match: Intern
-2026-09-08 03:22:22,136 [INFO]   [S0-HYD] Checking: Intern
-2026-09-08 03:22:22,136 [INFO]   [filter] No skill match: Intern
-2026-09-08 03:22:22,149 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
-2026-09-08 03:22:22,149 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-09-08 03:22:22,161 [INFO]   [S0-HYD] Checking: Investment Banking Analyst
-2026-09-08 03:22:22,161 [INFO]   [filter] Excluded 'bank': Investment Banking Analyst
-2026-09-08 03:22:22,174 [INFO]   [S0-HYD] Checking: Walk-in || Fresher
-2026-09-08 03:22:22,174 [INFO]   [filter] No skill match: Walk-in || Fresher
-2026-09-08 03:22:22,186 [INFO]   [S0-HYD] Checking: Data Analytic | Fresher | Business Analytics
-2026-09-08 03:22:22,186 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
-2026-09-08 03:22:22,199 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:22:22,199 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:22:22,211 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:22:22,211 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:22:22,224 [INFO]   [S0-HYD] Checking: Home Tutor
-2026-09-08 03:22:22,224 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:22:22,236 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:22:22,236 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:22:22,248 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:22:22,248 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:22:22,261 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-09-08 03:22:22,261 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:22:22,273 [INFO]   [S0-HYD] Checking: HR Management Professional
-2026-09-08 03:22:22,273 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:22:22,285 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-08 03:22:22,285 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:22:22,298 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:22:22,298 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:22:22,310 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-08 03:22:22,310 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:23:38,264 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-08 03:24:39,837 [INFO]   [S0-HYD] AI ML Engineer: 11 listings
-2026-09-08 03:24:39,850 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
-2026-09-08 03:24:39,850 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:24:39,863 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:24:39,863 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:24:39,875 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:24:39,875 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:24:39,887 [INFO]   [S0-HYD] Checking: Home Tutor
-2026-09-08 03:24:39,887 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:24:39,900 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:24:39,900 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:24:39,912 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:24:39,912 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:24:39,925 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-09-08 03:24:39,925 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:24:39,938 [INFO]   [S0-HYD] Checking: HR Management Professional
-2026-09-08 03:24:39,938 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:24:39,950 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-08 03:24:39,950 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:24:39,963 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:24:39,963 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:24:39,975 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-08 03:24:39,975 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:25:55,882 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-08 03:26:57,207 [INFO]   [S0-HYD] Machine Learning Engineer: 11 listings
-2026-09-08 03:26:57,220 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
-2026-09-08 03:26:57,220 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:26:57,233 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:26:57,233 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:26:57,245 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:26:57,245 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:26:57,258 [INFO]   [S0-HYD] Checking: Home Tutor
-2026-09-08 03:26:57,258 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:26:57,270 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:26:57,271 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:26:57,283 [INFO]   [S0-HYD] Checking: Developer
-2026-09-08 03:26:57,283 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:26:57,295 [INFO]   [S0-HYD] Checking: Dotnet Developer
-2026-09-08 03:26:57,295 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:26:57,308 [INFO]   [S0-HYD] Checking: HR Management Professional
-2026-09-08 03:26:57,308 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:26:57,321 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-08 03:26:57,321 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:26:57,333 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:26:57,333 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:26:57,346 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-08 03:26:57,346 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:28:13,216 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-08 03:29:29,564 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-08 03:30:45,551 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-08 03:32:02,988 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-08 03:33:19,032 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-08 03:34:35,474 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-08 03:35:52,015 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-08 03:37:08,287 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-08 03:38:24,266 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-08 03:39:40,529 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-08 03:40:56,525 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-08 03:42:13,166 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-08 03:43:29,261 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-08 03:43:29,261 [INFO] 
+2026-09-08 08:38:21,077 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-08 08:38:21,077 [INFO] ███████████████████████████████████████████████████████
+2026-09-08 08:39:22,741 [INFO]   [S0-HYD] Java Developer: 20 listings
+2026-09-08 08:39:22,759 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-09-08 08:39:22,759 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-08 08:39:22,772 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-08 08:39:22,772 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 08:39:22,784 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
+2026-09-08 08:39:22,784 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 08:39:22,796 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 08:39:22,797 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 08:39:22,809 [INFO]   [S0-HYD] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 08:39:22,809 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 08:39:22,821 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 08:39:22,821 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 08:39:22,833 [INFO]   [S0-HYD] Checking: Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 08:39:22,833 [INFO]   [filter] Excluded 'senior': Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 08:39:22,846 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 08:39:22,846 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 08:39:22,858 [INFO]   [S0-HYD] Checking: AI/ML Engineer
+2026-09-08 08:39:22,858 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 08:39:22,870 [INFO]   [S0-HYD] Checking: Site Reliability Engineer
+2026-09-08 08:39:22,871 [INFO]   [filter] No skill match: Site Reliability Engineer
+2026-09-08 08:39:22,882 [INFO]   [S0-HYD] Checking: AI Engineer Intern
+2026-09-08 08:39:22,883 [INFO]   [filter] No skill match: AI Engineer Intern
+2026-09-08 08:39:22,895 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
+2026-09-08 08:39:22,895 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-08 08:39:22,909 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:39:22,909 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:39:22,922 [INFO]   [S0-HYD] Checking: Home Tutor
+2026-09-08 08:39:22,922 [INFO]   [filter] No skill match: Home Tutor
+2026-09-08 08:39:22,952 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:39:22,952 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:39:22,981 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:39:22,981 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:39:22,994 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-09-08 08:39:22,994 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-08 08:39:23,006 [INFO]   [S0-HYD] Checking: HR Management Professional
+2026-09-08 08:39:23,007 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-08 08:39:23,018 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-08 08:39:23,018 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-08 08:39:23,030 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-08 08:39:23,030 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-08 08:40:38,937 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-08 08:41:39,979 [INFO]   [S0-HYD] Python Developer: 10 listings
+2026-09-08 08:41:39,992 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:41:39,992 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:41:40,004 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:41:40,004 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:41:40,016 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-09-08 08:41:40,016 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-08 08:41:40,028 [INFO]   [S0-HYD] Checking: Associate Consultant Java
+2026-09-08 08:42:37,504 [INFO]   [location] ✅ Hyderabad
+2026-09-08 08:42:37,948 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-08 08:42:37,948 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-08 08:42:37,948 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-08 08:42:37,948 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-08 08:42:37,988 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-08 08:42:37,988 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-08 08:43:36,532 [INFO]   Clicked Apply: Associate Consultant Java
+2026-09-08 08:45:49,696 [INFO]   ✅ Applied: Associate Consultant Java
+2026-09-08 08:45:51,787 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:45:51,788 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:45:51,800 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-09-08 08:45:51,800 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-08 08:45:51,812 [INFO]   [S0-HYD] Checking: HR Management Professional
+2026-09-08 08:45:51,812 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-08 08:45:51,824 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-08 08:45:51,824 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-08 08:45:51,836 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-08 08:45:51,837 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-08 08:45:51,849 [INFO]   [S0-HYD] Checking: GSOC Operator
+2026-09-08 08:45:51,849 [INFO]   [filter] No skill match: GSOC Operator
+2026-09-08 08:47:07,876 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-08 08:48:09,021 [INFO]   [S0-HYD] SQL Developer: 17 listings
+2026-09-08 08:48:09,034 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:48:09,034 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:48:09,048 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-09-08 08:48:09,049 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-08 08:48:09,061 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-08 08:48:09,061 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 08:48:09,074 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
+2026-09-08 08:48:09,074 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 08:48:09,087 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 08:48:09,088 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 08:48:09,100 [INFO]   [S0-HYD] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 08:48:09,100 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 08:48:09,113 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 08:48:09,113 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 08:48:09,126 [INFO]   [S0-HYD] Checking: Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 08:48:09,126 [INFO]   [filter] Excluded 'senior': Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 08:48:09,139 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 08:48:09,139 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 08:48:09,152 [INFO]   [S0-HYD] Checking: Associate Consultant Java
+2026-09-08 08:48:09,152 [INFO]   Already applied: Associate Consultant Java
+2026-09-08 08:48:09,164 [INFO]   [S0-HYD] Checking: AI/ML Engineer
+2026-09-08 08:48:09,165 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 08:48:09,177 [INFO]   [S0-HYD] Checking: Site Reliability Engineer
+2026-09-08 08:48:09,177 [INFO]   [filter] No skill match: Site Reliability Engineer
+2026-09-08 08:48:09,190 [INFO]   [S0-HYD] Checking: AI Engineer Intern
+2026-09-08 08:48:09,190 [INFO]   [filter] No skill match: AI Engineer Intern
+2026-09-08 08:48:09,204 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
+2026-09-08 08:48:09,204 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-08 08:48:09,218 [INFO]   [S0-HYD] Checking: Home Tutor
+2026-09-08 08:48:09,218 [INFO]   [filter] No skill match: Home Tutor
+2026-09-08 08:48:09,231 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:48:09,231 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:48:09,245 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:48:09,245 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:49:25,267 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-08 08:50:26,355 [INFO]   [S0-HYD] Software Engineer: 20 listings
+2026-09-08 08:50:26,369 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-08 08:50:26,369 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 08:50:26,382 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-08 08:50:26,383 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 08:50:26,395 [INFO]   [S0-HYD] Checking: AI/ML Engineer
+2026-09-08 08:50:26,395 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 08:50:26,407 [INFO]   [S0-HYD] Checking: Site Reliability Engineer
+2026-09-08 08:50:26,408 [INFO]   [filter] No skill match: Site Reliability Engineer
+2026-09-08 08:50:26,420 [INFO]   [S0-HYD] Checking: AI Engineer Intern
+2026-09-08 08:50:26,420 [INFO]   [filter] No skill match: AI Engineer Intern
+2026-09-08 08:50:26,432 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:50:26,433 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:50:26,445 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:50:26,445 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:50:26,457 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:50:26,457 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:50:26,469 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-09-08 08:50:26,470 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-08 08:50:26,483 [INFO]   [S0-HYD] Checking: SDE Mentor
+2026-09-08 08:50:26,483 [INFO]   [filter] No skill match: SDE Mentor
+2026-09-08 08:50:26,495 [INFO]   [S0-HYD] Checking: Maths Instructor
+2026-09-08 08:50:26,495 [INFO]   [filter] No skill match: Maths Instructor
+2026-09-08 08:50:26,507 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:50:26,508 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:50:26,519 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:50:26,520 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:50:26,532 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:50:26,532 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:50:26,544 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-09-08 08:50:26,544 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-08 08:50:26,556 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
+2026-09-08 08:50:26,556 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 08:50:26,568 [INFO]   [S0-HYD] Checking: Java Micro services
+2026-09-08 08:51:23,823 [INFO]   [location] ✅ Hyderabad, Pune, Chennai
+2026-09-08 08:51:24,067 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-08 08:51:24,067 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-08 08:51:24,067 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-08 08:51:24,067 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-08 08:51:24,110 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-08 08:51:24,110 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-08 08:52:20,254 [INFO]   Clicked Apply: Java Micro services
+2026-09-08 08:54:59,720 [INFO]   ✅ Applied: Java Micro services
+2026-09-08 08:55:01,800 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 08:55:01,801 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 08:55:01,817 [INFO]   [S0-HYD] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 08:55:01,817 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 08:55:01,834 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 08:55:01,834 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 08:56:17,785 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-08 08:57:18,827 [INFO]   [S0-HYD] Associate Software Engineer: 20 listings
+2026-09-08 08:57:18,870 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-08 08:57:18,870 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 08:57:18,945 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-08 08:57:18,945 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 08:57:18,958 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
+2026-09-08 08:57:18,958 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 08:57:18,971 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 08:57:18,972 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 08:57:18,985 [INFO]   [S0-HYD] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 08:57:18,985 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 08:57:19,001 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 08:57:19,001 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 08:57:19,027 [INFO]   [S0-HYD] Checking: Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 08:57:19,027 [INFO]   [filter] Excluded 'senior': Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 08:57:19,043 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 08:57:19,043 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 08:57:19,062 [INFO]   [S0-HYD] Checking: Analytics Engineer
+2026-09-08 08:57:19,062 [INFO]   [filter] No skill match: Analytics Engineer
+2026-09-08 08:57:19,078 [INFO]   [S0-HYD] Checking: Quality Assurance Engineer
+2026-09-08 08:57:19,078 [INFO]   [filter] No skill match: Quality Assurance Engineer
+2026-09-08 08:57:19,095 [INFO]   [S0-HYD] Checking: Java Micro services
+2026-09-08 08:57:19,095 [INFO]   Already applied: Java Micro services
+2026-09-08 08:57:19,108 [INFO]   [S0-HYD] Checking: AI/ML Engineer
+2026-09-08 08:57:19,109 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 08:57:19,123 [INFO]   [S0-HYD] Checking: Site Reliability Engineer
+2026-09-08 08:57:19,123 [INFO]   [filter] No skill match: Site Reliability Engineer
+2026-09-08 08:57:19,137 [INFO]   [S0-HYD] Checking: AI Engineer Intern
+2026-09-08 08:57:19,137 [INFO]   [filter] No skill match: AI Engineer Intern
+2026-09-08 08:57:19,151 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
+2026-09-08 08:57:19,151 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-08 08:57:19,167 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:57:19,167 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:57:19,184 [INFO]   [S0-HYD] Checking: Home Tutor
+2026-09-08 08:57:19,184 [INFO]   [filter] No skill match: Home Tutor
+2026-09-08 08:57:19,201 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:57:19,201 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:57:19,215 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 08:57:19,215 [INFO]   [filter] No skill match: Developer
+2026-09-08 08:57:19,231 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-09-08 08:57:19,232 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-08 08:58:35,060 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-08 08:59:36,133 [INFO]   [S0-HYD] Data Analyst: 20 listings
+2026-09-08 08:59:36,147 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
+2026-09-08 08:59:36,147 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 08:59:36,161 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 08:59:36,161 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 08:59:36,174 [INFO]   [S0-HYD] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 08:59:36,175 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 08:59:36,188 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 08:59:36,188 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 08:59:36,202 [INFO]   [S0-HYD] Checking: Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 08:59:36,202 [INFO]   [filter] Excluded 'senior': Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 08:59:36,215 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 08:59:36,215 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 08:59:36,228 [INFO]   [S0-HYD] Checking: Client Data Professional
+2026-09-08 08:59:36,228 [INFO]   [filter] No skill match: Client Data Professional
+2026-09-08 08:59:36,242 [INFO]   [S0-HYD] Checking: Associate Project Manager - AI Systems
+2026-09-08 08:59:36,242 [INFO]   [filter] Excluded 'manager': Associate Project Manager - AI Systems
+2026-09-08 08:59:36,255 [INFO]   [S0-HYD] Checking: Audit Support Assistant I
+2026-09-08 08:59:36,255 [INFO]   [filter] No skill match: Audit Support Assistant I
+2026-09-08 08:59:36,268 [INFO]   [S0-HYD] Checking: Intern
+2026-09-08 08:59:36,268 [INFO]   [filter] No skill match: Intern
+2026-09-08 08:59:36,283 [INFO]   [S0-HYD] Checking: Intern
+2026-09-08 08:59:36,283 [INFO]   [filter] No skill match: Intern
+2026-09-08 08:59:36,297 [INFO]   [S0-HYD] Checking: Investment Banking Analyst
+2026-09-08 08:59:36,297 [INFO]   [filter] Excluded 'bank': Investment Banking Analyst
+2026-09-08 08:59:36,310 [INFO]   [S0-HYD] Checking: Walk-in || Fresher
+2026-09-08 08:59:36,310 [INFO]   [filter] No skill match: Walk-in || Fresher
+2026-09-08 08:59:36,324 [INFO]   [S0-HYD] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-08 08:59:36,324 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-08 08:59:36,337 [INFO]   [S0-HYD] Checking: Analytics Engineer
+2026-09-08 08:59:36,337 [INFO]   [filter] No skill match: Analytics Engineer
+2026-09-08 08:59:36,350 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-08 08:59:36,350 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 08:59:36,364 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-08 08:59:36,364 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 08:59:36,377 [INFO]   [S0-HYD] Checking: Quality Assurance Engineer
+2026-09-08 08:59:36,377 [INFO]   [filter] No skill match: Quality Assurance Engineer
+2026-09-08 08:59:36,390 [INFO]   [S0-HYD] Checking: Java Micro services
+2026-09-08 08:59:36,391 [INFO]   Already applied: Java Micro services
+2026-09-08 08:59:36,404 [INFO]   [S0-HYD] Checking: AI/ML Engineer
+2026-09-08 08:59:36,404 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 09:00:52,322 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-08 09:01:53,499 [INFO]   [S0-HYD] AI ML Engineer: 20 listings
+2026-09-08 09:01:53,513 [INFO]   [S0-HYD] Checking: AI/ML Engineer
+2026-09-08 09:01:53,513 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 09:01:53,526 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:01:53,526 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:01:53,539 [INFO]   [S0-HYD] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:01:53,539 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:01:53,553 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:01:53,553 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:01:53,566 [INFO]   [S0-HYD] Checking: Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:01:53,566 [INFO]   [filter] Excluded 'senior': Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:01:53,579 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:01:53,580 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:01:53,594 [INFO]   [S0-HYD] Checking: AI Engineer Intern
+2026-09-08 09:01:53,594 [INFO]   [filter] No skill match: AI Engineer Intern
+2026-09-08 09:01:53,607 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-08 09:01:53,607 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 09:01:53,620 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-08 09:01:53,620 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 09:01:53,633 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
+2026-09-08 09:01:53,633 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 09:01:53,646 [INFO]   [S0-HYD] Checking: Analytics Engineer
+2026-09-08 09:01:53,646 [INFO]   [filter] No skill match: Analytics Engineer
+2026-09-08 09:01:53,660 [INFO]   [S0-HYD] Checking: Quality Assurance Engineer
+2026-09-08 09:01:53,660 [INFO]   [filter] No skill match: Quality Assurance Engineer
+2026-09-08 09:01:53,673 [INFO]   [S0-HYD] Checking: Java Micro services
+2026-09-08 09:01:53,673 [INFO]   Already applied: Java Micro services
+2026-09-08 09:01:53,686 [INFO]   [S0-HYD] Checking: Site Reliability Engineer
+2026-09-08 09:01:53,686 [INFO]   [filter] No skill match: Site Reliability Engineer
+2026-09-08 09:01:53,699 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
+2026-09-08 09:01:53,699 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-08 09:01:53,712 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 09:01:53,712 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:01:53,726 [INFO]   [S0-HYD] Checking: Home Tutor
+2026-09-08 09:01:53,726 [INFO]   [filter] No skill match: Home Tutor
+2026-09-08 09:01:53,741 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 09:01:53,741 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:01:53,755 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 09:01:53,755 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:01:53,768 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-09-08 09:01:53,769 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-08 09:03:09,781 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-08 09:04:10,853 [INFO]   [S0-HYD] Machine Learning Engineer: 20 listings
+2026-09-08 09:04:10,866 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:04:10,866 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:04:10,880 [INFO]   [S0-HYD] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:04:10,880 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:04:10,893 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:04:10,893 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:04:10,906 [INFO]   [S0-HYD] Checking: Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:04:10,906 [INFO]   [filter] Excluded 'senior': Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:04:10,919 [INFO]   [S0-HYD] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:04:10,919 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:04:10,932 [INFO]   [S0-HYD] Checking: AI/ML Engineer
+2026-09-08 09:04:10,933 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 09:04:10,945 [INFO]   [S0-HYD] Checking: AI Engineer Intern
+2026-09-08 09:04:10,946 [INFO]   [filter] No skill match: AI Engineer Intern
+2026-09-08 09:04:10,958 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-08 09:04:10,958 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 09:04:10,972 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-08 09:04:10,972 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 09:04:10,986 [INFO]   [S0-HYD] Checking: Cyber Security Engineer II
+2026-09-08 09:04:10,986 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 09:04:10,999 [INFO]   [S0-HYD] Checking: Analytics Engineer
+2026-09-08 09:04:10,999 [INFO]   [filter] No skill match: Analytics Engineer
+2026-09-08 09:04:11,012 [INFO]   [S0-HYD] Checking: Quality Assurance Engineer
+2026-09-08 09:04:11,012 [INFO]   [filter] No skill match: Quality Assurance Engineer
+2026-09-08 09:04:11,025 [INFO]   [S0-HYD] Checking: Java Micro services
+2026-09-08 09:04:11,025 [INFO]   Already applied: Java Micro services
+2026-09-08 09:04:11,038 [INFO]   [S0-HYD] Checking: Site Reliability Engineer
+2026-09-08 09:04:11,038 [INFO]   [filter] No skill match: Site Reliability Engineer
+2026-09-08 09:04:11,051 [INFO]   [S0-HYD] Checking: Junior Consultant - Product Consulting Group
+2026-09-08 09:04:11,051 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-08 09:04:11,064 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 09:04:11,064 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:04:11,078 [INFO]   [S0-HYD] Checking: Home Tutor
+2026-09-08 09:04:11,078 [INFO]   [filter] No skill match: Home Tutor
+2026-09-08 09:04:11,090 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 09:04:11,091 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:04:11,103 [INFO]   [S0-HYD] Checking: Developer
+2026-09-08 09:04:11,104 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:04:11,117 [INFO]   [S0-HYD] Checking: Dotnet Developer
+2026-09-08 09:04:11,117 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-08 09:05:27,159 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-08 09:06:43,361 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-08 09:07:59,213 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-08 09:09:15,372 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-08 09:10:31,352 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-08 09:11:47,465 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-08 09:13:03,289 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-08 09:14:19,464 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-08 09:15:35,364 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-08 09:16:51,586 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-08 09:18:07,584 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-08 09:19:23,751 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-08 09:20:39,646 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-08 09:20:39,646 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-08 03:43:29,261 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-08 03:43:29,261 [INFO] ███████████████████████████████████████████████████████
-2026-09-08 03:44:30,691 [INFO]   [S1] Java Developer: 11 listings
-2026-09-08 03:44:30,709 [INFO]   [S1] Checking: Sap Consultant
-2026-09-08 03:44:30,709 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:44:30,722 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-09-08 03:44:30,722 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:44:30,735 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:44:30,735 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:44:30,748 [INFO]   [S1] Checking: Developer
-2026-09-08 03:44:30,748 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:44:30,760 [INFO]   [S1] Checking: Home Tutor
-2026-09-08 03:44:30,760 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:44:30,772 [INFO]   [S1] Checking: Developer
-2026-09-08 03:44:30,773 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:44:30,785 [INFO]   [S1] Checking: Developer
-2026-09-08 03:44:30,785 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:44:30,798 [INFO]   [S1] Checking: Dotnet Developer
-2026-09-08 03:44:30,798 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:44:30,810 [INFO]   [S1] Checking: HR Management Professional
-2026-09-08 03:44:30,811 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:44:30,823 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-08 03:44:30,823 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:44:30,835 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:44:30,836 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:45:32,279 [INFO]   [S1] Python Developer: 8 listings
-2026-09-08 03:45:32,292 [INFO]   [S1] Checking: Developer
-2026-09-08 03:45:32,293 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:45:32,305 [INFO]   [S1] Checking: Developer
-2026-09-08 03:45:32,305 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:45:32,318 [INFO]   [S1] Checking: Sap Consultant
-2026-09-08 03:45:32,318 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:45:32,330 [INFO]   [S1] Checking: Developer
-2026-09-08 03:45:32,330 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:45:32,343 [INFO]   [S1] Checking: Dotnet Developer
-2026-09-08 03:45:32,343 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:45:32,356 [INFO]   [S1] Checking: HR Management Professional
-2026-09-08 03:45:32,356 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:45:32,368 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-08 03:45:32,368 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:45:32,381 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:45:32,381 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:46:33,960 [INFO]   [S1] SQL Developer: 7 listings
-2026-09-08 03:46:33,973 [INFO]   [S1] Checking: Developer
-2026-09-08 03:46:33,973 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:46:33,986 [INFO]   [S1] Checking: Sap Consultant
-2026-09-08 03:46:33,986 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:46:33,998 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-09-08 03:46:33,999 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:46:34,011 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:46:34,011 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:46:34,024 [INFO]   [S1] Checking: Home Tutor
-2026-09-08 03:46:34,024 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:46:34,036 [INFO]   [S1] Checking: Developer
-2026-09-08 03:46:34,037 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:46:34,049 [INFO]   [S1] Checking: Developer
-2026-09-08 03:46:34,050 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:47:35,796 [INFO]   [S1] Software Engineer: 15 listings
-2026-09-08 03:47:35,810 [INFO]   [S1] Checking: Developer
-2026-09-08 03:47:35,810 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:47:35,822 [INFO]   [S1] Checking: Developer
-2026-09-08 03:47:35,822 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:47:35,835 [INFO]   [S1] Checking: Developer
-2026-09-08 03:47:35,835 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:47:35,848 [INFO]   [S1] Checking: Dotnet Developer
-2026-09-08 03:47:35,848 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:47:35,861 [INFO]   [S1] Checking: Maths Instructor
-2026-09-08 03:47:35,861 [INFO]   [filter] No skill match: Maths Instructor
-2026-09-08 03:47:35,873 [INFO]   [S1] Checking: Developer
-2026-09-08 03:47:35,873 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:47:35,886 [INFO]   [S1] Checking: Developer
-2026-09-08 03:47:35,886 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:47:35,899 [INFO]   [S1] Checking: Developer
-2026-09-08 03:47:35,899 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:47:35,911 [INFO]   [S1] Checking: Sap Consultant
-2026-09-08 03:47:35,911 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:47:35,924 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-09-08 03:47:35,924 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:47:35,936 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:47:35,936 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:47:35,949 [INFO]   [S1] Checking: Home Tutor
-2026-09-08 03:47:35,949 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:47:35,961 [INFO]   [S1] Checking: HR Management Professional
-2026-09-08 03:47:35,962 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:47:35,974 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-08 03:47:35,974 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:47:35,987 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:47:35,987 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:48:37,183 [INFO]   [S1] Associate Software Engineer: 11 listings
-2026-09-08 03:48:37,196 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-09-08 03:48:37,196 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:48:37,208 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:48:37,208 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:48:37,220 [INFO]   [S1] Checking: Developer
-2026-09-08 03:48:37,220 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:48:37,233 [INFO]   [S1] Checking: Home Tutor
-2026-09-08 03:48:37,233 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:48:37,245 [INFO]   [S1] Checking: Developer
-2026-09-08 03:48:37,245 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:48:37,257 [INFO]   [S1] Checking: Developer
-2026-09-08 03:48:37,257 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:48:37,269 [INFO]   [S1] Checking: Dotnet Developer
-2026-09-08 03:48:37,269 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:48:37,281 [INFO]   [S1] Checking: HR Management Professional
-2026-09-08 03:48:37,281 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:48:37,293 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-08 03:48:37,293 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:48:37,306 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:48:37,306 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:48:37,319 [INFO]   [S1] Checking: Sap Consultant
-2026-09-08 03:48:37,319 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:49:38,783 [INFO]   [S1] Data Analyst: 17 listings
-2026-09-08 03:49:38,796 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-09-08 03:49:38,796 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:49:38,809 [INFO]   [S1] Checking: Intern
-2026-09-08 03:49:38,809 [INFO]   [filter] No skill match: Intern
-2026-09-08 03:49:38,821 [INFO]   [S1] Checking: Intern
-2026-09-08 03:49:38,821 [INFO]   [filter] No skill match: Intern
-2026-09-08 03:49:38,834 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
-2026-09-08 03:49:38,834 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-09-08 03:49:38,847 [INFO]   [S1] Checking: Investment Banking Analyst
-2026-09-08 03:49:38,847 [INFO]   [filter] Excluded 'bank': Investment Banking Analyst
-2026-09-08 03:49:38,859 [INFO]   [S1] Checking: Walk-in || Fresher
-2026-09-08 03:49:38,859 [INFO]   [filter] No skill match: Walk-in || Fresher
-2026-09-08 03:49:38,872 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
-2026-09-08 03:49:38,872 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
-2026-09-08 03:49:38,884 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:49:38,884 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:49:38,896 [INFO]   [S1] Checking: Developer
-2026-09-08 03:49:38,896 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:49:38,909 [INFO]   [S1] Checking: Home Tutor
-2026-09-08 03:49:38,909 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:49:38,921 [INFO]   [S1] Checking: Developer
-2026-09-08 03:49:38,921 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:49:38,933 [INFO]   [S1] Checking: Developer
-2026-09-08 03:49:38,933 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:49:38,945 [INFO]   [S1] Checking: Dotnet Developer
-2026-09-08 03:49:38,946 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:49:38,958 [INFO]   [S1] Checking: HR Management Professional
-2026-09-08 03:49:38,958 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:49:38,970 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-08 03:49:38,970 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:49:38,983 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:49:38,983 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:49:38,997 [INFO]   [S1] Checking: Sap Consultant
-2026-09-08 03:49:38,997 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:50:40,275 [INFO]   [S1] AI ML Engineer: 11 listings
-2026-09-08 03:50:40,287 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-09-08 03:50:40,288 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:50:40,300 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:50:40,301 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:50:40,313 [INFO]   [S1] Checking: Developer
-2026-09-08 03:50:40,313 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:50:40,326 [INFO]   [S1] Checking: Home Tutor
-2026-09-08 03:50:40,326 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:50:40,338 [INFO]   [S1] Checking: Developer
-2026-09-08 03:50:40,338 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:50:40,351 [INFO]   [S1] Checking: Developer
-2026-09-08 03:50:40,351 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:50:40,363 [INFO]   [S1] Checking: Dotnet Developer
-2026-09-08 03:50:40,363 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:50:40,376 [INFO]   [S1] Checking: HR Management Professional
-2026-09-08 03:50:40,376 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:50:40,388 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-08 03:50:40,389 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:50:40,401 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:50:40,401 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:50:40,413 [INFO]   [S1] Checking: Sap Consultant
-2026-09-08 03:50:40,413 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:51:41,981 [INFO]   [S1] Machine Learning Engineer: 11 listings
-2026-09-08 03:51:41,994 [INFO]   [S1] Checking: Cyber Security Engineer II
-2026-09-08 03:51:41,994 [INFO]   [filter] No skill match: Cyber Security Engineer II
-2026-09-08 03:51:42,007 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
-2026-09-08 03:51:42,007 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
-2026-09-08 03:51:42,019 [INFO]   [S1] Checking: Developer
-2026-09-08 03:51:42,019 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:51:42,032 [INFO]   [S1] Checking: Home Tutor
-2026-09-08 03:51:42,032 [INFO]   [filter] No skill match: Home Tutor
-2026-09-08 03:51:42,045 [INFO]   [S1] Checking: Developer
-2026-09-08 03:51:42,045 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:51:42,057 [INFO]   [S1] Checking: Developer
-2026-09-08 03:51:42,057 [INFO]   [filter] No skill match: Developer
-2026-09-08 03:51:42,070 [INFO]   [S1] Checking: Dotnet Developer
-2026-09-08 03:51:42,070 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
-2026-09-08 03:51:42,083 [INFO]   [S1] Checking: HR Management Professional
-2026-09-08 03:51:42,083 [INFO]   [filter] Excluded 'hr ': HR Management Professional
-2026-09-08 03:51:42,096 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-08 03:51:42,096 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-08 03:51:42,108 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-08 03:51:42,109 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-08 03:51:42,121 [INFO]   [S1] Checking: Sap Consultant
-2026-09-08 03:51:42,122 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-08 03:51:42,122 [INFO] 
+2026-09-08 09:20:39,646 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-08 09:20:39,646 [INFO] ███████████████████████████████████████████████████████
+2026-09-08 09:21:40,986 [INFO]   [S1] Java Developer: 20 listings
+2026-09-08 09:21:41,004 [INFO]   [S1] Checking: CSA Professional
+2026-09-08 09:21:41,004 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 09:21:41,016 [INFO]   [S1] Checking: Sap Consultant
+2026-09-08 09:21:41,016 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-08 09:21:41,028 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-08 09:21:41,028 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 09:21:41,041 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-09-08 09:21:41,041 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 09:21:41,053 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:21:41,053 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:21:41,066 [INFO]   [S1] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:21:41,066 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:21:41,078 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:21:41,078 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:21:41,090 [INFO]   [S1] Checking: Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:21:41,090 [INFO]   [filter] Excluded 'senior': Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:21:41,103 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:21:41,103 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:21:41,115 [INFO]   [S1] Checking: Quality Assurance Engineer
+2026-09-08 09:21:41,115 [INFO]   [filter] No skill match: Quality Assurance Engineer
+2026-09-08 09:21:41,128 [INFO]   [S1] Checking: AI/ML Engineer
+2026-09-08 09:21:41,128 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 09:21:41,141 [INFO]   [S1] Checking: Site Reliability Engineer
+2026-09-08 09:21:41,141 [INFO]   [filter] No skill match: Site Reliability Engineer
+2026-09-08 09:21:41,153 [INFO]   [S1] Checking: AI Engineer Intern
+2026-09-08 09:21:41,153 [INFO]   [filter] No skill match: AI Engineer Intern
+2026-09-08 09:21:41,165 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
+2026-09-08 09:21:41,165 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-08 09:21:41,178 [INFO]   [S1] Checking: Developer
+2026-09-08 09:21:41,178 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:21:41,190 [INFO]   [S1] Checking: Home Tutor
+2026-09-08 09:21:41,190 [INFO]   [filter] No skill match: Home Tutor
+2026-09-08 09:21:41,205 [INFO]   [S1] Checking: Developer
+2026-09-08 09:21:41,205 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:21:41,217 [INFO]   [S1] Checking: Developer
+2026-09-08 09:21:41,217 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:21:41,229 [INFO]   [S1] Checking: Dotnet Developer
+2026-09-08 09:21:41,229 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-08 09:21:41,243 [INFO]   [S1] Checking: HR Management Professional
+2026-09-08 09:21:41,243 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-08 09:22:42,490 [INFO]   [S1] Python Developer: 12 listings
+2026-09-08 09:22:42,502 [INFO]   [S1] Checking: Developer
+2026-09-08 09:22:42,502 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:22:42,515 [INFO]   [S1] Checking: Developer
+2026-09-08 09:22:42,515 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:22:42,526 [INFO]   [S1] Checking: CSA Professional
+2026-09-08 09:22:42,527 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 09:22:42,539 [INFO]   [S1] Checking: Sap Consultant
+2026-09-08 09:22:42,539 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-08 09:22:42,551 [INFO]   [S1] Checking: Analytics Engineer
+2026-09-08 09:22:42,551 [INFO]   [filter] No skill match: Analytics Engineer
+2026-09-08 09:22:42,563 [INFO]   [S1] Checking: Java Micro services
+2026-09-08 09:22:42,563 [INFO]   Already applied: Java Micro services
+2026-09-08 09:22:42,575 [INFO]   [S1] Checking: Developer
+2026-09-08 09:22:42,575 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:22:42,587 [INFO]   [S1] Checking: Dotnet Developer
+2026-09-08 09:22:42,587 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-08 09:22:42,600 [INFO]   [S1] Checking: HR Management Professional
+2026-09-08 09:22:42,600 [INFO]   [filter] Excluded 'hr ': HR Management Professional
+2026-09-08 09:22:42,612 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-08 09:22:42,612 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-08 09:22:42,625 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-08 09:22:42,625 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-08 09:22:42,637 [INFO]   [S1] Checking: GSOC Operator
+2026-09-08 09:22:42,637 [INFO]   [filter] No skill match: GSOC Operator
+2026-09-08 09:23:43,879 [INFO]   [S1] SQL Developer: 20 listings
+2026-09-08 09:23:43,892 [INFO]   [S1] Checking: Developer
+2026-09-08 09:23:43,892 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:23:43,904 [INFO]   [S1] Checking: Sap Consultant
+2026-09-08 09:23:43,904 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-08 09:23:43,916 [INFO]   [S1] Checking: CSA Professional
+2026-09-08 09:23:43,916 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 09:23:43,929 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-08 09:23:43,929 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 09:23:43,940 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-09-08 09:23:43,941 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 09:23:43,953 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:23:43,953 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:23:43,965 [INFO]   [S1] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:23:43,966 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:23:43,978 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:23:43,978 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:23:43,990 [INFO]   [S1] Checking: Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:23:43,990 [INFO]   [filter] Excluded 'senior': Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:23:44,003 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:23:44,003 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:23:44,015 [INFO]   [S1] Checking: Analytics Engineer
+2026-09-08 09:23:44,015 [INFO]   [filter] No skill match: Analytics Engineer
+2026-09-08 09:23:44,028 [INFO]   [S1] Checking: Quality Assurance Engineer
+2026-09-08 09:23:44,028 [INFO]   [filter] No skill match: Quality Assurance Engineer
+2026-09-08 09:23:44,040 [INFO]   [S1] Checking: Java Micro services
+2026-09-08 09:23:44,040 [INFO]   Already applied: Java Micro services
+2026-09-08 09:23:44,053 [INFO]   [S1] Checking: AI/ML Engineer
+2026-09-08 09:23:44,053 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 09:23:44,065 [INFO]   [S1] Checking: Site Reliability Engineer
+2026-09-08 09:23:44,065 [INFO]   [filter] No skill match: Site Reliability Engineer
+2026-09-08 09:23:44,077 [INFO]   [S1] Checking: AI Engineer Intern
+2026-09-08 09:23:44,077 [INFO]   [filter] No skill match: AI Engineer Intern
+2026-09-08 09:23:44,090 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
+2026-09-08 09:23:44,090 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-08 09:23:44,102 [INFO]   [S1] Checking: Home Tutor
+2026-09-08 09:23:44,102 [INFO]   [filter] No skill match: Home Tutor
+2026-09-08 09:23:44,115 [INFO]   [S1] Checking: Developer
+2026-09-08 09:23:44,115 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:23:44,127 [INFO]   [S1] Checking: Developer
+2026-09-08 09:23:44,127 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:24:45,098 [INFO]   [S1] Software Engineer: 20 listings
+2026-09-08 09:24:45,111 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-08 09:24:45,111 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 09:24:45,123 [INFO]   [S1] Checking: Associate Engineer, Software Development
+2026-09-08 09:24:45,124 [INFO]   [filter] No skill match: Associate Engineer, Software Development
+2026-09-08 09:24:45,136 [INFO]   [S1] Checking: CSA Professional
+2026-09-08 09:24:45,136 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 09:24:45,148 [INFO]   [S1] Checking: AI/ML Engineer
+2026-09-08 09:24:45,148 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 09:24:45,160 [INFO]   [S1] Checking: Site Reliability Engineer
+2026-09-08 09:24:45,160 [INFO]   [filter] No skill match: Site Reliability Engineer
+2026-09-08 09:24:45,172 [INFO]   [S1] Checking: AI Engineer Intern
+2026-09-08 09:24:45,172 [INFO]   [filter] No skill match: AI Engineer Intern
+2026-09-08 09:24:45,184 [INFO]   [S1] Checking: Developer
+2026-09-08 09:24:45,185 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:24:45,197 [INFO]   [S1] Checking: Developer
+2026-09-08 09:24:45,197 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:24:45,209 [INFO]   [S1] Checking: Developer
+2026-09-08 09:24:45,209 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:24:45,221 [INFO]   [S1] Checking: Dotnet Developer
+2026-09-08 09:24:45,221 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-08 09:24:45,234 [INFO]   [S1] Checking: SDE Mentor
+2026-09-08 09:24:45,234 [INFO]   [filter] No skill match: SDE Mentor
+2026-09-08 09:24:45,246 [INFO]   [S1] Checking: Maths Instructor
+2026-09-08 09:24:45,246 [INFO]   [filter] No skill match: Maths Instructor
+2026-09-08 09:24:45,259 [INFO]   [S1] Checking: Developer
+2026-09-08 09:24:45,259 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:24:45,271 [INFO]   [S1] Checking: Developer
+2026-09-08 09:24:45,271 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:24:45,283 [INFO]   [S1] Checking: Developer
+2026-09-08 09:24:45,283 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:24:45,296 [INFO]   [S1] Checking: Developer
+2026-09-08 09:24:45,296 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:24:45,308 [INFO]   [S1] Checking: Developer
+2026-09-08 09:24:45,308 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:24:45,320 [INFO]   [S1] Checking: Developer
+2026-09-08 09:24:45,320 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:24:45,332 [INFO]   [S1] Checking: Sap Consultant
+2026-09-08 09:24:45,332 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-08 09:24:45,345 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-09-08 09:24:45,345 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 09:25:46,638 [INFO]   [S1] Associate Software Engineer: 20 listings
+2026-09-08 09:25:46,653 [INFO]   [S1] Checking: Associate Engineer, Software Development
+2026-09-08 09:25:46,653 [INFO]   [filter] No skill match: Associate Engineer, Software Development
+2026-09-08 09:25:46,668 [INFO]   [S1] Checking: CSA Professional
+2026-09-08 09:25:46,668 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 09:25:46,683 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-08 09:25:46,683 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 09:25:46,698 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-09-08 09:25:46,698 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 09:25:46,713 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:25:46,713 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:25:46,728 [INFO]   [S1] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:25:46,728 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:25:46,743 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:25:46,743 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:25:46,758 [INFO]   [S1] Checking: Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:25:46,758 [INFO]   [filter] Excluded 'senior': Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:25:46,773 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:25:46,773 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:25:46,788 [INFO]   [S1] Checking: Analytics Engineer
+2026-09-08 09:25:46,788 [INFO]   [filter] No skill match: Analytics Engineer
+2026-09-08 09:25:46,801 [INFO]   [S1] Checking: Quality Assurance Engineer
+2026-09-08 09:25:46,801 [INFO]   [filter] No skill match: Quality Assurance Engineer
+2026-09-08 09:25:46,814 [INFO]   [S1] Checking: Java Micro services
+2026-09-08 09:25:46,814 [INFO]   Already applied: Java Micro services
+2026-09-08 09:25:46,827 [INFO]   [S1] Checking: AI/ML Engineer
+2026-09-08 09:25:46,827 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 09:25:46,839 [INFO]   [S1] Checking: Site Reliability Engineer
+2026-09-08 09:25:46,839 [INFO]   [filter] No skill match: Site Reliability Engineer
+2026-09-08 09:25:46,852 [INFO]   [S1] Checking: AI Engineer Intern
+2026-09-08 09:25:46,852 [INFO]   [filter] No skill match: AI Engineer Intern
+2026-09-08 09:25:46,864 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
+2026-09-08 09:25:46,865 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-08 09:25:46,877 [INFO]   [S1] Checking: Developer
+2026-09-08 09:25:46,877 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:25:46,889 [INFO]   [S1] Checking: Home Tutor
+2026-09-08 09:25:46,889 [INFO]   [filter] No skill match: Home Tutor
+2026-09-08 09:25:46,901 [INFO]   [S1] Checking: Developer
+2026-09-08 09:25:46,902 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:25:46,917 [INFO]   [S1] Checking: Developer
+2026-09-08 09:25:46,917 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:26:47,934 [INFO]   [S1] Data Analyst: 20 listings
+2026-09-08 09:26:47,950 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-09-08 09:26:47,950 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 09:26:47,968 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:26:47,968 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:26:47,984 [INFO]   [S1] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:26:47,984 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:26:48,001 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:26:48,001 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:26:48,016 [INFO]   [S1] Checking: Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:26:48,016 [INFO]   [filter] Excluded 'senior': Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:26:48,032 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:26:48,032 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:26:48,047 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
+2026-09-08 09:26:48,047 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-09-08 09:26:48,062 [INFO]   [S1] Checking: Client Data Professional
+2026-09-08 09:26:48,062 [INFO]   [filter] No skill match: Client Data Professional
+2026-09-08 09:26:48,078 [INFO]   [S1] Checking: Associate Project Manager - AI Systems
+2026-09-08 09:26:48,078 [INFO]   [filter] Excluded 'manager': Associate Project Manager - AI Systems
+2026-09-08 09:26:48,094 [INFO]   [S1] Checking: Audit Support Assistant I
+2026-09-08 09:26:48,094 [INFO]   [filter] No skill match: Audit Support Assistant I
+2026-09-08 09:26:48,109 [INFO]   [S1] Checking: Intern
+2026-09-08 09:26:48,109 [INFO]   [filter] No skill match: Intern
+2026-09-08 09:26:48,124 [INFO]   [S1] Checking: Intern
+2026-09-08 09:26:48,125 [INFO]   [filter] No skill match: Intern
+2026-09-08 09:26:48,140 [INFO]   [S1] Checking: Investment Banking Analyst
+2026-09-08 09:26:48,140 [INFO]   [filter] Excluded 'bank': Investment Banking Analyst
+2026-09-08 09:26:48,157 [INFO]   [S1] Checking: Walk-in || Fresher
+2026-09-08 09:26:48,157 [INFO]   [filter] No skill match: Walk-in || Fresher
+2026-09-08 09:26:48,174 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-08 09:26:48,174 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-08 09:26:48,190 [INFO]   [S1] Checking: Analytics Engineer
+2026-09-08 09:26:48,190 [INFO]   [filter] No skill match: Analytics Engineer
+2026-09-08 09:26:48,207 [INFO]   [S1] Checking: CSA Professional
+2026-09-08 09:26:48,207 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 09:26:48,223 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-08 09:26:48,223 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 09:26:48,241 [INFO]   [S1] Checking: Quality Assurance Engineer
+2026-09-08 09:26:48,241 [INFO]   [filter] No skill match: Quality Assurance Engineer
+2026-09-08 09:26:48,257 [INFO]   [S1] Checking: Java Micro services
+2026-09-08 09:26:48,258 [INFO]   Already applied: Java Micro services
+2026-09-08 09:27:49,373 [INFO]   [S1] AI ML Engineer: 20 listings
+2026-09-08 09:27:49,390 [INFO]   [S1] Checking: AI/ML Engineer
+2026-09-08 09:27:49,390 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 09:27:49,407 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:27:49,407 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:27:49,425 [INFO]   [S1] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:27:49,425 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:27:49,441 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:27:49,441 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:27:49,458 [INFO]   [S1] Checking: Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:27:49,458 [INFO]   [filter] Excluded 'senior': Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:27:49,475 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:27:49,475 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:27:49,493 [INFO]   [S1] Checking: AI Engineer Intern
+2026-09-08 09:27:49,493 [INFO]   [filter] No skill match: AI Engineer Intern
+2026-09-08 09:27:49,510 [INFO]   [S1] Checking: CSA Professional
+2026-09-08 09:27:49,510 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 09:27:49,527 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-08 09:27:49,527 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 09:27:49,543 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-09-08 09:27:49,543 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 09:27:49,560 [INFO]   [S1] Checking: Analytics Engineer
+2026-09-08 09:27:49,560 [INFO]   [filter] No skill match: Analytics Engineer
+2026-09-08 09:27:49,578 [INFO]   [S1] Checking: Quality Assurance Engineer
+2026-09-08 09:27:49,578 [INFO]   [filter] No skill match: Quality Assurance Engineer
+2026-09-08 09:27:49,595 [INFO]   [S1] Checking: Java Micro services
+2026-09-08 09:27:49,595 [INFO]   Already applied: Java Micro services
+2026-09-08 09:27:49,612 [INFO]   [S1] Checking: Site Reliability Engineer
+2026-09-08 09:27:49,612 [INFO]   [filter] No skill match: Site Reliability Engineer
+2026-09-08 09:27:49,634 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
+2026-09-08 09:27:49,635 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-08 09:27:49,657 [INFO]   [S1] Checking: Developer
+2026-09-08 09:27:49,657 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:27:49,673 [INFO]   [S1] Checking: Home Tutor
+2026-09-08 09:27:49,673 [INFO]   [filter] No skill match: Home Tutor
+2026-09-08 09:27:49,690 [INFO]   [S1] Checking: Developer
+2026-09-08 09:27:49,690 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:27:49,709 [INFO]   [S1] Checking: Developer
+2026-09-08 09:27:49,710 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:27:49,726 [INFO]   [S1] Checking: Dotnet Developer
+2026-09-08 09:27:49,726 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-08 09:28:50,873 [INFO]   [S1] Machine Learning Engineer: 20 listings
+2026-09-08 09:28:50,890 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:28:50,890 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP/ML
+2026-09-08 09:28:50,906 [INFO]   [S1] Checking: Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:28:50,906 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/ Senior Data Scientist/Data Scientist
+2026-09-08 09:28:50,923 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:28:50,924 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist
+2026-09-08 09:28:50,941 [INFO]   [S1] Checking: Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:28:50,941 [INFO]   [filter] Excluded 'senior': Principal Data Scientist / Senior Data Scientist/ Data Scientist - NLP
+2026-09-08 09:28:50,957 [INFO]   [S1] Checking: Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:28:50,957 [INFO]   [filter] Excluded 'senior': Principal Data Scientist/Senior Data Scientist/Data Scientist - NLP
+2026-09-08 09:28:50,974 [INFO]   [S1] Checking: AI/ML Engineer
+2026-09-08 09:28:50,974 [INFO]   [filter] No skill match: AI/ML Engineer
+2026-09-08 09:28:50,991 [INFO]   [S1] Checking: AI Engineer Intern
+2026-09-08 09:28:50,991 [INFO]   [filter] No skill match: AI Engineer Intern
+2026-09-08 09:28:51,009 [INFO]   [S1] Checking: CSA Professional
+2026-09-08 09:28:51,009 [INFO]   [filter] No skill match: CSA Professional
+2026-09-08 09:28:51,026 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-08 09:28:51,026 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-08 09:28:51,042 [INFO]   [S1] Checking: Cyber Security Engineer II
+2026-09-08 09:28:51,043 [INFO]   [filter] No skill match: Cyber Security Engineer II
+2026-09-08 09:28:51,060 [INFO]   [S1] Checking: Analytics Engineer
+2026-09-08 09:28:51,060 [INFO]   [filter] No skill match: Analytics Engineer
+2026-09-08 09:28:51,077 [INFO]   [S1] Checking: Quality Assurance Engineer
+2026-09-08 09:28:51,077 [INFO]   [filter] No skill match: Quality Assurance Engineer
+2026-09-08 09:28:51,093 [INFO]   [S1] Checking: Java Micro services
+2026-09-08 09:28:51,093 [INFO]   Already applied: Java Micro services
+2026-09-08 09:28:51,109 [INFO]   [S1] Checking: Site Reliability Engineer
+2026-09-08 09:28:51,109 [INFO]   [filter] No skill match: Site Reliability Engineer
+2026-09-08 09:28:51,126 [INFO]   [S1] Checking: Junior Consultant - Product Consulting Group
+2026-09-08 09:28:51,126 [INFO]   [filter] No skill match: Junior Consultant - Product Consulting Group
+2026-09-08 09:28:51,143 [INFO]   [S1] Checking: Developer
+2026-09-08 09:28:51,143 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:28:51,160 [INFO]   [S1] Checking: Home Tutor
+2026-09-08 09:28:51,160 [INFO]   [filter] No skill match: Home Tutor
+2026-09-08 09:28:51,177 [INFO]   [S1] Checking: Developer
+2026-09-08 09:28:51,178 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:28:51,194 [INFO]   [S1] Checking: Developer
+2026-09-08 09:28:51,194 [INFO]   [filter] No skill match: Developer
+2026-09-08 09:28:51,211 [INFO]   [S1] Checking: Dotnet Developer
+2026-09-08 09:28:51,211 [INFO]   [filter] Excluded 'dotnet developer': Dotnet Developer
+2026-09-08 09:28:51,211 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-08 03:51:42,122 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-08 03:51:42,122 [INFO] ███████████████████████████████████████████████████████
-2026-09-08 04:06:55,030 [INFO] 
+2026-09-08 09:28:51,211 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-08 09:28:51,211 [INFO] ███████████████████████████████████████████████████████
+2026-09-08 09:44:02,424 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-08 04:06:55,030 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-08 04:06:55,030 [INFO] ███████████████████████████████████████████████████████
-2026-09-08 04:08:11,065 [INFO]   [S3] Java Developer: 0 listings
-2026-09-08 04:09:27,269 [INFO]   [S3] Python Developer: 0 listings
-2026-09-08 04:10:43,327 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-08 04:11:59,476 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-08 04:13:15,479 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-08 04:14:31,529 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-08 04:15:47,501 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-08 04:17:03,539 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-08 04:17:03,539 [INFO] 
+2026-09-08 09:44:02,424 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-08 09:44:02,424 [INFO] ███████████████████████████████████████████████████████
+2026-09-08 09:45:18,262 [INFO]   [S3] Java Developer: 0 listings
+2026-09-08 09:46:34,142 [INFO]   [S3] Python Developer: 0 listings
+2026-09-08 09:47:49,967 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-08 09:49:05,879 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-08 09:50:21,642 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-08 09:51:37,782 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-08 09:52:53,852 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-08 09:54:09,780 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-08 09:54:09,780 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-08 04:17:03,539 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-08 04:17:03,539 [INFO] ███████████████████████████████████████████████████████
-2026-09-08 04:32:14,801 [INFO] 
+2026-09-08 09:54:09,780 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-08 09:54:09,780 [INFO] ███████████████████████████████████████████████████████
+2026-09-08 10:09:19,803 [INFO] 
 =======================================================
-2026-09-08 04:32:14,801 [INFO]   Run complete — Applied this session : 0
-2026-09-08 04:32:14,802 [INFO]   Total ever applied                  : 294
-2026-09-08 04:32:14,802 [INFO] =======================================================
+2026-09-08 10:09:19,803 [INFO]   Run complete — Applied this session : 2
+2026-09-08 10:09:19,804 [INFO]   Total ever applied                  : 296
+2026-09-08 10:09:19,804 [INFO] =======================================================

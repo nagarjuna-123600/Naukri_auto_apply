@@ -1,179 +1,221 @@
-2026-09-13 08:57:46,641 [INFO] GitHub Actions — single run mode
-2026-09-13 08:57:46,641 [INFO] 
+2026-09-13 15:38:37,317 [INFO] GitHub Actions — single run mode
+2026-09-13 15:38:37,317 [INFO] 
 =======================================================
-2026-09-13 08:57:46,641 [INFO]   Run started: 2026-09-13 08:57:46
-2026-09-13 08:57:46,641 [INFO] =======================================================
-2026-09-13 08:57:46,642 [INFO] Previously applied: 306 jobs
-2026-09-13 08:57:46,643 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-13 08:57:46,643 [INFO] ====== WebDriver manager ======
-2026-09-13 08:57:46,833 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-13 08:57:46,880 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-13 08:57:46,911 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-13 08:57:46,911 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-13 08:57:47,010 [INFO] WebDriver version 152.0.7977.82 selected
-2026-09-13 08:57:47,016 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-13 08:57:47,016 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-13 08:57:47,116 [INFO] Driver downloading response is 200
-2026-09-13 08:57:47,348 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
-2026-09-13 08:57:48,059 [INFO]   Trying cookie login...
-2026-09-13 08:57:53,364 [INFO]   Loading 34 cookies...
-2026-09-13 08:57:57,534 [INFO]   ✅ Cookie login successful!
-2026-09-13 08:57:57,534 [INFO] 
+2026-09-13 15:38:37,317 [INFO]   Run started: 2026-09-13 15:38:37
+2026-09-13 15:38:37,317 [INFO] =======================================================
+2026-09-13 15:38:37,318 [INFO] Previously applied: 306 jobs
+2026-09-13 15:38:37,319 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-13 15:38:37,319 [INFO] ====== WebDriver manager ======
+2026-09-13 15:38:37,444 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-13 15:38:37,508 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-13 15:38:37,543 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-13 15:38:37,543 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-13 15:38:37,625 [INFO] WebDriver version 152.0.7977.82 selected
+2026-09-13 15:38:37,631 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-13 15:38:37,631 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-13 15:38:37,729 [INFO] Driver downloading response is 200
+2026-09-13 15:38:38,012 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
+2026-09-13 15:38:38,672 [INFO]   Trying cookie login...
+2026-09-13 15:38:43,219 [INFO]   Loading 34 cookies...
+2026-09-13 15:38:47,435 [INFO]   ✅ Cookie login successful!
+2026-09-13 15:38:47,435 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-13 08:57:57,535 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-13 08:57:57,535 [INFO] ───────────────────────────────────────────────────────
-2026-09-13 08:57:57,535 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-09-13 08:59:04,175 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-13 08:59:09,724 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-13 08:59:12,081 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-13 08:59:15,101 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-13 08:59:18,135 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-09-13 08:59:18,135 [INFO] 
+2026-09-13 15:38:47,435 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-13 15:38:47,435 [INFO] ───────────────────────────────────────────────────────
+2026-09-13 15:38:47,435 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-13 15:39:54,597 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-13 15:40:00,131 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-13 15:40:02,477 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-13 15:40:05,493 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-13 15:40:08,518 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-13 15:40:08,518 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-13 08:59:18,135 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-13 08:59:18,135 [INFO] ███████████████████████████████████████████████████████
-2026-09-13 09:00:19,504 [INFO]   [S0-HYD] Java Developer: 1 listings
-2026-09-13 09:00:19,521 [INFO]   [S0-HYD] Checking: Data Engineer Intern
-2026-09-13 09:00:19,522 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:01:35,381 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-13 09:02:36,616 [INFO]   [S0-HYD] Python Developer: 1 listings
-2026-09-13 09:02:36,630 [INFO]   [S0-HYD] Checking: Data Engineer Intern
-2026-09-13 09:02:36,630 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:03:52,552 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-13 09:04:53,694 [INFO]   [S0-HYD] SQL Developer: 1 listings
-2026-09-13 09:04:53,707 [INFO]   [S0-HYD] Checking: Data Engineer Intern
-2026-09-13 09:04:53,708 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:06:09,599 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-13 09:07:10,989 [INFO]   [S0-HYD] Software Engineer: 1 listings
-2026-09-13 09:07:11,004 [INFO]   [S0-HYD] Checking: Data Engineer Intern
-2026-09-13 09:07:11,004 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:08:26,842 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-13 09:09:27,900 [INFO]   [S0-HYD] Associate Software Engineer: 1 listings
-2026-09-13 09:09:27,919 [INFO]   [S0-HYD] Checking: Data Engineer Intern
-2026-09-13 09:09:27,919 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:10:43,967 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-13 09:11:45,046 [INFO]   [S0-HYD] Data Analyst: 1 listings
-2026-09-13 09:11:45,062 [INFO]   [S0-HYD] Checking: Data Engineer Intern
-2026-09-13 09:11:45,062 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:13:01,107 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-13 09:14:02,340 [INFO]   [S0-HYD] AI ML Engineer: 1 listings
-2026-09-13 09:14:02,354 [INFO]   [S0-HYD] Checking: Data Engineer Intern
-2026-09-13 09:14:02,354 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:15:18,139 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-13 09:16:19,410 [INFO]   [S0-HYD] Machine Learning Engineer: 1 listings
-2026-09-13 09:16:19,424 [INFO]   [S0-HYD] Checking: Data Engineer Intern
-2026-09-13 09:16:19,424 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:17:35,327 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-13 09:18:51,676 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-13 09:20:07,603 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-13 09:21:23,819 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-13 09:22:39,696 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-13 09:23:55,872 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-13 09:25:11,878 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-13 09:26:28,190 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-13 09:27:44,059 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-13 09:29:00,275 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-13 09:30:16,111 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-13 09:31:32,348 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-13 09:32:48,059 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-13 09:32:48,059 [INFO] 
+2026-09-13 15:40:08,518 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-13 15:40:08,518 [INFO] ███████████████████████████████████████████████████████
+2026-09-13 15:41:09,983 [INFO]   [S0-HYD] Java Developer: 3 listings
+2026-09-13 15:41:09,996 [INFO]   [S0-HYD] Checking: Software Engineer / Developer
+2026-09-13 15:42:07,356 [INFO]   [location] ✅ Hyderabad, India, Bengaluru
+2026-09-13 15:42:07,696 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-13 15:42:07,696 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-13 15:42:07,697 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-13 15:42:07,697 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-13 15:42:07,757 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-13 15:42:07,757 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-13 15:43:03,989 [INFO]   Clicked Apply: Software Engineer / Developer
+2026-09-13 15:45:17,983 [INFO]   ✅ Applied: Software Engineer / Developer
+2026-09-13 15:45:20,052 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:45:20,052 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:45:20,062 [INFO]   [S0-HYD] Checking: Data Engineer Intern
+2026-09-13 15:45:20,062 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 15:46:35,979 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-13 15:47:37,200 [INFO]   [S0-HYD] Python Developer: 2 listings
+2026-09-13 15:47:37,210 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:47:37,210 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:47:37,221 [INFO]   [S0-HYD] Checking: Data Engineer Intern
+2026-09-13 15:47:37,221 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 15:48:53,157 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-13 15:49:54,397 [INFO]   [S0-HYD] SQL Developer: 2 listings
+2026-09-13 15:49:54,407 [INFO]   [S0-HYD] Checking: Data Engineer Intern
+2026-09-13 15:49:54,408 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 15:49:54,417 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:49:54,418 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:51:10,361 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-13 15:52:11,577 [INFO]   [S0-HYD] Software Engineer: 2 listings
+2026-09-13 15:52:11,588 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:52:11,588 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:52:11,597 [INFO]   [S0-HYD] Checking: Data Engineer Intern
+2026-09-13 15:52:11,598 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 15:53:27,519 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-13 15:54:28,878 [INFO]   [S0-HYD] Associate Software Engineer: 2 listings
+2026-09-13 15:54:28,888 [INFO]   [S0-HYD] Checking: Data Engineer Intern
+2026-09-13 15:54:28,888 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 15:54:28,898 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:54:28,898 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:55:44,819 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-13 15:56:46,169 [INFO]   [S0-HYD] Data Analyst: 2 listings
+2026-09-13 15:56:46,179 [INFO]   [S0-HYD] Checking: Data Engineer Intern
+2026-09-13 15:56:46,179 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 15:56:46,190 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:56:46,190 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:58:02,192 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-13 15:59:03,502 [INFO]   [S0-HYD] AI ML Engineer: 2 listings
+2026-09-13 15:59:03,514 [INFO]   [S0-HYD] Checking: Data Engineer Intern
+2026-09-13 15:59:03,514 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 15:59:03,525 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 15:59:03,525 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:00:19,350 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-13 16:01:20,468 [INFO]   [S0-HYD] Machine Learning Engineer: 2 listings
+2026-09-13 16:01:20,479 [INFO]   [S0-HYD] Checking: Data Engineer Intern
+2026-09-13 16:01:20,479 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 16:01:20,490 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:01:20,490 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:02:36,438 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-13 16:03:52,629 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-13 16:05:08,503 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-13 16:06:24,711 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-13 16:07:40,528 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-13 16:08:56,886 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-13 16:10:12,863 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-13 16:11:29,256 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-13 16:12:45,288 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-13 16:14:01,430 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-13 16:15:17,618 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-13 16:16:33,808 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-13 16:17:49,799 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-13 16:17:49,799 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-13 09:32:48,059 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-13 09:32:48,059 [INFO] ███████████████████████████████████████████████████████
-2026-09-13 09:33:49,238 [INFO]   [S1] Java Developer: 2 listings
-2026-09-13 09:33:49,256 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:33:49,256 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:33:49,269 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-13 09:33:49,269 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:34:50,399 [INFO]   [S1] Python Developer: 4 listings
-2026-09-13 09:34:50,412 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:34:50,413 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:34:50,425 [INFO]   [S1] Checking: Specialty Services Sr Associate
-2026-09-13 09:34:50,425 [INFO]   [filter] No skill match: Specialty Services Sr Associate
-2026-09-13 09:34:50,438 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:34:50,439 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:34:50,451 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-13 09:34:50,452 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:35:51,615 [INFO]   [S1] SQL Developer: 3 listings
-2026-09-13 09:35:51,629 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:35:51,629 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:35:51,642 [INFO]   [S1] Checking: Specialty Services Sr Associate
-2026-09-13 09:35:51,642 [INFO]   [filter] No skill match: Specialty Services Sr Associate
-2026-09-13 09:35:51,655 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-13 09:35:51,655 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:36:52,850 [INFO]   [S1] Software Engineer: 4 listings
-2026-09-13 09:36:52,863 [INFO]   [S1] Checking: Specialty Services Sr Associate
-2026-09-13 09:36:52,863 [INFO]   [filter] No skill match: Specialty Services Sr Associate
-2026-09-13 09:36:52,876 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:36:52,876 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:36:52,889 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:36:52,890 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:36:52,902 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-13 09:36:52,903 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:37:54,137 [INFO]   [S1] Associate Software Engineer: 4 listings
-2026-09-13 09:37:54,150 [INFO]   [S1] Checking: Specialty Services Sr Associate
-2026-09-13 09:37:54,151 [INFO]   [filter] No skill match: Specialty Services Sr Associate
-2026-09-13 09:37:54,163 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:37:54,164 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:37:54,176 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:37:54,177 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:37:54,190 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-13 09:37:54,190 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:38:55,358 [INFO]   [S1] Data Analyst: 7 listings
-2026-09-13 09:38:55,371 [INFO]   [S1] Checking: Fund Administrator II
-2026-09-13 09:38:55,371 [INFO]   [filter] No skill match: Fund Administrator II
-2026-09-13 09:38:55,384 [INFO]   [S1] Checking: Data & Analytics Specialist
-2026-09-13 09:38:55,384 [INFO]   [filter] No skill match: Data & Analytics Specialist
-2026-09-13 09:38:55,397 [INFO]   [S1] Checking: Associate - SaT - AMI - SaT - TCF - Financial Diligence
-2026-09-13 09:38:55,397 [INFO]   [filter] Excluded 'financial': Associate - SaT - AMI - SaT - TCF - Financial Diligence
-2026-09-13 09:38:55,411 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:38:55,411 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:38:55,424 [INFO]   [S1] Checking: Specialty Services Sr Associate
-2026-09-13 09:38:55,424 [INFO]   [filter] No skill match: Specialty Services Sr Associate
-2026-09-13 09:38:55,437 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:38:55,437 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:38:55,450 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-13 09:38:55,450 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:39:56,611 [INFO]   [S1] AI ML Engineer: 4 listings
-2026-09-13 09:39:56,624 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:39:56,624 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:39:56,637 [INFO]   [S1] Checking: Specialty Services Sr Associate
-2026-09-13 09:39:56,637 [INFO]   [filter] No skill match: Specialty Services Sr Associate
-2026-09-13 09:39:56,651 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:39:56,651 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:39:56,663 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-13 09:39:56,664 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:40:57,916 [INFO]   [S1] Machine Learning Engineer: 4 listings
-2026-09-13 09:40:57,930 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:40:57,930 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
-2026-09-13 09:40:57,943 [INFO]   [S1] Checking: Specialty Services Sr Associate
-2026-09-13 09:40:57,943 [INFO]   [filter] No skill match: Specialty Services Sr Associate
-2026-09-13 09:40:57,957 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:40:57,957 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
-2026-09-13 09:40:57,970 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-13 09:40:57,970 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-13 09:40:57,970 [INFO] 
+2026-09-13 16:17:49,799 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-13 16:17:49,799 [INFO] ███████████████████████████████████████████████████████
+2026-09-13 16:18:51,000 [INFO]   [S1] Java Developer: 3 listings
+2026-09-13 16:18:51,014 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:18:51,014 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:18:51,024 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:18:51,024 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:18:51,033 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-13 16:18:51,033 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 16:19:52,337 [INFO]   [S1] Python Developer: 5 listings
+2026-09-13 16:19:52,347 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:19:52,347 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:19:52,357 [INFO]   [S1] Checking: Specialty Services Sr Associate
+2026-09-13 16:19:52,357 [INFO]   [filter] No skill match: Specialty Services Sr Associate
+2026-09-13 16:19:52,366 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:19:52,366 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:19:52,375 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:19:52,376 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:19:52,385 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-13 16:19:52,385 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 16:20:53,716 [INFO]   [S1] SQL Developer: 4 listings
+2026-09-13 16:20:53,726 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:20:53,726 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:20:53,736 [INFO]   [S1] Checking: Specialty Services Sr Associate
+2026-09-13 16:20:53,736 [INFO]   [filter] No skill match: Specialty Services Sr Associate
+2026-09-13 16:20:53,745 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-13 16:20:53,745 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 16:20:53,754 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:20:53,754 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:21:54,921 [INFO]   [S1] Software Engineer: 5 listings
+2026-09-13 16:21:54,932 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:21:54,932 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:21:54,942 [INFO]   [S1] Checking: Specialty Services Sr Associate
+2026-09-13 16:21:54,942 [INFO]   [filter] No skill match: Specialty Services Sr Associate
+2026-09-13 16:21:54,953 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:21:54,953 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:21:54,965 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:21:54,965 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:21:54,976 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-13 16:21:54,976 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 16:22:56,311 [INFO]   [S1] Associate Software Engineer: 5 listings
+2026-09-13 16:22:56,321 [INFO]   [S1] Checking: Specialty Services Sr Associate
+2026-09-13 16:22:56,322 [INFO]   [filter] No skill match: Specialty Services Sr Associate
+2026-09-13 16:22:56,332 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:22:56,332 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:22:56,341 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:22:56,341 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:22:56,351 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-13 16:22:56,351 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 16:22:56,361 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:22:56,362 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:23:57,706 [INFO]   [S1] Data Analyst: 8 listings
+2026-09-13 16:23:57,716 [INFO]   [S1] Checking: Fund Administrator II
+2026-09-13 16:23:57,716 [INFO]   [filter] No skill match: Fund Administrator II
+2026-09-13 16:23:57,726 [INFO]   [S1] Checking: Data & Analytics Specialist
+2026-09-13 16:23:57,726 [INFO]   [filter] No skill match: Data & Analytics Specialist
+2026-09-13 16:23:57,735 [INFO]   [S1] Checking: Associate - SaT - AMI - SaT - TCF - Financial Diligence
+2026-09-13 16:23:57,735 [INFO]   [filter] Excluded 'financial': Associate - SaT - AMI - SaT - TCF - Financial Diligence
+2026-09-13 16:23:57,745 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:23:57,745 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:23:57,756 [INFO]   [S1] Checking: Specialty Services Sr Associate
+2026-09-13 16:23:57,756 [INFO]   [filter] No skill match: Specialty Services Sr Associate
+2026-09-13 16:23:57,766 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:23:57,766 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:23:57,775 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-13 16:23:57,775 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 16:23:57,785 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:23:57,785 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:24:59,094 [INFO]   [S1] AI ML Engineer: 5 listings
+2026-09-13 16:24:59,104 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:24:59,104 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:24:59,115 [INFO]   [S1] Checking: Specialty Services Sr Associate
+2026-09-13 16:24:59,115 [INFO]   [filter] No skill match: Specialty Services Sr Associate
+2026-09-13 16:24:59,124 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:24:59,125 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:24:59,134 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-13 16:24:59,134 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 16:24:59,144 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:24:59,144 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:26:00,597 [INFO]   [S1] Machine Learning Engineer: 5 listings
+2026-09-13 16:26:00,607 [INFO]   [S1] Checking: Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:26:00,607 [INFO]   [filter] Excluded 'sales': Relationship Officer-SBE-Small Business Enterprise-Sales
+2026-09-13 16:26:00,616 [INFO]   [S1] Checking: Specialty Services Sr Associate
+2026-09-13 16:26:00,616 [INFO]   [filter] No skill match: Specialty Services Sr Associate
+2026-09-13 16:26:00,626 [INFO]   [S1] Checking: Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:26:00,626 [INFO]   [filter] Excluded 'delivery': Cloud Delivery Engineer (Terraform & Ansible)
+2026-09-13 16:26:00,635 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-13 16:26:00,635 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-13 16:26:00,645 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:26:00,645 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-13 16:26:00,645 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-13 09:40:57,970 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-13 09:40:57,970 [INFO] ███████████████████████████████████████████████████████
-2026-09-13 09:56:10,041 [INFO] 
+2026-09-13 16:26:00,645 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-13 16:26:00,645 [INFO] ███████████████████████████████████████████████████████
+2026-09-13 16:41:15,078 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-13 09:56:10,041 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-13 09:56:10,041 [INFO] ███████████████████████████████████████████████████████
-2026-09-13 09:57:25,936 [INFO]   [S3] Java Developer: 0 listings
-2026-09-13 09:58:41,957 [INFO]   [S3] Python Developer: 0 listings
-2026-09-13 09:59:57,920 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-13 10:01:13,887 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-13 10:02:29,821 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-13 10:03:45,746 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-13 10:05:01,792 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-13 10:06:17,744 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-13 10:06:17,744 [INFO] 
+2026-09-13 16:41:15,078 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-13 16:41:15,078 [INFO] ███████████████████████████████████████████████████████
+2026-09-13 16:42:30,962 [INFO]   [S3] Java Developer: 0 listings
+2026-09-13 16:43:46,984 [INFO]   [S3] Python Developer: 0 listings
+2026-09-13 16:45:02,839 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-13 16:46:18,838 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-13 16:47:34,862 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-13 16:48:50,864 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-13 16:50:06,670 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-13 16:51:22,729 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-13 16:51:22,729 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-13 10:06:17,745 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-13 10:06:17,745 [INFO] ███████████████████████████████████████████████████████
-2026-09-13 10:21:27,976 [INFO] 
+2026-09-13 16:51:22,729 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-13 16:51:22,729 [INFO] ███████████████████████████████████████████████████████
+2026-09-13 17:06:32,882 [INFO] 
 =======================================================
-2026-09-13 10:21:27,976 [INFO]   Run complete — Applied this session : 0
-2026-09-13 10:21:27,977 [INFO]   Total ever applied                  : 306
-2026-09-13 10:21:27,977 [INFO] =======================================================
+2026-09-13 17:06:32,882 [INFO]   Run complete — Applied this session : 1
+2026-09-13 17:06:32,883 [INFO]   Total ever applied                  : 307
+2026-09-13 17:06:32,883 [INFO] =======================================================

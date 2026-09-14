@@ -1,245 +1,331 @@
-2026-09-14 09:34:25,346 [INFO] GitHub Actions — single run mode
-2026-09-14 09:34:25,346 [INFO] 
+2026-09-14 17:43:37,722 [INFO] GitHub Actions — single run mode
+2026-09-14 17:43:37,722 [INFO] 
 =======================================================
-2026-09-14 09:34:25,347 [INFO]   Run started: 2026-09-14 09:34:25
-2026-09-14 09:34:25,347 [INFO] =======================================================
-2026-09-14 09:34:25,347 [INFO] Previously applied: 308 jobs
-2026-09-14 09:34:25,348 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-14 09:34:25,348 [INFO] ====== WebDriver manager ======
-2026-09-14 09:34:25,527 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-14 09:34:25,596 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-14 09:34:25,631 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-14 09:34:25,631 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-14 09:34:25,762 [INFO] WebDriver version 152.0.7977.82 selected
-2026-09-14 09:34:25,768 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-14 09:34:25,769 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-14 09:34:25,825 [INFO] Driver downloading response is 200
-2026-09-14 09:34:26,055 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
-2026-09-14 09:34:26,805 [INFO]   Trying cookie login...
-2026-09-14 09:34:30,862 [INFO]   Loading 34 cookies...
-2026-09-14 09:34:35,096 [INFO]   ✅ Cookie login successful!
-2026-09-14 09:34:35,096 [INFO] 
+2026-09-14 17:43:37,722 [INFO]   Run started: 2026-09-14 17:43:37
+2026-09-14 17:43:37,722 [INFO] =======================================================
+2026-09-14 17:43:37,723 [INFO] Previously applied: 309 jobs
+2026-09-14 17:43:37,724 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-14 17:43:37,724 [INFO] ====== WebDriver manager ======
+2026-09-14 17:43:37,904 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-14 17:43:37,970 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-14 17:43:38,004 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-14 17:43:38,004 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-14 17:43:38,131 [INFO] WebDriver version 152.0.7977.82 selected
+2026-09-14 17:43:38,136 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-14 17:43:38,136 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-14 17:43:38,190 [INFO] Driver downloading response is 200
+2026-09-14 17:43:38,395 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
+2026-09-14 17:43:39,245 [INFO]   Trying cookie login...
+2026-09-14 17:43:43,146 [INFO]   Loading 34 cookies...
+2026-09-14 17:43:47,328 [INFO]   ✅ Cookie login successful!
+2026-09-14 17:43:47,328 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-14 09:34:35,096 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-14 09:34:35,096 [INFO] ───────────────────────────────────────────────────────
-2026-09-14 09:34:35,096 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-14 09:35:41,701 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-14 09:35:47,267 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-14 09:35:49,635 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-14 09:35:52,655 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-14 09:35:55,687 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-14 09:35:55,687 [INFO] 
+2026-09-14 17:43:47,328 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-14 17:43:47,328 [INFO] ───────────────────────────────────────────────────────
+2026-09-14 17:43:47,328 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-09-14 17:44:54,464 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-14 17:44:59,994 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-14 17:45:02,351 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-14 17:45:05,373 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-14 17:45:08,406 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-09-14 17:45:08,407 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-14 09:35:55,687 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-14 09:35:55,687 [INFO] ███████████████████████████████████████████████████████
-2026-09-14 09:36:57,140 [INFO]   [S0-HYD] Java Developer: 3 listings
-2026-09-14 09:36:57,158 [INFO]   [S0-HYD] Checking: API Tech Support Executive
-2026-09-14 09:36:57,158 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 09:36:57,171 [INFO]   [S0-HYD] Checking: Devops Engineer
-2026-09-14 09:36:57,171 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 09:36:57,184 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:36:57,185 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:38:13,178 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-14 09:39:14,590 [INFO]   [S0-HYD] Python Developer: 3 listings
-2026-09-14 09:39:14,603 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 09:39:14,603 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 09:39:14,615 [INFO]   [S0-HYD] Checking: API Tech Support Executive
-2026-09-14 09:39:14,616 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 09:39:14,628 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:39:14,628 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:40:30,608 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-14 09:41:31,588 [INFO]   [S0-HYD] SQL Developer: 4 listings
-2026-09-14 09:41:31,601 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 09:41:31,601 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 09:41:31,614 [INFO]   [S0-HYD] Checking: API Tech Support Executive
-2026-09-14 09:41:31,614 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 09:41:31,626 [INFO]   [S0-HYD] Checking: Devops Engineer
-2026-09-14 09:41:31,627 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 09:41:31,639 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:41:31,639 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:42:47,704 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-14 09:43:48,721 [INFO]   [S0-HYD] Software Engineer: 4 listings
-2026-09-14 09:43:48,734 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:43:48,734 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:43:48,748 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 09:43:48,748 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 09:43:48,760 [INFO]   [S0-HYD] Checking: Devops Engineer
-2026-09-14 09:43:48,760 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 09:43:48,773 [INFO]   [S0-HYD] Checking: API Tech Support Executive
-2026-09-14 09:43:48,773 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 09:45:04,728 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-14 09:46:05,829 [INFO]   [S0-HYD] Associate Software Engineer: 4 listings
-2026-09-14 09:46:05,842 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 09:46:05,842 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 09:46:05,854 [INFO]   [S0-HYD] Checking: API Tech Support Executive
-2026-09-14 09:46:05,854 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 09:46:05,866 [INFO]   [S0-HYD] Checking: Devops Engineer
-2026-09-14 09:46:05,866 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 09:46:05,878 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:46:05,878 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:47:21,674 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-14 09:48:22,726 [INFO]   [S0-HYD] Data Analyst: 4 listings
-2026-09-14 09:48:22,739 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 09:48:22,739 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 09:48:22,751 [INFO]   [S0-HYD] Checking: API Tech Support Executive
-2026-09-14 09:48:22,752 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 09:48:22,763 [INFO]   [S0-HYD] Checking: Devops Engineer
-2026-09-14 09:48:22,764 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 09:48:22,776 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:48:22,776 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:49:38,661 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-14 09:50:40,021 [INFO]   [S0-HYD] AI ML Engineer: 4 listings
-2026-09-14 09:50:40,034 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 09:50:40,034 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 09:50:40,046 [INFO]   [S0-HYD] Checking: API Tech Support Executive
-2026-09-14 09:50:40,046 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 09:50:40,058 [INFO]   [S0-HYD] Checking: Devops Engineer
-2026-09-14 09:50:40,058 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 09:50:40,070 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:50:40,070 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:51:55,985 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-14 09:52:57,267 [INFO]   [S0-HYD] Machine Learning Engineer: 4 listings
-2026-09-14 09:52:57,279 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 09:52:57,280 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 09:52:57,292 [INFO]   [S0-HYD] Checking: API Tech Support Executive
-2026-09-14 09:52:57,292 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 09:52:57,304 [INFO]   [S0-HYD] Checking: Devops Engineer
-2026-09-14 09:52:57,304 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 09:52:57,316 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:52:57,317 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 09:54:13,256 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-14 09:55:29,419 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-14 09:56:45,344 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-14 09:58:01,624 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-14 09:59:17,518 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-14 10:00:33,743 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-14 10:01:49,533 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-14 10:03:05,577 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-14 10:04:21,645 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-14 10:05:38,891 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-14 10:06:54,861 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-14 10:08:11,206 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-14 10:09:27,123 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-14 10:09:27,124 [INFO] 
+2026-09-14 17:45:08,407 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-14 17:45:08,407 [INFO] ███████████████████████████████████████████████████████
+2026-09-14 17:46:09,972 [INFO]   [S0-HYD] Java Developer: 6 listings
+2026-09-14 17:46:09,990 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-14 17:46:09,990 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 17:46:10,003 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:46:10,003 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:46:10,015 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-14 17:46:10,016 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 17:46:10,028 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-14 17:46:10,028 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 17:46:10,041 [INFO]   [S0-HYD] Checking: Senior Photonics Engineer
+2026-09-14 17:46:10,041 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 17:46:10,054 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:46:10,054 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:47:25,908 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-14 17:48:27,606 [INFO]   [S0-HYD] Python Developer: 6 listings
+2026-09-14 17:48:27,619 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-14 17:48:27,619 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 17:48:27,633 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:48:27,633 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:48:27,646 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-14 17:48:27,646 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 17:48:27,659 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 17:48:27,659 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 17:48:27,672 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-14 17:48:27,672 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 17:48:27,685 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:48:27,686 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:49:43,884 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-14 17:50:45,180 [INFO]   [S0-HYD] SQL Developer: 6 listings
+2026-09-14 17:50:45,193 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-14 17:50:45,193 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 17:50:45,207 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-14 17:50:45,207 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 17:50:45,220 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:50:45,220 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:50:45,233 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 17:50:45,233 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 17:50:45,246 [INFO]   [S0-HYD] Checking: Senior Photonics Engineer
+2026-09-14 17:50:45,246 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 17:50:45,259 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:50:45,259 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:52:01,191 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-14 17:53:02,716 [INFO]   [S0-HYD] Software Engineer: 8 listings
+2026-09-14 17:53:02,730 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:53:02,730 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:53:02,743 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-14 17:53:02,743 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 17:53:02,756 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-14 17:53:02,756 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 17:53:02,769 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:53:02,769 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:53:02,783 [INFO]   [S0-HYD] Checking: Dot Net Developer
+2026-09-14 17:53:02,783 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-14 17:53:02,796 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 17:53:02,796 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 17:53:02,809 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-14 17:53:02,809 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 17:53:02,822 [INFO]   [S0-HYD] Checking: Senior Photonics Engineer
+2026-09-14 17:53:02,822 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 17:54:18,751 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-14 17:55:20,604 [INFO]   [S0-HYD] Associate Software Engineer: 7 listings
+2026-09-14 17:55:20,618 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:55:20,618 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:55:20,631 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-14 17:55:20,631 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 17:55:20,644 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-14 17:55:20,644 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 17:55:20,657 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 17:55:20,657 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 17:55:20,670 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-14 17:55:20,670 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 17:55:20,684 [INFO]   [S0-HYD] Checking: Senior Photonics Engineer
+2026-09-14 17:55:20,684 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 17:55:20,697 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:55:20,698 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:56:36,799 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-14 17:57:38,188 [INFO]   [S0-HYD] Data Analyst: 7 listings
+2026-09-14 17:57:38,201 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-14 17:57:38,201 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 17:57:38,214 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:57:38,214 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:57:38,227 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-14 17:57:38,228 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 17:57:38,240 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 17:57:38,240 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 17:57:38,254 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-14 17:57:38,254 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 17:57:38,267 [INFO]   [S0-HYD] Checking: Senior Photonics Engineer
+2026-09-14 17:57:38,267 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 17:57:38,280 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:57:38,280 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:58:54,162 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-14 17:59:55,471 [INFO]   [S0-HYD] AI ML Engineer: 7 listings
+2026-09-14 17:59:55,484 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:59:55,484 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 17:59:55,497 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-14 17:59:55,497 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 17:59:55,510 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-14 17:59:55,510 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 17:59:55,523 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 17:59:55,523 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 17:59:55,538 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-14 17:59:55,538 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 17:59:55,552 [INFO]   [S0-HYD] Checking: Senior Photonics Engineer
+2026-09-14 17:59:55,552 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 17:59:55,565 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 17:59:55,565 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:01:11,601 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-14 18:02:13,128 [INFO]   [S0-HYD] Machine Learning Engineer: 7 listings
+2026-09-14 18:02:13,142 [INFO]   [S0-HYD] Checking: Senior Photonics Engineer
+2026-09-14 18:02:13,142 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 18:02:13,155 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:02:13,155 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:02:13,168 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-14 18:02:13,168 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 18:02:13,181 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-14 18:02:13,181 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 18:02:13,194 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 18:02:13,194 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 18:02:13,207 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-14 18:02:13,207 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 18:02:13,220 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:02:13,220 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:03:29,184 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-14 18:04:45,625 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-14 18:06:01,467 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-14 18:07:17,553 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-14 18:08:33,410 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-14 18:09:49,511 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-14 18:11:05,302 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-14 18:12:21,503 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-14 18:13:37,460 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-14 18:14:53,942 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-14 18:16:09,820 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-14 18:17:26,261 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-14 18:18:42,329 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-14 18:18:42,329 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-14 10:09:27,124 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-14 10:09:27,124 [INFO] ███████████████████████████████████████████████████████
-2026-09-14 10:10:28,255 [INFO]   [S1] Java Developer: 4 listings
-2026-09-14 10:10:28,273 [INFO]   [S1] Checking: API Tech Support Executive
-2026-09-14 10:10:28,273 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 10:10:28,285 [INFO]   [S1] Checking: Devops Engineer
-2026-09-14 10:10:28,286 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 10:10:28,298 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:10:28,298 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:10:28,310 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-14 10:10:28,310 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-14 10:11:29,580 [INFO]   [S1] Python Developer: 5 listings
-2026-09-14 10:11:29,594 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 10:11:29,594 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 10:11:29,606 [INFO]   [S1] Checking: API Tech Support Executive
-2026-09-14 10:11:29,606 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 10:11:29,618 [INFO]   [S1] Checking: Associate Software Engineer
-2026-09-14 10:12:27,040 [INFO]   [location] ✅ Hyderabad
-2026-09-14 10:12:27,294 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-14 10:12:27,295 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-09-14 10:12:27,295 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-09-14 10:12:27,295 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-09-14 10:12:27,339 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-14 10:12:27,340 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-09-14 10:13:23,581 [INFO]   Clicked Apply: Associate Software Engineer
-2026-09-14 10:15:36,777 [INFO]   ✅ Applied: Associate Software Engineer
-2026-09-14 10:15:38,851 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:15:38,851 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:15:38,864 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-14 10:15:38,864 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-14 10:16:40,129 [INFO]   [S1] SQL Developer: 5 listings
-2026-09-14 10:16:40,144 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 10:16:40,144 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 10:16:40,157 [INFO]   [S1] Checking: API Tech Support Executive
-2026-09-14 10:16:40,157 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 10:16:40,170 [INFO]   [S1] Checking: Devops Engineer
-2026-09-14 10:16:40,170 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 10:16:40,184 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-14 10:16:40,184 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-14 10:16:40,197 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:16:40,197 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:17:41,347 [INFO]   [S1] Software Engineer: 5 listings
-2026-09-14 10:17:41,361 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:17:41,361 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:17:41,375 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 10:17:41,375 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 10:17:41,388 [INFO]   [S1] Checking: Devops Engineer
-2026-09-14 10:17:41,388 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 10:17:41,402 [INFO]   [S1] Checking: API Tech Support Executive
-2026-09-14 10:17:41,402 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 10:17:41,415 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-14 10:17:41,415 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-14 10:18:42,587 [INFO]   [S1] Associate Software Engineer: 5 listings
-2026-09-14 10:18:42,601 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 10:18:42,601 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 10:18:42,614 [INFO]   [S1] Checking: API Tech Support Executive
-2026-09-14 10:18:42,614 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 10:18:42,627 [INFO]   [S1] Checking: Devops Engineer
-2026-09-14 10:18:42,627 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 10:18:42,641 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-14 10:18:42,641 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-14 10:18:42,654 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:18:42,654 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:19:43,886 [INFO]   [S1] Data Analyst: 5 listings
-2026-09-14 10:19:43,900 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 10:19:43,900 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 10:19:43,913 [INFO]   [S1] Checking: API Tech Support Executive
-2026-09-14 10:19:43,913 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 10:19:43,926 [INFO]   [S1] Checking: Devops Engineer
-2026-09-14 10:19:43,926 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 10:19:43,939 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-14 10:19:43,939 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-14 10:19:43,952 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:19:43,952 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:20:45,208 [INFO]   [S1] AI ML Engineer: 5 listings
-2026-09-14 10:20:45,222 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 10:20:45,222 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 10:20:45,234 [INFO]   [S1] Checking: API Tech Support Executive
-2026-09-14 10:20:45,235 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 10:20:45,247 [INFO]   [S1] Checking: Devops Engineer
-2026-09-14 10:20:45,248 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 10:20:45,261 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-14 10:20:45,261 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-14 10:20:45,274 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:20:45,274 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:21:46,346 [INFO]   [S1] Machine Learning Engineer: 5 listings
-2026-09-14 10:21:46,360 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-14 10:21:46,360 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-14 10:21:46,374 [INFO]   [S1] Checking: API Tech Support Executive
-2026-09-14 10:21:46,374 [INFO]   [filter] No skill match: API Tech Support Executive
-2026-09-14 10:21:46,388 [INFO]   [S1] Checking: Devops Engineer
-2026-09-14 10:21:46,388 [INFO]   [filter] No skill match: Devops Engineer
-2026-09-14 10:21:46,402 [INFO]   [S1] Checking: Data Engineer Intern
-2026-09-14 10:21:46,402 [INFO]   [filter] No skill match: Data Engineer Intern
-2026-09-14 10:21:46,415 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:21:46,415 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-14 10:21:46,415 [INFO] 
+2026-09-14 18:18:42,329 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-14 18:18:42,330 [INFO] ███████████████████████████████████████████████████████
+2026-09-14 18:19:43,839 [INFO]   [S1] Java Developer: 7 listings
+2026-09-14 18:19:43,859 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-14 18:19:43,859 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 18:19:43,872 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:19:43,872 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:19:43,886 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-14 18:19:43,886 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 18:19:43,898 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-14 18:19:43,898 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 18:19:43,911 [INFO]   [S1] Checking: Senior Photonics Engineer
+2026-09-14 18:19:43,912 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 18:19:43,924 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:19:43,924 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:19:43,937 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-14 18:19:43,937 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-14 18:20:45,274 [INFO]   [S1] Python Developer: 7 listings
+2026-09-14 18:20:45,287 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-14 18:20:45,287 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 18:20:45,300 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:20:45,301 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:20:45,313 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-14 18:20:45,313 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 18:20:45,326 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 18:20:45,326 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 18:20:45,339 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-14 18:20:45,339 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 18:20:45,352 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:20:45,352 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:20:45,365 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-14 18:20:45,365 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-14 18:21:46,748 [INFO]   [S1] SQL Developer: 7 listings
+2026-09-14 18:21:46,761 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-14 18:21:46,761 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 18:21:46,774 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-14 18:21:46,774 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 18:21:46,787 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:21:46,787 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:21:46,800 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 18:21:46,800 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 18:21:46,813 [INFO]   [S1] Checking: Senior Photonics Engineer
+2026-09-14 18:21:46,813 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 18:21:46,825 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-14 18:21:46,825 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-14 18:21:46,838 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:21:46,838 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:22:48,115 [INFO]   [S1] Software Engineer: 9 listings
+2026-09-14 18:22:48,128 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:22:48,129 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:22:48,142 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-14 18:22:48,142 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 18:22:48,155 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-14 18:22:48,155 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 18:22:48,168 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:22:48,168 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:22:48,181 [INFO]   [S1] Checking: Dot Net Developer
+2026-09-14 18:22:48,182 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-14 18:22:48,194 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 18:22:48,194 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 18:22:48,207 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-14 18:22:48,207 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 18:22:48,220 [INFO]   [S1] Checking: Senior Photonics Engineer
+2026-09-14 18:22:48,220 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 18:22:48,233 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-14 18:22:48,234 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-14 18:23:49,628 [INFO]   [S1] Associate Software Engineer: 8 listings
+2026-09-14 18:23:49,641 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:23:49,641 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:23:49,655 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-14 18:23:49,655 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 18:23:49,667 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-14 18:23:49,668 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 18:23:49,681 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 18:23:49,681 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 18:23:49,694 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-14 18:23:49,694 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 18:23:49,707 [INFO]   [S1] Checking: Senior Photonics Engineer
+2026-09-14 18:23:49,707 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 18:23:49,720 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-14 18:23:49,720 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-14 18:23:49,733 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:23:49,733 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:24:50,923 [INFO]   [S1] Data Analyst: 8 listings
+2026-09-14 18:24:50,937 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-14 18:24:50,937 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 18:24:50,950 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:24:50,950 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:24:50,963 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-14 18:24:50,963 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 18:24:50,976 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 18:24:50,976 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 18:24:50,989 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-14 18:24:50,989 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 18:24:51,001 [INFO]   [S1] Checking: Senior Photonics Engineer
+2026-09-14 18:24:51,001 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 18:24:51,014 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-14 18:24:51,014 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-14 18:24:51,027 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:24:51,027 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:25:52,058 [INFO]   [S1] AI ML Engineer: 8 listings
+2026-09-14 18:25:52,073 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:25:52,073 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:25:52,086 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-14 18:25:52,086 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 18:25:52,100 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-14 18:25:52,100 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 18:25:52,113 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 18:25:52,113 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 18:25:52,126 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-14 18:25:52,126 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 18:25:52,139 [INFO]   [S1] Checking: Senior Photonics Engineer
+2026-09-14 18:25:52,139 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 18:25:52,152 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-14 18:25:52,153 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-14 18:25:52,166 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:25:52,166 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:26:53,312 [INFO]   [S1] Machine Learning Engineer: 8 listings
+2026-09-14 18:26:53,326 [INFO]   [S1] Checking: Senior Photonics Engineer
+2026-09-14 18:26:53,326 [INFO]   [filter] Excluded 'senior': Senior Photonics Engineer
+2026-09-14 18:26:53,339 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:26:53,339 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
+2026-09-14 18:26:53,352 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-14 18:26:53,352 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-14 18:26:53,364 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-14 18:26:53,365 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-14 18:26:53,377 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-14 18:26:53,377 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-14 18:26:53,390 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-14 18:26:53,390 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-14 18:26:53,404 [INFO]   [S1] Checking: Data Engineer Intern
+2026-09-14 18:26:53,404 [INFO]   [filter] No skill match: Data Engineer Intern
+2026-09-14 18:26:53,416 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:26:53,416 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-14 18:26:53,417 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-14 10:21:46,415 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-14 10:21:46,415 [INFO] ███████████████████████████████████████████████████████
-2026-09-14 10:36:58,873 [INFO] 
+2026-09-14 18:26:53,417 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-14 18:26:53,417 [INFO] ███████████████████████████████████████████████████████
+2026-09-14 18:42:06,558 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-14 10:36:58,873 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-14 10:36:58,873 [INFO] ███████████████████████████████████████████████████████
-2026-09-14 10:38:14,758 [INFO]   [S3] Java Developer: 0 listings
-2026-09-14 10:39:30,470 [INFO]   [S3] Python Developer: 0 listings
-2026-09-14 10:40:46,351 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-14 10:42:02,384 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-14 10:43:18,591 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-14 10:44:34,509 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-14 10:45:50,516 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-14 10:47:06,497 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-14 10:47:06,497 [INFO] 
+2026-09-14 18:42:06,558 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-14 18:42:06,558 [INFO] ███████████████████████████████████████████████████████
+2026-09-14 18:43:22,396 [INFO]   [S3] Java Developer: 0 listings
+2026-09-14 18:44:38,375 [INFO]   [S3] Python Developer: 0 listings
+2026-09-14 18:45:54,433 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-14 18:47:10,519 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-14 18:48:26,489 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-14 18:49:42,482 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-14 18:50:58,742 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-14 18:52:14,719 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-14 18:52:14,719 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-14 10:47:06,497 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-14 10:47:06,497 [INFO] ███████████████████████████████████████████████████████
-2026-09-14 11:02:17,077 [INFO] 
+2026-09-14 18:52:14,719 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-14 18:52:14,719 [INFO] ███████████████████████████████████████████████████████
+2026-09-14 19:07:25,920 [INFO] 
 =======================================================
-2026-09-14 11:02:17,077 [INFO]   Run complete — Applied this session : 1
-2026-09-14 11:02:17,078 [INFO]   Total ever applied                  : 309
-2026-09-14 11:02:17,078 [INFO] =======================================================
+2026-09-14 19:07:25,920 [INFO]   Run complete — Applied this session : 0
+2026-09-14 19:07:25,921 [INFO]   Total ever applied                  : 309
+2026-09-14 19:07:25,921 [INFO] =======================================================

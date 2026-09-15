@@ -1,547 +1,625 @@
-2026-09-15 09:12:09,567 [INFO] GitHub Actions — single run mode
-2026-09-15 09:12:09,567 [INFO] 
+2026-09-15 16:17:31,415 [INFO] GitHub Actions — single run mode
+2026-09-15 16:17:31,415 [INFO] 
 =======================================================
-2026-09-15 09:12:09,567 [INFO]   Run started: 2026-09-15 09:12:09
-2026-09-15 09:12:09,567 [INFO] =======================================================
-2026-09-15 09:12:09,568 [INFO] Previously applied: 309 jobs
-2026-09-15 09:12:09,569 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-15 09:12:09,569 [INFO] ====== WebDriver manager ======
-2026-09-15 09:12:09,775 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-15 09:12:09,834 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-15 09:12:09,865 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-15 09:12:09,865 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-15 09:12:09,963 [INFO] WebDriver version 152.0.7977.82 selected
-2026-09-15 09:12:09,968 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-15 09:12:09,968 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-15 09:12:10,067 [INFO] Driver downloading response is 200
-2026-09-15 09:12:10,252 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
-2026-09-15 09:12:11,146 [INFO]   Trying cookie login...
-2026-09-15 09:12:15,080 [INFO]   Loading 34 cookies...
-2026-09-15 09:12:19,225 [INFO]   ✅ Cookie login successful!
-2026-09-15 09:12:19,225 [INFO] 
+2026-09-15 16:17:31,415 [INFO]   Run started: 2026-09-15 16:17:31
+2026-09-15 16:17:31,415 [INFO] =======================================================
+2026-09-15 16:17:31,416 [INFO] Previously applied: 313 jobs
+2026-09-15 16:17:31,416 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-15 16:17:31,416 [INFO] ====== WebDriver manager ======
+2026-09-15 16:17:31,605 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-15 16:17:31,704 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-15 16:17:31,739 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-15 16:17:31,739 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-15 16:17:31,931 [INFO] WebDriver version 152.0.7977.82 selected
+2026-09-15 16:17:31,937 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-15 16:17:31,937 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-15 16:17:32,026 [INFO] Driver downloading response is 200
+2026-09-15 16:17:32,295 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
+2026-09-15 16:17:32,941 [INFO]   Trying cookie login...
+2026-09-15 16:17:38,554 [INFO]   Loading 34 cookies...
+2026-09-15 16:17:42,738 [INFO]   ✅ Cookie login successful!
+2026-09-15 16:17:42,738 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-15 09:12:19,225 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-15 09:12:19,225 [INFO] ───────────────────────────────────────────────────────
-2026-09-15 09:12:19,225 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-09-15 09:13:25,817 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-15 09:13:31,367 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-15 09:13:33,723 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-15 09:13:36,745 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-15 09:13:39,779 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-09-15 09:13:39,779 [INFO] 
+2026-09-15 16:17:42,738 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-15 16:17:42,738 [INFO] ───────────────────────────────────────────────────────
+2026-09-15 16:17:42,738 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-15 16:18:49,329 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-15 16:18:54,858 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-15 16:18:57,214 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-15 16:19:00,235 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-15 16:19:03,267 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-15 16:19:03,267 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-15 09:13:39,779 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-15 09:13:39,779 [INFO] ███████████████████████████████████████████████████████
-2026-09-15 09:14:41,150 [INFO]   [S0-HYD] Java Developer: 18 listings
-2026-09-15 09:14:41,169 [INFO]   [S0-HYD] Checking: Software-Java Developer
-2026-09-15 09:15:38,581 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-15 09:15:38,841 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-15 09:15:38,842 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-09-15 09:15:38,842 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-09-15 09:15:38,842 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-09-15 09:15:38,877 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-15 09:15:38,877 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-09-15 09:16:35,128 [INFO]   Clicked Apply: Software-Java Developer
-2026-09-15 09:18:48,686 [INFO]   ✅ Applied: Software-Java Developer
-2026-09-15 09:18:50,770 [INFO]   [S0-HYD] Checking: Software Engineer
-2026-09-15 09:19:48,125 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-15 09:19:48,261 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-15 09:19:48,262 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-09-15 09:19:48,262 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-09-15 09:19:48,262 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-09-15 09:19:48,303 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-15 09:19:48,303 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-09-15 09:20:44,465 [INFO]   Clicked Apply: Software Engineer
-2026-09-15 09:22:57,704 [INFO]   ✅ Applied: Software Engineer
-2026-09-15 09:22:59,781 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-15 09:22:59,781 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 09:22:59,808 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-15 09:22:59,808 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 09:22:59,821 [INFO]   [S0-HYD] Checking: Junior Developer
-2026-09-15 09:23:57,274 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-15 09:23:57,425 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-15 09:23:57,425 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-09-15 09:23:57,425 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-09-15 09:23:57,425 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-09-15 09:23:57,468 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-15 09:23:57,469 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-09-15 09:24:53,573 [INFO]   Clicked Apply: Junior Developer
-2026-09-15 09:27:06,816 [INFO]   ✅ Applied: Junior Developer
-2026-09-15 09:27:08,901 [INFO]   [S0-HYD] Checking: Software Engineer, developer / Programmer, 2026 graduate Can apply
-2026-09-15 09:28:06,414 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-15 09:28:06,521 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-15 09:28:06,521 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-09-15 09:28:06,521 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-09-15 09:28:06,521 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-09-15 09:28:06,565 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-15 09:28:06,565 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-09-15 09:29:02,836 [INFO]   Clicked Apply: Software Engineer, developer / Programmer, 2026 graduate Can apply
-2026-09-15 09:31:16,154 [INFO]   ✅ Applied: Software Engineer, developer / Programmer, 2026 graduate Can apply
-2026-09-15 09:31:18,250 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
-2026-09-15 09:31:18,250 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 09:31:18,275 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:31:18,275 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:31:18,289 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-15 09:31:18,289 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 09:31:18,302 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-15 09:31:18,302 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 09:31:18,315 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:31:18,315 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:31:18,328 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 09:31:18,328 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 09:31:18,341 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-15 09:31:18,341 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 09:31:18,354 [INFO]   [S0-HYD] Checking: Principal Software Engineer
-2026-09-15 09:31:18,354 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 09:31:18,367 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
-2026-09-15 09:31:18,367 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 09:31:18,380 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:31:18,380 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:32:34,344 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-15 09:33:35,483 [INFO]   [S0-HYD] Python Developer: 13 listings
-2026-09-15 09:33:35,497 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-15 09:33:35,497 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 09:33:35,511 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-15 09:33:35,511 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 09:33:35,524 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
-2026-09-15 09:33:35,524 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 09:33:35,551 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:33:35,551 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:33:35,564 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-15 09:33:35,564 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 09:33:35,577 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 09:33:35,578 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 09:33:35,591 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-15 09:33:35,591 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 09:33:35,619 [INFO]   [S0-HYD] Checking: Principal Software Engineer
-2026-09-15 09:33:35,619 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 09:33:35,632 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 09:33:35,632 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 09:33:35,646 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
-2026-09-15 09:33:35,646 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 09:33:35,659 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:33:35,659 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:34:51,585 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-15 09:35:52,845 [INFO]   [S0-HYD] SQL Developer: 9 listings
-2026-09-15 09:35:52,859 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-15 09:35:52,859 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 09:35:52,872 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-15 09:35:52,872 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 09:35:52,885 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
-2026-09-15 09:35:52,885 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 09:35:52,898 [INFO]   [S0-HYD] Checking: Principal Software Engineer
-2026-09-15 09:35:52,898 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 09:35:52,911 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:35:52,911 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:35:52,924 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-15 09:35:52,925 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 09:35:52,938 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:35:52,938 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:35:52,951 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 09:35:52,951 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 09:35:52,965 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:35:52,965 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:37:08,957 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-15 09:38:10,123 [INFO]   [S0-HYD] Software Engineer: 16 listings
-2026-09-15 09:38:10,137 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:38:10,137 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:38:10,150 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-15 09:38:10,150 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 09:38:10,163 [INFO]   [S0-HYD] Checking: Principal Software Engineer
-2026-09-15 09:38:10,163 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 09:38:10,190 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
-2026-09-15 09:38:10,190 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 09:38:10,203 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-15 09:38:10,203 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 09:38:10,216 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:38:10,216 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:38:10,230 [INFO]   [S0-HYD] Checking: Dot Net Developer
-2026-09-15 09:38:10,230 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-15 09:38:10,256 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 09:38:10,256 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 09:38:10,270 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-15 09:38:10,270 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 09:38:10,283 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-15 09:38:10,283 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 09:38:10,297 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:38:10,297 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:38:10,311 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 09:38:10,311 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 09:38:10,325 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-15 09:38:10,325 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 09:38:10,339 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
-2026-09-15 09:38:10,339 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 09:39:26,336 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-15 09:40:27,278 [INFO]   [S0-HYD] Associate Software Engineer: 15 listings
-2026-09-15 09:40:27,292 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-15 09:40:27,292 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 09:40:27,305 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:40:27,305 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:40:27,318 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-15 09:40:27,318 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 09:40:27,344 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
-2026-09-15 09:40:27,344 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 09:40:27,357 [INFO]   [S0-HYD] Checking: Principal Software Engineer
-2026-09-15 09:40:27,357 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 09:40:27,370 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-15 09:40:27,370 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 09:40:27,385 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-15 09:40:27,385 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 09:40:27,412 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:40:27,412 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:40:27,425 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 09:40:27,425 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 09:40:27,438 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-15 09:40:27,438 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 09:40:27,451 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 09:40:27,452 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 09:40:27,465 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
-2026-09-15 09:40:27,465 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 09:40:27,478 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:40:27,478 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:41:43,555 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-15 09:42:44,680 [INFO]   [S0-HYD] Data Analyst: 19 listings
-2026-09-15 09:42:44,694 [INFO]   [S0-HYD] Checking: Walk-in || Junior Analyst
-2026-09-15 09:42:44,694 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
-2026-09-15 09:42:44,707 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
-2026-09-15 09:42:44,708 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 09:42:44,721 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-15 09:42:44,721 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 09:42:44,746 [INFO]   [S0-HYD] Checking: Walk-in || Process Associate - AI
-2026-09-15 09:42:44,747 [INFO]   [filter] No skill match: Walk-in || Process Associate - AI
-2026-09-15 09:42:44,760 [INFO]   [S0-HYD] Checking: Data Analytic | Fresher | Business Analytics
-2026-09-15 09:42:44,760 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
-2026-09-15 09:42:44,773 [INFO]   [S0-HYD] Checking: Walk-in || internship opportunity For MBA freshers- Aditya Birla Money
-2026-09-15 09:42:44,773 [INFO]   [filter] No skill match: Walk-in || internship opportunity For MBA freshers- Aditya Birla Money
-2026-09-15 09:42:44,787 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-15 09:42:44,788 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 09:42:44,813 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:42:44,813 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:42:44,827 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-15 09:42:44,827 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 09:42:44,840 [INFO]   [S0-HYD] Checking: Principal Software Engineer
-2026-09-15 09:42:44,840 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 09:42:44,853 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-15 09:42:44,853 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 09:42:44,867 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:42:44,867 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:42:44,880 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 09:42:44,880 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 09:42:44,893 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-15 09:42:44,893 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 09:42:44,906 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 09:42:44,906 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 09:42:44,920 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
-2026-09-15 09:42:44,920 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 09:42:44,933 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:42:44,933 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:44:00,978 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-15 09:45:02,215 [INFO]   [S0-HYD] AI ML Engineer: 15 listings
-2026-09-15 09:45:02,229 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-15 09:45:02,229 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 09:45:02,242 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:45:02,242 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:45:02,255 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-15 09:45:02,255 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 09:45:02,281 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
-2026-09-15 09:45:02,281 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 09:45:02,294 [INFO]   [S0-HYD] Checking: Principal Software Engineer
-2026-09-15 09:45:02,294 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 09:45:02,308 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-15 09:45:02,308 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 09:45:02,321 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-15 09:45:02,321 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 09:45:02,347 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:45:02,347 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:45:02,361 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 09:45:02,361 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 09:45:02,374 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-15 09:45:02,374 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 09:45:02,387 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 09:45:02,387 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 09:45:02,401 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
-2026-09-15 09:45:02,401 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 09:45:02,414 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:45:02,414 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:46:18,295 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-15 09:47:19,377 [INFO]   [S0-HYD] Machine Learning Engineer: 15 listings
-2026-09-15 09:47:19,391 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-15 09:47:19,391 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 09:47:19,404 [INFO]   [S0-HYD] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:47:19,404 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 09:47:19,417 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-15 09:47:19,417 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 09:47:19,443 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
-2026-09-15 09:47:19,444 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 09:47:19,456 [INFO]   [S0-HYD] Checking: Principal Software Engineer
-2026-09-15 09:47:19,457 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 09:47:19,470 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-15 09:47:19,470 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 09:47:19,483 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-15 09:47:19,483 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 09:47:19,510 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:47:19,510 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 09:47:19,524 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 09:47:19,524 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 09:47:19,538 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-15 09:47:19,538 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 09:47:19,551 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 09:47:19,551 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 09:47:19,565 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
-2026-09-15 09:47:19,565 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 09:47:19,579 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:47:19,579 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 09:48:35,540 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-15 09:49:52,093 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-15 09:51:08,124 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-15 09:52:24,302 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-15 09:53:40,200 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-15 09:54:56,386 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-15 09:56:12,223 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-15 09:57:28,372 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-15 09:58:44,296 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-15 10:00:00,525 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-15 10:01:16,478 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-15 10:02:32,797 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-15 10:03:48,892 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-15 10:03:48,892 [INFO] 
+2026-09-15 16:19:03,267 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-15 16:19:03,267 [INFO] ███████████████████████████████████████████████████████
+2026-09-15 16:20:04,939 [INFO]   [S0-HYD] Java Developer: 20 listings
+2026-09-15 16:20:04,973 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-15 16:20:04,973 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 16:20:05,008 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:20:05,008 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:20:05,021 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
+2026-09-15 16:20:05,021 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 16:20:05,045 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-15 16:20:05,045 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 16:20:05,057 [INFO]   [S0-HYD] Checking: Natural Language Processing Engineer (Freelancer)
+2026-09-15 16:21:02,452 [INFO]   [location] ✅ Hyderabad
+2026-09-15 16:21:02,763 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-15 16:21:02,763 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-15 16:21:02,764 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-15 16:21:02,764 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-15 16:21:02,811 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-15 16:21:02,811 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-15 16:21:58,945 [INFO]   Clicked Apply: Natural Language Processing Engineer (Freelancer)
+2026-09-15 16:24:14,034 [INFO]   ✅ Applied: Natural Language Processing Engineer (Freelancer)
+2026-09-15 16:24:16,112 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 16:24:16,112 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 16:24:16,126 [INFO]   [S0-HYD] Checking: Computer Science Engineer MSc (Freelancer)
+2026-09-15 16:25:13,422 [INFO]   [location] ✅ Hyderabad
+2026-09-15 16:25:13,584 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-15 16:25:13,584 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-15 16:25:13,585 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-15 16:25:13,585 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-15 16:25:13,623 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-15 16:25:13,624 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-15 16:26:09,718 [INFO]   Clicked Apply: Computer Science Engineer MSc (Freelancer)
+2026-09-15 16:28:23,396 [INFO]   ✅ Applied: Computer Science Engineer MSc (Freelancer)
+2026-09-15 16:28:25,485 [INFO]   [S0-HYD] Checking: Computer Science Engineer BSc (Freelancer)
+2026-09-15 16:29:22,828 [INFO]   [location] ✅ Hyderabad
+2026-09-15 16:29:22,994 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-15 16:29:22,994 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-15 16:29:22,995 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-15 16:29:22,995 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-15 16:29:23,044 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-15 16:29:23,045 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-15 16:30:19,174 [INFO]   Clicked Apply: Computer Science Engineer BSc (Freelancer)
+2026-09-15 16:32:32,669 [INFO]   ✅ Applied: Computer Science Engineer BSc (Freelancer)
+2026-09-15 16:32:34,744 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 16:32:34,744 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 16:32:34,757 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 16:32:34,757 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 16:32:34,770 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-15 16:32:34,770 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 16:32:34,784 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
+2026-09-15 16:32:34,784 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 16:32:34,797 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:32:34,797 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:32:34,810 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 16:32:34,810 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 16:32:34,823 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-15 16:32:34,823 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 16:32:34,837 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-15 16:32:34,837 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 16:32:34,850 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-15 16:32:34,850 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 16:32:34,863 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:32:34,863 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:33:50,848 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-15 16:34:51,943 [INFO]   [S0-HYD] Python Developer: 13 listings
+2026-09-15 16:34:51,957 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-15 16:34:51,957 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 16:34:51,970 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:34:51,970 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:34:51,983 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
+2026-09-15 16:34:51,983 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 16:34:52,008 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-15 16:34:52,008 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 16:34:52,021 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
+2026-09-15 16:34:52,021 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 16:34:52,034 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 16:34:52,034 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 16:34:52,049 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-15 16:34:52,049 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 16:34:52,075 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-15 16:34:52,075 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 16:34:52,088 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 16:34:52,088 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 16:34:52,101 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-15 16:34:52,101 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 16:34:52,114 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:34:52,114 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:36:08,084 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-15 16:37:09,523 [INFO]   [S0-HYD] SQL Developer: 12 listings
+2026-09-15 16:37:09,537 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-15 16:37:09,537 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 16:37:09,550 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
+2026-09-15 16:37:09,550 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 16:37:09,563 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-15 16:37:09,563 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 16:37:09,575 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:37:09,576 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:37:09,588 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-15 16:37:09,588 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 16:37:09,602 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 16:37:09,602 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 16:37:09,615 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 16:37:09,615 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 16:37:09,628 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 16:37:09,628 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 16:37:09,641 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-15 16:37:09,641 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 16:37:09,654 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:37:09,654 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:37:09,667 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 16:37:09,667 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 16:37:09,680 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:37:09,680 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:38:26,235 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-15 16:39:27,523 [INFO]   [S0-HYD] Software Engineer: 20 listings
+2026-09-15 16:39:27,537 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:39:27,538 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:39:27,551 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
+2026-09-15 16:39:27,551 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 16:39:27,565 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-15 16:39:27,565 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 16:39:27,591 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:39:27,591 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:39:27,604 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-15 16:39:27,604 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 16:39:27,617 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-15 16:39:27,617 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 16:39:27,632 [INFO]   [S0-HYD] Checking: Palantir Developer
+2026-09-15 16:39:27,632 [INFO]   [filter] No skill match: Palantir Developer
+2026-09-15 16:39:27,664 [INFO]   [S0-HYD] Checking: Dot Net Developer
+2026-09-15 16:39:27,664 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-15 16:39:27,678 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 16:39:27,678 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 16:39:27,691 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 16:39:27,691 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 16:39:27,705 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 16:39:27,705 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 16:39:27,719 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 16:39:27,719 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 16:39:27,733 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-15 16:39:27,733 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 16:39:27,748 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
+2026-09-15 16:39:27,748 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 16:39:27,763 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:39:27,764 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:39:27,778 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 16:39:27,778 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 16:39:27,791 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-15 16:39:27,791 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 16:39:27,805 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-15 16:39:27,805 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 16:40:43,561 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-15 16:41:44,643 [INFO]   [S0-HYD] Associate Software Engineer: 18 listings
+2026-09-15 16:41:44,657 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-15 16:41:44,658 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 16:41:44,671 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:41:44,671 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:41:44,687 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
+2026-09-15 16:41:44,687 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 16:41:44,715 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-15 16:41:44,716 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 16:41:44,730 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-15 16:41:44,730 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 16:41:44,744 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 16:41:44,745 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 16:41:44,759 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 16:41:44,759 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 16:41:44,788 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 16:41:44,788 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 16:41:44,802 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-15 16:41:44,802 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 16:41:44,817 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
+2026-09-15 16:41:44,817 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 16:41:44,831 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:41:44,832 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:41:44,846 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 16:41:44,846 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 16:41:44,860 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-15 16:41:44,860 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 16:41:44,875 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 16:41:44,875 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 16:41:44,890 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-15 16:41:44,890 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 16:41:44,903 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:41:44,903 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:43:00,860 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-15 16:44:02,282 [INFO]   [S0-HYD] Data Analyst: 22 listings
+2026-09-15 16:44:02,297 [INFO]   [S0-HYD] Checking: Walk-in || Junior Analyst
+2026-09-15 16:44:02,297 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
+2026-09-15 16:44:02,311 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-15 16:44:02,311 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 16:44:02,325 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 16:44:02,325 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 16:44:02,353 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
+2026-09-15 16:44:02,354 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 16:44:02,368 [INFO]   [S0-HYD] Checking: Walk-in || Process Associate - AI
+2026-09-15 16:44:02,368 [INFO]   [filter] No skill match: Walk-in || Process Associate - AI
+2026-09-15 16:44:02,382 [INFO]   [S0-HYD] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-15 16:44:02,382 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-15 16:44:02,396 [INFO]   [S0-HYD] Checking: Walk-in || internship opportunity For MBA freshers- Aditya Birla Money
+2026-09-15 16:44:02,397 [INFO]   [filter] No skill match: Walk-in || internship opportunity For MBA freshers- Aditya Birla Money
+2026-09-15 16:44:02,424 [INFO]   [S0-HYD] Checking: Biotech Researcher - South Zone
+2026-09-15 16:44:02,424 [INFO]   [filter] Excluded 'biotech': Biotech Researcher - South Zone
+2026-09-15 16:44:02,438 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-15 16:44:02,438 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 16:44:02,453 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:44:02,453 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:44:02,468 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
+2026-09-15 16:44:02,468 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 16:44:02,482 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-15 16:44:02,482 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 16:44:02,497 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 16:44:02,497 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 16:44:02,512 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 16:44:02,512 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 16:44:02,526 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-15 16:44:02,526 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 16:44:02,541 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:44:02,541 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:44:02,555 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 16:44:02,555 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 16:44:02,570 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-15 16:44:02,570 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 16:44:02,585 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 16:44:02,585 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 16:44:02,599 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-15 16:44:02,599 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 16:45:18,616 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-15 16:46:20,025 [INFO]   [S0-HYD] AI ML Engineer: 18 listings
+2026-09-15 16:46:20,040 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-15 16:46:20,040 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 16:46:20,054 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:46:20,055 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:46:20,069 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
+2026-09-15 16:46:20,069 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 16:46:20,098 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-15 16:46:20,098 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 16:46:20,112 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-15 16:46:20,113 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 16:46:20,127 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 16:46:20,127 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 16:46:20,142 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 16:46:20,142 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 16:46:20,171 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 16:46:20,171 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 16:46:20,187 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-15 16:46:20,187 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 16:46:20,201 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
+2026-09-15 16:46:20,202 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 16:46:20,216 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:46:20,216 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:46:20,231 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 16:46:20,231 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 16:46:20,246 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-15 16:46:20,246 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 16:46:20,261 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 16:46:20,261 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 16:46:20,276 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-15 16:46:20,276 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 16:46:20,291 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:46:20,291 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:47:36,321 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-15 16:48:37,818 [INFO]   [S0-HYD] Machine Learning Engineer: 18 listings
+2026-09-15 16:48:37,832 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 16:48:37,832 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 16:48:37,846 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 16:48:37,846 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 16:48:37,860 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-15 16:48:37,860 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 16:48:37,888 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:48:37,888 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 16:48:37,902 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
+2026-09-15 16:48:37,902 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 16:48:37,916 [INFO]   [S0-HYD] Checking: Guidewire Claim Developer
+2026-09-15 16:48:37,917 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 16:48:37,932 [INFO]   [S0-HYD] Checking: Principal Software Engineer
+2026-09-15 16:48:37,932 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 16:48:37,960 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 16:48:37,961 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 16:48:37,975 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-15 16:48:37,975 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 16:48:37,989 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
+2026-09-15 16:48:37,989 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 16:48:38,003 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:48:38,003 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 16:48:38,018 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 16:48:38,018 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 16:48:38,034 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-15 16:48:38,034 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 16:48:38,049 [INFO]   [S0-HYD] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 16:48:38,049 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 16:48:38,063 [INFO]   [S0-HYD] Checking: Risk Analyst - Market Risk
+2026-09-15 16:48:38,064 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 16:48:38,079 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:48:38,079 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 16:49:54,062 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-15 16:51:10,385 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-15 16:52:26,157 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-15 16:53:42,361 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-15 16:54:58,213 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-15 16:56:14,467 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-15 16:57:30,451 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-15 16:58:46,855 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-15 17:00:02,950 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-15 17:01:19,391 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-15 17:02:35,354 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-15 17:03:51,755 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-15 17:05:07,822 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-15 17:05:07,822 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-15 10:03:48,892 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-15 10:03:48,892 [INFO] ███████████████████████████████████████████████████████
-2026-09-15 10:04:50,061 [INFO]   [S1] Java Developer: 14 listings
-2026-09-15 10:04:50,079 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-15 10:04:50,079 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 10:04:50,093 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-15 10:04:50,093 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 10:04:50,106 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-15 10:04:50,106 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 10:04:50,131 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:04:50,131 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:04:50,144 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-15 10:04:50,144 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 10:04:50,157 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-15 10:04:50,157 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 10:04:50,170 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:04:50,170 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:04:50,196 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 10:04:50,196 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 10:04:50,209 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-15 10:04:50,209 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 10:04:50,223 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-15 10:04:50,223 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 10:04:50,236 [INFO]   [S1] Checking: Risk Analyst - Market Risk
-2026-09-15 10:04:50,236 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 10:04:50,249 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:04:50,249 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:05:51,458 [INFO]   [S1] Python Developer: 13 listings
-2026-09-15 10:05:51,473 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-15 10:05:51,473 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 10:05:51,486 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-15 10:05:51,486 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 10:05:51,498 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-15 10:05:51,499 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 10:05:51,524 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:05:51,524 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:05:51,537 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-15 10:05:51,538 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 10:05:51,550 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 10:05:51,550 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 10:05:51,564 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-15 10:05:51,564 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 10:05:51,589 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-15 10:05:51,589 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 10:05:51,602 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 10:05:51,602 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 10:05:51,615 [INFO]   [S1] Checking: Risk Analyst - Market Risk
-2026-09-15 10:05:51,615 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 10:05:51,628 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:05:51,628 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:06:52,735 [INFO]   [S1] SQL Developer: 9 listings
-2026-09-15 10:06:52,749 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-15 10:06:52,749 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 10:06:52,762 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-15 10:06:52,762 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 10:06:52,782 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-15 10:06:52,782 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 10:06:52,807 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-15 10:06:52,807 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 10:06:52,822 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:06:52,822 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:06:52,835 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-15 10:06:52,835 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 10:06:52,848 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:06:52,848 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:06:52,861 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 10:06:52,861 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 10:06:52,874 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:06:52,874 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:07:54,000 [INFO]   [S1] Software Engineer: 16 listings
-2026-09-15 10:07:54,013 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:07:54,013 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:07:54,026 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-15 10:07:54,026 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 10:07:54,039 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-15 10:07:54,039 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 10:07:54,065 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-15 10:07:54,065 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 10:07:54,078 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-15 10:07:54,078 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 10:07:54,091 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:07:54,091 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:07:54,104 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-15 10:07:54,105 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-15 10:07:54,130 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 10:07:54,130 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 10:07:54,143 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-15 10:07:54,143 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 10:07:54,156 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-15 10:07:54,156 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 10:07:54,169 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:07:54,169 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:07:54,182 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 10:07:54,182 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 10:07:54,195 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-15 10:07:54,195 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 10:07:54,208 [INFO]   [S1] Checking: Risk Analyst - Market Risk
-2026-09-15 10:07:54,209 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 10:08:55,425 [INFO]   [S1] Associate Software Engineer: 15 listings
-2026-09-15 10:08:55,440 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-15 10:08:55,440 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 10:08:55,454 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:08:55,454 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:08:55,468 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-15 10:08:55,468 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 10:08:55,495 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-15 10:08:55,495 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 10:08:55,509 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-15 10:08:55,510 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 10:08:55,523 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-15 10:08:55,523 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 10:08:55,538 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-15 10:08:55,538 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 10:08:55,565 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:08:55,566 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:08:55,579 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 10:08:55,580 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 10:08:55,593 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-15 10:08:55,593 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 10:08:55,607 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 10:08:55,607 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 10:08:55,621 [INFO]   [S1] Checking: Risk Analyst - Market Risk
-2026-09-15 10:08:55,621 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 10:08:55,635 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:08:55,635 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:09:57,025 [INFO]   [S1] Data Analyst: 19 listings
-2026-09-15 10:09:57,040 [INFO]   [S1] Checking: Walk-in || Junior Analyst
-2026-09-15 10:09:57,040 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
-2026-09-15 10:09:57,053 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-15 10:09:57,053 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 10:09:57,067 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-15 10:09:57,067 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 10:09:57,094 [INFO]   [S1] Checking: Walk-in || Process Associate - AI
-2026-09-15 10:09:57,094 [INFO]   [filter] No skill match: Walk-in || Process Associate - AI
-2026-09-15 10:09:57,107 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
-2026-09-15 10:09:57,107 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
-2026-09-15 10:09:57,121 [INFO]   [S1] Checking: Walk-in || internship opportunity For MBA freshers- Aditya Birla Money
-2026-09-15 10:09:57,121 [INFO]   [filter] No skill match: Walk-in || internship opportunity For MBA freshers- Aditya Birla Money
-2026-09-15 10:09:57,135 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-15 10:09:57,135 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 10:09:57,163 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:09:57,163 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:09:57,177 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-15 10:09:57,177 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 10:09:57,191 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-15 10:09:57,191 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 10:09:57,204 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-15 10:09:57,205 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 10:09:57,218 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:09:57,218 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:09:57,232 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 10:09:57,232 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 10:09:57,246 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-15 10:09:57,246 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 10:09:57,259 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 10:09:57,259 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 10:09:57,273 [INFO]   [S1] Checking: Risk Analyst - Market Risk
-2026-09-15 10:09:57,273 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 10:09:57,288 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:09:57,288 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:10:58,561 [INFO]   [S1] AI ML Engineer: 15 listings
-2026-09-15 10:10:58,575 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-15 10:10:58,575 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 10:10:58,590 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:10:58,590 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:10:58,604 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-15 10:10:58,604 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 10:10:58,630 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-15 10:10:58,630 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 10:10:58,643 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-15 10:10:58,643 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 10:10:58,656 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-15 10:10:58,656 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 10:10:58,669 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-15 10:10:58,670 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 10:10:58,696 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:10:58,696 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:10:58,708 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 10:10:58,709 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 10:10:58,721 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-15 10:10:58,722 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 10:10:58,735 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 10:10:58,735 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 10:10:58,748 [INFO]   [S1] Checking: Risk Analyst - Market Risk
-2026-09-15 10:10:58,749 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 10:10:58,762 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:10:58,762 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:12:00,074 [INFO]   [S1] Machine Learning Engineer: 15 listings
-2026-09-15 10:12:00,088 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-15 10:12:00,088 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-15 10:12:00,101 [INFO]   [S1] Checking: Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:12:00,101 [INFO]   [filter] Excluded 'senior': Senior Programmer (Python/FastAPI/Tortoise ORM)
-2026-09-15 10:12:00,114 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-15 10:12:00,114 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-15 10:12:00,139 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-15 10:12:00,139 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-15 10:12:00,152 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-15 10:12:00,152 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-15 10:12:00,165 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-15 10:12:00,165 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-15 10:12:00,178 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-15 10:12:00,179 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-15 10:12:00,204 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:12:00,204 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-15 10:12:00,217 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-15 10:12:00,217 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-15 10:12:00,230 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-15 10:12:00,230 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-15 10:12:00,243 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-15 10:12:00,243 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-15 10:12:00,256 [INFO]   [S1] Checking: Risk Analyst - Market Risk
-2026-09-15 10:12:00,256 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-15 10:12:00,270 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:12:00,270 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-15 10:12:00,270 [INFO] 
+2026-09-15 17:05:07,822 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-15 17:05:07,822 [INFO] ███████████████████████████████████████████████████████
+2026-09-15 17:06:09,038 [INFO]   [S1] Java Developer: 17 listings
+2026-09-15 17:06:09,056 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-15 17:06:09,056 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 17:06:09,069 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:06:09,069 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:06:09,081 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-15 17:06:09,081 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 17:06:09,105 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-15 17:06:09,105 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 17:06:09,117 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 17:06:09,117 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 17:06:09,130 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 17:06:09,130 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 17:06:09,142 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 17:06:09,142 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 17:06:09,167 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-15 17:06:09,167 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 17:06:09,179 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-15 17:06:09,179 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 17:06:09,191 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:06:09,192 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:06:09,204 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 17:06:09,204 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 17:06:09,216 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-15 17:06:09,217 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 17:06:09,229 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-15 17:06:09,229 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 17:06:09,241 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-15 17:06:09,241 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 17:06:09,254 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:06:09,254 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:07:10,505 [INFO]   [S1] Python Developer: 13 listings
+2026-09-15 17:07:10,518 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-15 17:07:10,518 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 17:07:10,530 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:07:10,530 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:07:10,544 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-15 17:07:10,544 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 17:07:10,569 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-15 17:07:10,569 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 17:07:10,581 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-15 17:07:10,581 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 17:07:10,594 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 17:07:10,594 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 17:07:10,606 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-15 17:07:10,606 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 17:07:10,631 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-15 17:07:10,631 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 17:07:10,643 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 17:07:10,643 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 17:07:10,656 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-15 17:07:10,656 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 17:07:10,668 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:07:10,668 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:08:11,864 [INFO]   [S1] SQL Developer: 12 listings
+2026-09-15 17:08:11,877 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-15 17:08:11,877 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 17:08:11,890 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-15 17:08:11,890 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 17:08:11,904 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-15 17:08:11,904 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 17:08:11,917 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:08:11,917 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:08:11,929 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-15 17:08:11,930 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 17:08:11,942 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 17:08:11,943 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 17:08:11,956 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 17:08:11,956 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 17:08:11,969 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 17:08:11,969 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 17:08:11,982 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-15 17:08:11,982 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 17:08:11,995 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:08:11,996 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:08:12,009 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 17:08:12,009 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 17:08:12,023 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:08:12,023 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:09:13,259 [INFO]   [S1] Software Engineer: 20 listings
+2026-09-15 17:09:13,271 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:09:13,272 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:09:13,283 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-15 17:09:13,283 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 17:09:13,295 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-15 17:09:13,295 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 17:09:13,319 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:09:13,319 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:09:13,331 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-15 17:09:13,331 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 17:09:13,343 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-15 17:09:13,343 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 17:09:13,355 [INFO]   [S1] Checking: Palantir Developer
+2026-09-15 17:09:13,355 [INFO]   [filter] No skill match: Palantir Developer
+2026-09-15 17:09:13,379 [INFO]   [S1] Checking: Dot Net Developer
+2026-09-15 17:09:13,380 [INFO]   [filter] No skill match: Dot Net Developer
+2026-09-15 17:09:13,393 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 17:09:13,394 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 17:09:13,406 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 17:09:13,406 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 17:09:13,418 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 17:09:13,418 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 17:09:13,430 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 17:09:13,430 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 17:09:13,443 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-15 17:09:13,443 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 17:09:13,455 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-15 17:09:13,455 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 17:09:13,467 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:09:13,468 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:09:13,480 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 17:09:13,480 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 17:09:13,492 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-15 17:09:13,493 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 17:09:13,505 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-15 17:09:13,505 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 17:10:14,571 [INFO]   [S1] Associate Software Engineer: 18 listings
+2026-09-15 17:10:14,583 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-15 17:10:14,583 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 17:10:14,595 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:10:14,596 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:10:14,607 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-15 17:10:14,607 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 17:10:14,631 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-15 17:10:14,631 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 17:10:14,643 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-15 17:10:14,643 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 17:10:14,655 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 17:10:14,656 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 17:10:14,668 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 17:10:14,668 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 17:10:14,692 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 17:10:14,693 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 17:10:14,705 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-15 17:10:14,705 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 17:10:14,717 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-15 17:10:14,717 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 17:10:14,730 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:10:14,730 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:10:14,742 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 17:10:14,742 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 17:10:14,754 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-15 17:10:14,754 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 17:10:14,767 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 17:10:14,767 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 17:10:14,779 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-15 17:10:14,780 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 17:10:14,792 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:10:14,792 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:11:16,198 [INFO]   [S1] Data Analyst: 22 listings
+2026-09-15 17:11:16,212 [INFO]   [S1] Checking: Walk-in || Junior Analyst
+2026-09-15 17:11:16,212 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
+2026-09-15 17:11:16,227 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-15 17:11:16,227 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 17:11:16,239 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 17:11:16,240 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 17:11:16,264 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-15 17:11:16,264 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 17:11:16,276 [INFO]   [S1] Checking: Walk-in || Process Associate - AI
+2026-09-15 17:11:16,276 [INFO]   [filter] No skill match: Walk-in || Process Associate - AI
+2026-09-15 17:11:16,288 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-15 17:11:16,288 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-15 17:11:16,301 [INFO]   [S1] Checking: Walk-in || internship opportunity For MBA freshers- Aditya Birla Money
+2026-09-15 17:11:16,301 [INFO]   [filter] No skill match: Walk-in || internship opportunity For MBA freshers- Aditya Birla Money
+2026-09-15 17:11:16,326 [INFO]   [S1] Checking: Biotech Researcher - South Zone
+2026-09-15 17:11:16,326 [INFO]   [filter] Excluded 'biotech': Biotech Researcher - South Zone
+2026-09-15 17:11:16,338 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-15 17:11:16,338 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 17:11:16,351 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:11:16,351 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:11:16,363 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-15 17:11:16,363 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 17:11:16,376 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-15 17:11:16,376 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 17:11:16,388 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 17:11:16,388 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 17:11:16,401 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 17:11:16,401 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 17:11:16,413 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-15 17:11:16,413 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 17:11:16,425 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:11:16,425 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:11:16,437 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 17:11:16,438 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 17:11:16,450 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-15 17:11:16,450 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 17:11:16,462 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 17:11:16,462 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 17:11:16,474 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-15 17:11:16,474 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 17:12:17,601 [INFO]   [S1] AI ML Engineer: 18 listings
+2026-09-15 17:12:17,615 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-15 17:12:17,615 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 17:12:17,628 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:12:17,628 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:12:17,641 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-15 17:12:17,641 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 17:12:17,665 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-15 17:12:17,665 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 17:12:17,678 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-15 17:12:17,678 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 17:12:17,690 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 17:12:17,690 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 17:12:17,703 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 17:12:17,703 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 17:12:17,728 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 17:12:17,728 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 17:12:17,741 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-15 17:12:17,741 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 17:12:17,754 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-15 17:12:17,754 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 17:12:17,769 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:12:17,769 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:12:17,782 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 17:12:17,782 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 17:12:17,795 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-15 17:12:17,795 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 17:12:17,808 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 17:12:17,809 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 17:12:17,822 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-15 17:12:17,822 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 17:12:17,836 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:12:17,836 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:13:19,163 [INFO]   [S1] Machine Learning Engineer: 18 listings
+2026-09-15 17:13:19,176 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-15 17:13:19,177 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-15 17:13:19,191 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-15 17:13:19,191 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-15 17:13:19,204 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-15 17:13:19,204 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-15 17:13:19,230 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:13:19,230 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-15 17:13:19,243 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-15 17:13:19,243 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-15 17:13:19,257 [INFO]   [S1] Checking: Guidewire Claim Developer
+2026-09-15 17:13:19,257 [INFO]   [filter] No skill match: Guidewire Claim Developer
+2026-09-15 17:13:19,271 [INFO]   [S1] Checking: Principal Software Engineer
+2026-09-15 17:13:19,271 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
+2026-09-15 17:13:19,298 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-15 17:13:19,298 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-15 17:13:19,312 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-15 17:13:19,312 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-15 17:13:19,326 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-15 17:13:19,326 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-15 17:13:19,340 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:13:19,340 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-15 17:13:19,353 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-15 17:13:19,354 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-15 17:13:19,367 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-15 17:13:19,367 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-15 17:13:19,382 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
+2026-09-15 17:13:19,382 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
+2026-09-15 17:13:19,396 [INFO]   [S1] Checking: Risk Analyst - Market Risk
+2026-09-15 17:13:19,396 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
+2026-09-15 17:13:19,411 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:13:19,411 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-15 17:13:19,411 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-15 10:12:00,270 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-15 10:12:00,270 [INFO] ███████████████████████████████████████████████████████
-2026-09-15 10:27:12,135 [INFO] 
+2026-09-15 17:13:19,411 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-15 17:13:19,411 [INFO] ███████████████████████████████████████████████████████
+2026-09-15 17:28:32,103 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-15 10:27:12,135 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-15 10:27:12,135 [INFO] ███████████████████████████████████████████████████████
-2026-09-15 10:28:28,129 [INFO]   [S3] Java Developer: 0 listings
-2026-09-15 10:29:44,140 [INFO]   [S3] Python Developer: 0 listings
-2026-09-15 10:31:00,155 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-15 10:32:16,142 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-15 10:33:32,117 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-15 10:34:48,058 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-15 10:36:03,960 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-15 10:37:19,933 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-15 10:37:19,933 [INFO] 
+2026-09-15 17:28:32,103 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-15 17:28:32,103 [INFO] ███████████████████████████████████████████████████████
+2026-09-15 17:29:48,114 [INFO]   [S3] Java Developer: 0 listings
+2026-09-15 17:31:04,209 [INFO]   [S3] Python Developer: 0 listings
+2026-09-15 17:32:20,193 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-15 17:33:36,233 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-15 17:34:52,164 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-15 17:36:08,264 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-15 17:37:24,240 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-15 17:38:40,251 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-15 17:38:40,251 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-15 10:37:19,933 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-15 10:37:19,933 [INFO] ███████████████████████████████████████████████████████
-2026-09-15 10:52:30,587 [INFO] 
+2026-09-15 17:38:40,251 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-15 17:38:40,251 [INFO] ███████████████████████████████████████████████████████
+2026-09-15 17:53:50,488 [INFO] 
 =======================================================
-2026-09-15 10:52:30,587 [INFO]   Run complete — Applied this session : 4
-2026-09-15 10:52:30,588 [INFO]   Total ever applied                  : 313
-2026-09-15 10:52:30,588 [INFO] =======================================================
+2026-09-15 17:53:50,489 [INFO]   Run complete — Applied this session : 3
+2026-09-15 17:53:50,489 [INFO]   Total ever applied                  : 316
+2026-09-15 17:53:50,490 [INFO] =======================================================

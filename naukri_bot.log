@@ -1,705 +1,601 @@
-2026-09-16 22:39:07,351 [INFO] GitHub Actions — single run mode
-2026-09-16 22:39:07,351 [INFO] 
+2026-09-17 03:30:23,216 [INFO] GitHub Actions — single run mode
+2026-09-17 03:30:23,217 [INFO] 
 =======================================================
-2026-09-16 22:39:07,351 [INFO]   Run started: 2026-09-16 22:39:07
-2026-09-16 22:39:07,351 [INFO] =======================================================
-2026-09-16 22:39:07,352 [INFO] Previously applied: 322 jobs
-2026-09-16 22:39:07,352 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-16 22:39:07,352 [INFO] ====== WebDriver manager ======
-2026-09-16 22:39:07,564 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-16 22:39:07,649 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-16 22:39:07,673 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-16 22:39:07,674 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-16 22:39:07,833 [INFO] WebDriver version 152.0.7977.82 selected
-2026-09-16 22:39:07,837 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-16 22:39:07,838 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-16 22:39:07,956 [INFO] Driver downloading response is 200
-2026-09-16 22:39:08,276 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
-2026-09-16 22:39:11,249 [INFO]   Trying cookie login...
-2026-09-16 22:39:17,071 [INFO]   Loading 34 cookies...
-2026-09-16 22:39:21,225 [INFO]   ✅ Cookie login successful!
-2026-09-16 22:39:21,225 [INFO] 
+2026-09-17 03:30:23,217 [INFO]   Run started: 2026-09-17 03:30:23
+2026-09-17 03:30:23,217 [INFO] =======================================================
+2026-09-17 03:30:23,217 [INFO] Previously applied: 322 jobs
+2026-09-17 03:30:23,218 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-17 03:30:23,218 [INFO] ====== WebDriver manager ======
+2026-09-17 03:30:23,422 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-17 03:30:23,499 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-17 03:30:23,533 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-17 03:30:23,533 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-17 03:30:23,680 [INFO] WebDriver version 152.0.7977.82 selected
+2026-09-17 03:30:23,687 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-17 03:30:23,688 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-17 03:30:23,769 [INFO] Driver downloading response is 200
+2026-09-17 03:30:24,220 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
+2026-09-17 03:30:30,520 [INFO]   Trying cookie login...
+2026-09-17 03:30:34,831 [INFO]   Loading 34 cookies...
+2026-09-17 03:30:39,095 [INFO]   ✅ Cookie login successful!
+2026-09-17 03:30:39,095 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-16 22:39:21,225 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-16 22:39:21,225 [INFO] ───────────────────────────────────────────────────────
-2026-09-16 22:39:21,225 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-16 22:40:28,425 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-16 22:40:33,968 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-16 22:40:36,314 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-16 22:40:39,341 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-16 22:40:42,386 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-16 22:40:42,386 [INFO] 
+2026-09-17 03:30:39,095 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-17 03:30:39,095 [INFO] ───────────────────────────────────────────────────────
+2026-09-17 03:30:39,095 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-17 03:31:45,748 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-17 03:31:51,311 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-17 03:31:53,668 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-17 03:31:56,690 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-17 03:31:59,724 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-17 03:31:59,725 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-16 22:40:42,386 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-16 22:40:42,386 [INFO] ███████████████████████████████████████████████████████
-2026-09-16 22:41:43,871 [INFO]   [S0-HYD] Java Developer: 20 listings
-2026-09-16 22:41:43,888 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-16 22:41:43,888 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 22:41:43,900 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:41:43,900 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:41:43,911 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-16 22:41:43,911 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 22:41:43,922 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-16 22:41:43,923 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 22:41:43,934 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:41:43,934 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:41:43,945 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:41:43,945 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:41:43,956 [INFO]   [S0-HYD] Checking: Senior Architect
-2026-09-16 22:41:43,956 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 22:41:43,968 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
-2026-09-16 22:41:43,968 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 22:41:43,980 [INFO]   [S0-HYD] Checking: Computer Teacher
-2026-09-16 22:41:43,980 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 22:41:43,992 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 22:41:43,992 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 22:41:44,004 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
-2026-09-16 22:41:44,004 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
-2026-09-16 22:41:44,016 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
-2026-09-16 22:41:44,016 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
-2026-09-16 22:41:44,027 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-16 22:41:44,027 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 22:41:44,037 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-16 22:41:44,038 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-16 22:41:44,049 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-16 22:41:44,049 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-16 22:41:44,060 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-16 22:41:44,060 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-16 22:41:44,071 [INFO]   [S0-HYD] Checking: Business Analyst
-2026-09-16 22:41:44,071 [INFO]   [filter] No skill match: Business Analyst
-2026-09-16 22:41:44,082 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-16 22:41:44,082 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-16 22:41:44,093 [INFO]   [S0-HYD] Checking: Coding Teacher (School)
-2026-09-16 22:41:44,093 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-16 22:41:44,104 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 22:41:44,104 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 22:42:59,958 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-16 22:44:01,250 [INFO]   [S0-HYD] Python Developer: 14 listings
-2026-09-16 22:44:01,263 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
-2026-09-16 22:44:01,263 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-16 22:44:01,275 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-16 22:44:01,275 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 22:44:01,286 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:44:01,287 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:44:01,299 [INFO]   [S0-HYD] Checking: Senior Architect
-2026-09-16 22:44:01,299 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 22:44:01,314 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-16 22:44:01,314 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 22:44:01,325 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:44:01,326 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:44:01,337 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:44:01,337 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:44:01,348 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
-2026-09-16 22:44:01,348 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 22:44:01,360 [INFO]   [S0-HYD] Checking: Computer Teacher
-2026-09-16 22:44:01,360 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 22:44:01,371 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-16 22:44:01,371 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 22:44:01,382 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-16 22:44:01,382 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-16 22:44:01,394 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-16 22:44:01,394 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-16 22:44:01,405 [INFO]   [S0-HYD] Checking: Business Analyst
-2026-09-16 22:44:01,405 [INFO]   [filter] No skill match: Business Analyst
-2026-09-16 22:44:01,416 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 22:44:01,416 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 22:45:17,242 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-16 22:46:18,274 [INFO]   [S0-HYD] SQL Developer: 14 listings
-2026-09-16 22:46:18,293 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-16 22:46:18,293 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 22:46:18,305 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-16 22:46:18,305 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 22:46:18,316 [INFO]   [S0-HYD] Checking: Computer Teacher
-2026-09-16 22:46:18,317 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 22:46:18,328 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:46:18,328 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:46:18,338 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-16 22:46:18,338 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 22:46:18,349 [INFO]   [S0-HYD] Checking: Senior Architect
-2026-09-16 22:46:18,349 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 22:46:18,359 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 22:46:18,359 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 22:46:18,370 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
-2026-09-16 22:46:18,370 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
-2026-09-16 22:46:18,381 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
-2026-09-16 22:46:18,381 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
-2026-09-16 22:46:18,391 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-16 22:46:18,391 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-16 22:46:18,402 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-16 22:46:18,402 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-16 22:46:18,415 [INFO]   [S0-HYD] Checking: Coding Teacher (School)
-2026-09-16 22:46:18,415 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-16 22:46:18,426 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
-2026-09-16 22:46:18,426 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-16 22:46:18,437 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 22:46:18,437 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 22:47:34,283 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-16 22:48:35,405 [INFO]   [S0-HYD] Software Engineer: 20 listings
-2026-09-16 22:48:35,430 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 22:48:35,430 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 22:48:35,441 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-16 22:48:35,441 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 22:48:35,452 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-16 22:48:35,452 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-16 22:48:35,463 [INFO]   [S0-HYD] Checking: GPS Service Engineer Technician - Freshers
-2026-09-16 22:48:35,463 [INFO]   [filter] No skill match: GPS Service Engineer Technician - Freshers
-2026-09-16 22:48:35,474 [INFO]   [S0-HYD] Checking: Senior Architect
-2026-09-16 22:48:35,474 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 22:48:35,486 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:48:35,486 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:48:35,497 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
-2026-09-16 22:48:35,497 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 22:48:35,508 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-16 22:48:35,508 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 22:48:35,520 [INFO]   [S0-HYD] Checking: QA Engineer - Engineering
-2026-09-16 22:48:35,520 [INFO]   [filter] No skill match: QA Engineer - Engineering
-2026-09-16 22:48:35,532 [INFO]   [S0-HYD] Checking: Palantir Developer
-2026-09-16 22:48:35,532 [INFO]   [filter] No skill match: Palantir Developer
-2026-09-16 22:48:35,544 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:48:35,544 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:48:35,555 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:48:35,555 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:48:35,566 [INFO]   [S0-HYD] Checking: Computer Teacher
-2026-09-16 22:48:35,566 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 22:48:35,578 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-16 22:48:35,578 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 22:48:35,589 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 22:48:35,589 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 22:48:35,600 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
-2026-09-16 22:48:35,600 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
-2026-09-16 22:48:35,611 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
-2026-09-16 22:48:35,612 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
-2026-09-16 22:48:35,623 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-16 22:48:35,623 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 22:48:35,634 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-16 22:48:35,634 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-16 22:48:35,645 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-16 22:48:35,645 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-16 22:49:51,537 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-16 22:50:52,704 [INFO]   [S0-HYD] Associate Software Engineer: 20 listings
-2026-09-16 22:50:52,726 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-16 22:50:52,726 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 22:50:52,737 [INFO]   [S0-HYD] Checking: Senior Architect
-2026-09-16 22:50:52,737 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 22:50:52,749 [INFO]   [S0-HYD] Checking: Computer Teacher
-2026-09-16 22:50:52,749 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 22:50:52,760 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:50:52,760 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:50:52,772 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-16 22:50:52,773 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 22:50:52,784 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-16 22:50:52,784 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 22:50:52,797 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:50:52,797 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:50:52,808 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:50:52,808 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:50:52,820 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
-2026-09-16 22:50:52,820 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 22:50:52,833 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 22:50:52,833 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 22:50:52,845 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
-2026-09-16 22:50:52,845 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
-2026-09-16 22:50:52,858 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
-2026-09-16 22:50:52,858 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
-2026-09-16 22:50:52,870 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-16 22:50:52,870 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 22:50:52,884 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-16 22:50:52,885 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-16 22:50:52,896 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-16 22:50:52,896 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-16 22:50:52,908 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-16 22:50:52,908 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-16 22:50:52,920 [INFO]   [S0-HYD] Checking: Business Analyst
-2026-09-16 22:50:52,920 [INFO]   [filter] No skill match: Business Analyst
-2026-09-16 22:50:52,932 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-16 22:50:52,932 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-16 22:50:52,946 [INFO]   [S0-HYD] Checking: Coding Teacher (School)
-2026-09-16 22:50:52,947 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-16 22:50:52,960 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
-2026-09-16 22:50:52,960 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-16 22:52:08,896 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-16 22:53:10,132 [INFO]   [S0-HYD] Data Analyst: 20 listings
-2026-09-16 22:53:10,145 [INFO]   [S0-HYD] Checking: Walk-in || Junior Analyst
-2026-09-16 22:53:10,145 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
-2026-09-16 22:53:10,156 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 22:53:10,156 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 22:53:10,167 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-16 22:53:10,167 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 22:53:10,179 [INFO]   [S0-HYD] Checking: Business Analyst
-2026-09-16 22:53:10,179 [INFO]   [filter] No skill match: Business Analyst
-2026-09-16 22:53:10,190 [INFO]   [S0-HYD] Checking: Jr.Documentation Executive - Hyderabad
-2026-09-16 22:53:10,190 [INFO]   [filter] No skill match: Jr.Documentation Executive - Hyderabad
-2026-09-16 22:53:10,202 [INFO]   [S0-HYD] Checking: Assistant Credit & Collections
-2026-09-16 22:53:10,202 [INFO]   [filter] No skill match: Assistant Credit & Collections
-2026-09-16 22:53:10,213 [INFO]   [S0-HYD] Checking: Senior Officer - CAT - Elite
-2026-09-16 22:53:10,213 [INFO]   [filter] Excluded 'senior': Senior Officer - CAT - Elite
-2026-09-16 22:53:10,224 [INFO]   [S0-HYD] Checking: Associate - Corporate Social Responsibility (CSR)
-2026-09-16 22:53:10,224 [INFO]   [filter] No skill match: Associate - Corporate Social Responsibility (CSR)
-2026-09-16 22:53:10,234 [INFO]   [S0-HYD] Checking: Data Analytic | Fresher | Business Analytics
-2026-09-16 22:53:10,234 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
-2026-09-16 22:53:10,245 [INFO]   [S0-HYD] Checking: Research Associate
-2026-09-16 22:53:10,245 [INFO]   [filter] No skill match: Research Associate
-2026-09-16 22:53:10,257 [INFO]   [S0-HYD] Checking: Biotech Researcher - South Zone
-2026-09-16 22:53:10,257 [INFO]   [filter] Excluded 'biotech': Biotech Researcher - South Zone
-2026-09-16 22:53:10,268 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-16 22:53:10,269 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 22:53:10,279 [INFO]   [S0-HYD] Checking: Senior Architect
-2026-09-16 22:53:10,279 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 22:53:10,289 [INFO]   [S0-HYD] Checking: Computer Teacher
-2026-09-16 22:53:10,289 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 22:53:10,301 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:53:10,301 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:53:10,312 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-16 22:53:10,312 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 22:53:10,349 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-16 22:53:10,349 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 22:53:10,359 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:53:10,359 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:53:10,368 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:53:10,368 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:53:10,378 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
-2026-09-16 22:53:10,378 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 22:54:26,275 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-16 22:55:27,643 [INFO]   [S0-HYD] AI ML Engineer: 20 listings
-2026-09-16 22:55:27,670 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-16 22:55:27,670 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 22:55:27,684 [INFO]   [S0-HYD] Checking: Senior Architect
-2026-09-16 22:55:27,684 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 22:55:27,694 [INFO]   [S0-HYD] Checking: Computer Teacher
-2026-09-16 22:55:27,694 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 22:55:27,708 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:55:27,708 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:55:27,719 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-16 22:55:27,719 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 22:55:27,730 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-16 22:55:27,731 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 22:55:27,741 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:55:27,741 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:55:27,752 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:55:27,752 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:55:27,764 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
-2026-09-16 22:55:27,764 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 22:55:27,775 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 22:55:27,776 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 22:55:27,787 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
-2026-09-16 22:55:27,787 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
-2026-09-16 22:55:27,799 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
-2026-09-16 22:55:27,799 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
-2026-09-16 22:55:27,810 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-16 22:55:27,810 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 22:55:27,822 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-16 22:55:27,822 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-16 22:55:27,833 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-16 22:55:27,833 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-16 22:55:27,845 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-16 22:55:27,845 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-16 22:55:27,856 [INFO]   [S0-HYD] Checking: Business Analyst
-2026-09-16 22:55:27,856 [INFO]   [filter] No skill match: Business Analyst
-2026-09-16 22:55:27,867 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-16 22:55:27,867 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-16 22:55:27,877 [INFO]   [S0-HYD] Checking: Coding Teacher (School)
-2026-09-16 22:55:27,877 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-16 22:55:27,889 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
-2026-09-16 22:55:27,889 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-16 22:56:43,842 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-16 22:57:45,034 [INFO]   [S0-HYD] Machine Learning Engineer: 20 listings
-2026-09-16 22:57:45,048 [INFO]   [S0-HYD] Checking: Process Engineer MSc (Freelancer)
-2026-09-16 22:57:45,048 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
-2026-09-16 22:57:45,061 [INFO]   [S0-HYD] Checking: Process Engineer BSc (Freelancer)
-2026-09-16 22:57:45,061 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
-2026-09-16 22:57:45,073 [INFO]   [S0-HYD] Checking: Coding Teacher (School)
-2026-09-16 22:57:45,073 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-16 22:57:45,085 [INFO]   [S0-HYD] Checking: Full Stack Intern
-2026-09-16 22:57:45,085 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 22:57:45,099 [INFO]   [S0-HYD] Checking: Senior Architect
-2026-09-16 22:57:45,099 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 22:57:45,112 [INFO]   [S0-HYD] Checking: Computer Teacher
-2026-09-16 22:57:45,112 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 22:57:45,125 [INFO]   [S0-HYD] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:57:45,125 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 22:57:45,138 [INFO]   [S0-HYD] Checking: Senior Software Engineer (Java)
-2026-09-16 22:57:45,138 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 22:57:45,153 [INFO]   [S0-HYD] Checking: Computer Vision Intern
-2026-09-16 22:57:45,154 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 22:57:45,166 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:57:45,166 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:57:45,178 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
-2026-09-16 22:57:45,178 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 22:57:45,190 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
-2026-09-16 22:57:45,190 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 22:57:45,202 [INFO]   [S0-HYD] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 22:57:45,203 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 22:57:45,215 [INFO]   [S0-HYD] Checking: Tax Services Associate - Corporate
-2026-09-16 22:57:45,215 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 22:57:45,228 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-16 22:57:45,228 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-16 22:57:45,241 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-16 22:57:45,241 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-16 22:57:45,253 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-16 22:57:45,253 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-16 22:57:45,265 [INFO]   [S0-HYD] Checking: Business Analyst
-2026-09-16 22:57:45,265 [INFO]   [filter] No skill match: Business Analyst
-2026-09-16 22:57:45,276 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-16 22:57:45,276 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-16 22:57:45,289 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
-2026-09-16 22:57:45,289 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-16 22:59:01,425 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-16 23:00:17,558 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-16 23:01:33,465 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-16 23:02:49,662 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-16 23:04:05,562 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-16 23:05:21,732 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-16 23:06:37,588 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-16 23:07:53,888 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-16 23:09:09,707 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-16 23:10:26,001 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-16 23:11:41,868 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-16 23:12:58,015 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-16 23:14:13,943 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-16 23:14:13,943 [INFO] 
+2026-09-17 03:31:59,725 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-17 03:31:59,725 [INFO] ███████████████████████████████████████████████████████
+2026-09-17 03:33:00,969 [INFO]   [S0-HYD] Java Developer: 13 listings
+2026-09-17 03:33:00,987 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-17 03:33:00,987 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 03:33:01,001 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-17 03:33:01,001 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 03:33:01,015 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:33:01,015 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:33:01,028 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:33:01,028 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:33:01,041 [INFO]   [S0-HYD] Checking: Senior Architect
+2026-09-17 03:33:01,041 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 03:33:01,054 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
+2026-09-17 03:33:01,054 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 03:33:01,067 [INFO]   [S0-HYD] Checking: Computer Teacher
+2026-09-17 03:33:01,067 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 03:33:01,080 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:33:01,080 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:33:01,092 [INFO]   [S0-HYD] Checking: Business Analyst
+2026-09-17 03:33:01,092 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 03:33:01,105 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-17 03:33:01,105 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 03:33:01,119 [INFO]   [S0-HYD] Checking: Coding Teacher (School)
+2026-09-17 03:33:01,119 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-17 03:33:01,132 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:33:01,132 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:33:01,145 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
+2026-09-17 03:33:01,145 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 03:34:16,996 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-17 03:35:18,121 [INFO]   [S0-HYD] Python Developer: 9 listings
+2026-09-17 03:35:18,135 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
+2026-09-17 03:35:18,135 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 03:35:18,149 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-17 03:35:18,149 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 03:35:18,162 [INFO]   [S0-HYD] Checking: Senior Architect
+2026-09-17 03:35:18,163 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 03:35:18,176 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:35:18,177 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:35:18,190 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:35:18,190 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:35:18,204 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
+2026-09-17 03:35:18,204 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 03:35:18,218 [INFO]   [S0-HYD] Checking: Computer Teacher
+2026-09-17 03:35:18,218 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 03:35:18,231 [INFO]   [S0-HYD] Checking: Business Analyst
+2026-09-17 03:35:18,232 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 03:35:18,245 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:35:18,245 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:36:34,172 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-17 03:37:35,195 [INFO]   [S0-HYD] SQL Developer: 9 listings
+2026-09-17 03:37:35,209 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-17 03:37:35,209 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 03:37:35,221 [INFO]   [S0-HYD] Checking: Computer Teacher
+2026-09-17 03:37:35,221 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 03:37:35,234 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-17 03:37:35,234 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 03:37:35,247 [INFO]   [S0-HYD] Checking: Senior Architect
+2026-09-17 03:37:35,247 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 03:37:35,260 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:37:35,260 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:37:35,273 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-17 03:37:35,273 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 03:37:35,286 [INFO]   [S0-HYD] Checking: Coding Teacher (School)
+2026-09-17 03:37:35,286 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-17 03:37:35,300 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
+2026-09-17 03:37:35,300 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 03:37:35,313 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:37:35,313 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:38:51,341 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-17 03:39:52,426 [INFO]   [S0-HYD] Software Engineer: 15 listings
+2026-09-17 03:39:52,439 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:39:52,439 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:39:52,453 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-17 03:39:52,453 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 03:39:52,466 [INFO]   [S0-HYD] Checking: GPS Service Engineer Technician - Freshers
+2026-09-17 03:39:52,466 [INFO]   [filter] No skill match: GPS Service Engineer Technician - Freshers
+2026-09-17 03:39:52,479 [INFO]   [S0-HYD] Checking: Senior Architect
+2026-09-17 03:39:52,479 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 03:39:52,492 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
+2026-09-17 03:39:52,492 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 03:39:52,505 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-17 03:39:52,505 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 03:39:52,518 [INFO]   [S0-HYD] Checking: QA Engineer - Engineering
+2026-09-17 03:39:52,518 [INFO]   [filter] No skill match: QA Engineer - Engineering
+2026-09-17 03:39:52,531 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:39:52,531 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:39:52,544 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:39:52,544 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:39:52,558 [INFO]   [S0-HYD] Checking: Computer Teacher
+2026-09-17 03:39:52,558 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 03:39:52,571 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-17 03:39:52,571 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 03:39:52,587 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:39:52,587 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:39:52,600 [INFO]   [S0-HYD] Checking: Business Analyst
+2026-09-17 03:39:52,600 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 03:39:52,613 [INFO]   [S0-HYD] Checking: Coding Teacher (School)
+2026-09-17 03:39:52,613 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-17 03:39:52,626 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
+2026-09-17 03:39:52,626 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 03:41:08,634 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-17 03:42:10,364 [INFO]   [S0-HYD] Associate Software Engineer: 13 listings
+2026-09-17 03:42:10,378 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-17 03:42:10,378 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 03:42:10,391 [INFO]   [S0-HYD] Checking: Senior Architect
+2026-09-17 03:42:10,391 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 03:42:10,405 [INFO]   [S0-HYD] Checking: Computer Teacher
+2026-09-17 03:42:10,405 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 03:42:10,418 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-17 03:42:10,418 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 03:42:10,430 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:42:10,430 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:42:10,443 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:42:10,443 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:42:10,456 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
+2026-09-17 03:42:10,457 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 03:42:10,471 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:42:10,471 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:42:10,484 [INFO]   [S0-HYD] Checking: Business Analyst
+2026-09-17 03:42:10,484 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 03:42:10,498 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-17 03:42:10,498 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 03:42:10,511 [INFO]   [S0-HYD] Checking: Coding Teacher (School)
+2026-09-17 03:42:10,511 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-17 03:42:10,524 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
+2026-09-17 03:42:10,524 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 03:42:10,537 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:42:10,537 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:43:26,479 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-17 03:44:27,650 [INFO]   [S0-HYD] Data Analyst: 18 listings
+2026-09-17 03:44:27,664 [INFO]   [S0-HYD] Checking: Walk-in || Junior Analyst
+2026-09-17 03:44:27,664 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
+2026-09-17 03:44:27,677 [INFO]   [S0-HYD] Checking: Business Analyst
+2026-09-17 03:44:27,678 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 03:44:27,691 [INFO]   [S0-HYD] Checking: Jr.Documentation Executive - Hyderabad
+2026-09-17 03:44:27,691 [INFO]   [filter] No skill match: Jr.Documentation Executive - Hyderabad
+2026-09-17 03:44:27,705 [INFO]   [S0-HYD] Checking: Assistant Credit & Collections
+2026-09-17 03:44:27,705 [INFO]   [filter] No skill match: Assistant Credit & Collections
+2026-09-17 03:44:27,718 [INFO]   [S0-HYD] Checking: Associate - Corporate Social Responsibility (CSR)
+2026-09-17 03:44:27,718 [INFO]   [filter] No skill match: Associate - Corporate Social Responsibility (CSR)
+2026-09-17 03:44:27,731 [INFO]   [S0-HYD] Checking: Research Associate
+2026-09-17 03:44:27,731 [INFO]   [filter] No skill match: Research Associate
+2026-09-17 03:44:27,744 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-17 03:44:27,744 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 03:44:27,758 [INFO]   [S0-HYD] Checking: Senior Architect
+2026-09-17 03:44:27,758 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 03:44:27,774 [INFO]   [S0-HYD] Checking: Computer Teacher
+2026-09-17 03:44:27,774 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 03:44:27,788 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-17 03:44:27,788 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 03:44:27,802 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:44:27,802 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:44:27,816 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:44:27,816 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:44:27,830 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
+2026-09-17 03:44:27,830 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 03:44:27,844 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:44:27,844 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:44:27,857 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-17 03:44:27,857 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 03:44:27,871 [INFO]   [S0-HYD] Checking: Coding Teacher (School)
+2026-09-17 03:44:27,871 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-17 03:44:27,885 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
+2026-09-17 03:44:27,885 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 03:44:27,899 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:44:27,899 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:45:43,898 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-17 03:46:45,177 [INFO]   [S0-HYD] AI ML Engineer: 13 listings
+2026-09-17 03:46:45,193 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-17 03:46:45,193 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 03:46:45,207 [INFO]   [S0-HYD] Checking: Senior Architect
+2026-09-17 03:46:45,207 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 03:46:45,221 [INFO]   [S0-HYD] Checking: Computer Teacher
+2026-09-17 03:46:45,221 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 03:46:45,235 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-17 03:46:45,235 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 03:46:45,249 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:46:45,249 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:46:45,263 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:46:45,263 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:46:45,277 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
+2026-09-17 03:46:45,277 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 03:46:45,294 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:46:45,294 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:46:45,310 [INFO]   [S0-HYD] Checking: Business Analyst
+2026-09-17 03:46:45,310 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 03:46:45,324 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-17 03:46:45,325 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 03:46:45,339 [INFO]   [S0-HYD] Checking: Coding Teacher (School)
+2026-09-17 03:46:45,339 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-17 03:46:45,353 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
+2026-09-17 03:46:45,353 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 03:46:45,368 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:46:45,368 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:48:01,264 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-17 03:49:02,376 [INFO]   [S0-HYD] Machine Learning Engineer: 13 listings
+2026-09-17 03:49:02,389 [INFO]   [S0-HYD] Checking: Coding Teacher (School)
+2026-09-17 03:49:02,390 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-17 03:49:02,403 [INFO]   [S0-HYD] Checking: Full Stack Intern
+2026-09-17 03:49:02,403 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 03:49:02,415 [INFO]   [S0-HYD] Checking: Senior Architect
+2026-09-17 03:49:02,415 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 03:49:02,428 [INFO]   [S0-HYD] Checking: Computer Teacher
+2026-09-17 03:49:02,428 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 03:49:02,441 [INFO]   [S0-HYD] Checking: Computer Vision Intern
+2026-09-17 03:49:02,441 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 03:49:02,454 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:49:02,454 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:49:02,467 [INFO]   [S0-HYD] Checking: Trainee Test Engineer
+2026-09-17 03:49:02,467 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 03:49:02,480 [INFO]   [S0-HYD] Checking: Walk-in || Software Developer Trainee
+2026-09-17 03:49:02,480 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 03:49:02,493 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:49:02,493 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 03:49:02,509 [INFO]   [S0-HYD] Checking: Business Analyst
+2026-09-17 03:49:02,509 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 03:49:02,522 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-17 03:49:02,522 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 03:49:02,536 [INFO]   [S0-HYD] Checking: Walk-in || Python Software Developer
+2026-09-17 03:49:02,536 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 03:49:02,549 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:49:02,549 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 03:50:18,532 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-17 03:51:34,729 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-17 03:52:50,747 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-17 03:54:06,949 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-17 03:55:22,946 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-17 03:56:39,193 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-17 03:57:55,082 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-17 03:59:11,108 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-17 04:00:27,054 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-17 04:01:43,599 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-17 04:02:59,611 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-17 04:04:15,858 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-17 04:05:31,807 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-17 04:05:31,807 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-16 23:14:13,943 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-16 23:14:13,943 [INFO] ███████████████████████████████████████████████████████
-2026-09-16 23:15:15,056 [INFO]   [S1] Java Developer: 20 listings
-2026-09-16 23:15:15,082 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-16 23:15:15,082 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 23:15:15,095 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:15:15,095 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:15:15,105 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-16 23:15:15,105 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 23:15:15,117 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-16 23:15:15,118 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-16 23:15:15,128 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-16 23:15:15,129 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 23:15:15,140 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:15:15,140 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:15:15,152 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:15:15,152 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:15:15,163 [INFO]   [S1] Checking: Senior Architect
-2026-09-16 23:15:15,163 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 23:15:15,174 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
-2026-09-16 23:15:15,174 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 23:15:15,187 [INFO]   [S1] Checking: Computer Teacher
-2026-09-16 23:15:15,187 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 23:15:15,199 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 23:15:15,199 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 23:15:15,210 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
-2026-09-16 23:15:15,210 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
-2026-09-16 23:15:15,221 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
-2026-09-16 23:15:15,221 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
-2026-09-16 23:15:15,233 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-16 23:15:15,234 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 23:15:15,245 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-16 23:15:15,245 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-16 23:15:15,256 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-16 23:15:15,256 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-16 23:15:15,268 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-16 23:15:15,268 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-16 23:15:15,280 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-16 23:15:15,280 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-16 23:15:15,292 [INFO]   [S1] Checking: Business Analyst
-2026-09-16 23:15:15,292 [INFO]   [filter] No skill match: Business Analyst
-2026-09-16 23:15:15,304 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-16 23:15:15,304 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-16 23:16:16,525 [INFO]   [S1] Python Developer: 18 listings
-2026-09-16 23:16:16,551 [INFO]   [S1] Checking: Walk-in || Python Software Developer
-2026-09-16 23:16:16,551 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-16 23:16:16,566 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-16 23:16:16,566 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 23:16:16,578 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:16:16,578 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:16:16,589 [INFO]   [S1] Checking: Senior Architect
-2026-09-16 23:16:16,589 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 23:16:16,602 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-16 23:16:16,602 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 23:16:16,613 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-16 23:16:16,613 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-16 23:16:16,624 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:16:16,624 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:16:16,635 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:16:16,635 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:16:16,646 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
-2026-09-16 23:16:16,646 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 23:16:16,658 [INFO]   [S1] Checking: Computer Teacher
-2026-09-16 23:16:16,658 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 23:16:16,670 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-16 23:16:16,670 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 23:16:16,681 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-16 23:16:16,681 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-16 23:16:16,692 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-16 23:16:16,692 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-16 23:16:16,702 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-16 23:16:16,702 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-16 23:16:16,713 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-16 23:16:16,714 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-16 23:16:16,725 [INFO]   [S1] Checking: Business Analyst
-2026-09-16 23:16:16,725 [INFO]   [filter] No skill match: Business Analyst
-2026-09-16 23:16:16,736 [INFO]   [S1] Checking: Risk Analyst - Market Risk
-2026-09-16 23:16:16,737 [INFO]   [filter] No skill match: Risk Analyst - Market Risk
-2026-09-16 23:16:16,748 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 23:16:16,748 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 23:17:17,945 [INFO]   [S1] SQL Developer: 17 listings
-2026-09-16 23:17:17,963 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-16 23:17:17,963 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 23:17:17,975 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-16 23:17:17,975 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 23:17:17,986 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-16 23:17:17,986 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-16 23:17:17,997 [INFO]   [S1] Checking: Computer Teacher
-2026-09-16 23:17:17,997 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 23:17:18,008 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:17:18,008 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:17:18,020 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-16 23:17:18,020 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-16 23:17:18,034 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-16 23:17:18,034 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 23:17:18,047 [INFO]   [S1] Checking: Senior Architect
-2026-09-16 23:17:18,047 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 23:17:18,060 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 23:17:18,060 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 23:17:18,072 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
-2026-09-16 23:17:18,072 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
-2026-09-16 23:17:18,084 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
-2026-09-16 23:17:18,084 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
-2026-09-16 23:17:18,096 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-16 23:17:18,096 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-16 23:17:18,108 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-16 23:17:18,108 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-16 23:17:18,121 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-16 23:17:18,121 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-16 23:17:18,133 [INFO]   [S1] Checking: Coding Teacher (School)
-2026-09-16 23:17:18,134 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-16 23:17:18,146 [INFO]   [S1] Checking: Walk-in || Python Software Developer
-2026-09-16 23:17:18,146 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-16 23:17:18,160 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 23:17:18,160 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 23:18:19,384 [INFO]   [S1] Software Engineer: 20 listings
-2026-09-16 23:18:19,408 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 23:18:19,408 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-16 23:18:19,419 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-16 23:18:19,420 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 23:18:19,431 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-16 23:18:19,431 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-16 23:18:19,443 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-16 23:18:19,443 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-16 23:18:19,455 [INFO]   [S1] Checking: GPS Service Engineer Technician - Freshers
-2026-09-16 23:18:19,455 [INFO]   [filter] No skill match: GPS Service Engineer Technician - Freshers
-2026-09-16 23:18:19,467 [INFO]   [S1] Checking: Senior Architect
-2026-09-16 23:18:19,467 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 23:18:19,479 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:18:19,479 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:18:19,490 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-16 23:18:19,490 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-16 23:18:19,501 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
-2026-09-16 23:18:19,501 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 23:18:19,513 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-16 23:18:19,513 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 23:18:19,526 [INFO]   [S1] Checking: QA Engineer - Engineering
-2026-09-16 23:18:19,526 [INFO]   [filter] No skill match: QA Engineer - Engineering
-2026-09-16 23:18:19,538 [INFO]   [S1] Checking: Palantir Developer
-2026-09-16 23:18:19,538 [INFO]   [filter] No skill match: Palantir Developer
-2026-09-16 23:18:19,550 [INFO]   [S1] Checking: Dot Net Developer
-2026-09-16 23:18:19,550 [INFO]   [filter] No skill match: Dot Net Developer
-2026-09-16 23:18:19,562 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:18:19,562 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:18:19,573 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:18:19,573 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:18:19,585 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-16 23:18:19,585 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-16 23:18:19,596 [INFO]   [S1] Checking: Computer Teacher
-2026-09-16 23:18:19,596 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 23:18:19,606 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-16 23:18:19,607 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 23:18:19,618 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 23:18:19,618 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 23:18:19,629 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
-2026-09-16 23:18:19,629 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
-2026-09-16 23:19:20,781 [INFO]   [S1] Associate Software Engineer: 20 listings
-2026-09-16 23:19:20,798 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-16 23:19:20,798 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 23:19:20,809 [INFO]   [S1] Checking: Senior Architect
-2026-09-16 23:19:20,809 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 23:19:20,820 [INFO]   [S1] Checking: Computer Teacher
-2026-09-16 23:19:20,820 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 23:19:20,832 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:19:20,832 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:19:20,843 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-16 23:19:20,843 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 23:19:20,855 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-16 23:19:20,855 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-16 23:19:20,867 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-16 23:19:20,867 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-16 23:19:20,878 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-16 23:19:20,879 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 23:19:20,890 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:19:20,890 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:19:20,904 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:19:20,904 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:19:20,916 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
-2026-09-16 23:19:20,916 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 23:19:20,928 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 23:19:20,928 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 23:19:20,940 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
-2026-09-16 23:19:20,940 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
-2026-09-16 23:19:20,952 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
-2026-09-16 23:19:20,952 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
-2026-09-16 23:19:20,964 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-16 23:19:20,964 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 23:19:20,975 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-16 23:19:20,975 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-16 23:19:20,986 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-16 23:19:20,986 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-16 23:19:20,997 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-16 23:19:20,997 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-16 23:19:21,009 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-16 23:19:21,009 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-16 23:19:21,020 [INFO]   [S1] Checking: Business Analyst
-2026-09-16 23:19:21,020 [INFO]   [filter] No skill match: Business Analyst
-2026-09-16 23:20:22,185 [INFO]   [S1] Data Analyst: 20 listings
-2026-09-16 23:20:22,198 [INFO]   [S1] Checking: Walk-in || Junior Analyst
-2026-09-16 23:20:22,198 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
-2026-09-16 23:20:22,210 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-16 23:20:22,210 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-16 23:20:22,221 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 23:20:22,222 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 23:20:22,233 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-16 23:20:22,233 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 23:20:22,245 [INFO]   [S1] Checking: Business Analyst
-2026-09-16 23:20:22,245 [INFO]   [filter] No skill match: Business Analyst
-2026-09-16 23:20:22,257 [INFO]   [S1] Checking: Jr.Documentation Executive - Hyderabad
-2026-09-16 23:20:22,257 [INFO]   [filter] No skill match: Jr.Documentation Executive - Hyderabad
-2026-09-16 23:20:22,270 [INFO]   [S1] Checking: Assistant Credit & Collections
-2026-09-16 23:20:22,270 [INFO]   [filter] No skill match: Assistant Credit & Collections
-2026-09-16 23:20:22,281 [INFO]   [S1] Checking: Senior Officer - CAT - Elite
-2026-09-16 23:20:22,281 [INFO]   [filter] Excluded 'senior': Senior Officer - CAT - Elite
-2026-09-16 23:20:22,292 [INFO]   [S1] Checking: Associate - Corporate Social Responsibility (CSR)
-2026-09-16 23:20:22,292 [INFO]   [filter] No skill match: Associate - Corporate Social Responsibility (CSR)
-2026-09-16 23:20:22,303 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
-2026-09-16 23:20:22,303 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
-2026-09-16 23:20:22,315 [INFO]   [S1] Checking: Research Associate
-2026-09-16 23:20:22,315 [INFO]   [filter] No skill match: Research Associate
-2026-09-16 23:20:22,326 [INFO]   [S1] Checking: Biotech Researcher - South Zone
-2026-09-16 23:20:22,327 [INFO]   [filter] Excluded 'biotech': Biotech Researcher - South Zone
-2026-09-16 23:20:22,338 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-16 23:20:22,338 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 23:20:22,349 [INFO]   [S1] Checking: Senior Architect
-2026-09-16 23:20:22,349 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 23:20:22,361 [INFO]   [S1] Checking: Computer Teacher
-2026-09-16 23:20:22,361 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 23:20:22,374 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:20:22,374 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:20:22,386 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-16 23:20:22,386 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 23:20:22,399 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-16 23:20:22,399 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-16 23:20:22,410 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-16 23:20:22,410 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 23:20:22,422 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:20:22,423 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:21:23,534 [INFO]   [S1] AI ML Engineer: 20 listings
-2026-09-16 23:21:23,560 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-16 23:21:23,560 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 23:21:23,572 [INFO]   [S1] Checking: Senior Architect
-2026-09-16 23:21:23,572 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 23:21:23,584 [INFO]   [S1] Checking: Computer Teacher
-2026-09-16 23:21:23,584 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 23:21:23,597 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:21:23,597 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:21:23,609 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-16 23:21:23,609 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 23:21:23,621 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-16 23:21:23,621 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-16 23:21:23,632 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-16 23:21:23,632 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-16 23:21:23,644 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-16 23:21:23,644 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 23:21:23,655 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:21:23,655 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:21:23,669 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:21:23,669 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:21:23,681 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
-2026-09-16 23:21:23,681 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 23:21:23,693 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 23:21:23,693 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 23:21:23,705 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
-2026-09-16 23:21:23,705 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
-2026-09-16 23:21:23,716 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
-2026-09-16 23:21:23,716 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
-2026-09-16 23:21:23,729 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-16 23:21:23,729 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 23:21:23,741 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-16 23:21:23,741 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-16 23:21:23,754 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-16 23:21:23,754 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-16 23:21:23,767 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-16 23:21:23,767 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-16 23:21:23,778 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-16 23:21:23,779 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-16 23:21:23,790 [INFO]   [S1] Checking: Business Analyst
-2026-09-16 23:21:23,790 [INFO]   [filter] No skill match: Business Analyst
-2026-09-16 23:22:24,981 [INFO]   [S1] Machine Learning Engineer: 20 listings
-2026-09-16 23:22:24,998 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
-2026-09-16 23:22:24,998 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
-2026-09-16 23:22:25,009 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
-2026-09-16 23:22:25,009 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
-2026-09-16 23:22:25,021 [INFO]   [S1] Checking: Coding Teacher (School)
-2026-09-16 23:22:25,021 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-16 23:22:25,034 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-16 23:22:25,035 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-16 23:22:25,047 [INFO]   [S1] Checking: Senior Architect
-2026-09-16 23:22:25,047 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-16 23:22:25,058 [INFO]   [S1] Checking: Computer Teacher
-2026-09-16 23:22:25,058 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-16 23:22:25,069 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:22:25,069 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
-2026-09-16 23:22:25,081 [INFO]   [S1] Checking: Senior Software Engineer (Java)
-2026-09-16 23:22:25,081 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
-2026-09-16 23:22:25,092 [INFO]   [S1] Checking: Guidewire Claim Developer
-2026-09-16 23:22:25,092 [INFO]   [filter] No skill match: Guidewire Claim Developer
-2026-09-16 23:22:25,103 [INFO]   [S1] Checking: Principal Software Engineer
-2026-09-16 23:22:25,103 [INFO]   [filter] Excluded 'principal': Principal Software Engineer
-2026-09-16 23:22:25,114 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-16 23:22:25,114 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-16 23:22:25,125 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:22:25,126 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:22:25,138 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-16 23:22:25,138 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-16 23:22:25,149 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
-2026-09-16 23:22:25,150 [INFO]   Already applied: Walk-in || Software Developer Trainee
-2026-09-16 23:22:25,161 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
-2026-09-16 23:22:25,161 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
-2026-09-16 23:22:25,173 [INFO]   [S1] Checking: Tax Services Associate - Corporate
-2026-09-16 23:22:25,173 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
-2026-09-16 23:22:25,184 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-16 23:22:25,184 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-16 23:22:25,196 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-16 23:22:25,196 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-16 23:22:25,208 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-16 23:22:25,208 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-16 23:22:25,220 [INFO]   [S1] Checking: Android Developer (Internship + Permanent Role)
-2026-09-16 23:22:25,220 [INFO]   [filter] No skill match: Android Developer (Internship + Permanent Role)
-2026-09-16 23:22:25,220 [INFO] 
+2026-09-17 04:05:31,807 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-17 04:05:31,807 [INFO] ███████████████████████████████████████████████████████
+2026-09-17 04:06:32,789 [INFO]   [S1] Java Developer: 22 listings
+2026-09-17 04:06:32,808 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-17 04:06:32,808 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 04:06:32,822 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:06:32,822 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:06:32,835 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-17 04:06:32,835 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-17 04:06:32,861 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-17 04:06:32,861 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 04:06:32,875 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:06:32,875 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:06:32,889 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:06:32,890 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:06:32,904 [INFO]   [S1] Checking: Senior Architect
+2026-09-17 04:06:32,904 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 04:06:32,931 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
+2026-09-17 04:06:32,931 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 04:06:32,944 [INFO]   [S1] Checking: Computer Teacher
+2026-09-17 04:06:32,944 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 04:06:32,959 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-17 04:06:32,959 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-17 04:06:32,972 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-17 04:06:32,972 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-17 04:06:32,986 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-17 04:06:32,986 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-17 04:06:32,999 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-17 04:06:32,999 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-17 04:06:33,013 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 04:06:33,013 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 04:06:33,027 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-17 04:06:33,027 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-17 04:06:33,041 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-17 04:06:33,041 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-17 04:06:33,055 [INFO]   [S1] Checking: Business Analyst
+2026-09-17 04:06:33,055 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 04:06:33,069 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-17 04:06:33,069 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 04:06:33,082 [INFO]   [S1] Checking: Coding Teacher (School)
+2026-09-17 04:06:33,082 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-17 04:06:33,095 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 04:06:33,096 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 04:07:34,373 [INFO]   [S1] Python Developer: 16 listings
+2026-09-17 04:07:34,386 [INFO]   [S1] Checking: Walk-in || Python Software Developer
+2026-09-17 04:07:34,386 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 04:07:34,399 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-17 04:07:34,399 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 04:07:34,412 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:07:34,412 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:07:34,440 [INFO]   [S1] Checking: Senior Architect
+2026-09-17 04:07:34,440 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 04:07:34,453 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-17 04:07:34,453 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-17 04:07:34,466 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:07:34,466 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:07:34,479 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:07:34,479 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:07:34,506 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
+2026-09-17 04:07:34,506 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 04:07:34,519 [INFO]   [S1] Checking: Computer Teacher
+2026-09-17 04:07:34,519 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 04:07:34,532 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-17 04:07:34,532 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-17 04:07:34,546 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-17 04:07:34,546 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-17 04:07:34,558 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-17 04:07:34,559 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-17 04:07:34,572 [INFO]   [S1] Checking: Business Analyst
+2026-09-17 04:07:34,572 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 04:07:34,585 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 04:07:34,585 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 04:08:35,662 [INFO]   [S1] SQL Developer: 14 listings
+2026-09-17 04:08:35,676 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-17 04:08:35,677 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 04:08:35,690 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-17 04:08:35,690 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-17 04:08:35,703 [INFO]   [S1] Checking: Computer Teacher
+2026-09-17 04:08:35,703 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 04:08:35,716 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:08:35,716 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:08:35,730 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-17 04:08:35,730 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 04:08:35,744 [INFO]   [S1] Checking: Senior Architect
+2026-09-17 04:08:35,744 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 04:08:35,757 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-17 04:08:35,757 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-17 04:08:35,771 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-17 04:08:35,771 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-17 04:08:35,785 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-17 04:08:35,785 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-17 04:08:35,798 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 04:08:35,798 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 04:08:35,812 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-17 04:08:35,812 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 04:08:35,825 [INFO]   [S1] Checking: Coding Teacher (School)
+2026-09-17 04:08:35,825 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-17 04:08:35,839 [INFO]   [S1] Checking: Walk-in || Python Software Developer
+2026-09-17 04:08:35,839 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 04:08:35,852 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 04:08:35,852 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 04:09:37,210 [INFO]   [S1] Software Engineer: 22 listings
+2026-09-17 04:09:37,224 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 04:09:37,224 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-17 04:09:37,237 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-17 04:09:37,237 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-17 04:09:37,250 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-17 04:09:37,250 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 04:09:37,279 [INFO]   [S1] Checking: GPS Service Engineer Technician - Freshers
+2026-09-17 04:09:37,279 [INFO]   [filter] No skill match: GPS Service Engineer Technician - Freshers
+2026-09-17 04:09:37,292 [INFO]   [S1] Checking: Senior Architect
+2026-09-17 04:09:37,292 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 04:09:37,305 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:09:37,306 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:09:37,319 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
+2026-09-17 04:09:37,319 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 04:09:37,346 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-17 04:09:37,346 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 04:09:37,359 [INFO]   [S1] Checking: QA Engineer - Engineering
+2026-09-17 04:09:37,359 [INFO]   [filter] No skill match: QA Engineer - Engineering
+2026-09-17 04:09:37,373 [INFO]   [S1] Checking: Palantir Developer
+2026-09-17 04:09:37,373 [INFO]   [filter] No skill match: Palantir Developer
+2026-09-17 04:09:37,387 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:09:37,387 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:09:37,401 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:09:37,401 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:09:37,414 [INFO]   [S1] Checking: Computer Teacher
+2026-09-17 04:09:37,414 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 04:09:37,427 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-17 04:09:37,427 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 04:09:37,441 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-17 04:09:37,441 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-17 04:09:37,455 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-17 04:09:37,455 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-17 04:09:37,470 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-17 04:09:37,470 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-17 04:09:37,484 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-17 04:09:37,484 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-17 04:09:37,498 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 04:09:37,498 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 04:09:37,511 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-17 04:09:37,511 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-17 04:10:38,620 [INFO]   [S1] Associate Software Engineer: 22 listings
+2026-09-17 04:10:38,634 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-17 04:10:38,634 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 04:10:38,647 [INFO]   [S1] Checking: Senior Architect
+2026-09-17 04:10:38,647 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 04:10:38,660 [INFO]   [S1] Checking: Computer Teacher
+2026-09-17 04:10:38,660 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 04:10:38,685 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:10:38,685 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:10:38,698 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-17 04:10:38,698 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-17 04:10:38,711 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-17 04:10:38,711 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 04:10:38,727 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:10:38,727 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:10:38,753 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:10:38,753 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:10:38,766 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
+2026-09-17 04:10:38,766 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 04:10:38,779 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-17 04:10:38,779 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-17 04:10:38,793 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-17 04:10:38,793 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-17 04:10:38,806 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-17 04:10:38,806 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-17 04:10:38,819 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-17 04:10:38,819 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-17 04:10:38,832 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 04:10:38,833 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 04:10:38,846 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-17 04:10:38,847 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-17 04:10:38,859 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-17 04:10:38,860 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-17 04:10:38,873 [INFO]   [S1] Checking: Business Analyst
+2026-09-17 04:10:38,873 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 04:10:38,886 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-17 04:10:38,886 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 04:10:38,899 [INFO]   [S1] Checking: Coding Teacher (School)
+2026-09-17 04:10:38,899 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-17 04:10:38,913 [INFO]   [S1] Checking: Walk-in || Python Software Developer
+2026-09-17 04:10:38,913 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 04:11:40,355 [INFO]   [S1] Data Analyst: 22 listings
+2026-09-17 04:11:40,369 [INFO]   [S1] Checking: Walk-in || Junior Analyst
+2026-09-17 04:11:40,369 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
+2026-09-17 04:11:40,382 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-17 04:11:40,382 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-17 04:11:40,395 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-17 04:11:40,395 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-17 04:11:40,422 [INFO]   [S1] Checking: Business Analyst
+2026-09-17 04:11:40,422 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 04:11:40,439 [INFO]   [S1] Checking: Jr.Documentation Executive - Hyderabad
+2026-09-17 04:11:40,439 [INFO]   [filter] No skill match: Jr.Documentation Executive - Hyderabad
+2026-09-17 04:11:40,452 [INFO]   [S1] Checking: Assistant Credit & Collections
+2026-09-17 04:11:40,452 [INFO]   [filter] No skill match: Assistant Credit & Collections
+2026-09-17 04:11:40,465 [INFO]   [S1] Checking: Associate - Corporate Social Responsibility (CSR)
+2026-09-17 04:11:40,465 [INFO]   [filter] No skill match: Associate - Corporate Social Responsibility (CSR)
+2026-09-17 04:11:40,493 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-17 04:11:40,493 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-17 04:11:40,506 [INFO]   [S1] Checking: Research Associate
+2026-09-17 04:11:40,507 [INFO]   [filter] No skill match: Research Associate
+2026-09-17 04:11:40,520 [INFO]   [S1] Checking: Biotech Researcher - South Zone
+2026-09-17 04:11:40,520 [INFO]   [filter] Excluded 'biotech': Biotech Researcher - South Zone
+2026-09-17 04:11:40,533 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-17 04:11:40,533 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 04:11:40,546 [INFO]   [S1] Checking: Senior Architect
+2026-09-17 04:11:40,547 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 04:11:40,561 [INFO]   [S1] Checking: Computer Teacher
+2026-09-17 04:11:40,561 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 04:11:40,575 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:11:40,575 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:11:40,588 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-17 04:11:40,588 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-17 04:11:40,602 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-17 04:11:40,602 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 04:11:40,615 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:11:40,615 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:11:40,628 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:11:40,628 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:11:40,642 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
+2026-09-17 04:11:40,642 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 04:11:40,655 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-17 04:11:40,655 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-17 04:12:41,803 [INFO]   [S1] AI ML Engineer: 22 listings
+2026-09-17 04:12:41,817 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-17 04:12:41,817 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 04:12:41,830 [INFO]   [S1] Checking: Senior Architect
+2026-09-17 04:12:41,830 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 04:12:41,843 [INFO]   [S1] Checking: Computer Teacher
+2026-09-17 04:12:41,843 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 04:12:41,869 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:12:41,870 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:12:41,883 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-17 04:12:41,883 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-17 04:12:41,896 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-17 04:12:41,896 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 04:12:41,909 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:12:41,909 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:12:41,938 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:12:41,938 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:12:41,952 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
+2026-09-17 04:12:41,952 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 04:12:41,966 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-17 04:12:41,966 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-17 04:12:41,979 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-17 04:12:41,979 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-17 04:12:41,993 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-17 04:12:41,993 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-17 04:12:42,007 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-17 04:12:42,007 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-17 04:12:42,020 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 04:12:42,020 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 04:12:42,034 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-17 04:12:42,034 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-17 04:12:42,047 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-17 04:12:42,047 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-17 04:12:42,060 [INFO]   [S1] Checking: Business Analyst
+2026-09-17 04:12:42,060 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 04:12:42,074 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-17 04:12:42,074 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 04:12:42,087 [INFO]   [S1] Checking: Coding Teacher (School)
+2026-09-17 04:12:42,087 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-17 04:12:42,100 [INFO]   [S1] Checking: Walk-in || Python Software Developer
+2026-09-17 04:12:42,100 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 04:13:43,126 [INFO]   [S1] Machine Learning Engineer: 22 listings
+2026-09-17 04:13:43,140 [INFO]   [S1] Checking: Process Engineer MSc (Freelancer)
+2026-09-17 04:13:43,140 [INFO]   [filter] No skill match: Process Engineer MSc (Freelancer)
+2026-09-17 04:13:43,154 [INFO]   [S1] Checking: Process Engineer BSc (Freelancer)
+2026-09-17 04:13:43,154 [INFO]   [filter] No skill match: Process Engineer BSc (Freelancer)
+2026-09-17 04:13:43,168 [INFO]   [S1] Checking: Coding Teacher (School)
+2026-09-17 04:13:43,168 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-17 04:13:43,195 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-17 04:13:43,196 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-17 04:13:43,209 [INFO]   [S1] Checking: Senior Architect
+2026-09-17 04:13:43,209 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-17 04:13:43,224 [INFO]   [S1] Checking: Computer Teacher
+2026-09-17 04:13:43,224 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-17 04:13:43,238 [INFO]   [S1] Checking: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:13:43,238 [INFO]   [filter] No skill match: Junior Frontend Engineer (HTML/CSS)
+2026-09-17 04:13:43,266 [INFO]   [S1] Checking: Senior Software Engineer (Java)
+2026-09-17 04:13:43,266 [INFO]   [filter] Excluded 'senior': Senior Software Engineer (Java)
+2026-09-17 04:13:43,280 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-17 04:13:43,280 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-17 04:13:43,294 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:13:43,294 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:13:43,307 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-17 04:13:43,308 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-17 04:13:43,323 [INFO]   [S1] Checking: Walk-in || Software Developer Trainee
+2026-09-17 04:13:43,323 [INFO]   Already applied: Walk-in || Software Developer Trainee
+2026-09-17 04:13:43,337 [INFO]   [S1] Checking: Research Associate (Economics) (Freelancer)
+2026-09-17 04:13:43,337 [INFO]   [filter] No skill match: Research Associate (Economics) (Freelancer)
+2026-09-17 04:13:43,351 [INFO]   [S1] Checking: Tax Services Associate - Corporate
+2026-09-17 04:13:43,351 [INFO]   [filter] No skill match: Tax Services Associate - Corporate
+2026-09-17 04:13:43,367 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-17 04:13:43,367 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-17 04:13:43,381 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-17 04:13:43,381 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-17 04:13:43,395 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-17 04:13:43,395 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-17 04:13:43,408 [INFO]   [S1] Checking: Business Analyst
+2026-09-17 04:13:43,408 [INFO]   [filter] No skill match: Business Analyst
+2026-09-17 04:13:43,422 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-17 04:13:43,422 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-17 04:13:43,436 [INFO]   [S1] Checking: Walk-in || Python Software Developer
+2026-09-17 04:13:43,436 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-17 04:13:43,436 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-16 23:22:25,220 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-16 23:22:25,220 [INFO] ███████████████████████████████████████████████████████
-2026-09-16 23:37:37,993 [INFO] 
+2026-09-17 04:13:43,436 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-17 04:13:43,436 [INFO] ███████████████████████████████████████████████████████
+2026-09-17 04:28:54,603 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-16 23:37:37,993 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-16 23:37:37,993 [INFO] ███████████████████████████████████████████████████████
-2026-09-16 23:38:54,052 [INFO]   [S3] Java Developer: 0 listings
-2026-09-16 23:40:10,128 [INFO]   [S3] Python Developer: 0 listings
-2026-09-16 23:41:25,974 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-16 23:42:41,781 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-16 23:43:57,748 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-16 23:45:13,729 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-16 23:46:29,578 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-16 23:47:45,593 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-16 23:47:45,594 [INFO] 
+2026-09-17 04:28:54,603 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-17 04:28:54,603 [INFO] ███████████████████████████████████████████████████████
+2026-09-17 04:30:10,393 [INFO]   [S3] Java Developer: 0 listings
+2026-09-17 04:31:26,178 [INFO]   [S3] Python Developer: 0 listings
+2026-09-17 04:32:42,023 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-17 04:33:57,974 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-17 04:35:13,996 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-17 04:36:29,921 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-17 04:37:45,768 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-17 04:39:01,586 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-17 04:39:01,586 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-16 23:47:45,594 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-16 23:47:45,594 [INFO] ███████████████████████████████████████████████████████
-2026-09-17 00:02:56,225 [INFO] 
+2026-09-17 04:39:01,587 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-17 04:39:01,587 [INFO] ███████████████████████████████████████████████████████
+2026-09-17 04:54:12,217 [INFO] 
 =======================================================
-2026-09-17 00:02:56,225 [INFO]   Run complete — Applied this session : 0
-2026-09-17 00:02:56,225 [INFO]   Total ever applied                  : 322
-2026-09-17 00:02:56,225 [INFO] =======================================================
+2026-09-17 04:54:12,217 [INFO]   Run complete — Applied this session : 0
+2026-09-17 04:54:12,218 [INFO]   Total ever applied                  : 322
+2026-09-17 04:54:12,218 [INFO] =======================================================

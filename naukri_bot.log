@@ -1,551 +1,595 @@
-2026-09-18 18:52:43,929 [INFO] GitHub Actions — single run mode
-2026-09-18 18:52:43,929 [INFO] 
+2026-09-18 22:18:15,114 [INFO] GitHub Actions — single run mode
+2026-09-18 22:18:15,114 [INFO] 
 =======================================================
-2026-09-18 18:52:43,929 [INFO]   Run started: 2026-09-18 18:52:43
-2026-09-18 18:52:43,929 [INFO] =======================================================
-2026-09-18 18:52:43,930 [INFO] Previously applied: 328 jobs
-2026-09-18 18:52:43,930 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-18 18:52:43,930 [INFO] ====== WebDriver manager ======
-2026-09-18 18:52:46,231 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-18 18:52:46,318 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-18 18:52:46,345 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-18 18:52:46,345 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-18 18:52:46,514 [INFO] WebDriver version 152.0.7977.82 selected
-2026-09-18 18:52:46,522 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-18 18:52:46,522 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-18 18:52:46,711 [INFO] Driver downloading response is 200
-2026-09-18 18:52:47,335 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
-2026-09-18 18:52:55,668 [INFO]   Trying cookie login...
-2026-09-18 18:53:00,395 [INFO]   Loading 34 cookies...
-2026-09-18 18:53:04,608 [INFO]   ✅ Cookie login successful!
-2026-09-18 18:53:04,608 [INFO] 
+2026-09-18 22:18:15,114 [INFO]   Run started: 2026-09-18 22:18:15
+2026-09-18 22:18:15,114 [INFO] =======================================================
+2026-09-18 22:18:15,115 [INFO] Previously applied: 328 jobs
+2026-09-18 22:18:15,116 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-18 22:18:15,116 [INFO] ====== WebDriver manager ======
+2026-09-18 22:18:16,706 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-18 22:18:16,767 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-18 22:18:16,800 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-18 22:18:16,800 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-18 22:18:16,933 [INFO] WebDriver version 152.0.7977.82 selected
+2026-09-18 22:18:16,939 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-18 22:18:16,939 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-18 22:18:17,020 [INFO] Driver downloading response is 200
+2026-09-18 22:18:17,313 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
+2026-09-18 22:18:23,350 [INFO]   Trying cookie login...
+2026-09-18 22:18:29,520 [INFO]   Loading 34 cookies...
+2026-09-18 22:18:33,698 [INFO]   ✅ Cookie login successful!
+2026-09-18 22:18:33,699 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-18 18:53:04,609 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-18 18:53:04,609 [INFO] ───────────────────────────────────────────────────────
-2026-09-18 18:53:04,609 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-18 18:54:11,578 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-18 18:54:17,132 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-18 18:54:19,476 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-18 18:54:22,494 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-18 18:54:25,523 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-18 18:54:25,523 [INFO] 
+2026-09-18 22:18:33,699 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-18 22:18:33,699 [INFO] ───────────────────────────────────────────────────────
+2026-09-18 22:18:33,699 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-09-18 22:19:41,325 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-18 22:19:46,864 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-18 22:19:49,222 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-18 22:19:52,244 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-18 22:19:55,277 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-09-18 22:19:55,277 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-18 18:54:25,523 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-18 18:54:25,523 [INFO] ███████████████████████████████████████████████████████
-2026-09-18 18:55:26,723 [INFO]   [S0-HYD] Java Developer: 8 listings
-2026-09-18 18:55:26,737 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 18:56:24,193 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 18:56:24,258 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 18:56:24,337 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-18 18:56:24,337 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 18:56:24,347 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-18 18:56:24,347 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 18:56:24,358 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 18:56:24,358 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 18:56:24,369 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
-2026-09-18 18:56:24,369 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 18:56:24,378 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 18:56:24,379 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 18:56:24,389 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-18 18:56:24,390 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 18:56:24,398 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 18:56:24,398 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 18:57:40,388 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-18 18:58:42,429 [INFO]   [S0-HYD] Python Developer: 6 listings
-2026-09-18 18:58:42,439 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 18:59:39,863 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 18:59:39,923 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 18:59:39,988 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-18 18:59:39,988 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 18:59:40,000 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
-2026-09-18 18:59:40,000 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 18:59:40,011 [INFO]   [S0-HYD] Checking: Opt Recruiter
-2026-09-18 18:59:40,012 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 18:59:40,022 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-18 18:59:40,022 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 18:59:40,035 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 18:59:40,035 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:00:56,056 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-18 19:01:57,024 [INFO]   [S0-HYD] SQL Developer: 8 listings
-2026-09-18 19:01:57,033 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-18 19:01:57,033 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:01:57,042 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:02:54,430 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:02:54,488 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:02:54,552 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
-2026-09-18 19:02:54,552 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:02:54,562 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-18 19:02:54,563 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 19:02:54,574 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 19:02:54,574 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 19:02:54,583 [INFO]   [S0-HYD] Checking: Opt Recruiter
-2026-09-18 19:02:54,583 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 19:02:54,593 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:02:54,594 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:02:54,606 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:02:54,607 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:04:10,605 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-18 19:05:11,719 [INFO]   [S0-HYD] Software Engineer: 11 listings
-2026-09-18 19:05:11,727 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:05:11,728 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:05:11,736 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-18 19:05:11,736 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 19:05:11,747 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-18 19:05:11,747 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:05:11,756 [INFO]   [S0-HYD] Checking: IND Senior Associate / Engineer
-2026-09-18 19:05:11,756 [INFO]   [filter] Excluded 'senior': IND Senior Associate / Engineer
-2026-09-18 19:05:11,765 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:06:09,060 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:06:09,115 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:06:09,178 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 19:06:09,178 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 19:06:09,186 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-18 19:06:09,186 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 19:06:09,196 [INFO]   [S0-HYD] Checking: Junior Quality Engineer - Fresher
-2026-09-18 19:06:09,196 [INFO]   [filter] No skill match: Junior Quality Engineer - Fresher
-2026-09-18 19:06:09,204 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
-2026-09-18 19:06:09,204 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:06:09,213 [INFO]   [S0-HYD] Checking: Opt Recruiter
-2026-09-18 19:06:09,214 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 19:06:09,222 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:06:09,222 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:07:25,041 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-18 19:08:26,148 [INFO]   [S0-HYD] Associate Software Engineer: 9 listings
-2026-09-18 19:08:26,158 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-18 19:08:26,159 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:08:26,168 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:09:23,633 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:09:23,701 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:09:23,774 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
-2026-09-18 19:09:23,774 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:09:23,784 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-18 19:09:23,784 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 19:09:23,796 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 19:09:23,796 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 19:09:23,807 [INFO]   [S0-HYD] Checking: Opt Recruiter
-2026-09-18 19:09:23,807 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 19:09:23,816 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:09:23,816 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:09:23,827 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-18 19:09:23,828 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 19:09:23,839 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:09:23,839 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:10:40,191 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-18 19:11:41,313 [INFO]   [S0-HYD] Data Analyst: 20 listings
-2026-09-18 19:11:41,322 [INFO]   [S0-HYD] Checking: Walk-in || Junior Analyst
-2026-09-18 19:11:41,322 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
-2026-09-18 19:11:41,331 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
-2026-09-18 19:11:41,331 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-09-18 19:11:41,339 [INFO]   [S0-HYD] Checking: Data Entry Operator
-2026-09-18 19:11:41,339 [INFO]   [filter] Excluded 'data entry': Data Entry Operator
-2026-09-18 19:11:41,348 [INFO]   [S0-HYD] Checking: Mis Executive
-2026-09-18 19:11:41,348 [INFO]   [filter] No skill match: Mis Executive
-2026-09-18 19:11:41,357 [INFO]   [S0-HYD] Checking: Apprentice Opportunities Hyderabad
-2026-09-18 19:11:41,357 [INFO]   [filter] No skill match: Apprentice Opportunities Hyderabad
-2026-09-18 19:11:41,366 [INFO]   [S0-HYD] Checking: Junior Technical Support Associate - Fresher
-2026-09-18 19:11:41,366 [INFO]   [filter] No skill match: Junior Technical Support Associate - Fresher
-2026-09-18 19:11:41,374 [INFO]   [S0-HYD] Checking: Senior Executive - Debt Management Services - SME
-2026-09-18 19:11:41,375 [INFO]   [filter] Excluded 'senior': Senior Executive - Debt Management Services - SME
-2026-09-18 19:11:41,383 [INFO]   [S0-HYD] Checking: Assistant Manager - Debt Management Services - SME
-2026-09-18 19:11:41,384 [INFO]   [filter] Excluded 'manager': Assistant Manager - Debt Management Services - SME
-2026-09-18 19:11:41,395 [INFO]   [S0-HYD] Checking: Associate - Corporate Social Responsibility (CSR)
-2026-09-18 19:11:41,395 [INFO]   [filter] No skill match: Associate - Corporate Social Responsibility (CSR)
-2026-09-18 19:11:41,404 [INFO]   [S0-HYD] Checking: Assistant Credit & Collections
-2026-09-18 19:11:41,404 [INFO]   [filter] No skill match: Assistant Credit & Collections
-2026-09-18 19:11:41,412 [INFO]   [S0-HYD] Checking: Hiring Freshers For News Analyst Role - WFH
-2026-09-18 19:11:41,412 [INFO]   [filter] No skill match: Hiring Freshers For News Analyst Role - WFH
-2026-09-18 19:11:41,421 [INFO]   [S0-HYD] Checking: Scientific Medical Writer | Mumbai
-2026-09-18 19:11:41,421 [INFO]   [filter] Excluded 'medical': Scientific Medical Writer | Mumbai
-2026-09-18 19:11:41,429 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-18 19:11:41,429 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:11:41,438 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:12:38,768 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:12:38,837 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:12:38,905 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
-2026-09-18 19:12:38,905 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:12:38,915 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-18 19:12:38,915 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 19:12:38,924 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 19:12:38,924 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 19:12:38,933 [INFO]   [S0-HYD] Checking: Opt Recruiter
-2026-09-18 19:12:38,934 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 19:12:38,942 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:12:38,942 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:12:38,952 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-18 19:12:38,952 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 19:13:54,814 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-18 19:14:55,869 [INFO]   [S0-HYD] AI ML Engineer: 9 listings
-2026-09-18 19:14:55,879 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-18 19:14:55,879 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:14:55,887 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:15:53,334 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:15:53,397 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:15:53,468 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
-2026-09-18 19:15:53,468 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:15:53,479 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-18 19:15:53,479 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 19:15:53,490 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 19:15:53,490 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 19:15:53,499 [INFO]   [S0-HYD] Checking: Opt Recruiter
-2026-09-18 19:15:53,499 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 19:15:53,509 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:15:53,509 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:15:53,519 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-18 19:15:53,520 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 19:15:53,529 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:15:53,529 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:17:09,511 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-18 19:18:10,584 [INFO]   [S0-HYD] Machine Learning Engineer: 9 listings
-2026-09-18 19:18:10,592 [INFO]   [S0-HYD] Checking: Sap Consultant
-2026-09-18 19:18:10,593 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:18:10,601 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:19:08,054 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:19:08,122 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:19:08,204 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
-2026-09-18 19:19:08,204 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:19:08,218 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-18 19:19:08,218 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 19:19:08,230 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 19:19:08,230 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 19:19:08,242 [INFO]   [S0-HYD] Checking: Opt Recruiter
-2026-09-18 19:19:08,242 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 19:19:08,256 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:19:08,256 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:19:08,270 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-18 19:19:08,270 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 19:19:08,283 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:19:08,283 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:20:24,192 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-18 19:21:40,420 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-18 19:22:56,328 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-18 19:24:12,513 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-18 19:25:28,254 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-18 19:26:44,398 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-18 19:28:00,204 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-18 19:29:16,539 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-18 19:30:32,351 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-18 19:31:48,524 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-18 19:33:04,371 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-18 19:34:20,589 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-18 19:35:36,568 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-18 19:35:36,568 [INFO] 
+2026-09-18 22:19:55,277 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-18 22:19:55,277 [INFO] ███████████████████████████████████████████████████████
+2026-09-18 22:20:56,605 [INFO]   [S0-HYD] Java Developer: 9 listings
+2026-09-18 22:20:56,624 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:21:54,078 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 22:21:54,177 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:21:54,247 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-09-18 22:21:54,247 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 22:21:54,264 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-18 22:21:54,264 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 22:21:54,281 [INFO]   [S0-HYD] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 22:21:54,281 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 22:21:54,297 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 22:21:54,298 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 22:21:54,313 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
+2026-09-18 22:21:54,314 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 22:21:54,329 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-18 22:21:54,329 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-18 22:21:54,345 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-18 22:21:54,346 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-18 22:21:54,361 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:21:54,361 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:23:10,407 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-18 22:24:11,724 [INFO]   [S0-HYD] Python Developer: 9 listings
+2026-09-18 22:24:11,738 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:25:09,088 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 22:25:09,179 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:25:09,249 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-09-18 22:25:09,249 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 22:25:09,267 [INFO]   [S0-HYD] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:25:09,267 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:25:09,287 [INFO]   [S0-HYD] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 22:25:09,287 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 22:25:09,303 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
+2026-09-18 22:25:09,303 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 22:25:09,319 [INFO]   [S0-HYD] Checking: Opt Recruiter
+2026-09-18 22:25:09,319 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 22:25:09,336 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-18 22:25:09,336 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-18 22:25:09,368 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:25:09,368 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:26:25,241 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-18 22:27:26,374 [INFO]   [S0-HYD] SQL Developer: 10 listings
+2026-09-18 22:27:26,388 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-09-18 22:27:26,389 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 22:27:26,402 [INFO]   [S0-HYD] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:27:26,402 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:27:26,416 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:28:23,918 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 22:28:24,020 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:28:24,116 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
+2026-09-18 22:28:24,116 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 22:28:24,133 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-18 22:28:24,133 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 22:28:24,149 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 22:28:24,150 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 22:28:24,164 [INFO]   [S0-HYD] Checking: Opt Recruiter
+2026-09-18 22:28:24,164 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 22:28:24,196 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-18 22:28:24,196 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-18 22:28:24,212 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:28:24,212 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:29:40,200 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-18 22:30:41,332 [INFO]   [S0-HYD] Software Engineer: 14 listings
+2026-09-18 22:30:41,346 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:30:41,346 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:30:41,360 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-18 22:30:41,360 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 22:30:41,373 [INFO]   [S0-HYD] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 22:30:41,373 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 22:30:41,387 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-09-18 22:30:41,387 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 22:30:41,400 [INFO]   [S0-HYD] Checking: IND Senior Associate / Engineer
+2026-09-18 22:30:41,400 [INFO]   [filter] Excluded 'senior': IND Senior Associate / Engineer
+2026-09-18 22:30:41,414 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:31:38,812 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 22:31:38,908 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:31:38,998 [INFO]   [S0-HYD] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:31:38,998 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:31:39,028 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 22:31:39,028 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 22:31:39,043 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-18 22:31:39,043 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-18 22:31:39,058 [INFO]   [S0-HYD] Checking: Junior Quality Engineer - Fresher
+2026-09-18 22:31:39,058 [INFO]   [filter] No skill match: Junior Quality Engineer - Fresher
+2026-09-18 22:31:39,073 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
+2026-09-18 22:31:39,073 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 22:31:39,088 [INFO]   [S0-HYD] Checking: Opt Recruiter
+2026-09-18 22:31:39,088 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 22:31:39,103 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-18 22:31:39,103 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-18 22:32:54,960 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-18 22:33:55,965 [INFO]   [S0-HYD] Associate Software Engineer: 12 listings
+2026-09-18 22:33:55,980 [INFO]   [S0-HYD] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 22:33:55,980 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 22:33:55,993 [INFO]   [S0-HYD] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:33:55,994 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:33:56,007 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-09-18 22:33:56,007 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 22:33:56,020 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:34:53,328 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 22:34:53,429 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:34:53,517 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
+2026-09-18 22:34:53,517 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 22:34:53,534 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-18 22:34:53,534 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 22:34:53,550 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 22:34:53,550 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 22:34:53,583 [INFO]   [S0-HYD] Checking: Opt Recruiter
+2026-09-18 22:34:53,583 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 22:34:53,603 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-18 22:34:53,603 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-18 22:34:53,618 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-18 22:34:53,618 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-18 22:34:53,633 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:34:53,633 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:36:09,490 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-18 22:37:10,666 [INFO]   [S0-HYD] Data Analyst: 21 listings
+2026-09-18 22:37:10,680 [INFO]   [S0-HYD] Checking: Walk-in || Junior Analyst
+2026-09-18 22:37:10,680 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
+2026-09-18 22:37:10,694 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
+2026-09-18 22:37:10,694 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-09-18 22:37:10,706 [INFO]   [S0-HYD] Checking: Data Entry Operator
+2026-09-18 22:37:10,706 [INFO]   [filter] Excluded 'data entry': Data Entry Operator
+2026-09-18 22:37:10,719 [INFO]   [S0-HYD] Checking: Mis Executive
+2026-09-18 22:37:10,720 [INFO]   [filter] No skill match: Mis Executive
+2026-09-18 22:37:10,737 [INFO]   [S0-HYD] Checking: Apprentice Opportunities Hyderabad
+2026-09-18 22:37:10,737 [INFO]   [filter] No skill match: Apprentice Opportunities Hyderabad
+2026-09-18 22:37:10,751 [INFO]   [S0-HYD] Checking: Junior Technical Support Associate - Fresher
+2026-09-18 22:37:10,751 [INFO]   [filter] No skill match: Junior Technical Support Associate - Fresher
+2026-09-18 22:37:10,765 [INFO]   [S0-HYD] Checking: Senior Executive - Debt Management Services - SME
+2026-09-18 22:37:10,765 [INFO]   [filter] Excluded 'senior': Senior Executive - Debt Management Services - SME
+2026-09-18 22:37:10,792 [INFO]   [S0-HYD] Checking: Assistant Manager - Debt Management Services - SME
+2026-09-18 22:37:10,792 [INFO]   [filter] Excluded 'manager': Assistant Manager - Debt Management Services - SME
+2026-09-18 22:37:10,805 [INFO]   [S0-HYD] Checking: Associate - Corporate Social Responsibility (CSR)
+2026-09-18 22:37:10,805 [INFO]   [filter] No skill match: Associate - Corporate Social Responsibility (CSR)
+2026-09-18 22:37:10,819 [INFO]   [S0-HYD] Checking: Assistant Credit & Collections
+2026-09-18 22:37:10,819 [INFO]   [filter] No skill match: Assistant Credit & Collections
+2026-09-18 22:37:10,833 [INFO]   [S0-HYD] Checking: Hiring Freshers For News Analyst Role - WFH
+2026-09-18 22:37:10,833 [INFO]   [filter] No skill match: Hiring Freshers For News Analyst Role - WFH
+2026-09-18 22:37:10,847 [INFO]   [S0-HYD] Checking: Scientific Medical Writer | Mumbai
+2026-09-18 22:37:10,847 [INFO]   [filter] Excluded 'medical': Scientific Medical Writer | Mumbai
+2026-09-18 22:37:10,860 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-09-18 22:37:10,860 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 22:37:10,874 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:38:08,307 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 22:38:08,400 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:38:08,470 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
+2026-09-18 22:38:08,470 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 22:38:08,485 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-18 22:38:08,485 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 22:38:08,500 [INFO]   [S0-HYD] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:38:08,500 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:38:08,515 [INFO]   [S0-HYD] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 22:38:08,515 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 22:38:08,530 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 22:38:08,530 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 22:38:08,545 [INFO]   [S0-HYD] Checking: Opt Recruiter
+2026-09-18 22:38:08,545 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 22:39:24,531 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-18 22:40:25,658 [INFO]   [S0-HYD] AI ML Engineer: 12 listings
+2026-09-18 22:40:25,673 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-09-18 22:40:25,673 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 22:40:25,686 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:41:23,242 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 22:41:23,334 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:41:23,407 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
+2026-09-18 22:41:23,407 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 22:41:23,423 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-18 22:41:23,424 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 22:41:23,441 [INFO]   [S0-HYD] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:41:23,441 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:41:23,458 [INFO]   [S0-HYD] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 22:41:23,458 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 22:41:23,474 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 22:41:23,474 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 22:41:23,509 [INFO]   [S0-HYD] Checking: Opt Recruiter
+2026-09-18 22:41:23,510 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 22:41:23,526 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-18 22:41:23,526 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-18 22:41:23,544 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-18 22:41:23,544 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-18 22:41:23,559 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:41:23,559 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:42:39,641 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-18 22:43:40,957 [INFO]   [S0-HYD] Machine Learning Engineer: 12 listings
+2026-09-18 22:43:40,971 [INFO]   [S0-HYD] Checking: Sap Consultant
+2026-09-18 22:43:40,971 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 22:43:40,984 [INFO]   [S0-HYD] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:44:38,302 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 22:44:38,395 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 22:44:38,467 [INFO]   [S0-HYD] Checking: Coding & Robotics Teacher
+2026-09-18 22:44:38,467 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 22:44:38,484 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-18 22:44:38,485 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 22:44:38,502 [INFO]   [S0-HYD] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:44:38,502 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 22:44:38,517 [INFO]   [S0-HYD] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 22:44:38,517 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 22:44:38,534 [INFO]   [S0-HYD] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 22:44:38,534 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 22:44:38,563 [INFO]   [S0-HYD] Checking: Opt Recruiter
+2026-09-18 22:44:38,563 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 22:44:38,582 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-18 22:44:38,582 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-18 22:44:38,598 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-18 22:44:38,598 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-18 22:44:38,615 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:44:38,615 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 22:45:54,544 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-18 22:47:10,742 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-18 22:48:26,467 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-18 22:49:42,787 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-18 22:50:58,675 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-18 22:52:15,096 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-18 22:53:30,912 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-18 22:54:47,243 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-18 22:56:03,110 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-18 22:57:19,391 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-18 22:58:35,299 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-18 22:59:51,698 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-18 23:01:07,664 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-18 23:01:07,664 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-18 19:35:36,568 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-18 19:35:36,568 [INFO] ███████████████████████████████████████████████████████
-2026-09-18 19:36:37,580 [INFO]   [S1] Java Developer: 17 listings
-2026-09-18 19:36:37,595 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:37:34,989 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:37:35,048 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:37:35,113 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-18 19:37:35,113 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-18 19:37:35,124 [INFO]   [S1] Checking: Sap Consultant
-2026-09-18 19:37:35,124 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:37:35,135 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-18 19:37:35,135 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 19:37:35,144 [INFO]   [S1] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 19:37:35,144 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 19:37:35,155 [INFO]   [S1] Checking: Coding & Robotics Teacher
-2026-09-18 19:37:35,155 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:37:35,164 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-18 19:37:35,165 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-18 19:37:35,175 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-18 19:37:35,175 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-18 19:37:35,186 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-18 19:37:35,186 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-18 19:37:35,195 [INFO]   [S1] Checking: Senior Architect
-2026-09-18 19:37:35,196 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-18 19:37:35,206 [INFO]   [S1] Checking: Computer Teacher
-2026-09-18 19:37:35,207 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-18 19:37:35,250 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:37:35,250 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:37:35,262 [INFO]   [S1] Checking: Coding Teacher (School)
-2026-09-18 19:37:35,262 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-18 19:37:35,273 [INFO]   [S1] Checking: Business Analyst
-2026-09-18 19:37:35,273 [INFO]   [filter] No skill match: Business Analyst
-2026-09-18 19:37:35,282 [INFO]   [S1] Checking: Functional Consultant
-2026-09-18 19:37:35,282 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 19:37:35,291 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:37:35,291 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:37:35,301 [INFO]   [S1] Checking: Walk-in || Python Software Developer
-2026-09-18 19:37:35,301 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-18 19:38:36,489 [INFO]   [S1] Python Developer: 13 listings
-2026-09-18 19:38:36,499 [INFO]   [S1] Checking: Walk-in || Python Software Developer
-2026-09-18 19:38:36,499 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-18 19:38:36,508 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:39:33,925 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:39:33,986 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:39:34,068 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-18 19:39:34,068 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-18 19:39:34,079 [INFO]   [S1] Checking: Sap Consultant
-2026-09-18 19:39:34,079 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:39:34,090 [INFO]   [S1] Checking: Senior Architect
-2026-09-18 19:39:34,090 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-18 19:39:34,102 [INFO]   [S1] Checking: Coding & Robotics Teacher
-2026-09-18 19:39:34,102 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:39:34,113 [INFO]   [S1] Checking: Opt Recruiter
-2026-09-18 19:39:34,113 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 19:39:34,123 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-18 19:39:34,123 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-18 19:39:34,135 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-18 19:39:34,135 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-18 19:39:34,146 [INFO]   [S1] Checking: Computer Teacher
-2026-09-18 19:39:34,146 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-18 19:39:34,157 [INFO]   [S1] Checking: Business Analyst
-2026-09-18 19:39:34,157 [INFO]   [filter] No skill match: Business Analyst
-2026-09-18 19:39:34,169 [INFO]   [S1] Checking: Functional Consultant
-2026-09-18 19:39:34,169 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 19:39:34,180 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:39:34,180 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:40:35,358 [INFO]   [S1] SQL Developer: 14 listings
-2026-09-18 19:40:35,368 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-18 19:40:35,368 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-18 19:40:35,377 [INFO]   [S1] Checking: Sap Consultant
-2026-09-18 19:40:35,377 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:40:35,385 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:41:32,855 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:41:32,921 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:41:32,996 [INFO]   [S1] Checking: Coding & Robotics Teacher
-2026-09-18 19:41:32,996 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:41:33,005 [INFO]   [S1] Checking: Computer Teacher
-2026-09-18 19:41:33,005 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-18 19:41:33,017 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-18 19:41:33,017 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 19:41:33,027 [INFO]   [S1] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 19:41:33,027 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 19:41:33,037 [INFO]   [S1] Checking: Opt Recruiter
-2026-09-18 19:41:33,037 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 19:41:33,048 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-18 19:41:33,048 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-18 19:41:33,058 [INFO]   [S1] Checking: Senior Architect
-2026-09-18 19:41:33,059 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-18 19:41:33,069 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:41:33,069 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:41:33,079 [INFO]   [S1] Checking: Coding Teacher (School)
-2026-09-18 19:41:33,079 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-18 19:41:33,089 [INFO]   [S1] Checking: Walk-in || Python Software Developer
-2026-09-18 19:41:33,089 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-18 19:41:33,100 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:41:33,100 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:42:33,981 [INFO]   [S1] Software Engineer: 20 listings
-2026-09-18 19:42:33,991 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:42:33,991 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:42:34,001 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-18 19:42:34,001 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 19:42:34,010 [INFO]   [S1] Checking: GPS Service Engineer Technician - Freshers
-2026-09-18 19:42:34,010 [INFO]   [filter] No skill match: GPS Service Engineer Technician - Freshers
-2026-09-18 19:42:34,020 [INFO]   [S1] Checking: Senior Architect
-2026-09-18 19:42:34,020 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-18 19:42:34,030 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-18 19:42:34,030 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-18 19:42:34,040 [INFO]   [S1] Checking: Sap Consultant
-2026-09-18 19:42:34,040 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:42:34,050 [INFO]   [S1] Checking: IND Senior Associate / Engineer
-2026-09-18 19:42:34,050 [INFO]   [filter] Excluded 'senior': IND Senior Associate / Engineer
-2026-09-18 19:42:34,060 [INFO]   [S1] Checking: QA Engineer - Engineering
-2026-09-18 19:42:34,060 [INFO]   [filter] No skill match: QA Engineer - Engineering
-2026-09-18 19:42:34,069 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:43:31,563 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:43:31,622 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:43:31,684 [INFO]   [S1] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 19:43:31,684 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 19:43:31,695 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-18 19:43:31,695 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-18 19:43:31,705 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-18 19:43:31,705 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-18 19:43:31,714 [INFO]   [S1] Checking: Functional Consultant
-2026-09-18 19:43:31,714 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 19:43:31,723 [INFO]   [S1] Checking: Junior Quality Engineer - Fresher
-2026-09-18 19:43:31,723 [INFO]   [filter] No skill match: Junior Quality Engineer - Fresher
-2026-09-18 19:43:31,732 [INFO]   [S1] Checking: Coding & Robotics Teacher
-2026-09-18 19:43:31,732 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:43:31,742 [INFO]   [S1] Checking: Computer Teacher
-2026-09-18 19:43:31,742 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-18 19:43:31,751 [INFO]   [S1] Checking: Opt Recruiter
-2026-09-18 19:43:31,751 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 19:43:31,763 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-18 19:43:31,763 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-18 19:43:31,773 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:43:31,773 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:43:31,782 [INFO]   [S1] Checking: Coding Teacher (School)
-2026-09-18 19:43:31,782 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-18 19:44:32,924 [INFO]   [S1] Associate Software Engineer: 18 listings
-2026-09-18 19:44:32,935 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-18 19:44:32,935 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-18 19:44:32,943 [INFO]   [S1] Checking: Sap Consultant
-2026-09-18 19:44:32,943 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:44:32,952 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:45:30,434 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:45:30,498 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:45:30,565 [INFO]   [S1] Checking: Coding & Robotics Teacher
-2026-09-18 19:45:30,565 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:45:30,575 [INFO]   [S1] Checking: Senior Architect
-2026-09-18 19:45:30,575 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-18 19:45:30,584 [INFO]   [S1] Checking: Computer Teacher
-2026-09-18 19:45:30,584 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-18 19:45:30,593 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-18 19:45:30,593 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 19:45:30,603 [INFO]   [S1] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 19:45:30,603 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 19:45:30,611 [INFO]   [S1] Checking: Opt Recruiter
-2026-09-18 19:45:30,611 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 19:45:30,621 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-18 19:45:30,622 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-18 19:45:30,630 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-18 19:45:30,630 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-18 19:45:30,640 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-18 19:45:30,640 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-18 19:45:30,649 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:45:30,650 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:45:30,658 [INFO]   [S1] Checking: Coding Teacher (School)
-2026-09-18 19:45:30,658 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-18 19:45:30,668 [INFO]   [S1] Checking: Business Analyst
-2026-09-18 19:45:30,668 [INFO]   [filter] No skill match: Business Analyst
-2026-09-18 19:45:30,677 [INFO]   [S1] Checking: Functional Consultant
-2026-09-18 19:45:30,677 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 19:45:30,687 [INFO]   [S1] Checking: Walk-in || Python Software Developer
-2026-09-18 19:45:30,688 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-18 19:45:30,696 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:45:30,696 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:46:31,845 [INFO]   [S1] Data Analyst: 20 listings
-2026-09-18 19:46:31,854 [INFO]   [S1] Checking: Walk-in || Junior Analyst
-2026-09-18 19:46:31,854 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
-2026-09-18 19:46:31,862 [INFO]   [S1] Checking: Business Analyst
-2026-09-18 19:46:31,862 [INFO]   [filter] No skill match: Business Analyst
-2026-09-18 19:46:31,870 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
-2026-09-18 19:46:31,870 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-09-18 19:46:31,878 [INFO]   [S1] Checking: Data Entry Operator
-2026-09-18 19:46:31,879 [INFO]   [filter] Excluded 'data entry': Data Entry Operator
-2026-09-18 19:46:31,886 [INFO]   [S1] Checking: Mis Executive
-2026-09-18 19:46:31,886 [INFO]   [filter] No skill match: Mis Executive
-2026-09-18 19:46:31,894 [INFO]   [S1] Checking: Apprentice Opportunities Hyderabad
-2026-09-18 19:46:31,894 [INFO]   [filter] No skill match: Apprentice Opportunities Hyderabad
-2026-09-18 19:46:31,902 [INFO]   [S1] Checking: Junior Technical Support Associate - Fresher
-2026-09-18 19:46:31,902 [INFO]   [filter] No skill match: Junior Technical Support Associate - Fresher
-2026-09-18 19:46:31,910 [INFO]   [S1] Checking: Senior Executive - Debt Management Services - SME
-2026-09-18 19:46:31,910 [INFO]   [filter] Excluded 'senior': Senior Executive - Debt Management Services - SME
-2026-09-18 19:46:31,918 [INFO]   [S1] Checking: Assistant Manager - Debt Management Services - SME
-2026-09-18 19:46:31,918 [INFO]   [filter] Excluded 'manager': Assistant Manager - Debt Management Services - SME
-2026-09-18 19:46:31,925 [INFO]   [S1] Checking: Associate - Corporate Social Responsibility (CSR)
-2026-09-18 19:46:31,925 [INFO]   [filter] No skill match: Associate - Corporate Social Responsibility (CSR)
-2026-09-18 19:46:31,933 [INFO]   [S1] Checking: Assistant Credit & Collections
-2026-09-18 19:46:31,933 [INFO]   [filter] No skill match: Assistant Credit & Collections
-2026-09-18 19:46:31,941 [INFO]   [S1] Checking: Hiring Freshers For News Analyst Role - WFH
-2026-09-18 19:46:31,942 [INFO]   [filter] No skill match: Hiring Freshers For News Analyst Role - WFH
-2026-09-18 19:46:31,950 [INFO]   [S1] Checking: Jr.Documentation Executive - Hyderabad
-2026-09-18 19:46:31,950 [INFO]   [filter] No skill match: Jr.Documentation Executive - Hyderabad
-2026-09-18 19:46:31,958 [INFO]   [S1] Checking: Associate - Corporate Social Responsibility (CSR)
-2026-09-18 19:46:31,958 [INFO]   [filter] No skill match: Associate - Corporate Social Responsibility (CSR)
-2026-09-18 19:46:31,965 [INFO]   [S1] Checking: Scientific Medical Writer | Mumbai
-2026-09-18 19:46:31,965 [INFO]   [filter] Excluded 'medical': Scientific Medical Writer | Mumbai
-2026-09-18 19:46:31,976 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-18 19:46:31,976 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-18 19:46:31,984 [INFO]   [S1] Checking: Sap Consultant
-2026-09-18 19:46:31,984 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:46:31,992 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:47:29,407 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:47:29,469 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:47:29,540 [INFO]   [S1] Checking: Coding & Robotics Teacher
-2026-09-18 19:47:29,540 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:47:29,549 [INFO]   [S1] Checking: Senior Architect
-2026-09-18 19:47:29,549 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-18 19:48:30,726 [INFO]   [S1] AI ML Engineer: 18 listings
-2026-09-18 19:48:30,738 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-18 19:48:30,738 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-18 19:48:30,746 [INFO]   [S1] Checking: Sap Consultant
-2026-09-18 19:48:30,746 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:48:30,753 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:49:28,118 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:49:28,176 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:49:28,254 [INFO]   [S1] Checking: Coding & Robotics Teacher
-2026-09-18 19:49:28,254 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:49:28,264 [INFO]   [S1] Checking: Senior Architect
-2026-09-18 19:49:28,265 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-18 19:49:28,274 [INFO]   [S1] Checking: Computer Teacher
-2026-09-18 19:49:28,274 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-18 19:49:28,283 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-18 19:49:28,283 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 19:49:28,292 [INFO]   [S1] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 19:49:28,292 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 19:49:28,300 [INFO]   [S1] Checking: Opt Recruiter
-2026-09-18 19:49:28,300 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 19:49:28,308 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-18 19:49:28,308 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-18 19:49:28,317 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-18 19:49:28,317 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-18 19:49:28,326 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-18 19:49:28,326 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-18 19:49:28,334 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:49:28,334 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:49:28,343 [INFO]   [S1] Checking: Coding Teacher (School)
-2026-09-18 19:49:28,343 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-18 19:49:28,351 [INFO]   [S1] Checking: Business Analyst
-2026-09-18 19:49:28,351 [INFO]   [filter] No skill match: Business Analyst
-2026-09-18 19:49:28,360 [INFO]   [S1] Checking: Functional Consultant
-2026-09-18 19:49:28,360 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 19:49:28,368 [INFO]   [S1] Checking: Walk-in || Python Software Developer
-2026-09-18 19:49:28,368 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-18 19:49:28,377 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:49:28,377 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:50:29,345 [INFO]   [S1] Machine Learning Engineer: 18 listings
-2026-09-18 19:50:29,354 [INFO]   [S1] Checking: Coding Teacher (School)
-2026-09-18 19:50:29,354 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
-2026-09-18 19:50:29,362 [INFO]   [S1] Checking: Full Stack Intern
-2026-09-18 19:50:29,362 [INFO]   [filter] No skill match: Full Stack Intern
-2026-09-18 19:50:29,369 [INFO]   [S1] Checking: Sap Consultant
-2026-09-18 19:50:29,370 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-18 19:50:29,377 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:51:26,853 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
-2026-09-18 19:51:26,916 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
-2026-09-18 19:51:26,990 [INFO]   [S1] Checking: Coding & Robotics Teacher
-2026-09-18 19:51:26,991 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
-2026-09-18 19:51:26,999 [INFO]   [S1] Checking: Senior Architect
-2026-09-18 19:51:26,999 [INFO]   [filter] Excluded 'senior': Senior Architect
-2026-09-18 19:51:27,010 [INFO]   [S1] Checking: Computer Teacher
-2026-09-18 19:51:27,011 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-18 19:51:27,021 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-18 19:51:27,021 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-18 19:51:27,029 [INFO]   [S1] Checking: Assistant Manager | Full Stack Engineer
-2026-09-18 19:51:27,029 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
-2026-09-18 19:51:27,039 [INFO]   [S1] Checking: Opt Recruiter
-2026-09-18 19:51:27,039 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
-2026-09-18 19:51:27,048 [INFO]   [S1] Checking: Computer Vision Intern
-2026-09-18 19:51:27,048 [INFO]   [filter] No skill match: Computer Vision Intern
-2026-09-18 19:51:27,058 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-18 19:51:27,058 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-18 19:51:27,068 [INFO]   [S1] Checking: Trainee Test Engineer
-2026-09-18 19:51:27,068 [INFO]   [filter] No skill match: Trainee Test Engineer
-2026-09-18 19:51:27,078 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:51:27,078 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-18 19:51:27,087 [INFO]   [S1] Checking: Business Analyst
-2026-09-18 19:51:27,087 [INFO]   [filter] No skill match: Business Analyst
-2026-09-18 19:51:27,096 [INFO]   [S1] Checking: Functional Consultant
-2026-09-18 19:51:27,096 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-18 19:51:27,108 [INFO]   [S1] Checking: Walk-in || Python Software Developer
-2026-09-18 19:51:27,108 [INFO]   Already applied: Walk-in || Python Software Developer
-2026-09-18 19:51:27,116 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:51:27,116 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-18 19:51:27,116 [INFO] 
+2026-09-18 23:01:07,664 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-18 23:01:07,664 [INFO] ███████████████████████████████████████████████████████
+2026-09-18 23:02:08,748 [INFO]   [S1] Java Developer: 18 listings
+2026-09-18 23:02:08,767 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:03:06,229 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 23:03:06,327 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:03:06,418 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-18 23:03:06,418 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-18 23:03:06,433 [INFO]   [S1] Checking: Sap Consultant
+2026-09-18 23:03:06,433 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 23:03:06,449 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-18 23:03:06,449 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 23:03:06,469 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 23:03:06,469 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 23:03:06,485 [INFO]   [S1] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 23:03:06,485 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 23:03:06,501 [INFO]   [S1] Checking: Coding & Robotics Teacher
+2026-09-18 23:03:06,501 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 23:03:06,517 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-18 23:03:06,517 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-18 23:03:06,533 [INFO]   [S1] Checking: Senior Architect
+2026-09-18 23:03:06,533 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-18 23:03:06,549 [INFO]   [S1] Checking: Computer Teacher
+2026-09-18 23:03:06,549 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-18 23:03:06,566 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-18 23:03:06,566 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-18 23:03:06,581 [INFO]   [S1] Checking: Coding Teacher (School)
+2026-09-18 23:03:06,581 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-18 23:03:06,596 [INFO]   [S1] Checking: Business Analyst
+2026-09-18 23:03:06,596 [INFO]   [filter] No skill match: Business Analyst
+2026-09-18 23:03:06,610 [INFO]   [S1] Checking: Functional Consultant
+2026-09-18 23:03:06,610 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-18 23:03:06,625 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-18 23:03:06,625 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-18 23:03:06,639 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-18 23:03:06,640 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-18 23:03:06,654 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:03:06,654 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:03:06,668 [INFO]   [S1] Checking: Walk-in || Python Software Developer
+2026-09-18 23:03:06,668 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-18 23:04:07,883 [INFO]   [S1] Python Developer: 16 listings
+2026-09-18 23:04:07,898 [INFO]   [S1] Checking: Walk-in || Python Software Developer
+2026-09-18 23:04:07,898 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-18 23:04:07,912 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:05:05,427 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 23:05:05,521 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:05:05,592 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-18 23:05:05,592 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-18 23:05:05,608 [INFO]   [S1] Checking: Sap Consultant
+2026-09-18 23:05:05,609 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 23:05:05,625 [INFO]   [S1] Checking: Senior Architect
+2026-09-18 23:05:05,625 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-18 23:05:05,642 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 23:05:05,642 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 23:05:05,658 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 23:05:05,658 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 23:05:05,691 [INFO]   [S1] Checking: Coding & Robotics Teacher
+2026-09-18 23:05:05,691 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 23:05:05,707 [INFO]   [S1] Checking: Opt Recruiter
+2026-09-18 23:05:05,707 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 23:05:05,723 [INFO]   [S1] Checking: Computer Teacher
+2026-09-18 23:05:05,723 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-18 23:05:05,740 [INFO]   [S1] Checking: Business Analyst
+2026-09-18 23:05:05,740 [INFO]   [filter] No skill match: Business Analyst
+2026-09-18 23:05:05,757 [INFO]   [S1] Checking: Functional Consultant
+2026-09-18 23:05:05,757 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-18 23:05:05,771 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-18 23:05:05,771 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-18 23:05:05,785 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-18 23:05:05,785 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-18 23:05:05,799 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:05:05,800 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:06:07,047 [INFO]   [S1] SQL Developer: 16 listings
+2026-09-18 23:06:07,062 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-18 23:06:07,062 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-18 23:06:07,077 [INFO]   [S1] Checking: Sap Consultant
+2026-09-18 23:06:07,077 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 23:06:07,091 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 23:06:07,091 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 23:06:07,105 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:07:04,641 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 23:07:04,737 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:07:04,837 [INFO]   [S1] Checking: Coding & Robotics Teacher
+2026-09-18 23:07:04,837 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 23:07:04,854 [INFO]   [S1] Checking: Computer Teacher
+2026-09-18 23:07:04,854 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-18 23:07:04,870 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-18 23:07:04,871 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 23:07:04,903 [INFO]   [S1] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 23:07:04,903 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 23:07:04,919 [INFO]   [S1] Checking: Opt Recruiter
+2026-09-18 23:07:04,920 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 23:07:04,935 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-18 23:07:04,935 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-18 23:07:04,950 [INFO]   [S1] Checking: Senior Architect
+2026-09-18 23:07:04,950 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-18 23:07:04,967 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-18 23:07:04,967 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-18 23:07:04,983 [INFO]   [S1] Checking: Coding Teacher (School)
+2026-09-18 23:07:04,983 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-18 23:07:04,998 [INFO]   [S1] Checking: Walk-in || Python Software Developer
+2026-09-18 23:07:04,998 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-18 23:07:05,012 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:07:05,012 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:08:06,177 [INFO]   [S1] Software Engineer: 21 listings
+2026-09-18 23:08:06,193 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:08:06,193 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:08:06,207 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-18 23:08:06,207 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 23:08:06,220 [INFO]   [S1] Checking: GPS Service Engineer Technician - Freshers
+2026-09-18 23:08:06,220 [INFO]   [filter] No skill match: GPS Service Engineer Technician - Freshers
+2026-09-18 23:08:06,235 [INFO]   [S1] Checking: Senior Architect
+2026-09-18 23:08:06,235 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-18 23:08:06,248 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 23:08:06,248 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 23:08:06,262 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-18 23:08:06,262 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-18 23:08:06,277 [INFO]   [S1] Checking: Sap Consultant
+2026-09-18 23:08:06,277 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 23:08:06,304 [INFO]   [S1] Checking: IND Senior Associate / Engineer
+2026-09-18 23:08:06,304 [INFO]   [filter] Excluded 'senior': IND Senior Associate / Engineer
+2026-09-18 23:08:06,318 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:09:03,809 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 23:09:03,902 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:09:03,973 [INFO]   [S1] Checking: QA Engineer - Engineering
+2026-09-18 23:09:03,973 [INFO]   [filter] No skill match: QA Engineer - Engineering
+2026-09-18 23:09:03,992 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 23:09:03,992 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 23:09:04,008 [INFO]   [S1] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 23:09:04,008 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 23:09:04,024 [INFO]   [S1] Checking: Functional Consultant
+2026-09-18 23:09:04,025 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-18 23:09:04,040 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-18 23:09:04,041 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-18 23:09:04,056 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-18 23:09:04,056 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-18 23:09:04,072 [INFO]   [S1] Checking: Junior Quality Engineer - Fresher
+2026-09-18 23:09:04,072 [INFO]   [filter] No skill match: Junior Quality Engineer - Fresher
+2026-09-18 23:09:04,087 [INFO]   [S1] Checking: Coding & Robotics Teacher
+2026-09-18 23:09:04,087 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 23:09:04,102 [INFO]   [S1] Checking: Computer Teacher
+2026-09-18 23:09:04,102 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-18 23:09:04,117 [INFO]   [S1] Checking: Opt Recruiter
+2026-09-18 23:09:04,117 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 23:09:04,132 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-18 23:09:04,133 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-18 23:10:05,246 [INFO]   [S1] Associate Software Engineer: 21 listings
+2026-09-18 23:10:05,260 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 23:10:05,260 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 23:10:05,273 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 23:10:05,274 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 23:10:05,287 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-18 23:10:05,287 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-18 23:10:05,301 [INFO]   [S1] Checking: Sap Consultant
+2026-09-18 23:10:05,301 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 23:10:05,314 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:11:02,700 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 23:11:02,794 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:11:02,866 [INFO]   [S1] Checking: Coding & Robotics Teacher
+2026-09-18 23:11:02,866 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 23:11:02,882 [INFO]   [S1] Checking: Senior Architect
+2026-09-18 23:11:02,882 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-18 23:11:02,916 [INFO]   [S1] Checking: Computer Teacher
+2026-09-18 23:11:02,917 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-18 23:11:02,932 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-18 23:11:02,932 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 23:11:02,947 [INFO]   [S1] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 23:11:02,947 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 23:11:02,962 [INFO]   [S1] Checking: Opt Recruiter
+2026-09-18 23:11:02,962 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 23:11:02,978 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-18 23:11:02,978 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-18 23:11:02,995 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-18 23:11:02,995 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-18 23:11:03,010 [INFO]   [S1] Checking: Coding Teacher (School)
+2026-09-18 23:11:03,010 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-18 23:11:03,025 [INFO]   [S1] Checking: Business Analyst
+2026-09-18 23:11:03,025 [INFO]   [filter] No skill match: Business Analyst
+2026-09-18 23:11:03,039 [INFO]   [S1] Checking: Functional Consultant
+2026-09-18 23:11:03,039 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-18 23:11:03,053 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-18 23:11:03,053 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-18 23:11:03,067 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-18 23:11:03,067 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-18 23:11:03,081 [INFO]   [S1] Checking: Walk-in || Python Software Developer
+2026-09-18 23:11:03,082 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-18 23:11:03,095 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:11:03,095 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:12:04,235 [INFO]   [S1] Data Analyst: 21 listings
+2026-09-18 23:12:04,248 [INFO]   [S1] Checking: Walk-in || Junior Analyst
+2026-09-18 23:12:04,249 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
+2026-09-18 23:12:04,261 [INFO]   [S1] Checking: Business Analyst
+2026-09-18 23:12:04,261 [INFO]   [filter] No skill match: Business Analyst
+2026-09-18 23:12:04,274 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
+2026-09-18 23:12:04,274 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-09-18 23:12:04,287 [INFO]   [S1] Checking: Data Entry Operator
+2026-09-18 23:12:04,288 [INFO]   [filter] Excluded 'data entry': Data Entry Operator
+2026-09-18 23:12:04,301 [INFO]   [S1] Checking: Mis Executive
+2026-09-18 23:12:04,301 [INFO]   [filter] No skill match: Mis Executive
+2026-09-18 23:12:04,314 [INFO]   [S1] Checking: Apprentice Opportunities Hyderabad
+2026-09-18 23:12:04,314 [INFO]   [filter] No skill match: Apprentice Opportunities Hyderabad
+2026-09-18 23:12:04,327 [INFO]   [S1] Checking: Junior Technical Support Associate - Fresher
+2026-09-18 23:12:04,327 [INFO]   [filter] No skill match: Junior Technical Support Associate - Fresher
+2026-09-18 23:12:04,353 [INFO]   [S1] Checking: Senior Executive - Debt Management Services - SME
+2026-09-18 23:12:04,353 [INFO]   [filter] Excluded 'senior': Senior Executive - Debt Management Services - SME
+2026-09-18 23:12:04,366 [INFO]   [S1] Checking: Assistant Manager - Debt Management Services - SME
+2026-09-18 23:12:04,366 [INFO]   [filter] Excluded 'manager': Assistant Manager - Debt Management Services - SME
+2026-09-18 23:12:04,379 [INFO]   [S1] Checking: Associate - Corporate Social Responsibility (CSR)
+2026-09-18 23:12:04,379 [INFO]   [filter] No skill match: Associate - Corporate Social Responsibility (CSR)
+2026-09-18 23:12:04,392 [INFO]   [S1] Checking: Assistant Credit & Collections
+2026-09-18 23:12:04,392 [INFO]   [filter] No skill match: Assistant Credit & Collections
+2026-09-18 23:12:04,405 [INFO]   [S1] Checking: Hiring Freshers For News Analyst Role - WFH
+2026-09-18 23:12:04,405 [INFO]   [filter] No skill match: Hiring Freshers For News Analyst Role - WFH
+2026-09-18 23:12:04,419 [INFO]   [S1] Checking: Associate - Corporate Social Responsibility (CSR)
+2026-09-18 23:12:04,419 [INFO]   [filter] No skill match: Associate - Corporate Social Responsibility (CSR)
+2026-09-18 23:12:04,432 [INFO]   [S1] Checking: Scientific Medical Writer | Mumbai
+2026-09-18 23:12:04,432 [INFO]   [filter] Excluded 'medical': Scientific Medical Writer | Mumbai
+2026-09-18 23:12:04,447 [INFO]   [S1] Checking: Jr.Documentation Executive - Hyderabad
+2026-09-18 23:12:04,447 [INFO]   [filter] No skill match: Jr.Documentation Executive - Hyderabad
+2026-09-18 23:12:04,460 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-18 23:12:04,460 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-18 23:12:04,474 [INFO]   [S1] Checking: Sap Consultant
+2026-09-18 23:12:04,474 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 23:12:04,487 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:13:01,996 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 23:13:02,089 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:13:02,159 [INFO]   [S1] Checking: Coding & Robotics Teacher
+2026-09-18 23:13:02,159 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 23:13:02,173 [INFO]   [S1] Checking: Senior Architect
+2026-09-18 23:13:02,173 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-18 23:14:03,264 [INFO]   [S1] AI ML Engineer: 21 listings
+2026-09-18 23:14:03,278 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-18 23:14:03,278 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-18 23:14:03,291 [INFO]   [S1] Checking: Sap Consultant
+2026-09-18 23:14:03,291 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 23:14:03,305 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:15:00,675 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 23:15:00,767 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:15:00,837 [INFO]   [S1] Checking: Coding & Robotics Teacher
+2026-09-18 23:15:00,837 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 23:15:00,853 [INFO]   [S1] Checking: Senior Architect
+2026-09-18 23:15:00,853 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-18 23:15:00,869 [INFO]   [S1] Checking: Computer Teacher
+2026-09-18 23:15:00,870 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-18 23:15:00,887 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-18 23:15:00,887 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 23:15:00,918 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 23:15:00,919 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 23:15:00,935 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 23:15:00,936 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 23:15:00,951 [INFO]   [S1] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 23:15:00,951 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 23:15:00,967 [INFO]   [S1] Checking: Opt Recruiter
+2026-09-18 23:15:00,967 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 23:15:00,983 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-18 23:15:00,983 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-18 23:15:00,999 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-18 23:15:00,999 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-18 23:15:01,013 [INFO]   [S1] Checking: Coding Teacher (School)
+2026-09-18 23:15:01,014 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-18 23:15:01,028 [INFO]   [S1] Checking: Business Analyst
+2026-09-18 23:15:01,028 [INFO]   [filter] No skill match: Business Analyst
+2026-09-18 23:15:01,042 [INFO]   [S1] Checking: Functional Consultant
+2026-09-18 23:15:01,042 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-18 23:15:01,056 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-18 23:15:01,056 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-18 23:15:01,070 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-18 23:15:01,070 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-18 23:15:01,084 [INFO]   [S1] Checking: Walk-in || Python Software Developer
+2026-09-18 23:15:01,085 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-18 23:15:01,098 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:15:01,099 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:16:02,585 [INFO]   [S1] Machine Learning Engineer: 21 listings
+2026-09-18 23:16:02,599 [INFO]   [S1] Checking: Coding Teacher (School)
+2026-09-18 23:16:02,599 [INFO]   [filter] Excluded 'teacher': Coding Teacher (School)
+2026-09-18 23:16:02,613 [INFO]   [S1] Checking: Full Stack Intern
+2026-09-18 23:16:02,613 [INFO]   [filter] No skill match: Full Stack Intern
+2026-09-18 23:16:02,627 [INFO]   [S1] Checking: Sap Consultant
+2026-09-18 23:16:02,627 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-18 23:16:02,641 [INFO]   [S1] Checking: Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:16:59,952 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-18 23:17:00,047 [INFO]   [filter] Non-IT signal 'mechanical engineer': Required Java, Python, AI and App developer- Chennai/Hyderabad
+2026-09-18 23:17:00,121 [INFO]   [S1] Checking: Coding & Robotics Teacher
+2026-09-18 23:17:00,121 [INFO]   [filter] Excluded 'teacher': Coding & Robotics Teacher
+2026-09-18 23:17:00,138 [INFO]   [S1] Checking: Senior Architect
+2026-09-18 23:17:00,138 [INFO]   [filter] Excluded 'senior': Senior Architect
+2026-09-18 23:17:00,155 [INFO]   [S1] Checking: Computer Teacher
+2026-09-18 23:17:00,155 [INFO]   [filter] Excluded 'teacher': Computer Teacher
+2026-09-18 23:17:00,189 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-18 23:17:00,189 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-18 23:17:00,205 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 23:17:00,206 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-18 23:17:00,221 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
+2026-09-18 23:17:00,221 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
+2026-09-18 23:17:00,238 [INFO]   [S1] Checking: Assistant Manager | Full Stack Engineer
+2026-09-18 23:17:00,238 [INFO]   [filter] Excluded 'manager': Assistant Manager | Full Stack Engineer
+2026-09-18 23:17:00,253 [INFO]   [S1] Checking: Opt Recruiter
+2026-09-18 23:17:00,254 [INFO]   [filter] Excluded 'recruiter': Opt Recruiter
+2026-09-18 23:17:00,269 [INFO]   [S1] Checking: Computer Vision Intern
+2026-09-18 23:17:00,269 [INFO]   [filter] No skill match: Computer Vision Intern
+2026-09-18 23:17:00,284 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-18 23:17:00,284 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-18 23:17:00,298 [INFO]   [S1] Checking: Business Analyst
+2026-09-18 23:17:00,298 [INFO]   [filter] No skill match: Business Analyst
+2026-09-18 23:17:00,312 [INFO]   [S1] Checking: Functional Consultant
+2026-09-18 23:17:00,312 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-18 23:17:00,329 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-18 23:17:00,329 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-18 23:17:00,343 [INFO]   [S1] Checking: Trainee Test Engineer
+2026-09-18 23:17:00,343 [INFO]   [filter] No skill match: Trainee Test Engineer
+2026-09-18 23:17:00,357 [INFO]   [S1] Checking: Walk-in || Python Software Developer
+2026-09-18 23:17:00,357 [INFO]   Already applied: Walk-in || Python Software Developer
+2026-09-18 23:17:00,371 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:17:00,372 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-18 23:17:00,372 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-18 19:51:27,116 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-18 19:51:27,116 [INFO] ███████████████████████████████████████████████████████
-2026-09-18 20:06:38,949 [INFO] 
+2026-09-18 23:17:00,372 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-18 23:17:00,372 [INFO] ███████████████████████████████████████████████████████
+2026-09-18 23:32:13,840 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-18 20:06:38,949 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-18 20:06:38,949 [INFO] ███████████████████████████████████████████████████████
-2026-09-18 20:07:54,742 [INFO]   [S3] Java Developer: 0 listings
-2026-09-18 20:09:10,744 [INFO]   [S3] Python Developer: 0 listings
-2026-09-18 20:10:26,717 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-18 20:11:42,407 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-18 20:12:58,182 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-18 20:14:14,120 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-18 20:15:30,035 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-18 20:16:45,952 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-18 20:16:45,952 [INFO] 
+2026-09-18 23:32:13,840 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-18 23:32:13,840 [INFO] ███████████████████████████████████████████████████████
+2026-09-18 23:33:29,699 [INFO]   [S3] Java Developer: 0 listings
+2026-09-18 23:34:45,712 [INFO]   [S3] Python Developer: 0 listings
+2026-09-18 23:36:01,777 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-18 23:37:17,912 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-18 23:38:34,009 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-18 23:39:50,078 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-18 23:41:06,137 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-18 23:42:22,337 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-18 23:42:22,337 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-18 20:16:45,952 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-18 20:16:45,952 [INFO] ███████████████████████████████████████████████████████
-2026-09-18 20:31:56,045 [INFO] 
+2026-09-18 23:42:22,338 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-18 23:42:22,338 [INFO] ███████████████████████████████████████████████████████
+2026-09-18 23:57:34,015 [INFO] 
 =======================================================
-2026-09-18 20:31:56,045 [INFO]   Run complete — Applied this session : 0
-2026-09-18 20:31:56,045 [INFO]   Total ever applied                  : 328
-2026-09-18 20:31:56,046 [INFO] =======================================================
+2026-09-18 23:57:34,015 [INFO]   Run complete — Applied this session : 0
+2026-09-18 23:57:34,015 [INFO]   Total ever applied                  : 328
+2026-09-18 23:57:34,015 [INFO] =======================================================

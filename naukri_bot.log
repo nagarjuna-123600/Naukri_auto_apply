@@ -1,221 +1,481 @@
-2026-09-21 03:24:21,252 [INFO] GitHub Actions — single run mode
-2026-09-21 03:24:21,252 [INFO] 
+2026-09-21 09:36:31,392 [INFO] GitHub Actions — single run mode
+2026-09-21 09:36:31,392 [INFO] 
 =======================================================
-2026-09-21 03:24:21,253 [INFO]   Run started: 2026-09-21 03:24:21
-2026-09-21 03:24:21,253 [INFO] =======================================================
-2026-09-21 03:24:21,254 [INFO] Previously applied: 330 jobs
-2026-09-21 03:24:21,255 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-21 03:24:21,255 [INFO] ====== WebDriver manager ======
-2026-09-21 03:24:24,659 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-21 03:24:24,709 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-21 03:24:24,741 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-21 03:24:24,741 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-21 03:24:24,855 [INFO] WebDriver version 152.0.7977.82 selected
-2026-09-21 03:24:24,862 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-21 03:24:24,862 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-21 03:24:24,929 [INFO] Driver downloading response is 200
-2026-09-21 03:24:25,114 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
-2026-09-21 03:24:36,014 [INFO]   Trying cookie login...
-2026-09-21 03:24:40,630 [INFO]   Loading 34 cookies...
-2026-09-21 03:24:44,803 [INFO]   ✅ Cookie login successful!
-2026-09-21 03:24:44,803 [INFO] 
+2026-09-21 09:36:31,392 [INFO]   Run started: 2026-09-21 09:36:31
+2026-09-21 09:36:31,393 [INFO] =======================================================
+2026-09-21 09:36:31,394 [INFO] Previously applied: 330 jobs
+2026-09-21 09:36:31,394 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-21 09:36:31,394 [INFO] ====== WebDriver manager ======
+2026-09-21 09:36:33,436 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-21 09:36:33,482 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-21 09:36:33,514 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-21 09:36:33,514 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-21 09:36:33,616 [INFO] WebDriver version 152.0.7977.82 selected
+2026-09-21 09:36:33,621 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-21 09:36:33,621 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-21 09:36:33,678 [INFO] Driver downloading response is 200
+2026-09-21 09:36:33,848 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
+2026-09-21 09:36:40,570 [INFO]   Trying cookie login...
+2026-09-21 09:36:44,637 [INFO]   Loading 34 cookies...
+2026-09-21 09:36:48,797 [INFO]   ✅ Cookie login successful!
+2026-09-21 09:36:48,797 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-21 03:24:44,803 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-21 03:24:44,803 [INFO] ───────────────────────────────────────────────────────
-2026-09-21 03:24:44,803 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-09-21 03:25:52,290 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-21 03:25:57,821 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-21 03:26:00,180 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-21 03:26:03,202 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-21 03:26:06,239 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-09-21 03:26:06,239 [INFO] 
+2026-09-21 09:36:48,797 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-21 09:36:48,797 [INFO] ───────────────────────────────────────────────────────
+2026-09-21 09:36:48,797 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-21 09:37:55,343 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-21 09:38:00,894 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-21 09:38:03,251 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-21 09:38:06,271 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-21 09:38:09,304 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-21 09:38:09,304 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-21 03:26:06,239 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-21 03:26:06,239 [INFO] ███████████████████████████████████████████████████████
-2026-09-21 03:27:07,414 [INFO]   [S0-HYD] Java Developer: 1 listings
-2026-09-21 03:27:07,433 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:27:07,433 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:28:23,235 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-21 03:29:24,447 [INFO]   [S0-HYD] Python Developer: 1 listings
-2026-09-21 03:29:24,460 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:29:24,460 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:30:40,694 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-21 03:31:41,811 [INFO]   [S0-HYD] SQL Developer: 4 listings
-2026-09-21 03:31:41,825 [INFO]   [S0-HYD] Checking: Java Developer
-2026-09-21 03:32:39,309 [INFO]   [location] ❌ Wrong: Chennai — skip
-2026-09-21 03:32:39,309 [INFO]   Skipping (wrong location): Java Developer
-2026-09-21 03:32:39,379 [INFO]   [S0-HYD] Checking: Java Developer
-2026-09-21 03:33:36,698 [INFO]   [location] ❌ Wrong: Bengaluru — skip
-2026-09-21 03:33:36,699 [INFO]   Skipping (wrong location): Java Developer
-2026-09-21 03:33:36,776 [INFO]   [S0-HYD] Checking: Entry Level Software QA Test Engineer
-2026-09-21 03:33:36,776 [INFO]   [filter] No skill match: Entry Level Software QA Test Engineer
-2026-09-21 03:33:36,791 [INFO]   [S0-HYD] Checking: Computer Teacher
-2026-09-21 03:33:36,791 [INFO]   [filter] Excluded 'teacher': Computer Teacher
-2026-09-21 03:34:52,778 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-21 03:35:53,820 [INFO]   [S0-HYD] Software Engineer: 1 listings
-2026-09-21 03:35:53,835 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:35:53,835 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:37:09,776 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-21 03:38:11,000 [INFO]   [S0-HYD] Associate Software Engineer: 1 listings
-2026-09-21 03:38:11,014 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:38:11,014 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:39:27,030 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-21 03:40:28,059 [INFO]   [S0-HYD] Data Analyst: 2 listings
-2026-09-21 03:40:28,072 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:40:28,073 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:40:28,086 [INFO]   [S0-HYD] Checking: Walk-in || Mis Executive
-2026-09-21 03:40:28,086 [INFO]   [filter] No skill match: Walk-in || Mis Executive
-2026-09-21 03:41:44,053 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-21 03:42:44,911 [INFO]   [S0-HYD] AI ML Engineer: 1 listings
-2026-09-21 03:42:44,925 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:42:44,926 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:44:00,923 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-21 03:45:02,124 [INFO]   [S0-HYD] Machine Learning Engineer: 1 listings
-2026-09-21 03:45:02,138 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:45:02,138 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 03:46:18,150 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-21 03:47:34,325 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-21 03:48:50,280 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-21 03:50:06,353 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-21 03:51:22,403 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-21 03:52:38,438 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-21 03:53:54,373 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-21 03:55:10,570 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-21 03:56:26,580 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-21 03:57:42,800 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-21 03:58:58,762 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-21 04:00:14,975 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-21 04:01:30,858 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-21 04:01:30,858 [INFO] 
+2026-09-21 09:38:09,304 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-21 09:38:09,305 [INFO] ███████████████████████████████████████████████████████
+2026-09-21 09:39:10,612 [INFO]   [S0-HYD] Java Developer: 14 listings
+2026-09-21 09:39:10,631 [INFO]   [S0-HYD] Checking: Java Developer
+2026-09-21 09:40:08,078 [INFO]   [location] ✅ Hyderabad( Madhapur )
+2026-09-21 09:40:08,323 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 09:40:08,324 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-21 09:40:08,324 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-21 09:40:08,324 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-21 09:40:08,361 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 09:40:08,361 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-21 09:41:04,594 [INFO]   Clicked Apply: Java Developer
+2026-09-21 09:43:18,182 [INFO]   ✅ Applied: Java Developer
+2026-09-21 09:43:20,260 [INFO]   [S0-HYD] Checking: Software-Java Developer
+2026-09-21 09:44:17,665 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-21 09:44:17,790 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 09:44:17,790 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-21 09:44:17,790 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-21 09:44:17,790 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-21 09:44:17,862 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 09:44:17,863 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-21 09:45:14,075 [INFO]   Clicked Apply: Software-Java Developer
+2026-09-21 09:47:31,577 [INFO]   ✅ Applied: Software-Java Developer
+2026-09-21 09:47:33,654 [INFO]   [S0-HYD] Checking: Software Engineer
+2026-09-21 09:48:31,013 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-21 09:48:31,162 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 09:48:31,163 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-21 09:48:31,163 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-21 09:48:31,163 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-21 09:48:31,200 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 09:48:31,200 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-21 09:49:27,451 [INFO]   Clicked Apply: Software Engineer
+2026-09-21 09:51:43,907 [INFO]   ✅ Applied: Software Engineer
+2026-09-21 09:51:45,982 [INFO]   [S0-HYD] Checking: Graduate Software Engineer _ Fresher
+2026-09-21 09:52:43,401 [INFO]   [location] ✅ Hyderabad( Gachibowli )
+2026-09-21 09:52:43,522 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 09:52:43,522 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-21 09:52:43,522 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-21 09:52:43,522 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-21 09:52:43,563 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 09:52:43,564 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-21 09:53:39,781 [INFO]   Clicked Apply: Graduate Software Engineer _ Fresher
+2026-09-21 09:56:19,498 [INFO]   ✅ Applied: Graduate Software Engineer _ Fresher
+2026-09-21 09:56:21,580 [INFO]   [S0-HYD] Checking: Software Engineer, developer / Programmer, 2026 graduate Can apply
+2026-09-21 09:57:19,071 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-21 09:57:19,188 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 09:57:19,189 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-21 09:57:19,189 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-21 09:57:19,189 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-21 09:57:19,227 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 09:57:19,228 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-21 09:58:15,431 [INFO]   Clicked Apply: Software Engineer, developer / Programmer, 2026 graduate Can apply
+2026-09-21 10:00:29,054 [INFO]   ✅ Applied: Software Engineer, developer / Programmer, 2026 graduate Can apply
+2026-09-21 10:00:31,131 [INFO]   [S0-HYD] Checking: Junior Developer
+2026-09-21 10:01:28,523 [INFO]   [location] ✅ Hyderabad, Chennai, Bengaluru
+2026-09-21 10:01:28,667 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 10:01:28,668 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-21 10:01:28,668 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-21 10:01:28,668 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-21 10:01:28,709 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 10:01:28,709 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-21 10:02:24,912 [INFO]   Clicked Apply: Junior Developer
+2026-09-21 10:04:38,699 [INFO]   ✅ Applied: Junior Developer
+2026-09-21 10:04:40,781 [INFO]   [S0-HYD] Checking: Walk-in || Junior Software Engineer
+2026-09-21 10:05:38,212 [INFO]   [location] ✅ Hyderabad( Banjara hills )
+2026-09-21 10:05:38,332 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 10:05:38,332 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-21 10:05:38,332 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-21 10:05:38,332 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-21 10:05:38,370 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 10:05:38,370 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-21 10:07:06,383 [INFO]   Clicked Apply: Walk-in || Junior Software Engineer
+2026-09-21 10:09:19,922 [INFO]   ✅ Applied: Walk-in || Junior Software Engineer
+2026-09-21 10:09:22,004 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-21 10:09:22,004 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:09:22,017 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:09:22,017 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:09:22,030 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:09:22,030 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:09:22,042 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:09:22,042 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:09:22,055 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-21 10:09:22,055 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:09:22,068 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:09:22,068 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:09:22,081 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:09:22,081 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:10:38,014 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-21 10:11:39,483 [INFO]   [S0-HYD] Python Developer: 5 listings
+2026-09-21 10:11:39,498 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-21 10:11:39,498 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:11:39,512 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:11:39,512 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:11:39,525 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:11:39,526 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:11:39,539 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:11:39,539 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:11:39,552 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:11:39,552 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:12:55,377 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-21 10:13:56,556 [INFO]   [S0-HYD] SQL Developer: 3 listings
+2026-09-21 10:13:56,570 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-21 10:13:56,570 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:13:56,583 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:13:56,583 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:13:56,596 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:13:56,596 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:15:12,532 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-21 10:16:13,810 [INFO]   [S0-HYD] Software Engineer: 10 listings
+2026-09-21 10:16:13,824 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:16:13,824 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:16:13,837 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-21 10:16:13,837 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:16:13,851 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:16:13,851 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:16:13,864 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:16:13,864 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:16:13,878 [INFO]   [S0-HYD] Checking: Human Resource Recruiter
+2026-09-21 10:16:13,878 [INFO]   [filter] Excluded 'human resource': Human Resource Recruiter
+2026-09-21 10:16:13,891 [INFO]   [S0-HYD] Checking: Machine Learning Software Development Instructor
+2026-09-21 10:17:11,349 [INFO]   [location] ✅ Hyderabad
+2026-09-21 10:17:11,523 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 10:17:11,523 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
+2026-09-21 10:17:11,523 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
+2026-09-21 10:17:11,523 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
+2026-09-21 10:17:11,561 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-09-21 10:17:11,561 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-09-21 10:18:07,709 [INFO]   Clicked Apply: Machine Learning Software Development Instructor
+2026-09-21 10:20:21,177 [INFO]   ✅ Applied: Machine Learning Software Development Instructor
+2026-09-21 10:20:23,254 [INFO]   [S0-HYD] Checking: EV Charging Station Jobs
+2026-09-21 10:20:23,254 [INFO]   [filter] No skill match: EV Charging Station Jobs
+2026-09-21 10:20:23,268 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-21 10:20:23,268 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:20:23,282 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:20:23,282 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:20:23,296 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:20:23,296 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:21:39,223 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-21 10:22:40,353 [INFO]   [S0-HYD] Associate Software Engineer: 7 listings
+2026-09-21 10:22:40,367 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-21 10:22:40,367 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:22:40,381 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:22:40,381 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:22:40,394 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:22:40,394 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:22:40,408 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:22:40,408 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:22:40,421 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-21 10:22:40,422 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:22:40,435 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:22:40,435 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:22:40,449 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:22:40,449 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:23:56,312 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-21 10:24:57,590 [INFO]   [S0-HYD] Data Analyst: 10 listings
+2026-09-21 10:24:57,604 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:24:57,604 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:24:57,617 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
+2026-09-21 10:24:57,617 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-09-21 10:24:57,631 [INFO]   [S0-HYD] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-21 10:24:57,631 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-21 10:24:57,645 [INFO]   [S0-HYD] Checking: Walk-in || Mis Executive
+2026-09-21 10:24:57,645 [INFO]   [filter] No skill match: Walk-in || Mis Executive
+2026-09-21 10:24:57,658 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-21 10:24:57,658 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:24:57,672 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:24:57,672 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:24:57,685 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:24:57,685 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:24:57,698 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-21 10:24:57,698 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:24:57,712 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:24:57,712 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:24:57,725 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:24:57,725 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:26:13,616 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-21 10:27:14,907 [INFO]   [S0-HYD] AI ML Engineer: 7 listings
+2026-09-21 10:27:14,922 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-21 10:27:14,922 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:27:14,936 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:27:14,936 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:27:14,950 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:27:14,950 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:27:14,964 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:27:14,965 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:27:14,978 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-21 10:27:14,978 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:27:14,991 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:27:14,991 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:27:15,005 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:27:15,005 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:28:31,052 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-21 10:29:32,177 [INFO]   [S0-HYD] Machine Learning Engineer: 7 listings
+2026-09-21 10:29:32,190 [INFO]   [S0-HYD] Checking: Fresher Graduate
+2026-09-21 10:29:32,190 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:29:32,204 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:29:32,204 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:29:32,217 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:29:32,217 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:29:32,230 [INFO]   [S0-HYD] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:29:32,230 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:29:32,243 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
+2026-09-21 10:29:32,243 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:29:32,256 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:29:32,256 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:29:32,270 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:29:32,270 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:30:48,186 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-21 10:32:04,340 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-21 10:33:20,305 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-21 10:34:36,542 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-21 10:35:52,353 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-21 10:37:08,608 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-21 10:38:24,596 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-21 10:39:40,803 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-21 10:40:56,840 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-21 10:42:13,321 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-21 10:43:29,318 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-21 10:44:45,700 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-21 10:46:01,645 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-21 10:46:01,645 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-21 04:01:30,858 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-21 04:01:30,858 [INFO] ███████████████████████████████████████████████████████
-2026-09-21 04:02:32,173 [INFO]   [S1] Java Developer: 5 listings
-2026-09-21 04:02:32,192 [INFO]   [S1] Checking: Sap Consultant
-2026-09-21 04:02:32,192 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-21 04:02:32,205 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:02:32,205 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:02:32,218 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:02:32,218 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:02:32,232 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
-2026-09-21 04:02:32,232 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
-2026-09-21 04:02:32,245 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:02:32,245 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:03:33,392 [INFO]   [S1] Python Developer: 7 listings
-2026-09-21 04:03:33,406 [INFO]   [S1] Checking: Sap Consultant
-2026-09-21 04:03:33,406 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-21 04:03:33,419 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:03:33,419 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:03:33,432 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:03:33,432 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:03:33,458 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:03:33,458 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:03:33,471 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
-2026-09-21 04:03:33,471 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
-2026-09-21 04:03:33,485 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:03:33,485 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:04:34,635 [INFO]   [S1] SQL Developer: 5 listings
-2026-09-21 04:04:34,649 [INFO]   [S1] Checking: Sap Consultant
-2026-09-21 04:04:34,649 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-21 04:04:34,663 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:04:34,663 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:04:34,677 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:04:34,677 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:04:34,703 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:04:34,703 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:05:35,638 [INFO]   [S1] Software Engineer: 7 listings
-2026-09-21 04:05:35,651 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:05:35,652 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:05:35,665 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:05:35,665 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:05:35,679 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:05:35,679 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:05:35,705 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
-2026-09-21 04:05:35,705 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
-2026-09-21 04:05:35,718 [INFO]   [S1] Checking: Sap Consultant
-2026-09-21 04:05:35,719 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-21 04:05:35,732 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:05:35,732 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:06:36,856 [INFO]   [S1] Associate Software Engineer: 7 listings
-2026-09-21 04:06:36,869 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
-2026-09-21 04:06:36,869 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
-2026-09-21 04:06:36,882 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:06:36,882 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:06:36,895 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:06:36,895 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:06:36,921 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:06:36,921 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:06:36,936 [INFO]   [S1] Checking: Sap Consultant
-2026-09-21 04:06:36,936 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-21 04:06:36,949 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:06:36,949 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:07:37,827 [INFO]   [S1] Data Analyst: 11 listings
-2026-09-21 04:07:37,841 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:07:37,842 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:07:37,855 [INFO]   [S1] Checking: Walk-in || Mis Executive
-2026-09-21 04:07:37,855 [INFO]   [filter] No skill match: Walk-in || Mis Executive
-2026-09-21 04:07:37,868 [INFO]   [S1] Checking: Wanted B.sc Nursing Graduates
-2026-09-21 04:07:37,868 [INFO]   [filter] No skill match: Wanted B.sc Nursing Graduates
-2026-09-21 04:07:37,896 [INFO]   [S1] Checking: Wanted BAMS/BHMS/BUMS/BDS/BPT Doctors
-2026-09-21 04:07:37,896 [INFO]   [filter] Excluded 'doctor': Wanted BAMS/BHMS/BUMS/BDS/BPT Doctors
-2026-09-21 04:07:37,909 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:07:37,910 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:07:37,923 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:07:37,923 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:07:37,937 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
-2026-09-21 04:07:37,937 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
-2026-09-21 04:07:37,965 [INFO]   [S1] Checking: Sap Consultant
-2026-09-21 04:07:37,965 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-21 04:07:37,978 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:07:37,978 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:08:39,155 [INFO]   [S1] AI ML Engineer: 7 listings
-2026-09-21 04:08:39,169 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:08:39,169 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:08:39,182 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:08:39,182 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:08:39,195 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:08:39,195 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:08:39,221 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
-2026-09-21 04:08:39,221 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
-2026-09-21 04:08:39,234 [INFO]   [S1] Checking: Sap Consultant
-2026-09-21 04:08:39,234 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-21 04:08:39,248 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:08:39,249 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:09:40,455 [INFO]   [S1] Machine Learning Engineer: 7 listings
-2026-09-21 04:09:40,468 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:09:40,468 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
-2026-09-21 04:09:40,481 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:09:40,482 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-21 04:09:40,494 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:09:40,494 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
-2026-09-21 04:09:40,520 [INFO]   [S1] Checking: Junior QA Engineer / Technology Associate
-2026-09-21 04:09:40,520 [INFO]   [filter] No skill match: Junior QA Engineer / Technology Associate
-2026-09-21 04:09:40,532 [INFO]   [S1] Checking: Sap Consultant
-2026-09-21 04:09:40,533 [INFO]   [filter] No skill match: Sap Consultant
-2026-09-21 04:09:40,547 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:09:40,548 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-21 04:09:40,548 [INFO] 
+2026-09-21 10:46:01,645 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-21 10:46:01,645 [INFO] ███████████████████████████████████████████████████████
+2026-09-21 10:47:02,869 [INFO]   [S1] Java Developer: 11 listings
+2026-09-21 10:47:02,888 [INFO]   [S1] Checking: Sap Consultant
+2026-09-21 10:47:02,888 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-21 10:47:02,901 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:47:02,902 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:47:02,914 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-21 10:47:02,914 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-21 10:47:02,927 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-21 10:47:02,927 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:47:02,940 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:47:02,940 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:47:02,953 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:47:02,953 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:47:02,966 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:47:02,966 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:47:02,979 [INFO]   [S1] Checking: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:47:02,979 [INFO]   [filter] No skill match: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:47:02,993 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-21 10:47:02,993 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:47:03,006 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:47:03,006 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:47:03,019 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:47:03,019 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:48:04,474 [INFO]   [S1] Python Developer: 11 listings
+2026-09-21 10:48:04,489 [INFO]   [S1] Checking: Sap Consultant
+2026-09-21 10:48:04,489 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-21 10:48:04,502 [INFO]   [S1] Checking: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:48:04,502 [INFO]   [filter] No skill match: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:48:04,515 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:48:04,515 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:48:04,528 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-21 10:48:04,528 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-21 10:48:04,541 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-21 10:48:04,542 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:48:04,555 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:48:04,555 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:48:04,571 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:48:04,571 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:48:04,598 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:48:04,598 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:48:04,611 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:48:04,611 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:48:04,624 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:48:04,624 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:49:05,891 [INFO]   [S1] SQL Developer: 8 listings
+2026-09-21 10:49:05,905 [INFO]   [S1] Checking: Sap Consultant
+2026-09-21 10:49:05,905 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-21 10:49:05,918 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:49:05,918 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:49:05,931 [INFO]   [S1] Checking: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:49:05,931 [INFO]   [filter] No skill match: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:49:05,944 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:49:05,944 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:49:05,957 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-21 10:49:05,957 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:49:05,970 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:49:05,970 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:49:05,984 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:49:05,984 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:50:07,335 [INFO]   [S1] Software Engineer: 15 listings
+2026-09-21 10:50:07,349 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:50:07,349 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:50:07,362 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-21 10:50:07,362 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:50:07,374 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:50:07,374 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:50:07,387 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:50:07,387 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:50:07,400 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:50:07,400 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:50:07,413 [INFO]   [S1] Checking: Human Resource Recruiter
+2026-09-21 10:50:07,413 [INFO]   [filter] Excluded 'human resource': Human Resource Recruiter
+2026-09-21 10:50:07,426 [INFO]   [S1] Checking: EV Charging Station Jobs
+2026-09-21 10:50:07,426 [INFO]   [filter] No skill match: EV Charging Station Jobs
+2026-09-21 10:50:07,451 [INFO]   [S1] Checking: Sap Consultant
+2026-09-21 10:50:07,451 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-21 10:50:07,464 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:50:07,464 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:50:07,477 [INFO]   [S1] Checking: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:50:07,478 [INFO]   [filter] No skill match: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:50:07,492 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-21 10:50:07,492 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-21 10:50:07,505 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-21 10:50:07,505 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:50:07,518 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:50:07,518 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:50:07,531 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:50:07,531 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:51:09,018 [INFO]   [S1] Associate Software Engineer: 13 listings
+2026-09-21 10:51:09,032 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:51:09,032 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:51:09,046 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:51:09,046 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:51:09,059 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-21 10:51:09,059 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-21 10:51:09,072 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-21 10:51:09,073 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:51:09,086 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:51:09,086 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:51:09,100 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:51:09,100 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:51:09,113 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:51:09,113 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:51:09,140 [INFO]   [S1] Checking: Sap Consultant
+2026-09-21 10:51:09,140 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-21 10:51:09,153 [INFO]   [S1] Checking: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:51:09,153 [INFO]   [filter] No skill match: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:51:09,168 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-21 10:51:09,168 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:51:09,183 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:51:09,183 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:51:09,199 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:51:09,199 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:52:10,383 [INFO]   [S1] Data Analyst: 19 listings
+2026-09-21 10:52:10,398 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-21 10:52:10,399 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-21 10:52:10,412 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:52:10,412 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:52:10,425 [INFO]   [S1] Checking: Marketing Executive
+2026-09-21 10:52:10,426 [INFO]   [filter] Excluded 'marketing': Marketing Executive
+2026-09-21 10:52:10,439 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
+2026-09-21 10:52:10,439 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-09-21 10:52:10,452 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-21 10:52:10,452 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-21 10:52:10,466 [INFO]   [S1] Checking: Walk-in || Mis Executive
+2026-09-21 10:52:10,466 [INFO]   [filter] No skill match: Walk-in || Mis Executive
+2026-09-21 10:52:10,479 [INFO]   [S1] Checking: Wanted B.sc Nursing Graduates
+2026-09-21 10:52:10,479 [INFO]   [filter] No skill match: Wanted B.sc Nursing Graduates
+2026-09-21 10:52:10,505 [INFO]   [S1] Checking: Wanted BAMS/BHMS/BUMS/BDS/BPT Doctors
+2026-09-21 10:52:10,505 [INFO]   [filter] Excluded 'doctor': Wanted BAMS/BHMS/BUMS/BDS/BPT Doctors
+2026-09-21 10:52:10,519 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:52:10,519 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:52:10,532 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-21 10:52:10,532 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:52:10,546 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:52:10,546 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:52:10,559 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:52:10,559 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:52:10,572 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:52:10,572 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:52:10,585 [INFO]   [S1] Checking: Sap Consultant
+2026-09-21 10:52:10,585 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-21 10:52:10,598 [INFO]   [S1] Checking: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:52:10,598 [INFO]   [filter] No skill match: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:52:10,611 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-21 10:52:10,611 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:52:10,624 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:52:10,624 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:52:10,637 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:52:10,637 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:53:12,014 [INFO]   [S1] AI ML Engineer: 13 listings
+2026-09-21 10:53:12,028 [INFO]   [S1] Checking: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:53:12,028 [INFO]   [filter] No skill match: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:53:12,041 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:53:12,041 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:53:12,054 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-21 10:53:12,054 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-21 10:53:12,067 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-21 10:53:12,067 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:53:12,080 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:53:12,080 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:53:12,093 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:53:12,093 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:53:12,106 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:53:12,106 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:53:12,132 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:53:12,132 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:53:12,145 [INFO]   [S1] Checking: Sap Consultant
+2026-09-21 10:53:12,145 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-21 10:53:12,158 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-21 10:53:12,158 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:53:12,171 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:53:12,171 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:53:12,184 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:53:12,184 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:54:13,530 [INFO]   [S1] Machine Learning Engineer: 13 listings
+2026-09-21 10:54:13,544 [INFO]   [S1] Checking: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:54:13,544 [INFO]   [filter] No skill match: Software Development Intern Full Stack & Applied AI Agentic System
+2026-09-21 10:54:13,557 [INFO]   [S1] Checking: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:54:13,557 [INFO]   Already applied: Java / SAP / python/ BTP / react/ aws(Multiple Openings)
+2026-09-21 10:54:13,570 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-21 10:54:13,570 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-21 10:54:13,583 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-21 10:54:13,583 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-21 10:54:13,595 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-21 10:54:13,596 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-21 10:54:13,608 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-21 10:54:13,609 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-21 10:54:13,622 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:54:13,622 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
+2026-09-21 10:54:13,648 [INFO]   [S1] Checking: Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:54:13,648 [INFO]   [filter] Excluded 'full stack developer': Full Stack Developer (Mid-Level) Remote, Work From Home
+2026-09-21 10:54:13,661 [INFO]   [S1] Checking: Sap Consultant
+2026-09-21 10:54:13,661 [INFO]   [filter] No skill match: Sap Consultant
+2026-09-21 10:54:13,675 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-21 10:54:13,675 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-21 10:54:13,688 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:54:13,688 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-21 10:54:13,702 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:54:13,702 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-21 10:54:13,702 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-21 04:09:40,548 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-21 04:09:40,548 [INFO] ███████████████████████████████████████████████████████
-2026-09-21 04:24:53,956 [INFO] 
+2026-09-21 10:54:13,702 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-21 10:54:13,702 [INFO] ███████████████████████████████████████████████████████
+2026-09-21 11:09:26,481 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-21 04:24:53,956 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-21 04:24:53,956 [INFO] ███████████████████████████████████████████████████████
-2026-09-21 04:26:09,926 [INFO]   [S3] Java Developer: 0 listings
-2026-09-21 04:27:25,894 [INFO]   [S3] Python Developer: 0 listings
-2026-09-21 04:28:41,845 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-21 04:29:57,663 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-21 04:31:13,710 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-21 04:32:29,530 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-21 04:33:45,439 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-21 04:35:01,339 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-21 04:35:01,339 [INFO] 
+2026-09-21 11:09:26,481 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-21 11:09:26,481 [INFO] ███████████████████████████████████████████████████████
+2026-09-21 11:10:42,554 [INFO]   [S3] Java Developer: 0 listings
+2026-09-21 11:11:58,647 [INFO]   [S3] Python Developer: 0 listings
+2026-09-21 11:13:14,634 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-21 11:14:30,512 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-21 11:15:46,581 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-21 11:17:02,495 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-21 11:18:18,464 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-21 11:19:34,314 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-21 11:19:34,315 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-21 04:35:01,339 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-21 04:35:01,339 [INFO] ███████████████████████████████████████████████████████
-2026-09-21 04:50:12,970 [INFO] 
+2026-09-21 11:19:34,315 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-21 11:19:34,315 [INFO] ███████████████████████████████████████████████████████
+2026-09-21 11:34:44,847 [INFO] 
 =======================================================
-2026-09-21 04:50:12,970 [INFO]   Run complete — Applied this session : 0
-2026-09-21 04:50:12,971 [INFO]   Total ever applied                  : 330
-2026-09-21 04:50:12,971 [INFO] =======================================================
+2026-09-21 11:34:44,847 [INFO]   Run complete — Applied this session : 8
+2026-09-21 11:34:44,847 [INFO]   Total ever applied                  : 338
+2026-09-21 11:34:44,847 [INFO] =======================================================

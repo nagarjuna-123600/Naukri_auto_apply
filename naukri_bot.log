@@ -1,629 +1,505 @@
-2026-09-22 22:44:13,624 [INFO] GitHub Actions — single run mode
-2026-09-22 22:44:13,624 [INFO] 
+2026-09-23 03:24:43,141 [INFO] GitHub Actions — single run mode
+2026-09-23 03:24:43,141 [INFO] 
 =======================================================
-2026-09-22 22:44:13,624 [INFO]   Run started: 2026-09-22 22:44:13
-2026-09-22 22:44:13,624 [INFO] =======================================================
-2026-09-22 22:44:13,625 [INFO] Previously applied: 344 jobs
-2026-09-22 22:44:13,625 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-22 22:44:13,625 [INFO] ====== WebDriver manager ======
-2026-09-22 22:44:14,711 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-22 22:44:14,774 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-22 22:44:14,808 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
-2026-09-22 22:44:14,808 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-22 22:44:14,929 [INFO] WebDriver version 152.0.7977.82 selected
-2026-09-22 22:44:14,936 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-22 22:44:14,937 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
-2026-09-22 22:44:15,007 [INFO] Driver downloading response is 200
-2026-09-22 22:44:15,228 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
-2026-09-22 22:44:15,989 [INFO]   Trying cookie login...
-2026-09-22 22:44:20,396 [INFO]   Loading 34 cookies...
-2026-09-22 22:44:24,615 [INFO]   ✅ Cookie login successful!
-2026-09-22 22:44:24,615 [INFO] 
+2026-09-23 03:24:43,141 [INFO]   Run started: 2026-09-23 03:24:43
+2026-09-23 03:24:43,141 [INFO] =======================================================
+2026-09-23 03:24:43,142 [INFO] Previously applied: 345 jobs
+2026-09-23 03:24:43,143 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-23 03:24:43,143 [INFO] ====== WebDriver manager ======
+2026-09-23 03:24:43,326 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-23 03:24:43,400 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-23 03:24:43,430 [INFO] There is no [linux64] chromedriver "152.0.7977.82" for browser google-chrome "152.0.7977" in cache
+2026-09-23 03:24:43,430 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-23 03:24:43,610 [INFO] WebDriver version 152.0.7977.82 selected
+2026-09-23 03:24:43,614 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-23 03:24:43,614 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/152.0.7977.82/linux64/chromedriver-linux64.zip
+2026-09-23 03:24:43,770 [INFO] Driver downloading response is 200
+2026-09-23 03:24:44,412 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/152.0.7977.82]
+2026-09-23 03:24:45,418 [INFO]   Trying cookie login...
+2026-09-23 03:24:49,414 [INFO]   Loading 34 cookies...
+2026-09-23 03:24:53,554 [INFO]   ✅ Cookie login successful!
+2026-09-23 03:24:53,555 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-22 22:44:24,615 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-22 22:44:24,615 [INFO] ───────────────────────────────────────────────────────
-2026-09-22 22:44:24,615 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-22 22:45:31,544 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-22 22:45:37,105 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-22 22:45:39,486 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-22 22:45:42,509 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-22 22:45:45,545 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-22 22:45:45,545 [INFO] 
+2026-09-23 03:24:53,555 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-23 03:24:53,555 [INFO] ───────────────────────────────────────────────────────
+2026-09-23 03:24:53,555 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-23 03:26:00,568 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-23 03:26:06,122 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-23 03:26:08,479 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-23 03:26:11,502 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-23 03:26:14,532 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-23 03:26:14,532 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-22 22:45:45,545 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-22 22:45:45,545 [INFO] ███████████████████████████████████████████████████████
-2026-09-22 22:46:47,255 [INFO]   [S0-HYD] Java Developer: 14 listings
-2026-09-22 22:46:47,274 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-09-22 22:46:47,274 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 22:46:47,289 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 22:46:47,289 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 22:46:47,304 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 22:46:47,304 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 22:46:47,318 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 22:46:47,318 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 22:46:47,334 [INFO]   [S0-HYD] Checking: Software Associates
-2026-09-22 22:46:47,334 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 22:46:47,348 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-22 22:46:47,348 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 22:46:47,362 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 22:46:47,362 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 22:46:47,376 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 22:46:47,376 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 22:46:47,390 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-22 22:46:47,390 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 22:46:47,404 [INFO]   [S0-HYD] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 22:46:47,404 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 22:46:47,418 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-22 22:46:47,418 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-22 22:46:47,432 [INFO]   [S0-HYD] Checking: Walk-in || Software Engineer
-2026-09-22 22:46:47,432 [INFO]   Already applied: Walk-in || Software Engineer
-2026-09-22 22:46:47,445 [INFO]   [S0-HYD] Checking: Junior Software Engineer
-2026-09-22 22:46:47,445 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 22:46:47,459 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 22:46:47,459 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 22:48:03,714 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-22 22:49:04,794 [INFO]   [S0-HYD] Python Developer: 13 listings
-2026-09-22 22:49:04,808 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-09-22 22:49:04,808 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 22:49:04,822 [INFO]   [S0-HYD] Checking: Inside Sales Executive
-2026-09-22 22:49:04,822 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 22:49:04,836 [INFO]   [S0-HYD] Checking: Application Developer
-2026-09-22 22:49:04,836 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 22:49:04,852 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 22:49:04,852 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 22:49:04,867 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 22:49:04,867 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 22:49:04,883 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
-2026-09-22 22:49:04,883 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 22:49:04,898 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 22:49:04,898 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 22:49:04,912 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-22 22:49:04,912 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 22:49:04,926 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 22:49:04,926 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 22:49:04,947 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 22:49:04,947 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 22:49:04,962 [INFO]   [S0-HYD] Checking: Walk-in || Software Engineer
-2026-09-22 22:49:04,962 [INFO]   Already applied: Walk-in || Software Engineer
-2026-09-22 22:49:04,976 [INFO]   [S0-HYD] Checking: Junior Software Engineer
-2026-09-22 22:49:04,976 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 22:49:04,990 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 22:49:04,990 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 22:50:20,849 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-22 22:51:21,891 [INFO]   [S0-HYD] SQL Developer: 10 listings
-2026-09-22 22:51:21,906 [INFO]   [S0-HYD] Checking: Application Developer
-2026-09-22 22:51:21,906 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 22:51:21,920 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-09-22 22:51:21,920 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 22:51:21,934 [INFO]   [S0-HYD] Checking: Inside Sales Executive
-2026-09-22 22:51:21,934 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 22:51:21,948 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
-2026-09-22 22:51:21,948 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 22:51:21,962 [INFO]   [S0-HYD] Checking: Software Associates
-2026-09-22 22:51:21,963 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 22:51:21,976 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-22 22:51:21,976 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 22:51:21,990 [INFO]   [S0-HYD] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 22:51:21,990 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 22:51:22,004 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-22 22:51:22,004 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-22 22:51:22,018 [INFO]   [S0-HYD] Checking: Junior Software Engineer
-2026-09-22 22:51:22,018 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 22:51:22,033 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 22:51:22,033 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 22:52:37,935 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-22 22:53:39,069 [INFO]   [S0-HYD] Software Engineer: 20 listings
-2026-09-22 22:53:39,084 [INFO]   [S0-HYD] Checking: Walk-in || Software Engineer
-2026-09-22 22:53:39,084 [INFO]   Already applied: Walk-in || Software Engineer
-2026-09-22 22:53:39,098 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 22:53:39,098 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 22:53:39,112 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-22 22:53:39,112 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 22:53:39,126 [INFO]   [S0-HYD] Checking: Software Associates
-2026-09-22 22:53:39,126 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 22:53:39,141 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 22:53:39,141 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 22:53:39,155 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-09-22 22:53:39,155 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 22:53:39,169 [INFO]   [S0-HYD] Checking: EV Charging Station Jobs
-2026-09-22 22:53:39,169 [INFO]   [filter] No skill match: EV Charging Station Jobs
-2026-09-22 22:53:39,183 [INFO]   [S0-HYD] Checking: IT Fresher
-2026-09-22 22:54:36,619 [INFO]   [location] ✅ Hyderabad
-2026-09-22 22:54:36,898 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-22 22:54:36,898 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-09-22 22:54:36,899 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-09-22 22:54:36,899 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-09-22 22:54:36,939 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-22 22:54:36,939 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-09-22 22:55:33,180 [INFO]   Clicked Apply: IT Fresher
-2026-09-22 22:57:47,263 [INFO]   ✅ Applied: IT Fresher
-2026-09-22 22:57:49,348 [INFO]   [S0-HYD] Checking: Application Developer
-2026-09-22 22:57:49,348 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 22:57:49,363 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
-2026-09-22 22:57:49,363 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 22:57:49,378 [INFO]   [S0-HYD] Checking: Inside Sales Executive
-2026-09-22 22:57:49,378 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 22:57:49,392 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 22:57:49,392 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 22:57:49,407 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 22:57:49,408 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 22:57:49,422 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 22:57:49,423 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 22:57:49,437 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-22 22:57:49,437 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 22:57:49,451 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 22:57:49,451 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 22:57:49,465 [INFO]   [S0-HYD] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 22:57:49,465 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 22:57:49,479 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-22 22:57:49,479 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-22 22:57:49,493 [INFO]   [S0-HYD] Checking: Junior Software Engineer
-2026-09-22 22:57:49,494 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 22:57:49,509 [INFO]   [S0-HYD] Checking: Human Resource Recruiter
-2026-09-22 22:57:49,509 [INFO]   [filter] Excluded 'human resource': Human Resource Recruiter
-2026-09-22 22:59:05,591 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-22 23:00:07,137 [INFO]   [S0-HYD] Associate Software Engineer: 17 listings
-2026-09-22 23:00:07,152 [INFO]   [S0-HYD] Checking: Software Associates
-2026-09-22 23:00:07,152 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 23:00:07,168 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-09-22 23:00:07,168 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 23:00:07,183 [INFO]   [S0-HYD] Checking: Inside Sales Executive
-2026-09-22 23:00:07,183 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 23:00:07,198 [INFO]   [S0-HYD] Checking: Application Developer
-2026-09-22 23:00:07,198 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 23:00:07,213 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 23:00:07,213 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:00:07,228 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 23:00:07,228 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:00:07,243 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
-2026-09-22 23:00:07,243 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 23:00:07,258 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:00:07,258 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:00:07,274 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-22 23:00:07,274 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 23:00:07,289 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 23:00:07,289 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 23:00:07,304 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 23:00:07,304 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 23:00:07,319 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-22 23:00:07,319 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 23:00:07,334 [INFO]   [S0-HYD] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:00:07,334 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:00:07,350 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:00:07,350 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:00:07,365 [INFO]   [S0-HYD] Checking: Walk-in || Software Engineer
-2026-09-22 23:00:07,365 [INFO]   Already applied: Walk-in || Software Engineer
-2026-09-22 23:00:07,380 [INFO]   [S0-HYD] Checking: Junior Software Engineer
-2026-09-22 23:00:07,380 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 23:00:07,395 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:00:07,395 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:01:23,361 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-22 23:02:24,534 [INFO]   [S0-HYD] Data Analyst: 20 listings
-2026-09-22 23:02:24,548 [INFO]   [S0-HYD] Checking: Walk-in || Junior Analyst
-2026-09-22 23:02:24,548 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
-2026-09-22 23:02:24,563 [INFO]   [S0-HYD] Checking: Application Developer
-2026-09-22 23:02:24,563 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 23:02:24,576 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 23:02:24,577 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:02:24,591 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 23:02:24,591 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:02:24,605 [INFO]   [S0-HYD] Checking: Software Associates
-2026-09-22 23:02:24,605 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 23:02:24,619 [INFO]   [S0-HYD] Checking: Business Management Trainee - Graduates and Freshers
-2026-09-22 23:02:24,620 [INFO]   [filter] No skill match: Business Management Trainee - Graduates and Freshers
-2026-09-22 23:02:24,634 [INFO]   [S0-HYD] Checking: Client Data Professional
-2026-09-22 23:02:24,634 [INFO]   [filter] No skill match: Client Data Professional
-2026-09-22 23:02:24,648 [INFO]   [S0-HYD] Checking: Pharmacovigilance Associate
-2026-09-22 23:02:24,648 [INFO]   [filter] No skill match: Pharmacovigilance Associate
-2026-09-22 23:02:24,664 [INFO]   [S0-HYD] Checking: Digital Sales Manager
-2026-09-22 23:02:24,664 [INFO]   [filter] Excluded 'manager': Digital Sales Manager
-2026-09-22 23:02:24,681 [INFO]   [S0-HYD] Checking: Marketing Executive
-2026-09-22 23:02:24,681 [INFO]   [filter] Excluded 'marketing': Marketing Executive
-2026-09-22 23:02:24,696 [INFO]   [S0-HYD] Checking: Data Analytic | Fresher | Business Analytics
-2026-09-22 23:02:24,696 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
-2026-09-22 23:02:24,710 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-09-22 23:02:24,710 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 23:02:24,727 [INFO]   [S0-HYD] Checking: Inside Sales Executive
-2026-09-22 23:02:24,727 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 23:02:24,743 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
-2026-09-22 23:02:24,743 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 23:02:24,758 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:02:24,758 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:02:24,772 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-22 23:02:24,772 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 23:02:24,788 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 23:02:24,788 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 23:02:24,803 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 23:02:24,803 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 23:02:24,818 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-22 23:02:24,818 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 23:02:24,832 [INFO]   [S0-HYD] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:02:24,833 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:03:40,747 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-22 23:04:42,903 [INFO]   [S0-HYD] AI ML Engineer: 17 listings
-2026-09-22 23:04:42,917 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-09-22 23:04:42,917 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 23:04:42,932 [INFO]   [S0-HYD] Checking: Inside Sales Executive
-2026-09-22 23:04:42,932 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 23:04:42,947 [INFO]   [S0-HYD] Checking: Application Developer
-2026-09-22 23:04:42,947 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 23:04:42,961 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 23:04:42,961 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:04:42,976 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 23:04:42,976 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:04:42,991 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
-2026-09-22 23:04:42,991 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 23:04:43,008 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:04:43,008 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:04:43,023 [INFO]   [S0-HYD] Checking: Software Associates
-2026-09-22 23:04:43,023 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 23:04:43,039 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-22 23:04:43,039 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 23:04:43,054 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 23:04:43,054 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 23:04:43,070 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 23:04:43,070 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 23:04:43,086 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-22 23:04:43,086 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 23:04:43,103 [INFO]   [S0-HYD] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:04:43,103 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:04:43,121 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:04:43,122 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:04:43,140 [INFO]   [S0-HYD] Checking: Walk-in || Software Engineer
-2026-09-22 23:04:43,140 [INFO]   Already applied: Walk-in || Software Engineer
-2026-09-22 23:04:43,157 [INFO]   [S0-HYD] Checking: Junior Software Engineer
-2026-09-22 23:04:43,157 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 23:04:43,174 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:04:43,174 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:05:59,159 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-22 23:07:00,296 [INFO]   [S0-HYD] Machine Learning Engineer: 17 listings
-2026-09-22 23:07:00,315 [INFO]   [S0-HYD] Checking: Agent Product Builder
-2026-09-22 23:07:00,315 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 23:07:00,332 [INFO]   [S0-HYD] Checking: Inside Sales Executive
-2026-09-22 23:07:00,332 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 23:07:00,347 [INFO]   [S0-HYD] Checking: Application Developer
-2026-09-22 23:07:00,347 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 23:07:00,362 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 23:07:00,362 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:07:00,377 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-22 23:07:00,377 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:07:00,392 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
-2026-09-22 23:07:00,392 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 23:07:00,407 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:07:00,407 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:07:00,422 [INFO]   [S0-HYD] Checking: Software Associates
-2026-09-22 23:07:00,422 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 23:07:00,437 [INFO]   [S0-HYD] Checking: Fresher Graduate
-2026-09-22 23:07:00,437 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 23:07:00,454 [INFO]   [S0-HYD] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 23:07:00,455 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 23:07:00,470 [INFO]   [S0-HYD] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 23:07:00,470 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 23:07:00,485 [INFO]   [S0-HYD] Checking: Software Development Engineer 1
-2026-09-22 23:07:00,485 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 23:07:00,500 [INFO]   [S0-HYD] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:07:00,500 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:07:00,514 [INFO]   [S0-HYD] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:07:00,514 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:07:00,530 [INFO]   [S0-HYD] Checking: Walk-in || Software Engineer
-2026-09-22 23:07:00,530 [INFO]   Already applied: Walk-in || Software Engineer
-2026-09-22 23:07:00,545 [INFO]   [S0-HYD] Checking: Junior Software Engineer
-2026-09-22 23:07:00,545 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 23:07:00,560 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:07:00,560 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:08:16,510 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-22 23:09:32,846 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-22 23:10:48,938 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-22 23:12:05,080 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-22 23:13:20,921 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-22 23:14:37,815 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-22 23:15:54,254 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-22 23:17:10,452 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-22 23:18:26,307 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-22 23:19:42,518 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-22 23:20:58,434 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-22 23:22:14,491 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-22 23:23:30,495 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-22 23:23:30,495 [INFO] 
+2026-09-23 03:26:14,533 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-23 03:26:14,533 [INFO] ███████████████████████████████████████████████████████
+2026-09-23 03:27:16,002 [INFO]   [S0-HYD] Java Developer: 7 listings
+2026-09-23 03:27:16,019 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-09-23 03:27:16,019 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 03:27:16,031 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:27:16,031 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:27:16,043 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:27:16,043 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:27:16,054 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:27:16,054 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:27:16,066 [INFO]   [S0-HYD] Checking: Software Associates
+2026-09-23 03:27:16,066 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 03:27:16,077 [INFO]   [S0-HYD] Checking: Junior Software Engineer
+2026-09-23 03:27:16,078 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 03:27:16,089 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:27:16,089 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:28:31,919 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-23 03:29:33,070 [INFO]   [S0-HYD] Python Developer: 9 listings
+2026-09-23 03:29:33,082 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-09-23 03:29:33,083 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 03:29:33,094 [INFO]   [S0-HYD] Checking: Inside Sales Executive
+2026-09-23 03:29:33,094 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 03:29:33,106 [INFO]   [S0-HYD] Checking: Application Developer
+2026-09-23 03:29:33,106 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 03:29:33,119 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:29:33,120 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:29:33,131 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:29:33,131 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:29:33,143 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
+2026-09-23 03:29:33,143 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 03:29:33,155 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:29:33,155 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:29:33,166 [INFO]   [S0-HYD] Checking: Junior Software Engineer
+2026-09-23 03:29:33,166 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 03:29:33,178 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:29:33,179 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:30:48,787 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-23 03:31:50,057 [INFO]   [S0-HYD] SQL Developer: 7 listings
+2026-09-23 03:31:50,069 [INFO]   [S0-HYD] Checking: Application Developer
+2026-09-23 03:31:50,070 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 03:31:50,081 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-09-23 03:31:50,082 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 03:31:50,093 [INFO]   [S0-HYD] Checking: Inside Sales Executive
+2026-09-23 03:31:50,093 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 03:31:50,105 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
+2026-09-23 03:31:50,106 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 03:31:50,117 [INFO]   [S0-HYD] Checking: Software Associates
+2026-09-23 03:31:50,118 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 03:31:50,129 [INFO]   [S0-HYD] Checking: Junior Software Engineer
+2026-09-23 03:31:50,129 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 03:31:50,140 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:31:50,141 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:33:06,067 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-23 03:34:07,183 [INFO]   [S0-HYD] Software Engineer: 10 listings
+2026-09-23 03:34:07,196 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:34:07,196 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:34:07,207 [INFO]   [S0-HYD] Checking: Software Associates
+2026-09-23 03:34:07,207 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 03:34:07,220 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-09-23 03:34:07,220 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 03:34:07,231 [INFO]   [S0-HYD] Checking: Application Developer
+2026-09-23 03:34:07,231 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 03:34:07,243 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
+2026-09-23 03:34:07,243 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 03:34:07,255 [INFO]   [S0-HYD] Checking: Inside Sales Executive
+2026-09-23 03:34:07,255 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 03:34:07,267 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:34:07,267 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:34:07,279 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:34:07,279 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:34:07,290 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:34:07,290 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:34:07,302 [INFO]   [S0-HYD] Checking: Junior Software Engineer
+2026-09-23 03:34:07,302 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 03:35:23,078 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-23 03:36:24,287 [INFO]   [S0-HYD] Associate Software Engineer: 10 listings
+2026-09-23 03:36:24,299 [INFO]   [S0-HYD] Checking: Software Associates
+2026-09-23 03:36:24,299 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 03:36:24,311 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-09-23 03:36:24,311 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 03:36:24,323 [INFO]   [S0-HYD] Checking: Inside Sales Executive
+2026-09-23 03:36:24,323 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 03:36:24,335 [INFO]   [S0-HYD] Checking: Application Developer
+2026-09-23 03:36:24,335 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 03:36:24,347 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:36:24,347 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:36:24,358 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:36:24,359 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:36:24,370 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
+2026-09-23 03:36:24,370 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 03:36:24,382 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:36:24,382 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:36:24,394 [INFO]   [S0-HYD] Checking: Junior Software Engineer
+2026-09-23 03:36:24,394 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 03:36:24,406 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:36:24,406 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:37:40,329 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-23 03:38:41,639 [INFO]   [S0-HYD] Data Analyst: 13 listings
+2026-09-23 03:38:41,651 [INFO]   [S0-HYD] Checking: Application Developer
+2026-09-23 03:38:41,651 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 03:38:41,663 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:38:41,663 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:38:41,674 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:38:41,674 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:38:41,688 [INFO]   [S0-HYD] Checking: Software Associates
+2026-09-23 03:38:41,688 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 03:38:41,700 [INFO]   [S0-HYD] Checking: Business Management Trainee - Graduates and Freshers
+2026-09-23 03:38:41,700 [INFO]   [filter] No skill match: Business Management Trainee - Graduates and Freshers
+2026-09-23 03:38:41,711 [INFO]   [S0-HYD] Checking: Client Data Professional
+2026-09-23 03:38:41,711 [INFO]   [filter] No skill match: Client Data Professional
+2026-09-23 03:38:41,723 [INFO]   [S0-HYD] Checking: Pharmacovigilance Associate
+2026-09-23 03:38:41,723 [INFO]   [filter] No skill match: Pharmacovigilance Associate
+2026-09-23 03:38:41,735 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-09-23 03:38:41,735 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 03:38:41,747 [INFO]   [S0-HYD] Checking: Inside Sales Executive
+2026-09-23 03:38:41,747 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 03:38:41,758 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
+2026-09-23 03:38:41,758 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 03:38:41,770 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:38:41,770 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:38:41,781 [INFO]   [S0-HYD] Checking: Junior Software Engineer
+2026-09-23 03:38:41,781 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 03:38:41,793 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:38:41,793 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:39:57,523 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-23 03:40:58,693 [INFO]   [S0-HYD] AI ML Engineer: 10 listings
+2026-09-23 03:40:58,705 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-09-23 03:40:58,705 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 03:40:58,717 [INFO]   [S0-HYD] Checking: Inside Sales Executive
+2026-09-23 03:40:58,717 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 03:40:58,728 [INFO]   [S0-HYD] Checking: Application Developer
+2026-09-23 03:40:58,729 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 03:40:58,740 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:40:58,740 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:40:58,751 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:40:58,751 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:40:58,762 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
+2026-09-23 03:40:58,763 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 03:40:58,775 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:40:58,775 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:40:58,787 [INFO]   [S0-HYD] Checking: Software Associates
+2026-09-23 03:40:58,787 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 03:40:58,798 [INFO]   [S0-HYD] Checking: Junior Software Engineer
+2026-09-23 03:40:58,799 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 03:40:58,810 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:40:58,810 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:42:14,783 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-23 03:43:16,081 [INFO]   [S0-HYD] Machine Learning Engineer: 10 listings
+2026-09-23 03:43:16,093 [INFO]   [S0-HYD] Checking: Agent Product Builder
+2026-09-23 03:43:16,093 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 03:43:16,105 [INFO]   [S0-HYD] Checking: Inside Sales Executive
+2026-09-23 03:43:16,105 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 03:43:16,116 [INFO]   [S0-HYD] Checking: Application Developer
+2026-09-23 03:43:16,117 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 03:43:16,128 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:43:16,128 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:43:16,141 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-23 03:43:16,141 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 03:43:16,153 [INFO]   [S0-HYD] Checking: Adobe / AEM Architect
+2026-09-23 03:43:16,153 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 03:43:16,164 [INFO]   [S0-HYD] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:43:16,164 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 03:43:16,176 [INFO]   [S0-HYD] Checking: Software Associates
+2026-09-23 03:43:16,176 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 03:43:16,188 [INFO]   [S0-HYD] Checking: Junior Software Engineer
+2026-09-23 03:43:16,188 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 03:43:16,199 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:43:16,199 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 03:44:31,958 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-23 03:45:48,075 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-23 03:47:03,869 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-23 03:48:20,167 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-23 03:49:36,040 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-23 03:50:52,290 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-23 03:52:08,037 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-23 03:53:24,263 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-23 03:54:40,234 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-23 03:55:56,291 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-23 03:57:12,071 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-23 03:58:28,228 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-23 03:59:44,222 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-23 03:59:44,222 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-22 23:23:30,495 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-22 23:23:30,495 [INFO] ███████████████████████████████████████████████████████
-2026-09-22 23:24:31,722 [INFO]   [S1] Java Developer: 15 listings
-2026-09-22 23:24:31,742 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-22 23:24:31,742 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 23:24:31,756 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:24:31,756 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:24:31,770 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:24:31,770 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:24:31,784 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:24:31,784 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:24:31,798 [INFO]   [S1] Checking: Software Associates
-2026-09-22 23:24:31,798 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 23:24:31,812 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-22 23:24:31,812 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 23:24:31,826 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 23:24:31,826 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 23:24:31,840 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 23:24:31,840 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 23:24:31,854 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:24:31,854 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:24:31,868 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-22 23:24:31,868 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 23:24:31,882 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:24:31,882 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:24:31,895 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:24:31,896 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:24:31,910 [INFO]   [S1] Checking: Walk-in || Software Engineer
-2026-09-22 23:24:31,910 [INFO]   Already applied: Walk-in || Software Engineer
-2026-09-22 23:24:31,925 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-22 23:24:31,925 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 23:24:31,940 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:24:31,940 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:25:33,059 [INFO]   [S1] Python Developer: 14 listings
-2026-09-22 23:25:33,073 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-22 23:25:33,073 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 23:25:33,087 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-22 23:25:33,087 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 23:25:33,101 [INFO]   [S1] Checking: Application Developer
-2026-09-22 23:25:33,101 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 23:25:33,115 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:25:33,115 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:25:33,128 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:25:33,128 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:25:33,142 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-22 23:25:33,142 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 23:25:33,155 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:25:33,155 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:25:33,169 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-22 23:25:33,169 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 23:25:33,183 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 23:25:33,183 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 23:25:33,196 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 23:25:33,196 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 23:25:33,209 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:25:33,210 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:25:33,223 [INFO]   [S1] Checking: Walk-in || Software Engineer
-2026-09-22 23:25:33,224 [INFO]   Already applied: Walk-in || Software Engineer
-2026-09-22 23:25:33,237 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-22 23:25:33,237 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 23:25:33,251 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:25:33,251 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:26:34,474 [INFO]   [S1] SQL Developer: 10 listings
-2026-09-22 23:26:34,489 [INFO]   [S1] Checking: Application Developer
-2026-09-22 23:26:34,489 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 23:26:34,502 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-22 23:26:34,502 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 23:26:34,515 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-22 23:26:34,515 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 23:26:34,529 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-22 23:26:34,529 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 23:26:34,544 [INFO]   [S1] Checking: Software Associates
-2026-09-22 23:26:34,544 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 23:26:34,558 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-22 23:26:34,558 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 23:26:34,571 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:26:34,571 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:26:34,585 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:26:34,585 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:26:34,598 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-22 23:26:34,598 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 23:26:34,614 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:26:34,614 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:27:35,708 [INFO]   [S1] Software Engineer: 20 listings
-2026-09-22 23:27:35,723 [INFO]   [S1] Checking: Walk-in || Software Engineer
-2026-09-22 23:27:35,723 [INFO]   Already applied: Walk-in || Software Engineer
-2026-09-22 23:27:35,737 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:27:35,737 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:27:35,752 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-22 23:27:35,752 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 23:27:35,765 [INFO]   [S1] Checking: Software Associates
-2026-09-22 23:27:35,766 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 23:27:35,779 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 23:27:35,779 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 23:27:35,796 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:27:35,797 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:27:35,812 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-22 23:27:35,812 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 23:27:35,827 [INFO]   [S1] Checking: EV Charging Station Jobs
-2026-09-22 23:27:35,827 [INFO]   [filter] No skill match: EV Charging Station Jobs
-2026-09-22 23:27:35,842 [INFO]   [S1] Checking: Application Developer
-2026-09-22 23:27:35,842 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 23:27:35,857 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-22 23:27:35,857 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 23:27:35,871 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-22 23:27:35,871 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 23:27:35,886 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:27:35,886 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:27:35,901 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:27:35,901 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:27:35,916 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:27:35,917 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:27:35,931 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-22 23:27:35,931 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 23:27:35,946 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 23:27:35,946 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 23:27:35,960 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:27:35,960 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:27:35,973 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:27:35,973 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:27:35,987 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-22 23:27:35,987 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 23:27:36,001 [INFO]   [S1] Checking: Human Resource Recruiter
-2026-09-22 23:27:36,001 [INFO]   [filter] Excluded 'human resource': Human Resource Recruiter
-2026-09-22 23:28:37,159 [INFO]   [S1] Associate Software Engineer: 18 listings
-2026-09-22 23:28:37,175 [INFO]   [S1] Checking: Software Associates
-2026-09-22 23:28:37,175 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 23:28:37,190 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-22 23:28:37,190 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 23:28:37,203 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-22 23:28:37,203 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 23:28:37,217 [INFO]   [S1] Checking: Application Developer
-2026-09-22 23:28:37,217 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 23:28:37,230 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:28:37,231 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:28:37,244 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:28:37,244 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:28:37,257 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-22 23:28:37,257 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 23:28:37,293 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:28:37,293 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:28:37,316 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-22 23:28:37,317 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 23:28:37,331 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 23:28:37,331 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 23:28:37,344 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 23:28:37,345 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 23:28:37,358 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:28:37,358 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:28:37,372 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-22 23:28:37,372 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 23:28:37,386 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:28:37,386 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:28:37,400 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:28:37,400 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:28:37,414 [INFO]   [S1] Checking: Walk-in || Software Engineer
-2026-09-22 23:28:37,414 [INFO]   Already applied: Walk-in || Software Engineer
-2026-09-22 23:28:37,428 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-22 23:28:37,428 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 23:28:37,441 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:28:37,441 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:29:38,490 [INFO]   [S1] Data Analyst: 20 listings
-2026-09-22 23:29:38,505 [INFO]   [S1] Checking: Walk-in || Junior Analyst
-2026-09-22 23:29:38,505 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
-2026-09-22 23:29:38,519 [INFO]   [S1] Checking: Application Developer
-2026-09-22 23:29:38,519 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 23:29:38,534 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:29:38,534 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:29:38,548 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:29:38,548 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:29:38,563 [INFO]   [S1] Checking: Software Associates
-2026-09-22 23:29:38,563 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 23:29:38,578 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:29:38,578 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:29:38,593 [INFO]   [S1] Checking: Business Management Trainee - Graduates and Freshers
-2026-09-22 23:29:38,593 [INFO]   [filter] No skill match: Business Management Trainee - Graduates and Freshers
-2026-09-22 23:29:38,609 [INFO]   [S1] Checking: Client Data Professional
-2026-09-22 23:29:38,609 [INFO]   [filter] No skill match: Client Data Professional
-2026-09-22 23:29:38,624 [INFO]   [S1] Checking: Pharmacovigilance Associate
-2026-09-22 23:29:38,625 [INFO]   [filter] No skill match: Pharmacovigilance Associate
-2026-09-22 23:29:38,639 [INFO]   [S1] Checking: Digital Sales Manager
-2026-09-22 23:29:38,639 [INFO]   [filter] Excluded 'manager': Digital Sales Manager
-2026-09-22 23:29:38,655 [INFO]   [S1] Checking: Marketing Executive
-2026-09-22 23:29:38,655 [INFO]   [filter] Excluded 'marketing': Marketing Executive
-2026-09-22 23:29:38,671 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
-2026-09-22 23:29:38,671 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
-2026-09-22 23:29:38,687 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-22 23:29:38,687 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 23:29:38,702 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-22 23:29:38,702 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 23:29:38,717 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-22 23:29:38,717 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 23:29:38,733 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:29:38,733 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:29:38,747 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-22 23:29:38,747 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 23:29:38,762 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 23:29:38,762 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 23:29:38,776 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 23:29:38,776 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 23:29:38,790 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-22 23:29:38,790 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 23:30:40,059 [INFO]   [S1] AI ML Engineer: 18 listings
-2026-09-22 23:30:40,076 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-22 23:30:40,076 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 23:30:40,093 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-22 23:30:40,093 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 23:30:40,109 [INFO]   [S1] Checking: Application Developer
-2026-09-22 23:30:40,110 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 23:30:40,126 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:30:40,126 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:30:40,144 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:30:40,145 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:30:40,161 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-22 23:30:40,161 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 23:30:40,177 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:30:40,177 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:30:40,194 [INFO]   [S1] Checking: Software Associates
-2026-09-22 23:30:40,194 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 23:30:40,210 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-22 23:30:40,210 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 23:30:40,226 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 23:30:40,226 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 23:30:40,241 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 23:30:40,241 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 23:30:40,255 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:30:40,256 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:30:40,270 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-22 23:30:40,270 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 23:30:40,284 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:30:40,284 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:30:40,298 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:30:40,298 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:30:40,312 [INFO]   [S1] Checking: Walk-in || Software Engineer
-2026-09-22 23:30:40,313 [INFO]   Already applied: Walk-in || Software Engineer
-2026-09-22 23:30:40,326 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-22 23:30:40,326 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 23:30:40,340 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:30:40,340 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:31:41,562 [INFO]   [S1] Machine Learning Engineer: 18 listings
-2026-09-22 23:31:41,576 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-22 23:31:41,576 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-22 23:31:41,589 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-22 23:31:41,589 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-22 23:31:41,602 [INFO]   [S1] Checking: Application Developer
-2026-09-22 23:31:41,602 [INFO]   [filter] No skill match: Application Developer
-2026-09-22 23:31:41,616 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:31:41,616 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:31:41,629 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-22 23:31:41,630 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-22 23:31:41,643 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-22 23:31:41,643 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-22 23:31:41,656 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:31:41,657 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-22 23:31:41,670 [INFO]   [S1] Checking: Software Associates
-2026-09-22 23:31:41,670 [INFO]   [filter] No skill match: Software Associates
-2026-09-22 23:31:41,684 [INFO]   [S1] Checking: Fresher Graduate
-2026-09-22 23:31:41,684 [INFO]   [filter] No skill match: Fresher Graduate
-2026-09-22 23:31:41,698 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
-2026-09-22 23:31:41,698 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
-2026-09-22 23:31:41,713 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
-2026-09-22 23:31:41,713 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
-2026-09-22 23:31:41,728 [INFO]   [S1] Checking: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:31:41,728 [INFO]   [filter] No skill match: Business Systems Analyst (Only B.com/B.sc with Math) - No Remote
-2026-09-22 23:31:41,745 [INFO]   [S1] Checking: Software Development Engineer 1
-2026-09-22 23:31:41,745 [INFO]   [filter] No skill match: Software Development Engineer 1
-2026-09-22 23:31:41,759 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:31:41,759 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
-2026-09-22 23:31:41,774 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:31:41,774 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
-2026-09-22 23:31:41,789 [INFO]   [S1] Checking: Walk-in || Software Engineer
-2026-09-22 23:31:41,789 [INFO]   Already applied: Walk-in || Software Engineer
-2026-09-22 23:31:41,804 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-22 23:31:41,804 [INFO]   Already applied: Junior Software Engineer
-2026-09-22 23:31:41,818 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:31:41,818 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-22 23:31:41,818 [INFO] 
+2026-09-23 03:59:44,222 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-23 03:59:44,222 [INFO] ███████████████████████████████████████████████████████
+2026-09-23 04:00:45,484 [INFO]   [S1] Java Developer: 14 listings
+2026-09-23 04:00:45,502 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-23 04:00:45,502 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 04:00:45,514 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:00:45,514 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:00:45,525 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:00:45,525 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:00:45,537 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:00:45,537 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:00:45,549 [INFO]   [S1] Checking: Software Associates
+2026-09-23 04:00:45,549 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 04:00:45,561 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-23 04:00:45,561 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-23 04:00:45,572 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-23 04:00:45,572 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-23 04:00:45,584 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-23 04:00:45,584 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-23 04:00:45,596 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-23 04:00:45,596 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-23 04:00:45,608 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:00:45,608 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:00:45,619 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-23 04:00:45,619 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-23 04:00:45,631 [INFO]   [S1] Checking: Walk-in || Software Engineer
+2026-09-23 04:00:45,632 [INFO]   Already applied: Walk-in || Software Engineer
+2026-09-23 04:00:45,643 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-23 04:00:45,643 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 04:00:45,654 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:00:45,655 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:01:46,989 [INFO]   [S1] Python Developer: 13 listings
+2026-09-23 04:01:47,002 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-23 04:01:47,002 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 04:01:47,014 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-23 04:01:47,014 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 04:01:47,026 [INFO]   [S1] Checking: Application Developer
+2026-09-23 04:01:47,026 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 04:01:47,037 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:01:47,037 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:01:47,049 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:01:47,049 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:01:47,061 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-23 04:01:47,061 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 04:01:47,072 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:01:47,072 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:01:47,084 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-23 04:01:47,084 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-23 04:01:47,096 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-23 04:01:47,096 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-23 04:01:47,107 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-23 04:01:47,107 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-23 04:01:47,119 [INFO]   [S1] Checking: Walk-in || Software Engineer
+2026-09-23 04:01:47,119 [INFO]   Already applied: Walk-in || Software Engineer
+2026-09-23 04:01:47,130 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-23 04:01:47,130 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 04:01:47,142 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:01:47,142 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:02:48,344 [INFO]   [S1] SQL Developer: 10 listings
+2026-09-23 04:02:48,357 [INFO]   [S1] Checking: Application Developer
+2026-09-23 04:02:48,357 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 04:02:48,369 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-23 04:02:48,369 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 04:02:48,381 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-23 04:02:48,381 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 04:02:48,392 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-23 04:02:48,392 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 04:02:48,404 [INFO]   [S1] Checking: Software Associates
+2026-09-23 04:02:48,404 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 04:02:48,417 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-23 04:02:48,417 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-23 04:02:48,429 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:02:48,429 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:02:48,442 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-23 04:02:48,442 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-23 04:02:48,454 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-23 04:02:48,454 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 04:02:48,466 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:02:48,466 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:03:49,624 [INFO]   [S1] Software Engineer: 19 listings
+2026-09-23 04:03:49,636 [INFO]   [S1] Checking: Walk-in || Software Engineer
+2026-09-23 04:03:49,636 [INFO]   Already applied: Walk-in || Software Engineer
+2026-09-23 04:03:49,648 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:03:49,648 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:03:49,661 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-23 04:03:49,661 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-23 04:03:49,673 [INFO]   [S1] Checking: Software Associates
+2026-09-23 04:03:49,673 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 04:03:49,684 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-23 04:03:49,684 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-23 04:03:49,696 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-23 04:03:49,696 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 04:03:49,708 [INFO]   [S1] Checking: EV Charging Station Jobs
+2026-09-23 04:03:49,708 [INFO]   [filter] No skill match: EV Charging Station Jobs
+2026-09-23 04:03:49,719 [INFO]   [S1] Checking: Application Developer
+2026-09-23 04:03:49,719 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 04:03:49,731 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-23 04:03:49,731 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 04:03:49,743 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-23 04:03:49,743 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 04:03:49,754 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:03:49,754 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:03:49,766 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:03:49,766 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:03:49,777 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:03:49,777 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:03:49,789 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-23 04:03:49,789 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-23 04:03:49,800 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-23 04:03:49,800 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-23 04:03:49,812 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:03:49,812 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:03:49,823 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-23 04:03:49,824 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-23 04:03:49,835 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-23 04:03:49,835 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 04:03:49,846 [INFO]   [S1] Checking: Human Resource Recruiter
+2026-09-23 04:03:49,846 [INFO]   [filter] Excluded 'human resource': Human Resource Recruiter
+2026-09-23 04:04:51,210 [INFO]   [S1] Associate Software Engineer: 17 listings
+2026-09-23 04:04:51,223 [INFO]   [S1] Checking: Software Associates
+2026-09-23 04:04:51,223 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 04:04:51,234 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-23 04:04:51,235 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 04:04:51,246 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-23 04:04:51,246 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 04:04:51,258 [INFO]   [S1] Checking: Application Developer
+2026-09-23 04:04:51,258 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 04:04:51,269 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:04:51,269 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:04:51,281 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:04:51,281 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:04:51,292 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-23 04:04:51,292 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 04:04:51,304 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:04:51,304 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:04:51,315 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-23 04:04:51,315 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-23 04:04:51,327 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-23 04:04:51,327 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-23 04:04:51,338 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-23 04:04:51,338 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-23 04:04:51,350 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-23 04:04:51,350 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-23 04:04:51,362 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:04:51,362 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:04:51,374 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-23 04:04:51,374 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-23 04:04:51,385 [INFO]   [S1] Checking: Walk-in || Software Engineer
+2026-09-23 04:04:51,385 [INFO]   Already applied: Walk-in || Software Engineer
+2026-09-23 04:04:51,397 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-23 04:04:51,397 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 04:04:51,408 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:04:51,408 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:05:52,591 [INFO]   [S1] Data Analyst: 20 listings
+2026-09-23 04:05:52,605 [INFO]   [S1] Checking: Walk-in || Junior Analyst
+2026-09-23 04:05:52,605 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
+2026-09-23 04:05:52,617 [INFO]   [S1] Checking: Application Developer
+2026-09-23 04:05:52,617 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 04:05:52,629 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:05:52,629 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:05:52,641 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:05:52,641 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:05:52,653 [INFO]   [S1] Checking: Software Associates
+2026-09-23 04:05:52,653 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 04:05:52,665 [INFO]   [S1] Checking: Business Management Trainee - Graduates and Freshers
+2026-09-23 04:05:52,666 [INFO]   [filter] No skill match: Business Management Trainee - Graduates and Freshers
+2026-09-23 04:05:52,678 [INFO]   [S1] Checking: Client Data Professional
+2026-09-23 04:05:52,678 [INFO]   [filter] No skill match: Client Data Professional
+2026-09-23 04:05:52,689 [INFO]   [S1] Checking: Pharmacovigilance Associate
+2026-09-23 04:05:52,690 [INFO]   [filter] No skill match: Pharmacovigilance Associate
+2026-09-23 04:05:52,702 [INFO]   [S1] Checking: Digital Sales Manager
+2026-09-23 04:05:52,702 [INFO]   [filter] Excluded 'manager': Digital Sales Manager
+2026-09-23 04:05:52,714 [INFO]   [S1] Checking: Marketing Executive
+2026-09-23 04:05:52,714 [INFO]   [filter] Excluded 'marketing': Marketing Executive
+2026-09-23 04:05:52,726 [INFO]   [S1] Checking: Data Analytic | Fresher | Business Analytics
+2026-09-23 04:05:52,726 [INFO]   [filter] No skill match: Data Analytic | Fresher | Business Analytics
+2026-09-23 04:05:52,739 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-23 04:05:52,739 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 04:05:52,751 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-23 04:05:52,751 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 04:05:52,763 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-23 04:05:52,763 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 04:05:52,774 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:05:52,775 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:05:52,786 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-23 04:05:52,786 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-23 04:05:52,798 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-23 04:05:52,798 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-23 04:05:52,810 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-23 04:05:52,810 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-23 04:05:52,821 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-23 04:05:52,821 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-23 04:05:52,834 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:05:52,834 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:06:54,076 [INFO]   [S1] AI ML Engineer: 17 listings
+2026-09-23 04:06:54,089 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-23 04:06:54,089 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 04:06:54,101 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-23 04:06:54,101 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 04:06:54,113 [INFO]   [S1] Checking: Application Developer
+2026-09-23 04:06:54,113 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 04:06:54,127 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:06:54,127 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:06:54,139 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:06:54,139 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:06:54,151 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-23 04:06:54,151 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 04:06:54,165 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:06:54,165 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:06:54,177 [INFO]   [S1] Checking: Software Associates
+2026-09-23 04:06:54,177 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 04:06:54,188 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-23 04:06:54,188 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-23 04:06:54,200 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-23 04:06:54,200 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-23 04:06:54,212 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-23 04:06:54,212 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-23 04:06:54,224 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-23 04:06:54,224 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-23 04:06:54,236 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:06:54,236 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:06:54,248 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-23 04:06:54,248 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-23 04:06:54,260 [INFO]   [S1] Checking: Walk-in || Software Engineer
+2026-09-23 04:06:54,260 [INFO]   Already applied: Walk-in || Software Engineer
+2026-09-23 04:06:54,272 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-23 04:06:54,272 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 04:06:54,284 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:06:54,284 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:07:55,640 [INFO]   [S1] Machine Learning Engineer: 17 listings
+2026-09-23 04:07:55,653 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-23 04:07:55,653 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-23 04:07:55,666 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-23 04:07:55,666 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-23 04:07:55,677 [INFO]   [S1] Checking: Application Developer
+2026-09-23 04:07:55,677 [INFO]   [filter] No skill match: Application Developer
+2026-09-23 04:07:55,689 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:07:55,689 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:07:55,700 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-23 04:07:55,700 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-23 04:07:55,711 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-23 04:07:55,711 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-23 04:07:55,723 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:07:55,723 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-23 04:07:55,737 [INFO]   [S1] Checking: Software Associates
+2026-09-23 04:07:55,737 [INFO]   [filter] No skill match: Software Associates
+2026-09-23 04:07:55,749 [INFO]   [S1] Checking: Fresher Graduate
+2026-09-23 04:07:55,749 [INFO]   [filter] No skill match: Fresher Graduate
+2026-09-23 04:07:55,760 [INFO]   [S1] Checking: Fresher (CSC,EEE,ECE)
+2026-09-23 04:07:55,760 [INFO]   [filter] No skill match: Fresher (CSC,EEE,ECE)
+2026-09-23 04:07:55,772 [INFO]   [S1] Checking: Full stack Developer (.Net/Azure)
+2026-09-23 04:07:55,772 [INFO]   [filter] Excluded 'full stack developer': Full stack Developer (.Net/Azure)
+2026-09-23 04:07:55,785 [INFO]   [S1] Checking: Software Development Engineer 1
+2026-09-23 04:07:55,785 [INFO]   [filter] No skill match: Software Development Engineer 1
+2026-09-23 04:07:55,797 [INFO]   [S1] Checking: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:07:55,797 [INFO]   Already applied: Data Analytics ( Python , Power BI ) _ Freshers
+2026-09-23 04:07:55,809 [INFO]   [S1] Checking: Semiconductor DevOps Engineer - 2795
+2026-09-23 04:07:55,809 [INFO]   [filter] No skill match: Semiconductor DevOps Engineer - 2795
+2026-09-23 04:07:55,820 [INFO]   [S1] Checking: Walk-in || Software Engineer
+2026-09-23 04:07:55,820 [INFO]   Already applied: Walk-in || Software Engineer
+2026-09-23 04:07:55,832 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-23 04:07:55,832 [INFO]   Already applied: Junior Software Engineer
+2026-09-23 04:07:55,844 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:07:55,844 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-23 04:07:55,844 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-22 23:31:41,818 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-22 23:31:41,818 [INFO] ███████████████████████████████████████████████████████
-2026-09-22 23:46:53,382 [INFO] 
+2026-09-23 04:07:55,845 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-23 04:07:55,845 [INFO] ███████████████████████████████████████████████████████
+2026-09-23 04:23:06,202 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-22 23:46:53,382 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-22 23:46:53,382 [INFO] ███████████████████████████████████████████████████████
-2026-09-22 23:48:09,255 [INFO]   [S3] Java Developer: 0 listings
-2026-09-22 23:49:25,126 [INFO]   [S3] Python Developer: 0 listings
-2026-09-22 23:50:41,146 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-22 23:51:57,085 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-22 23:53:13,098 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-22 23:54:29,541 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-22 23:55:45,423 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-22 23:57:01,311 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-22 23:57:01,311 [INFO] 
+2026-09-23 04:23:06,202 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-23 04:23:06,202 [INFO] ███████████████████████████████████████████████████████
+2026-09-23 04:24:22,044 [INFO]   [S3] Java Developer: 0 listings
+2026-09-23 04:25:37,962 [INFO]   [S3] Python Developer: 0 listings
+2026-09-23 04:26:53,789 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-23 04:28:09,606 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-23 04:29:25,364 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-23 04:30:41,253 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-23 04:31:57,128 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-23 04:33:13,002 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-23 04:33:13,002 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-22 23:57:01,311 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-22 23:57:01,311 [INFO] ███████████████████████████████████████████████████████
-2026-09-23 00:12:10,937 [INFO] 
+2026-09-23 04:33:13,002 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-23 04:33:13,002 [INFO] ███████████████████████████████████████████████████████
+2026-09-23 04:48:22,135 [INFO] 
 =======================================================
-2026-09-23 00:12:10,937 [INFO]   Run complete — Applied this session : 1
-2026-09-23 00:12:10,938 [INFO]   Total ever applied                  : 345
-2026-09-23 00:12:10,938 [INFO] =======================================================
+2026-09-23 04:48:22,135 [INFO]   Run complete — Applied this session : 0
+2026-09-23 04:48:22,137 [INFO]   Total ever applied                  : 345
+2026-09-23 04:48:22,137 [INFO] =======================================================

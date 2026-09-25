@@ -1,619 +1,599 @@
-2026-09-24 16:31:47,441 [INFO] GitHub Actions — single run mode
-2026-09-24 16:31:47,441 [INFO] 
+2026-09-24 23:00:48,986 [INFO] GitHub Actions — single run mode
+2026-09-24 23:00:48,986 [INFO] 
 =======================================================
-2026-09-24 16:31:47,441 [INFO]   Run started: 2026-09-24 16:31:47
-2026-09-24 16:31:47,441 [INFO] =======================================================
-2026-09-24 16:31:47,442 [INFO] Previously applied: 349 jobs
-2026-09-24 16:31:47,443 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-24 16:31:47,443 [INFO] ====== WebDriver manager ======
-2026-09-24 16:31:49,656 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-24 16:31:49,707 [INFO] There is no [linux64] chromedriver "153.0.8010.52" for browser google-chrome "153.0.8010" in cache
-2026-09-24 16:31:49,741 [INFO] There is no [linux64] chromedriver "153.0.8010.52" for browser google-chrome "153.0.8010" in cache
-2026-09-24 16:31:49,742 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-24 16:31:49,846 [INFO] WebDriver version 153.0.8010.52 selected
-2026-09-24 16:31:49,853 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/linux64/chromedriver-linux64.zip
-2026-09-24 16:31:49,853 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/linux64/chromedriver-linux64.zip
-2026-09-24 16:31:49,934 [INFO] Driver downloading response is 200
-2026-09-24 16:31:50,210 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/153.0.8010.52]
-2026-09-24 16:31:57,346 [INFO]   Trying cookie login...
-2026-09-24 16:32:03,973 [INFO]   Loading 34 cookies...
-2026-09-24 16:32:08,119 [INFO]   ✅ Cookie login successful!
-2026-09-24 16:32:08,120 [INFO] 
+2026-09-24 23:00:48,986 [INFO]   Run started: 2026-09-24 23:00:48
+2026-09-24 23:00:48,986 [INFO] =======================================================
+2026-09-24 23:00:48,987 [INFO] Previously applied: 351 jobs
+2026-09-24 23:00:48,987 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-24 23:00:48,987 [INFO] ====== WebDriver manager ======
+2026-09-24 23:00:53,190 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-24 23:00:53,311 [INFO] There is no [linux64] chromedriver "153.0.8010.52" for browser google-chrome "153.0.8010" in cache
+2026-09-24 23:00:53,337 [INFO] There is no [linux64] chromedriver "153.0.8010.52" for browser google-chrome "153.0.8010" in cache
+2026-09-24 23:00:53,337 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-24 23:00:53,495 [INFO] WebDriver version 153.0.8010.52 selected
+2026-09-24 23:00:53,500 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/linux64/chromedriver-linux64.zip
+2026-09-24 23:00:53,500 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/linux64/chromedriver-linux64.zip
+2026-09-24 23:00:53,643 [INFO] Driver downloading response is 200
+2026-09-24 23:00:54,187 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/153.0.8010.52]
+2026-09-24 23:01:09,478 [INFO]   Trying cookie login...
+2026-09-24 23:01:14,554 [INFO]   Loading 34 cookies...
+2026-09-24 23:01:18,903 [INFO]   ✅ Cookie login successful!
+2026-09-24 23:01:18,904 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-24 16:32:08,120 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-24 16:32:08,120 [INFO] ───────────────────────────────────────────────────────
-2026-09-24 16:32:08,120 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-24 16:33:15,316 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-24 16:33:20,884 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-24 16:33:23,234 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-24 16:33:26,254 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-24 16:33:29,284 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
-2026-09-24 16:33:29,284 [INFO] 
+2026-09-24 23:01:18,904 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-24 23:01:18,904 [INFO] ───────────────────────────────────────────────────────
+2026-09-24 23:01:18,904 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-09-24 23:02:25,686 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-24 23:02:31,225 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-24 23:02:33,587 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-24 23:02:36,621 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-24 23:02:39,658 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-09-24 23:02:39,658 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-24 16:33:29,285 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-24 16:33:29,285 [INFO] ███████████████████████████████████████████████████████
-2026-09-24 16:34:30,635 [INFO]   [S0-HYD] Java Developer: 14 listings
-2026-09-24 16:34:30,664 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 16:34:30,664 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 16:34:30,703 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-24 16:34:30,703 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 16:34:30,716 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-24 16:34:30,716 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 16:34:30,729 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-24 16:34:30,729 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 16:34:30,741 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-24 16:34:30,741 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 16:34:30,754 [INFO]   [S0-HYD] Checking: Multiple Openings - Java
-2026-09-24 16:35:28,342 [INFO]   [location] ✅ Hyderabad
-2026-09-24 16:35:28,729 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-24 16:35:28,729 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-09-24 16:35:28,729 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-09-24 16:35:28,729 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-09-24 16:35:28,787 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-24 16:35:28,788 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-09-24 16:36:24,959 [INFO]   Clicked Apply: Multiple Openings - Java
-2026-09-24 16:39:05,115 [INFO]   ✅ Applied: Multiple Openings - Java
-2026-09-24 16:39:07,193 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-24 16:39:07,194 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 16:39:07,208 [INFO]   [S0-HYD] Checking: .NET Software Developer
-2026-09-24 16:40:04,584 [INFO]   [location] ✅ Hyderabad, Noida
-2026-09-24 16:40:05,033 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-24 16:40:05,034 [WARNING]   [AI] Groq error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}} — defaulting to apply
-2026-09-24 16:40:05,034 [INFO]   [AI] Score: 8/10 — Groq error — defaulting to apply
-2026-09-24 16:40:05,034 [INFO]   [AI] ✅ Good match (score 8) — proceeding to apply
-2026-09-24 16:40:05,081 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
-2026-09-24 16:40:05,082 [WARNING]   [AI] Cover letter error: Error code: 400 - {'error': {'message': 'The model `llama3-70b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
-2026-09-24 16:41:01,148 [INFO]   Clicked Apply: .NET Software Developer
-2026-09-24 16:43:16,370 [INFO]   ✅ Applied: .NET Software Developer
-2026-09-24 16:43:18,454 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:43:18,454 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:43:18,468 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-24 16:43:18,468 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 16:43:18,481 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
-2026-09-24 16:43:18,481 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 16:43:18,495 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-24 16:43:18,495 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 16:43:18,508 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-24 16:43:18,508 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-24 16:43:18,522 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:43:18,522 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:44:34,585 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-24 16:45:35,775 [INFO]   [S0-HYD] Python Developer: 11 listings
-2026-09-24 16:45:35,789 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-24 16:45:35,789 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 16:45:35,802 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-24 16:45:35,802 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 16:45:35,818 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-24 16:45:35,818 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 16:45:35,832 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-24 16:45:35,832 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 16:45:35,846 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-24 16:45:35,846 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 16:45:35,860 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-24 16:45:35,860 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 16:45:35,874 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 16:45:35,874 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 16:45:35,888 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
-2026-09-24 16:45:35,888 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 16:45:35,902 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-24 16:45:35,902 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 16:45:35,916 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-24 16:45:35,916 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-24 16:45:35,930 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:45:35,930 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:46:51,824 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-24 16:47:53,094 [INFO]   [S0-HYD] SQL Developer: 8 listings
-2026-09-24 16:47:53,107 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-24 16:47:53,107 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 16:47:53,120 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 16:47:53,120 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 16:47:53,133 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-24 16:47:53,133 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 16:47:53,147 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-24 16:47:53,147 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 16:47:53,160 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-24 16:47:53,160 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 16:47:53,173 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-24 16:47:53,173 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 16:47:53,186 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:47:53,187 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:47:53,200 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:47:53,200 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:49:09,089 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-24 16:50:10,050 [INFO]   [S0-HYD] Software Engineer: 14 listings
-2026-09-24 16:50:10,063 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:50:10,063 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:50:10,076 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
-2026-09-24 16:50:10,076 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 16:50:10,089 [INFO]   [S0-HYD] Checking: Software Development Engineer
-2026-09-24 16:50:10,089 [INFO]   [filter] No skill match: Software Development Engineer
-2026-09-24 16:50:10,102 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-24 16:50:10,102 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 16:50:10,114 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 16:50:10,114 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 16:50:10,127 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-24 16:50:10,127 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 16:50:10,140 [INFO]   [S0-HYD] Checking: Software Development faculty Trainee
-2026-09-24 16:50:10,140 [INFO]   [filter] Excluded 'faculty': Software Development faculty Trainee
-2026-09-24 16:50:10,153 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-24 16:50:10,154 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 16:50:10,166 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-24 16:50:10,166 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 16:50:10,179 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-24 16:50:10,179 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 16:50:10,192 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:50:10,193 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:50:10,205 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-24 16:50:10,205 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 16:50:10,218 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-24 16:50:10,218 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 16:50:10,232 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-24 16:50:10,232 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-24 16:51:26,146 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-24 16:52:27,497 [INFO]   [S0-HYD] Associate Software Engineer: 12 listings
-2026-09-24 16:52:27,511 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-24 16:52:27,511 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 16:52:27,525 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
-2026-09-24 16:52:27,525 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 16:52:27,539 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-24 16:52:27,539 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 16:52:27,553 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 16:52:27,554 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 16:52:27,567 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-24 16:52:27,567 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 16:52:27,581 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-24 16:52:27,581 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 16:52:27,594 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-24 16:52:27,594 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 16:52:27,607 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:52:27,607 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:52:27,620 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-24 16:52:27,620 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 16:52:27,633 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-24 16:52:27,633 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 16:52:27,646 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-24 16:52:27,646 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-24 16:52:27,659 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:52:27,659 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:53:43,547 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-24 16:54:44,726 [INFO]   [S0-HYD] Data Analyst: 20 listings
-2026-09-24 16:54:44,739 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-24 16:54:44,739 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 16:54:44,752 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-24 16:54:44,752 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 16:54:44,764 [INFO]   [S0-HYD] Checking: Design Evaluation Engineer
-2026-09-24 16:54:44,764 [INFO]   [filter] No skill match: Design Evaluation Engineer
-2026-09-24 16:54:44,777 [INFO]   [S0-HYD] Checking: Gaming Lobby & Promotions Executive - IND
-2026-09-24 16:54:44,777 [INFO]   [filter] No skill match: Gaming Lobby & Promotions Executive - IND
-2026-09-24 16:54:44,790 [INFO]   [S0-HYD] Checking: Media Intelligence Analyst
-2026-09-24 16:54:44,790 [INFO]   [filter] No skill match: Media Intelligence Analyst
-2026-09-24 16:54:44,803 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
-2026-09-24 16:54:44,803 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-09-24 16:54:44,816 [INFO]   [S0-HYD] Checking: PE-CX-Backoffice Helpdesk
-2026-09-24 16:54:44,816 [INFO]   [filter] No skill match: PE-CX-Backoffice Helpdesk
-2026-09-24 16:54:44,829 [INFO]   [S0-HYD] Checking: F&P- RTR
-2026-09-24 16:54:44,829 [INFO]   [filter] No skill match: F&P- RTR
-2026-09-24 16:54:44,845 [INFO]   [S0-HYD] Checking: Scm Executive
-2026-09-24 16:54:44,845 [INFO]   [filter] No skill match: Scm Executive
-2026-09-24 16:54:44,858 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
-2026-09-24 16:54:44,858 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-09-24 16:54:44,871 [INFO]   [S0-HYD] Checking: Operations Executive
-2026-09-24 16:54:44,871 [INFO]   [filter] Excluded 'operations executive': Operations Executive
-2026-09-24 16:54:44,884 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-24 16:54:44,884 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 16:54:44,897 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-24 16:54:44,897 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 16:54:44,910 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-24 16:54:44,910 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 16:54:44,923 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-24 16:54:44,924 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 16:54:44,937 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:54:44,937 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:54:44,951 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 16:54:44,951 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 16:54:44,964 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
-2026-09-24 16:54:44,964 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 16:54:44,977 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-24 16:54:44,977 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 16:54:44,990 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-24 16:54:44,990 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-24 16:56:00,897 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-24 16:57:02,047 [INFO]   [S0-HYD] AI ML Engineer: 12 listings
-2026-09-24 16:57:02,061 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-24 16:57:02,061 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 16:57:02,074 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-24 16:57:02,075 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 16:57:02,087 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-24 16:57:02,087 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 16:57:02,100 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-24 16:57:02,100 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 16:57:02,113 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-24 16:57:02,113 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 16:57:02,126 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:57:02,126 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:57:02,139 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-24 16:57:02,139 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 16:57:02,152 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 16:57:02,152 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 16:57:02,165 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
-2026-09-24 16:57:02,165 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 16:57:02,177 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-24 16:57:02,177 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 16:57:02,190 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-24 16:57:02,190 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-24 16:57:02,203 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:57:02,203 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:58:18,203 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-24 16:59:19,476 [INFO]   [S0-HYD] Machine Learning Engineer: 12 listings
-2026-09-24 16:59:19,492 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-24 16:59:19,492 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 16:59:19,505 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-24 16:59:19,505 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 16:59:19,518 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-24 16:59:19,518 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 16:59:19,531 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-24 16:59:19,531 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 16:59:19,543 [INFO]   [S0-HYD] Checking: CSA Professional
-2026-09-24 16:59:19,543 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 16:59:19,557 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:59:19,557 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 16:59:19,569 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
-2026-09-24 16:59:19,570 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 16:59:19,583 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 16:59:19,583 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 16:59:19,596 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
-2026-09-24 16:59:19,596 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 16:59:19,610 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
-2026-09-24 16:59:19,610 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 16:59:19,623 [INFO]   [S0-HYD] Checking: Functional Consultant
-2026-09-24 16:59:19,623 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-24 16:59:19,636 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 16:59:19,636 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:00:35,550 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-24 17:01:51,579 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-24 17:03:07,570 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-24 17:04:23,871 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-24 17:05:39,797 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-24 17:06:55,996 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-24 17:08:12,055 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-24 17:09:28,272 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-24 17:10:44,248 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-24 17:12:00,534 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-24 17:13:16,629 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-24 17:14:32,882 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-24 17:15:48,787 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-24 17:15:48,787 [INFO] 
+2026-09-24 23:02:39,658 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-24 23:02:39,658 [INFO] ███████████████████████████████████████████████████████
+2026-09-24 23:03:41,054 [INFO]   [S0-HYD] Java Developer: 12 listings
+2026-09-24 23:03:41,127 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:03:41,127 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:03:41,140 [INFO]   [S0-HYD] Checking: Fullstack Developer
+2026-09-24 23:03:41,140 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:03:41,152 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:03:41,152 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:03:41,164 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-24 23:03:41,164 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:03:41,176 [INFO]   [S0-HYD] Checking: Data Annotation Associate
+2026-09-24 23:03:41,176 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:03:41,188 [INFO]   [S0-HYD] Checking: Staff Business Analyst
+2026-09-24 23:03:41,188 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:03:41,200 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:03:41,201 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:03:41,212 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-24 23:03:41,212 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:03:41,225 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
+2026-09-24 23:03:41,225 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:03:41,237 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-24 23:03:41,237 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:03:41,249 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-24 23:03:41,249 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:03:41,261 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:03:41,261 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:04:57,331 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-24 23:05:58,422 [INFO]   [S0-HYD] Python Developer: 11 listings
+2026-09-24 23:05:58,435 [INFO]   [S0-HYD] Checking: Fullstack Developer
+2026-09-24 23:05:58,435 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:05:58,447 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:05:58,447 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:05:58,458 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-24 23:05:58,458 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:05:58,470 [INFO]   [S0-HYD] Checking: Staff Business Analyst
+2026-09-24 23:05:58,470 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:05:58,481 [INFO]   [S0-HYD] Checking: Data Annotation Associate
+2026-09-24 23:05:58,481 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:05:58,493 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-24 23:05:58,493 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:05:58,503 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:05:58,503 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:05:58,514 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
+2026-09-24 23:05:58,514 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:05:58,525 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-24 23:05:58,525 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:05:58,537 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-24 23:05:58,537 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:05:58,549 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:05:58,549 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:07:14,283 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-24 23:08:15,564 [INFO]   [S0-HYD] SQL Developer: 8 listings
+2026-09-24 23:08:15,578 [INFO]   [S0-HYD] Checking: Fullstack Developer
+2026-09-24 23:08:15,578 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:08:15,590 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:08:15,590 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:08:15,601 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:08:15,601 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:08:15,613 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-24 23:08:15,613 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:08:15,625 [INFO]   [S0-HYD] Checking: Data Annotation Associate
+2026-09-24 23:08:15,625 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:08:15,637 [INFO]   [S0-HYD] Checking: Staff Business Analyst
+2026-09-24 23:08:15,637 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:08:15,649 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:08:15,649 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:08:15,661 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:08:15,661 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:09:31,788 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-24 23:10:33,859 [INFO]   [S0-HYD] Software Engineer: 14 listings
+2026-09-24 23:10:33,871 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:10:33,871 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:10:33,882 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
+2026-09-24 23:10:33,882 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:10:33,893 [INFO]   [S0-HYD] Checking: Software Development Engineer
+2026-09-24 23:10:33,894 [INFO]   [filter] No skill match: Software Development Engineer
+2026-09-24 23:10:33,906 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:10:33,906 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:10:33,918 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:10:33,918 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:10:33,929 [INFO]   [S0-HYD] Checking: Fullstack Developer
+2026-09-24 23:10:33,929 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:10:33,939 [INFO]   [S0-HYD] Checking: Software Development faculty Trainee
+2026-09-24 23:10:33,939 [INFO]   [filter] Excluded 'faculty': Software Development faculty Trainee
+2026-09-24 23:10:33,950 [INFO]   [S0-HYD] Checking: Staff Business Analyst
+2026-09-24 23:10:33,950 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:10:33,961 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-24 23:10:33,961 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:10:33,972 [INFO]   [S0-HYD] Checking: Data Annotation Associate
+2026-09-24 23:10:33,972 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:10:33,983 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:10:33,983 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:10:33,996 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-24 23:10:33,997 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:10:34,008 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-24 23:10:34,008 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:10:34,020 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-24 23:10:34,020 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:11:49,698 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-24 23:12:50,736 [INFO]   [S0-HYD] Associate Software Engineer: 12 listings
+2026-09-24 23:12:50,760 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:12:50,761 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:12:50,780 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
+2026-09-24 23:12:50,780 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:12:50,792 [INFO]   [S0-HYD] Checking: Fullstack Developer
+2026-09-24 23:12:50,792 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:12:50,804 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:12:50,804 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:12:50,815 [INFO]   [S0-HYD] Checking: Data Annotation Associate
+2026-09-24 23:12:50,815 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:12:50,826 [INFO]   [S0-HYD] Checking: Staff Business Analyst
+2026-09-24 23:12:50,826 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:12:50,837 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-24 23:12:50,837 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:12:50,848 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:12:50,848 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:12:50,862 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-24 23:12:50,862 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:12:50,873 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-24 23:12:50,873 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:12:50,884 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-24 23:12:50,884 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:12:50,896 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:12:50,896 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:14:06,802 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-24 23:15:07,999 [INFO]   [S0-HYD] Data Analyst: 20 listings
+2026-09-24 23:15:08,025 [INFO]   [S0-HYD] Checking: Data Annotation Associate
+2026-09-24 23:15:08,025 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:15:08,041 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-24 23:15:08,041 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:15:08,053 [INFO]   [S0-HYD] Checking: Design Evaluation Engineer
+2026-09-24 23:15:08,053 [INFO]   [filter] No skill match: Design Evaluation Engineer
+2026-09-24 23:15:08,065 [INFO]   [S0-HYD] Checking: Gaming Lobby & Promotions Executive - IND
+2026-09-24 23:15:08,065 [INFO]   [filter] No skill match: Gaming Lobby & Promotions Executive - IND
+2026-09-24 23:15:08,076 [INFO]   [S0-HYD] Checking: Media Intelligence Analyst
+2026-09-24 23:15:08,077 [INFO]   [filter] No skill match: Media Intelligence Analyst
+2026-09-24 23:15:08,089 [INFO]   [S0-HYD] Checking: Marketing Executive (Medical Representative)
+2026-09-24 23:15:08,089 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-09-24 23:15:08,101 [INFO]   [S0-HYD] Checking: PE-CX-Backoffice Helpdesk
+2026-09-24 23:15:08,101 [INFO]   [filter] No skill match: PE-CX-Backoffice Helpdesk
+2026-09-24 23:15:08,113 [INFO]   [S0-HYD] Checking: F&P- RTR
+2026-09-24 23:15:08,113 [INFO]   [filter] No skill match: F&P- RTR
+2026-09-24 23:15:08,125 [INFO]   [S0-HYD] Checking: Scm Executive
+2026-09-24 23:15:08,125 [INFO]   [filter] No skill match: Scm Executive
+2026-09-24 23:15:08,137 [INFO]   [S0-HYD] Checking: Operations Executive
+2026-09-24 23:15:08,137 [INFO]   [filter] Excluded 'operations executive': Operations Executive
+2026-09-24 23:15:08,148 [INFO]   [S0-HYD] Checking: Fullstack Developer
+2026-09-24 23:15:08,148 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:15:08,160 [INFO]   [S0-HYD] Checking: Staff Business Analyst
+2026-09-24 23:15:08,160 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:15:08,173 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:15:08,173 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:15:08,185 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-24 23:15:08,185 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:15:08,196 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:15:08,196 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:15:08,208 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:15:08,208 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:15:08,220 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
+2026-09-24 23:15:08,220 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:15:08,232 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-24 23:15:08,232 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:15:08,243 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-24 23:15:08,244 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:15:08,255 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:15:08,255 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:16:24,188 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-24 23:17:25,431 [INFO]   [S0-HYD] AI ML Engineer: 12 listings
+2026-09-24 23:17:25,444 [INFO]   [S0-HYD] Checking: Fullstack Developer
+2026-09-24 23:17:25,444 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:17:25,458 [INFO]   [S0-HYD] Checking: Data Annotation Associate
+2026-09-24 23:17:25,458 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:17:25,470 [INFO]   [S0-HYD] Checking: Staff Business Analyst
+2026-09-24 23:17:25,470 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:17:25,482 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:17:25,482 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:17:25,494 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-24 23:17:25,495 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:17:25,506 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:17:25,506 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:17:25,518 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-24 23:17:25,518 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:17:25,530 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:17:25,530 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:17:25,542 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
+2026-09-24 23:17:25,542 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:17:25,554 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-24 23:17:25,554 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:17:25,566 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-24 23:17:25,566 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:17:25,578 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:17:25,578 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:18:41,603 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-24 23:19:42,737 [INFO]   [S0-HYD] Machine Learning Engineer: 12 listings
+2026-09-24 23:19:42,763 [INFO]   [S0-HYD] Checking: Fullstack Developer
+2026-09-24 23:19:42,764 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:19:42,776 [INFO]   [S0-HYD] Checking: Data Annotation Associate
+2026-09-24 23:19:42,777 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:19:42,787 [INFO]   [S0-HYD] Checking: Staff Business Analyst
+2026-09-24 23:19:42,787 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:19:42,798 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:19:42,799 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:19:42,811 [INFO]   [S0-HYD] Checking: CSA Professional
+2026-09-24 23:19:42,811 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:19:42,822 [INFO]   [S0-HYD] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:19:42,823 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:19:42,833 [INFO]   [S0-HYD] Checking: Associate Pricing Analyst
+2026-09-24 23:19:42,833 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:19:42,846 [INFO]   [S0-HYD] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:19:42,846 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:19:42,857 [INFO]   [S0-HYD] Checking: Lead Engineer, Software
+2026-09-24 23:19:42,857 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:19:42,870 [INFO]   [S0-HYD] Checking: Functional Consultant (M&A)
+2026-09-24 23:19:42,870 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:19:42,881 [INFO]   [S0-HYD] Checking: Functional Consultant
+2026-09-24 23:19:42,882 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:19:42,894 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:19:42,894 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:20:58,807 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-24 23:22:14,909 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-24 23:23:31,173 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-24 23:24:47,325 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-24 23:26:03,306 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-24 23:27:19,340 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-24 23:28:35,182 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-24 23:29:51,351 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-24 23:31:07,291 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-24 23:32:23,495 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-24 23:33:39,456 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-24 23:34:55,673 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-24 23:36:11,593 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-24 23:36:11,594 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-24 17:15:48,787 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-24 17:15:48,787 [INFO] ███████████████████████████████████████████████████████
-2026-09-24 17:16:49,916 [INFO]   [S1] Java Developer: 17 listings
-2026-09-24 17:16:49,937 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 17:16:49,937 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 17:16:49,953 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-24 17:16:49,953 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 17:16:49,971 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-24 17:16:49,971 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 17:16:49,987 [INFO]   [S1] Checking: CSA Professional
-2026-09-24 17:16:49,987 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 17:16:50,001 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-24 17:16:50,002 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 17:16:50,016 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-24 17:16:50,016 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-24 17:16:50,031 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-24 17:16:50,031 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 17:16:50,047 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 17:16:50,047 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 17:16:50,067 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:16:50,067 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:16:50,082 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-24 17:16:50,082 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 17:16:50,098 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:16:50,099 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:16:50,114 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-24 17:16:50,114 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-24 17:16:50,131 [INFO]   [S1] Checking: Software Associates
-2026-09-24 17:16:50,131 [INFO]   [filter] No skill match: Software Associates
-2026-09-24 17:16:50,146 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-24 17:16:50,146 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 17:16:50,160 [INFO]   [S1] Checking: Functional Consultant
-2026-09-24 17:16:50,161 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-24 17:16:50,175 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-24 17:16:50,175 [INFO]   Already applied: Junior Software Engineer
-2026-09-24 17:16:50,194 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:16:50,194 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:17:51,376 [INFO]   [S1] Python Developer: 18 listings
-2026-09-24 17:17:51,389 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-24 17:17:51,389 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 17:17:51,402 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-24 17:17:51,402 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 17:17:51,417 [INFO]   [S1] Checking: CSA Professional
-2026-09-24 17:17:51,417 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 17:17:51,432 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-24 17:17:51,432 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 17:17:51,446 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-24 17:17:51,446 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-24 17:17:51,461 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-24 17:17:51,461 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 17:17:51,474 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:17:51,474 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:17:51,487 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 17:17:51,487 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 17:17:51,500 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-24 17:17:51,500 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 17:17:51,513 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-24 17:17:51,513 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-24 17:17:51,527 [INFO]   [S1] Checking: Application Developer
-2026-09-24 17:17:51,527 [INFO]   [filter] No skill match: Application Developer
-2026-09-24 17:17:51,540 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:17:51,540 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:17:51,553 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-24 17:17:51,553 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-24 17:17:51,567 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-24 17:17:51,567 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-24 17:17:51,580 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-24 17:17:51,580 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 17:17:51,596 [INFO]   [S1] Checking: Functional Consultant
-2026-09-24 17:17:51,596 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-24 17:17:51,610 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-24 17:17:51,610 [INFO]   Already applied: Junior Software Engineer
-2026-09-24 17:17:51,624 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:17:51,625 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:18:52,943 [INFO]   [S1] SQL Developer: 14 listings
-2026-09-24 17:18:52,957 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-24 17:18:52,957 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 17:18:52,970 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 17:18:52,970 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 17:18:52,990 [INFO]   [S1] Checking: Application Developer
-2026-09-24 17:18:52,990 [INFO]   [filter] No skill match: Application Developer
-2026-09-24 17:18:53,009 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-24 17:18:53,009 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 17:18:53,025 [INFO]   [S1] Checking: CSA Professional
-2026-09-24 17:18:53,025 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 17:18:53,039 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-24 17:18:53,039 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-24 17:18:53,052 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-24 17:18:53,053 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 17:18:53,067 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-24 17:18:53,067 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 17:18:53,087 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 17:18:53,087 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 17:18:53,101 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-24 17:18:53,101 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-24 17:18:53,115 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-24 17:18:53,115 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-24 17:18:53,131 [INFO]   [S1] Checking: Software Associates
-2026-09-24 17:18:53,132 [INFO]   [filter] No skill match: Software Associates
-2026-09-24 17:18:53,146 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-24 17:18:53,146 [INFO]   Already applied: Junior Software Engineer
-2026-09-24 17:18:53,159 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:18:53,159 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:19:54,516 [INFO]   [S1] Software Engineer: 20 listings
-2026-09-24 17:19:54,530 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:19:54,530 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:19:54,544 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-24 17:19:54,544 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 17:19:54,557 [INFO]   [S1] Checking: Software Development Engineer
-2026-09-24 17:19:54,557 [INFO]   [filter] No skill match: Software Development Engineer
-2026-09-24 17:19:54,570 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-24 17:19:54,570 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 17:19:54,583 [INFO]   [S1] Checking: Software Associates
-2026-09-24 17:19:54,583 [INFO]   [filter] No skill match: Software Associates
-2026-09-24 17:19:54,596 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 17:19:54,596 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 17:19:54,609 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-24 17:19:54,609 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 17:19:54,622 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-24 17:19:54,622 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-24 17:19:54,636 [INFO]   [S1] Checking: Software Development faculty Trainee
-2026-09-24 17:19:54,636 [INFO]   [filter] Excluded 'faculty': Software Development faculty Trainee
-2026-09-24 17:19:54,650 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-24 17:19:54,650 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 17:19:54,664 [INFO]   [S1] Checking: CSA Professional
-2026-09-24 17:19:54,664 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 17:19:54,679 [INFO]   [S1] Checking: Application Developer
-2026-09-24 17:19:54,679 [INFO]   [filter] No skill match: Application Developer
-2026-09-24 17:19:54,694 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-24 17:19:54,694 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-24 17:19:54,709 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-24 17:19:54,709 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 17:19:54,725 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 17:19:54,725 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 17:19:54,741 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:19:54,741 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:19:54,756 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-24 17:19:54,756 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-24 17:19:54,771 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:19:54,771 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:19:54,786 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-24 17:19:54,787 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-24 17:19:54,803 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-24 17:19:54,803 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 17:20:56,006 [INFO]   [S1] Associate Software Engineer: 20 listings
-2026-09-24 17:20:56,019 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-24 17:20:56,019 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 17:20:56,032 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-24 17:20:56,032 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 17:20:56,053 [INFO]   [S1] Checking: Software Associates
-2026-09-24 17:20:56,053 [INFO]   [filter] No skill match: Software Associates
-2026-09-24 17:20:56,068 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-24 17:20:56,068 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 17:20:56,084 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 17:20:56,084 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 17:20:56,097 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-24 17:20:56,097 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-24 17:20:56,110 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-24 17:20:56,111 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 17:20:56,124 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-24 17:20:56,124 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 17:20:56,137 [INFO]   [S1] Checking: CSA Professional
-2026-09-24 17:20:56,137 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 17:20:56,150 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 17:20:56,150 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 17:20:56,163 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:20:56,163 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:20:56,176 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-24 17:20:56,176 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-24 17:20:56,189 [INFO]   [S1] Checking: Application Developer
-2026-09-24 17:20:56,189 [INFO]   [filter] No skill match: Application Developer
-2026-09-24 17:20:56,202 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:20:56,202 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:20:56,217 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-24 17:20:56,217 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-24 17:20:56,231 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-24 17:20:56,231 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-24 17:20:56,245 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-24 17:20:56,245 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 17:20:56,258 [INFO]   [S1] Checking: Functional Consultant
-2026-09-24 17:20:56,258 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-24 17:20:56,276 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-24 17:20:56,276 [INFO]   Already applied: Junior Software Engineer
-2026-09-24 17:20:56,290 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:20:56,290 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:21:57,622 [INFO]   [S1] Data Analyst: 20 listings
-2026-09-24 17:21:57,636 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-24 17:21:57,636 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 17:21:57,649 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:21:57,649 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:21:57,662 [INFO]   [S1] Checking: Application Developer
-2026-09-24 17:21:57,662 [INFO]   [filter] No skill match: Application Developer
-2026-09-24 17:21:57,674 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:21:57,675 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:21:57,687 [INFO]   [S1] Checking: Software Associates
-2026-09-24 17:21:57,687 [INFO]   [filter] No skill match: Software Associates
-2026-09-24 17:21:57,700 [INFO]   [S1] Checking: Business Management Trainee - Graduates and Freshers
-2026-09-24 17:21:57,700 [INFO]   [filter] No skill match: Business Management Trainee - Graduates and Freshers
-2026-09-24 17:21:57,713 [INFO]   [S1] Checking: Design Evaluation Engineer
-2026-09-24 17:21:57,714 [INFO]   [filter] No skill match: Design Evaluation Engineer
-2026-09-24 17:21:57,726 [INFO]   [S1] Checking: Gaming Lobby & Promotions Executive - IND
-2026-09-24 17:21:57,726 [INFO]   [filter] No skill match: Gaming Lobby & Promotions Executive - IND
-2026-09-24 17:21:57,739 [INFO]   [S1] Checking: Media Intelligence Analyst
-2026-09-24 17:21:57,739 [INFO]   [filter] No skill match: Media Intelligence Analyst
-2026-09-24 17:21:57,752 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
-2026-09-24 17:21:57,752 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-09-24 17:21:57,766 [INFO]   [S1] Checking: PE-CX-Backoffice Helpdesk
-2026-09-24 17:21:57,766 [INFO]   [filter] No skill match: PE-CX-Backoffice Helpdesk
-2026-09-24 17:21:57,780 [INFO]   [S1] Checking: F&P- RTR
-2026-09-24 17:21:57,780 [INFO]   [filter] No skill match: F&P- RTR
-2026-09-24 17:21:57,794 [INFO]   [S1] Checking: Scm Executive
-2026-09-24 17:21:57,794 [INFO]   [filter] No skill match: Scm Executive
-2026-09-24 17:21:57,808 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
-2026-09-24 17:21:57,808 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
-2026-09-24 17:21:57,822 [INFO]   [S1] Checking: Pharmacovigilance Associate
-2026-09-24 17:21:57,822 [INFO]   [filter] No skill match: Pharmacovigilance Associate
-2026-09-24 17:21:57,834 [INFO]   [S1] Checking: Operations Executive
-2026-09-24 17:21:57,834 [INFO]   [filter] Excluded 'operations executive': Operations Executive
-2026-09-24 17:21:57,847 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-24 17:21:57,847 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 17:21:57,860 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-24 17:21:57,860 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-24 17:21:57,873 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-24 17:21:57,873 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 17:21:57,885 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-24 17:21:57,886 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 17:22:59,096 [INFO]   [S1] AI ML Engineer: 20 listings
-2026-09-24 17:22:59,110 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-24 17:22:59,110 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-24 17:22:59,123 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-24 17:22:59,123 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 17:22:59,136 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-24 17:22:59,136 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 17:22:59,149 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-24 17:22:59,150 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 17:22:59,163 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-24 17:22:59,163 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 17:22:59,177 [INFO]   [S1] Checking: CSA Professional
-2026-09-24 17:22:59,177 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 17:22:59,191 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 17:22:59,191 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 17:22:59,205 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:22:59,205 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:22:59,218 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 17:22:59,218 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 17:22:59,231 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-24 17:22:59,231 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 17:22:59,244 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-24 17:22:59,244 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-24 17:22:59,258 [INFO]   [S1] Checking: Application Developer
-2026-09-24 17:22:59,258 [INFO]   [filter] No skill match: Application Developer
-2026-09-24 17:22:59,270 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:22:59,271 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:22:59,284 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-24 17:22:59,284 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-24 17:22:59,298 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-24 17:22:59,298 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-24 17:22:59,310 [INFO]   [S1] Checking: Software Associates
-2026-09-24 17:22:59,311 [INFO]   [filter] No skill match: Software Associates
-2026-09-24 17:22:59,325 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-24 17:22:59,325 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 17:22:59,339 [INFO]   [S1] Checking: Functional Consultant
-2026-09-24 17:22:59,339 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-24 17:22:59,351 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-24 17:22:59,351 [INFO]   Already applied: Junior Software Engineer
-2026-09-24 17:22:59,364 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:22:59,365 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:24:00,603 [INFO]   [S1] Machine Learning Engineer: 20 listings
-2026-09-24 17:24:00,617 [INFO]   [S1] Checking: Agent Product Builder
-2026-09-24 17:24:00,618 [INFO]   [filter] No skill match: Agent Product Builder
-2026-09-24 17:24:00,632 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-24 17:24:00,632 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-24 17:24:00,646 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-24 17:24:00,646 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-24 17:24:00,660 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-24 17:24:00,660 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-24 17:24:00,675 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-24 17:24:00,675 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-24 17:24:00,689 [INFO]   [S1] Checking: CSA Professional
-2026-09-24 17:24:00,689 [INFO]   [filter] No skill match: CSA Professional
-2026-09-24 17:24:00,703 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 17:24:00,703 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
-2026-09-24 17:24:00,716 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:24:00,716 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:24:00,730 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-24 17:24:00,730 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-24 17:24:00,743 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-24 17:24:00,743 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-24 17:24:00,756 [INFO]   [S1] Checking: Inside Sales Executive
-2026-09-24 17:24:00,756 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
-2026-09-24 17:24:00,768 [INFO]   [S1] Checking: Application Developer
-2026-09-24 17:24:00,769 [INFO]   [filter] No skill match: Application Developer
-2026-09-24 17:24:00,781 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-24 17:24:00,781 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-24 17:24:00,794 [INFO]   [S1] Checking: Adobe / AEM Architect
-2026-09-24 17:24:00,794 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
-2026-09-24 17:24:00,806 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-24 17:24:00,807 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
-2026-09-24 17:24:00,820 [INFO]   [S1] Checking: Software Associates
-2026-09-24 17:24:00,820 [INFO]   [filter] No skill match: Software Associates
-2026-09-24 17:24:00,833 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-24 17:24:00,833 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-24 17:24:00,845 [INFO]   [S1] Checking: Functional Consultant
-2026-09-24 17:24:00,845 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-24 17:24:00,858 [INFO]   [S1] Checking: Junior Software Engineer
-2026-09-24 17:24:00,858 [INFO]   Already applied: Junior Software Engineer
-2026-09-24 17:24:00,871 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:24:00,871 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-24 17:24:00,871 [INFO] 
+2026-09-24 23:36:11,594 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-24 23:36:11,594 [INFO] ███████████████████████████████████████████████████████
+2026-09-24 23:37:12,844 [INFO]   [S1] Java Developer: 17 listings
+2026-09-24 23:37:12,862 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:37:12,862 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:37:12,875 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-24 23:37:12,875 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:37:12,888 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:37:12,888 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:37:12,900 [INFO]   [S1] Checking: CSA Professional
+2026-09-24 23:37:12,900 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:37:12,911 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-24 23:37:12,912 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:37:12,923 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-24 23:37:12,923 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-24 23:37:12,934 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-24 23:37:12,934 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:37:12,947 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:37:12,947 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:37:12,959 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:37:12,959 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:37:12,971 [INFO]   [S1] Checking: Lead Engineer, Software
+2026-09-24 23:37:12,971 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:37:12,983 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-24 23:37:12,983 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-24 23:37:12,996 [INFO]   [S1] Checking: Software Associates
+2026-09-24 23:37:12,996 [INFO]   [filter] No skill match: Software Associates
+2026-09-24 23:37:13,007 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-09-24 23:37:13,007 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:37:13,019 [INFO]   [S1] Checking: Functional Consultant
+2026-09-24 23:37:13,019 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:37:13,031 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:37:13,031 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:37:13,043 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-24 23:37:13,043 [INFO]   Already applied: Junior Software Engineer
+2026-09-24 23:37:13,054 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:37:13,054 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:38:14,247 [INFO]   [S1] Python Developer: 18 listings
+2026-09-24 23:38:14,268 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-24 23:38:14,268 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:38:14,281 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:38:14,281 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:38:14,292 [INFO]   [S1] Checking: CSA Professional
+2026-09-24 23:38:14,292 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:38:14,304 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-24 23:38:14,304 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:38:14,318 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-24 23:38:14,319 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-24 23:38:14,330 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-24 23:38:14,330 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:38:14,344 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:38:14,344 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:38:14,356 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:38:14,356 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:38:14,367 [INFO]   [S1] Checking: Lead Engineer, Software
+2026-09-24 23:38:14,367 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:38:14,380 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-24 23:38:14,380 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-24 23:38:14,392 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-24 23:38:14,392 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-24 23:38:14,404 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-09-24 23:38:14,404 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:38:14,417 [INFO]   [S1] Checking: Functional Consultant
+2026-09-24 23:38:14,417 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:38:14,427 [INFO]   [S1] Checking: Application Developer
+2026-09-24 23:38:14,428 [INFO]   [filter] No skill match: Application Developer
+2026-09-24 23:38:14,439 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:38:14,439 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:38:14,451 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-24 23:38:14,451 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-24 23:38:14,462 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-24 23:38:14,462 [INFO]   Already applied: Junior Software Engineer
+2026-09-24 23:38:14,473 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:38:14,473 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:39:15,901 [INFO]   [S1] SQL Developer: 14 listings
+2026-09-24 23:39:15,922 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-24 23:39:15,922 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:39:15,933 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:39:15,933 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:39:15,944 [INFO]   [S1] Checking: Application Developer
+2026-09-24 23:39:15,944 [INFO]   [filter] No skill match: Application Developer
+2026-09-24 23:39:15,956 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:39:15,956 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:39:15,967 [INFO]   [S1] Checking: CSA Professional
+2026-09-24 23:39:15,967 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:39:15,979 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-24 23:39:15,979 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-24 23:39:15,991 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-24 23:39:15,991 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:39:16,003 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-24 23:39:16,003 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:39:16,015 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:39:16,015 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:39:16,026 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-24 23:39:16,026 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-24 23:39:16,037 [INFO]   [S1] Checking: Software Associates
+2026-09-24 23:39:16,037 [INFO]   [filter] No skill match: Software Associates
+2026-09-24 23:39:16,048 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-24 23:39:16,048 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-24 23:39:16,060 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-24 23:39:16,060 [INFO]   Already applied: Junior Software Engineer
+2026-09-24 23:39:16,072 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:39:16,072 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:40:17,364 [INFO]   [S1] Software Engineer: 20 listings
+2026-09-24 23:40:17,377 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:40:17,377 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:40:17,390 [INFO]   [S1] Checking: Lead Engineer, Software
+2026-09-24 23:40:17,390 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:40:17,402 [INFO]   [S1] Checking: Software Development Engineer
+2026-09-24 23:40:17,403 [INFO]   [filter] No skill match: Software Development Engineer
+2026-09-24 23:40:17,414 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:40:17,415 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:40:17,427 [INFO]   [S1] Checking: Software Associates
+2026-09-24 23:40:17,427 [INFO]   [filter] No skill match: Software Associates
+2026-09-24 23:40:17,440 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:40:17,440 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:40:17,452 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-24 23:40:17,452 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:40:17,465 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-24 23:40:17,465 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-24 23:40:17,477 [INFO]   [S1] Checking: Software Development faculty Trainee
+2026-09-24 23:40:17,477 [INFO]   [filter] Excluded 'faculty': Software Development faculty Trainee
+2026-09-24 23:40:17,489 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-24 23:40:17,489 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:40:17,501 [INFO]   [S1] Checking: CSA Professional
+2026-09-24 23:40:17,501 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:40:17,514 [INFO]   [S1] Checking: Application Developer
+2026-09-24 23:40:17,514 [INFO]   [filter] No skill match: Application Developer
+2026-09-24 23:40:17,526 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-24 23:40:17,526 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-24 23:40:17,538 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-24 23:40:17,538 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:40:17,550 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:40:17,550 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:40:17,562 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:40:17,562 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:40:17,574 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-24 23:40:17,574 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-24 23:40:17,586 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-24 23:40:17,586 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-24 23:40:17,598 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-09-24 23:40:17,598 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:40:17,609 [INFO]   [S1] Checking: Functional Consultant
+2026-09-24 23:40:17,609 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:41:18,943 [INFO]   [S1] Associate Software Engineer: 20 listings
+2026-09-24 23:41:18,957 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:41:18,958 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:41:18,971 [INFO]   [S1] Checking: Lead Engineer, Software
+2026-09-24 23:41:18,971 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:41:18,983 [INFO]   [S1] Checking: Software Associates
+2026-09-24 23:41:18,984 [INFO]   [filter] No skill match: Software Associates
+2026-09-24 23:41:18,995 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-24 23:41:18,995 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:41:19,008 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:41:19,008 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:41:19,021 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-24 23:41:19,021 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-24 23:41:19,035 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-24 23:41:19,035 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:41:19,048 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-24 23:41:19,048 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:41:19,060 [INFO]   [S1] Checking: CSA Professional
+2026-09-24 23:41:19,060 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:41:19,071 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:41:19,071 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:41:19,084 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:41:19,084 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:41:19,096 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-24 23:41:19,097 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-24 23:41:19,109 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-24 23:41:19,109 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-24 23:41:19,121 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-09-24 23:41:19,121 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:41:19,133 [INFO]   [S1] Checking: Functional Consultant
+2026-09-24 23:41:19,133 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:41:19,144 [INFO]   [S1] Checking: Application Developer
+2026-09-24 23:41:19,144 [INFO]   [filter] No skill match: Application Developer
+2026-09-24 23:41:19,157 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:41:19,157 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:41:19,169 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-24 23:41:19,169 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-24 23:41:19,181 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-24 23:41:19,181 [INFO]   Already applied: Junior Software Engineer
+2026-09-24 23:41:19,193 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:41:19,193 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:42:20,602 [INFO]   [S1] Data Analyst: 20 listings
+2026-09-24 23:42:20,614 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-24 23:42:20,614 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:42:20,628 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:42:20,628 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:42:20,641 [INFO]   [S1] Checking: Software Associates
+2026-09-24 23:42:20,641 [INFO]   [filter] No skill match: Software Associates
+2026-09-24 23:42:20,653 [INFO]   [S1] Checking: Business Management Trainee - Graduates and Freshers
+2026-09-24 23:42:20,653 [INFO]   [filter] No skill match: Business Management Trainee - Graduates and Freshers
+2026-09-24 23:42:20,666 [INFO]   [S1] Checking: Design Evaluation Engineer
+2026-09-24 23:42:20,666 [INFO]   [filter] No skill match: Design Evaluation Engineer
+2026-09-24 23:42:20,677 [INFO]   [S1] Checking: Gaming Lobby & Promotions Executive - IND
+2026-09-24 23:42:20,677 [INFO]   [filter] No skill match: Gaming Lobby & Promotions Executive - IND
+2026-09-24 23:42:20,689 [INFO]   [S1] Checking: Media Intelligence Analyst
+2026-09-24 23:42:20,689 [INFO]   [filter] No skill match: Media Intelligence Analyst
+2026-09-24 23:42:20,700 [INFO]   [S1] Checking: Marketing Executive (Medical Representative)
+2026-09-24 23:42:20,700 [INFO]   [filter] Excluded 'marketing': Marketing Executive (Medical Representative)
+2026-09-24 23:42:20,712 [INFO]   [S1] Checking: PE-CX-Backoffice Helpdesk
+2026-09-24 23:42:20,712 [INFO]   [filter] No skill match: PE-CX-Backoffice Helpdesk
+2026-09-24 23:42:20,724 [INFO]   [S1] Checking: F&P- RTR
+2026-09-24 23:42:20,724 [INFO]   [filter] No skill match: F&P- RTR
+2026-09-24 23:42:20,736 [INFO]   [S1] Checking: Scm Executive
+2026-09-24 23:42:20,736 [INFO]   [filter] No skill match: Scm Executive
+2026-09-24 23:42:20,748 [INFO]   [S1] Checking: Pharmacovigilance Associate
+2026-09-24 23:42:20,748 [INFO]   [filter] No skill match: Pharmacovigilance Associate
+2026-09-24 23:42:20,759 [INFO]   [S1] Checking: Application Developer
+2026-09-24 23:42:20,759 [INFO]   [filter] No skill match: Application Developer
+2026-09-24 23:42:20,771 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:42:20,771 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:42:20,783 [INFO]   [S1] Checking: Operations Executive
+2026-09-24 23:42:20,783 [INFO]   [filter] Excluded 'operations executive': Operations Executive
+2026-09-24 23:42:20,794 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-24 23:42:20,794 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:42:20,804 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-24 23:42:20,804 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-24 23:42:20,815 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-24 23:42:20,815 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:42:20,826 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:42:20,826 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:42:20,839 [INFO]   [S1] Checking: CSA Professional
+2026-09-24 23:42:20,839 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:43:22,000 [INFO]   [S1] AI ML Engineer: 20 listings
+2026-09-24 23:43:22,023 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-24 23:43:22,023 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-24 23:43:22,035 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-24 23:43:22,035 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:43:22,047 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-24 23:43:22,047 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:43:22,059 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-24 23:43:22,059 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:43:22,071 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:43:22,071 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:43:22,084 [INFO]   [S1] Checking: CSA Professional
+2026-09-24 23:43:22,084 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:43:22,096 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:43:22,096 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:43:22,108 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:43:22,108 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:43:22,122 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:43:22,122 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:43:22,134 [INFO]   [S1] Checking: Lead Engineer, Software
+2026-09-24 23:43:22,134 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:43:22,146 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-24 23:43:22,146 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-24 23:43:22,157 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-24 23:43:22,157 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-24 23:43:22,168 [INFO]   [S1] Checking: Software Associates
+2026-09-24 23:43:22,168 [INFO]   [filter] No skill match: Software Associates
+2026-09-24 23:43:22,179 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-09-24 23:43:22,179 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:43:22,189 [INFO]   [S1] Checking: Functional Consultant
+2026-09-24 23:43:22,190 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:43:22,200 [INFO]   [S1] Checking: Application Developer
+2026-09-24 23:43:22,200 [INFO]   [filter] No skill match: Application Developer
+2026-09-24 23:43:22,212 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:43:22,212 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:43:22,224 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-24 23:43:22,224 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-24 23:43:22,235 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-24 23:43:22,235 [INFO]   Already applied: Junior Software Engineer
+2026-09-24 23:43:22,247 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:43:22,248 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:44:23,366 [INFO]   [S1] Machine Learning Engineer: 20 listings
+2026-09-24 23:44:23,380 [INFO]   [S1] Checking: Agent Product Builder
+2026-09-24 23:44:23,380 [INFO]   [filter] No skill match: Agent Product Builder
+2026-09-24 23:44:23,392 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-24 23:44:23,392 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-24 23:44:23,404 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-24 23:44:23,404 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-24 23:44:23,416 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-24 23:44:23,417 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-24 23:44:23,428 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-24 23:44:23,429 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-24 23:44:23,440 [INFO]   [S1] Checking: CSA Professional
+2026-09-24 23:44:23,440 [INFO]   [filter] No skill match: CSA Professional
+2026-09-24 23:44:23,451 [INFO]   [S1] Checking: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:44:23,452 [INFO]   [filter] No skill match: Unpaid-Cyber Security Engineer / Infrastructure Security
+2026-09-24 23:44:23,462 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:44:23,462 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:44:23,474 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
+2026-09-24 23:44:23,474 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
+2026-09-24 23:44:23,486 [INFO]   [S1] Checking: Lead Engineer, Software
+2026-09-24 23:44:23,486 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
+2026-09-24 23:44:23,500 [INFO]   [S1] Checking: Inside Sales Executive
+2026-09-24 23:44:23,500 [INFO]   [filter] Excluded 'sales': Inside Sales Executive
+2026-09-24 23:44:23,512 [INFO]   [S1] Checking: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-24 23:44:23,513 [INFO]   [filter] No skill match: GenAI Specialist - Rating | 0-3 yrs | Hyderabad
+2026-09-24 23:44:23,524 [INFO]   [S1] Checking: Software Associates
+2026-09-24 23:44:23,524 [INFO]   [filter] No skill match: Software Associates
+2026-09-24 23:44:23,537 [INFO]   [S1] Checking: Functional Consultant (M&A)
+2026-09-24 23:44:23,537 [INFO]   [filter] No skill match: Functional Consultant (M&A)
+2026-09-24 23:44:23,548 [INFO]   [S1] Checking: Functional Consultant
+2026-09-24 23:44:23,548 [INFO]   [filter] No skill match: Functional Consultant
+2026-09-24 23:44:23,561 [INFO]   [S1] Checking: Application Developer
+2026-09-24 23:44:23,561 [INFO]   [filter] No skill match: Application Developer
+2026-09-24 23:44:23,572 [INFO]   [S1] Checking: Associate Pricing Analyst
+2026-09-24 23:44:23,573 [INFO]   [filter] No skill match: Associate Pricing Analyst
+2026-09-24 23:44:23,584 [INFO]   [S1] Checking: Adobe / AEM Architect
+2026-09-24 23:44:23,584 [INFO]   [filter] Excluded 'architect': Adobe / AEM Architect
+2026-09-24 23:44:23,595 [INFO]   [S1] Checking: Junior Software Engineer
+2026-09-24 23:44:23,595 [INFO]   Already applied: Junior Software Engineer
+2026-09-24 23:44:23,606 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:44:23,606 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-24 23:44:23,606 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-24 17:24:00,871 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-24 17:24:00,871 [INFO] ███████████████████████████████████████████████████████
-2026-09-24 17:39:14,183 [INFO] 
+2026-09-24 23:44:23,606 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-24 23:44:23,607 [INFO] ███████████████████████████████████████████████████████
+2026-09-24 23:59:36,746 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-24 17:39:14,183 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-24 17:39:14,183 [INFO] ███████████████████████████████████████████████████████
-2026-09-24 17:40:30,130 [INFO]   [S3] Java Developer: 0 listings
-2026-09-24 17:41:46,065 [INFO]   [S3] Python Developer: 0 listings
-2026-09-24 17:43:02,129 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-24 17:44:18,213 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-24 17:45:34,229 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-24 17:46:50,311 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-24 17:48:06,337 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-24 17:49:22,346 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-24 17:49:22,346 [INFO] 
+2026-09-24 23:59:36,746 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-24 23:59:36,746 [INFO] ███████████████████████████████████████████████████████
+2026-09-25 00:00:52,624 [INFO]   [S3] Java Developer: 0 listings
+2026-09-25 00:02:08,610 [INFO]   [S3] Python Developer: 0 listings
+2026-09-25 00:03:24,524 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-25 00:04:40,473 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-25 00:05:56,208 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-25 00:07:12,079 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-25 00:08:28,048 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-25 00:09:44,040 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-25 00:09:44,040 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-24 17:49:22,346 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-24 17:49:22,347 [INFO] ███████████████████████████████████████████████████████
-2026-09-24 18:04:33,924 [INFO] 
+2026-09-25 00:09:44,041 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-25 00:09:44,041 [INFO] ███████████████████████████████████████████████████████
+2026-09-25 00:24:55,931 [INFO] 
 =======================================================
-2026-09-24 18:04:33,924 [INFO]   Run complete — Applied this session : 2
-2026-09-24 18:04:33,925 [INFO]   Total ever applied                  : 351
-2026-09-24 18:04:33,925 [INFO] =======================================================
+2026-09-25 00:24:55,931 [INFO]   Run complete — Applied this session : 0
+2026-09-25 00:24:55,931 [INFO]   Total ever applied                  : 351
+2026-09-25 00:24:55,931 [INFO] =======================================================

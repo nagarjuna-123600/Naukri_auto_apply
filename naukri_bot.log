@@ -1,535 +1,361 @@
-2026-09-25 23:05:18,042 [INFO] GitHub Actions — single run mode
-2026-09-25 23:05:18,042 [INFO] 
+2026-09-26 03:36:49,574 [INFO] GitHub Actions — single run mode
+2026-09-26 03:36:49,574 [INFO] 
 =======================================================
-2026-09-25 23:05:18,042 [INFO]   Run started: 2026-09-25 23:05:18
-2026-09-25 23:05:18,042 [INFO] =======================================================
-2026-09-25 23:05:18,043 [INFO] Previously applied: 352 jobs
-2026-09-25 23:05:18,043 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-25 23:05:18,043 [INFO] ====== WebDriver manager ======
-2026-09-25 23:05:19,785 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-25 23:05:19,833 [INFO] There is no [linux64] chromedriver "153.0.8010.52" for browser google-chrome "153.0.8010" in cache
-2026-09-25 23:05:19,864 [INFO] There is no [linux64] chromedriver "153.0.8010.52" for browser google-chrome "153.0.8010" in cache
-2026-09-25 23:05:19,865 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-25 23:05:19,971 [INFO] WebDriver version 153.0.8010.52 selected
-2026-09-25 23:05:19,977 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/linux64/chromedriver-linux64.zip
-2026-09-25 23:05:19,977 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/linux64/chromedriver-linux64.zip
-2026-09-25 23:05:20,041 [INFO] Driver downloading response is 200
-2026-09-25 23:05:20,297 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/153.0.8010.52]
-2026-09-25 23:05:25,890 [INFO]   Trying cookie login...
-2026-09-25 23:05:31,683 [INFO]   Loading 34 cookies...
-2026-09-25 23:05:35,878 [INFO]   ✅ Cookie login successful!
-2026-09-25 23:05:35,878 [INFO] 
+2026-09-26 03:36:49,574 [INFO]   Run started: 2026-09-26 03:36:49
+2026-09-26 03:36:49,574 [INFO] =======================================================
+2026-09-26 03:36:49,575 [INFO] Previously applied: 352 jobs
+2026-09-26 03:36:49,575 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-26 03:36:49,576 [INFO] ====== WebDriver manager ======
+2026-09-26 03:36:50,555 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-26 03:36:50,627 [INFO] There is no [linux64] chromedriver "153.0.8010.52" for browser google-chrome "153.0.8010" in cache
+2026-09-26 03:36:50,653 [INFO] There is no [linux64] chromedriver "153.0.8010.52" for browser google-chrome "153.0.8010" in cache
+2026-09-26 03:36:50,653 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-26 03:36:50,827 [INFO] WebDriver version 153.0.8010.52 selected
+2026-09-26 03:36:50,831 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/linux64/chromedriver-linux64.zip
+2026-09-26 03:36:50,832 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/linux64/chromedriver-linux64.zip
+2026-09-26 03:36:50,940 [INFO] Driver downloading response is 200
+2026-09-26 03:36:51,343 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/153.0.8010.52]
+2026-09-26 03:36:54,998 [INFO]   Trying cookie login...
+2026-09-26 03:36:59,858 [INFO]   Loading 34 cookies...
+2026-09-26 03:37:04,003 [INFO]   ✅ Cookie login successful!
+2026-09-26 03:37:04,003 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-25 23:05:35,878 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-25 23:05:35,878 [INFO] ───────────────────────────────────────────────────────
-2026-09-25 23:05:35,878 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-09-25 23:06:42,517 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
-2026-09-25 23:06:48,062 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
-2026-09-25 23:06:50,421 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
-2026-09-25 23:06:53,442 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
-2026-09-25 23:06:56,475 [INFO]   ✅ Headline updated to: AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-09-25 23:06:56,476 [INFO] 
+2026-09-26 03:37:04,003 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-26 03:37:04,003 [INFO] ───────────────────────────────────────────────────────
+2026-09-26 03:37:04,003 [INFO]   Today's headline (odd day): Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-09-26 03:38:11,446 [INFO]   Edit elements found: ['SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||', 'SPAN|new-pencil|||']
+2026-09-26 03:38:16,993 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 16 elements
+2026-09-26 03:38:19,363 [INFO]   ✅ Headline editor opened via: //span[contains(@class,'new-pencil')]
+2026-09-26 03:38:22,391 [INFO]   [Method 2] JS filled 3 inputs: ['INPUT|Select job type|jobType', 'INPUT|Enter keyword / designation / companies|', 'INPUT|Enter location|']
+2026-09-26 03:38:25,418 [INFO]   ✅ Headline updated to: Python Developer | Java | SQL | AI ML Engineer | Data Analyst | Fresher | B.Tech CSE AI&ML
+2026-09-26 03:38:25,418 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-25 23:06:56,476 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-25 23:06:56,476 [INFO] ███████████████████████████████████████████████████████
-2026-09-25 23:07:58,061 [INFO]   [S0-HYD] Java Developer: 8 listings
-2026-09-25 23:07:58,080 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-25 23:07:58,080 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:07:58,093 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:07:58,093 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:07:58,107 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-25 23:07:58,107 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:07:58,120 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-25 23:07:58,120 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:07:58,134 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:07:58,134 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:07:58,147 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:07:58,147 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:07:58,160 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:07:58,160 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:07:58,173 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:07:58,173 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:09:14,183 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-25 23:10:15,810 [INFO]   [S0-HYD] Python Developer: 10 listings
-2026-09-25 23:10:15,824 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-25 23:10:15,824 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:10:15,837 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:10:15,837 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:10:15,850 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-25 23:10:15,850 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:10:15,864 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:10:15,864 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:10:15,877 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:10:15,877 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:10:15,890 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:10:15,890 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:10:15,904 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-25 23:10:15,904 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:10:15,917 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:10:15,917 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:10:15,930 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:10:15,930 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:10:15,943 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:10:15,943 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:11:31,994 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-25 23:12:33,197 [INFO]   [S0-HYD] SQL Developer: 10 listings
-2026-09-25 23:12:33,211 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-25 23:12:33,211 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:12:33,224 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:12:33,224 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:12:33,237 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-25 23:12:33,237 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:12:33,250 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-25 23:12:33,250 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:12:33,263 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:12:33,263 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:12:33,276 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:12:33,277 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:12:33,290 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:12:33,290 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:12:33,303 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:12:33,303 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:12:33,316 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:12:33,316 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:12:33,329 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:12:33,329 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:13:49,381 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-25 23:14:50,578 [INFO]   [S0-HYD] Software Engineer: 12 listings
-2026-09-25 23:14:50,592 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:14:50,592 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:14:50,606 [INFO]   [S0-HYD] Checking: Software Development Engineer
-2026-09-25 23:14:50,606 [INFO]   [filter] No skill match: Software Development Engineer
-2026-09-25 23:14:50,620 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:14:50,620 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:14:50,633 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:14:50,633 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:14:50,647 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:14:50,647 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:14:50,660 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:14:50,660 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:14:50,674 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:14:50,674 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:14:50,687 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:14:50,687 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:14:50,701 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-25 23:14:50,701 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:14:50,714 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-25 23:14:50,714 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:14:50,728 [INFO]   [S0-HYD] Checking: Junior Quality Engineer - Fresher
-2026-09-25 23:14:50,728 [INFO]   [filter] No skill match: Junior Quality Engineer - Fresher
-2026-09-25 23:14:50,742 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-25 23:14:50,742 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:16:06,648 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-25 23:17:07,951 [INFO]   [S0-HYD] Associate Software Engineer: 10 listings
-2026-09-25 23:17:07,965 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:17:07,965 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:17:07,981 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-25 23:17:07,981 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:17:07,995 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-25 23:17:07,995 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:17:08,008 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-25 23:17:08,008 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:17:08,022 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:17:08,022 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:17:08,035 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:17:08,035 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:17:08,048 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:17:08,048 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:17:08,061 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:17:08,061 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:17:08,074 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:17:08,074 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:17:08,087 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:17:08,087 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:18:24,088 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-25 23:19:25,175 [INFO]   [S0-HYD] Data Analyst: 19 listings
-2026-09-25 23:19:25,189 [INFO]   [S0-HYD] Checking: Walk-in || Junior Analyst
-2026-09-25 23:19:25,189 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
-2026-09-25 23:19:25,202 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-25 23:19:25,202 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:19:25,214 [INFO]   [S0-HYD] Checking: Walk-in || PE - Fresher Mapping Role
-2026-09-25 23:19:25,214 [INFO]   [filter] No skill match: Walk-in || PE - Fresher Mapping Role
-2026-09-25 23:19:25,227 [INFO]   [S0-HYD] Checking: Design Evaluation Engineer
-2026-09-25 23:19:25,227 [INFO]   [filter] No skill match: Design Evaluation Engineer
-2026-09-25 23:19:25,240 [INFO]   [S0-HYD] Checking: Gaming Lobby & Promotions Executive - IND
-2026-09-25 23:19:25,240 [INFO]   [filter] No skill match: Gaming Lobby & Promotions Executive - IND
-2026-09-25 23:19:25,256 [INFO]   [S0-HYD] Checking: Media Intelligence Analyst
-2026-09-25 23:19:25,256 [INFO]   [filter] No skill match: Media Intelligence Analyst
-2026-09-25 23:19:25,269 [INFO]   [S0-HYD] Checking: PE-CX-Backoffice Helpdesk
-2026-09-25 23:19:25,269 [INFO]   [filter] No skill match: PE-CX-Backoffice Helpdesk
-2026-09-25 23:19:25,283 [INFO]   [S0-HYD] Checking: F&P- RTR
-2026-09-25 23:19:25,283 [INFO]   [filter] No skill match: F&P- RTR
-2026-09-25 23:19:25,296 [INFO]   [S0-HYD] Checking: Scm Executive
-2026-09-25 23:19:25,296 [INFO]   [filter] No skill match: Scm Executive
-2026-09-25 23:19:25,310 [INFO]   [S0-HYD] Checking: Officer
-2026-09-25 23:19:25,310 [INFO]   [filter] No skill match: Officer
-2026-09-25 23:19:25,323 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-25 23:19:25,323 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:19:25,336 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-25 23:19:25,336 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:19:25,349 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:19:25,349 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:19:25,363 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:19:25,363 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:19:25,376 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:19:25,376 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:19:25,390 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:19:25,390 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:19:25,403 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:19:25,403 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:19:25,416 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:19:25,417 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:19:25,430 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:19:25,430 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:20:41,590 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-25 23:21:42,797 [INFO]   [S0-HYD] AI ML Engineer: 10 listings
-2026-09-25 23:21:42,811 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-25 23:21:42,811 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:21:42,826 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-25 23:21:42,827 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:21:42,840 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-25 23:21:42,840 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:21:42,854 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:21:42,854 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:21:42,867 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:21:42,867 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:21:42,881 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:21:42,881 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:21:42,894 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:21:42,894 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:21:42,907 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:21:42,907 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:21:42,920 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:21:42,920 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:21:42,934 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:21:42,934 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:22:59,210 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-25 23:24:00,454 [INFO]   [S0-HYD] Machine Learning Engineer: 10 listings
-2026-09-25 23:24:00,467 [INFO]   [S0-HYD] Checking: Fullstack Developer
-2026-09-25 23:24:00,467 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:24:00,481 [INFO]   [S0-HYD] Checking: Data Annotation Associate
-2026-09-25 23:24:00,481 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:24:00,494 [INFO]   [S0-HYD] Checking: Staff Business Analyst
-2026-09-25 23:24:00,494 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:24:00,508 [INFO]   [S0-HYD] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:24:00,508 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:24:00,520 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:24:00,520 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:24:00,533 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:24:00,533 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:24:00,546 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:24:00,546 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:24:00,559 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:24:00,559 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:24:00,579 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:24:00,579 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:24:00,603 [INFO]   [S0-HYD] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:24:00,604 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:25:16,615 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-25 23:26:33,158 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-25 23:27:49,174 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-25 23:29:05,558 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-25 23:30:21,528 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-25 23:31:37,799 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-25 23:32:53,725 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-25 23:34:10,055 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-25 23:35:26,318 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-25 23:36:42,595 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-25 23:37:58,471 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-25 23:39:14,969 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-25 23:40:30,935 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-25 23:40:30,936 [INFO] 
+2026-09-26 03:38:25,418 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-26 03:38:25,418 [INFO] ███████████████████████████████████████████████████████
+2026-09-26 03:39:27,515 [INFO]   [S0-HYD] Java Developer: 3 listings
+2026-09-26 03:39:27,532 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:39:27,532 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:39:27,544 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:39:27,544 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:39:27,555 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:39:27,555 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:40:43,530 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-26 03:41:44,777 [INFO]   [S0-HYD] Python Developer: 5 listings
+2026-09-26 03:41:44,802 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:41:44,802 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:41:44,814 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:41:44,814 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:41:44,825 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:41:44,825 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:41:44,836 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:41:44,836 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:41:44,848 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:41:44,848 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:43:00,776 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-26 03:44:01,991 [INFO]   [S0-HYD] SQL Developer: 5 listings
+2026-09-26 03:44:02,016 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:44:02,017 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:44:02,027 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:44:02,027 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:44:02,038 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:44:02,038 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:44:02,049 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:44:02,049 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:44:02,060 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:44:02,060 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:45:17,991 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-26 03:46:19,089 [INFO]   [S0-HYD] Software Engineer: 6 listings
+2026-09-26 03:46:19,101 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:46:19,101 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:46:19,112 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:46:19,113 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:46:19,124 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:46:19,124 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:46:19,136 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:46:19,136 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:46:19,147 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:46:19,147 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:46:19,158 [INFO]   [S0-HYD] Checking: Junior Quality Engineer - Fresher
+2026-09-26 03:46:19,158 [INFO]   [filter] No skill match: Junior Quality Engineer - Fresher
+2026-09-26 03:47:35,205 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-26 03:48:36,348 [INFO]   [S0-HYD] Associate Software Engineer: 5 listings
+2026-09-26 03:48:36,368 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:48:36,368 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:48:36,381 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:48:36,381 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:48:36,391 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:48:36,392 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:48:36,403 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:48:36,403 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:48:36,414 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:48:36,414 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:49:52,261 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-26 03:50:53,294 [INFO]   [S0-HYD] Data Analyst: 8 listings
+2026-09-26 03:50:53,307 [INFO]   [S0-HYD] Checking: Walk-in || Junior Analyst
+2026-09-26 03:50:53,307 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
+2026-09-26 03:50:53,318 [INFO]   [S0-HYD] Checking: Walk-in || PE - Fresher Mapping Role
+2026-09-26 03:50:53,318 [INFO]   [filter] No skill match: Walk-in || PE - Fresher Mapping Role
+2026-09-26 03:50:53,329 [INFO]   [S0-HYD] Checking: Officer
+2026-09-26 03:50:53,329 [INFO]   [filter] No skill match: Officer
+2026-09-26 03:50:53,339 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:50:53,339 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:50:53,351 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:50:53,351 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:50:53,363 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:50:53,363 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:50:53,374 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:50:53,374 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:50:53,386 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:50:53,386 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:52:09,168 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-26 03:53:10,278 [INFO]   [S0-HYD] AI ML Engineer: 5 listings
+2026-09-26 03:53:10,302 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:53:10,302 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:53:10,314 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:53:10,314 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:53:10,324 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:53:10,324 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:53:10,335 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:53:10,335 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:53:10,346 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:53:10,346 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:54:26,309 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-26 03:55:27,535 [INFO]   [S0-HYD] Machine Learning Engineer: 5 listings
+2026-09-26 03:55:27,558 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:55:27,558 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 03:55:27,569 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:55:27,569 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 03:55:27,580 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:55:27,580 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 03:55:27,591 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:55:27,591 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 03:55:27,602 [INFO]   [S0-HYD] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:55:27,602 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 03:56:43,807 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-26 03:57:59,950 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-26 03:59:15,895 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-26 04:00:32,113 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-26 04:01:48,082 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-26 04:03:05,446 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-26 04:04:21,321 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-26 04:05:37,465 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-26 04:06:53,465 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-26 04:08:09,644 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-26 04:09:25,498 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-26 04:10:41,707 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-26 04:11:57,582 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-26 04:11:57,582 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-25 23:40:30,936 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-25 23:40:30,936 [INFO] ███████████████████████████████████████████████████████
-2026-09-25 23:41:32,172 [INFO]   [S1] Java Developer: 14 listings
-2026-09-25 23:41:32,191 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-25 23:41:32,191 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-25 23:41:32,204 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-25 23:41:32,204 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:41:32,217 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:41:32,217 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:41:32,231 [INFO]   [S1] Checking: CSA Professional
-2026-09-25 23:41:32,231 [INFO]   [filter] No skill match: CSA Professional
-2026-09-25 23:41:32,244 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-25 23:41:32,244 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:41:32,257 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-25 23:41:32,257 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:41:32,271 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-25 23:41:32,271 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-25 23:41:32,284 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-25 23:41:32,284 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-25 23:41:32,297 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:41:32,297 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:41:32,311 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:41:32,311 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:41:32,324 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:41:32,324 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:41:32,338 [INFO]   [S1] Checking: Functional Consultant
-2026-09-25 23:41:32,338 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-25 23:41:32,351 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-25 23:41:32,351 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-25 23:41:32,365 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:41:32,365 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:42:33,734 [INFO]   [S1] Python Developer: 16 listings
-2026-09-25 23:42:33,747 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-25 23:42:33,748 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:42:33,761 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:42:33,761 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:42:33,774 [INFO]   [S1] Checking: CSA Professional
-2026-09-25 23:42:33,774 [INFO]   [filter] No skill match: CSA Professional
-2026-09-25 23:42:33,787 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-25 23:42:33,787 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:42:33,800 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:42:33,800 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:42:33,813 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:42:33,813 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:42:33,826 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:42:33,826 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:42:33,840 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-25 23:42:33,840 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:42:33,853 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-25 23:42:33,853 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-25 23:42:33,866 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-25 23:42:33,866 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-25 23:42:33,879 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-25 23:42:33,879 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-25 23:42:33,892 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:42:33,892 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:42:33,906 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:42:33,906 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:42:33,918 [INFO]   [S1] Checking: Functional Consultant
-2026-09-25 23:42:33,919 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-25 23:42:33,931 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-25 23:42:33,931 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-25 23:42:33,944 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:42:33,944 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:43:35,239 [INFO]   [S1] SQL Developer: 12 listings
-2026-09-25 23:43:35,252 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-25 23:43:35,252 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:43:35,266 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-25 23:43:35,266 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-25 23:43:35,279 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:43:35,279 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:43:35,292 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-25 23:43:35,293 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:43:35,306 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-25 23:43:35,306 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:43:35,319 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:43:35,319 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:43:35,332 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:43:35,333 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:43:35,346 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:43:35,346 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:43:35,359 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:43:35,359 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:43:35,372 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:43:35,372 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:43:35,385 [INFO]   [S1] Checking: CSA Professional
-2026-09-25 23:43:35,386 [INFO]   [filter] No skill match: CSA Professional
-2026-09-25 23:43:35,399 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:43:35,399 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:44:36,649 [INFO]   [S1] Software Engineer: 19 listings
-2026-09-25 23:44:36,663 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:44:36,663 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:44:36,676 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-25 23:44:36,676 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-25 23:44:36,690 [INFO]   [S1] Checking: Software Development Engineer
-2026-09-25 23:44:36,690 [INFO]   [filter] No skill match: Software Development Engineer
-2026-09-25 23:44:36,703 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:44:36,703 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:44:36,716 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:44:36,716 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:44:36,730 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:44:36,730 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:44:36,743 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:44:36,743 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:44:36,756 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:44:36,757 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:44:36,770 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:44:36,770 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:44:36,783 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-25 23:44:36,783 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-25 23:44:36,796 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-25 23:44:36,796 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:44:36,809 [INFO]   [S1] Checking: Software Development faculty Trainee
-2026-09-25 23:44:36,810 [INFO]   [filter] Excluded 'faculty': Software Development faculty Trainee
-2026-09-25 23:44:36,823 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-25 23:44:36,823 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:44:36,836 [INFO]   [S1] Checking: CSA Professional
-2026-09-25 23:44:36,836 [INFO]   [filter] No skill match: CSA Professional
-2026-09-25 23:44:36,849 [INFO]   [S1] Checking: Junior Quality Engineer - Fresher
-2026-09-25 23:44:36,850 [INFO]   [filter] No skill match: Junior Quality Engineer - Fresher
-2026-09-25 23:44:36,863 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-25 23:44:36,863 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:44:36,876 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-25 23:44:36,876 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-25 23:44:36,889 [INFO]   [S1] Checking: Functional Consultant
-2026-09-25 23:44:36,889 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-25 23:44:36,903 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-25 23:44:36,903 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-25 23:45:38,329 [INFO]   [S1] Associate Software Engineer: 16 listings
-2026-09-25 23:45:38,343 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:45:38,343 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:45:38,356 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-25 23:45:38,356 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-25 23:45:38,370 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-25 23:45:38,370 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:45:38,383 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-25 23:45:38,383 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-25 23:45:38,396 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-25 23:45:38,396 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:45:38,409 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-25 23:45:38,409 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:45:38,424 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:45:38,424 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:45:38,438 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:45:38,438 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:45:38,451 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:45:38,451 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:45:38,464 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-25 23:45:38,464 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-25 23:45:38,477 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:45:38,477 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:45:38,490 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:45:38,491 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:45:38,504 [INFO]   [S1] Checking: Functional Consultant
-2026-09-25 23:45:38,504 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-25 23:45:38,517 [INFO]   [S1] Checking: CSA Professional
-2026-09-25 23:45:38,517 [INFO]   [filter] No skill match: CSA Professional
-2026-09-25 23:45:38,531 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-25 23:45:38,531 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-25 23:45:38,544 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:45:38,544 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:46:39,753 [INFO]   [S1] Data Analyst: 20 listings
-2026-09-25 23:46:39,767 [INFO]   [S1] Checking: Walk-in || Junior Analyst
-2026-09-25 23:46:39,767 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
-2026-09-25 23:46:39,781 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-25 23:46:39,781 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:46:39,794 [INFO]   [S1] Checking: Walk-in || PE - Fresher Mapping Role
-2026-09-25 23:46:39,794 [INFO]   [filter] No skill match: Walk-in || PE - Fresher Mapping Role
-2026-09-25 23:46:39,807 [INFO]   [S1] Checking: Design Evaluation Engineer
-2026-09-25 23:46:39,808 [INFO]   [filter] No skill match: Design Evaluation Engineer
-2026-09-25 23:46:39,821 [INFO]   [S1] Checking: Gaming Lobby & Promotions Executive - IND
-2026-09-25 23:46:39,821 [INFO]   [filter] No skill match: Gaming Lobby & Promotions Executive - IND
-2026-09-25 23:46:39,834 [INFO]   [S1] Checking: Media Intelligence Analyst
-2026-09-25 23:46:39,834 [INFO]   [filter] No skill match: Media Intelligence Analyst
-2026-09-25 23:46:39,848 [INFO]   [S1] Checking: PE-CX-Backoffice Helpdesk
-2026-09-25 23:46:39,848 [INFO]   [filter] No skill match: PE-CX-Backoffice Helpdesk
-2026-09-25 23:46:39,861 [INFO]   [S1] Checking: F&P- RTR
-2026-09-25 23:46:39,861 [INFO]   [filter] No skill match: F&P- RTR
-2026-09-25 23:46:39,874 [INFO]   [S1] Checking: Scm Executive
-2026-09-25 23:46:39,874 [INFO]   [filter] No skill match: Scm Executive
-2026-09-25 23:46:39,887 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-25 23:46:39,888 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-25 23:46:39,901 [INFO]   [S1] Checking: Operations Executive
-2026-09-25 23:46:39,901 [INFO]   [filter] Excluded 'operations executive': Operations Executive
-2026-09-25 23:46:39,914 [INFO]   [S1] Checking: Officer
-2026-09-25 23:46:39,914 [INFO]   [filter] No skill match: Officer
-2026-09-25 23:46:39,928 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-25 23:46:39,928 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:46:39,941 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-25 23:46:39,941 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:46:39,955 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:46:39,955 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:46:39,968 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:46:39,968 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:46:39,982 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:46:39,982 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:46:39,995 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:46:39,995 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:46:40,008 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-25 23:46:40,008 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-25 23:46:40,021 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-25 23:46:40,022 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-25 23:47:41,263 [INFO]   [S1] AI ML Engineer: 16 listings
-2026-09-25 23:47:41,276 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-25 23:47:41,276 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:47:41,292 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-25 23:47:41,293 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:47:41,306 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-25 23:47:41,306 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:47:41,319 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:47:41,319 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:47:41,333 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:47:41,333 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:47:41,347 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:47:41,347 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:47:41,361 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:47:41,361 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:47:41,375 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-25 23:47:41,375 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-25 23:47:41,389 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-25 23:47:41,389 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-25 23:47:41,403 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-25 23:47:41,403 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-25 23:47:41,417 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:47:41,417 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:47:41,431 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:47:41,431 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:47:41,445 [INFO]   [S1] Checking: Functional Consultant
-2026-09-25 23:47:41,445 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-25 23:47:41,459 [INFO]   [S1] Checking: CSA Professional
-2026-09-25 23:47:41,460 [INFO]   [filter] No skill match: CSA Professional
-2026-09-25 23:47:41,473 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-25 23:47:41,474 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-25 23:47:41,488 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:47:41,488 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:48:42,627 [INFO]   [S1] Machine Learning Engineer: 16 listings
-2026-09-25 23:48:42,643 [INFO]   [S1] Checking: Fullstack Developer
-2026-09-25 23:48:42,643 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
-2026-09-25 23:48:42,657 [INFO]   [S1] Checking: Data Annotation Associate
-2026-09-25 23:48:42,657 [INFO]   [filter] No skill match: Data Annotation Associate
-2026-09-25 23:48:42,670 [INFO]   [S1] Checking: Staff Business Analyst
-2026-09-25 23:48:42,670 [INFO]   [filter] No skill match: Staff Business Analyst
-2026-09-25 23:48:42,684 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
-2026-09-25 23:48:42,684 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
-2026-09-25 23:48:42,697 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:48:42,697 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
-2026-09-25 23:48:42,711 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:48:42,711 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
-2026-09-25 23:48:42,724 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:48:42,724 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
-2026-09-25 23:48:42,737 [INFO]   [S1] Checking: Java Full Stack Developer Fresher 2026
-2026-09-25 23:48:42,738 [INFO]   [filter] Excluded 'full stack developer': Java Full Stack Developer Fresher 2026
-2026-09-25 23:48:42,751 [INFO]   [S1] Checking: Lead Engineer, Software
-2026-09-25 23:48:42,751 [INFO]   [filter] Excluded 'lead': Lead Engineer, Software
-2026-09-25 23:48:42,764 [INFO]   [S1] Checking: Functional Consultant (M&A)
-2026-09-25 23:48:42,764 [INFO]   [filter] No skill match: Functional Consultant (M&A)
-2026-09-25 23:48:42,777 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:48:42,777 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
-2026-09-25 23:48:42,790 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:48:42,790 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
-2026-09-25 23:48:42,803 [INFO]   [S1] Checking: Functional Consultant
-2026-09-25 23:48:42,803 [INFO]   [filter] No skill match: Functional Consultant
-2026-09-25 23:48:42,817 [INFO]   [S1] Checking: CSA Professional
-2026-09-25 23:48:42,817 [INFO]   [filter] No skill match: CSA Professional
-2026-09-25 23:48:42,830 [INFO]   [S1] Checking: Associate Pricing Analyst
-2026-09-25 23:48:42,830 [INFO]   [filter] No skill match: Associate Pricing Analyst
-2026-09-25 23:48:42,843 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:48:42,843 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
-2026-09-25 23:48:42,843 [INFO] 
+2026-09-26 04:11:57,582 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-26 04:11:57,582 [INFO] ███████████████████████████████████████████████████████
+2026-09-26 04:12:58,722 [INFO]   [S1] Java Developer: 8 listings
+2026-09-26 04:12:58,738 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-26 04:12:58,738 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-26 04:12:58,751 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-26 04:12:58,751 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-26 04:12:58,763 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-26 04:12:58,763 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-26 04:12:58,775 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-26 04:12:58,775 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-26 04:12:58,787 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:12:58,787 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:12:58,799 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:12:58,799 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:12:58,811 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:12:58,811 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:12:58,823 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:12:58,824 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:14:00,000 [INFO]   [S1] Python Developer: 10 listings
+2026-09-26 04:14:00,021 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-26 04:14:00,021 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-26 04:14:00,032 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-26 04:14:00,032 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-26 04:14:00,043 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-26 04:14:00,043 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-26 04:14:00,055 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:14:00,055 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:14:00,066 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:14:00,066 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:14:00,077 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:14:00,077 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:14:00,088 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-26 04:14:00,088 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-26 04:14:00,100 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:14:00,100 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:14:00,112 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:14:00,112 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:14:00,122 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:14:00,122 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:15:01,058 [INFO]   [S1] SQL Developer: 10 listings
+2026-09-26 04:15:01,070 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-26 04:15:01,070 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-26 04:15:01,081 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-26 04:15:01,081 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-26 04:15:01,093 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-26 04:15:01,093 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-26 04:15:01,104 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-26 04:15:01,104 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-26 04:15:01,116 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:15:01,116 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:15:01,127 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:15:01,127 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:15:01,138 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:15:01,138 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:15:01,150 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:15:01,150 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:15:01,162 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:15:01,162 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:15:01,173 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:15:01,173 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:16:02,268 [INFO]   [S1] Software Engineer: 12 listings
+2026-09-26 04:16:02,298 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:16:02,298 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:16:02,310 [INFO]   [S1] Checking: Software Development Engineer
+2026-09-26 04:16:02,310 [INFO]   [filter] No skill match: Software Development Engineer
+2026-09-26 04:16:02,321 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-26 04:16:02,321 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-26 04:16:02,332 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:16:02,332 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:16:02,343 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:16:02,343 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:16:02,353 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:16:02,353 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:16:02,364 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:16:02,364 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:16:02,378 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:16:02,378 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:16:02,389 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-26 04:16:02,390 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-26 04:16:02,401 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-26 04:16:02,401 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-26 04:16:02,412 [INFO]   [S1] Checking: Junior Quality Engineer - Fresher
+2026-09-26 04:16:02,413 [INFO]   [filter] No skill match: Junior Quality Engineer - Fresher
+2026-09-26 04:16:02,424 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-26 04:16:02,424 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-26 04:17:03,521 [INFO]   [S1] Associate Software Engineer: 10 listings
+2026-09-26 04:17:03,547 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-26 04:17:03,547 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-26 04:17:03,558 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-26 04:17:03,558 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-26 04:17:03,569 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-26 04:17:03,569 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-26 04:17:03,580 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-26 04:17:03,580 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-26 04:17:03,592 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:17:03,592 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:17:03,602 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:17:03,602 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:17:03,614 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:17:03,614 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:17:03,625 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:17:03,626 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:17:03,636 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:17:03,636 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:17:03,647 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:17:03,647 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:18:04,656 [INFO]   [S1] Data Analyst: 19 listings
+2026-09-26 04:18:04,681 [INFO]   [S1] Checking: Walk-in || Junior Analyst
+2026-09-26 04:18:04,681 [INFO]   [filter] No skill match: Walk-in || Junior Analyst
+2026-09-26 04:18:04,704 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-26 04:18:04,704 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-26 04:18:04,715 [INFO]   [S1] Checking: Walk-in || PE - Fresher Mapping Role
+2026-09-26 04:18:04,715 [INFO]   [filter] No skill match: Walk-in || PE - Fresher Mapping Role
+2026-09-26 04:18:04,728 [INFO]   [S1] Checking: Design Evaluation Engineer
+2026-09-26 04:18:04,728 [INFO]   [filter] No skill match: Design Evaluation Engineer
+2026-09-26 04:18:04,739 [INFO]   [S1] Checking: Gaming Lobby & Promotions Executive - IND
+2026-09-26 04:18:04,739 [INFO]   [filter] No skill match: Gaming Lobby & Promotions Executive - IND
+2026-09-26 04:18:04,750 [INFO]   [S1] Checking: Media Intelligence Analyst
+2026-09-26 04:18:04,750 [INFO]   [filter] No skill match: Media Intelligence Analyst
+2026-09-26 04:18:04,762 [INFO]   [S1] Checking: PE-CX-Backoffice Helpdesk
+2026-09-26 04:18:04,763 [INFO]   [filter] No skill match: PE-CX-Backoffice Helpdesk
+2026-09-26 04:18:04,775 [INFO]   [S1] Checking: F&P- RTR
+2026-09-26 04:18:04,775 [INFO]   [filter] No skill match: F&P- RTR
+2026-09-26 04:18:04,786 [INFO]   [S1] Checking: Scm Executive
+2026-09-26 04:18:04,786 [INFO]   [filter] No skill match: Scm Executive
+2026-09-26 04:18:04,798 [INFO]   [S1] Checking: Officer
+2026-09-26 04:18:04,798 [INFO]   [filter] No skill match: Officer
+2026-09-26 04:18:04,810 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-26 04:18:04,810 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-26 04:18:04,822 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-26 04:18:04,822 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-26 04:18:04,835 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-26 04:18:04,835 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-26 04:18:04,850 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:18:04,850 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:18:04,862 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:18:04,862 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:18:04,873 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:18:04,873 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:18:04,884 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:18:04,884 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:18:04,895 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:18:04,895 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:18:04,907 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:18:04,907 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:19:05,960 [INFO]   [S1] AI ML Engineer: 10 listings
+2026-09-26 04:19:05,986 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-26 04:19:05,986 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-26 04:19:05,998 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-26 04:19:05,998 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-26 04:19:06,010 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-26 04:19:06,010 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-26 04:19:06,022 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-26 04:19:06,022 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-26 04:19:06,034 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:19:06,034 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:19:06,046 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:19:06,046 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:19:06,057 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:19:06,057 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:19:06,069 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:19:06,069 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:19:06,080 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:19:06,080 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:19:06,091 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:19:06,091 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:20:07,121 [INFO]   [S1] Machine Learning Engineer: 10 listings
+2026-09-26 04:20:07,143 [INFO]   [S1] Checking: Fullstack Developer
+2026-09-26 04:20:07,143 [INFO]   [filter] Excluded 'fullstack developer': Fullstack Developer
+2026-09-26 04:20:07,154 [INFO]   [S1] Checking: Data Annotation Associate
+2026-09-26 04:20:07,154 [INFO]   [filter] No skill match: Data Annotation Associate
+2026-09-26 04:20:07,165 [INFO]   [S1] Checking: Staff Business Analyst
+2026-09-26 04:20:07,166 [INFO]   [filter] No skill match: Staff Business Analyst
+2026-09-26 04:20:07,177 [INFO]   [S1] Checking: Application Security Architect, Cybersecurity
+2026-09-26 04:20:07,177 [INFO]   [filter] Excluded 'architect': Application Security Architect, Cybersecurity
+2026-09-26 04:20:07,188 [INFO]   [S1] Checking: Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:20:07,188 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack, Cloud-Native
+2026-09-26 04:20:07,199 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:20:07,199 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Microservices)
+2026-09-26 04:20:07,210 [INFO]   [S1] Checking: Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:20:07,210 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack For Fintech
+2026-09-26 04:20:07,221 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:20:07,222 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (React/Angular)
+2026-09-26 04:20:07,233 [INFO]   [S1] Checking: Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:20:07,233 [INFO]   [filter] Excluded 'architect': Solution Architect – Java Full Stack (Azure)
+2026-09-26 04:20:07,245 [INFO]   [S1] Checking: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:20:07,245 [INFO]   Already applied: Hiring Software Engineers - Fresher & Experienced Both
+2026-09-26 04:20:07,245 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-25 23:48:42,843 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-25 23:48:42,843 [INFO] ███████████████████████████████████████████████████████
-2026-09-26 00:03:54,751 [INFO] 
+2026-09-26 04:20:07,245 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-26 04:20:07,245 [INFO] ███████████████████████████████████████████████████████
+2026-09-26 04:35:19,276 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-26 00:03:54,751 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-26 00:03:54,751 [INFO] ███████████████████████████████████████████████████████
-2026-09-26 00:05:10,797 [INFO]   [S3] Java Developer: 0 listings
-2026-09-26 00:06:26,701 [INFO]   [S3] Python Developer: 0 listings
-2026-09-26 00:07:42,709 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-26 00:08:58,698 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-26 00:10:14,992 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-26 00:11:31,080 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-26 00:12:47,092 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-26 00:14:03,008 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-26 00:14:03,008 [INFO] 
+2026-09-26 04:35:19,276 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-26 04:35:19,276 [INFO] ███████████████████████████████████████████████████████
+2026-09-26 04:36:35,195 [INFO]   [S3] Java Developer: 0 listings
+2026-09-26 04:37:51,168 [INFO]   [S3] Python Developer: 0 listings
+2026-09-26 04:39:07,039 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-26 04:40:22,962 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-26 04:41:38,846 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-26 04:42:54,830 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-26 04:44:10,708 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-26 04:45:26,583 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-26 04:45:26,583 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-26 00:14:03,008 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-26 00:14:03,008 [INFO] ███████████████████████████████████████████████████████
-2026-09-26 00:29:14,010 [INFO] 
+2026-09-26 04:45:26,583 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-26 04:45:26,583 [INFO] ███████████████████████████████████████████████████████
+2026-09-26 05:00:37,558 [INFO] 
 =======================================================
-2026-09-26 00:29:14,010 [INFO]   Run complete — Applied this session : 0
-2026-09-26 00:29:14,011 [INFO]   Total ever applied                  : 352
-2026-09-26 00:29:14,011 [INFO] =======================================================
+2026-09-26 05:00:37,558 [INFO]   Run complete — Applied this session : 0
+2026-09-26 05:00:37,559 [INFO]   Total ever applied                  : 352
+2026-09-26 05:00:37,559 [INFO] =======================================================

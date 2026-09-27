@@ -1,104 +1,104 @@
-2026-09-27 03:45:47,776 [INFO] GitHub Actions — single run mode
-2026-09-27 03:45:47,776 [INFO] 
+2026-09-27 09:49:29,325 [INFO] GitHub Actions — single run mode
+2026-09-27 09:49:29,325 [INFO] 
 =======================================================
-2026-09-27 03:45:47,776 [INFO]   Run started: 2026-09-27 03:45:47
-2026-09-27 03:45:47,776 [INFO] =======================================================
-2026-09-27 03:45:47,777 [INFO] Previously applied: 353 jobs
-2026-09-27 03:45:47,777 [INFO]   [driver] Headless mode (GitHub Actions)
-2026-09-27 03:45:47,778 [INFO] ====== WebDriver manager ======
-2026-09-27 03:45:51,036 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-27 03:45:51,165 [INFO] There is no [linux64] chromedriver "153.0.8010.52" for browser google-chrome "153.0.8010" in cache
-2026-09-27 03:45:51,196 [INFO] There is no [linux64] chromedriver "153.0.8010.52" for browser google-chrome "153.0.8010" in cache
-2026-09-27 03:45:51,196 [INFO] Get LATEST chromedriver version for google-chrome
-2026-09-27 03:45:51,425 [INFO] WebDriver version 153.0.8010.52 selected
-2026-09-27 03:45:51,430 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/linux64/chromedriver-linux64.zip
-2026-09-27 03:45:51,430 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/linux64/chromedriver-linux64.zip
-2026-09-27 03:45:51,566 [INFO] Driver downloading response is 200
-2026-09-27 03:45:51,883 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/153.0.8010.52]
-2026-09-27 03:45:58,776 [INFO]   Trying cookie login...
-2026-09-27 03:46:05,384 [INFO]   Loading 34 cookies...
-2026-09-27 03:46:09,686 [INFO]   ✅ Cookie login successful!
-2026-09-27 03:46:09,686 [INFO] 
+2026-09-27 09:49:29,325 [INFO]   Run started: 2026-09-27 09:49:29
+2026-09-27 09:49:29,325 [INFO] =======================================================
+2026-09-27 09:49:29,326 [INFO] Previously applied: 353 jobs
+2026-09-27 09:49:29,327 [INFO]   [driver] Headless mode (GitHub Actions)
+2026-09-27 09:49:29,327 [INFO] ====== WebDriver manager ======
+2026-09-27 09:49:29,535 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-27 09:49:29,606 [INFO] There is no [linux64] chromedriver "153.0.8010.52" for browser google-chrome "153.0.8010" in cache
+2026-09-27 09:49:29,638 [INFO] There is no [linux64] chromedriver "153.0.8010.52" for browser google-chrome "153.0.8010" in cache
+2026-09-27 09:49:29,638 [INFO] Get LATEST chromedriver version for google-chrome
+2026-09-27 09:49:29,788 [INFO] WebDriver version 153.0.8010.52 selected
+2026-09-27 09:49:29,794 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/linux64/chromedriver-linux64.zip
+2026-09-27 09:49:29,794 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/153.0.8010.52/linux64/chromedriver-linux64.zip
+2026-09-27 09:49:29,909 [INFO] Driver downloading response is 200
+2026-09-27 09:49:30,304 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/153.0.8010.52]
+2026-09-27 09:49:31,453 [INFO]   Trying cookie login...
+2026-09-27 09:49:37,566 [INFO]   Loading 34 cookies...
+2026-09-27 09:49:41,900 [INFO]   ✅ Cookie login successful!
+2026-09-27 09:49:41,900 [INFO] 
 ───────────────────────────────────────────────────────
-2026-09-27 03:46:09,686 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
-2026-09-27 03:46:09,687 [INFO] ───────────────────────────────────────────────────────
-2026-09-27 03:46:09,687 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
-2026-09-27 03:47:15,201 [INFO]   Edit elements found: []
-2026-09-27 03:47:25,768 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 0 elements
-2026-09-27 03:47:30,782 [INFO]   [headline] Trying: //*[contains(@class,'new-pencil')] — found 0 elements
-2026-09-27 03:47:35,795 [INFO]   [headline] Trying: //*[contains(@class,'resumeHeadline')]//span[contains(@class — found 0 elements
-2026-09-27 03:47:40,805 [INFO]   [headline] Trying: //*[contains(@class,'resumeHeadline')]//*[contains(@class,'n — found 0 elements
-2026-09-27 03:47:45,843 [INFO]   [headline] Trying: (//span[contains(@class,'new-pencil')])[2] — found 0 elements
-2026-09-27 03:47:50,862 [INFO]   [headline] Trying: (//span[contains(@class,'new-pencil')])[1] — found 0 elements
-2026-09-27 03:47:55,900 [INFO]   [headline] Trying: //*[@title='Edit'] — found 0 elements
-2026-09-27 03:48:00,935 [INFO]   [headline] Trying: //*[contains(@aria-label,'headline') or contains(@aria-label — found 0 elements
-2026-09-27 03:48:00,935 [WARNING]   Could not find headline edit button. Elements: []
-2026-09-27 03:48:00,935 [INFO] 
+2026-09-27 09:49:41,900 [INFO]   DAILY PROFILE UPDATE — Alternating Resume Headline
+2026-09-27 09:49:41,900 [INFO] ───────────────────────────────────────────────────────
+2026-09-27 09:49:41,900 [INFO]   Today's headline (even day): AI ML Engineer | Python Developer | Data Analyst | Java | SQL | Fresher | B.Tech CSE AIML
+2026-09-27 09:50:47,411 [INFO]   Edit elements found: []
+2026-09-27 09:50:58,014 [INFO]   [headline] Trying: //span[contains(@class,'new-pencil')] — found 0 elements
+2026-09-27 09:51:03,054 [INFO]   [headline] Trying: //*[contains(@class,'new-pencil')] — found 0 elements
+2026-09-27 09:51:08,095 [INFO]   [headline] Trying: //*[contains(@class,'resumeHeadline')]//span[contains(@class — found 0 elements
+2026-09-27 09:51:13,137 [INFO]   [headline] Trying: //*[contains(@class,'resumeHeadline')]//*[contains(@class,'n — found 0 elements
+2026-09-27 09:51:18,164 [INFO]   [headline] Trying: (//span[contains(@class,'new-pencil')])[2] — found 0 elements
+2026-09-27 09:51:23,198 [INFO]   [headline] Trying: (//span[contains(@class,'new-pencil')])[1] — found 0 elements
+2026-09-27 09:51:28,232 [INFO]   [headline] Trying: //*[@title='Edit'] — found 0 elements
+2026-09-27 09:51:33,266 [INFO]   [headline] Trying: //*[contains(@aria-label,'headline') or contains(@aria-label — found 0 elements
+2026-09-27 09:51:33,266 [WARNING]   Could not find headline edit button. Elements: []
+2026-09-27 09:51:33,266 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-27 03:48:00,935 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
-2026-09-27 03:48:00,935 [INFO] ███████████████████████████████████████████████████████
-2026-09-27 03:49:16,610 [INFO]   [S0-HYD] Java Developer: 0 listings
-2026-09-27 03:50:32,339 [INFO]   [S0-WFH] Java Developer: 0 listings
-2026-09-27 03:51:47,722 [INFO]   [S0-HYD] Python Developer: 0 listings
-2026-09-27 03:53:03,047 [INFO]   [S0-WFH] Python Developer: 0 listings
-2026-09-27 03:54:18,352 [INFO]   [S0-HYD] SQL Developer: 0 listings
-2026-09-27 03:55:33,652 [INFO]   [S0-WFH] SQL Developer: 0 listings
-2026-09-27 03:56:49,051 [INFO]   [S0-HYD] Software Engineer: 0 listings
-2026-09-27 03:58:04,441 [INFO]   [S0-WFH] Software Engineer: 0 listings
-2026-09-27 03:59:19,774 [INFO]   [S0-HYD] Associate Software Engineer: 0 listings
-2026-09-27 04:00:35,354 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
-2026-09-27 04:01:50,684 [INFO]   [S0-HYD] Data Analyst: 0 listings
-2026-09-27 04:03:05,948 [INFO]   [S0-WFH] Data Analyst: 0 listings
-2026-09-27 04:04:21,207 [INFO]   [S0-HYD] AI ML Engineer: 0 listings
-2026-09-27 04:05:36,495 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
-2026-09-27 04:06:51,813 [INFO]   [S0-HYD] Machine Learning Engineer: 0 listings
-2026-09-27 04:08:07,181 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
-2026-09-27 04:09:22,559 [INFO]   [S0-HYD] Java Intern: 0 listings
-2026-09-27 04:10:37,877 [INFO]   [S0-WFH] Java Intern: 0 listings
-2026-09-27 04:11:53,211 [INFO]   [S0-HYD] Python Intern: 0 listings
-2026-09-27 04:13:08,695 [INFO]   [S0-WFH] Python Intern: 0 listings
-2026-09-27 04:14:24,248 [INFO]   [S0-HYD] SQL Intern: 0 listings
-2026-09-27 04:15:39,766 [INFO]   [S0-WFH] SQL Intern: 0 listings
-2026-09-27 04:16:55,267 [INFO]   [S0-HYD] AIML Intern: 0 listings
-2026-09-27 04:18:10,874 [INFO]   [S0-WFH] AIML Intern: 0 listings
-2026-09-27 04:19:26,494 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
-2026-09-27 04:20:41,927 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
-2026-09-27 04:21:57,439 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
-2026-09-27 04:23:12,765 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
-2026-09-27 04:23:12,765 [INFO] 
+2026-09-27 09:51:33,266 [INFO]   SECTION 0 — Newly Arrived Jobs & Internships (24 hrs)
+2026-09-27 09:51:33,266 [INFO] ███████████████████████████████████████████████████████
+2026-09-27 09:52:48,974 [INFO]   [S0-HYD] Java Developer: 0 listings
+2026-09-27 09:54:04,561 [INFO]   [S0-WFH] Java Developer: 0 listings
+2026-09-27 09:55:20,111 [INFO]   [S0-HYD] Python Developer: 0 listings
+2026-09-27 09:56:35,613 [INFO]   [S0-WFH] Python Developer: 0 listings
+2026-09-27 09:57:51,092 [INFO]   [S0-HYD] SQL Developer: 0 listings
+2026-09-27 09:59:06,727 [INFO]   [S0-WFH] SQL Developer: 0 listings
+2026-09-27 10:00:22,195 [INFO]   [S0-HYD] Software Engineer: 0 listings
+2026-09-27 10:01:37,746 [INFO]   [S0-WFH] Software Engineer: 0 listings
+2026-09-27 10:02:53,145 [INFO]   [S0-HYD] Associate Software Engineer: 0 listings
+2026-09-27 10:04:08,529 [INFO]   [S0-WFH] Associate Software Engineer: 0 listings
+2026-09-27 10:05:24,013 [INFO]   [S0-HYD] Data Analyst: 0 listings
+2026-09-27 10:06:39,564 [INFO]   [S0-WFH] Data Analyst: 0 listings
+2026-09-27 10:07:55,092 [INFO]   [S0-HYD] AI ML Engineer: 0 listings
+2026-09-27 10:09:10,514 [INFO]   [S0-WFH] AI ML Engineer: 0 listings
+2026-09-27 10:10:25,852 [INFO]   [S0-HYD] Machine Learning Engineer: 0 listings
+2026-09-27 10:11:41,153 [INFO]   [S0-WFH] Machine Learning Engineer: 0 listings
+2026-09-27 10:12:56,521 [INFO]   [S0-HYD] Java Intern: 0 listings
+2026-09-27 10:14:11,834 [INFO]   [S0-WFH] Java Intern: 0 listings
+2026-09-27 10:15:27,141 [INFO]   [S0-HYD] Python Intern: 0 listings
+2026-09-27 10:16:42,473 [INFO]   [S0-WFH] Python Intern: 0 listings
+2026-09-27 10:17:57,829 [INFO]   [S0-HYD] SQL Intern: 0 listings
+2026-09-27 10:19:13,157 [INFO]   [S0-WFH] SQL Intern: 0 listings
+2026-09-27 10:20:28,528 [INFO]   [S0-HYD] AIML Intern: 0 listings
+2026-09-27 10:21:43,864 [INFO]   [S0-WFH] AIML Intern: 0 listings
+2026-09-27 10:22:59,258 [INFO]   [S0-HYD] Data Analyst Intern: 0 listings
+2026-09-27 10:24:14,497 [INFO]   [S0-WFH] Data Analyst Intern: 0 listings
+2026-09-27 10:25:29,808 [INFO]   [S0-HYD] Software Engineer Intern: 0 listings
+2026-09-27 10:26:45,158 [INFO]   [S0-WFH] Software Engineer Intern: 0 listings
+2026-09-27 10:26:45,158 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-27 04:23:12,765 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
-2026-09-27 04:23:12,765 [INFO] ███████████████████████████████████████████████████████
-2026-09-27 04:24:28,237 [INFO]   [S1] Java Developer: 0 listings
-2026-09-27 04:25:43,480 [INFO]   [S1] Python Developer: 0 listings
-2026-09-27 04:26:58,784 [INFO]   [S1] SQL Developer: 0 listings
-2026-09-27 04:28:14,139 [INFO]   [S1] Software Engineer: 0 listings
-2026-09-27 04:29:29,400 [INFO]   [S1] Associate Software Engineer: 0 listings
-2026-09-27 04:30:44,752 [INFO]   [S1] Data Analyst: 0 listings
-2026-09-27 04:32:00,060 [INFO]   [S1] AI ML Engineer: 0 listings
-2026-09-27 04:33:15,413 [INFO]   [S1] Machine Learning Engineer: 0 listings
-2026-09-27 04:33:15,413 [INFO] 
+2026-09-27 10:26:45,158 [INFO]   SECTION 1 — Hyderabad Jobs (last 24 hrs)
+2026-09-27 10:26:45,158 [INFO] ███████████████████████████████████████████████████████
+2026-09-27 10:28:00,486 [INFO]   [S1] Java Developer: 0 listings
+2026-09-27 10:29:15,964 [INFO]   [S1] Python Developer: 0 listings
+2026-09-27 10:30:31,279 [INFO]   [S1] SQL Developer: 0 listings
+2026-09-27 10:31:46,691 [INFO]   [S1] Software Engineer: 0 listings
+2026-09-27 10:33:02,008 [INFO]   [S1] Associate Software Engineer: 0 listings
+2026-09-27 10:34:17,311 [INFO]   [S1] Data Analyst: 0 listings
+2026-09-27 10:35:32,633 [INFO]   [S1] AI ML Engineer: 0 listings
+2026-09-27 10:36:47,938 [INFO]   [S1] Machine Learning Engineer: 0 listings
+2026-09-27 10:36:47,939 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-27 04:33:15,413 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
-2026-09-27 04:33:15,413 [INFO] ███████████████████████████████████████████████████████
-2026-09-27 04:48:19,609 [INFO] 
+2026-09-27 10:36:47,939 [INFO]   SECTION 2 — Hyderabad Internships (stipend ≥ ₹10,000/mo)
+2026-09-27 10:36:47,939 [INFO] ███████████████████████████████████████████████████████
+2026-09-27 10:51:52,738 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-27 04:48:19,609 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
-2026-09-27 04:48:19,609 [INFO] ███████████████████████████████████████████████████████
-2026-09-27 04:49:34,893 [INFO]   [S3] Java Developer: 0 listings
-2026-09-27 04:50:50,218 [INFO]   [S3] Python Developer: 0 listings
-2026-09-27 04:52:05,732 [INFO]   [S3] SQL Developer: 0 listings
-2026-09-27 04:53:21,067 [INFO]   [S3] Software Engineer: 0 listings
-2026-09-27 04:54:36,333 [INFO]   [S3] Associate Software Engineer: 0 listings
-2026-09-27 04:55:51,549 [INFO]   [S3] Data Analyst: 0 listings
-2026-09-27 04:57:06,821 [INFO]   [S3] AI ML Engineer: 0 listings
-2026-09-27 04:58:22,104 [INFO]   [S3] Machine Learning Engineer: 0 listings
-2026-09-27 04:58:22,104 [INFO] 
+2026-09-27 10:51:52,738 [INFO]   SECTION 3 — Remote / WFH Jobs (last 24 hrs)
+2026-09-27 10:51:52,738 [INFO] ███████████████████████████████████████████████████████
+2026-09-27 10:53:08,193 [INFO]   [S3] Java Developer: 0 listings
+2026-09-27 10:54:23,579 [INFO]   [S3] Python Developer: 0 listings
+2026-09-27 10:55:38,983 [INFO]   [S3] SQL Developer: 0 listings
+2026-09-27 10:56:54,398 [INFO]   [S3] Software Engineer: 0 listings
+2026-09-27 10:58:09,722 [INFO]   [S3] Associate Software Engineer: 0 listings
+2026-09-27 10:59:25,039 [INFO]   [S3] Data Analyst: 0 listings
+2026-09-27 11:00:40,406 [INFO]   [S3] AI ML Engineer: 0 listings
+2026-09-27 11:01:55,971 [INFO]   [S3] Machine Learning Engineer: 0 listings
+2026-09-27 11:01:55,971 [INFO] 
 ███████████████████████████████████████████████████████
-2026-09-27 04:58:22,104 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
-2026-09-27 04:58:22,104 [INFO] ███████████████████████████████████████████████████████
-2026-09-27 05:13:26,556 [INFO] 
+2026-09-27 11:01:55,972 [INFO]   SECTION 4 — Remote / WFH Internships (last 24 hrs)
+2026-09-27 11:01:55,972 [INFO] ███████████████████████████████████████████████████████
+2026-09-27 11:17:00,968 [INFO] 
 =======================================================
-2026-09-27 05:13:26,556 [INFO]   Run complete — Applied this session : 0
-2026-09-27 05:13:26,557 [INFO]   Total ever applied                  : 353
-2026-09-27 05:13:26,557 [INFO] =======================================================
+2026-09-27 11:17:00,968 [INFO]   Run complete — Applied this session : 0
+2026-09-27 11:17:00,969 [INFO]   Total ever applied                  : 353
+2026-09-27 11:17:00,969 [INFO] =======================================================
